@@ -1,0 +1,53 @@
+<EPM-HTML> 
+<p>The schema <i>IfcGeometricConstraintResource</i>
+defines the resources used to determine the placement of the shape
+representation of a product within the geometric representation context
+of a project. It also contains resource definitions to be assigned to
+product connectivity definitions to determine the connection geometry
+constraints between those products.</p>
+<p>The primary application of this resource is to:</p>
+<ul>
+  <li>determine the object placement used for the shape
+representation of the object</li>
+  <li>determine the constraints applied to the connectivity
+between two shapes of objects</li>
+</ul>
+<h3>Placement</h3>
+<p>The placement of an product's shape is given by the <i>IfcObjectPlacement</i>,
+referred to by the <i>IfcProduct.ObjectPlacement</i>. The
+object placement defines the object coordinate system in which all
+shape representations of that product are defined. It is given either as</p>
+<ul>
+  <li>absolute placement</li>
+  <li>relative placement</li>
+  <li>placement relative to a grid</li>
+</ul>
+<p>The absolute placement is specified by using <i>IfcLocalPlacement</i>
+and omitting the <i>PlacementRelTo</i> attribute. The
+relative placement is specified by using <i>IfcLocalPlacement</i>
+and pointing the <i>PlacementRelTo</i> attribute to an <i>IfcObjectPlacement</i>
+used in another <i>IfcProduct</i> instance.</p>
+<p>A placement relative to a grid is given by <i>IfcGridPlacement</i>
+pointing to one (or two) virtual intersections of <i>IfcGridAxis</i>.
+If two virtual intersections are references, than the second virtual
+intersections specifies the orientation of the object placement.</p>
+<h3>Connection geometry</h3>
+<p> The connection geometry constrains the connectivity between
+the shapes of two products. The constraint can be defined by geometric
+representation items:</p>
+<ul>
+  <li>point</li>
+  <li>curve</li>
+  <li>surface</li>
+</ul>
+<p>or by topological representation items with associated
+geometry:</p>
+<ul>
+  <li>vertex point</li>
+  <li>edge curve</li>
+  <li>face surface</li>
+</ul>
+<p>As a special type of point connection includes the provision
+to express an eccentricity, i.e. a physical distance between the two
+points involved in the connection.</p>
+</EPM-HTML>

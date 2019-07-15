@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FireSuppressionTerminalTypeHoseReel" UniqueId="4986426e-22ee-49aa-b13a-1f6bb1d67cad" ApplicableType="IfcFireSuppressionTerminal.Predefined=&quot;HOSEREEL&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HoseReelType_2VBwSchfD0dR2KLXZmiTdt" />
+		<DocProperty xsi:nil="true" href="HoseReelMountingType_2ahhBoJ97nxxnyl1cmqK2" />
+		<DocProperty xsi:nil="true" href="InletConnectionSize_0ATJ3K91HCc97ccck5N2fS" />
+		<DocProperty xsi:nil="true" href="HoseDiameter_0lqbJhVNj1PP2jAhOsmit3" />
+		<DocProperty xsi:nil="true" href="HoseLength_2_gFNvDV9CVArCfAv9Foij" />
+		<DocProperty xsi:nil="true" href="HoseNozzleType_3NSCpa_LEjOOSjB853oa_" />
+		<DocProperty xsi:nil="true" href="ClassOfService_0hPle4uH5t8TTVG6wBfzp" />
+		<DocProperty xsi:nil="true" href="ClassificationAuthority_1TIS4As6T4UfA4u6Aa3KU0" />
+	</Properties>
+</DocPropertySet>
+

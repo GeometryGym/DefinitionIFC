@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConnectionGeometry" UniqueId="3MwC0n_KbB5BkWYZXNTB6_" DiagramNumber="2" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="3cW80Zz4v83hAG_MYZL4xd" DefinedType="IfcConnectionPointGeometry" />
+		<DocSubtype UniqueId="2UZMLzrZbE9vcSk$4WXmr8" DefinedType="IfcConnectionCurveGeometry" />
+		<DocSubtype UniqueId="25$ioEPgv2$8tFphojqSnP" DefinedType="IfcConnectionSurfaceGeometry" />
+		<DocSubtype UniqueId="0eYnsTwFn07gQd0wlWyCdP" DefinedType="IfcConnectionPortGeometry" />
+	</Subtypes>
+</DocEntity>
+

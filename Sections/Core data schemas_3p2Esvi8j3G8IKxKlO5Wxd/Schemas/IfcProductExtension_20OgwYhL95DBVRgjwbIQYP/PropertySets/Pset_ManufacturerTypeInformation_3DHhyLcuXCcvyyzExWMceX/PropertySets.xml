@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ManufacturerTypeInformation" UniqueId="cd46bf15-9b88-4c9b-9f3c-f4eee05a6a21" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ArticleNumber_2FP9zweQ52OR4QRo3q1fum" />
+		<DocProperty xsi:nil="true" href="ModelReference_3knJ0Asd97ZRKtbVE7Xm96" />
+		<DocProperty xsi:nil="true" href="ModelLabel_1wpUPGtPz2nPrquglhLAfM" />
+		<DocProperty xsi:nil="true" href="Manufacturer_22te_8Mo5EJulwf26O6xIP" />
+		<DocProperty xsi:nil="true" href="ProductionYear_014w4p71EFwSQRpr49m5h" />
+	</Properties>
+</DocPropertySet>
+

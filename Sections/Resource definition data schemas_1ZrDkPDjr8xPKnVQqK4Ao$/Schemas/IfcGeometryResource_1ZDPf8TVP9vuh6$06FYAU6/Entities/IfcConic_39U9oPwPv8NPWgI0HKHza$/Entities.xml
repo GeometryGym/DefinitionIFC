@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConic" UniqueId="39U9oPwPv8NPWgI0HKHza$" DiagramNumber="5" BaseDefinition="IfcCurve" EntityFlags="5">
+	<Subtypes>
+		<DocSubtype UniqueId="2WgV_jttz6OfwZzwZ_dbuI" DefinedType="IfcCircle" />
+		<DocSubtype UniqueId="0EN5Ryi3TEw8nMEOiWoha_" DefinedType="IfcEllipse" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Position" UniqueId="1lmytGMV15EvGcjpBFirCd" DefinedType="IfcAxis2Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The location and orientation of the conic. Further details of the interpretation of this attribute are given for the individual subtypes.&quot;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_StairFlightCommon" UniqueId="3f07697d-bb52-420c-81b5-ea1e30c0f922" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_29vwpuEs98O8tHKKxZvaS" />
+		<DocProperty xsi:nil="true" href="NumberOfRiser_2wMmj04p15Rx1k65nqsro" />
+		<DocProperty xsi:nil="true" href="NumberOfTreads_1KlsvYzkjEkv4_6ADNpqHC" />
+		<DocProperty xsi:nil="true" href="RiserHeight_25zXEm8YT8MOtyFCByVsg" />
+		<DocProperty xsi:nil="true" href="TreadLength_27M_3krAbCWBl2xgkTa8wl" />
+		<DocProperty xsi:nil="true" href="NosingLength_3xtZbO2pzF_hszaTy9foL8" />
+		<DocProperty xsi:nil="true" href="WalkingLineOffset_0k_rO6Z4jFCR8YfzrnCVEO" />
+		<DocProperty xsi:nil="true" href="TreadLengthAtOffset_3FNuCDeQ97_OvWlAdr1rta" />
+		<DocProperty xsi:nil="true" href="TreadLengthAtInnerSide_3d8IRqP1LBgAJRvN8FWHG8" />
+		<DocProperty xsi:nil="true" href="Headroom_3heheaVHn4KfRzlBHZab_U" />
+		<DocProperty xsi:nil="true" href="WaistThickness_29O03hnSDBrgwMc0UsJYsn" />
+	</Properties>
+</DocPropertySet>
+

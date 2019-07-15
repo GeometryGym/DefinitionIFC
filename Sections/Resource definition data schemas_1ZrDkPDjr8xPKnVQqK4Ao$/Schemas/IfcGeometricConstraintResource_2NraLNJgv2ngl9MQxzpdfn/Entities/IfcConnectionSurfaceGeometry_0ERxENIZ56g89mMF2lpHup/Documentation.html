@@ -1,0 +1,30 @@
+<EPM-HTML> 
+<p><u>Definition from IAI</u>: The <i>IfcConnectionSurfaceGeometry</i>
+is used to describe the geometric constraints that facilitate the
+physical connection of two objects at a surface&nbsp;<font
+ color="#0000ff">or at a face with surface geometry associated</font>.
+It is envisioned as a control that applies to the element connection
+relationships. </p>
+<blockquote>
+  <font color="#0000ff"><small>HISTORY&nbsp;
+New entity in IFC Release 2x.</small><br>
+  </font><small><font color="#ff0000">IFC2x
+Edition 3 CHANGE&nbsp;
+The provision of topology with associated geometry, <i>IfcFaceSurface</i>,
+is
+enabled by using the <i>IfcSurfaceOrFaceSurface</i>.</font></small>
+</blockquote>
+<p><b><u>Geometry Use Definitions</u>:</b></p>
+<p> The <i>IfcSurface</i> (or the <i>IfcFaceSurface</i>
+with an associated <i>IfcSurface</i>) at the <i>SurfaceOnRelatingElement</i>
+attribute defines the surface where the basic geometry items of the
+connected elements connects. The surface geometry and coordinates are
+provided within
+the local coordinate system of the <i>RelatingElement</i>,
+as specified at the <i>IfcRelConnectsSubtype</i> that
+utilizes the <i>IfcConnectionSurfaceGeometry</i>.
+Optionally, the same&nbsp;surface geometry and coordinates can also
+be provided within the
+local coordinate system of the <i>RelatedElement</i> by
+using the <i>SurfaceOnRelatedElement</i> attribute.</p>
+</EPM-HTML>

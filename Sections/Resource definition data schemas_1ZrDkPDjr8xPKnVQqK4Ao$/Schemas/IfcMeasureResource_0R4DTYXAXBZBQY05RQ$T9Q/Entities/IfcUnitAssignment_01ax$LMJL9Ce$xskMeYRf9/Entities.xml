@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcUnitAssignment" UniqueId="01ax$LMJL9Ce$xskMeYRf9" DiagramNumber="1" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Units" UniqueId="3_4tbk9CXEFgQkoU4nlbPj" DefinedType="IfcUnit" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Units to be included within a unit assignment.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR01" UniqueId="1UOaR5zST6ZA5hO9_n6buq">
+			<Documentation>&lt;EPM-HTML&gt;
+Checks that the set of globally assigned units has each unit type (either of type &lt;i&gt;IfcNamedUnit&lt;/i&gt;,&lt;i&gt;IfcDerivedUnit&lt;/i&gt;, or &lt;i&gt;IfcMonetaryUnit&lt;/i&gt;) defined only once.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>IfcCorrectUnitAssignment(Units)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SinkType_18CrTegUj0HBReNQAXwYEZ" Name="PEnum_SinkType" UniqueId="48335768-a9eb-4044-b6e8-5da2a1ea23a3">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Belfast_1uHSDPXUPArf3maAhKczlm" />
+		<DocPropertyConstant xsi:nil="true" href="Bucket_0w7CfiBLD88uwZHIjeuM7H" />
+		<DocPropertyConstant xsi:nil="true" href="Cleaners_3cWpgwhob7Aem0L_KNg1zk" />
+		<DocPropertyConstant xsi:nil="true" href="Combination_Left_3DbHorafP5X9cdXE82A2VQ" />
+		<DocPropertyConstant xsi:nil="true" href="Combination_Right_33YZlO7P8oeCxulzuP0pC" />
+		<DocPropertyConstant xsi:nil="true" href="Combination_Double_3YDgts2tTAhBBv6S7UnQsz" />
+		<DocPropertyConstant xsi:nil="true" href="Drip_3tMHCkb9z0fgqbYvliPh1n" />
+		<DocPropertyConstant xsi:nil="true" href="Laboratory_1bCPHTFEXFqR0AY0VppRD" />
+		<DocPropertyConstant xsi:nil="true" href="London_0kUGEkuKTD2ghfI1FguCLE" />
+		<DocPropertyConstant xsi:nil="true" href="Plaster_33vH_LwgfBXQrV0g_z126m" />
+		<DocPropertyConstant xsi:nil="true" href="Pot_23ZFdmQ_z9fuZndsK9PK5" />
+		<DocPropertyConstant xsi:nil="true" href="Rinsing_2ObbsDMJjBSBdyu50qi1Z" />
+		<DocPropertyConstant xsi:nil="true" href="Shelf_0pOfKPO39FfOrue6d31_Sn" />
+		<DocPropertyConstant xsi:nil="true" href="VegetablePreparation_30vNGVxjP6ZuPirgakKSD1" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

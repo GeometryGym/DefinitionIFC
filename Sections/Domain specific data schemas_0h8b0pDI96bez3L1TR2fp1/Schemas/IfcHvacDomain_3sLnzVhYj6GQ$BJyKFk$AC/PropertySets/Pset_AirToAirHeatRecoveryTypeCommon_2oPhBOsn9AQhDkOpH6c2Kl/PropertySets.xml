@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_AirToAirHeatRecoveryTypeCommon" UniqueId="b266b2d8-db12-4a6a-b36e-63344698252f" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HeatTransferTypeEnum_26sreHKi10dOuEzgEDPWUE" />
+		<DocProperty xsi:nil="true" href="MediaMaterial_2xwXcx6j9GuIk4H7HY9Ws" />
+		<DocProperty xsi:nil="true" href="HasDefrost_3veh_tAeLByh6KqYyRH4KB" />
+		<DocProperty xsi:nil="true" href="OperationalTemperatureRange_0mLkpWnSj7f9TrYjWeElc6" />
+		<DocProperty xsi:nil="true" href="PrimaryAirflowRateRange_15r5TAkzD7UPtg70vBn13" />
+		<DocProperty xsi:nil="true" href="SecondaryAirflowRateRange_0mRCVNtgf9tANIzqApsgE_" />
+		<DocProperty xsi:nil="true" href="Weight_0pysHUFvT4N8UbiwYA4Y6d" />
+	</Properties>
+</DocPropertySet>
+

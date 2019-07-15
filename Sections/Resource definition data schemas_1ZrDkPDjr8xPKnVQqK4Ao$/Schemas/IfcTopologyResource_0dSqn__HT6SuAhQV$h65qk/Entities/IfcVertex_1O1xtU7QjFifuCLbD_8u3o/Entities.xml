@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcVertex" UniqueId="1O1xtU7QjFifuCLbD_8u3o" DiagramNumber="1" BaseDefinition="IfcTopologicalRepresentationItem" EntityFlags="109">
+	<Subtypes>
+		<DocSubtype UniqueId="0aSHGn5G59xBkTxKE28LyW" DefinedType="IfcVertexPoint" />
+	</Subtypes>
+</DocEntity>
+

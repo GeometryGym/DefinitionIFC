@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLocalPlacement" UniqueId="0v3tn$XoH65PlYLHowaY_u" DiagramNumber="1" BaseDefinition="IfcObjectPlacement" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PlacementRelTo" UniqueId="2xAidLo9n3SujNVBrLJ8aq" DefinedType="IfcObjectPlacement" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to Object that provides the relative placement by its local coordinate system. If it is omitted, then the local placement is given to the WCS, established by the geometric representation context.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelativePlacement" UniqueId="2dg6o6VgXBBhpRVA7wagAm" DefinedType="IfcAxis2Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Geometric placement that defines the transformation from the related coordinate system into the relating. The placement can be either 2D or 3D, depending on the dimension count of the coordinate system.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="0_2frgVEL3FPyd$uhPYzE8">
+			<Documentation>Ensures that a 3D local placement can only be relative (if exists) to a 3D parent local placement (and not to a 2D parent local placement).</Documentation>
+			<Expression>IfcCorrectLocalPlacement(RelativePlacement, PlacementRelTo)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

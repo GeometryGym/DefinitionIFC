@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AirHandlerFanCoilArrangement_2cnapisOv8f9bJlD14iSjw" Name="AirHandlerFanCoilArrangement" UniqueId="a6c64cec-d98e-48a4-9953-bcd044b1cb7a" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirHandlerFanCoilArrangement_1kIlNCP0b2Sgq9CMeRpzqu" />
+	</Enumeration>
+</DocProperty>
+

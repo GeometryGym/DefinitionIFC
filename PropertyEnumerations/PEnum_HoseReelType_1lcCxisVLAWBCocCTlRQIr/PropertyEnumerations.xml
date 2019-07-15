@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_HoseReelType_1lcCxisVLAWBCocCTlRQIr" Name="PEnum_HoseReelType" UniqueId="6f98ceec-d9f5-4a80-b332-98c76f6da4b5">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Rack_0fqYmrQ1HFGOh0L48W6wCC" />
+		<DocPropertyConstant xsi:nil="true" href="Reel_1pLZQ8fL0kheh01cWlik" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

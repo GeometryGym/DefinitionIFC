@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMaterialDefinitionRepresentation" UniqueId="3Ci7xuxan0OuSm5dhBpS3Y" DiagramNumber="3" BaseDefinition="IfcProductRepresentation" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="RepresentedMaterial" UniqueId="1yACBSAS1ATPCc1saboiXx" DefinedType="IfcMaterial" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to the material to which the representation applies.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR11" UniqueId="1WMmjrWXb3thx833HcYZse">
+			<Documentation>&lt;EPM-HTML&gt;
+Only representations of type &lt;i&gt;IfcStyledRepresentation&lt;i&gt; should be used to represent material through the &lt;i&gt;IfcMaterialRepresentation&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* Representations | 
+  (NOT(&apos;IFCREPRESENTATIONRESOURCE.IFCSTYLEDREPRESENTATION&apos; IN TYPEOF(temp)))
+)) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

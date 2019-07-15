@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FaucetOperation_1utaZwSU96QB2hpuB1Ocnh" Name="PEnum_FaucetOperation" UniqueId="78de48fa-71e2-4668-b0ab-cf82c1626c6b">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CERAMICDISC_0o6hqqwiH6IB14OzufNeib" />
+		<DocPropertyConstant xsi:nil="true" href="LEVERHANDLE_0DJDJrjEz66OfN7NLlvcbe" />
+		<DocPropertyConstant xsi:nil="true" href="NONCONCUSSIVESELFCLOSING_0DKHNWyqD1C96VhER04cEh" />
+		<DocPropertyConstant xsi:nil="true" href="QUATERTURN_20qef4egHEOQ7bfylPvE7_" />
+		<DocPropertyConstant xsi:nil="true" href="QUICKACTION_2IelpIfXX2chgr9QG2uRie" />
+		<DocPropertyConstant xsi:nil="true" href="SCREWDOWN_0eXjk9vdHCduufZ6yxi9CY" />
+		<DocPropertyConstant xsi:nil="true" href="SELFCLOSING_3bgCv2Oe99PRIWn4PSCuMU" />
+		<DocPropertyConstant xsi:nil="true" href="TIMEDSELFCLOSING_0yjYh5fbFcRSQaoDi6DaQ" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

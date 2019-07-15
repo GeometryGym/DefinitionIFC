@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FuseDisconnectorType_1sXm74Qgr5zRwl5jcsEeag" Name="PEnum_FuseDisconnectorType" UniqueId="768701c4-6aad-45f5-beaf-16d9b63a892a">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="EngineProtectionDevice_1ZU1G9Uv56lPgnaCu7lumb" />
+		<DocPropertyConstant xsi:nil="true" href="FusedSwitch_07VYxgoHD45RIa_JfrGiGa" />
+		<DocPropertyConstant xsi:nil="true" href="HRC_1NdtqY5zb1EgPyfPDZlw7R" />
+		<DocPropertyConstant xsi:nil="true" href="OverloadProtectionDevice_0llv2sDQT3suTmVuzSWQmC" />
+		<DocPropertyConstant xsi:nil="true" href="SwitchDisconnectorFuse_11fcvpPQj6rfsZVdGeGG0" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

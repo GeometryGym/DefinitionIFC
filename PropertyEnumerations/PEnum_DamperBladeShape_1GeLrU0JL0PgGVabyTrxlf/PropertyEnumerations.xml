@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_DamperBladeShape_1GeLrU0JL0PgGVabyTrxlf" Name="PEnum_DamperBladeShape" UniqueId="50a15d5e-0135-4066-a41f-925f1dd7bbe9">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FLAT_2mGNouFz9y8pV44M66lNl" />
+		<DocPropertyConstant xsi:nil="true" href="FABRICATEDAIRFOIL_2Ic2x5ZL6U9m3F6rlPY4z" />
+		<DocPropertyConstant xsi:nil="true" href="EXTRUDEDAIRFOIL_3iEhF4an19lPzQ7wezrUIK" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

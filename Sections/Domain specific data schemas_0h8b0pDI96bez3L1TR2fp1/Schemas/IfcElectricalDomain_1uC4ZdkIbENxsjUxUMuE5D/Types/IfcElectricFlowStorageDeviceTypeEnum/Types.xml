@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricFlowStorageDeviceTypeEnum" UniqueId="1AfGI3CFPFmfveHkSWVFdI" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BATTERY_02Tr1EE8j8TvbyJO6Vdl" />
+		<DocConstant xsi:nil="true" href="CAPACITORBANK_2qCQsfjG9CleKqXCHWTriM" />
+		<DocConstant xsi:nil="true" href="HARMONICFILTER_1AW8HtcKL1HRgEIXpKMLRO" />
+		<DocConstant xsi:nil="true" href="INDUCTORBANK_2CBwGRzpbBO9jiC_hpaomc" />
+		<DocConstant xsi:nil="true" href="UPS_08Kbt1O9X7z9mK7EzrsbLo" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0hhPOTDWL2bhZdolKykenm" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3YYh5qhFrDdxa4QEr4fUB5" />
+	</Constants>
+</DocEnumeration>
+

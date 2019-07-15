@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSubedge" UniqueId="0B26ygcmTF$hCQ9IdTvoLd" DiagramNumber="1" BaseDefinition="IfcEdge" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="ParentEdge" UniqueId="1f_K6Gap91JxESYQ6Za27R" DefinedType="IfcEdge" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The Edge, or Subedge, which contains the Subedge.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

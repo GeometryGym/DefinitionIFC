@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ToiletSeatType_1GKzBPNAn50PtCI_z_l7H0" Name="PEnum_ToiletSeatType" UniqueId="5053d2d9-5cac-4501-9dcc-4bef7ebc7440">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Extension_1WGWShQU58SPgV0tWshzcH" />
+		<DocPropertyConstant xsi:nil="true" href="Inset_3N5JiTEMT2MwHQCwaWV2dy" />
+		<DocPropertyConstant xsi:nil="true" href="OpenFrontSeat_0XkTw3Zav5XxDqDZo9DWJr" />
+		<DocPropertyConstant xsi:nil="true" href="RingSeat_2koZLIFm12Ju5SAxFT_g88" />
+		<DocPropertyConstant xsi:nil="true" href="SelfRaising_2mbZMLawr30e_c9JY2Sw6" />
+		<DocPropertyConstant xsi:nil="true" href="None_02B7G4D496ZuJthZiyykNT" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

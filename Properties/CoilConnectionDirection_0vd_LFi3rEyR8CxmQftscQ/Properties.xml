@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CoilConnectionDirection_0vd_LFi3rEyR8CxmQftscQ" Name="CoilConnectionDirection" UniqueId="399fe54f-b03d-4ef1-b20c-ef06a9df699a" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoilConnectionDirection_0IgU227YL9sO7WC3Iah4pv" />
+	</Enumeration>
+</DocProperty>
+

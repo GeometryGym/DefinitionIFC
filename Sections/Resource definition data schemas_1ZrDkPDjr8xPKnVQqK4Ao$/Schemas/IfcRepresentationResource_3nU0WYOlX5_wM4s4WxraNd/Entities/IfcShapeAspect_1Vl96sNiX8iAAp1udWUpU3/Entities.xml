@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcShapeAspect" UniqueId="1Vl96sNiX8iAAp1udWUpU3" DiagramNumber="2" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="ShapeRepresentations" UniqueId="3jrNdpxm5EfAWcH$bXcOpf" DefinedType="IfcShapeModel" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>&lt;EPM-HTML&gt;List of &lt;strike&gt;shape&lt;/strike&gt; representations. Each member defines a valid representation of a particular type within a particular representation context as being an aspect (or part) of a product definition.
+&lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#FF0000&quot;&gt;IFC2x Edition 3 CHANGE&amp;nbsp; The data type has been changed from &lt;i&gt;IfcShapeRepresentation&lt;/i&gt; to &lt;i&gt;IfcShapeModel&lt;/i&gt; with upward compatibility &lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Name" UniqueId="0fV3X6l0f95h5kDPUnWRAO" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The word or group of words by which the shape aspect is known. It is a tag to indicate the particular semantic of a component within the product definition shape, used to provide meaning. Example: use the tag &quot;Glazing&quot; to define which component of a window shape defines the glazing area.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="3YLysaPu10aP8YGQIXNHvj" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The word or group of words that characterize the shape aspect. It can be used to add additional meaning to the name of the aspect.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ProductDefinitional" UniqueId="3KxlcrbqLAuvX0odPyFh2a" DefinedType="LOGICAL" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>An indication that the shape aspect is on the physical boundary of the product definition shape. If the value of this attribute is TRUE, it shall be asserted that the shape aspect being identified is on such a boundary. If the value is FALSE, it shall be asserted that the shape aspect being identified is not on such a boundary. If the value is UNKNOWN, it shall be asserted that it is not known whether or not the shape aspect being identified is on such a boundary. 
+---
+EXAMPLE: Would be FALSE for a center line, identified as shape aspect; would be TRUE for a cantilever.
+---</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PartOfProductDefinitionShape" UniqueId="35enyUO2HCxuvmKm1ygwin" DefinedType="IfcProductDefinitionShape" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to the product definition shape of which this class is an aspect.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

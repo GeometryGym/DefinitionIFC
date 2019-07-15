@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ConductorFunction_3g2BgyFsL9tejtFZ2PlNT5" Name="PEnum_ConductorFunction" UniqueId="ea08babc-3f65-49de-8b77-3e3099bd7745">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Phase_07vM5Oh957bgIrs9DKL_Wo" />
+		<DocPropertyConstant xsi:nil="true" href="Neutral_2R02j7ws9Cn8Mcn8v9hG1p" />
+		<DocPropertyConstant xsi:nil="true" href="ProtectiveGround_0YPZKpoTD7HOkXJOABhrR7" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

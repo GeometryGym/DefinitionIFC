@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DiscreteAccessoryCornerFixingPlate" UniqueId="b9ae241b-ccde-4cf1-80c1-bca4b250e5d0" ApplicableType="IfcDiscreteAccessory.Object=&quot;Corner fixing plate&quot; | IfcDiscreteAccessory.Element=&quot;Corner fixing plate&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="CornerFixingPlateLength_2VDPedsW5FJPwxVMuQbFm3" />
+		<DocProperty xsi:nil="true" href="CornerFixingPlateThickness_1ktLsE66j2URezLqRqtrlx" />
+		<DocProperty xsi:nil="true" href="CornerFixingPlateFlangeWidthInPlaneZ_1waJtaTo1BHRJT8_86r35_" />
+		<DocProperty xsi:nil="true" href="CornerFixingPlateFlangeWidthInPlaneX_0q45MKVjP7ERJW6QuG1BTD" />
+	</Properties>
+</DocPropertySet>
+

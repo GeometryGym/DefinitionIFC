@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker" UniqueId="3097388e-5056-4e50-9c54-0089bf59573d" ApplicableType="IfcProtectiveDevice.Predefined=&quot;RESIDUALCURRENTCIRCUITBREAKER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Sensitivity_2bJ55bujH1G8R0mR_UEmok" />
+	</Properties>
+</DocPropertySet>
+

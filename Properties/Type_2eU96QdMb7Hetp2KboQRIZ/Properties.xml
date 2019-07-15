@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Type_2eU96QdMb7Hetp2KboQRIZ" Name="Type" UniqueId="a878919a-9d69-4746-8df3-09497269b4a3" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_WaterMeterType_10FgDPd0T6dQYupoA2PkRO" />
+	</Enumeration>
+</DocProperty>
+

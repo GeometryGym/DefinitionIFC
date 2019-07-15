@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PipeConnectionFlanged" UniqueId="0ce35fac-3c46-4035-8e12-c502399ed7d4" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FlangeTable_1h38d4QaD0a9L08u5J5ab" />
+		<DocProperty xsi:nil="true" href="FlangeStandard_15GlW1pyr2HfveASY6g2B" />
+		<DocProperty xsi:nil="true" href="BoreSize_0qofBD7pX3iAqGdeKFdZl" />
+		<DocProperty xsi:nil="true" href="Material_3T8TkP0dD2A8oAK4mbzFAS" />
+		<DocProperty xsi:nil="true" href="FlangeDiameter_0Hz9VcheX9QgvbBOIu_8Vt" />
+		<DocProperty xsi:nil="true" href="FlangeThickness_2PhbRbNDP5bOEmSmSjf_" />
+		<DocProperty xsi:nil="true" href="NumberOfBoltholes_0MlW3toBP3F82vTccL9L41" />
+		<DocProperty xsi:nil="true" href="BoltSize_15IcStZn56cAhigBwgOvhd" />
+		<DocProperty xsi:nil="true" href="BoltholePitch_0ts8Iqyd58Qv5dAFjpLAck" />
+	</Properties>
+</DocPropertySet>
+

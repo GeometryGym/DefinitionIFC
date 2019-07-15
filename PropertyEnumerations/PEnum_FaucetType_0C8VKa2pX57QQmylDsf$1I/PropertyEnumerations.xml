@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FaucetType_0C8VKa2pX57QQmylDsf1I" Name="PEnum_FaucetType" UniqueId="0c21f524-0b38-451d-a6b0-f2f376a7f052">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BIB_2lcyAbZz17mQhuy5ui79FF" />
+		<DocPropertyConstant xsi:nil="true" href="GLOBE_2esHNW_VbBahxukmTj8Hbu" />
+		<DocPropertyConstant xsi:nil="true" href="DIVERTER_2D9yx8DtD8LuVxX2yOMZ3_" />
+		<DocPropertyConstant xsi:nil="true" href="DIVIDEDFLOWCOMBINATION_2sEEQTr4ORRbbQ00u8TK" />
+		<DocPropertyConstant xsi:nil="true" href="PILLAR_0zdGjx9gPFnBos8FHK6wQT" />
+		<DocPropertyConstant xsi:nil="true" href="SINGLEOUTLETCOMBINATION_2zcme5A0XD7xn_GNsEzRG4" />
+		<DocPropertyConstant xsi:nil="true" href="SPRAY_2h_Tb0B518Kvlv_LhfLwW4" />
+		<DocPropertyConstant xsi:nil="true" href="SPRAYMIXING_1QnskYkvjCURPBbMr7Dw8j" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadPlanarForce" UniqueId="3nJyTYVmf3ogX_W3J6u6$R" DiagramNumber="1" BaseDefinition="IfcStructuralLoadStatic" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PlanarForceX" UniqueId="0bYYmz7f1AFQWWGIzzAyYy" DefinedType="IfcPlanarForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Planar force value in x-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PlanarForceY" UniqueId="3D7jHEynL1ggBqHw$Rxcgs" DefinedType="IfcPlanarForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Planar force value in y-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PlanarForceZ" UniqueId="2oOLUSX297XvUsGV3kQGdS" DefinedType="IfcPlanarForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Planar force value in z-direction.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

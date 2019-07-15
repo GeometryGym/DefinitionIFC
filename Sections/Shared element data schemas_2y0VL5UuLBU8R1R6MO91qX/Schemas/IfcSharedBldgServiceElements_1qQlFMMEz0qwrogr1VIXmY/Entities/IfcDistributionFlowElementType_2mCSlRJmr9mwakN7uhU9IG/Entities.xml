@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDistributionFlowElementType" UniqueId="2mCSlRJmr9mwakN7uhU9IG" DiagramNumber="2" BaseDefinition="IfcDistributionElementType" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="113GWXKHvFXh3vGmXsibSh" DefinedType="IfcEnergyConversionDeviceType" />
+		<DocSubtype UniqueId="1pysd8Px5Def0L49LdW1Mz" DefinedType="IfcFlowMovingDeviceType" />
+		<DocSubtype UniqueId="2PMXX8YmP8Cv5G7qy_qhoj" DefinedType="IfcFlowControllerType" />
+		<DocSubtype UniqueId="1UMvILfyDC4PZzs0AThuMf" DefinedType="IfcFlowSegmentType" />
+		<DocSubtype UniqueId="0psQaUALD8Khk6wRJklp7L" DefinedType="IfcFlowFittingType" />
+		<DocSubtype UniqueId="2AWAlvHZHCMPDLs9$My66v" DefinedType="IfcFlowStorageDeviceType" />
+		<DocSubtype UniqueId="3o6RRZ$ab1DgRmL1x7wava" DefinedType="IfcFlowTreatmentDeviceType" />
+		<DocSubtype UniqueId="1ozMzPZVz1wAPls4VrKadd" DefinedType="IfcFlowTerminalType" />
+		<DocSubtype UniqueId="1hfWXKRhf2$8aYXNTZo4Zb" DefinedType="IfcDistributionChamberElementType" />
+	</Subtypes>
+</DocEntity>
+

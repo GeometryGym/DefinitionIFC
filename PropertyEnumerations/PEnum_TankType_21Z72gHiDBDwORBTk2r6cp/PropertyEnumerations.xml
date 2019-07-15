@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_TankType_21Z72gHiDBDwORBTk2r6cp" Name="PEnum_TankType" UniqueId="818c70aa-46c3-4b37-a61b-2ddb82d469b3">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BREAKPRESSURE_2rXrbyIYn9e8wqwfvsVCUD" />
+		<DocPropertyConstant xsi:nil="true" href="EXPANSION_1Y_Lc1CNT7HPJr6jbzWkS" />
+		<DocPropertyConstant xsi:nil="true" href="FEEDANDEXPANSION_3fWRI7t8H5d9SBVYm8Sc2b" />
+		<DocPropertyConstant xsi:nil="true" href="GASSTORAGEBUTANE_29iA53PEzePkcyeNeC0" />
+		<DocPropertyConstant xsi:nil="true" href="GASSTORAGELIQUIFIEDPETROLEUMGAS_21lyrGmL05hwz4zpUWu31" />
+		<DocPropertyConstant xsi:nil="true" href="GASSTORAGEPROPANE_2qsWsXhpT4cvVi9MPTPVdq" />
+		<DocPropertyConstant xsi:nil="true" href="OILSERVICE_2wdWKfEkv2YOwoK1Jknm7" />
+		<DocPropertyConstant xsi:nil="true" href="OILSTORAGE_3A4tW5rGrEexEadUzsHoIA" />
+		<DocPropertyConstant xsi:nil="true" href="PRESSUREVESSEL_31cG5BiCT9_Rn6CgYvLJSG" />
+		<DocPropertyConstant xsi:nil="true" href="WATERSTORAGEGENERAL_2aCx1RPHn9eRdVSGIq__8i" />
+		<DocPropertyConstant xsi:nil="true" href="WATERSTORAGEPOTABLE_2GtH1orwv3hacSWugRUw8" />
+		<DocPropertyConstant xsi:nil="true" href="WATERSTORAGEPROCESS_3bUtdkLf590ukzXM7Sbe_A" />
+		<DocPropertyConstant xsi:nil="true" href="WATERSTORAGECOOLINGTOWERMAKEUP_25rhFnTi56zAYi6_A2Fm1G" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

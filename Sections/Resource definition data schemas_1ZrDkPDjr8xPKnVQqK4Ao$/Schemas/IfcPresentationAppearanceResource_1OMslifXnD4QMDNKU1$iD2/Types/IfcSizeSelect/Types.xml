@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSizeSelect" UniqueId="2QuRdJ5jbAqeHqHURQumbc" DiagramNumber="8">
+	<Selects>
+		<DocSelectItem Name="IfcRatioMeasure" UniqueId="20uvESiyfEbQBWC7mj15nT" />
+		<DocSelectItem Name="IfcLengthMeasure" UniqueId="0nPhmqWe9EzgpuR_wTDa4u" />
+		<DocSelectItem Name="IfcDescriptiveMeasure" UniqueId="0HtRGke4XAC9eMSXdsWzCM" />
+		<DocSelectItem Name="IfcPositiveLengthMeasure" UniqueId="1ZuobbVcPB5vLdeGzXyuct" />
+		<DocSelectItem Name="IfcNormalisedRatioMeasure" UniqueId="2$8oHDCXz6guswjUzBx6iD" />
+		<DocSelectItem Name="IfcPositiveRatioMeasure" UniqueId="0u4uVJmP1ACuS3UHRT8tPS" />
+	</Selects>
+</DocSelect>
+

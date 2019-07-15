@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SpaceCommon" UniqueId="9ba281a7-1710-4b16-a833-6c3acaa3c60d" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_3yHqo3uvCwvaagyPHH7b" />
+		<DocProperty xsi:nil="true" href="Category_3W_jyJL31FZghZdo246sX6" />
+		<DocProperty xsi:nil="true" href="FloorCovering_22Cb7dO2H248WbED3mYPBu" />
+		<DocProperty xsi:nil="true" href="WallCovering_2i82OVd095MvXjMgUaWrH4" />
+		<DocProperty xsi:nil="true" href="CeilingCovering_0dNNW9FOj8Rx0JBuw5BEg" />
+		<DocProperty xsi:nil="true" href="SkirtingBoard_3Rv38RPFv7ge8NaGdxJEad" />
+		<DocProperty xsi:nil="true" href="GrossPlannedArea_0pFNHue5999ZOID40YeV3" />
+		<DocProperty xsi:nil="true" href="NetPlannedArea_0qneMenPHF6vDvNoqfuY0V" />
+		<DocProperty xsi:nil="true" href="PubliclyAccessible_0mCW4OejETvKpLI9bAace" />
+		<DocProperty xsi:nil="true" href="HandicapAccessible_17AF5ueDH96vBGo0LltZJt" />
+		<DocProperty xsi:nil="true" href="ConcealedFlooring_2ZBWMpPar9FPZrUS8dQTS4" />
+		<DocProperty xsi:nil="true" href="ConcealedCeiling_3VpxDcMjrDKQHzpOlOLh4W" />
+	</Properties>
+</DocPropertySet>
+

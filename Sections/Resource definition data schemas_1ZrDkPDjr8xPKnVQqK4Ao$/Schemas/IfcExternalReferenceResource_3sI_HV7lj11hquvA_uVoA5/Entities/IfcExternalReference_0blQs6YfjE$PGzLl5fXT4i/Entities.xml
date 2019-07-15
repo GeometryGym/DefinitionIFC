@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcExternalReference" UniqueId="0blQs6YfjE$PGzLl5fXT4i" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="3uON1CeU550P54foNiCBMo" DefinedType="IfcLibraryReference" />
+		<DocSubtype UniqueId="3R5J93S8v0EetUMvn87GS7" DefinedType="IfcClassificationReference" />
+		<DocSubtype UniqueId="3kFwARd2D8nxTDEUzrEL8R" DefinedType="IfcDocumentReference" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Location" UniqueId="0jJpSJBD9EGxDT_ctn4ROo" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Location, where the external source (classification, document or library). This can be either human readable or computer interpretable. For electronic location normally given as an URL location string, however other ways of accessing external references may be established in an application scenario.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ItemReference" UniqueId="1WhB_NYFX01REfS4nhboY7" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifier for the referenced item in the external source (classification, document or library). The internal reference can provide a computer interpretable pointer into electronic source.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Name" UniqueId="1dPt4Yf_z4DgVHDRBGQtFs" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional name to further specify the reference. It can provide a human readable identifier (which does not necessarily need to have a counterpart in the internal structure of the document).</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2vDxdGfHb7BhuGVOC7SGRW">
+			<Documentation>One of the attributes of IfcExternalReference should have a value assigned.</Documentation>
+			<Expression>EXISTS(ItemReference) OR EXISTS(Location) OR EXISTS(Name)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

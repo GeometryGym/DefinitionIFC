@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLightDistributionDataSourceSelect" UniqueId="3_rYKiMBPF69nb7kZmZBw$" DiagramNumber="3">
+	<Selects>
+		<DocSelectItem Name="IfcExternalReference" UniqueId="3iRtLFxC98W9xIoIbEnqIf" />
+		<DocSelectItem Name="IfcLightIntensityDistribution" UniqueId="1Q8QjFhI11cOQ5aK$Gmkb7" />
+	</Selects>
+</DocSelect>
+

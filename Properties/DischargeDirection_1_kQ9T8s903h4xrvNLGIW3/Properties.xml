@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="DischargeDirection_1_kQ9T8s903h4xrvNLGIW3" Name="DischargeDirection" UniqueId="7eb9a25d-2362-400e-b13b-d795d5412803" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalDischargeDirection_01MjLEw9zEvgCQQwt73u8l" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelContainedInSpatialStructure" UniqueId="0$cBIGQyLBrhwPSUvp4rs5" DiagramNumber="7" BaseDefinition="IfcRelConnects" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="RelatedElements" UniqueId="0AtsWPpHn1sguDCUfbOVgi" DefinedType="IfcProduct" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Set of &lt;strike&gt;elements&lt;/strike&gt; products, which are contained within this level of the spatial structure hierarchy.
+&lt;blockquote&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;small&gt;
+IFC2x PLATFORM CHANGE&amp;nbsp; The data type has been changed from &lt;i&gt;IfcElement&lt;/i&gt; to &lt;i&gt;IfcProduct&lt;/i&gt; with upward compatibility
+&lt;small&gt;&lt;/font&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatingStructure" UniqueId="1DW5i$7TDE_93XGNzczaY4" DefinedType="IfcSpatialStructureElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Spatial structure element, within which the element is contained. Any element can only be contained within one element of the project spatial structure.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="1PdnXBcJ15W95bdMO51O8l">
+			<Documentation>&lt;EPM-HTML&gt;
+The relationship object shall not be used to include other spatial structure elements into a spatial structure element. The hierarchy of the spatial structure is defined using &lt;i&gt;IfcRelAggregates&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* RelatedElements | &apos;IFCPRODUCTEXTENSION.IFCSPATIALSTRUCTUREELEMENT&apos; IN TYPEOF(temp))) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

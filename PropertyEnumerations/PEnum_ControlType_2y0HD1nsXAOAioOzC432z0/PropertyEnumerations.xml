@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ControlType_2y0HD1nsXAOAioOzC432z0" Name="PEnum_ControlType" UniqueId="bc011341-c768-4a60-ab32-63d3040c2f40">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Hysteresis_2E33qjWN10EQ5spjPvBaQj" />
+		<DocPropertyConstant xsi:nil="true" href="Constant_3dvSwQ3rb8f9HdDmd4usMI" />
+		<DocPropertyConstant xsi:nil="true" href="Divide_05WjKUQfA2gNgZpDw5h_y" />
+		<DocPropertyConstant xsi:nil="true" href="Integral_2S11YJZNT8afmGKvtdv6cr" />
+		<DocPropertyConstant xsi:nil="true" href="Subtract_018qSczJP5xuXYOsrFLjO" />
+		<DocPropertyConstant xsi:nil="true" href="Report_1x84sI3P1RgHApo9MmK_N" />
+		<DocPropertyConstant xsi:nil="true" href="Absolute_02ahz6smj0IvBOkeCgl78" />
+		<DocPropertyConstant xsi:nil="true" href="Sum_1G5T0vMJ51XACpARUJzUD" />
+		<DocPropertyConstant xsi:nil="true" href="Average_2LrqC9uxf3fQAfcnryTbhx" />
+		<DocPropertyConstant xsi:nil="true" href="Maximum_2TblNGZj97XuMCx03RInxM" />
+		<DocPropertyConstant xsi:nil="true" href="Minimum_1tKsq7Yv5Djf8cQt1Dj90O" />
+		<DocPropertyConstant xsi:nil="true" href="Modifier_1Vd2d6Afr99hM_Th3Jafmh" />
+		<DocPropertyConstant xsi:nil="true" href="Product_2bVWYJvlb7ghmYbCVA59M" />
+		<DocPropertyConstant xsi:nil="true" href="Split_0KViIevlv3zQ6jT7Y4lc59" />
+		<DocPropertyConstant xsi:nil="true" href="RunningAverage_3_J30xhIr3AxBwHDd6elq6" />
+		<DocPropertyConstant xsi:nil="true" href="Inverse_1hchD3gD9BHQBae0JtITJW" />
+		<DocPropertyConstant xsi:nil="true" href="Binary_2QbwQxwDX7AAQYhHnHzukm" />
+		<DocPropertyConstant xsi:nil="true" href="LowerLimitControl_2uCpBWLVXCrPA2PKDOwWwX" />
+		<DocPropertyConstant xsi:nil="true" href="LowerLimitControl_2uCpBWLVXCrPA2PKDOwWwX" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

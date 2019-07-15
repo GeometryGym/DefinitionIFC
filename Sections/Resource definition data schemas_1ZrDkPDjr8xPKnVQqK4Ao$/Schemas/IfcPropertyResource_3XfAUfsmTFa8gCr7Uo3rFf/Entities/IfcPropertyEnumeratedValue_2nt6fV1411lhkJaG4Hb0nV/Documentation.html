@@ -1,0 +1,71 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: A property with an enumerated value
+		(<I>IfcPropertyEnumeratedValue</I>) defines a property object which has a value
+		assigned which is chosen from an enumeration. It defines a property - value
+		combination for which the property name, the value with measure type (and
+		optional the unit) are given.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: Multiple choices from the property enumeration
+		  are supported.</FONT></P></BLOCKQUOTE> 
+	 <P>The unit is handled by the <I>Unit</I> attribute of the
+		<I>IfcPropertyEnumeration</I>:</P> 
+	 <UL> 
+		<LI>If the <I>Unit</I> attribute is not given, then the unit is already
+		  implied by the type of <I>IfcMeasureValue</I> or <I>IfcDerivedMeasureValue</I>.
+		  The associated unit can be found at the <I>IfcUnitAssignment</I> globally
+		  defined at the project level (<I>IfcProject.UnitsInContext</I>).</LI> 
+		<LI> If the <I>Unit</I> attribute is given, then the unit assigned by the
+		  unit attribute overrides the globally assigned unit.</LI> 
+	 </UL> 
+	 <P>More precisely: The <I>IfcPropertyEnumeratedValue</I> defines a
+		property, which value is selected from a defined list of enumerators. The
+		enumerators are stored in a dynamic enumeration of values including the type
+		information from <I>IfcValue</I> (see <I>IfcPropertyEnumeration</I>). This
+		enables applications to use an enumeration value as a property within a
+		property set (<I>IfcPropertySet</I>) including the allowed list of values.
+		Examples of a property with enumerated value with are:</P> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2" BORDER="1" WIDTH="600"> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" WIDTH="15%"><B>Name&nbsp;</B></TD> 
+		  <TD VALIGN="TOP" WIDTH="30%"><B>Value<BR></B><FONT
+			 SIZE="-1">(EnumerationValue)</FONT></TD> 
+		  <TD VALIGN="TOP"><B>Type <BR></B><FONT SIZE="-1">(through
+			 IfcValue)</FONT></TD> 
+		  <TD VALIGN="TOP">ref.<B> IfcPropertyEnumeration<BR></B><FONT
+			 SIZE="-1">(Name)</FONT>&nbsp;</TD> 
+		</TR> 
+		<TR> 
+		  <TD>BladeAction</TD> 
+		  <TD>Opposed</TD> 
+		  <TD WIDTH="25%"><I>IfcString</I></TD> 
+		  <TD WIDTH="30%">DamperBladeActionEnum</TD> 
+		</TR> 
+		<TR> 
+		  <TD>BladeAction</TD> 
+		  <TD>Parallel</TD> 
+		  <TD WIDTH="25%"><I>IfcString</I></TD> 
+		  <TD WIDTH="30%">DamperBladeActionEnum</TD> 
+		</TR> 
+	 </TABLE> 
+	 <P>The <I>IfcPropertyEnumeratedValue</I> refers to an
+		<I>IfcPropertyEnumeration</I>, e.g. for the above:</P> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2" BORDER="1" WIDTH="600"> 
+		<TR> 
+		  <TD WIDTH="30%"><B>Name</B></TD> 
+		  <TD WIDTH="30%"><B>EnumerationValues</B></TD> 
+		  <TD WIDTH="25%"><B>Type <BR></B><FONT SIZE="-1">(through
+			 IfcValue)</FONT></TD> 
+		  <TD WIDTH="15%"><B>Unit</B></TD> 
+		</TR> 
+		<TR> 
+		  <TD>DamperBladeActionEnum</TD> 
+		  <TD>(Parallel, Opposed, Other, Unset)</TD> 
+		  <TD><I>IfcString</I></TD> 
+		  <TD>-</TD> 
+		</TR> 
+	 </TABLE> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC Release
+		  2.0, capabilities enhanced in IFC R2x. The entity has been renamed from
+		  IfcEnumeratedProperty in IFC Release 2x.</FONT></P></BLOCKQUOTE>
+</EPM-HTML>

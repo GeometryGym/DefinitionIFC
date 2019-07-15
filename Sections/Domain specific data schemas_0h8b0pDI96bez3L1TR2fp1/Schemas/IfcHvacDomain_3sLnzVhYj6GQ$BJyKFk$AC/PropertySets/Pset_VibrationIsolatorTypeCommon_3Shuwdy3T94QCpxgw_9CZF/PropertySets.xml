@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_VibrationIsolatorTypeCommon" UniqueId="dcaf8ea7-f037-4911-a333-eeaebe24c8cf" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="VibrationTransmissibility_3fLCSDKuL2J9AwarqXkSqe" />
+		<DocProperty xsi:nil="true" href="IsolatorStaticDeflection_2BNKMpLifCUxAjv9s7pLHt" />
+		<DocProperty xsi:nil="true" href="IsolatorCompressibility_2_jFZZChf9_A3avF0FvERl" />
+		<DocProperty xsi:nil="true" href="Height_07WLI1Hn3JfkZYNGO6_5T" />
+		<DocProperty xsi:nil="true" href="Material_2SY60x0v917wcdnPyacr4r" />
+		<DocProperty xsi:nil="true" href="MaximumSupportedWeight_2MmGfEcwH2uPso8tVTNT8F" />
+	</Properties>
+</DocPropertySet>
+

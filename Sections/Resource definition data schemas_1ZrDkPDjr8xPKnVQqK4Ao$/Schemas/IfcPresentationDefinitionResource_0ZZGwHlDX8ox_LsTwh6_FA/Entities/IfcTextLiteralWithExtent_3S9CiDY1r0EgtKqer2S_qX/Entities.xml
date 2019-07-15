@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextLiteralWithExtent" UniqueId="3S9CiDY1r0EgtKqer2S_qX" DiagramNumber="3" BaseDefinition="IfcTextLiteral" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Extent" UniqueId="37OiFNT1D1EAcBWAXrOidL" DefinedType="IfcPlanarExtent" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The extent in the x and y direction of the text literal.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BoxAlignment" UniqueId="3fVdwXrvv3hvT5q8umDpR0" DefinedType="IfcBoxAlignment" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The alignment of the text literal relative to its position.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="2mlOr8rh1APBEyKqK8Fc69">
+			<Documentation>&lt;EPM-HTML&gt;
+The subtype of &lt;i&gt;IfcPlanarExtent&lt;/i&gt;, &lt;i&gt;IfcPlanarBox&lt;/i&gt;, should not be used to represent an &lt;i&gt;Extent&lt;/i&gt; for the text literal.
+&lt;EPM-HTML&gt;</Documentation>
+			<Expression>NOT(&apos;IFCPRESENTATIONRESOURCE.IFCPLANARBOX&apos; IN TYPEOF(Extent))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_RampCommon" UniqueId="2f9e9d02-5439-4d3e-8760-1fa8b7a0a3e3" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_0f5GooJNbFt9fKHevADtRk" />
+		<DocProperty xsi:nil="true" href="RequiredHeadroom_2ZyqOc_kjDnB8uuYkJH7J8" />
+		<DocProperty xsi:nil="true" href="RequiredSlope_2BrkU1OzC3f7FStljbIqY" />
+		<DocProperty xsi:nil="true" href="IsExternal_29mAsmTeD7894VWgYsW8Mr" />
+		<DocProperty xsi:nil="true" href="FireRating_3_KJmBuzT2mOl03knZuVqx" />
+		<DocProperty xsi:nil="true" href="FireExit_0EiYpA_HB280NeyQkiSoT" />
+		<DocProperty xsi:nil="true" href="HandicapAccessible_3M8vk614DEGfdxNSGt888C" />
+		<DocProperty xsi:nil="true" href="HasNonSkidSurface_2JgNSDD9f75uCNfKZcKd2R" />
+	</Properties>
+</DocPropertySet>
+

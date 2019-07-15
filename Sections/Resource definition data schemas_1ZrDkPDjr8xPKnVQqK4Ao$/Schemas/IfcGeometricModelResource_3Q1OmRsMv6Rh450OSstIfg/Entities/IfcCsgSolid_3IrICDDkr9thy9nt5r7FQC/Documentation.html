@@ -1,0 +1,36 @@
+<EPM-HTML> 
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: A solid represented as a
+		CSG model is defined by a collection of so-called primitive solids, combined
+		using regularized Boolean operations. The allowed operations are intersection,
+		union, and difference. As a special case a CSG solid can also consists of a
+		single CSG primitive.</P> 
+	 <UL> 
+		<LI> A CSG solid requires two kinds of information for its complete
+		  definition: geometric and structural. The geometric information is conveyed by
+		  solid models. These typically primitive volumes such as cylinders, wedges and
+		  extrusions, but can include general B-Rep models. There can also be solid
+		  replicas (not in current IFC release) and half space solids. </LI> 
+		<LI>The structural information is in a tree (strictly an acyclic directed
+		  graph) of Boolean result and CSG solids, which represent a &#145;recipe&#146;
+		  for building the solid. The terminal nodes are the geometric primitives and
+		  other solids. Every CSG solid has precisely one Boolean result associated with
+		  it which is the root of the tree that defines the solid. (There may be further
+		  Boolean results within the tree as operands). The significance of a CSG solid
+		  entity is that the solid defined by the associated tree is thus identified as a
+		  significant object itself, and in this way it is distinguished from other
+		  Boolean result entities representing intermediate results during the
+		  construction process. </LI> 
+	 </UL> 
+	 <P><U>Definition from IAI</U>: The following primitive volumes can be parts
+		of the CSG tree: solid models, i.e. faceted B-Rep (<I>IfcFacetedBrep,
+		IfcFacetedBrepWithVoids</I>), swept area solid (<I>IfcExtrudedAreaSolid,
+		IfcRevolvedAreaSolid, IfcSurfaceCurveSweptAreaSolid</I>), swept disk solids
+		(<I>IfcSweptDiskSolid</I>) and half space solids (<I>IfcHalfSpaceSolid </I>and
+		subtypes). CSG primitives are out of scope for current IFC Release. </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">NOTE Corresponding STEP entity:
+		  csg_solid, please refer to ISO/IS 10303-42:1994, p.174 for the final definition
+		  of the formal standard. </FONT></P> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY New class in IFC Release 1.5.1
+		  </FONT></P></BLOCKQUOTE> 
+</EPM-HTML>

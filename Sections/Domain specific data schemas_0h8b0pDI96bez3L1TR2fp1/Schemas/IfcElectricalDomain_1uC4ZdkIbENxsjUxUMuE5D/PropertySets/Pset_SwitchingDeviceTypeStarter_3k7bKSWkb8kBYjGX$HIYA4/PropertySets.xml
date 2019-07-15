@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SwitchingDeviceTypeStarter" UniqueId="ee1e551c-82e9-48b8-b8ad-421fd14a2284" ApplicableType="IfcSwitchingDevice.Predefined=&quot;STARTER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="StarterType_0bMo_lHKDFKuhOtYC8lgqZ" />
+	</Properties>
+</DocPropertySet>
+

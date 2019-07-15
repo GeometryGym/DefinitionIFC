@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SanitaryTerminalTypeToiletPan" UniqueId="999f55c1-f051-4f71-aa7f-18eac7be365c" ApplicableType="IfcSanitaryTerminal.Predefined=&quot;TOILETPAN&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ToiletType_1kWKPQRdbEfA58tfFtmHYv" />
+		<DocProperty xsi:nil="true" href="ToiletPanType_3ZM79goFvDBwyumvy8AdBR" />
+		<DocProperty xsi:nil="true" href="PanMounting_1gXSwRJqbD2REGTJdDOtu8" />
+		<DocProperty xsi:nil="true" href="PanMaterial_1BtLkwD25ELeBlUXRiLSzs" />
+		<DocProperty xsi:nil="true" href="PanColor_2VqR4j7gv3vxgl0ePHABEA" />
+		<DocProperty xsi:nil="true" href="SpilloverLevel_0q31h0MuH4DPJjWm8mvXA" />
+		<DocProperty xsi:nil="true" href="NominalLength_1WlF9iAb2xgj1LeBffJPE" />
+		<DocProperty xsi:nil="true" href="NominalWidth_0Fl2DW9IHCeOV31HmRLVL" />
+		<DocProperty xsi:nil="true" href="NominalDepth_2LjBJMxPP4dRmcq3O6hKml" />
+	</Properties>
+</DocPropertySet>
+

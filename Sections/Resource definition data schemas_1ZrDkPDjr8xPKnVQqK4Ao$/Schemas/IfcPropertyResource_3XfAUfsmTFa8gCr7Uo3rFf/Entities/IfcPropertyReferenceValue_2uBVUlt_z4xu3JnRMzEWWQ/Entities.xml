@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPropertyReferenceValue" UniqueId="2uBVUlt_z4xu3JnRMzEWWQ" DiagramNumber="2" BaseDefinition="IfcSimpleProperty" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="UsageName" UniqueId="1sLys9v055cudHLHMV8uti" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Description of the use of the referenced value within the property.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PropertyReference" UniqueId="0i6fDzXvjDMB4Y0DZtgP6z" DefinedType="IfcObjectReferenceSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to another entity through one of the select types in IfcObjectReferenceSelect.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

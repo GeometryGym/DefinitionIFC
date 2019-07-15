@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ChillerPHistory" UniqueId="31a20c5e-3189-4fca-b294-1d9d54f136d2" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Capacity_3F59IeBNf9Uf_tgLNmUtfM" />
+		<DocProperty xsi:nil="true" href="EnergyEfficiencyRatio_2kV7LJiCf9aRTH268LImYX" />
+		<DocProperty xsi:nil="true" href="CoefficientOfPerformance_0Wk98iCP7Y8zQNN833NuY" />
+		<DocProperty xsi:nil="true" href="CapacityCurve_0v0ZGmNHDOg0vaIPbM2og" />
+		<DocProperty xsi:nil="true" href="CoefficientOfPerformanceCurve_1LypJcRm169QoMyAkpjuP4" />
+		<DocProperty xsi:nil="true" href="FullLoadRatioCurve_2OA4wV0TP69u7V90giRz6O" />
+	</Properties>
+</DocPropertySet>
+

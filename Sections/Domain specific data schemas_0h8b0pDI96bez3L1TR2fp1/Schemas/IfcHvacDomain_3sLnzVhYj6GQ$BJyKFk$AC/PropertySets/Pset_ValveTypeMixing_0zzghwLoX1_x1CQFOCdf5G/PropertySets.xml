@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValveTypeMixing" UniqueId="3df6aafa-5728-41fb-b04c-68f60c9e9150" ApplicableType="IfcValve.Predefined=&quot;MIXING&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MixerControl_32oVyZ5Z98pP2RHGWn2BGb" />
+		<DocProperty xsi:nil="true" href="OutletConnectionSize_3Uhl9_HOzCwRcuCyJJjGO" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDistributionChamberElementType" UniqueId="3jL3Qn$rnEyfNZ5VlJHRHz" DiagramNumber="2" BaseDefinition="IfcDistributionFlowElementType" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="0HVll65KT57hSU2dLrci$d" DefinedType="IfcDistributionChamberElementTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined types of distribution chambers.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

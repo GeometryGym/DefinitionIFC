@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PipeFittingTypeCommon" UniqueId="0bb46df6-544c-4136-9c57-48eb5ffeae6d" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="SubType_2BYpmqMNHCfPjebidjPhFG" />
+		<DocProperty xsi:nil="true" href="Material_3Ypi4TzSfA9hQpVuSU5xrd" />
+		<DocProperty xsi:nil="true" href="PressureClass_2i0_a5pxHDBOX6CgMHCzpv" />
+		<DocProperty xsi:nil="true" href="UnitWeight_1UjC07aEz2j8a7RRi2E_oN" />
+		<DocProperty xsi:nil="true" href="PressureRange_0PvH8tsZHCXBafVUhWpEtZ" />
+		<DocProperty xsi:nil="true" href="TemperatureRange_1FnCrLlbj9jxgNZxIfjGW_" />
+		<DocProperty xsi:nil="true" href="NominalDiameter_16LXyX3yvCBeDgIqiCFz9s" />
+		<DocProperty xsi:nil="true" href="InnerDiameter_322U8aCCHEbuo4hNppS3Li" />
+		<DocProperty xsi:nil="true" href="OuterDiameter_2zj7kwUi929ApG2AgunufK" />
+		<DocProperty xsi:nil="true" href="EndStyleTreatment_34r_62WJH9S9sE4TZv52rq" />
+		<DocProperty xsi:nil="true" href="FittingLossFactor_06SoGcr9vDJhwrRdaBqJPr" />
+	</Properties>
+</DocPropertySet>
+

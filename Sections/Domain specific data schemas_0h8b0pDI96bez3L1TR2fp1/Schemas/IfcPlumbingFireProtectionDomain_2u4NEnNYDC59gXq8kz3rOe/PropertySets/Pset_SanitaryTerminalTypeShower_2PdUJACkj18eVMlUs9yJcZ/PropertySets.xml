@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SanitaryTerminalTypeShower" UniqueId="999de4ca-32eb-4122-87d6-bded89f139a3" ApplicableType="IfcSanitaryTerminal.Predefined=&quot;SHOWER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ShowerType_1kYeAXBdTC8PYPBE3mM5JQ" />
+		<DocProperty xsi:nil="true" href="HasTray_2yJm_xwfvBORk8PhrlLhTd" />
+		<DocProperty xsi:nil="true" href="NominalLength_0wXZycik93KAgs8VlETRQv" />
+		<DocProperty xsi:nil="true" href="NominalWidth_2Xs8hvw4556xnRPlz8wIxB" />
+		<DocProperty xsi:nil="true" href="NominalDepth_0tIn84hlL8LuDn3zJd0iq1" />
+		<DocProperty xsi:nil="true" href="Material_0lSndNRNv35gi25QXR7fIB" />
+		<DocProperty xsi:nil="true" href="MaterialThickness_2E8JFIwgjCYw48izPZoczP" />
+		<DocProperty xsi:nil="true" href="Color_3JKhSmhPzE0BX7ql9cWwjA" />
+		<DocProperty xsi:nil="true" href="ShowerHeadDescription_3VbvM3PnzBoRM4Sa8Hh80L" />
+		<DocProperty xsi:nil="true" href="DrainSize_1Af9xijE980P3_F4X7nWbt" />
+	</Properties>
+</DocPropertySet>
+

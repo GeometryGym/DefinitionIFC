@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCondenserTypeEnum" UniqueId="0tC$RS1oH5eQbSBR$BVcNl" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="WATERCOOLEDSHELLTUBE_1E5jwAaVHFbg22MFx8qLwl" />
+		<DocConstant xsi:nil="true" href="WATERCOOLEDSHELLCOIL_3wKCETQRj5y8eF5pIPpa9R" />
+		<DocConstant xsi:nil="true" href="WATERCOOLEDTUBEINTUBE_1zIjbteqn0b9vCvcMduSbf" />
+		<DocConstant xsi:nil="true" href="WATERCOOLEDBRAZEDPLATE_0w7V5ClfnFvf9JjMN6D4" />
+		<DocConstant xsi:nil="true" href="AIRCOOLED_1fNTnKPTXB1xndBrYT60VV" />
+		<DocConstant xsi:nil="true" href="EVAPORATIVECOOLED_06Sjpsp0XBYxM1ZHROsIHo" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3qSw2OyuLEgfdRpOe4lkP5" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1ccyzauz0IRmRNy3qjB5" />
+	</Constants>
+</DocEnumeration>
+

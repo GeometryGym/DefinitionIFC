@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDistributionChamberElementTypeEnum" UniqueId="1M74npWcT8$B4r4bIvnJNH" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FORMEDDUCT_2d1HG467r408uFq28QL2q4" />
+		<DocConstant xsi:nil="true" href="INSPECTIONCHAMBER_1hgGhM56z3PQLR8BVG_16G" />
+		<DocConstant xsi:nil="true" href="INSPECTIONPIT_26dQtDaNn8vhPesSESF" />
+		<DocConstant xsi:nil="true" href="MANHOLE_2WpmWTCMHDtw5S7w15MsCn" />
+		<DocConstant xsi:nil="true" href="METERCHAMBER_0bfwkgHTCk9u_0wMpY1vz" />
+		<DocConstant xsi:nil="true" href="SUMP_3tT7JvsYvDb80wJL4xlQrv" />
+		<DocConstant xsi:nil="true" href="TRENCH_12O2zgdXv5NPCjaCBTxe0V" />
+		<DocConstant xsi:nil="true" href="VALVECHAMBER_1iPIruDor5FQbP9rnsemy3" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2k81lLK6T44wt49cSd1Olq" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0ofK6fj_r0OAndeAIuVD" />
+	</Constants>
+</DocEnumeration>
+

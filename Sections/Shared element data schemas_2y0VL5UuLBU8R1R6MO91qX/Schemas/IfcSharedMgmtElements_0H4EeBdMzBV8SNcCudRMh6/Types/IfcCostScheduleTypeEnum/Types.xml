@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCostScheduleTypeEnum" UniqueId="1vtDQBDE12aOx9SLthyaiB" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BUDGET_1JsLje6nz6vukdOu_Fhn7V" />
+		<DocConstant xsi:nil="true" href="COSTPLAN_09BSd4YvrFQASsWlm_3U_o" />
+		<DocConstant xsi:nil="true" href="ESTIMATE_1OD4QgQkzC_RKriaX9rJ0F" />
+		<DocConstant xsi:nil="true" href="TENDER_21BJ15QZz5qxM9mKj6quPU" />
+		<DocConstant xsi:nil="true" href="PRICEDBILLOFQUANTITIES_3lakBJnQL5GRX1zG3SWvy4" />
+		<DocConstant xsi:nil="true" href="UNPRICEDBILLOFQUANTITIES_05CYG4Td52Egd_l5gqOtn0" />
+		<DocConstant xsi:nil="true" href="SCHEDULEOFRATES_0s_GJlVc97b9SxX3U9FVbw" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2jsfJmNLPESOdGiIHUyl0E" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2onETQODr4iuEVcKiZ1F3R" />
+	</Constants>
+</DocEnumeration>
+

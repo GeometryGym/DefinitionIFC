@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcObjectPlacement" UniqueId="3Ts1Uua_j4OeANB6dmMjYM" DiagramNumber="1" EntityFlags="69">
+	<Subtypes>
+		<DocSubtype UniqueId="1F0$4aJH1C6fIH4AaGB61A" DefinedType="IfcGridPlacement" />
+		<DocSubtype UniqueId="1mQAoFjqn1ZQg98GmDdEV6" DefinedType="IfcLocalPlacement" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="PlacesObject" UniqueId="3uZfrelDD74AnygQmoVvQ3" DefinedType="IfcProduct" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="1" Inverse="ObjectPlacement">
+			<Documentation>&lt;EPM-HTML&gt;
+The &lt;i&gt;IfcObjectPlacement&lt;/i&gt; shall be used to provide a placement and an object coordinate system for a single instance of &lt;i&gt;IfcProduct&lt;/i&gt;.
+&lt;blockquote&gt;&lt;small&gt;
+  &lt;font color=&quot;#FF0000&quot;&gt;IFC2x Edition 3 CHANGE&amp;nbsp; New inverse attribute.&lt;/font&gt;
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ReferencedByPlacements" UniqueId="16QPjq1ub2xugPHZ$lwPmg" DefinedType="IfcLocalPlacement" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="PlacementRelTo">
+			<Documentation>Placements that are given relative to this placement of an object.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

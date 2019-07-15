@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_WasteTerminalTypeWasteTrap" UniqueId="b3c2afb5-15b8-40b2-8e01-7f3b202f7a86" ApplicableType="IfcWasteTerminal.Predefined=&quot;WASTETRAP&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="WasteTrapType_3VJIhrtBz6LA7EH1CiaubN" />
+		<DocProperty xsi:nil="true" href="OutletConnectionSize_1LgTurrjv7hwdF1AoPt68A" />
+		<DocProperty xsi:nil="true" href="InletConnectionSize_2Wg6uVjf1PxcwN8oHnddT" />
+	</Properties>
+</DocPropertySet>
+

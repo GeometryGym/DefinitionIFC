@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RefrigerantClass_0i4DZwuKT6Ju_oGSUj0W7J" Name="RefrigerantClass" UniqueId="2c10d8fa-e147-464f-8fb2-41c7ad0201d3" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_RefrigerantClass_20azD8Mb6puKW3TsMOs7h" />
+	</Enumeration>
+</DocProperty>
+

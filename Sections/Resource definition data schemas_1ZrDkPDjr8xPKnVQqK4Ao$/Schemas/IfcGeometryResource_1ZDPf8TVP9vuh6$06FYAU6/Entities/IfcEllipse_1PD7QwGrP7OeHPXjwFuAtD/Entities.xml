@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcEllipse" UniqueId="1PD7QwGrP7OeHPXjwFuAtD" DiagramNumber="5" BaseDefinition="IfcConic" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="SemiAxis1" UniqueId="0cwEWD7o12cxdqic70Oqd9" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The first radius of the ellipse which shall be positive. Placement.Axes[1] gives the direction of the SemiAxis1.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SemiAxis2" UniqueId="0$w42WZkrEUfKusv22nOIe" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The second radius of the ellipse which shall be positive.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

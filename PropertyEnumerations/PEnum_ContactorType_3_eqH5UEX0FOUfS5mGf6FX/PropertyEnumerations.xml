@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ContactorType_3_eqH5UEX0FOUfS5mGf6FX" Name="PEnum_ContactorType" UniqueId="fea34445-78e8-403d-87a9-705c10a463e1">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CapacitorSwitching_34oRx062192A_SsdSDNWg" />
+		<DocPropertyConstant xsi:nil="true" href="LowCurrent_2ujk6gH9P489d1cyPvBXH5" />
+		<DocPropertyConstant xsi:nil="true" href="MagneticLatching_3dh4UeiML3gf1thlsFh4vT" />
+		<DocPropertyConstant xsi:nil="true" href="MechanicalLatching_3pyUcbLTj9u9rd6dnAsD0m" />
+		<DocPropertyConstant xsi:nil="true" href="Modular_1Dv6FYkLHCVxZfYFVmEFf4" />
+		<DocPropertyConstant xsi:nil="true" href="Reversing_2ZZzbo8rCFRqtQ3U0Qitd" />
+		<DocPropertyConstant xsi:nil="true" href="Standard_3hcjIAdZb7Eh7GH0moWCF1" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

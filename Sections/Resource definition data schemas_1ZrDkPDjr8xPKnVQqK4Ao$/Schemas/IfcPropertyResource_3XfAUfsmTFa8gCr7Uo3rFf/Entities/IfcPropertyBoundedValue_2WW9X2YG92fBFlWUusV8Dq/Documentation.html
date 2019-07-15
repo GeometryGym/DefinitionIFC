@@ -1,0 +1,89 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI</U>: A property with a bounded value
+		(<I>IfcPropertyBoundedValue</I>) defines a property object which has a maximum
+		of two (numeric or descriptive) values assigned, the first value specifying the
+		upper bound and the second value specifying the lower bound. It defines a
+		property - value bound (min-max) combination for which the property name, the
+		upper bound value with measure type, the lower bound value with measure type
+		(and optional the unit) is given.</P> 
+	 <P>The unit is handled by the <I>Unit</I> attribute:</P> 
+	 <UL> 
+		<LI>If the <I>Unit</I> attribute is not given, then the unit is already
+		  implied by the type of <I>IfcMeasureValue</I> or <I>IfcDerivedMeasureValue</I>.
+		  The associated unit can be found at the <I>IfcUnitAssignment</I> globally
+		  defined at the project level (<I>IfcProject.UnitsInContext</I>).</LI> 
+		<LI> If the <I>Unit</I> attribute is given, then the unit assigned by the
+		  <I>Unit</I> attribute overrides the globally assigned unit.</LI> 
+	 </UL> 
+	 <P>The <I>IfcPropertyBoundedValue</I> allows for the specification of an
+		interval for the value component of the property description.
+		<FONT COLOR="#0000FF">If either the <I>LowerBoundValue</I> or the
+		<I>UpperBoundValue</I> is not given, then it indicates an open bound (either a
+		minimum value or a maximum value). The interval is by definition inclusive,
+		i.e. the value given for the <I>LowerBoundValue</I> or the
+		<I>UpperBoundValue</I> is included in the interval.</FONT></P> 
+	 <P>Examples of a property with bounded value are:</P> 
+	 <TABLE BORDER="1"> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" WIDTH="15%"><B>Name</B></TD> 
+		  <TD VALIGN="TOP" WIDTH="15%"><B>UpperBoundValue</B></TD> 
+		  <TD VALIGN="TOP" WIDTH="15%"><B>LowerBoundValue</B></TD> 
+		  <TD VALIGN="TOP" WIDTH="25%"><B>Type <BR></B><FONT SIZE="-1">(through
+			 <I>IfcValue</I>, WR1 ensures same type for both values)</FONT></TD> 
+		  <TD VALIGN="TOP" WIDTH="30%"><B>Unit <BR></B></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="15%" VALIGN="TOP" ALIGN="LEFT">OverallHeight</TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">1930</TD> 
+		  <TD WIDTH="25%" VALIGN="TOP" ALIGN="LEFT">2300</TD> 
+		  <TD WIDTH="25%" VALIGN="TOP"
+			ALIGN="LEFT"><I>IfcPositiveLengthMeasure</I></TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">- </TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="15%" VALIGN="TOP" ALIGN="LEFT">OverallWidth</TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">0.9</TD> 
+		  <TD WIDTH="25%" VALIGN="TOP" ALIGN="LEFT">1.25</TD> 
+		  <TD WIDTH="25%" VALIGN="TOP"
+			ALIGN="LEFT"><I>IfcPositiveLengthMeasure</I></TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">m</TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="15%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF">MaxHeight</FONT></TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF">20.0</FONT></TD> 
+		  <TD WIDTH="25%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF">&lt;nil&gt;</FONT></TD> 
+		  <TD WIDTH="25%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF"><I>IfcPositiveLengthMeasure</I></FONT></TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF">-</FONT></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="15%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF">MinWeight</FONT></TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF">&lt;nil&gt;</FONT></TD> 
+		  <TD WIDTH="25%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF">20</FONT></TD> 
+		  <TD WIDTH="25%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF"><I>IfcMassMeasure</I></FONT></TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT"><FONT
+			 COLOR="#0000FF">kg</FONT></TD> 
+		</TR> 
+	 </TABLE> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New entity in IFC Release 2x.
+		  </FONT></P> </BLOCKQUOTE> 
+	 <BLOCKQUOTE><FONT COLOR="#FF0000" SIZE="-1">IFC2x PLATFORM CHANGE: The
+		attribute type of the attribute <I>UpperBoundValue</I> and
+		<I>LowerBoundValue</I> has been changed from mandatory to optional with upward
+		compatibility for file based exchange.</FONT></BLOCKQUOTE> 
+	 <P>Informal proposition:</P> 
+	 <OL> 
+		<LI>If the measure type for the upper and lover bound value is a numeric
+		  measure, then the following shall be true: <I>UpperBoundValue</I> &gt;
+		  <I>LowerBoundValue</I>.</LI> 
+	 </OL>
+</EPM-HTML>

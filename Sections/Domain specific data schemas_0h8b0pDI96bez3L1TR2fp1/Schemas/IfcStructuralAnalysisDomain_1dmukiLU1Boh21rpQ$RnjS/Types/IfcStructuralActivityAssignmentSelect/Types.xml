@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralActivityAssignmentSelect" UniqueId="1U4x1Tz0P2BQL5fKKFyq$x" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcStructuralItem" UniqueId="1McoYJYdbAK97F9AOHfhM7" />
+		<DocSelectItem Name="IfcElement" UniqueId="1ybUVx7Jb7XuxGM5_liC0d" />
+	</Selects>
+</DocSelect>
+

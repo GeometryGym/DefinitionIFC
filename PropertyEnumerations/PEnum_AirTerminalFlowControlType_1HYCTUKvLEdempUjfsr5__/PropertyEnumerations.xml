@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AirTerminalFlowControlType_1HYCTUKvLEdempUjfsr5__" Name="PEnum_AirTerminalFlowControlType" UniqueId="5188c75e-5395-4e9e-8c33-7ada76d45fbe">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DAMPER_1ROBP6i5Dlfkh7Ujdu8rt" />
+		<DocPropertyConstant xsi:nil="true" href="BELLOWS_3yhOGa1LDBfx_n7UgdEPZ6" />
+		<DocPropertyConstant xsi:nil="true" href="NONE_0uzQUamUf92wL654GzX6tl" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

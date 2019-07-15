@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCsgSelect" UniqueId="2HisJ0ETf9Y9TDVXwR$7md" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcBooleanResult" UniqueId="1NOVWiQKLC4wizUjgSzuDI" />
+		<DocSelectItem Name="IfcCsgPrimitive3D" UniqueId="3OZ54sBtTFZeRl5VQstIcv" />
+	</Selects>
+</DocSelect>
+

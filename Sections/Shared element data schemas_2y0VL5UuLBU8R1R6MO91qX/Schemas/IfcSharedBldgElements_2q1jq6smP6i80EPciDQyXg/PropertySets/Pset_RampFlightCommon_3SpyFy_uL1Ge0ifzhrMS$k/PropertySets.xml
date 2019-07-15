@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_RampFlightCommon" UniqueId="dccfc3fc-fb85-4142-802c-a7daf559cfee" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_1A9FJckOn3Y9n7oOfhzHeD" />
+		<DocProperty xsi:nil="true" href="Headroom_3PfdqDFsP0tPW8EXxNk5Mj" />
+		<DocProperty xsi:nil="true" href="Slope_0FZDQtig58CAqlQk1Z4Fp6" />
+	</Properties>
+</DocPropertySet>
+

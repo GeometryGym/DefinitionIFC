@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcIrregularTimeSeries" UniqueId="1$Eh6zeaXEyhMn48dw76kJ" DiagramNumber="1" BaseDefinition="IfcTimeSeries" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Values" UniqueId="2fFXsXfA9DAuVAwM1izOv_" DefinedType="IfcIrregularTimeSeriesValue" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The collection of time series values.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

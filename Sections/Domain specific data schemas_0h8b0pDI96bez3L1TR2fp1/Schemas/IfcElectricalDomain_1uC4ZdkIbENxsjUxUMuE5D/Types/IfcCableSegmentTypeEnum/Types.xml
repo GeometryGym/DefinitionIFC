@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCableSegmentTypeEnum" UniqueId="1AEMHQ7jbAj8uTExUlM37T" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CABLESEGMENT_1rn6rDVV19wwxugfvkDVBy" />
+		<DocConstant xsi:nil="true" href="CONDUCTORSEGMENT_2IPGnbCof81AEDNmzfs1Qx" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2eEl0RkwPFkAV5t0_gRoHQ" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2xF0bJAVbDYxvXyKv9sTSU" />
+	</Constants>
+</DocEnumeration>
+

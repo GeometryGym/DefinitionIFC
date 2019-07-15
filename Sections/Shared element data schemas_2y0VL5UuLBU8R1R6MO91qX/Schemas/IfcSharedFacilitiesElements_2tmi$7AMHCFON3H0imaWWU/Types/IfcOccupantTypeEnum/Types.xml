@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcOccupantTypeEnum" UniqueId="1jQFpEqjn36xYL80Aub8GN" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ASSIGNEE_3FjyClaH6G8XdNSpTiYEe" />
+		<DocConstant xsi:nil="true" href="ASSIGNOR_2Qk3rmQCH6nQD82A_v46t0" />
+		<DocConstant xsi:nil="true" href="LESSEE_1WRmA1ELnFSubngSoncNT" />
+		<DocConstant xsi:nil="true" href="LESSOR_2bOCVM3vv0GxLfcfxyeOQ" />
+		<DocConstant xsi:nil="true" href="LETTINGAGENT_2omxJZS2n4wQN_v8dv_LpW" />
+		<DocConstant xsi:nil="true" href="OWNER_2sBIvU4lD1DPKE02sCzKjo" />
+		<DocConstant xsi:nil="true" href="TENANT_35bptAh_rDiBcK8SGU98Hf" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1TuDhKVdX0gg9NZ7r3eSLZ" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1kRBRYgIDELuWeRw6tx0ML" />
+	</Constants>
+</DocEnumeration>
+

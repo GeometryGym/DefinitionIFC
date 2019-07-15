@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDirection" UniqueId="1kKVvVUoP9OfEmipvGoMNF" DiagramNumber="3" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="DirectionRatios" UniqueId="3W6FDrk1TEbg7ooIs4Z9ov" DefinedType="REAL" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="2" AggregationUpper="3">
+			<Documentation>The components in the direction of X axis (DirectionRatios[1]), of Y axis (DirectionRatios[2]), and of Z axis (DirectionRatios[3])</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="2HvkLPZN5D9AIS8z1GNk08" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, defined by the number of real in the list of DirectionRatios.</Documentation>
+			<Derived>HIINDEX(DirectionRatios)</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

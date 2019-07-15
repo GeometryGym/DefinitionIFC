@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRevolvedAreaSolid" UniqueId="1gXVZFAUn3zgsghVEnqHxQ" DiagramNumber="4" BaseDefinition="IfcSweptAreaSolid" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Axis" UniqueId="0clWxscdjApgavvYY_iSJI" DefinedType="IfcAxis1Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Axis about which revolution will take place.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Angle" UniqueId="3c8BPHXwf5euJ6aG$8TBqv" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Angle through which the sweep will be made. This angle is measured from the plane of the sweep.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="AxisLine" UniqueId="1P4E_PtxnCUQWW3dHd9bhC" DefinedType="IfcLine" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The line of the axis of revolution.</Documentation>
+			<Derived>IfcRepresentationItem() || IfcGeometricRepresentationItem () || IfcCurve() || IfcLine(Axis.Location, 
+  IfcRepresentationItem() || IfcGeometricRepresentationItem () || IfcVector(Axis.Z,1.0))</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="2ib6R3YmbC8w7Drr8OzJhA">
+			<Expression>Axis.Location.Coordinates[3] = 0.0</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR32" UniqueId="0jQcrra9rBNwh8bYG02KlG">
+			<Expression>Axis.Z.DirectionRatios[3] = 0.0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

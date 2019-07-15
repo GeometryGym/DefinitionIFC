@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ReinforcementBarType_1Us2hSUxvBRvxe_LgPt9D9" Name="ReinforcementBarType" UniqueId="5ed82adc-7bbe-4b6f-9ee8-f95a99dc9349" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ReinforcementBarType_2jpLBx4jX5XPSr43lknFCz" />
+	</Enumeration>
+</DocProperty>
+

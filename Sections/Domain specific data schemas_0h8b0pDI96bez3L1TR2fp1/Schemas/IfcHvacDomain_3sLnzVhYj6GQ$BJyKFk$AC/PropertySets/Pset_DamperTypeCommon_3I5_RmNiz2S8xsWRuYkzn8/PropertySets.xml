@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DamperTypeCommon" UniqueId="d217e6f0-5ecf-4270-8ef6-81be22bbdc48" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Operation_3l5wtm5g93beDejtePCP3" />
+		<DocProperty xsi:nil="true" href="Orientation_3SaRUYD11JgSv75a1T8iq" />
+		<DocProperty xsi:nil="true" href="BladeMaterial_1dKGKjEQHF9hQvqzKCDRAf" />
+		<DocProperty xsi:nil="true" href="BladeThickness_04kxDsKl9BB9rWsNyOqR0" />
+		<DocProperty xsi:nil="true" href="SealMaterial_3572hGOlz0T9TPUpQXr1Zc" />
+		<DocProperty xsi:nil="true" href="BladeAction_3bwKnK1tL4cQeiMHUo68U" />
+		<DocProperty xsi:nil="true" href="BladeShape_2HfrWvOgz91hJFI37LdQLQ" />
+		<DocProperty xsi:nil="true" href="BladeEdge_2VpjPByNT1VwxkTyXl1EU7" />
+		<DocProperty xsi:nil="true" href="NumberofBlades_1w9YSMWM524P33ygtqtZJr" />
+		<DocProperty xsi:nil="true" href="FaceArea_2zRcbKZQL2zOtVON99pvwc" />
+		<DocProperty xsi:nil="true" href="MaximumAirFlowRate_3Uh571NRv2ffUdkoDU7BVs" />
+		<DocProperty xsi:nil="true" href="TemperatureRange_0fDCWbYI99uBxBMrkpWSto" />
+		<DocProperty xsi:nil="true" href="MaximumWorkingPressure_2X3fj5L1j4JvxEO4asgDK" />
+		<DocProperty xsi:nil="true" href="TemperatureRating_3NnzGxH1rFrvVz8JYDc194" />
+		<DocProperty xsi:nil="true" href="TorqueRange_2UifZCROHCiOp5dhQtuon3" />
+		<DocProperty xsi:nil="true" href="NominalAirFlowRate_35yLASHO1FvujwaTgzh8IN" />
+		<DocProperty xsi:nil="true" href="OpenPressureDrop_0IJgJ7uCTDuQCD0p85uTnl" />
+		<DocProperty xsi:nil="true" href="LeakageFullyClosed_2QQ0AfJHj0VutVwl7NrfjU" />
+		<DocProperty xsi:nil="true" href="LossCoefficentCurve_02TIcCJT9MgYIzIKU8fly" />
+		<DocProperty xsi:nil="true" href="LeakageCurve_2ZcBVdhhb8lQFsW5iJN8a" />
+		<DocProperty xsi:nil="true" href="RegeneratedSoundCurve_06CAz8iuHFUf8MQXLpAC4" />
+		<DocProperty xsi:nil="true" href="FrameType_1nfqhEi0f1N8U0xrzQ6SEM" />
+		<DocProperty xsi:nil="true" href="FrameDepth_2dWuYPIUv1ADbSgXWjxE5" />
+		<DocProperty xsi:nil="true" href="FrameMaterial_1XH9MGnhv9VQ6SEjJnUvW8" />
+		<DocProperty xsi:nil="true" href="FrameThickness_2t3KdbkevC_hoUIP5fZ8ci" />
+		<DocProperty xsi:nil="true" href="CloseOffRating_1E_BBxJv92aeWWR_rL6td" />
+	</Properties>
+</DocPropertySet>
+

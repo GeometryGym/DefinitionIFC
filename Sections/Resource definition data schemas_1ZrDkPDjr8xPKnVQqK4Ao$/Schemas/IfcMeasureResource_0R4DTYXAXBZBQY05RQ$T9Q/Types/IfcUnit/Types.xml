@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcUnit" UniqueId="2w93lmVur0DxjxYWw3wqQf" DiagramNumber="1">
+	<Selects>
+		<DocSelectItem Name="IfcDerivedUnit" UniqueId="3M29$zhs58kA_c$s9sqoTZ" />
+		<DocSelectItem Name="IfcNamedUnit" UniqueId="2R9Bk0d61C0QRS9VGRX6Tw" />
+		<DocSelectItem Name="IfcMonetaryUnit" UniqueId="20fQF6Ke10RhT1G$ux8RQA" />
+	</Selects>
+</DocSelect>
+

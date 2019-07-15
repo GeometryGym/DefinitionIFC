@@ -1,0 +1,42 @@
+<EPM-HTML> 
+<p><u>Definition from IAI</u>: An <i>IfcCableSegmentType</i>
+is a type of flow segment used to carry electrical power or
+communications signals.</p>
+<blockquote> <font color="#0000ff" size="-1">
+HISTORY: New entity
+in IFC 2x2.</font> </blockquote>
+<p><u><b>Use Definitions</b></u></p>
+<p> A cable segment type is used to define the common properties
+of a cable
+segment that may be applied to many occurrences of that type. A cable
+segment is used to typically join two sections of an electrical network
+or a
+network of components carrying the electrical service. Cable segment
+types may be
+exchanged without being already assigned to occurrences.</p>
+<p>The occurrences of the <i>IfcCableSegmentType</i>
+are represented by instances of <i>IfcFlowSegment</i>
+or its subtypes.</p>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to the <i>IfcCableSegmentType
+</i>are defined by the <i>IfcPropertySet</i> and
+attached by the <i>IfcRelDefinesByType</i> relationship.
+It is accessible by the inverse <i>IsDefinedBy</i>
+relationship. The following property set definitions specific to the <i>IfcCableSegmentType
+</i>are part of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_CableSegmentTypeCableSegment.xml">Pset_CableSegmentTypeCableSegment</a>:
+specific property set for the properties of a whole cable (including
+the aggregation of conductors within the cable), if available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_CableSegmentTypeConductorSegment.xml">Pset_CableSegmentTypeConductorSegment</a>:
+specific property set for the properties of an individual conductor
+within an electrical cable, if available.</li>
+</ul>
+<p><u><b>Geometry Use Definitions</b></u></p>
+<p>Representations of the type are defined as representation maps
+(at the level of the supertype <i>IfcTypeProduct</i>).
+These are assigned at the occurrence through the <i>IfcShapeRepresentation.Item</i>
+being an <i>IfcMappedItem</i>.</p>
+</EPM-HTML>

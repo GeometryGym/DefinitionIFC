@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricTimeControlType" UniqueId="0ToWuxOAj8SgBRoGz2XMgn" DiagramNumber="3" BaseDefinition="IfcFlowControllerType" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="1n5oLdJ1bDzeyRDa0sRCcO" DefinedType="IfcElectricTimeControlTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of electrical time control from which the type required may be set.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

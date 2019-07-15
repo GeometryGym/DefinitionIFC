@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcValveTypeEnum" UniqueId="2Ow83Ar09CAwsnKYf7mMSl" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="AIRRELEASE_1XN8EaIoPFPBi207nPUly7" />
+		<DocConstant xsi:nil="true" href="ANTIVACUUM_3LscZUnvz8ThBgEDY2hc3" />
+		<DocConstant xsi:nil="true" href="CHANGEOVER_0LHqhj4lDCxBN07M8BOTju" />
+		<DocConstant xsi:nil="true" href="CHECK_3F4YpCeFj8sQTUZUrET4s" />
+		<DocConstant xsi:nil="true" href="COMMISSIONING_072pcI1Rn2ZOzjgPWvsrfw" />
+		<DocConstant xsi:nil="true" href="DIVERTING_2_6QT3fb2fBNp4YO4ve" />
+		<DocConstant xsi:nil="true" href="DRAWOFFCOCK_0PWpUAgmX0vfa3wTBZJqd5" />
+		<DocConstant xsi:nil="true" href="DOUBLECHECK_3ZSBYF9_vAifUWpFbil9XE" />
+		<DocConstant xsi:nil="true" href="DOUBLEREGULATING_1OV38asaTAJxPtwwjqCs5T" />
+		<DocConstant xsi:nil="true" href="FAUCET_1gT2QprzP9PvU6URkL4Tzd" />
+		<DocConstant xsi:nil="true" href="FLUSHING_0nxwsIIPn6Sg1nRbbHTB9j" />
+		<DocConstant xsi:nil="true" href="GASCOCK_1TkJsTe954txdkX8dThyzf" />
+		<DocConstant xsi:nil="true" href="GASTAP_0C_V7zUr9A58jfUOv7pIEr" />
+		<DocConstant xsi:nil="true" href="ISOLATING_0PqtLqRoD7l9bgOyYAXb8N" />
+		<DocConstant xsi:nil="true" href="MIXING_13QouXipX9YxvNjmYsRWUL" />
+		<DocConstant xsi:nil="true" href="PRESSUREREDUCING_1Tabw2qOLF1fDkNl5XFpZ" />
+		<DocConstant xsi:nil="true" href="PRESSURERELIEF_0pxAhgVIb8JxUc9EIWPZ17" />
+		<DocConstant xsi:nil="true" href="REGULATING_3bvTGUU1fDhPkpZT0F82Fg" />
+		<DocConstant xsi:nil="true" href="SAFETYCUTOFF_2LZX_Z7198jwtu83H_WPj" />
+		<DocConstant xsi:nil="true" href="STEAMTRAP_1ZmXgqmPXAxuiX1cqZ1PbQ" />
+		<DocConstant xsi:nil="true" href="STOPCOCK_3uWrzxfqT8oQTu3vQKh_wV" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3BShdx4knEmh3KtvXhZdje" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2TwB4DB_LAGQ0rVQqotR7n" />
+	</Constants>
+</DocEnumeration>
+

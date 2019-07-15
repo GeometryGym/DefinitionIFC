@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_RoofCommon" UniqueId="daeda414-fe8f-4f51-823a-652dce653c2a" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_3DHV4vYMD54wMNkQQFstg" />
+		<DocProperty xsi:nil="true" href="FireRating_2m0nzhiPjCQfZ3UpAson_Z" />
+		<DocProperty xsi:nil="true" href="IsExternal_1YKvG66Uz7cOznZAetE6Xf" />
+		<DocProperty xsi:nil="true" href="ProjectedArea_25AttRTrj75RRAkNfqsKzf" />
+		<DocProperty xsi:nil="true" href="TotalArea_3IMjX_g6rFFweXJboHXVoW" />
+	</Properties>
+</DocPropertySet>
+

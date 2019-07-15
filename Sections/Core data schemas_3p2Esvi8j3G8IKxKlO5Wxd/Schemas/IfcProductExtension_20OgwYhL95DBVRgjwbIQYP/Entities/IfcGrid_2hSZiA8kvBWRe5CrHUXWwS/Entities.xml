@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcGrid_2hSZiA8kvBWRe5CrHUXWwS" Name="IfcGrid" UniqueId="2hSZiA8kvBWRe5CrHUXWwS" DiagramNumber="6" BaseDefinition="IfcProduct" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="UAxes" UniqueId="1m21UpW$jBueCrzOJFmyvs" DefinedType="IfcGridAxis" AttributeFlags="0" AggregationType="1" AggregationFlag="2" AggregationLower="1" AggregationUpper="0">
+			<Documentation>List of grid axes defining the first row of grid lines.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="VAxes" UniqueId="0yqrPxcc95iO3Ot_v3lJq3" DefinedType="IfcGridAxis" AttributeFlags="0" AggregationType="1" AggregationFlag="2" AggregationLower="1" AggregationUpper="0">
+			<Documentation>List of grid axes defining the second row of grid lines.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="WAxes" UniqueId="18vsC3SPn8KBXwSHh0_xE3" DefinedType="IfcGridAxis" AttributeFlags="1" AggregationType="1" AggregationFlag="2" AggregationLower="1" AggregationUpper="0">
+			<Documentation>List of grid axes defining the third row of grid lines. It may be given in the case of a triangular grid.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ContainedInStructure" UniqueId="06sTG_hI199AX0f07hZjBo" DefinedType="IfcRelContainedInSpatialStructure" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedElements">
+			<Documentation>&lt;EPM-HTML&gt;
+Relationship to a spatial structure element, to which the grid is primarily associated.
+&lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#FF0000&quot;&gt;IFC2x PLATFORM CHANGE&amp;nbsp; The inverse relationship has been added to &lt;I&gt;IfcGrid&lt;/I&gt; with upward compatibility&lt;/font&gt;
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR41" UniqueId="2peyPNIafDYhL2CdQepuvf">
+			<Documentation>The placement for the grid has to be given.</Documentation>
+			<Expression>EXISTS(SELF\IfcProduct.ObjectPlacement)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

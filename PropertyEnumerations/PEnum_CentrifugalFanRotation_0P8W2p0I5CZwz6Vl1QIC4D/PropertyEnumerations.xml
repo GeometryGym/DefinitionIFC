@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CentrifugalFanRotation_0P8W2p0I5CZwz6Vl1QIC4D" Name="PEnum_CentrifugalFanRotation" UniqueId="192200b3-0121-4c8f-af46-7ef05a48c10d">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CLOCKWISE_3WDEKLj0WQsKjA0UwQSn" />
+		<DocPropertyConstant xsi:nil="true" href="COUNTERCLOCKWISE_008fd21FF8Fw2SrEv0gF" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

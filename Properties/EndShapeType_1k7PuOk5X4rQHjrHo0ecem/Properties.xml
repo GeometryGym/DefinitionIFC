@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="EndShapeType_1k7PuOk5X4rQHjrHo0ecem" Name="EndShapeType" UniqueId="6e1d9e18-b858-44d5-a46d-d51c80a26a30" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EndShapeType_1Vr6WAc16kxCDgUojVFim" />
+	</Enumeration>
+</DocProperty>
+

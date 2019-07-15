@@ -1,0 +1,119 @@
+<EPM-HTML>
+	 <P>The schema <I>IfcGeometryResource</I> defines the resources used for
+		geometric representations. The primary application of this resource is for
+		representation of the shape or geometric form of a product model.</P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF">NOTE: The definitions of this resource of
+		the IFC model have been taken from the Integrated Resource, part 42 "Integrated
+		generic resources: Geometric and topological representations" of the ISO
+		standard 10303: "Industrial automation systems and integration - Product data
+		representation and exchange". The IfcGeometryResource refers to the clause 4,
+		"Geometry" of the standard. The reference is ISO/IS 10303-42:1994, p. 11-121.
+		The improved definitions of the second edition, ISO/DIS 10303-42:1999 have been
+		used, when applicable.</FONT></BLOCKQUOTE> 
+	 <P>The definitions taken from ISO/IS 10303-42:1994 have undergone a
+		adaptation process, characterized by:</P> 
+	 <UL> 
+		<LI>adaptation of the IFC naming convention (inner majuscules and Ifc
+		  prefix)</LI> 
+		<LI>adaptation of the STEP entities, where multiple inheritance or
+		  non-exclusive inheritance (i.e. AND or ANDOR subtype constraints) are used</LI>
+		
+		<LI>selection of a subset of the IR, using subtype and select
+		  pruning</LI> 
+		<LI>dimensionality of geometric representation items defined at each item
+		  (not through the representation context)</LI> 
+		<LI>omission of pcurves, use of simple 2D curves for the generation of
+		  swept surfaces</LI> 
+		<LI>omission of the name attribute at the representation item</LI> 
+	 </UL> 
+	 <P>The following entities, defined in the Integrated Resources, part 43
+		"Integrated generic resources: Representation structures" have been
+		incorporated in this resource schema:</P> 
+	 <UL> 
+		<LI>representation_item as IfcRepresentationItem</LI> 
+		<LI>representation_map as IfcRepresentationMap</LI> 
+		<LI>mapped_item as IfcMappedItem</LI> 
+	 </UL> 
+	 <P>The geometric representation of the shape is defined following the
+		adaptation of the <B>ISO/CD 10303-42:1992</B>, <I>Industrial Automation Systems
+		and Integration: Product Data Representation and Exchange - Part 42: Integrated
+		Generic Resources. Geometric and Topological Representation</I>. The type,
+		class, and function semantic definition sections follow the adapted wording of
+		the working draft, which is clearly indicated and quoted at each reference. The
+		definitions on geometric and topological representation (when taken from ISO/CD
+		10303-42:1992) are explicitly excluded from the copyright of the International
+		Alliance of Interoperability. </P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF">For more information on the definitions
+		as defined in the formal ISO standard please refer to: ISO/IS 10303-42:1994,
+		Industrial Automation Systems and Integration: Product Data Representation and
+		Exchange - Part 42: Integrated Generic Resources. Geometric and Topological
+		Representation. The formal standard can be obtained through the local
+		publishers of standards in each individual country.</FONT> </BLOCKQUOTE> 
+	 <P>The following is within the scope of the geometric representation in the
+		current version of the geometry resource: </P> 
+	 <UL> 
+		<LI>definition of points directly by their coordinate values</LI> 
+		<LI>definition of directions, vectors, and axis placements </LI> 
+		<LI>definition of transformation operators</LI> 
+		<LI>definition of parametric curves (subset of) </LI> 
+		<LI> definition of conic curves and elementary surfaces (subset of) </LI>
+		
+		<LI> definition of curves defined on a parametric surface (adapted subset
+		  of) </LI> 
+		<LI>definition of swept surfaces (adapted subset of)</LI> 
+		<LI>definition of offset curves</LI> 
+	 </UL> 
+	 <P></P> 
+	 <H3>Definitions</H3> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF">NOTE: The following definitions are taken
+		from ISO/CD 10303-42:1992. Please refer to ISO/IS 10303-42:1994, p. 3-7 for the
+		final definition of the formal standard.</FONT></BLOCKQUOTE> 
+	 <P><B>placement coordinate system:</B><BR>a rectangular Cartesian
+		coordinate system associated with the placement of a geometric entity in space,
+		used to describe the interpretation of the attributes and to associate a unique
+		parameterization with curve and surface entities." </P> 
+	 <H3>Fundamental concepts and assumptions</H3> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF">NOTE: The following fundamental concepts
+		and assumptions are taken from ISO/CD 10303-42:1992. Please refer to ISO/IS
+		10303-42:1994, p. 12-14 for the final definition of the formal
+		standard.</FONT></BLOCKQUOTE>
+	 <BLOCKQUOTE><FONT COLOR="#0000FF">NOTE: Only the parts relevant to the
+		subset of ISO 10303-42 (which had been incorporated into the
+		IfcGeometryResource) are quoted.</FONT></BLOCKQUOTE> 
+	 <P><B>Space Dimensionality</B><BR>All geometry shall be defined in a
+		right-handed rectangular Cartesian coordinate system with the same units on
+		each axis. A common scheme has been used for the definition of both
+		two-dimensional and three-dimensional geometry. Points and directions exists in
+		both a two-dimensional and a three-dimensional form, these forms are
+		distinguished solely by the presence, or absence, of a third coordinate value.
+		Complex geometric entities are all defined using points and directions from
+		which their space dimensionality can be deduced.</P>
+	 <P><B>Parameterization of analytic curves and surfaces</B><BR>Each curve on
+		surface specified here has a defined parameterization. In some instances the
+		definitions are in parametric terms. In others, the conic curves and elementary
+		surfaces, the definitions are in geometric terms. In this latter case a
+		placement coordinate system is used to define the parameterization. The
+		geometric definitions contain some, but not all, of the data required for this.
+		The relevant data to define this placement coordinate system is contained in
+		the axis2_placement (IfcAxis2Placement) associated with the individual curve
+		and surface entities. </P> 
+	 <P><B>Curves</B><BR>The curve entities include lines, some elementary
+		conics, and some referentially or procedurally defined curves. All the curves
+		have a well defined parameterization which makes it possible to trim a curve or
+		identify points on the curve by parameter value. For the conic curves a method
+		of representation is used which separates their geometric form from their
+		orientation and position in space. In each case, the position and orientation
+		information is conveyed by an axis2_placement (IfcAxis2Placement). A composite
+		curve entity, which includes the facility to communicate continuity information
+		at the curve-to-curve transition points, is provided for the construction of
+		more complex curves. The offset curve type is a curve defined with reference to
+		other geometry. Separate offset curves entities exist for 2D and 3D
+		applications.</P>
+	 <P><B>Surfaces</B><BR>The simple surfaces are the planar surface, a surface
+		of revolution and a surface of linear extrusion. As with curves, all surfaces
+		have an associated standard parameterization. In many cases the surfaces, as
+		defined, are unbounded; it is assumed that they will be bounded either
+		explicitly or implicitly. Explicit bounding is achieved with the bounded
+		surface (here: plane); implicit bounding requires the association of additional
+		topological information to define a face.</P>
+</EPM-HTML>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AirFlowConfiguration_2IokOYt4f6afyYdLhWgODt" Name="AirFlowConfiguration" UniqueId="92cae622-dc4a-4692-9f22-9d5ae0a98377" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CooledBeamActiveAirFlowConfigurationType_11L0YV53b2k8ALhZ2ZKkAj" />
+	</Enumeration>
+</DocProperty>
+

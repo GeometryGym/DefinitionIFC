@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CapacityControlType_0ceA3ntzAJ9KRlYImX50T" Name="CapacityControlType" UniqueId="26a0a0ff-c77f-4a4c-951b-be24b084501d" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FanCapacityControlType_1BKibqBxX0YgEoOcZ4eyK" />
+	</Enumeration>
+</DocProperty>
+

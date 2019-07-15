@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCircle" UniqueId="3FBu$o$av5Af9qJlbYIhU1" DiagramNumber="5" BaseDefinition="IfcConic" EntityFlags="37">
+	<Attributes>
+		<DocAttribute Name="Radius" UniqueId="1AA00F0bv75wbzoUJEjhEL" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The radius of the circle, which shall be greater than zero.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

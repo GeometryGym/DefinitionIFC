@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SwitchingDeviceTypeSwitchDisconnector" UniqueId="ab70571f-a664-41ff-86c3-50ec3be01232" ApplicableType="IfcSwitchingDevice.Predefined=&quot;SWITCHDISCONNECTOR&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="SwitchDisconnectorType_2pUR9n3Lr44Q638iAG1dZx" />
+		<DocProperty xsi:nil="true" href="LoadDisconnectionType_1mTfWtqYr36OnfXdt6dVMH" />
+		<DocProperty xsi:nil="true" href="HasVisualIndication_3QUfM09GXBxgcN6DLpiU2p" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelConnectsWithEccentricity" UniqueId="1AxiDRNCr74wBW75LGiEro" DiagramNumber="1" BaseDefinition="IfcRelConnectsStructuralMember" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="ConnectionConstraint" UniqueId="1jplufmy1Fm9UMHfyriydG" DefinedType="IfcConnectionGeometry" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The connection constraint explicitly states the eccentricity between a structural element and a structural connection, either given by two point (used to calculate the eccentricity), or by explicit x, y, and z offsets.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

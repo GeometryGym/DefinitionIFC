@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SystemFurnitureElementTypeWorkSurface" UniqueId="2e9ff06b-413d-4265-8e3d-2729e7fc720d" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="UsePurpose_2kmz1xuqHAIBfVoxberBr3" />
+		<DocProperty xsi:nil="true" href="SupportType_0yXyljKlvAoBvEGw7kLrWL" />
+		<DocProperty xsi:nil="true" href="HangingHeight_1oEgPpanf6owGVx1S_sCD2" />
+		<DocProperty xsi:nil="true" href="NominalThickness_3lqallm6z7QBpgt4njNZR4" />
+		<DocProperty xsi:nil="true" href="ShapeDescription_03JXhra1X5XAXwZCp9ueoQ" />
+	</Properties>
+</DocPropertySet>
+

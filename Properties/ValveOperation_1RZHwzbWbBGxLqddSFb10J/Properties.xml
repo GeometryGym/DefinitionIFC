@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ValveOperation_1RZHwzbWbBGxLqddSFb10J" Name="ValveOperation" UniqueId="5b8d1ebd-9609-4b43-b574-9e770f941013" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ValveOperation_3MDiANr391VhfwVCm_rurB" />
+	</Enumeration>
+</DocProperty>
+

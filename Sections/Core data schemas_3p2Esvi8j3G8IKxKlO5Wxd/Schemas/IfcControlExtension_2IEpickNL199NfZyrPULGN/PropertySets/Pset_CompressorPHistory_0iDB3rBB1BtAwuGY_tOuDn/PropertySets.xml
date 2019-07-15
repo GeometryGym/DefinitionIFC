@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CompressorPHistory" UniqueId="2c34b0f5-2cb0-4bdc-aeb8-422fb7638371" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="CompressorCapacity_1marUJxQHFauKk9XSnr3hJ" />
+		<DocProperty xsi:nil="true" href="EnergyEfficiencyRatio_0Fh1yH49rANOrnRTFxJVH" />
+		<DocProperty xsi:nil="true" href="CoefficientOfPerformance_2HQJ_zg11JAHJpSFJJWj8" />
+		<DocProperty xsi:nil="true" href="VolumetricEfficiency_1MfAhsIdjADRqknEBloqOO" />
+		<DocProperty xsi:nil="true" href="CompressionEfficiency_0QO8c6_4HEd9iQqugsuyRx" />
+		<DocProperty xsi:nil="true" href="MechanicalEfficiency_3AkE0zFxb5ExRm8x4kjcy" />
+		<DocProperty xsi:nil="true" href="IsentropicEfficiency_2UGeqNF9vCkA_MloUfrYX8" />
+		<DocProperty xsi:nil="true" href="CompressorTotalEfficiency_0C6jOGqKj6pQ2fJIqS_BpM" />
+		<DocProperty xsi:nil="true" href="ShaftPower_3ABM8p1zbBGuur4wO1syaw" />
+		<DocProperty xsi:nil="true" href="InputPower_2p8WJ8XAD6EPyFfwALq5Si" />
+		<DocProperty xsi:nil="true" href="LubricantPumpHeatGain_3z_n3bDMT3HwFTsB0Bzb43" />
+		<DocProperty xsi:nil="true" href="FrictionHeatGain_3VlRh1TjAheF3axHKnHN4" />
+		<DocProperty xsi:nil="true" href="CompressorTotalHeatGain_3Fuqu8bXX7zu_ja6Zgmsiz" />
+		<DocProperty xsi:nil="true" href="FullLoadRatioCurve_11NbnkhV19aQnUEjA79mJb" />
+	</Properties>
+</DocPropertySet>
+

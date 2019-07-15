@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelDecomposes" UniqueId="20mID6WYvFBxhW85gyHKzz" DiagramNumber="5" BaseDefinition="IfcRelationship" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="0bDB0mqFf5zuaA5n9bj824" DefinedType="IfcRelAggregates" />
+		<DocSubtype UniqueId="3UiJezBSz0XAcCR0mF9O8b" DefinedType="IfcRelNests" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="RelatingObject" UniqueId="0Sz_LAZjb90uHJf4ERDNRF" DefinedType="IfcObjectDefinition" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The object that represents the nest or aggregation.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedObjects" UniqueId="1YofFXWDb5NBSA3pzdFble" DefinedType="IfcObjectDefinition" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The objects being nested or aggregated.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="2TstpPKzP1q8wFj9dhat9M">
+			<Documentation>&lt;EPM-HTML&gt;The instance to which the relation &lt;i&gt;RelatingObject&lt;/i&gt; points shall not be contained in the List of &lt;i&gt;RelatedObjects&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(Temp &lt;* RelatedObjects | RelatingObject :=: Temp)) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextPath" UniqueId="2HvTP9OAb03wmlFkzNarQo" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="LEFT_2juL_Us3zEGOtUPPTQYlTn" />
+		<DocConstant xsi:nil="true" href="RIGHT_0lI0htBpPFpwfejQnJ_7pl" />
+		<DocConstant xsi:nil="true" href="UP_1g1B_5tdr7vAegyRD3cv5K" />
+		<DocConstant xsi:nil="true" href="DOWN_1uA1k9JzzCs8fMGVK90vgt" />
+	</Constants>
+</DocEnumeration>
+

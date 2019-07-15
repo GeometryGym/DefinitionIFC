@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcClassificationReference" UniqueId="2NeWMZjCPF8h_0vnq8CJan" DiagramNumber="2" BaseDefinition="IfcExternalReference" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="ReferencedSource" UniqueId="3vsmB5RZD9uBryQ7qQy$V7" DefinedType="IfcClassification" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The classification system or source that is referenced.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

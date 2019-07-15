@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcHeatExchangerTypeEnum" UniqueId="3_c7xSFEz5Bubzlbn8qwh8" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="PLATE_2Dq8WKIP5EfmGGZh1ORyU" />
+		<DocConstant xsi:nil="true" href="SHELLANDTUBE_06IhszwRL7ovWQPx30V4H4" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0qFQFsdlb3JwZnpAl9Qi5x" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_15tdtJCqL2EwiPX7RKmoDh" />
+	</Constants>
+</DocEnumeration>
+

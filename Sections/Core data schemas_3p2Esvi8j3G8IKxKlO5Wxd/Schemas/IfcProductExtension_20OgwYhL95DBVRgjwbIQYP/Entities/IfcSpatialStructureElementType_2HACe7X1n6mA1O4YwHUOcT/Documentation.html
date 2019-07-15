@@ -1,0 +1,49 @@
+<EPM-HTML>
+    <p>
+      <u>Definition from IAI</u>: The element type
+      (<i>IfcSpatialStructureElementType</i>) defines a list of
+      commonly shared property set definitions of a spatial
+      structure element and an optional set of product
+      representations. It is used to define an element
+      specification (i.e. the specific element information, that
+      is common to all occurrences of that element type).
+    </p>
+    <blockquote>
+      <p>
+        <small>NOTE  The product representations are defined as
+        representation maps (at the level of the supertype
+        <i>IfcTypeProduct</i>, which gets assigned by an element
+        occurrence instance through the
+        <i>IfcShapeRepresentation.Item[1]</i> being an
+        <i>IfcMappedItem</i>.</small>
+      </p>
+    </blockquote>
+    <p>
+      A spatial structure element type is used to define the
+      common properties of a certain type of a spatial structure
+      element that may be applied to many instances of that type
+      to assign a specific style. Spatial structure element types
+      (i.e. the instantiable subtypes) may be exchanged without
+      being already assigned to occurrences.
+    </p>
+    <blockquote>
+      <p>
+        <small>NOTE  The spatial structure element types are
+        often used to represent catalogues of predefined spatial
+        types for shared attributes, less so for sharing a common
+        representation map.</small>
+      </p>
+    </blockquote>
+    <p>
+      The occurrences of subtypes of the
+      abstract <i>IfcSpatialStructureElementType</i> are
+      represented by instances of subtypes of
+      <i>IfcSpatialStructureElement</i>.
+    </p>
+    <blockquote>
+      <p>
+        <small><font color="#0000FF">HISTORY  New entity in
+        Release IFC2x Edition 3.</font></small>
+      </p>
+    </blockquote>
+</EPM-HTML>

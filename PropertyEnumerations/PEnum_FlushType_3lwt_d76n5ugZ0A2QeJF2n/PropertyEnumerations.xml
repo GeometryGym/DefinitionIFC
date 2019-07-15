@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FlushType_3lwt_d76n5ugZ0A2QeJF2n" Name="PEnum_FlushType" UniqueId="efeb7fa7-1c6c-45e2-a8c0-2826a84cf0b1">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Lever_3AdY5Jw_950BZTaCz58Dw" />
+		<DocPropertyConstant xsi:nil="true" href="Pull_23jYDOmBX4N9vO64Sh2Wv_" />
+		<DocPropertyConstant xsi:nil="true" href="Push_1qGDoIYOX7vvLj4VVeDCG" />
+		<DocPropertyConstant xsi:nil="true" href="Sensor_1AF8U2KyH7wuejng_0uk79" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

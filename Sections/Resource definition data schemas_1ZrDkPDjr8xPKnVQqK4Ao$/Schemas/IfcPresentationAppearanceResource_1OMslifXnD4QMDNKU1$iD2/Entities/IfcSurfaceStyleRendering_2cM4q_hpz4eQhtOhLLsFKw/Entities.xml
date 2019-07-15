@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceStyleRendering" UniqueId="2cM4q_hpz4eQhtOhLLsFKw" DiagramNumber="6" BaseDefinition="IfcSurfaceStyleShading" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Transparency" UniqueId="29nZFeYzvBsBqc$M$tNke4" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from ISO/CD 10303-46: The degree of transparency is indicated by the percentage of light traversing the surface.
+Definition from VRML97 - ISO/IEC 14772-1:1997: The transparency field specifies how &quot;clear&quot; an object is, with 1.0 being completely transparent, and 0.0 completely opaque. If not given, the value 0.0 (opaque) is assumed.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DiffuseColour" UniqueId="2QloWgpQn1eOEbVpKRoHON" DefinedType="IfcColourOrFactor" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The diffuse part of the reflectance equation can be given as either a colour or a scalar factor.
+The diffuse colour field reflects all light sources depending on the angle of the surface with respect to the light source. The more directly the surface faces the light, the more diffuse light reflects.
+The diffuse factor field specifies how much diffuse light from light sources this surface shall reflect. Diffuse light depends on the angle of the surface with respect to the light source. The more directly the surface faces the light, the more diffuse light reflects. The diffuse colour is then defined by surface colour * diffuse factor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TransmissionColour" UniqueId="0ulPBOVbL8Vezfmsa$RPP8" DefinedType="IfcColourOrFactor" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The transmissive part of the reflectance equation can be given as either a colour or a scalar factor. It only applies to materials which Transparency field is greater than zero.
+The transmissive colour field specifies the colour that passes through a transparant material (like the colour that shines through a glass).
+The transmissive factor defines the transmissive part, the transmissive colour is then defined by surface colour * transmissive factor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DiffuseTransmissionColour" UniqueId="028wY88KnCEBKXLNYmiazU" DefinedType="IfcColourOrFactor" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The diffuse transmission part of the reflectance equation can be given as either a colour or a scalar factor. It only applies to materials whose Transparency field is greater than zero.
+The diffuse transmission colour specifies how much diffuse light is reflected at the opposite side of the material surface.
+The diffuse transmission factor field specifies how much diffuse light from light sources this surface shall reflect on the opposite side of the material surface. The diffuse transmissive colour is then defined by surface colour * diffuse transmissive factor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ReflectionColour" UniqueId="0wUSo7k$HAwwr0I2xDD5KK" DefinedType="IfcColourOrFactor" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The reflection (or mirror) part of the reflectance equation can be given as either a colour or a scalar factor. Applies to &quot;glass&quot; and &quot;mirror&quot; reflection models.
+The reflection colour specifies the contribution made by light from the mirror direction, i.e. light being reflected from the surface.
+The reflection factor specifies the amount of contribution made by light from the mirror direction. The reflection colour is then defined by surface colour * reflection factor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SpecularColour" UniqueId="0_mDjQo793r9zlKI2_hORZ" DefinedType="IfcColourOrFactor" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The specular part of the reflectance equation can be given as either a colour or a scalar factor.
+The specular colour determine the specular highlights (e.g., the shiny spots on an apple). When the angle from the light to the surface is close to the angle from the surface to the viewer, the specular colour is added to the diffuse and ambient colour calculations.
+The specular factor defines the specular part, the specular colour is then defined by surface colour * specular factor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SpecularHighlight" UniqueId="2oZCLfmT1DiASpfD4i2ceb" DefinedType="IfcSpecularHighlightSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The exponent or roughness part of the specular reflectance.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ReflectanceMethod" UniqueId="2fWoGXi1rBVPVuw307GUOu" DefinedType="IfcReflectanceMethodEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of reflectance method from which the method required may be set.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

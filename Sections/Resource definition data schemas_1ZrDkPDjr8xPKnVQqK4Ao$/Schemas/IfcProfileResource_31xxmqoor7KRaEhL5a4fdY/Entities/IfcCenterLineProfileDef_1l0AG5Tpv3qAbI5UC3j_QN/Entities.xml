@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCenterLineProfileDef" UniqueId="1l0AG5Tpv3qAbI5UC3j_QN" DiagramNumber="6" BaseDefinition="IfcArbitraryOpenProfileDef" EntityFlags="37">
+	<Attributes>
+		<DocAttribute Name="Thickness" UniqueId="0NyoNV7Q99veTWXQmHShy7" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Constant thickness applied along the center line.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

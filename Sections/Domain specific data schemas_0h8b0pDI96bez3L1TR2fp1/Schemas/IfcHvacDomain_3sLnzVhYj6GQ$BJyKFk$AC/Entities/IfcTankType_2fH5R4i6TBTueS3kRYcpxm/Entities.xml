@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTankType" UniqueId="2fH5R4i6TBTueS3kRYcpxm" DiagramNumber="4" BaseDefinition="IfcFlowStorageDeviceType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="1eoD7BegLAIP98$DdhKAY8" DefinedType="IfcTankTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines the type of tank.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1J0KFQqFv2UPoQ$OzZ5tSV">
+			<Expression>(PredefinedType &lt;&gt; IfcTankTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcTankTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

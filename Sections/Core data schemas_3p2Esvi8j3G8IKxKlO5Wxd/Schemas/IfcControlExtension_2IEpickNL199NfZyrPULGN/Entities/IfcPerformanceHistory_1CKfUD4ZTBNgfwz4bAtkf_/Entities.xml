@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPerformanceHistory" UniqueId="1CKfUD4ZTBNgfwz4bAtkf_" DiagramNumber="1" BaseDefinition="IfcControl" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="LifeCyclePhase" UniqueId="0l61NvtHT8qehLhlEKkTiQ" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Describes the applicable building life-cycle phase. Typical values should be DESIGNDEVELOPMENT, SCHEMATICDEVELOPMENT, CONSTRUCTIONDOCUMENT, CONSTRUCTION, ASBUILT, COMMISSIONING, OPERATION, etc.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

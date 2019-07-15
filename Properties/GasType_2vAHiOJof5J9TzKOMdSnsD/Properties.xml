@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GasType_2vAHiOJof5J9TzKOMdSnsD" Name="GasType" UniqueId="b9291b18-4f2a-454c-977d-5185a7731d8d" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_GasType_2q6yLwT1H2PgHDKk7yzwxW" />
+	</Enumeration>
+</DocProperty>
+

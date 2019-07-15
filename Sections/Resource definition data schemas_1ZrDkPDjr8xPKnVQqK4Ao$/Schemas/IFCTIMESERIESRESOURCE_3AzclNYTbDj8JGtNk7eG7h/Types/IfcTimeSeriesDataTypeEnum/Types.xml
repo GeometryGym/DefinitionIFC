@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTimeSeriesDataTypeEnum" UniqueId="2z5llR1YrBshoi4VYujKla" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CONTINUOUS_1W5rKWe81Evh3QZkBI67Fm" />
+		<DocConstant xsi:nil="true" href="DISCRETE_2xQiMPbHCVO1Q8oJ4yEQI" />
+		<DocConstant xsi:nil="true" href="DISCRETEBINARY_1od2nv6xbEFgDdiBQ__Q43" />
+		<DocConstant xsi:nil="true" href="PIECEWISEBINARY_0rpDDCMH1AmvEZCSnnl" />
+		<DocConstant xsi:nil="true" href="PIECEWISECONSTANT_3Qc8VeeA19Q5O75eywMtR" />
+		<DocConstant xsi:nil="true" href="PIECEWISECONTINUOUS_0x7UkuAG14R9CWsqBpZlS5" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_197XFibRD5eR0B7va5adf2" />
+	</Constants>
+</DocEnumeration>
+

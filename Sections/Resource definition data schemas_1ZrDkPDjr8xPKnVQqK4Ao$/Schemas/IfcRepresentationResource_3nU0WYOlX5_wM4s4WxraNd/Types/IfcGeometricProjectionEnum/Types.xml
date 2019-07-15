@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcGeometricProjectionEnum" UniqueId="3fdrCtAET6AAe9PiaHrvWf" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="GRAPH_VIEW_0Ojs8veHH1FuvixLkIYjt" />
+		<DocConstant xsi:nil="true" href="SKETCH_VIEW_1swfsjKD9Blwv0JDlLQV4" />
+		<DocConstant xsi:nil="true" href="MODEL_VIEW_3a9elzwuvBQeceoh_5zOn5" />
+		<DocConstant xsi:nil="true" href="PLAN_VIEW_1kvWorVCr7oQQIM3UeNWMR" />
+		<DocConstant xsi:nil="true" href="REFLECTED_PLAN_VIEW_2FtSSAxcj0HwrCLrwwVRnE" />
+		<DocConstant xsi:nil="true" href="SECTION_VIEW_3PjdfvPr498kNu43Gui" />
+		<DocConstant xsi:nil="true" href="ELEVATION_VIEW_11ekAMOQb68OQ1ViC9bxb_" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3EJDucvPDYB_tljDX1dyE" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3L5tzUQsr0mxhHjOEW6luR" />
+	</Constants>
+</DocEnumeration>
+

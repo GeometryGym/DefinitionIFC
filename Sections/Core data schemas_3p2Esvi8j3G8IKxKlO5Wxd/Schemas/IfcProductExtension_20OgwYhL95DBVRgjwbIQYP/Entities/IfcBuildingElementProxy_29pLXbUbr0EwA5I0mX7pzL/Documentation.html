@@ -1,0 +1,190 @@
+<EPM-HTML>
+    <p>
+      <u>Definition from IAI</u>: The
+      <i>IfcBuildingElementProxy</i> is a proxy definition that
+      provides the same functionality as an
+      <i>IfcBuildingElement</i>, but without having a defined
+      meaning of the special type of building element, it
+      represents.
+    </p>
+    <blockquote>
+      <p>
+        <small>NOTE1 The <i>IfcBuildingElementProxy</i> should be
+        used to exchange special types of building elements for
+        which the current IFC Release does not yet provide a
+        semantic definition.</small>
+      </p>
+      <p>
+        <small>NOTE2 The <i>IfcBuildingElementProxy</i> can also
+        be used to represent building elements for which the
+        participating applications can not provide additional
+        semantic classification.</small>
+      </p>
+    </blockquote>
+    <blockquote>
+      <p>
+        <font color="#0000FF"><small>HISTORY New entity in IFC
+        Release 2x.</small></font>
+      </p>
+    </blockquote>
+    <p>
+      <b><u>Type Use Definition</u></b>
+    </p>
+    <p>
+      The <i>IfcBuildingElementProxy</i> defines the occurrence
+      of any building element, common information about the types
+      (or styles) is handled by
+      <i>IfcBuildingElementProxyType</i>.
+    </p>
+    <p>
+      The <i>IfcBuildingElementProxyType</i> (if present) may
+      establish the common type name, usage (or predefined) type,
+      common material, common set of properties and common shape
+      representations (using <i>IfcRepresentationMap</i>). The
+      <i>IfcBuildingElementProxyType</i> is attached using the
+      <i>IfcRelDefinedByType.RelatingType</i> objectified
+      relationship and is accessible by the inverse
+      <i>IsDefinedBy</i> attribute.
+    </p>
+    <blockquote>
+      <p>
+        <small>NOTE The <i>IfcBuildingElementProxyType</i> can be
+        used to share common information among many occurrences
+        of the same proxy without establishing a particular
+        semantic meaning of the type.</small>
+      </p>
+    </blockquote>
+    <p>
+      If no <i>IfcBuildingElementProxyType</i> is attached (i.e.
+      if only occurrence information is given) the predefined
+      type may be given by using the <i>ObjectType</i> attribute.
+    </p>
+    <p>
+      <u><b>Property Set Use Definition</b></u>:
+    </p>
+    <p>
+      The property sets relating to the <i>IfcBuildingElementProxy</i> are
+      defined by the <i>IfcPropertySet</i> and attached by the
+      <i>IfcRelDefinesByProperties</i> relationship. It is
+      accessible by the inverse <i>IsDefinedBy</i> relationship.
+      The following property set definitions specific to the
+      <i>IfcBuildingElementProxy/i> are part of this IFC release:
+    </p>
+    <ul>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_BuildingElementProxyCommon.xml"
+        target="SOURCE">Pset_BuildingElementProxyCommon</a>: common property set
+        for all occurrences of building element proxies.
+      </li>
+    </ul>
+    <p>
+      <u><b>Geometry Use Definitions</b></u>
+    </p>
+    <p>
+      The geometric representation of any
+      <i>IfcBuildingElementProxy</i> is given by the
+      <i>IfcProductDefinitionShape</i> and
+      <i>IfcLocalPlacement</i> allowing multiple geometric
+      representations. The representation types defined at the
+      supertype <i>IfcBuildingElement</i> also apply.
+    </p>
+    <p>
+      <b>Local Placement</b>
+    </p>
+    <p>
+      The local placement for any <i>IfcBuildingElementProxy</i>
+      is defined in its supertype <i>IfcProduct</i>. It is
+      defined by the <i>IfcLocalPlacement</i>, which defines the
+      local coordinate system that is referenced by all geometric
+      representations. The local placement can be given
+      relatively.
+    </p>
+    <ul>
+      <li>The <i>PlacementRelTo</i> relationship of
+      <i>IfcLocalPlacement</i> shall point (if given) to the
+      local placement of the same
+      <i>IfcSpatialStructureElement</i>, which is used in the <i>
+        ContainedInStructure</i> inverse attribute, or to a
+        spatial structure element at a higher level, referenced
+        by that.
+      </li>
+      <li>If the relative placement is not used, the absolute
+      placement is defined within the world coordinate system.
+      </li>
+    </ul>
+    <p>
+      <u><b>Geometric Representation</b></u>
+    </p>
+    <p>
+      Currently, the use of the representation types
+      'BoundingBox', 'GeometricSet', 'GeometricCurveSet',
+      'SweptSolid', 'SurfaceModel', 'Brep', and
+      'MappedRepresentation' are allowed. The geometry use
+      definitions for 'BoundingBox', 'SurfaceModel', 'Brep', and
+      'MappedRepresentation' are explained at the supertype
+      <i>IfcBuildingElement</i>.
+    </p>
+    <p>
+      <b>GeometricCurveSet Representation</b>
+    </p>
+    <p>
+      Any building element proxy may be represented by a
+      geometric curve set, given by a collection of 2D points and
+      curves. The following attribute values for the
+      <i>IfcShapeRepresentation</i> holding this geometric
+      representation shall be used:
+    </p>
+    <ul>
+      <li>
+        <i>RepresentationIdentifier</i>: 'FootPrint'
+      </li>
+      <li>
+        <i>RepresentationType</i>: 'GeometricCurveSet'
+      </li>
+    </ul>
+    <p>
+      <b>GeometricSet Representation</b>
+    </p>
+    <p>
+      Any building element proxy may be represented by a
+      geometric set, given by a collection of 2D and 3D points,
+      curves, and surfaces. It represents the body of the proxy
+      object, when no topological structure is available. The
+      following attribute values for the
+      <i>IfcShapeRepresentation</i> holding this geometric
+      representation shall be used:
+    </p>
+    <ul>
+      <li>
+        <i>RepresentationIdentifier</i>: 'Body'
+      </li>
+      <li>
+        <i>RepresentationType</i>: 'GeometricSet'
+      </li>
+    </ul>
+    <p>
+      <b>Swept Solid Representation</b>
+    </p>
+    <p>
+      Any building element proxy may be represented by swept
+      solid geometry (either by extrusion or by revolution). The
+      following attribute values for the
+      <i>IfcShapeRepresentation</i> holding this geometric
+      representation shall be used:
+    </p>
+    <ul>
+      <li>
+        <i>RepresentationIdentifier</i>: 'Body'
+      </li>
+      <li>
+        <i>RepresentationType</i>: 'SweptSolid'
+      </li>
+    </ul>
+    <p>
+      No further restrictions (e.g., for the profile or extrusion
+      direction) are defined at this level. A single or multiple
+      swept area solid(s) can be the <i>Items</i> of the
+      <i>IfcShapeRepresentation</i>.
+    </p>
+</EPM-HTML>

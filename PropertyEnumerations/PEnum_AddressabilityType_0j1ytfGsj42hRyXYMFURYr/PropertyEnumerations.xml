@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AddressabilityType_0j1ytfGsj42hRyXYMFURYr" Name="PEnum_AddressabilityType" UniqueId="2d07cde9-436b-440a-b6fc-86258f79b8b5">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Implemented_1kKzJvwdjFPhzAFzX4qaXA" />
+		<DocPropertyConstant xsi:nil="true" href="UpgradeableTo_3vAw9Om6j4Dhruwpf_JPXB" />
+		<DocPropertyConstant xsi:nil="true" href="NotImplemented_0rqOuT_nfAvfhBZZZO5KjB" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

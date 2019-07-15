@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMonthInYearNumber" UniqueId="01k3pBV6f5CxlniRdIYbq9" DiagramNumber="1" DefinedType="INTEGER" Length="0">
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="22QNfRNcvBAPM32gDgmwZC">
+			<Documentation>The value of integer shall be between 1 and 12.</Documentation>
+			<Expression>{ 1&lt;= SELF &lt;= 12 }</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocDefined>
+

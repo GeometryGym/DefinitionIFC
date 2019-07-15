@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSimpleValue" UniqueId="2a0Oh1F6126OXAtNIaVSUv" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcInteger" UniqueId="069q4i5AbFdOtWZTfRBYfk" />
+		<DocSelectItem Name="IfcReal" UniqueId="3PBrDiMM5Emh4xu5FFws2S" />
+		<DocSelectItem Name="IfcBoolean" UniqueId="3YLayod9r99fGM6cAFzxVR" />
+		<DocSelectItem Name="IfcIdentifier" UniqueId="3FzR1GWAvD3B2JmRBDIwai" />
+		<DocSelectItem Name="IfcText" UniqueId="2ZoOKaBRP6dBNAZWoelc47" />
+		<DocSelectItem Name="IfcLabel" UniqueId="2uG5XCCzj2le8l6$xR46XR" />
+		<DocSelectItem Name="IfcLogical" UniqueId="1PSQHI6wv3VRxKGKw1Z$ND" />
+	</Selects>
+</DocSelect>
+

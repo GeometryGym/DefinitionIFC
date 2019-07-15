@@ -1,0 +1,74 @@
+<EPM-HTML>
+<p> <u>Definition from IAI:</u> A part of the
+foundation of a structure
+that spreads and transmits the load directly to the soil. </p>
+<blockquote><font color="#0000ff" size="-1">
+HISTORY New entity in IFC
+Release 2x2 </font></blockquote>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to the <i>IfcFooting</i>
+are defined by the
+<i>IfcPropertySet</i> and attached by the <i>IfcRelDefinesByProperties</i>
+relationship. It is accessible by the inverse <i>IsDefinedBy</i>
+relationship.
+The following property set definitions specific to the <i>IfcFooting</i>
+are part
+of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcStructuralElementsDomain/Pset_ReinforcementBarCountOfIndependentFooting.xml"
+ target="SOURCE">Pset_ReinforcementBarCountOfIndependentFooting</a>:
+property set for independent
+    <i>IfcFooting</i> occurrences.</li>
+  <li><a
+ href="../../psd/IfcStructuralElementsDomain/Pset_ReinforcementBarPitchOfContinuousFooting.xml"
+ target="SOURCE">Pset_ReinforcementBarPitchOfContinuousFooting</a>:
+property set for continuous
+    <i>IfcFooting</i> occurrences.</li>
+</ul>
+<p><b>Geometry Use Definitions:</b></p>
+<p> The geometric representation of <i>IfcFooting</i>
+is given by the
+<i>IfcProductDefinitionShape</i>, allowing multiple
+geometric representations.
+Included are: </p>
+<p><u>Local Placement</u><br>
+The local placement for <i>IfcFooting</i> is
+defined in its supertype <i>IfcProduct</i>. It is defined
+by the
+<i>IfcLocalPlacement</i>, which defines the local
+coordinate system that is
+referenced by all geometric representations. </p>
+<ul>
+  <li>The <i>PlacementRelTo</i> relationship of <i>IfcLocalPlacement</i>
+shall point (if given) to the local placement of the same
+    <i>IfcSpatialStructureElement</i>, which is used in the
+    <i>ContainedInStructure</i> inverse attribute, or to a
+spatial structure
+element at a higher level, referenced by that. </li>
+  <li>If the relative placement is not used, the absolute
+placement is
+defined within the world coordinate system. </li>
+</ul>
+<p><u>Standard Geometric Representation</u><br>
+Provided that it is
+possible the standard geometric representation of <i>IfcFooting</i>
+is defined
+using the swept solid representation. The <i>RepresentationType</i>
+attribute
+of <i>IfcShapeRepresentation</i> should have the value
+'SweptSolid'. The
+following constraints apply to the standard representation: </p>
+<ul>
+  <li><u>Solid:</u> <i>IfcExtrudedAreaSolid</i>
+shall be supported </li>
+  <li><u>Profile:</u> All applicable profile types
+shall be supported </li>
+  <li><u>Extrusion:</u> All extrusion directions
+shall be supported. </li>
+</ul>
+<p> If it is impossible to define the geometry using the swept
+solid
+representation the representations defined in its supertype
+<i>IfcBuildingElement</i> may be used. </p>
+</EPM-HTML>

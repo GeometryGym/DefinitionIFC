@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SwitchActivation_0HuXyyENH96xUWCFDaxGrE" Name="PEnum_SwitchActivation" UniqueId="11e21f3c-3974-491b-b7a0-30f364ed0d4e">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Actuator_0USZvF_3L8yR1cWDmQQsLf" />
+		<DocPropertyConstant xsi:nil="true" href="Foot_1XNGfxfY56wAg7nov0PSEd" />
+		<DocPropertyConstant xsi:nil="true" href="Hand_2P7UdNhjHCDuGZ3fYvMgZ7" />
+		<DocPropertyConstant xsi:nil="true" href="Proximity_033hOHYRfFMgtn_treFm" />
+		<DocPropertyConstant xsi:nil="true" href="Sound_3wse2LzZD8Zwk06yyqco7" />
+		<DocPropertyConstant xsi:nil="true" href="TwoHand_25E6f3Mzj3Su1KjJkerET7" />
+		<DocPropertyConstant xsi:nil="true" href="Wire_0sDFPDO9j1XgFkhKaLvRT7" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

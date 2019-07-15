@@ -1,0 +1,48 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: A property with a single value
+		(<I>IfcPropertySingleValue</I>) defines a property object which has a single
+		(numeric or descriptive) value assigned. It defines a property - single value
+		combination for which the property name, the value with measure type (and
+		optionally the unit) is given.</P> 
+	 <P>The unit is handled by the <I>Unit</I> attribute:</P> 
+	 <UL> 
+		<LI>If the <I>Unit</I> attribute is not given, then the unit is already
+		  implied by the type of <I>IfcMeasureValue</I> or <I>IfcDerivedMeasureValue</I>.
+		  The associated unit can be found at the <I>IfcUnitAssignment</I> globally
+		  defined at the project level (<I>IfcProject.UnitsInContext</I>).</LI> 
+		<LI> If the <I>Unit</I> attribute is given, then the unit assigned by the
+		  <I>Unit</I> attribute overrides the globally assigned unit.</LI> 
+	 </UL> 
+	 <P>Examples of a property with single value are:</P> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2" BORDER="1"> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" WIDTH="15%"><B>Name</B></TD> 
+		  <TD VALIGN="TOP" WIDTH="30%"><B>NominalValue</B></TD> 
+		  <TD VALIGN="TOP" WIDTH="25%"><B>Type <BR></B><FONT SIZE="-1">(through
+			 <I>IfcValue</I>)</FONT></TD> 
+		  <TD VALIGN="TOP" WIDTH="30%"><B>Unit <BR></B></TD> 
+		</TR> 
+		<TR> 
+		  <TD WIDTH="15%">Description</TD> 
+		  <TD WIDTH="30%">Manufacturer "A" door</TD> 
+		  <TD WIDTH="25%"><I>IfcLabel</I></TD> 
+		  <TD WIDTH="30%">-</TD> 
+		</TR> 
+		<TR> 
+		  <TD WIDTH="15%">PanelThickness</TD> 
+		  <TD WIDTH="30%">0.12</TD> 
+		  <TD WIDTH="25%"><I>IfcPositiveLengthMeasure</I></TD> 
+		  <TD WIDTH="30%">- </TD> 
+		</TR> 
+		<TR> 
+		  <TD WIDTH="15%">ThermalTransmittance</TD> 
+		  <TD WIDTH="30%">2.6</TD> 
+		  <TD WIDTH="25%"><I>IfcThermalTransmittanceMeasure</I></TD> 
+		  <TD WIDTH="30%">W/(m<SUP>2</SUP>K)</TD> 
+		</TR> 
+	 </TABLE> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New entity in IFC Release
+		  1.0. The entity has been renamed from IfcSimpleProperty in IFC Release
+		  2x</FONT></P> </BLOCKQUOTE>
+</EPM-HTML>

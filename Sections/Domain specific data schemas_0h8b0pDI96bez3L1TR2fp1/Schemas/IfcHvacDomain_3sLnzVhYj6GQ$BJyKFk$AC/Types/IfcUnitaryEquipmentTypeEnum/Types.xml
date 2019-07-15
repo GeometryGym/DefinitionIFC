@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcUnitaryEquipmentTypeEnum" UniqueId="0EoST$oQ18SesRw1ON4CwK" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="AIRHANDLER_2t1r3D2SD5NfwJm_8zY4w1" />
+		<DocConstant xsi:nil="true" href="AIRCONDITIONINGUNIT_2O3D3t9MX4XB9JeQpDcYo" />
+		<DocConstant xsi:nil="true" href="SPLITSYSTEM_0HGJOqNT80vo6BD9dXhLH" />
+		<DocConstant xsi:nil="true" href="ROOFTOPUNIT_0ulvQrsTn0897fQUgKvypC" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0pZgBU5l9CoPsxwIwCung" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0pfJPkIxfD7Rl_nqMdI1UL" />
+	</Constants>
+</DocEnumeration>
+

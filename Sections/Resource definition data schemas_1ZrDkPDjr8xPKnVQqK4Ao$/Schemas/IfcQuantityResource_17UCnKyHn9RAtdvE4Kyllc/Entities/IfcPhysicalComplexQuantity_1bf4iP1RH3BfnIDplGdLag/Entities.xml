@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPhysicalComplexQuantity" UniqueId="1bf4iP1RH3BfnIDplGdLag" DiagramNumber="1" BaseDefinition="IfcPhysicalQuantity" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="HasQuantities" UniqueId="2$TzYxN3H1VhEAFdjy_HmA" DefinedType="IfcPhysicalQuantity" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Set of physical quantities that are grouped by this complex physical quantity according to a given discrimination.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Discrimination" UniqueId="2yCgJ_40v73xYZzCaUDfB4" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identification of the discrimination by which this physical complex property is distinguished. Examples of discriminations are &apos;layer&apos;, &apos;steel bar diameter&apos;, etc.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Quality" UniqueId="1iePqRa1v2fAvaSZ9_2CkQ" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Additional indication of a quality of the quantities that are grouped under this physical complex quantity.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Usage" UniqueId="2Xuk$aEOTDY8WD2r$HE3JY" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Additional indication of a usage type of the quantities that are grouped under this physical complex quantity.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="3SP5CMgLH8CfrCULXsl_$4">
+			<Documentation>The IfcPhysicalComplexQuantity should not reference itself within the list of HasQuantities.</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* HasQuantities | SELF :=: temp)) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

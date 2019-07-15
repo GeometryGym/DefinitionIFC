@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FlueType_1Zq4kpk5P7yAMuA9JwxF4_" Name="PEnum_FlueType" UniqueId="63d04bb3-b856-47f0-a5b8-2894faecf13e">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BALANCEDFLUE_1OZR5ZvWD0wgvoLTuQYqUQ" />
+		<DocPropertyConstant xsi:nil="true" href="FLUED_3QxoSxyf7pe8riti9Gtly" />
+		<DocPropertyConstant xsi:nil="true" href="FLUELESS_3ie03ZA3DDaf8wYOyQWKoH" />
+		<DocPropertyConstant xsi:nil="true" href="OPENFLUED_1Wr9waVXn2NOYdJkwycT2K" />
+		<DocPropertyConstant xsi:nil="true" href="ROOMSEALED_3NbEjjRN91MhOI_yJB9Utz" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

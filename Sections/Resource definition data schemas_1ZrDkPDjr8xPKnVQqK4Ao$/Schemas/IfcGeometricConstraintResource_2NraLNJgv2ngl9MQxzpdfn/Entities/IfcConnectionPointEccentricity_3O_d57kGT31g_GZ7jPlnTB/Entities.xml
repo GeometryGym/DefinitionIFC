@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConnectionPointEccentricity" UniqueId="3O_d57kGT31g_GZ7jPlnTB" DiagramNumber="2" BaseDefinition="IfcConnectionPointGeometry" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="EccentricityInX" UniqueId="2KFAX6EVfC59MkqBUBqlRf" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Distance in x direction between the two points (or vertex points) engaged in the point connection.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="EccentricityInY" UniqueId="2eO5kfqXn1HxsXGCKnGTXM" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Distance in y direction between the two points (or vertex points) engaged in the point connection.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="EccentricityInZ" UniqueId="0LFrBc3gv3dxDU1ZvJXi3D" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Distance in z direction between the two points (or vertex points) engaged in the point connection.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

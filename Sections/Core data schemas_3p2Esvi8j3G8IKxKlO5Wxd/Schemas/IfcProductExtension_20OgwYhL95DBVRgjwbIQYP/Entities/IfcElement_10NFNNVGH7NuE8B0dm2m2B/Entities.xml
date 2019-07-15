@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElement" UniqueId="10NFNNVGH7NuE8B0dm2m2B" DiagramNumber="1" BaseDefinition="IfcProduct" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="3V2U1$oEf7VwVfF8ZqP9VU" DefinedType="IfcBuildingElement" />
+		<DocSubtype UniqueId="1GQC9$UBP29BJeO5HLTdmH" DefinedType="IfcFurnishingElement" />
+		<DocSubtype UniqueId="2p_1L0bfPAR8GKC7DZd7pV" DefinedType="IfcElectricalElement" />
+		<DocSubtype UniqueId="2Aiuw_n29BWeeGvL5Tq45u" DefinedType="IfcDistributionElement" />
+		<DocSubtype UniqueId="0X9pbrY_X3jwdGuqkiztBu" DefinedType="IfcTransportElement" />
+		<DocSubtype UniqueId="05c1SJsJL32fOVBQqCKnAk" DefinedType="IfcEquipmentElement" />
+		<DocSubtype UniqueId="1DWHugXhDBgASdMW_fNQ2g" DefinedType="IfcFeatureElement" />
+		<DocSubtype UniqueId="1deTS3vFnFgv2kZyiBQs$U" DefinedType="IfcElementAssembly" />
+		<DocSubtype UniqueId="3yiGmyM0P5OO911xkj6bvZ" DefinedType="IfcVirtualElement" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Tag" UniqueId="2ei4FC719BixEV5N$URcrR" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The tag (or label) identifier at the particular instance of a product, e.g. the serial number, or the position number. It is the identifier at the occurrence level.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HasStructuralMember" UniqueId="18z88g8X12Dg8eSXNyL1jQ" DefinedType="IfcRelConnectsStructuralElement" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingElement" />
+		<DocAttribute Name="FillsVoids" UniqueId="3_Xw0sv5fBH9L8Xud0L7K9" DefinedType="IfcRelFillsElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedBuildingElement">
+			<Documentation>Reference to the Fills Relationship that puts the Element into the Opening within another Element.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConnectedTo" UniqueId="2ST4fbKaz34Q24HigoThIj" DefinedType="IfcRelConnectsElements" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingElement">
+			<Documentation>Reference to the element connection relationship. The relationship then refers to the other element to which this element is connected to.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HasCoverings" UniqueId="0N9ishOED2LuK4h3yqWUlm" DefinedType="IfcRelCoversBldgElements" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingBuildingElement">
+			<Documentation>&lt;EPM-HTML&gt;
+Reference to &lt;i&gt;IfcCovering&lt;/i&gt; by virtue of the objectified relationship &lt;i&gt;IfcRelCoversBldgElement&lt;/i&gt;. It defines the concept of an element having coverings attached.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HasProjections" UniqueId="31siSHAiD87O0N_d2kevms" DefinedType="IfcRelProjectsElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingElement">
+			<Documentation>&lt;EPM-HTML&gt;
+Projection relationship that adds a feature (using a Boolean union) to the &lt;I&gt;IfcBuildingElement&lt;/I&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ReferencedInStructures" UniqueId="3Lzq6crcj0EPZ3joO8$gmp" DefinedType="IfcRelReferencedInSpatialStructure" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedElements">
+			<Documentation>&lt;EPM-HTML&gt;
+Reference relationship to the spatial structure element, to which the element is additionally associated.
+&lt;blockquote&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;small&gt;
+IFC2x Edition 3 CHANGE&amp;nbsp; The inverse attribute has been added with upward compatibility for file based exchange.
+&lt;small&gt;&lt;/font&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HasPorts" UniqueId="2q1j8hd4zDnQun6zR8mgvB" DefinedType="IfcRelConnectsPortToElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedElement">
+			<Documentation>Reference to the element to port connection relationship. The relationship then refers to the port which is contained in this element.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HasOpenings" UniqueId="1S6ZH$01L6sBY0R4Z2Qs50" DefinedType="IfcRelVoidsElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingBuildingElement">
+			<Documentation>Reference to the Voids Relationship that creates an opening in an element. An element can incorporate zero-to-many openings.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsConnectionRealization" UniqueId="20gSRhhaz6VO8lHNmXNUn1" DefinedType="IfcRelConnectsWithRealizingElements" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RealizingElements">
+			<Documentation>Reference to the connection relationship with realizing element. The relationship then refers to the realizing element which provides the physical manifestation of the connection relationship.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ProvidesBoundaries" UniqueId="3Am0RKA65F2eSPHX$0LPMh" DefinedType="IfcRelSpaceBoundary" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedBuildingElement">
+			<Documentation>Reference to Space Boundaries by virtue of the objectified relationship IfcRelSeparatesSpaces. It defines the concept of an Building Element bounding Spaces.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConnectedFrom" UniqueId="2Y8gwG7xrCahw1DrJMQ2ml" DefinedType="IfcRelConnectsElements" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedElement">
+			<Documentation>Reference to the element connection relationship. The relationship then refers to the other element that is connected to this element.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ContainedInStructure" UniqueId="09i0uMAvH1YQO6vPEK7O9_" DefinedType="IfcRelContainedInSpatialStructure" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedElements">
+			<Documentation>&lt;EPM-HTML&gt;
+Containment relationship to the spatial structure element, to which the element is primarily associated.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_DamperBladeAction_2IdkXCNWLDRRycrXBFPbHR" Name="PEnum_DamperBladeAction" UniqueId="929ee84c-5e05-4d6d-bf26-d612cf66545b">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FOLDINGCURTAIN_15xaTii3fBgAVUrEasewyY" />
+		<DocPropertyConstant xsi:nil="true" href="PARALLEL_2M_8qhqrf5ZhW77Jr4o6mO" />
+		<DocPropertyConstant xsi:nil="true" href="OPPOSED_1pfTZEgeb8U8i7uhFmgLIv" />
+		<DocPropertyConstant xsi:nil="true" href="SINGLE_2B2JaUhnP0wctG6mvLbJz" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

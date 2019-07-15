@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Activation_1OeIHHK_D4DQb4a30IhVP1" Name="Activation" UniqueId="58a12451-53e3-4435-a944-903012adf641" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SprinklerActivation_3iI7pgLwLCKx48cN77wvg7" />
+	</Enumeration>
+</DocProperty>
+

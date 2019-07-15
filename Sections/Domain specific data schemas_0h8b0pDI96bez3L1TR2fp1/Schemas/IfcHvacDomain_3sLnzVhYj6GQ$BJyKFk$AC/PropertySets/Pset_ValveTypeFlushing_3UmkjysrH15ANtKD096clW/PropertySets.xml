@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValveTypeFlushing" UniqueId="dec2eb7c-db54-4114-a5f7-50d0091a6be0" ApplicableType="IfcValve.Predefined=&quot;FLUSHING&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FlushingRate_39Y2MVhSTFEB_s7b5zbzPn" />
+		<DocProperty xsi:nil="true" href="HasIntegralShutOffDevice_1NL5W13gTCReErI4QxummF" />
+		<DocProperty xsi:nil="true" href="IsHighPressure_23b9TAJhX3NvKjh3D2Z37v" />
+	</Properties>
+</DocPropertySet>
+

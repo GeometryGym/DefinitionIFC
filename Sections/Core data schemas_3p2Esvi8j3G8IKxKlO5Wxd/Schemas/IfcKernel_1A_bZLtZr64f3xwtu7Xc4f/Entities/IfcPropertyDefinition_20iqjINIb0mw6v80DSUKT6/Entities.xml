@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPropertyDefinition" UniqueId="20iqjINIb0mw6v80DSUKT6" DiagramNumber="2" BaseDefinition="IfcRoot" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="21GBIx80b1lAT$Jjs5psJq" DefinedType="IfcPropertySetDefinition" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="HasAssociations" UniqueId="0E1q1J4jv08ere03Qeu0UA" DefinedType="IfcRelAssociates" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedObjects">
+			<Documentation>Reference to the relationship IfcRelAssociates and thus to those externally defined concepts, like classifications, documents, or library information, which are associated to the property definition.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

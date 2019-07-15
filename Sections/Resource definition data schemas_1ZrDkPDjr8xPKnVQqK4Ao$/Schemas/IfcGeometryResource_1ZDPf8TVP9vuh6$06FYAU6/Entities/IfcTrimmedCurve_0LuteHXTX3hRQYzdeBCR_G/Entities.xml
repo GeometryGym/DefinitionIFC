@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTrimmedCurve" UniqueId="0LuteHXTX3hRQYzdeBCR_G" DiagramNumber="6" BaseDefinition="IfcBoundedCurve" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="BasisCurve" UniqueId="09WKE_j4X9$9fXzRY40BpW" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The curve to be trimmed. For curves with multiple representations any parameter values given as Trim1 or Trim2 refer to the master representation of the BasisCurve only.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Trim1" UniqueId="09SbE80gzCP9zAGj7CEdwQ" DefinedType="IfcTrimmingSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="2">
+			<Documentation>The first trimming point which may be specified as a Cartesian point, as a real parameter or both.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Trim2" UniqueId="0mGRlgpiv4GR$Kr8JPiYiD" DefinedType="IfcTrimmingSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="2">
+			<Documentation>The second trimming point which may be specified as a Cartesian point, as a real parameter or both.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SenseAgreement" UniqueId="19sFPjLafEL9oaec7y4rcm" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Flag to indicate whether the direction of the trimmed curve agrees with or is opposed to the direction of the basis curve.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MasterRepresentation" UniqueId="3h48aSomj7AeP64pBhhzaO" DefinedType="IfcTrimmingPreference" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Where both parameter and point are present at either end of the curve this indicates the preferred form.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR41" UniqueId="1soydPn$LEPBuaiT04$n8g">
+			<Documentation>Either a single value is specified for Trim1, or the two trimming values are of different type (point and parameter)</Documentation>
+			<Expression>(HIINDEX(Trim1) = 1) OR (TYPEOF(Trim1[1]) &lt;&gt; TYPEOF(Trim1[2]))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR42" UniqueId="23NxfyZr91cftb3gih2sGL">
+			<Documentation>Either a single value is specified for Trim2, or the two trimming values are of different type (point and parameter)</Documentation>
+			<Expression>(HIINDEX(Trim2) = 1) OR (TYPEOF(Trim2[1]) &lt;&gt; TYPEOF(Trim2[2]))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR43" UniqueId="2OuSSM8O1DuBrzkpWWEd9l">
+			<Documentation>Only line and conic curves should be trimmed, not other bounded curves. NOTE: This is an additional constraint of IFC.</Documentation>
+			<Expression>NOT(&apos;IFCGEOMETRYRESOURCE.IFCBOUNDEDCURVE&apos; IN TYPEOF(BasisCurve))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

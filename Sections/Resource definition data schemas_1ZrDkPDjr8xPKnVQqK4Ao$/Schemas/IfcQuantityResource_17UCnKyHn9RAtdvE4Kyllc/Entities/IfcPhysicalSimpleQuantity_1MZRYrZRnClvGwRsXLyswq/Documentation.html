@@ -1,0 +1,25 @@
+<EPM-HTML>
+
+	 <P><U>Definition from IAI</U>: The physical quantity,
+		<I>IfcPhysicalSimpleQuantity</I>, is an entity that holds a single quantity
+		measure value (as defined at the subtypes of <I>IfcPhysicalSimpleQuantity</I>)
+		together with a semantic definition of the usage for the measure value.</P> 
+	 <BLOCKQUOTE><FONT SIZE="-1">EXAMPLE: An element, like a wall, may have
+		several area measures, like footprint area, left wall face area, right wall
+		face area. These areas would be given by three instances of the area quantity
+		subtype, with different <I>Name</I> string values.</FONT></BLOCKQUOTE>
+	 <P>A section "Quantity Use Definition" at individual entities as subtypes
+		of <I>IfcBuildingElement</I> gives guidance to the usage of the <I>Name</I>
+		attribute to characterize the individual quantities. If the <I>Unit</I>
+		attribute is given, the value attribute (introduced at the level of subtypes of
+		<I>IfcPhysicalSimpleQuantity</I>) are given as quantities of this unit,
+		otherwise the global unit definitions (given by <I>IfcUnitAssignment</I>) are
+		used.</P>
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY New entity in IFC Release 2x2
+		  Addendum 1. </FONT> </P></BLOCKQUOTE>
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#FF0000" SIZE="-1">IFC2x2 ADDENDUM 1 CHANGE The abstract
+		  entity <I>IfcPhysicalSimpleQuantity</I> has been added. Upward compatibility
+		  for file based exchange is guaranteed.</FONT></P></BLOCKQUOTE>
+</EPM-HTML>

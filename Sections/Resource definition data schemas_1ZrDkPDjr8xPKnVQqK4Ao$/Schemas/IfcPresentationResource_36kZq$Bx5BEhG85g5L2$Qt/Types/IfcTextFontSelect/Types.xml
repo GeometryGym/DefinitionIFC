@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextFontSelect" UniqueId="2yiPA50Jz7ZAsMKlGpRMP1" DiagramNumber="1">
+	<Selects>
+		<DocSelectItem Name="IfcPreDefinedTextFont" UniqueId="29bwYFF6135vkI3IQHo_ht" />
+		<DocSelectItem Name="IfcExternallyDefinedTextFont" UniqueId="0NeLkKkhvFj8pxKM1XVUmV" />
+	</Selects>
+</DocSelect>
+

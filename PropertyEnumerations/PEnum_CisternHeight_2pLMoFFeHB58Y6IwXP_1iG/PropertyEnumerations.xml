@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CisternHeight_2pLMoFFeHB58Y6IwXP_1iG" Name="PEnum_CisternHeight" UniqueId="b3556c8f-3e84-4b14-8886-4ba859f81b10">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="HighLevel_2KBpsCb01E2QscL_EX26dH" />
+		<DocPropertyConstant xsi:nil="true" href="LowLevel_0Q3edxDhrFSeAp0X749GJE" />
+		<DocPropertyConstant xsi:nil="true" href="None_02B7G4D496ZuJthZiyykNT" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ValveMechanism_0QxSHEFP5tQEUuCknBt9u" Name="ValveMechanism" UniqueId="1aedc44e-3ff6-45dd-a39e-e0cbb12f7278" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ValveMechanism_3Ibge0AHz3dAvKQUfZMbCo" />
+	</Enumeration>
+</DocProperty>
+

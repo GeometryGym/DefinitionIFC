@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcFooting_3gPOGjcJfDMwc48X3cDvMA" Name="IfcFooting" UniqueId="3gPOGjcJfDMwc48X3cDvMA" DiagramNumber="1" BaseDefinition="IfcBuildingElement" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="1NYzoBouLCHgE3fBxM8M2R" DefinedType="IfcFootingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The generic type of the footing.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="0ze$wZaT15QQn_QcaTolJ0">
+			<Documentation>The attribute ObjectType shall be given, if the predefined type is set to USERDEFINED.</Documentation>
+			<Expression>(PredefinedType &lt;&gt; IfcFootingTypeEnum.USERDEFINED) OR ((PredefinedType = IfcFootingTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcObject.ObjectType)) </Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

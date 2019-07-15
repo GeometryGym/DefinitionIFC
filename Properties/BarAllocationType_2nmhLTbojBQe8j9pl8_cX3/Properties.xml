@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BarAllocationType_2nmhLTbojBQe8j9pl8_cX3" Name="BarAllocationType" UniqueId="b1c2b55d-972b-4b6a-822d-273bc8fa6843" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ReinforcementBarAllocationType_0432gVM7PBjwSj8pL8CiX" />
+	</Enumeration>
+</DocProperty>
+

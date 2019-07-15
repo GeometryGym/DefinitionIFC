@@ -1,0 +1,114 @@
+<EPM-HTML> 
+    <p>
+      <u>Definition from IAI</u>: A zone (<i>IfcZone</i>) is an
+      aggregation of spaces, partial spaces or other zones. Zone
+      structures may not be hierarchical (in contrary to the
+      spatial structure of a project - see
+      <i>IfcSpatialStructureElement</i>), i.e. one individual
+      <i>IfcSpace</i> may be associated with zero, one, or
+      several <i>IfcZone</i>'s. <i>IfcSpace</i>'s are aggregated
+      into an <i>IfcZone</i> by using the objectified
+      relationship <i>IfcRelAssignsToGroup</i> as specified at
+      the supertype <i>IfcGroup</i>.
+    </p>
+    <blockquote>
+        <small>NOTE  Certain use cases may restrict the freedom
+        of non hierarchical relationships. In some building
+        service use cases the zone denotes a view based delimited
+        volume for the purpose of analysis and calculation. This
+        type of zone cannot overlap with respect to that
+        analysis, but may overlap otherwise.</small>
+    </blockquote>
+    <blockquote>
+        <small>NOTE  One of the purposes of a zone is to
+        define a fire compartmentation. In this case it defines
+        the geometric information about the fire compartment
+        (through the contained spaces) and information, whether
+        this compartment is ventilated or sprinkler protected. In
+        addition the fire risk code and the hazard type can be
+        added, the coding is normally defined within a national
+        fire regulation. All that information is available within
+        the relevant property sets.</small>
+    </blockquote>
+    <blockquote>
+        <small>RECOMMENDATION  In case of a zone
+        denoting a (fire) compartment, the following types should
+        be used, if applicable, as values of the
+        <i>ObjectType</i> attribute:</small>
+      <ul>
+        <li>
+          <small>FireCompartment - a zone of spaces,
+          collected to represent a single fire
+          compartment.</small>
+        </li>
+        <li>
+          <small>ElevatorShaft - a collection of spaces
+          within an elevator, potentially going through many
+          storeys.</small>
+        </li>
+        <li>
+          <small>RisingDuct</small>
+        </li>
+        <li>
+          <small>RunningDuct</small>
+        </li>
+      </ul>
+    </blockquote>
+    <p>
+      Additional classifications of the <i>IfcZone</i>, as
+      provided by a national classification system, can be
+      assigned by using the <i>IfcRelAssociatesClassification</i>
+      relationship.
+    </p>
+    <blockquote>
+        <small><font color="#0000FF">HISTORY New entity in IFC
+        Release 1.0</font></small>
+    </blockquote>
+    <p>
+      <u><b>Property Set Use Definition</b></u>:
+    </p>
+    <p>
+      The property sets relating to the <i>IfcZone</i> are
+      defined by the <i>IfcPropertySet</i> and attached by the
+      <i>IfcRelDefinesByProperties</i> relationship. It is
+      accessible by the inverse <i>IsDefinedBy</i> relationship.
+      The following property set definitions specific to the
+      <i>IfcZone</i> are part of this IFC release:
+    </p>
+    <ul>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_ZoneCommon.xml"
+        target="SOURCE">Pset_ZoneCommon</a>: common property set
+        for all types of zone
+      </li>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_SpaceFireSafetyRequirements.xml"
+        target="SOURCE">Pset_SpaceFireSafetyRequirements</a>:
+        common property set for all types of zones to capture the
+        fire safety requirements
+      </li>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_SpaceLightingRequirements.xml"
+        target="SOURCE">Pset_SpaceLightingRequirements</a>:
+        common property set for all types of zones to capture the
+        lighting requirements
+      </li>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_SpaceOccupancyRequirements.xml"
+        target="SOURCE">Pset_SpaceOccupancyRequirements</a>:
+        common property set for all types of zones to capture the
+        occupancy requirements
+      </li>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_SpaceThermalRequirements.xml"
+        target="SOURCE">Pset_SpaceThermalRequirements</a>: common
+        property set for all types of zones to capture the
+        thermal requirements
+      </li>
+    </ul>
+</EPM-HTML>

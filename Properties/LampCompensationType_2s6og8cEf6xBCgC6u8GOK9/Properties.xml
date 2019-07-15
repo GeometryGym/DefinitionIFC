@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="LampCompensationType_2s6og8cEf6xBCgC6u8GOK9" Name="LampCompensationType" UniqueId="b61b2a88-98ea-46ec-b32a-306e08418509" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_LampCompensationType_05hK3LjJz3reKHDjl8LSzi" />
+	</Enumeration>
+</DocProperty>
+

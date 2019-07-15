@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ActuatorTypeRotationalActuation" UniqueId="10d7d438-743c-455b-b496-211ae4c80ee3" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Torque_3Ozj1yxf9CCRBQbGL9MrcC" />
+		<DocProperty xsi:nil="true" href="RangeAngle_31z1br9AD2JPRX6wc6wSV" />
+	</Properties>
+</DocPropertySet>
+

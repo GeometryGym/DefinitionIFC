@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelConnectsPathElements" UniqueId="0eYvpLrRfBBeVtxwqrQpPN" DiagramNumber="5" BaseDefinition="IfcRelConnectsElements" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="RelatingPriorities" UniqueId="1XIGTld018P8ghohbXd8bo" DefinedType="INTEGER" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="0" AggregationUpper="0">
+			<Documentation>Priorities for connection. It refers to the layers of the RelatingObject.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedPriorities" UniqueId="1_1bRAJBT8BhGmXO14R6Px" DefinedType="INTEGER" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="0" AggregationUpper="0">
+			<Documentation>Priorities for connection. It refers to the layers of the RelatedObject.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedConnectionType" UniqueId="1UtzJkuobFkAu8LKmFY$Dk" DefinedType="IfcConnectionTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Indication of the connection type in relation to the path of the RelatingObject.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatingConnectionType" UniqueId="06Dw1cA319bfE7_wuo1JsX" DefinedType="IfcConnectionTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Indication of the connection type in relation to the path of the RelatingObject.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

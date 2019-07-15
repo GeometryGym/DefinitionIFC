@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLibrarySelect" UniqueId="0etlGDC$L5iBYRC2wd1aoS" DiagramNumber="1">
+	<Selects>
+		<DocSelectItem Name="IfcLibraryReference" UniqueId="1HKjAlRGrFm8QXDSOfRxj2" />
+		<DocSelectItem Name="IfcLibraryInformation" UniqueId="1mf0_rl$vElvjk26mgDQ5I" />
+	</Selects>
+</DocSelect>
+

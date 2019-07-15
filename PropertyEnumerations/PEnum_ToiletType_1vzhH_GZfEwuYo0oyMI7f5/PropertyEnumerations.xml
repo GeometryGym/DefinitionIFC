@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ToiletType_1vzhH_GZfEwuYo0oyMI7f5" Name="PEnum_ToiletType" UniqueId="79f6b47e-423a-4eeb-88b2-032f16487a45">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BedPanWasher_0cy_TUHNv52AWvcTT1WX2X" />
+		<DocPropertyConstant xsi:nil="true" href="Chemical_1lotGKZ2X6TerASQdkwJhs" />
+		<DocPropertyConstant xsi:nil="true" href="CloseCoupled_2s7UJw2ej5IeGTV05jOD1g" />
+		<DocPropertyConstant xsi:nil="true" href="LooseCoupled_3nOSdoao95qxdB9pE_Goob" />
+		<DocPropertyConstant xsi:nil="true" href="SlopHopper_0G7d5Dniv5BA5jaRTxKXvm" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

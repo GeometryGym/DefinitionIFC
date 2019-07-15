@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_WasteTerminalTypeGullySump" UniqueId="9744dbda-d89d-477c-8707-9aaee90c05f8" ApplicableType="IfcWasteTerminal.Predefined=&quot;GULLYSUMP&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalSumpLength_1RmdDm8K15RQ4Lo5XD1ZOv" />
+		<DocProperty xsi:nil="true" href="NominalSumpWidth_1LPtsnKxP4PP2L1l8j4Dmf" />
+		<DocProperty xsi:nil="true" href="NominalSumpDepth_1iBB6gRnL83gRVFNz6OToZ" />
+		<DocProperty xsi:nil="true" href="SumpMaterial_1JBezBHC0xUQQnj2yeCr" />
+		<DocProperty xsi:nil="true" href="GullyType_2OnYrM6gL4lP4A995C9mlP" />
+		<DocProperty xsi:nil="true" href="TrapType_1jP7j_vxn53P2qkwud9nDz" />
+		<DocProperty xsi:nil="true" href="OutletConnectionSize_2J63wtnjXFbO5z4dcfvuvp" />
+		<DocProperty xsi:nil="true" href="BackInletPatternType_2K5b7dwaX6oeuVO4Wc3Am7" />
+		<DocProperty xsi:nil="true" href="InletConnectionSize_0iugfV0nH4lRmmpVrOLvN" />
+		<DocProperty xsi:nil="true" href="CoverLength_0peZU2V5XCSQs3QZC0Jxr" />
+		<DocProperty xsi:nil="true" href="CoverWidth_3BfUjQgcHFFvuZ5sSsOpLz" />
+		<DocProperty xsi:nil="true" href="CoverMaterial_0m2Gyjx2zEhedcqu7LRRu" />
+	</Properties>
+</DocPropertySet>
+

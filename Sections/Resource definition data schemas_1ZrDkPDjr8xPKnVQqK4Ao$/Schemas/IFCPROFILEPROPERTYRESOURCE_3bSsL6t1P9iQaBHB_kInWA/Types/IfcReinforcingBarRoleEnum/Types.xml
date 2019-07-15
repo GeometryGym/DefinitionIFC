@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReinforcingBarRoleEnum" UniqueId="1XcByaZ7T58eAoDYzj0KVK" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="MAIN_003JCsV94tAefmkFT43Is" />
+		<DocConstant xsi:nil="true" href="SHEAR_0ZXrQMCXHCNeLlSTG2hSWo" />
+		<DocConstant xsi:nil="true" href="LIGATURE_3oUU7401X49BRXEEifmkTL" />
+		<DocConstant xsi:nil="true" href="STUD_2TNexdxCHDSeSaDTq7SrLF" />
+		<DocConstant xsi:nil="true" href="PUNCHING_3OfoME2cf8iv_fcBXv3_Vp" />
+		<DocConstant xsi:nil="true" href="EDGE_1o2CrLr9TCnPUW0Qqeu_M6" />
+		<DocConstant xsi:nil="true" href="RING_0ku5TopR94l8mIO_mDhIIU" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0FHwjCAef2xguRi9daYrXg" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_11mut_EHDBuVP1X_NII9Q" />
+	</Constants>
+</DocEnumeration>
+

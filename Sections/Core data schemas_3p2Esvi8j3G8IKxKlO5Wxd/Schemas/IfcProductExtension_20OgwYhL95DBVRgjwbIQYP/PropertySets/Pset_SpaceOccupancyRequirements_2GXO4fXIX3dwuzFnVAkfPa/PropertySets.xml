@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SpaceOccupancyRequirements" UniqueId="90858129-8528-439f-ae3d-3f17caba9664" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="OccupancyType_0vuwjqn4jFdRSkGpmZPRgd" />
+		<DocProperty xsi:nil="true" href="OccupancyNumber_31Y9Q2bM53ielt7IIUWyvW" />
+		<DocProperty xsi:nil="true" href="OccupancyNumberPeak_3nTr2l7G11Sx4Z8EiH8jlv" />
+		<DocProperty xsi:nil="true" href="OccupancyTimePerDay_0h8vk991DB2OQmwJICriLI" />
+		<DocProperty xsi:nil="true" href="AreaPerOccupant_23avDGBbX5yRHX6t9gyLME" />
+		<DocProperty xsi:nil="true" href="MinimumHeadroom_2ipodBAjAw85jSVLyBHUU" />
+		<DocProperty xsi:nil="true" href="IsOutlookDesirable_0NzuxfXLbBgfDOGtwE7wYL" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoundaryCondition" UniqueId="2Sly1_qCjBbv2iN90YLSBW" DiagramNumber="3" EntityFlags="133">
+	<Subtypes>
+		<DocSubtype UniqueId="0wSHLpt1L4v9$lhmJ8rHwD" DefinedType="IfcBoundaryNodeCondition" />
+		<DocSubtype UniqueId="1_F1SF4Vj8De8acfiz6KnF" DefinedType="IfcBoundaryEdgeCondition" />
+		<DocSubtype UniqueId="3yKeTievn0pvtx1yRxCzUx" DefinedType="IfcBoundaryFaceCondition" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="0MBuz_xO98$PSHYuNUywsk" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optionally defines a name for this boundary condition.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

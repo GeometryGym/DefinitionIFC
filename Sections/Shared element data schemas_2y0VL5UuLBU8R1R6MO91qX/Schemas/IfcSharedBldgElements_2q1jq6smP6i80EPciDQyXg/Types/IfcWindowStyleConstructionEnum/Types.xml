@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowStyleConstructionEnum" UniqueId="0uO0iTUWPC080nEBvPfqj0" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ALUMINIUM_1rsFnsPIDFrh9k9NQENYuv" />
+		<DocConstant xsi:nil="true" href="HIGH_GRADE_STEEL_37jYFz5Gf1HPN1JC7NAFQj" />
+		<DocConstant xsi:nil="true" href="STEEL_0apfVYrxz39gtiwjM5EGXq" />
+		<DocConstant xsi:nil="true" href="WOOD_3w9588wjE98bsBOIbtv6l" />
+		<DocConstant xsi:nil="true" href="ALUMINIUM_WOOD_3sWoMKGvn9wQBjVZtTseO" />
+		<DocConstant xsi:nil="true" href="PLASTIC_2ZVucyJj5F4A7G4iuO4mHu" />
+		<DocConstant xsi:nil="true" href="OTHER_CONSTRUCTION_2qv7iFPhH3UvWuS6OYKh0f" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0PgfkdK45FnQ6YMfrl1q3o" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PackingCareType_3Gs1CzziD55A1SQUaHuG08" Name="PackingCareType" UniqueId="d0d8133d-f6c3-4514-a05c-69e911e10008" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PackingCareType_3NqDzSYaXAUgCvMbUuso23" />
+	</Enumeration>
+</DocProperty>
+

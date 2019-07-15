@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcEdgeLoop" UniqueId="28eiWzCF5AQRgE3wN7Ujun" DiagramNumber="2" BaseDefinition="IfcLoop" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="EdgeList" UniqueId="2lAXVmZ91EBwylg0xOwiNL" DefinedType="IfcOrientedEdge" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>A list of oriented edge entities which are concatenated together to form this path.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Ne" UniqueId="2dVuw92eL7ahLC0ilvEP8D" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The number of elements in the edge list.</Documentation>
+			<Derived>SIZEOF(EdgeList)</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1LvbzwWanBSvmW3Drly_KP">
+			<Documentation>The start vertex of the first edge shall be the same as the end vertex of the last edge. This ensures that the path is closed to form a loop.</Documentation>
+			<Expression>(EdgeList[1].EdgeStart) :=: (EdgeList[Ne].EdgeEnd)</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR2" UniqueId="3p9RvpjTzDuA3pXstJ$6Is">
+			<Documentation>The end vertex of each edge shall be the same as the start vertex of its successor.</Documentation>
+			<Expression>IfcLoopHeadToTail(SELF)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

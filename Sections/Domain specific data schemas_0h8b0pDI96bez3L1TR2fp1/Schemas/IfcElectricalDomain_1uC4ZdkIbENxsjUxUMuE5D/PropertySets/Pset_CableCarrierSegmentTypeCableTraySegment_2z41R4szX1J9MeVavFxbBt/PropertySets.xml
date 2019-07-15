@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CableCarrierSegmentTypeCableTraySegment" UniqueId="bd1016c4-dbd8-414c-95a8-7e4e4fee52f7" ApplicableType="IfcCableCarrierSegment.Predefined=&quot;CABLETRAYSEGMENT&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalLength_1YWMyF4X60RaRwOPS5My" />
+		<DocProperty xsi:nil="true" href="NominalWidth_0i2ojLegjFOPv6uNk2tKXY" />
+		<DocProperty xsi:nil="true" href="NominalHeight_3Lo9TkairFqQahpgTtic2Z" />
+		<DocProperty xsi:nil="true" href="HasCover_3_32jqJH9dQWwR7wQabIS" />
+	</Properties>
+</DocPropertySet>
+

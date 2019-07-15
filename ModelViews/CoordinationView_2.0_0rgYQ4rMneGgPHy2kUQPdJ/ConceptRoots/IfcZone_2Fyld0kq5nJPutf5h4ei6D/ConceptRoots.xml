@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcZone" UniqueId="2Fyld0kq5nJPutf5h4ei6D">
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcZone_3WJHG3OOHCXAT7NisVg9m" />
+	<Concepts>
+		<DocTemplateUsage Name="GUIDs" UniqueId="03rsOyoEF$JAOkokPaIm3b">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="GUIDs_3ga6tg4StYIufm5WIFj2n" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="History" UniqueId="2NUm7p_ZaKGRY5NwDYllwz">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="History_3bM8g3QTayJ8izxZxrVS7D" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Naming" UniqueId="0ulij1qJiDJurdfFqfXhik">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Naming_1fiLy1E_xgG8Yri7hKbQbF" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="1C9Inh4WTjIwMfUi1pTx5Z">
+			<Documentation>&lt;p&gt;
+	Specific to IfcZone: the IfcZone shall not have a material assigned.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_0yeRPqKZxpHvDGWFMJYeW2" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="excluded">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="excluded">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Classification" UniqueId="2wOyUW2JBBI9T9bpTfBxRe">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_18q586v0n3IxsF4lccHDhM" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Type" UniqueId="1FkrjYtNdvGuQTmZIWuA_u">
+			<Documentation>&lt;p&gt;
+	Specific to IfcZone: The IfcZone shall not have a type assigned.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Type_2PARYuEXvIPQDg8u9Rt1n" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="excluded">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="excluded">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="1397e16c-9968-4645-9050-17c3b5d2dd08" Type="IfcZone" />
+</DocConceptRoot>
+

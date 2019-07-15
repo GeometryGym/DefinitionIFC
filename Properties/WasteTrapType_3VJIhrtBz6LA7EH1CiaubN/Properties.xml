@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="WasteTrapType_3VJIhrtBz6LA7EH1CiaubN" Name="WasteTrapType" UniqueId="df4d2af5-dcbf-4654-a1ce-44132c938957" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TrapType_0KXUIHCL52dAJKj6QUhE8D" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStackTerminalTypeEnum" UniqueId="10fFZudmLABerig_P2TPpI" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BIRDCAGE_1cS31MsCHEP8rNdLxeutw" />
+		<DocConstant xsi:nil="true" href="COWL_0BppNtOur7Lw5VvaPIZij4" />
+		<DocConstant xsi:nil="true" href="RAINWATERHOPPER_1x0a4GCoHDQx9xV5X8D80M" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2fqXMGOZ97hQ4WYg_PTYMi" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0q37_95gL6lPnFla2MOOTh" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCircleProfileDef" UniqueId="1pEHcUboDFjhxWu5yGsvdy" DiagramNumber="2" BaseDefinition="IfcParameterizedProfileDef" EntityFlags="109">
+	<Subtypes>
+		<DocSubtype UniqueId="2wtrelRH10gRU73K7mnXL6" DefinedType="IfcCircleHollowProfileDef" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Radius" UniqueId="3qjv3achvCQ8kCpE_bj5Wn" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The radius of the circle.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RentalRatesInCategoryFuture_32lazqDbfAo8P5wLghAtZg" Name="RentalRatesInCategoryFuture" UniqueId="c2be4f74-365a-4ac8-8645-e95aab2b78ea" PropertyType="p_boundedvalue" PrimaryDataType="IfcMonetaryMeasure" />
+

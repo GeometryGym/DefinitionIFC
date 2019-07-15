@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_BeamCommon" UniqueId="385ea31c-922b-4648-bff3-00699f9dfa17" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_2S0Bwz0EfA1us3OzKRBzub" />
+		<DocProperty xsi:nil="true" href="Span_3EwQRHRMb7kAKlLY9BKA" />
+		<DocProperty xsi:nil="true" href="Slope_1aafJ49HFZg8bkiIMY28m" />
+		<DocProperty xsi:nil="true" href="IsExternal_2o5zJNDGr1RBUCN4XZhWBR" />
+		<DocProperty xsi:nil="true" href="LoadBearing_0kMU2qX5FevNkhyJRPVXF" />
+		<DocProperty xsi:nil="true" href="FireRating_2nLt_iq2v0LxY_dEGUqFGB" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowLiningProperties" UniqueId="3cLgL8Wur5I9hojQKIdzLG" DiagramNumber="4" BaseDefinition="IfcPropertySetDefinition" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="LiningDepth" UniqueId="39OR3bP8v5LhT2RK1Cygcm" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Depth of the window lining (dimension measured perpendicular to window elevation plane).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LiningThickness" UniqueId="3$in5ysiP4GPuWbI$zk6dx" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness of the window lining (measured parallel to the window elevation plane).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TransomThickness" UniqueId="1YCovMFNj8wwChvlxjDv7f" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness of the transom (horizontal separator of window panels within a window), measured parallel to the window elevation plane. The transom is part of the lining and the transom depth is assumed to be identical to the lining depth.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MullionThickness" UniqueId="1$8YadTVr5ffZlbrpaM5P9" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness of the mullion (vertical separator of window panels within a window), measured parallel to the window elevation plane. The mullion is part of the lining and the mullion depth is assumed to be identical to the lining depth.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FirstTransomOffset" UniqueId="207G$yAOH5ngByBJCgKr3L" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Offset of the transom centerline, measured along the z-axis of the window placement co-ordinate system. An offset value = 0.5 indicates that the transom is positioned in the middle of the window.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SecondTransomOffset" UniqueId="23RlLvtav1fwtTjLtgLjB4" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Offset of the transom centerline for the second transom, measured along the x-axis of the window placement co-ordinate system. An offset value = 0.666 indicates that the second transom is positioned at two/third of the window.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FirstMullionOffset" UniqueId="2Hbu5JU5bDTRIkygk6frKu" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Offset of the mullion centerline, measured along the x-axis of the window placement co-ordinate system. An offset value = 0.5 indicates that the mullion is positioned in the middle of the window.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SecondMullionOffset" UniqueId="2Zd8JamCD80QnU8HAGTsen" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Offset of the mullion centerline for the second mullion, measured along the x-axis of the window placement co-ordinate system. An offset value = 0.666 indicates that the second mullion is positioned at two/third of the window.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ShapeAspectStyle" UniqueId="0rULfssMb54OrZiYlHMEIJ" DefinedType="IfcShapeAspect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional link to a shape aspect definition, which points to the part of the geometric representation of the window style, which is used to represent the lining.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="2YQVYwuu566RwA7jcbyQrA">
+			<Documentation>&lt;EPM-HTML&gt;
+Either both parameter, &lt;i&gt;LiningDepth&lt;/i&gt; and &lt;i&gt;LiningThickness&lt;/i&gt; are given, or only the &lt;i&gt;LiningThickness&lt;/i&gt;, then the &lt;i&gt;LiningDepth&lt;/i&gt; is variable. It is not valid to only assert the &lt;i&gt;LiningDepth&lt;/i&gt;.
+
+&lt;blockquote&gt;&lt;small&gt;NOTE&amp;nbsp; A &lt;i&gt;LiningDepth&lt;/i&gt; with NIL ($) value indicates a window style with a lining equal to the wall thickness.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>NOT(NOT(EXISTS(LiningDepth)) AND EXISTS(LiningThickness))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR32" UniqueId="19Ksoc3ND58Ap$RDE4ZLqy">
+			<Documentation>&lt;EPM-HTML&gt;
+Either both parameter, &lt;i&gt;FirstTransomOffset&lt;/i&gt; and &lt;i&gt;SecondTransomOffset&lt;/i&gt; are given, or only the &lt;i&gt;FirstTransomOffset&lt;/i&gt;, or none of both. It is not valid to only assert the &lt;i&gt;SecondTransomOffset&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>NOT(NOT(EXISTS(FirstTransomOffset)) AND EXISTS(SecondTransomOffset))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR33" UniqueId="0FH0isDsn128cenGuhjNSK">
+			<Documentation>&lt;EPM-HTML&gt;
+Either both parameter, &lt;i&gt;FirstMullionOffset&lt;/i&gt; and &lt;i&gt;SecondMullionOffset&lt;/i&gt; are given, or only the &lt;i&gt;FirstMullionOffset&lt;/i&gt;, or none of both. It is not valid to only assert the &lt;i&gt;SecondMullionOffset&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>NOT(NOT(EXISTS(FirstMullionOffset)) AND EXISTS(SecondMullionOffset))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR34" UniqueId="2kRtlqDBf8uemFQOcrazi$">
+			<Documentation>&lt;EPM-HTML&gt;
+The &lt;i&gt;IfcWindowLiningProperties&lt;/i&gt; shall only be used in the context of an &lt;i&gt;IfcWindowStyle&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>EXISTS(SELF\IfcPropertySetDefinition.DefinesType[1]) AND 
+(&apos;IFCSHAREDBLDGELEMENTS.IFCWINDOWSTYLE&apos; IN TYPEOF(SELF\IfcPropertySetDefinition.DefinesType[1]))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

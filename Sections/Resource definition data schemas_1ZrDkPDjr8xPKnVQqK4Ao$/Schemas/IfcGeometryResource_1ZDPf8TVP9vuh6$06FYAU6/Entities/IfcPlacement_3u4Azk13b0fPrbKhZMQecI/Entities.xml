@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlacement" UniqueId="3u4Azk13b0fPrbKhZMQecI" DiagramNumber="3" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="3UzQRR0Wn1fwPMSkmT4VIE" DefinedType="IfcAxis1Placement" />
+		<DocSubtype UniqueId="0hnSI4gUb6YgsOW8B5AwDy" DefinedType="IfcAxis2Placement2D" />
+		<DocSubtype UniqueId="0aFShJ_ff7pxrQq_0J_XO5" DefinedType="IfcAxis2Placement3D" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Location" UniqueId="09QuJTsdv95QJ8RYZpqq9p" DefinedType="IfcCartesianPoint" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The geometric position of a reference point, such as the center of a circle, of the item to be located.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="11wK1Dx61AM9_UPm8kcECK" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, derived from the dimensionality of the location.</Documentation>
+			<Derived>Location.Dim</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

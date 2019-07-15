@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSystem_1BhkCgHHH3bxMGY9XekA87" Name="IfcSystem" UniqueId="1BhkCgHHH3bxMGY9XekA87" DiagramNumber="3" BaseDefinition="IfcGroup" EntityFlags="37">
+	<Attributes>
+		<DocAttribute Name="ServicesBuildings" UniqueId="3W72airnP0R9Xfv8Yruc0$" DefinedType="IfcRelServicesBuildings" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatingSystem">
+			<Documentation>&lt;EPM-HTML&gt;Reference to the &lt;strike&gt;building&lt;/strike&gt; spatial structure via the objectified relationship &lt;i&gt;IfcRelServicesBuildings&lt;/i&gt;, which is serviced by the system.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

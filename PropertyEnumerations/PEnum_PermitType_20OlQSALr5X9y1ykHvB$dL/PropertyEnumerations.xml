@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_PermitType_20OlQSALr5X9y1ykHvBdL" Name="PEnum_PermitType" UniqueId="8062f69c-295d-4584-9f01-f2e4792ff9d5">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Access_1S8iJldEfEy9AAw4EPy4X" />
+		<DocPropertyConstant xsi:nil="true" href="Work_0EPkKsmxHFov3dGKoDytKr" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValveTypeAirRelease" UniqueId="fb076522-63e6-4afa-9e01-6caf2bb1c45d" ApplicableType="IfcValve.Predefined=&quot;AIRRELEASE&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="IsAutomatic_3NHXmnye959OgNZC71wGq5" />
+	</Properties>
+</DocPropertySet>
+

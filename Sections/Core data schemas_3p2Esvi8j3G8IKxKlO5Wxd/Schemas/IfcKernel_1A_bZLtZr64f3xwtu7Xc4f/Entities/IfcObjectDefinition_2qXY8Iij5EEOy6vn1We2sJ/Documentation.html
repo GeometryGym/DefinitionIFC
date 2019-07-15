@@ -1,0 +1,43 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI</u>: An <i>IfcObjectDefinition</i>
+is the generalization of any semantically treated thing or process,
+either being a type or an occurrences. Object defintions can be named,
+using the inherited <i>Name</i>
+attribute, which should be a user recognizable label for the object
+occurrence. Further explanations to the object can be given using the
+inherited <i>Description</i>
+attribute.&nbsp;</p>
+<p>Objects are independent pieces
+of information that might contain or reference other pieces of
+information. There are three essential kinds of relationships in which
+object definitions (by their instantiable subtypes) can be involved:</p>
+<ul>
+  <li><b>Assignment
+of other objects</b> - an assignment
+relationship (<i>IfcRelAssigns</i>) that
+refers to other types of objects and creates a bi-directional
+association. The semantic of the assignment is established at the level
+of the subtypes of the general <i>IfcRelAssigns</i>
+relationship. There is no dependency implied a priori by the assignment.</li>
+  <li><b>Association
+to external resources</b> - an
+association relationship (<i>IfcRelAssociates</i>)
+that refers to external sources of information (most notably a
+classification
+or document) and creates a uni-directional association. There is no
+dependency implied by the association.</li>
+  <li><b>Aggregation
+of other objects</b> - an
+aggregation relationship (<i>IfcRelDecomposes</i>)
+that establishes a whole/part relation and creates a bi-directional
+relation. There is an implied dependency established.</li>
+</ul>
+<blockquote><small> <font color="#0000ff">HISTORY&nbsp;
+New abstract entity in Release IFC2x Edition 3. </font><br>
+  <font color="#ff0000">IFC2x Edition 3
+CHANGE&nbsp; The
+abstract entity <i>IfcObjectDefinition&nbsp;</i>has
+been added. Upward compatibility for file
+based exchange is guaranteed.</font> </small></blockquote>
+</EPM-HTML>

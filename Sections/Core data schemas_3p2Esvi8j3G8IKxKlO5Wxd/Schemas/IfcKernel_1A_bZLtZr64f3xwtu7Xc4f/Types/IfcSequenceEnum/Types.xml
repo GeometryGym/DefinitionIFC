@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSequenceEnum" UniqueId="1KCDp27_z8dAngoj9ElyiK" DiagramNumber="6">
+	<Constants>
+		<DocConstant xsi:nil="true" href="START_START_03OWClsoH5QgVGPjcvhyfc" />
+		<DocConstant xsi:nil="true" href="START_FINISH_2PonkTJB91IOXbaoCrh6Uj" />
+		<DocConstant xsi:nil="true" href="FINISH_START_0SBIYTsLr5n9_qXXBxWX6t" />
+		<DocConstant xsi:nil="true" href="FINISH_FINISH_0Jd0Rmnsj5YQJ400rU_XrL" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3HucJsuPCxOWUbai6mOIW" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PipeConnectionEnum_2AxbDQOfzAKhlH6c9i3qew" Name="PipeConnectionEnum" UniqueId="8aee535a-629f-4a52-bbd1-1a626c0f4a3a" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CooledBeamPipeConnection_1HiTdFywb8fh6R9KWiMr2X" />
+	</Enumeration>
+</DocProperty>
+

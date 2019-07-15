@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_EvaporatorCoolant_3Om8UJF69BW9dQ0Br3USN3" Name="PEnum_EvaporatorCoolant" UniqueId="d8c08793-3c62-4b80-99da-00bd4379c5c3">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="WATER_1r73f6EDr68eXpHrZQeQu1" />
+		<DocPropertyConstant xsi:nil="true" href="BRINE_1MpQz6hAH1qOgrpe4P05PZ" />
+		<DocPropertyConstant xsi:nil="true" href="GLYCOL_1GjDeFDKb5KhvIRv6BElEt" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

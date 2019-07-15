@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ReinforcementBarPitchOfContinuousFooting" UniqueId="ca7c1e27-a2a4-4c5c-a240-868dc9a136f1" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Description_0kTycsW2TEofAdb4rwz5cR" />
+		<DocProperty xsi:nil="true" href="Reference_1OrF2gvJT6eaHVif_i842" />
+		<DocProperty xsi:nil="true" href="CrossingUpperBarPitch_1zmcmbtUn9MAtTVVc_xVME" />
+		<DocProperty xsi:nil="true" href="CrossingLowerBarPitch_3cBpGrW352txOyw4fnoPYx" />
+	</Properties>
+</DocPropertySet>
+

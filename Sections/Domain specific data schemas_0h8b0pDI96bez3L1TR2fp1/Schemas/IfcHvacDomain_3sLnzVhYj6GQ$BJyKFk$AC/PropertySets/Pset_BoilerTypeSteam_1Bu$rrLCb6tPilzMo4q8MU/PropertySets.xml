@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_BoilerTypeSteam" UniqueId="4be3fd75-54c9-46dd-9b2f-f56c84d0859e" ApplicableType="IfcBoiler.Predefined=&quot;STEAM&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MaximumOutletPressure_3JGaCcqbT4bugMckZov2i" />
+	</Properties>
+</DocPropertySet>
+

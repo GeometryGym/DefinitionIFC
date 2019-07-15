@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DuctSilencerPHistory" UniqueId="689c75dd-26f9-430e-b945-e463e43bc2b9" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AirFlowRate_0mGptV6Bf4yuLsU1HstOBA" />
+		<DocProperty xsi:nil="true" href="AirPressureDropCurve_2ZU5KIb7H4NQShJZ9M2uv" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCooledBeamType" UniqueId="2h$N59JiL0ZfjYHndcgBl_" DiagramNumber="1" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="38nE8Sjjf6pgmECs2Qshs1" DefinedType="IfcCooledBeamTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines the type of cooled beam.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1lnxy1DTH6yRGe6rAiimqg">
+			<Expression>(PredefinedType &lt;&gt; IfcCooledBeamTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcCooledBeamTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

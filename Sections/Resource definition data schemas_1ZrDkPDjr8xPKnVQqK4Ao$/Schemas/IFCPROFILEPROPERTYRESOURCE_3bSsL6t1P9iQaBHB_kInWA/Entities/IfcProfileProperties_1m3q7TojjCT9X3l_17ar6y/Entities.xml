@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProfileProperties" UniqueId="1m3q7TojjCT9X3l_17ar6y" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="3aJqIZFEDF5OVcT3PsWVYB" DefinedType="IfcGeneralProfileProperties" />
+		<DocSubtype UniqueId="06LsJQz2H1AuJFN6uXw4Bw" DefinedType="IfcRibPlateProfileProperties" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="ProfileName" UniqueId="1T2JJFlpjDLviu5JoGlQN1" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Standardized profile name as published in a profile table. All profile properties are applicable to this standardized profile name.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ProfileDefinition" UniqueId="0vnwaCNbr609bUxxK5BaTp" DefinedType="IfcProfileDef" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional reference to an instance of IfcProfileDef, which contains a further geometrical definition.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

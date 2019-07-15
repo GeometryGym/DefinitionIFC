@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSwitchingDeviceTypeEnum" UniqueId="2KLjjqBaTDqfQdO1feEIPV" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CONTACTOR_2PzxAe7TX5JO6LoeX2BMeX" />
+		<DocConstant xsi:nil="true" href="EMERGENCYSTOP_2p9jUIOyT3jufMNLdDSBT" />
+		<DocConstant xsi:nil="true" href="STARTER_298Kq05nb9VAvrMdkunghk" />
+		<DocConstant xsi:nil="true" href="SWITCHDISCONNECTOR_3gjNYjth92F8blNZQvF6y4" />
+		<DocConstant xsi:nil="true" href="TOGGLESWITCH_3a_vOUVdf3VQ6X9PPEOWc" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_084kSRcLTFhh8bYelh1eBY" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2Ah3fklAv9PQBmmY9oO02r" />
+	</Constants>
+</DocEnumeration>
+

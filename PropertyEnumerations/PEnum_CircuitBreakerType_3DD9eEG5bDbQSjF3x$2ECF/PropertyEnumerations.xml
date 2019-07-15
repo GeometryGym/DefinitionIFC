@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CircuitBreakerType_3DD9eEG5bDbQSjF3x2ECF" Name="PEnum_CircuitBreakerType" UniqueId="cd349a0e-4059-4d95-a72d-3c3eff08e30f">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="ACB_0ro4p0Dyf3QRWjXHcxI5Tj" />
+		<DocPropertyConstant xsi:nil="true" href="MCB_0f5_E9HF96ze4jcVFZZ4ZQ" />
+		<DocPropertyConstant xsi:nil="true" href="MCCB_3JwMdNdmv51hLCl0tJHGLe" />
+		<DocPropertyConstant xsi:nil="true" href="Vacuum_3UpsHvl4PFXxvC04yOrd7A" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,97 @@
+<EPM-HTML> 
+    <p>
+      <u>Definition from IAI</u>: This objectified relationship,
+      <i>IfcRelContainedInSpatialStructure</i>, is used to assign
+      elements to a certain level of the spatial project
+      structure. Any element can only be assigned once to a
+      certain level of the spatial structure. The question, which
+      level is relevant for which type of element, can only be
+      answered within the context of a particular project and
+      might vary within the various regions.
+    </p>
+    <blockquote>
+      <p>
+        <small>EXAMPLE A multi-storey space is contained (or
+        belongs to) the building storey at which its ground level
+        is, but it is referenced by all the other building
+        storeys, in which it spans. A lift shaft might be
+        contained by the basement, but referenced by all storeys,
+        through which it spans.</small>
+      </p>
+    </blockquote>
+    <p>
+      The containment relationship of an element within a
+      spatial structure has to be a hierarchical relationship, an
+      element can only be contained within a single spatial
+      structure element. The reference relationship between an
+      element and the spatial structure may not be hierarchical,
+      i.e. an element can reference many spatial structure
+      elements.
+    </p>
+    <blockquote>
+      <p>
+        <small>NOTE The reference relationship is expressed by
+        <i>IfcRelReferencedInSpatialStructure</i>.</small>
+      </p>
+    </blockquote>
+    <p>
+      Predefined spatial structure elements to which elements can
+      be assigned are
+    </p>
+    <ul>
+      <li>site as <i>IfcSite</i>
+      </li>
+      <li>building as <i>IfcBuilding</i>
+      </li>
+      <li>storey as <i>IfcBuildingStorey</i>
+      </li>
+      <li>space as <i>IfcSpace</i>
+      </li>
+    </ul>
+    <p>
+      Occurrences of the same element type can be assigned to
+      different spatial structure elements depending on the
+      context of the occurrence.
+    </p>
+    <blockquote>
+      <p>
+        <font size="-1">EXAMPLE A wall might be normally assigned
+        to a storey, however the curtain wall might be assigned
+        to the building and the retaining wall in the terrain
+        might be assigned to the site.</font>
+      </p>
+    </blockquote>
+    <blockquote>
+      <p>
+        <small><font color="#0000FF">HISTORY New entity in IFC
+        Release 2x.</font></small>
+      </p>
+    </blockquote>
+    <blockquote>
+      <font color="#FF0000" size="-1">IFC2x PLATFORM CHANGE: The
+      data type of the attribute <i>RelatedElements</i> has been
+      changed from <i>IfcElement</i> to its supertype
+      <i>IfcProduct</i> with upward compatibility for file based
+      exchange.</font>
+    </blockquote>
+    <p>
+      <u><b>Containment Use Definition</b></u>:
+    </p>
+    <table cellpadding="2" cellspacing="2">
+      <tr valign="top">
+        <td valign="top" align="left">
+          <img src=
+          "figures/IfcRelContainedInSpatialStructure-Fig1.png"
+          alt="fig1" width="556" height="556" border="0"> 
+        </td>
+      </tr>
+      <tr valign="top">
+        <td valign="top" align="left">
+          The figure shows the use of
+          <i>IfcRelContainedInSpatialStructure</i> to assign a
+          stair and two walls to two different levels within the
+          spatial structure. 
+        </td>
+      </tr>
+    </table>
+</EPM-HTML>

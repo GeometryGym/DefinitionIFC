@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="InsulationStandardClass_3Q6o7vkTzC6hpeSUumQhEC" Name="InsulationStandardClass" UniqueId="da1b21f9-b9df-4c1a-bce8-71ee306ab38c" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_InsulationStandardClass_2bchS07Mr3r9vecUmeGaZv" />
+	</Enumeration>
+</DocProperty>
+

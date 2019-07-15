@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ManufacturerOccurrence" UniqueId="0ac133ad-1841-4e3d-866f-bd988acbca3a" PropertySetType="PSET_OCCURRENCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AcquisitionDate_1eHHK4bDn2eew0JkeYSlAo" />
+		<DocProperty xsi:nil="true" href="BarCode_0BT4t91or4u9aw9pVfqz3x" />
+		<DocProperty xsi:nil="true" href="SerialNumber_3WM57odmzEkgFgg1oQFMrX" />
+		<DocProperty xsi:nil="true" href="BatchReference_3zaXFdeNDB1PaGDe96eyng" />
+	</Properties>
+</DocPropertySet>
+

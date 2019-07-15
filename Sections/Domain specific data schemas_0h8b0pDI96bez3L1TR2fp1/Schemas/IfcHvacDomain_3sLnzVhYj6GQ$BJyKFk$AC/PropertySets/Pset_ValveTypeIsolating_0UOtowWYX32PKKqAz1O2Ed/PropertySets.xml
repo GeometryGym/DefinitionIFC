@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValveTypeIsolating" UniqueId="1e637cba-8228-4309-9514-d0af416023a7" ApplicableType="IfcValve.Predefined=&quot;ISOLATING&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="IsNormallyOpen_3cTyYUncjDWOay8o2lghp8" />
+		<DocProperty xsi:nil="true" href="IsolatingPurpose_1mTfFm96D97xN02NqHrb" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BulbLiquidColor_2s0foWnsX1zPRrPs4DQzH" Name="BulbLiquidColor" UniqueId="b6029ca0-c768-41f5-96f5-fd9d8435af51" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SprinklerBulbLiquidColor_3_1nSszxn3dugL_JeDBs" />
+	</Enumeration>
+</DocProperty>
+

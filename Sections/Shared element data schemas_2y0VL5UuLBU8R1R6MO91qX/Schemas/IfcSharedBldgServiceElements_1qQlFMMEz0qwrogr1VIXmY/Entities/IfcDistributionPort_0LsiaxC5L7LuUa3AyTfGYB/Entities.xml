@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDistributionPort" UniqueId="0LsiaxC5L7LuUa3AyTfGYB" DiagramNumber="3" BaseDefinition="IfcPort" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="FlowDirection" UniqueId="27OspkzqL4$vHeCfg2gJs3" DefinedType="IfcFlowDirectionEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Enumeration that identifies if this port is a Sink (inlet), a Source (outlet) or both a SinkAndSource.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

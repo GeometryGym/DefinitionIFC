@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CoolingTowerSprayType_0kFWgNQnH98x15haDhFkpJ" Name="PEnum_CoolingTowerSprayType" UniqueId="2e3e0a97-6b14-4923-b045-ae436b3eecd3">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SPRAYFILLED_1A_9uc4YrF1OXHKt6xRiMS" />
+		<DocPropertyConstant xsi:nil="true" href="SPLASHTYPEFILL_0ZBvajhsrEtOeJWHPQRnvW" />
+		<DocPropertyConstant xsi:nil="true" href="FILMTYPEFILL_2l3WFQfbrAUPjTn9Jib2m4" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

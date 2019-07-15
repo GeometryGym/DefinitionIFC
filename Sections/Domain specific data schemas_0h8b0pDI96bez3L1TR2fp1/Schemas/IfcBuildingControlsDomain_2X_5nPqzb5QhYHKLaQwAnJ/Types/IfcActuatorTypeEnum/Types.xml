@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcActuatorTypeEnum" UniqueId="0SQA3hhhX7ShEc0iiaL3xL" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ELECTRICACTUATOR_3dlZ1Vol9Doev9sy8_m5VC" />
+		<DocConstant xsi:nil="true" href="HANDOPERATEDACTUATOR_23Mq9bRETFvvnvL5KR7xm0" />
+		<DocConstant xsi:nil="true" href="HYDRAULICACTUATOR_1q74fsZcT79QppJb5KCsD" />
+		<DocConstant xsi:nil="true" href="PNEUMATICACTUATOR_08SJQTbrP0fxEITOWUXorX" />
+		<DocConstant xsi:nil="true" href="THERMOSTATICACTUATOR_1dTLkYFA14zw2EF5rxbV42" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3VYKVLZ913ueS6vexlkyUj" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2hAEeD96vBZA2aCIDngTq" />
+	</Constants>
+</DocEnumeration>
+

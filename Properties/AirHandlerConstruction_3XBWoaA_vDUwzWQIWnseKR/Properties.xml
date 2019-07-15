@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AirHandlerConstruction_3XBWoaA_vDUwzWQIWnseKR" Name="AirHandlerConstruction" UniqueId="e12e0ca4-2bee-4d7b-af60-692831da851b" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirHandlerConstruction_2SYGDHeAb2NQ2NzQGeI_Lb" />
+	</Enumeration>
+</DocProperty>
+

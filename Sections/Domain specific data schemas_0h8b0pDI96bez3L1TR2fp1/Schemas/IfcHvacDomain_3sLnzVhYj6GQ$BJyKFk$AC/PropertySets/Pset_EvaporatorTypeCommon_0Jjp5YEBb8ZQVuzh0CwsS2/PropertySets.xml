@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_EvaporatorTypeCommon" UniqueId="13b73162-38b9-488d-a7f8-f6b00ceb6702" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="EvaporatorMediumType_0zav1VuczFeOFtMa_PMlOx" />
+		<DocProperty xsi:nil="true" href="EvaporatorCoolant_1c5VsEGUP3TPobBaSqcwxd" />
+		<DocProperty xsi:nil="true" href="RefrigerantClass_0i4DZwuKT6Ju_oGSUj0W7J" />
+		<DocProperty xsi:nil="true" href="RefrigerantType_3lrkXuLr10SRlGPnKpgk_L" />
+		<DocProperty xsi:nil="true" href="ExternalSurfaceArea_2ebBkC0n1BZv2EjY78BNCW" />
+		<DocProperty xsi:nil="true" href="InternalSurfaceArea_2rPOZyMrb2PPQfdAwqCEDO" />
+		<DocProperty xsi:nil="true" href="InternalRefrigerantVolume_3o9wXUK3530Bp9gqstcGqG" />
+		<DocProperty xsi:nil="true" href="InternalWaterVolume_330cnHCyj5kB5QhUzB8sTz" />
+		<DocProperty xsi:nil="true" href="NominalHeatTransferArea_16c0cffD4y9LkJTXh4QwK" />
+		<DocProperty xsi:nil="true" href="NominalHeatTransferCoefficient_2f4PQKWML9XgZjYnFXhTIz" />
+	</Properties>
+</DocPropertySet>
+

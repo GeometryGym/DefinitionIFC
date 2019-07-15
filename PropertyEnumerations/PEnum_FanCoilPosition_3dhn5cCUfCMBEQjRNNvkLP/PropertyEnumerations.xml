@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FanCoilPosition_3dhn5cCUfCMBEQjRNNvkLP" Name="PEnum_FanCoilPosition" UniqueId="e7af1166-31ea-4c58-b39a-b5b5d7e6e559">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DRAWTHROUGH_2PVz9aljr9KBpKBmLapm2Z" />
+		<DocPropertyConstant xsi:nil="true" href="BLOWTHROUGH_0ArWaBy53HvZgeEhQCU0" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

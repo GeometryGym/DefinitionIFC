@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFastenerType" UniqueId="1Ml1oW4ZbFmwI4On8mV7ck" DiagramNumber="1" BaseDefinition="IfcElementComponentType" EntityFlags="229">
+	<Subtypes>
+		<DocSubtype UniqueId="0k9_SBuoL18AUR9mayF2fG" DefinedType="IfcMechanicalFastenerType" />
+	</Subtypes>
+</DocEntity>
+

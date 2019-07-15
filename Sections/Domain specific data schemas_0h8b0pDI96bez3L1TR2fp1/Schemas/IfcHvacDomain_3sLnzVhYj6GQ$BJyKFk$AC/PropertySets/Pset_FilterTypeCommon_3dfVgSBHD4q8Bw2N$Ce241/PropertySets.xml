@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FilterTypeCommon" UniqueId="e7a5fa9c-2d13-44d0-82fa-097fcca02101" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MediaMaterial_2sl_jxShjA7Pla9oEvC65p" />
+		<DocProperty xsi:nil="true" href="Weight_39hOWQeR53VfEBHvrlH_cf" />
+		<DocProperty xsi:nil="true" href="InitialResistance_1R66cxftjEqAuJSRXK6x8" />
+		<DocProperty xsi:nil="true" href="FinalResistance_24zR9RPJL4WBpIqya4Efnr" />
+		<DocProperty xsi:nil="true" href="OperationTemperatureRange_0c3pbubcH1vAEiVth0rmin" />
+		<DocProperty xsi:nil="true" href="FlowRateRange_2vnsWZFEX1BxmlQxQKI_GY" />
+		<DocProperty xsi:nil="true" href="NominalFilterFaceVelocity_2it4OkvqTDkgXC0Lp2NGZ6" />
+		<DocProperty xsi:nil="true" href="NominalMediaSurfaceVelocity_0cbsHtKzD6fyNZ5DmhT_x" />
+		<DocProperty xsi:nil="true" href="NominalPressureDrop_1hmnSDLDf2tRs7dwmFE9QM" />
+		<DocProperty xsi:nil="true" href="NominalFlowrate_2j9wfmrNr1x8pcJ6Rmi3AP" />
+		<DocProperty xsi:nil="true" href="NominalParticleGeometricMeanDiameter_3QLIX63NPAIRxzWnmIKUZL" />
+		<DocProperty xsi:nil="true" href="NominalParticleGeometricStandardDeviation_0XQR6uK9H70gXiOTBPVi7S" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PanMounting_1gXSwRJqbD2REGTJdDOtu8" Name="PanMounting" UniqueId="6a85ce9b-4f49-4d09-b390-7539cd637e08" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SanitaryMounting_0BDQr5B9TAiO8B6Db91l1V" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralSurfaceMember" UniqueId="2S8It53WD6hhnCnEy8qz21" DiagramNumber="3" BaseDefinition="IfcStructuralMember" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="1q8tThj4TFpgji3W0HH9qc" DefinedType="IfcStructuralSurfaceMemberVarying" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="3F6Pm3pbj35g9yTzLaPp8v" DefinedType="IfcStructuralSurfaceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines the load carrying behavior of the member, as far as it is taken into account in the analysis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Thickness" UniqueId="38jO8mxdX7FgZN0vQRz7CS" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines the typically understood thickness of the structural face member, i.e. the smallest spatial dimension of the element.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

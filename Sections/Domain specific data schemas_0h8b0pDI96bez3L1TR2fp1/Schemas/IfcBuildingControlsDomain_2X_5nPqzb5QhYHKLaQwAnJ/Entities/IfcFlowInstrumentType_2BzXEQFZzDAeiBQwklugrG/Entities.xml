@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFlowInstrumentType" UniqueId="2BzXEQFZzDAeiBQwklugrG" DiagramNumber="1" BaseDefinition="IfcDistributionControlElementType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="3DRfDRzXPFzf79OcJ7Qh5M" DefinedType="IfcFlowInstrumentTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of flow instrument from which the type required may be set.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

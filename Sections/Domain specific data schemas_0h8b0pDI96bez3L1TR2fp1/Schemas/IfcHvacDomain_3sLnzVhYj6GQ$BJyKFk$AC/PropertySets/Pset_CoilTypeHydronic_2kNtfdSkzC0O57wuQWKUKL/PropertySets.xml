@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CoilTypeHydronic" UniqueId="ae5f7a67-72ef-4c01-8147-eb86a051e515" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FluidPressureRange_2iDf82K3D6WhsLoOTRt8_k" />
+		<DocProperty xsi:nil="true" href="CoilCoolant_3gefvHMMzEf8soCGgDt_TT" />
+		<DocProperty xsi:nil="true" href="CoilConnectionDirection_0vd_LFi3rEyR8CxmQftscQ" />
+		<DocProperty xsi:nil="true" href="CoilFluidArrangement_12uV1wrdD9YQtPwA0t5WR5" />
+		<DocProperty xsi:nil="true" href="CoilFaceArea_1PI2fqnG54Vvw0DCBoz4_w" />
+		<DocProperty xsi:nil="true" href="HeatExchangeSurfaceArea_0PLmoy_Bj0_O4DYlYNT5yF" />
+		<DocProperty xsi:nil="true" href="PrimarySurfaceArea_0DhK6FeSv2Ru7CUpytMxfs" />
+		<DocProperty xsi:nil="true" href="SecondarySurfaceArea_1ytD_7ndH0evKuWl3XEC1" />
+		<DocProperty xsi:nil="true" href="Fluid_2T0I2d5vb7TuvyB44tWMdx" />
+		<DocProperty xsi:nil="true" href="TotalUACurves_2mVJbbYD37vBGOFItHnM8" />
+		<DocProperty xsi:nil="true" href="WaterPressureDropCurve_1npaNYXXP0jxUQhe3h2UcS" />
+		<DocProperty xsi:nil="true" href="BypassFactor_01AylN5Sz3fOaFi0hFbqD_" />
+		<DocProperty xsi:nil="true" href="SensibleHeatRatio_0QEev9E_r9Au4GjITSmas3" />
+		<DocProperty xsi:nil="true" href="WetCoilFraction_0rk6wLJqD4j8iiKEQN_op_" />
+	</Properties>
+</DocPropertySet>
+

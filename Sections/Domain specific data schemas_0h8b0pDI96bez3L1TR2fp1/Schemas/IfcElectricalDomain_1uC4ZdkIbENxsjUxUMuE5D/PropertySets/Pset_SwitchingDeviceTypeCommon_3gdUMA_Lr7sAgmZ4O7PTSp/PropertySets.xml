@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SwitchingDeviceTypeCommon" UniqueId="ea9de58a-f95d-47d8-aab0-8c460765d733" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NumberOfGangs_2Mj_k1N7XDngt8RWA8IbKl" />
+		<DocProperty xsi:nil="true" href="SwitchFunction_2goeTeeDz3jxUuJd8Fn__W" />
+		<DocProperty xsi:nil="true" href="HasLock_35_wOeVf8Z8Pqw8X1mKlO" />
+	</Properties>
+</DocPropertySet>
+

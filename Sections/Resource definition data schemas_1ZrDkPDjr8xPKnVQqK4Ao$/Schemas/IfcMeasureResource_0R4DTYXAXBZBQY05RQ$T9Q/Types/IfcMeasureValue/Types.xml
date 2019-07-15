@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMeasureValue" UniqueId="1t1r2iHO93BuFaJg9qiNDd" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcVolumeMeasure" UniqueId="1Xq2Yy$FP6gB9_oTockF6a" />
+		<DocSelectItem Name="IfcTimeMeasure" UniqueId="3YAVeYCZ12cOZf_12KfnKN" />
+		<DocSelectItem Name="IfcThermodynamicTemperatureMeasure" UniqueId="3kAa__gAz3pQzKwGGgCHzb" />
+		<DocSelectItem Name="IfcSolidAngleMeasure" UniqueId="1TlOgLlJrArhP4omEPIzxh" />
+		<DocSelectItem Name="IfcPositiveRatioMeasure" UniqueId="3FsP2W3oj1kwu1RV5EU1Cn" />
+		<DocSelectItem Name="IfcRatioMeasure" UniqueId="2hZs5zGqb6mgXTVgrjpLl$" />
+		<DocSelectItem Name="IfcPositivePlaneAngleMeasure" UniqueId="1vVQWNkN18se6CTaw0sdrE" />
+		<DocSelectItem Name="IfcPlaneAngleMeasure" UniqueId="1qFbgrgML1_x7HMQQ1R3pq" />
+		<DocSelectItem Name="IfcParameterValue" UniqueId="1pjsUNWvD7V8d3PuPJbJ$H" />
+		<DocSelectItem Name="IfcNumericMeasure" UniqueId="2DQQNOF9r5$9SVx3aKiLla" />
+		<DocSelectItem Name="IfcMassMeasure" UniqueId="2231ks1bXDHxzt_uuIQq0l" />
+		<DocSelectItem Name="IfcPositiveLengthMeasure" UniqueId="2XtIS8EkvDNAtLSsthtwzX" />
+		<DocSelectItem Name="IfcLengthMeasure" UniqueId="0xF7ZrFU93uP_OWbwLv9lQ" />
+		<DocSelectItem Name="IfcElectricCurrentMeasure" UniqueId="0ITSy462z2tRnCm_pLmysj" />
+		<DocSelectItem Name="IfcDescriptiveMeasure" UniqueId="3qjs6n4wT9heK7p81hAasM" />
+		<DocSelectItem Name="IfcCountMeasure" UniqueId="0bvGA$kHn7_RCCAg$VKrxU" />
+		<DocSelectItem Name="IfcContextDependentMeasure" UniqueId="3vKXFL4bHFWgLFq83QP0RU" />
+		<DocSelectItem Name="IfcAreaMeasure" UniqueId="1drV5GFtH4uwc6qZbTEiX_" />
+		<DocSelectItem Name="IfcAmountOfSubstanceMeasure" UniqueId="1AKgj4jy53LggXhzrO51s_" />
+		<DocSelectItem Name="IfcLuminousIntensityMeasure" UniqueId="1$PGzUQgn3vha_HT$8x0kG" />
+		<DocSelectItem Name="IfcNormalisedRatioMeasure" UniqueId="1zJ6R0hCr6g9MMXHq5Q0am" />
+		<DocSelectItem Name="IfcComplexNumber" UniqueId="1GvGP1ZFD8puaUkxwLTn1n" />
+	</Selects>
+</DocSelect>
+

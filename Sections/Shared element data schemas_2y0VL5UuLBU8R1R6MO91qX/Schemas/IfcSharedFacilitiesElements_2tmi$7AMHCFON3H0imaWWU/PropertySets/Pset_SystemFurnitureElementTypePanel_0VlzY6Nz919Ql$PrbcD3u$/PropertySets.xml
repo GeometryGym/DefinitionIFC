@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SystemFurnitureElementTypePanel" UniqueId="1fbfd886-5fd2-4125-abff-675966343e3f" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HasOpening_0RTVjhXkjBlO8YOPaPebJY" />
+		<DocProperty xsi:nil="true" href="FurniturePanelType_1PJDEpuNb9UQNhJ7zSRMV" />
+		<DocProperty xsi:nil="true" href="NominalThickness_3CJlRel3f0ehgLhGVtzxKd" />
+	</Properties>
+</DocPropertySet>
+

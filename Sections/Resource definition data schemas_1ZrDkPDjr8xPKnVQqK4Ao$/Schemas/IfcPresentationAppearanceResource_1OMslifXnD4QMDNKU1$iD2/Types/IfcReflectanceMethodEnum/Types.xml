@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReflectanceMethodEnum" UniqueId="2NKPpy_WXDARe_GWiY2$KA" DiagramNumber="6">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BLINN_3t1HrOlsPEihSc6_I7GK3V" />
+		<DocConstant xsi:nil="true" href="FLAT_0yU9Mor1B1hxaCjNEcO4i" />
+		<DocConstant xsi:nil="true" href="GLASS_1fJZAlGiH8QO1S2GcW1llG" />
+		<DocConstant xsi:nil="true" href="MATT_3hFytjqwPArwCo3V7bgIvt" />
+		<DocConstant xsi:nil="true" href="METAL_11xeJYfgj6IQVQHZESYXRB" />
+		<DocConstant xsi:nil="true" href="MIRROR_3iFMH0ohbFZQAQBIl53XR" />
+		<DocConstant xsi:nil="true" href="PHONG_0dtmyOmcT3Lh_q0XChn0_D" />
+		<DocConstant xsi:nil="true" href="PLASTIC_0nVL8URrAju8TKeirLwz5" />
+		<DocConstant xsi:nil="true" href="STRAUSS_2sPLLS_Z11QQCWVIPPjw0Q" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3M1VrIXHT7MA_vsQDndIkh" />
+	</Constants>
+</DocEnumeration>
+

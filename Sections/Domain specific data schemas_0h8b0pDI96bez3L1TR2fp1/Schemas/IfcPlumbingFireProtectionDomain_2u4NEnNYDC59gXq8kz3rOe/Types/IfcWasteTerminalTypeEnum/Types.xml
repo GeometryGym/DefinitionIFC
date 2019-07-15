@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWasteTerminalTypeEnum" UniqueId="15jNgPJln46hHN6IDlOPc_" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FLOORTRAP_3y6IMbqMzDmhLYYlU5XxP8" />
+		<DocConstant xsi:nil="true" href="FLOORWASTE_0ypy70IITAb94v7vGXm9LN" />
+		<DocConstant xsi:nil="true" href="GULLYSUMP_3oFYFtkkH5LOqAeJaOv9G3" />
+		<DocConstant xsi:nil="true" href="GULLYTRAP_2rTx6Xih90Sgngn4mszgYM" />
+		<DocConstant xsi:nil="true" href="GREASEINTERCEPTOR_3aF6AxgPz178LjZlCaxgRb" />
+		<DocConstant xsi:nil="true" href="OILINTERCEPTOR_3N_06H457Ug_eQDcJJp_0" />
+		<DocConstant xsi:nil="true" href="PETROLINTERCEPTOR_23S6GHQ416vx1r63YWsWO4" />
+		<DocConstant xsi:nil="true" href="ROOFDRAIN_33tFQA2sn44BkiPibciNJ" />
+		<DocConstant xsi:nil="true" href="WASTEDISPOSALUNIT_3rPp6Ikrb8dvs6orAo5gdJ" />
+		<DocConstant xsi:nil="true" href="WASTETRAP_3r5Q9q6hfEZ9S9wPkqUpXU" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0C0zmKQkD1DeRN5wV1kiV" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1M3FSBtpf0dwop8Yt52xHl" />
+	</Constants>
+</DocEnumeration>
+

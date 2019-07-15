@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ZoneCommon" UniqueId="74bd9f07-a65d-4b3c-be3d-ee22689f15ad" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_22Hlk4_3L7wQXW0xnfK53e" />
+		<DocProperty xsi:nil="true" href="Category_2EmzWVjUbCcgRf5lvL6nII" />
+		<DocProperty xsi:nil="true" href="GrossAreaPlanned_3WlDqADtT4avc_nNNs0lHc" />
+		<DocProperty xsi:nil="true" href="NetAreaPlanned_2dFHJ0llHCdgE2gxRrPOHA" />
+		<DocProperty xsi:nil="true" href="PubliclyAccessible_3eI4HouhL5OAOr3oc_J0mS" />
+		<DocProperty xsi:nil="true" href="HandicapAccessible_11lpVU981DqOPzchUl8Gxk" />
+	</Properties>
+</DocPropertySet>
+

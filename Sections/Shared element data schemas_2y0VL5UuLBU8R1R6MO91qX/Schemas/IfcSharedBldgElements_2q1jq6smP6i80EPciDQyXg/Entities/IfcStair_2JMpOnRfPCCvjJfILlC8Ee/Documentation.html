@@ -1,0 +1,72 @@
+<EPM-HTML> 
+	 <P><U>Definition from ISO 6707-1:1989</U>: Construction comprising a
+		succession of horizontal stages (steps or landings) that make it possible to
+		pass on foot to other levels.</P>
+	 <P><U>Definition from IAI</U>: A vertical passageway allowing occupants to
+		walk (step) from one floor level to another floor level at a different
+		elevation. It may include a landing as an intermediate floor slab. </P> 
+	 <P>The stair is a container entity that aggregates all components of the
+		stair, it represents. The aggregation is handled via the
+		<I>IfcRelAggregates</I> relationship, relating an <I>IfcStair</I> with the
+		related flights (<I>IfcStairFlight</I>) and landings (<I>IfcSlab</I> with type
+		'Landing').</P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC
+		Release 2.0.</FONT></BLOCKQUOTE> 
+	 <P><U><B>Property Set Use Definition</B></U>:</P> 
+	 <P>The property sets relating to the <I>IfcStair</I> are defined by the
+		<I>IfcPropertySet</I> and attached by the <I>IfcRelDefinesByProperties</I>
+		relationship. It is accessible by the inverse <I>IsDefinedBy</I> relationship.
+		The following property set definitions specific to the <I>IfcStair</I> are part
+		of this IFC release:</P> 
+	 <UL> 
+		<LI><A
+		  HREF="../../psd/IfcSharedBldgElements/Pset_StairCommon.xml"
+		  TARGET="SOURCE">Pset_StairCommon</A>: common property set for all stair
+		  occurrences</LI> 
+	 </UL>
+	 <P><U><B>Geometry Use Definitions</B></U>:</P> 
+	 <P>The geometric representation of <I>IfcStair</I> is given by the
+		<I>IfcProductDefinitionShape</I>, allowing multiple geometric representations.
+		Independent geometric representations should only be used when the IfcStair is
+		not defined as an aggregate. If defined as an aggregate, the geometric
+		representation is the sum of the representation of the components within the
+		aggregate. </P> 
+	 <P><B>Local placement</B></P> 
+	 <P>The local placement for <I>IfcStair</I> is defined in its supertype
+		<I>IfcProduct</I>. It is defined by the <I>IfcLocalPlacement</I>, which defines
+		the local coordinate system that is referenced by all geometric
+		representations. </P> 
+	 <UL> 
+		<LI>The <I>PlacementRelTo</I> relationship of <I>IfcLocalPlacement</I>
+		  shall point (if given) to the local placement of the same
+		  <I>IfcSpatialStructureElement</I> that is used in the
+		  <I>ContainedInStructure</I> inverse attribute or to a referenced spatial
+		  structure element at a higher level. </LI> 
+		<LI>If the relative placement is not used, the absolute placement is
+		  defined within the world coordinate system. </LI> 
+	 </UL> 
+	 <P>If the <I>LocalPlacement</I> is given for the <I>IfcStair</I>, then all
+		components, which are aggregated to the stair should use this placement as
+		their relative placement.</P> 
+	 <P><B><I>Geometric Representation</I></B></P> 
+	 <P>If the <I>IfcStair</I> has components (referenced by
+		<I>SELF\IfcObject.IsDecomposedBy</I>) then no independent geometric
+		representation shall defined for the <I>IfcStair</I>. The <I>IfcStair</I> is
+		then geometrically represented by the geometric representation of its
+		components. The components are accessed via
+		<I>SELF\IfcObject.IsDecomposedBy[1].RelatedObjects</I>.</P> 
+	 <P>If the <I>IfcStair</I> has no components defined (empty set of
+		<I>SELF\IfcObject.IsDecomposedBy</I>) then the <I>IfcStair</I> may be
+		represented by an <I>IfcShapeRepresentation</I> with the RepresentationType =
+		'Brep'.</P> 
+	 <P><U>Illustration</U>:</P> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2"> 
+		<TR> 
+		  <TD><A HREF="drawings/IfcStair-Layout1.dwf"><IMG
+			 SRC="figures/IfcStair-Layout1.gif" ALT="stair" WIDTH="393" HEIGHT="299"
+			 BORDER="0"></A></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT"><I>IfcStair</I> defining only the local
+			 placement for all components.</TD> 
+		</TR> 
+	 </TABLE>
+</EPM-HTML>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SupplyAirConnectionType_1fDdwk9e96Bu2hH0JBEWxm" Name="SupplyAirConnectionType" UniqueId="69367eae-2682-462f-80ab-4404cb3a0ef0" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CooledBeamSupplyAirConnectionType_39p0MVqhH0ShUpHNVRU0f1" />
+	</Enumeration>
+</DocProperty>
+

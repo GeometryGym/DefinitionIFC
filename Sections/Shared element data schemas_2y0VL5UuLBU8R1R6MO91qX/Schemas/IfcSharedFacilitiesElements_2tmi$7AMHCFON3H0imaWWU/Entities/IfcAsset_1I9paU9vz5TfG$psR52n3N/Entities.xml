@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAsset" UniqueId="1I9paU9vz5TfG$psR52n3N" DiagramNumber="1" BaseDefinition="IfcGroup" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="AssetID" UniqueId="0eDziI7T5BZR6D2_EjctgG" DefinedType="IfcIdentifier" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A unique identification assigned to an asset that enables its differentiation from other assets.
+NOTE: The asset identifier is unique within the asset register. It differs from the globally unique id assigned to the instance of an entity populating a database</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OriginalValue" UniqueId="2MI3TSrAP4Zg3QSrCtvKI6" DefinedType="IfcCostValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The cost value of the asset at the time of purchase.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CurrentValue" UniqueId="03u66Vsy1F7uo8ieMS3glV" DefinedType="IfcCostValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The current cost value of the asset.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TotalReplacementCost" UniqueId="06eRNSzUT9HB5w2SfyPSzZ" DefinedType="IfcCostValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The total cost of replacement of the asset.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Owner" UniqueId="2sCLbv3hvEi98GtiYXhR8v" DefinedType="IfcActorSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name of the person or organization that &apos;owns&apos; the asset.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="User" UniqueId="1PgLhhQTz2Qu7T2JlBhk67" DefinedType="IfcActorSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name of the person or organization that &apos;uses&apos; the asset.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ResponsiblePerson" UniqueId="0LFBxkFUX5SOn5bAHCU5Je" DefinedType="IfcPerson" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The person designated to be responsible for the asset.
+NOTE: In (e.g.) UK Law (Health and Safety at Work Act, Electricity at Work Regulations, and others), management of assets must have a person identified as being responsible and to whom regulatory, insurance and other organizations communicate. In places where there is not a legal requirement, the responsible person would be the asset manager but would not have a legal status.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IncorporationDate" UniqueId="31M4DwQCr1mAXY5uTK7u7X" DefinedType="IfcCalendarDate" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The date on which an asset was incorporated into the works, installed, constructed, erected or completed.
+NOTE: This is the date on which an asset is considered to start depreciating.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DepreciatedValue" UniqueId="1elqz48WfFQwrcCofOL0LB" DefinedType="IfcCostValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The current value of an asset within the accounting rules and procedures of an organization.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="3csVMyVRbDsxBrc9bmPI7o">
+			<Documentation>Constrains the contents of the group forming the IfcAsset to be instances of IfcElement. This allows for both spatial structures and physical elements to participate in an asset.</Documentation>
+			<Expression>SIZEOF(QUERY(Temp &lt;* SELF\IfcGroup.IsGroupedBy.RelatedObjects | NOT(&apos;IFCPRODUCTEXTENSION.IFCELEMENT&apos; IN TYPEOF(Temp)))) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

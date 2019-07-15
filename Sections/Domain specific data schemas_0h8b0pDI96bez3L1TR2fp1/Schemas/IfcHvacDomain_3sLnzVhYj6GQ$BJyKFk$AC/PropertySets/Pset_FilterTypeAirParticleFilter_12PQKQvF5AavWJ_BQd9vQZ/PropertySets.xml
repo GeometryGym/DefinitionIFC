@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FilterTypeAirParticleFilter" UniqueId="4265a51a-e4f1-4a93-9813-f8b6a72796a3" ApplicableType="IfcFilter.Predefined=&quot;AIRPARTICLEFILTER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AirParticleFilterType_1cOZImubT8RRNqLWiUB9v" />
+		<DocProperty xsi:nil="true" href="FrameMaterial_1Rl_uNViX23BSydxvJgGCi" />
+		<DocProperty xsi:nil="true" href="MediaMaterial_3CcGJeM259tOTgg5dfI8B" />
+		<DocProperty xsi:nil="true" href="SeparationType_05bmy7n5899O86whdIIy9" />
+		<DocProperty xsi:nil="true" href="DustHoldingCapacity_3qomWOhT5hgPXps7F0Ugl" />
+		<DocProperty xsi:nil="true" href="FaceSurfaceArea_1DsnBIiRr1ahTdWV9tHbcj" />
+		<DocProperty xsi:nil="true" href="MediaExtendedArea_29kmE3ND79PJ8WSGiCJLJ" />
+		<DocProperty xsi:nil="true" href="NominalCountedEfficiency_0G9lPBgbC6hpDJpW8BeAU" />
+		<DocProperty xsi:nil="true" href="NominalWeightedEfficiency_1icqYlZkP6hTLl9LkLh2E" />
+		<DocProperty xsi:nil="true" href="PressureDropCurve_26nNvwBb12Q0h2uMvTGZZ" />
+		<DocProperty xsi:nil="true" href="CountedEfficiencyCurve_3ncS05Sab4aAmKbZWCkNCZ" />
+		<DocProperty xsi:nil="true" href="WeightedEfficiencyCurve_3VMt2Mz6NfYCAer8bojp" />
+	</Properties>
+</DocPropertySet>
+

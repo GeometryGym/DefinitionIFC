@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FlowMeterTypeGasMeter" UniqueId="d97ace40-df70-4dbb-9616-058413050c2f" ApplicableType="IfcFlowMeter.Predefined=&quot;GASMETER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="GasType_2vAHiOJof5J9TzKOMdSnsD" />
+		<DocProperty xsi:nil="true" href="ConnectionSize_27Ve7cnsH5bQFEyZDN0XnD" />
+		<DocProperty xsi:nil="true" href="MaximumFlowRate_2ZkEYeE4fFtuCcVlr3Y_QB" />
+		<DocProperty xsi:nil="true" href="MaximumPressureLoss_1JAOBvQ9P7ngKDDSGjgJo" />
+	</Properties>
+</DocPropertySet>
+

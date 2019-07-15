@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FurnitureTypeCommon" UniqueId="42b307a5-6562-4848-98ae-f1f2973a9aa6" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Description_35WLJiAEz3XeEYnPVfwvqR" />
+		<DocProperty xsi:nil="true" href="Style_2XloLxobX2jOKywElA6v5" />
+		<DocProperty xsi:nil="true" href="NominalHeight_0niTiwasT5den0xRZwt0H" />
+		<DocProperty xsi:nil="true" href="NominalLength_2oRDeFxin8gBscn_hiQZmL" />
+		<DocProperty xsi:nil="true" href="NominalDepth_2Uccg14XLAQuW1O4k32s0h" />
+		<DocProperty xsi:nil="true" href="MainColor_341V3DwT16JuEgOMDIPAr_" />
+	</Properties>
+</DocPropertySet>
+

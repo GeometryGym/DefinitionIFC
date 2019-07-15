@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConnectionTypeEnum" UniqueId="2X5QedyTj5ZeOXUuX3RZ0T" DiagramNumber="5">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ATPATH_3Z9AFDxHnFqO6qkCPK_t_v" />
+		<DocConstant xsi:nil="true" href="ATSTART_1aaNJc6Oz4mOHwo3tp10aG" />
+		<DocConstant xsi:nil="true" href="ATEND_1ahhrD_z6GQm09o3nipD" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1ncl2neZL8ZRhnrQocIWpC" />
+	</Constants>
+</DocEnumeration>
+

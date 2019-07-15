@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_HeatExchangerTypePlate" UniqueId="ef825721-4a85-4f30-925a-995dc7d50ca9" ApplicableType="IfcHeatExchanger.Predefined=&quot;PLATE&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NumberOfPlates_3cSyMM5vvDHAS0Hmhnf0w" />
+	</Properties>
+</DocPropertySet>
+

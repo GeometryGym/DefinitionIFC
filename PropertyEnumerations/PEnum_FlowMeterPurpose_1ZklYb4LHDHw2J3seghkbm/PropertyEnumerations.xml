@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FlowMeterPurpose_1ZklYb4LHDHw2J3seghkbm" Name="PEnum_FlowMeterPurpose" UniqueId="63baf8a5-1154-4d47-a093-0f6a2aaee970">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="MASTER_3vJqjzjv1xP8kSlrd0U4" />
+		<DocPropertyConstant xsi:nil="true" href="SUBMASTER_3FLaVdAtX2TexGuXllr3wy" />
+		<DocPropertyConstant xsi:nil="true" href="SUBMETER_0ORMmaRrH3ehH2R8n1PjKG" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

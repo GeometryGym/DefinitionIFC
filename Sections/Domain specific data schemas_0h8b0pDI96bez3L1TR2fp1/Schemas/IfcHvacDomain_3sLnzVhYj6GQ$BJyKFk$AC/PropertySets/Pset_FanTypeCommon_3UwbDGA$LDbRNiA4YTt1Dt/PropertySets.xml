@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FanTypeCommon" UniqueId="deea5350-2bf5-4d95-b5ec-28489ddc1377" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MotorDriveType_13LWcfi994XxZ7jlgQt3_F" />
+		<DocProperty xsi:nil="true" href="CapacityControlType_0ceA3ntzAJ9KRlYImX50T" />
+		<DocProperty xsi:nil="true" href="OperationTemperatureRange_1kO0i2XuzEygu4cgWrx7yl" />
+		<DocProperty xsi:nil="true" href="WheelMaterial_0c454wwz4SBnoGO0WusBD" />
+		<DocProperty xsi:nil="true" href="HousingMaterial_1Lly7W57T9iguJ0ckIFT5" />
+		<DocProperty xsi:nil="true" href="Weight_0sC5HPN0j1UfN6URYyDCjR" />
+		<DocProperty xsi:nil="true" href="NominalAirFlowRate_1Hriy8GFP9_9RQNB6WQ9P_" />
+		<DocProperty xsi:nil="true" href="NominalTotalPressure_1NgW0N1P8nQUbjoV9V5Wn" />
+		<DocProperty xsi:nil="true" href="NominalStaticPressure_3IpRcwsdv5y9EzVVwmP4i0" />
+		<DocProperty xsi:nil="true" href="NominalRotationSpeed_2hmXuwh0n0yw4NPuwTMVC4" />
+		<DocProperty xsi:nil="true" href="NominalPowerRate_2DFZIJVwz6ygmWslWCE4za" />
+		<DocProperty xsi:nil="true" href="OperationalCriteria_1cPAJ4URvAOQP34q4JLdAq" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MixerControl_32oVyZ5Z98pP2RHGWn2BGb" Name="MixerControl" UniqueId="c2c9ff23-1632-48cd-909b-45083108b425" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MixingValveControl_2whnEqwAT5S9KAo05knfwf" />
+	</Enumeration>
+</DocProperty>
+

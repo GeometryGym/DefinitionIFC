@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FanApplicationType_33Dc2igCnFFOfokvfyEfK5" Name="PEnum_FanApplicationType" UniqueId="c33660ac-a8cc-4f3d-8a72-bb9a7c3a9505">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SUPPLY_2Lp9ByS9vE4BumIFhY0iR1" />
+		<DocPropertyConstant xsi:nil="true" href="RETURN_1ef_TixZXFzPvGMWqI3qGu" />
+		<DocPropertyConstant xsi:nil="true" href="EXHAUST_3ddPq441v8LezyWXesI8_s" />
+		<DocPropertyConstant xsi:nil="true" href="COOLINGTOWER_0zxmJSCLT2mQG6d40o0jL" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

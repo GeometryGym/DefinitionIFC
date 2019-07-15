@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcVectorOrDirection" UniqueId="2X8CnxQSD8Lh$EZPlWImU6" DiagramNumber="4">
+	<Selects>
+		<DocSelectItem Name="IfcDirection" UniqueId="07Z0Nw2cDEEe7igbkm4UUf" />
+		<DocSelectItem Name="IfcVector" UniqueId="19WBlJ8WD3CB3uMk299Vay" />
+	</Selects>
+</DocSelect>
+

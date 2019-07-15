@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAssemblyPlaceEnum" UniqueId="30qb0irVPFjhqfChLT$4am" DiagramNumber="10">
+	<Constants>
+		<DocConstant xsi:nil="true" href="SITE_3B3MhryPn6mxMBCtsqO7_x" />
+		<DocConstant xsi:nil="true" href="FACTORY_3_ABEiV490G8VgNm4VUCxK" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0AFVqwTJ11ig9KoMbeoPnP" />
+	</Constants>
+</DocEnumeration>
+

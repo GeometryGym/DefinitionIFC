@@ -1,0 +1,29 @@
+<p>
+	The universal unique identifier standard UUID with its implementation as a globally unique identifier GUID. The generated GUID is compressed for exchange purpose following a&nbsp; compression function published by buildingSMART. The compressed GUID is called &quot;IFC-GUID&quot;</p>
+<p style="margin-left: 40px;">
+	Note: See <a href="http://buildingsmart-tech.org/developers/get-started/ifc-guid" target="_blank">buildingsmart-tech.org</a> for IFC-GUID instructions and examples</p>
+<p>
+	The IFC-GUID has to be assigned to the <em>element</em>. The following requirements are stipulated by this concept template for all &quot;applicable elements&quot;:</p>
+<ul>
+	<li>
+		the IFC-GUID shalI be unique (there shall be never two identical IFC-GUID&#39;s in an IFC data set)</li>
+	<li>
+		the IFC-GUID shall be permanent
+		<ul>
+			<li>
+				an IFC data set imported into an application shall maintain the imported IFC-GUID&#39;s for all imported elements.</li>
+			<li>
+				if the same, or modified, IFC data set is exported again from that application, the imported elements (even if modified) shall carry the same IFC-GUID they had on import.</li>
+		</ul>
+	</li>
+</ul>
+<p>
+	The <strong>concept template</strong> set as default requirement that &quot;applicable elements&quot; are</p>
+<ul>
+	<li>
+		all subtype of <em>IfcProduct</em>,</li>
+	<li>
+		and all subtypes of <em>IfcTypeProduct</em></li>
+</ul>
+<p>
+	A <strong>model view definitio</strong>n shall clearly define the &quot;applicable elements&quot; if those differ from the default definition here..</p>

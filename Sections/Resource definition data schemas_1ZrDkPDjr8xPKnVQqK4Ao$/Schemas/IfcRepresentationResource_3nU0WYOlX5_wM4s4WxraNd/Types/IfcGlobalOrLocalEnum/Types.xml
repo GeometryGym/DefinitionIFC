@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcGlobalOrLocalEnum" UniqueId="367If_CDTCGubPNpmOVhQP" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="GLOBAL_COORDS_1YSeISmAD6duLQl8WoPaaI" />
+		<DocConstant xsi:nil="true" href="LOCAL_COORDS_1aKgQoi7rA7wbq3Qub1dJg" />
+	</Constants>
+</DocEnumeration>
+

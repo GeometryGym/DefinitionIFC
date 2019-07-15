@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SpaceThermalDesign" UniqueId="9904825c-c321-444f-9ce8-7aaabb785a9a" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="CoolingDesignAirflow_1ey7uu8IH1lhD9sfiuG3mt" />
+		<DocProperty xsi:nil="true" href="HeatingDesignAirflow_1jHP2KPm151ODAWYbX17Qt" />
+		<DocProperty xsi:nil="true" href="TotalSensibleHeatGain_1GZ0FobFv4tRWIpNhB6bjj" />
+		<DocProperty xsi:nil="true" href="TotalHeatGain_1Q6oGn65BZgAmPDtpTecV" />
+		<DocProperty xsi:nil="true" href="TotalHeatLoss_3WRUP9Bz1AfBM0lPL7d2Ef" />
+		<DocProperty xsi:nil="true" href="CoolingDryBulb_102jfB6_HCNPaTPsvrmXVR" />
+		<DocProperty xsi:nil="true" href="CoolingRelativeHumidity_0iruDZ4TAquYIFvyq_hi7" />
+		<DocProperty xsi:nil="true" href="HeatingDryBulb_0Phi05uJH97PfFe4kLp1Tw" />
+		<DocProperty xsi:nil="true" href="HeatingRelativeHumidity_03K6dieTT0xea9mvhJAdge" />
+		<DocProperty xsi:nil="true" href="VentilationAirFlowrate_1QmMByC1zF3RLScVf6ufL8" />
+		<DocProperty xsi:nil="true" href="ExhaustAirFlowrate_0Rb17hS7r6xR7DCZwgkPQ2" />
+		<DocProperty xsi:nil="true" href="CeilingRAPlenum_1_Sq_2cCPF4hgfzgRWDBpK" />
+		<DocProperty xsi:nil="true" href="BoundaryAreaHeatLoss_3P3pw9_YP7sxJwJdY4XSHx" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_WasteTerminalTypeFloorWaste" UniqueId="70e8c541-dc7d-47c8-90a1-81014146c673" ApplicableType="IfcWasteTerminal.Predefined=&quot;FLOORWASTE&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalBodyLength_2vtPqzxdbBIucDgoIr6LR9" />
+		<DocProperty xsi:nil="true" href="NominalBodyWidth_3_MCkkb119vHDj16Uk7Hg" />
+		<DocProperty xsi:nil="true" href="NominalBodyDepth_1q3xcoEDH7WO9uik85dacn" />
+		<DocProperty xsi:nil="true" href="BodyMaterial_2MYJkqShHBQBNIlhqSj0AM" />
+		<DocProperty xsi:nil="true" href="OutletConnectionSize_03GG8MBdP6zfDEk0CdY8dL" />
+		<DocProperty xsi:nil="true" href="CoverLength_1lN2hmHtL3Df0wJ1yASp3F" />
+		<DocProperty xsi:nil="true" href="CoverWidth_1_X9cm6b8SeKJ1arIfITT" />
+		<DocProperty xsi:nil="true" href="CoverMaterial_198CbhXSvBVfyyDnayqWF" />
+	</Properties>
+</DocPropertySet>
+

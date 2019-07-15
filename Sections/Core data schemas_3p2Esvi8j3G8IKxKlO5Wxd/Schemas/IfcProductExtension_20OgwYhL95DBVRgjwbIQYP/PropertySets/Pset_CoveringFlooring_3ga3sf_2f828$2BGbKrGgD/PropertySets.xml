@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CoveringFlooring" UniqueId="ea903da9-f82a-4808-8fc2-2d0954d50a8d" ApplicableType="IfcCovering.Predefined=&quot;FLOORING&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HasNonSkidSurface_3pTovBRr599fHAlmGbj1G" />
+		<DocProperty xsi:nil="true" href="HasAntiStaticSurface_25lTHoIZb8UhuGUa_jKpc" />
+	</Properties>
+</DocPropertySet>
+

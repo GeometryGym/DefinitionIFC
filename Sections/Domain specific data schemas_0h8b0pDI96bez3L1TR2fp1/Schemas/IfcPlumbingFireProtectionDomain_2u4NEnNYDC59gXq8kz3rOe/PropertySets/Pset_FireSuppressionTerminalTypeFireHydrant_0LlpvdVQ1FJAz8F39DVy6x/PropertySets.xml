@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FireSuppressionTerminalTypeFireHydrant" UniqueId="15bf3e67-7da0-4f4c-af48-3c324d7fc1bb" ApplicableType="IfcFireSuppressionTerminal.Predefined=&quot;FIREHYDRANT&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FireHydrantType_31Lm0_LYP6OBIv6zXpUM4l" />
+		<DocProperty xsi:nil="true" href="PumperConnectionSize_0LW1dfZdP3Swhcvv2vtj8L" />
+		<DocProperty xsi:nil="true" href="NumberOfHoseConnections_3xf4EKun1ERvt1zzaG2gh" />
+		<DocProperty xsi:nil="true" href="HoseConnectionSize_1Kl7exmBLC9uIO4UN0u7sO" />
+		<DocProperty xsi:nil="true" href="DischargeFlowRate_1LZfqvE6P4C93kjLY1QQBk" />
+		<DocProperty xsi:nil="true" href="FlowClass_1QJwbNlnbDGuIhoWi6P_F" />
+		<DocProperty xsi:nil="true" href="WaterIsPotable_31gPemmYr9jA8BetEVfVQe" />
+		<DocProperty xsi:nil="true" href="PressureRating_1tjFw2cPXB5hzGgSb2PNqb" />
+		<DocProperty xsi:nil="true" href="BodyColor_0svmfl_qrAg91WvV_DcmTO" />
+		<DocProperty xsi:nil="true" href="CapColor_1u4NM0l5rAvV6TBadLRe" />
+	</Properties>
+</DocPropertySet>
+

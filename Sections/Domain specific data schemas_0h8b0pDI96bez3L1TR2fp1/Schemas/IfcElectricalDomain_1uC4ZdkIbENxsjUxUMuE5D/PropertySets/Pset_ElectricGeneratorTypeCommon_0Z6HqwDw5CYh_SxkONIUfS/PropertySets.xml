@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ElectricGeneratorTypeCommon" UniqueId="23191d3a-37a1-4c8a-bf9c-eee61749ea5c" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ElectricGeneratorEfficiency_3rJ8ImCb1Y9M7haDtEvX" />
+		<DocProperty xsi:nil="true" href="StartCurrentFactor_1g5jnJSAn6uAOW6bPXdYGN" />
+		<DocProperty xsi:nil="true" href="MaximumPowerOutput_2E3WU0VJrD0BagMm78TScG" />
+	</Properties>
+</DocPropertySet>
+

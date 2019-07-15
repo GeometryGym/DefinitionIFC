@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FountainType_1_CJVUbEL1KeMIfBlHH_CV" Name="PEnum_FountainType" UniqueId="7e3137de-94e5-4152-8592-a4bbd147e31f">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DrinkingWater_3fI5fzmJ16cg7xFIVAJLG" />
+		<DocPropertyConstant xsi:nil="true" href="Eyewash_0_slNKJpLBUA5pDGMe3uT8" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,65 @@
+<EPM-HTML> 
+<p><u>Definition from IAI: </u>An <i>IfcAsset</i>
+is a uniquely identifiable grouping of elements acting as a single
+entity that has a financial value </p>
+<blockquote> <font color="#0000ff" size="-1">HISTORY
+New class in IFC 2x. Modified in IFC 2x2</font></blockquote>
+<p><u><b>Use Definitions</b></u></p>
+<p>An asset is generally the level of granularity at which
+maintenance operations are undertaken. An asset is a group that can
+contain one or more elements. While the value of a component or
+element can be defined, value is also defined for accounting purposes
+at the level of the asset. </p>
+<p>There are a number of actors that can be associated with an
+asset, each actor having a role. Principal actors are identified as
+attributes of the class. Additional actors can be specified through the
+relationship class <i>IfcRelAssignsToActor</i> in which
+case roles should be defined through the <i>IfcActorRole</i>
+class which must be asserted for each defined role.</p>
+<p>There are a number of costs that can be associated with an
+asset, each cost having a role. Principal costs are identified as
+attributes of the class. Additional costs can be specified through the
+relationship class <i>IfcRelAssociatesCost</i> in which
+case roles must be asserted.</p>
+<p>Service life data (expected life etc.) can be assigned for one
+or more assets as <i>IfcServiceLife</i> through the
+relationship class <i>IfcRelAssignsToControl</i>.</p>
+<p>The operating function of an asset within an organization may
+be particularly valuable in situations where one organization provides
+and maintains core services and another organization adds and maintains
+terminal services. It can classify who owns and is responsible for the
+asset. Operating function can be designated through the use of one or
+more classification notations which will be handled through the
+relationship class <i>IfcRelAssociatesClassification</i>.</p>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to an <i>IfcAsset </i>are
+defined by the <i>IfcPropertySet</i> and attached by the <i>IfcRelDefinesByProperties</i>
+relationship. It is accessible by the inverse <i>IsDefinedBy</i>
+relationship. The following property set definitions specific to an <i>IfcAsset</i>
+are part of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcSharedFacilitiesElements/Pset_Asset.xml">Pset_Asset</a>:
+specific property set for the properties of an asset, if available </li>
+  <li><a
+ href="../../psd/IfcSharedFacilitiesElements/Pset_Reliability.xml">Pset_Reliability</a>:
+specific property set for the properties defining risk that may be
+associated with an asset or any occurrence of a subtype of <i>IfcProduct</i>,
+if available </li>
+  <li><a
+ href="../../psd/IfcSharedFacilitiesElements/Pset_Risk.xml">Pset_Risk</a>:
+specific property set for the properties defining risk that may be
+associated with an asset or any occurrence of a subtype of <i>IfcObject</i>,
+if available </li>
+  <li><a
+ href="../../psd/IfcSharedFacilitiesElements/Pset_Warranty.xml">Pset_Warranty</a>:
+specific property set for the properties relating to a warranty or
+guarantee that may be associated with an asset, any occurrence of <i>IfcProduct</i>
+or any occurrence of <i>IfcSystem</i>, if available </li>
+</ul>
+<p><u><b>Geometry Use Definitions</b></u></p>
+<p>The geometric representation of an <i>IfcAsset</i>
+is determined by the geometric representations of the products that
+comprise the asset (since an asset is a subtype of <i>IfcGroup</i>)
+</p>
+</EPM-HTML>

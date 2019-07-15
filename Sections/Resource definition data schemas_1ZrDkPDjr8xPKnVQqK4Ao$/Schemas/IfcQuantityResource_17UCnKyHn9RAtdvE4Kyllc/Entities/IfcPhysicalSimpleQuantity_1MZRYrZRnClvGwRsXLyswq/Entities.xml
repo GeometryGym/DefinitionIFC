@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPhysicalSimpleQuantity" UniqueId="1MZRYrZRnClvGwRsXLyswq" DiagramNumber="1" BaseDefinition="IfcPhysicalQuantity" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="11HngL2x53MRPq3zeClnAE" DefinedType="IfcQuantityLength" />
+		<DocSubtype UniqueId="1p0IXLl6j6t8gAdeVJA9IX" DefinedType="IfcQuantityArea" />
+		<DocSubtype UniqueId="1ir_$_L9L98ePWg9I3BfoF" DefinedType="IfcQuantityVolume" />
+		<DocSubtype UniqueId="3CQ1VqMJz1pxybitYvs82D" DefinedType="IfcQuantityCount" />
+		<DocSubtype UniqueId="2K9hqY0m530f4gR3rYcbbB" DefinedType="IfcQuantityWeight" />
+		<DocSubtype UniqueId="2hvDIA$7jAwwEJsE5H2nnz" DefinedType="IfcQuantityTime" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Unit" UniqueId="34W7mffz9CnBkSo8unwFz2" DefinedType="IfcNamedUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional assignment of a unit. If no unit is given, then the global unit assignment, as established at the IfcProject, applies to the quantity measures.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTransportElementTypeEnum" UniqueId="3SzIb5tdT0QAkhIfxMA7dY" DiagramNumber="5">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ELEVATOR_3G_vBQgL9BWvyC3B1bMosu" />
+		<DocConstant xsi:nil="true" href="ESCALATOR_076MBOW21BFw3zGHpFsciE" />
+		<DocConstant xsi:nil="true" href="MOVINGWALKWAY_16BMyHiWz0PumPZHA7U7z0" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_09UIEtlDTCl8cafhbF24Yb" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_26a0gKe4v3Deu_Zj1MIYhE" />
+	</Constants>
+</DocEnumeration>
+

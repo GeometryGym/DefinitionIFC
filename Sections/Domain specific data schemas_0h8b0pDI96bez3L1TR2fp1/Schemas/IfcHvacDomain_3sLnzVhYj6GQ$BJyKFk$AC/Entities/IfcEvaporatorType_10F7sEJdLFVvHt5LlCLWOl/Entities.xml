@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcEvaporatorType" UniqueId="10F7sEJdLFVvHt5LlCLWOl" DiagramNumber="1" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="2TzwxbMiX6URho1JSwmkJU" DefinedType="IfcEvaporatorTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines the type of evaporator.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="3PRyuq2mDCUAgGIHksXb8C">
+			<Expression>(PredefinedType &lt;&gt; IfcEvaporatorTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcEvaporatorTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

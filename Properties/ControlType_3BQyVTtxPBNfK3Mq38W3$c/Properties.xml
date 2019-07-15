@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ControlType_3BQyVTtxPBNfK3Mq38W3c" Name="ControlType" UniqueId="cb6bc7dd-dfb6-4b5e-9503-5b40c8803fe6" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TwoPositionControlType_1iiCp57TnDrgPqQREWEyXq" />
+	</Enumeration>
+</DocProperty>
+

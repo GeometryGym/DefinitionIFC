@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CooledBeamSupplyAirConnectionType_39p0MVqhH0ShUpHNVRU0f1" Name="PEnum_CooledBeamSupplyAirConnectionType" UniqueId="c9cc059f-d2b4-4072-b7b3-4577db780a41">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="STRAIGHT_087B9cej5COxhbcPRpd6eR" />
+		<DocPropertyConstant xsi:nil="true" href="RIGHT_1AyxqbkrT1iAmkyWty0Jz6" />
+		<DocPropertyConstant xsi:nil="true" href="LEFT_12va55qyXDXA14gcDazVmF" />
+		<DocPropertyConstant xsi:nil="true" href="TOP_330x8u5UP6FwNmJAFgA83e" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

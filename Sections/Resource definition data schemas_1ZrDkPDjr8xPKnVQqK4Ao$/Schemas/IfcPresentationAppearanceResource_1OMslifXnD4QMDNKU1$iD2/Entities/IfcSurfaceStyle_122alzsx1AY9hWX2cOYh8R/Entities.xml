@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceStyle" UniqueId="122alzsx1AY9hWX2cOYh8R" DiagramNumber="5" BaseDefinition="IfcPresentationStyle" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="Side" UniqueId="1RhTlxcH19kfkkLnvEtrfn" DefinedType="IfcSurfaceSide" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>An indication of which side of the surface to apply the style.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Styles" UniqueId="1TKYs6Roz7bPOLvaQfcq$7" DefinedType="IfcSurfaceStyleElementSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="5">
+			<Documentation>A collection of different surface styles.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR11" UniqueId="1WRDLjxFvCahSk8vgb1M6z">
+			<Documentation>&lt;EPM-HTML&gt;Each select item of &lt;i&gt;IfcSurfaceStyleSelect&lt;/i&gt; within the &lt;i&gt;Styles&lt;/i&gt; shall only be used maximum once.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(Style &lt;* SELF.Styles |
+  &apos;IFCPRESENTATIONAPPEARANCERESOURCE.IFCSURFACESTYLESHADING&apos; IN
+   TYPEOF(Style)
+  )) &lt;= 1</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR12" UniqueId="1wVfttG8z6qAy_xiZu3qiK">
+			<Documentation>&lt;EPM-HTML&gt;The &lt;i&gt;IfcSurfaceStyleLighting&lt;/i&gt; shall only be used zero or one time within the set of &lt;i&gt;Styles&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(Style &lt;* SELF.Styles |
+  &apos;IFCPRESENTATIONAPPEARANCERESOURCE.IFCSURFACESTYLELIGHTING&apos; IN
+   TYPEOF(Style)
+  )) &lt;= 1</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR13" UniqueId="2YFSngZVX2nwDaaNDzByjj">
+			<Documentation>&lt;EPM-HTML&gt;The &lt;i&gt;IfcSurfaceStyleRefraction&lt;/i&gt; shall only be used zero or one time within the set of &lt;i&gt;Styles&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(Style &lt;* SELF.Styles |
+  &apos;IFCPRESENTATIONAPPEARANCERESOURCE.IFCSURFACESTYLEREFRACTION&apos; IN
+   TYPEOF(Style)
+  )) &lt;= 1</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR14" UniqueId="3hVjVKwqn80OG2BV4$cnkJ">
+			<Documentation>&lt;EPM-HTML&gt;The &lt;i&gt;IfcSurfaceStyleWithTextures&lt;/i&gt; shall only be used zero or one time within the set of &lt;i&gt;Styles&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(Style &lt;* SELF.Styles |
+  &apos;IFCPRESENTATIONAPPEARANCERESOURCE.IFCSURFACESTYLEWITHTEXTURES&apos; IN
+   TYPEOF(Style)
+  )) &lt;= 1</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR15" UniqueId="18oy0aibD04xIvgvHuAt2Q">
+			<Documentation>&lt;EPM-HTML&gt;The &lt;i&gt;IfcExternallyDefinedSurfaceStyle&lt;/i&gt; shall only be used zero or one time within the set of &lt;i&gt;Styles&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(Style &lt;* SELF.Styles |
+  &apos;IFCPRESENTATIONAPPEARANCERESOURCE.IFCEXTERNALLYDEFINEDSURFACESTYLE&apos; IN
+   TYPEOF(Style)
+  )) &lt;= 1</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPumpTypeEnum" UniqueId="3fFTckXFD9IOqZ5DgZLmr4" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CIRCULATOR_11MLEdMPr6j8fIFGtEVefR" />
+		<DocConstant xsi:nil="true" href="ENDSUCTION_0DmnIa39EjuSX7Og7nrf3" />
+		<DocConstant xsi:nil="true" href="SPLITCASE_1gKCAqEvnCW9li5IrmBrlX" />
+		<DocConstant xsi:nil="true" href="VERTICALINLINE_0QBY_YH6j9wQ08nme1Heu" />
+		<DocConstant xsi:nil="true" href="VERTICALTURBINE_04pofhY398F9fZD2g7dJNc" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2T4tAKZ698DAIePtGX76TA" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2RO9WIzrAA8UotH1O1Zhz" />
+	</Constants>
+</DocEnumeration>
+

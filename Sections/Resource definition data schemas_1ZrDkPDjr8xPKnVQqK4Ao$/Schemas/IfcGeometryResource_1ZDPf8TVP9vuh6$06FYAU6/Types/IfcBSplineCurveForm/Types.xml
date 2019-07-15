@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBSplineCurveForm" UniqueId="1whBdkqcP7jf_PFn0QBN3y" DiagramNumber="9">
+	<Constants>
+		<DocConstant xsi:nil="true" href="POLYLINE_FORM_357VLNOz0CPjeqOppawE1" />
+		<DocConstant xsi:nil="true" href="CIRCULAR_ARC_0G1UPIw556EOocM6iOmStG" />
+		<DocConstant xsi:nil="true" href="ELLIPTIC_ARC_17OnCLTX5BCuoUsrzeMPEB" />
+		<DocConstant xsi:nil="true" href="PARABOLIC_ARC_1VwhQIun7YP2NGmO8TwuO" />
+		<DocConstant xsi:nil="true" href="HYPERBOLIC_ARC_2OyJNoKRb2lBnZgFajYcd7" />
+		<DocConstant xsi:nil="true" href="UNSPECIFIED_3bZQnbq757hvCppc9ZwDfd" />
+	</Constants>
+</DocEnumeration>
+

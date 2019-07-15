@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBlobTexture" UniqueId="3xIF7JIyL9VhoFVPSMKlMX" DiagramNumber="7" BaseDefinition="IfcSurfaceTexture" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="RasterFormat" UniqueId="19ur2t6jv2CBkvHn_26xoR" DefinedType="IfcIdentifier" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The format of the &lt;i&gt;RasterCode&lt;/i&gt; often using a compression.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RasterCode" UniqueId="3kUhpKRMb8_uXxWFWgdFwF" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Blob, given as a single binary, to capture the texture within one popular file (compression) format.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR11" UniqueId="3_3dEmVgT03P3485UP_qa3">
+			<Documentation>&lt;EPM-HTML&gt;
+Currently the formats of bmp, jpg, gif and pgn, shall be supported.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SELF.RasterFormat IN [&apos;BMP&apos;, &apos;JPG&apos;, &apos;GIF&apos;, &apos;PNG&apos;]</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

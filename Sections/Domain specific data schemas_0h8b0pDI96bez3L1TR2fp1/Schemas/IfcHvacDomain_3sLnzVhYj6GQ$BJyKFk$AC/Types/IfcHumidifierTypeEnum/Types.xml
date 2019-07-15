@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcHumidifierTypeEnum" UniqueId="0mBMkeb1H2hwiKyKU_fy6s" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="STEAMINJECTION_2FEWIgyhXBuROVKZ7PtOCs" />
+		<DocConstant xsi:nil="true" href="ADIABATICAIRWASHER_3UxMgaadP1dBK4HktSwe" />
+		<DocConstant xsi:nil="true" href="ADIABATICPAN_274bUgGf9AhlkmIduqRT" />
+		<DocConstant xsi:nil="true" href="ADIABATICWETTEDELEMENT_2PkX4cyv0XgQR1i9Y8CZ" />
+		<DocConstant xsi:nil="true" href="ADIABATICATOMIZING_0a2GzdEDnAVRyjCheDdZks" />
+		<DocConstant xsi:nil="true" href="ADIABATICULTRASONIC_2gdfodjYv9xAj4FRlmXW7W" />
+		<DocConstant xsi:nil="true" href="ADIABATICRIGIDMEDIA_2pbbh9dHBLxw3TyBiRdn" />
+		<DocConstant xsi:nil="true" href="ADIABATICCOMPRESSEDAIRNOZZLE_0_7XdJhtbFouEQoUTlSQuV" />
+		<DocConstant xsi:nil="true" href="ASSISTEDELECTRIC_09leawAJz2WPztUa9t1dUp" />
+		<DocConstant xsi:nil="true" href="ASSISTEDNATURALGAS_03IF62yFT5oAkPyyEPszjA" />
+		<DocConstant xsi:nil="true" href="ASSISTEDPROPANE_0hsIOI4Sj2KON3eCwa1DSq" />
+		<DocConstant xsi:nil="true" href="ASSISTEDBUTANE_2ZavgNXpH46xOh_x9qfyKH" />
+		<DocConstant xsi:nil="true" href="ASSISTEDSTEAM_09Zc5RyYTFueJUXRYMiwQ" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_24egLVDSLAJALxKMR5i8d6" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3tbVFuUy99g9AslHjtgjej" />
+	</Constants>
+</DocEnumeration>
+

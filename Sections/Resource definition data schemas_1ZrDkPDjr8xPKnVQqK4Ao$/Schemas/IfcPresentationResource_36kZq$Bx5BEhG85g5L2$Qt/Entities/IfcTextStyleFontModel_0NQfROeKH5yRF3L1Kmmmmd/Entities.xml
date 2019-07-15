@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextStyleFontModel" UniqueId="0NQfROeKH5yRF3L1Kmmmmd" DiagramNumber="1" BaseDefinition="IfcPreDefinedTextFont" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="FontFamily" UniqueId="2_SL5nzkLB1PzVwK_XKnEj" DefinedType="IfcTextFontName" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The value is a prioritized list of font family names and/or generic family names. The first list entry has the highest priority, if this font fails, the next list item shall be used. The last list item should (if possible) be a generic family.&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FontStyle" UniqueId="219lJ85SrD6RJuO0LTJYr3" DefinedType="IfcFontStyle" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The font style property selects between normal (sometimes referred to as &quot;roman&quot; or &quot;upright&quot;), italic and oblique faces within a font family.&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FontVariant" UniqueId="1y4oo3bWb83xh$WEUJXzTE" DefinedType="IfcFontVariant" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The font variant property selects between normal and small-caps.
+  &lt;blockquote&gt; &lt;small&gt;NOTE&amp;nbsp; It has been introduced for later compliance to full CSS1 support.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FontWeight" UniqueId="1UUG3Gj4D9_P13WsmZKm32" DefinedType="IfcFontWeight" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The font weight property selects the weight of the font.
+  &lt;blockquote&gt; &lt;small&gt;NOTE&amp;nbsp; Values other then &apos;normal&apos; and &apos;bold&apos; have been introduced for later compliance to full CSS1 support.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FontSize" UniqueId="3Y71UZLrjDUOqfqwxbxg4H" DefinedType="IfcSizeSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The font size provides the size or height of the text font.
+  &lt;blockquote&gt; &lt;small&gt;NOTE&amp;nbsp; The following values are allowed, &lt;&lt;i&gt;IfcLengthMeasure&lt;i&gt;, with positive values, the length unit is globally defined at &lt;i&gt;IfcUnitAssignment&lt;/i&gt;.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="3_ygpKr7T33RvRyQy5hZhA">
+			<Documentation>The size should be given by a positive length measure,</Documentation>
+			<Expression>(&apos;IFCMEASURERESOURCE.IFCLENGTHMEASURE&apos; IN TYPEOF(SELF.FontSize)) AND
+(SELF.FontSize &gt; 0.)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcColourRgb" UniqueId="2$UqCUWZ9DferP6g4_o5ts" DiagramNumber="1" BaseDefinition="IfcColourSpecification" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Red" UniqueId="21ZL7GtZn1Awi_OC3k$aPE" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The intensity of the red colour component.
+&lt;blockquote&gt;&lt;small&gt;
+NOTE&amp;npsp; The colour component value is given within the range of 0..1, and not within the range of 0..255 as otherwise usual.
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Green" UniqueId="2zWyTorTP1bQHdiJpggl_l" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The intensity of the green colour component.
+&lt;blockquote&gt;&lt;small&gt;
+NOTE&amp;npsp; The colour component value is given within the range of 0..1, and not within the range of 0..255 as otherwise usual.
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Blue" UniqueId="277lUS30H5X9PB1yic4OWQ" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The intensity of the blue colour component.
+&lt;blockquote&gt;&lt;small&gt;
+NOTE&amp;npsp; The colour component value is given within the range of 0..1, and not within the range of 0..255 as otherwise usual.
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

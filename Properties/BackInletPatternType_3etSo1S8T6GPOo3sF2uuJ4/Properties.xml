@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BackInletPatternType_3etSo1S8T6GPOo3sF2uuJ4" Name="BackInletPatternType" UniqueId="e8ddcc81-7087-4641-9632-0f63c2e384c4" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BackInletPatternType_3HNjAe7_zC7gBu3JcrL4EL" />
+	</Enumeration>
+</DocProperty>
+

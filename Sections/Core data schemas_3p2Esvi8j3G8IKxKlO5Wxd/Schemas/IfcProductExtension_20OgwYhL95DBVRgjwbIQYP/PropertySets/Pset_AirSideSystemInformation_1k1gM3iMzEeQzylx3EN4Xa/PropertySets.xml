@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_AirSideSystemInformation" UniqueId="6e06a583-b16f-4ea1-af7c-bfb0ce5c4864" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Name_1Aaecc3hb68haDwV89TQ3" />
+		<DocProperty xsi:nil="true" href="Description_3XBrDLUB57kOXWe_g0ovb8" />
+		<DocProperty xsi:nil="true" href="AirSideSystemType_13lof9xAD2zPi6N02_Pz2F" />
+		<DocProperty xsi:nil="true" href="AirSideSystemDistributionType_3wnol94NX3Fu4UZuro8M3" />
+		<DocProperty xsi:nil="true" href="TotalAirflow_12eY9AFQ55H9S7TZgH7jR" />
+		<DocProperty xsi:nil="true" href="EnergyGainTotal_3JZIuvGqjE8fsZ0lhKr6" />
+		<DocProperty xsi:nil="true" href="AirflowSensible_3maBPzm_5B0P6_sRvgAzMe" />
+		<DocProperty xsi:nil="true" href="EnergyGainSensible_1xwX3FcEX7TfwWtjlK1Fh" />
+		<DocProperty xsi:nil="true" href="EnergyLoss_1kF08QCkP84hbx9jOgUUU0" />
+		<DocProperty xsi:nil="true" href="LightingDiversity_37ZIWKbfv51PpT1ZcPditu" />
+		<DocProperty xsi:nil="true" href="InfiltrationDiversitySummer_3iIklTM18U9fdobuQSMrJ" />
+		<DocProperty xsi:nil="true" href="InfiltrationDiversityWinter_0pDVmk3Tz40gRzNJOoI6p" />
+		<DocProperty xsi:nil="true" href="ApplianceDiversity_1fCT4oRtHDaeVoT7Cjk3ng" />
+		<DocProperty xsi:nil="true" href="LoadSafetyFactor_1iiCfvYBr2kANLhec3dgJd" />
+		<DocProperty xsi:nil="true" href="HeatingTemperatureDelta_0xgPrnOeDCy9V230xAEi8r" />
+		<DocProperty xsi:nil="true" href="CoolingTemperatureDelta_0lTFIMIgT3gRt501S3xEc4" />
+		<DocProperty xsi:nil="true" href="Ventilation_1V9wAKGb9ELO0KuplUwrO" />
+		<DocProperty xsi:nil="true" href="FanPower_0b_a27G2L0WwUaXK2EYPfy" />
+	</Properties>
+</DocPropertySet>
+

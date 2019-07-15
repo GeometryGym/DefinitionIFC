@@ -1,0 +1,27 @@
+<EPM-HTML> 
+<p><u>Definition from IAI</u>: Abstract supertype for
+the special types defining the object coordinate system. The <i>IfcObjectPlacement</i>
+has to be provided for each product that has a shape representation.</p>
+<p>The object placement can be given:</p>
+<ul>
+  <li>absolute, i.e. by an axis2 placement, relative to the world
+coordinate system,</li>
+  <li>relative, i.e. by an axis2 placement, relative to the
+object placement of another product,</li>
+  <li>by grid reference, i.e. by the virtual intersection and
+reference direction given by two axes of a design grid.</li>
+</ul>
+<p>In any case the object placement has to unambiguously define
+the object coordinate system as either two-dimensional axis placement (<i>IfcAxis2Placement2D</i>)
+or three-dimensional axis placement (<i>IfcAxis2Placement3D</i>).
+The axis placement may have to be calculated.</p>
+<p>Informal proposition</p>
+<ol>
+  <li>No two or more elements (subtypes of <i>IfcProduct</i>)
+shall share the same instance of <i>IfcObjectPlacement</i>.&nbsp;</li>
+</ol>
+<blockquote>
+  <p><font color="#0000ff" size="-1">HISTORY
+New entity in IFC Release 2x.</font></p>
+</blockquote>
+</EPM-HTML>

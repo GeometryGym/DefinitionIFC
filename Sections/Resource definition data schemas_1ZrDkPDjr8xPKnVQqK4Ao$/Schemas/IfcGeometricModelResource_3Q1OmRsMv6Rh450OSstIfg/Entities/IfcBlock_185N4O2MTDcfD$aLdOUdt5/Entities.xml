@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBlock" UniqueId="185N4O2MTDcfD$aLdOUdt5" DiagramNumber="2" BaseDefinition="IfcCsgPrimitive3D" EntityFlags="165">
+	<Attributes>
+		<DocAttribute Name="XLength" UniqueId="12$kEC6Yr9Rf1lZBnwkUuS" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The size of the block along the placement X axis. It is provided by the inherited axis placement through &lt;i&gt;SELF\IfcCsgPrimitive3D.Position.P[1]&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="YLength" UniqueId="04XFMbzRPCEvZ5j31FtJaL" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The size of the block along the placement Y axis. It is provided by the inherited axis placement through &lt;i&gt;SELF\IfcCsgPrimitive3D.Position.P[2]&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ZLength" UniqueId="2zr_8xCRXDqvoPs9LxuSis" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The size of the block along the placement Z axis. It is provided by the inherited axis placement through &lt;i&gt;SELF\IfcCsgPrimitive3D.Position.P[3]&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

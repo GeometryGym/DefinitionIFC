@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_MaintenanceType_2seKIww6DEdgl9xbMYl31v" Name="PEnum_MaintenanceType" UniqueId="b6a144ba-e863-4e9e-abc9-ee55a2bc3079">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="ConditionBased_2vdj8BgiT879iTSKNO2OMo" />
+		<DocPropertyConstant xsi:nil="true" href="Corrective_1je7gS0H34h28TwvvEtN" />
+		<DocPropertyConstant xsi:nil="true" href="PlannedCorrective_2ruh_FP7HA1fKrgOlJG12N" />
+		<DocPropertyConstant xsi:nil="true" href="Scheduled_1q6UmzTobCOhwjYtTr5FGi" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

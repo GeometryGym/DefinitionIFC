@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFaceSurface" UniqueId="1ohNEKpazBGeuKIEveGkBO" DiagramNumber="2" BaseDefinition="IfcFace" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="FaceSurface" UniqueId="0c1iPTmkXC6eOp7zvcQSvg" DefinedType="IfcSurface" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The surface which defines the internal shape of the face. This surface may be unbounded. The domain of the face is defined by this surface and the bounding loops in the inherited attribute SELF\FaceBounds.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SameSense" UniqueId="2Ni15Hg1r4GeAv2V$k3k5W" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>This flag indicates whether the sense of the surface normal agrees with (TRUE), or opposes (FALSE), the sense of the topological normal to the face.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="WashHandBasinType_12O73xoTn7UuBkJ7pxoqE8" Name="WashHandBasinType" UniqueId="426070fb-c9dc-477b-82ee-4c7cfbcb4388" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_WashHandBasinType_3r3HNRLYTALeUW3B2oQZ9" />
+	</Enumeration>
+</DocProperty>
+

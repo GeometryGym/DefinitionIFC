@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcGroup_2cI6oVkCzBNO0bhf1Oofx" Name="IfcGroup" UniqueId="2cI6oVkCzBNO0bhf1$Oofx" DiagramNumber="7" BaseDefinition="IfcObject" EntityFlags="173">
+	<Attributes>
+		<DocAttribute Name="IsGroupedBy" UniqueId="0I$kLZUtf07PA9jP5q8SuH" DefinedType="IfcRelAssignsToGroup" AttributeFlags="8" AggregationType="0" AggregationFlag="0" Inverse="RelatingGroup">
+			<Documentation>Contains the relationship that assigns the group members to the group object.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

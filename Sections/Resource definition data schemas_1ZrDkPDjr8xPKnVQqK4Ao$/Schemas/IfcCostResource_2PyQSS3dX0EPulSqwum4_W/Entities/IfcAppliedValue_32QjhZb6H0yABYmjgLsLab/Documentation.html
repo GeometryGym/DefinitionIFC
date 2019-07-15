@@ -1,0 +1,29 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI:</U> An <I>IfcAppliedValue</I> is an abstract
+		supertype that specifies the common attributes for cost and environmental
+		values that may be applied to objects within the IFC model. </P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC
+		Release 2x2</FONT></BLOCKQUOTE> 
+	 <P><U>Use Definitions</U></P> 
+	 <P>The extent of the <I>IfcAppliedValue</I> is determined by the
+		<I>AppliedValue</I> attribute which may be defined either as an
+		<I>IfcMeasureWithUnit</I> or as an <I>IfcMonetaryMeasure</I> or as an
+		<I>IfcRatioMeasure</I> via the <I>IfcAppliedValueSelect</I> type. </P> 
+	 <P>Optionally, an <I>IfcAppliedValue</I> may have an applicable date. This
+		is intended to fix the date on which the value became relevant for use. It may
+		be the date on which the value was set in the model or it may be a prior or
+		future date when the value becomes operable. It should be noted that the
+		datatype for <I>IfcAppliedValue.ApplicableDate</I> is <I>IfcDateTimeSelect</I>.
+		This enables either a calendar date or a date and time to be selected. The
+		option of selecting a time only without a date is also possible through this
+		select mechanism but should not be used in the case of an applied value. </P>
+	 <P>Similarly, an <I>IfcAppliedValue</I> may have a 'fixed until' date. This
+		is intended to fix the date on which the value ceases to be relevant for use.
+		</P> 
+	 <P>An instance of <I>IfcAppliedValue</I> may have a unit basis asserted.
+		This is defined as an <I>IfcMeasureWithUnit</I> that determines the extent of
+		the unit value for application purposes. It is assumed that when this attribute
+		is asserted, then the value given to <I>IfcAppliedValue</I> is that for unit
+		quantity. This is not enforced within the IFC schema and thus needs to be
+		controlled within an application. </P> 
+</EPM-HTML>

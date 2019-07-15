@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AirSideSystemDistributionType_3vESHsGtv0qvLFFckGC_vs" Name="PEnum_AirSideSystemDistributionType" UniqueId="f939c476-437e-40d3-954f-3e6b9033ee76">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SINGLEDUCT_35vGLFVX92M9sXkHkvmFpc" />
+		<DocPropertyConstant xsi:nil="true" href="DUALDUCT_1gFRV9DqH9u9Vi4ShGJGtx" />
+		<DocPropertyConstant xsi:nil="true" href="MULTIZONE_2Z22vcNML8AgVPw64vEXFS" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

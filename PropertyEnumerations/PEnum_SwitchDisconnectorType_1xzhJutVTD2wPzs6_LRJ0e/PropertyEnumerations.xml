@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SwitchDisconnectorType_1xzhJutVTD2wPzs6_LRJ0e" Name="PEnum_SwitchDisconnectorType" UniqueId="7bf6b4f8-ddf7-4d0b-a67d-d86f956d3028">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CenterBreak_129phdycb8UPVpADb0CK7" />
+		<DocPropertyConstant xsi:nil="true" href="DividedSupport_1RbbPj8W5AMxsVNr2EinWM" />
+		<DocPropertyConstant xsi:nil="true" href="DoubleBreak_0YqXptP6P5geN_nUepf5HT" />
+		<DocPropertyConstant xsi:nil="true" href="EarthingSwitch_0gU6FAzyj1Dfr3pIwy4tdF" />
+		<DocPropertyConstant xsi:nil="true" href="Isolator_0hfK2v4IX2R8UnxXlxjU1" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

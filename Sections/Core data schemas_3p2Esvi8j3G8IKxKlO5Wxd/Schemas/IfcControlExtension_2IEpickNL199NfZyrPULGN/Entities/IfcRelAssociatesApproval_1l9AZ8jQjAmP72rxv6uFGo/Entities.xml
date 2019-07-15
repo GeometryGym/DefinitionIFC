@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelAssociatesApproval" UniqueId="1l9AZ8jQjAmP72rxv6uFGo" DiagramNumber="1" BaseDefinition="IfcRelAssociates" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="RelatingApproval" UniqueId="17pIZvCIH349E8E3as7QJX" DefinedType="IfcApproval" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to approval that is being applied using this relationship.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

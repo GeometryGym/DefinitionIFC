@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelConnectsPortToElement" UniqueId="3BEpJAGWvBU8GXcee40iYy" DiagramNumber="9" BaseDefinition="IfcRelConnects" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="RelatingPort" UniqueId="07PWtaS1v2Jhr5nBhuxRxs" DefinedType="IfcPort" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to an Port that is connected by the objectified relationship.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedElement" UniqueId="2uPGG_F3X9sfgTpLHN6DBr" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to an Element that is connected by the objectified relationship.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

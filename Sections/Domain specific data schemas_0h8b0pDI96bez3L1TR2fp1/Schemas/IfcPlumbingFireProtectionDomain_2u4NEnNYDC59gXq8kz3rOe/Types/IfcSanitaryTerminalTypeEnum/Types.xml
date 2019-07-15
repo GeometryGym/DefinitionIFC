@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSanitaryTerminalTypeEnum" UniqueId="0bY09kdoLERfWNl4laGXti" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BATH_0Gph9TCLDCPd74xiFNrbf" />
+		<DocConstant xsi:nil="true" href="BIDET_2O11GXOD39Qn5RS7zJTlP" />
+		<DocConstant xsi:nil="true" href="CISTERN_3tP1my_f46OYBJ8wo4SUA" />
+		<DocConstant xsi:nil="true" href="SHOWER_3WGN4LU3X0YOed0ne5QBfp" />
+		<DocConstant xsi:nil="true" href="SINK_0Mqrrr56TCRR4HVcG_0g7k" />
+		<DocConstant xsi:nil="true" href="SANITARYFOUNTAIN_3de2QIO9HDEwnWwIKbT4lF" />
+		<DocConstant xsi:nil="true" href="TOILETPAN_2BdquB5cD76uW7TmcW6VZy" />
+		<DocConstant xsi:nil="true" href="URINAL_3zs_2lMcf0LR9q_oIYUbPb" />
+		<DocConstant xsi:nil="true" href="WASHHANDBASIN_0WS5mxI_rCjRCsg7120AMt" />
+		<DocConstant xsi:nil="true" href="WCSEAT_1RXD0aMi94Yuv06aaOYRIk" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2rIVfEw_b0QfsLKrmhahUL" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1QdcZuGcTFpuXtZjHvr7zx" />
+	</Constants>
+</DocEnumeration>
+

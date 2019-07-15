@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDistributionElementType" UniqueId="128rIftUHDgQ59wMbj4DQF" DiagramNumber="8" BaseDefinition="IfcElementType" EntityFlags="229">
+	<Subtypes>
+		<DocSubtype UniqueId="1PmWj2mJP49hcy5Q$q7AbK" DefinedType="IfcDistributionControlElementType" />
+		<DocSubtype UniqueId="1wqHIwkfH12u8Fh4KWueug" DefinedType="IfcDistributionFlowElementType" />
+	</Subtypes>
+</DocEntity>
+

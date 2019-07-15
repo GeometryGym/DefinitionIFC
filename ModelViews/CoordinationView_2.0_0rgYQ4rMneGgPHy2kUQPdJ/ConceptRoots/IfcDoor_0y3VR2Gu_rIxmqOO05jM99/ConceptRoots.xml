@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoor" UniqueId="0y3VR2Gu_rIxmqOO05jM99">
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcDoor_1DyfXeeNX5LOb8XRs4sOHd" />
+	<Concepts>
+		<DocTemplateUsage Name="GUIDs" UniqueId="1yGBOzGCZJHPebXJlxx7eJ">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="GUIDs_3ga6tg4StYIufm5WIFj2n" />
+			<Exchanges>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="History" UniqueId="1OCrkRm4LNJQ7Y$4aotkI7">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="History_3bM8g3QTayJ8izxZxrVS7D" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Naming" UniqueId="1XDKQ0i20kGRkjOMMz1C4L">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Naming_1fiLy1E_xgG8Yri7hKbQbF" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="CAD Layer" UniqueId="0OJjxAkP3HJuw$wXptpCp2">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="CAD_Layer_0YSNJnRw4NHR884iSp7TBN" />
+			<Exchanges>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Voiding" UniqueId="25rMPvq0yDHg0NLQQWv2yS">
+			<Documentation>&lt;p&gt;
+	Specific to IfcDoor: The IfcDoor shall not have a voiding relationships, all potential voids and cut-out&amp;#39;s shall already be resolved in the geometric representation.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Voiding_1udvtZ4MrvGvg5foFGlvbh" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="excluded">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="1wB7F$gkLEIBisP7CJVQsT">
+			<Documentation>&lt;p&gt;
+	Specific to IfcDoor: An IfcDoor be containied in IfcSite, IfcBuilding, IfcBuildingStory, or IfcSpace. It shall not be provided, if the IfcDoor is part of an aggregation.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_1pwHycyvSaIO2cWa1vx6tU" />
+			<Exchanges>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Classification" UniqueId="2Y57_XJg9lH9kbdIgoP8XZ">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_18q586v0n3IxsF4lccHDhM" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="065308e0-1317-430d-8d2a-e7c3038f6124" Type="IfcDoor" />
+</DocConceptRoot>
+

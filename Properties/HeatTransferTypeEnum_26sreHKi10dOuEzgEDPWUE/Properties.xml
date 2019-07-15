@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="HeatTransferTypeEnum_26sreHKi10dOuEzgEDPWUE" Name="HeatTransferTypeEnum" UniqueId="86db5a11-52c0-409d-8e0e-f6a38d66078e" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirToAirHeatTransferHeatTransferType_0Jdu0hYEXFLO_wOmefPXA4" />
+	</Enumeration>
+</DocProperty>
+

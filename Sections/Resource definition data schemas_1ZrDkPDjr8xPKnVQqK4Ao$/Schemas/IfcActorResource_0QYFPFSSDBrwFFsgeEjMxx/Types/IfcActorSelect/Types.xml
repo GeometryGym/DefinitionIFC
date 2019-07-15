@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcActorSelect" UniqueId="14W2wwK1T1pOjT5VFoCM12" DiagramNumber="1">
+	<Selects>
+		<DocSelectItem Name="IfcOrganization" UniqueId="2WmivsNwD3JOHmIUPfWtfS" />
+		<DocSelectItem Name="IfcPerson" UniqueId="3zJn8q1T91GxnMNsibXnnW" />
+		<DocSelectItem Name="IfcPersonAndOrganization" UniqueId="0CnqFAFon7a8b3GKX6kxDs" />
+	</Selects>
+</DocSelect>
+

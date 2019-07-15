@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PipeFittingPHistory" UniqueId="ebae5502-8164-474c-862f-1fb3107247fb" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="LossCoefficient_1oZdnG8986h5iFWB046LV" />
+		<DocProperty xsi:nil="true" href="FlowrateLeakage_39zaFr1zfCtPjEHAtB2BKN" />
+	</Properties>
+</DocPropertySet>
+

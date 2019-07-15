@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="OperatingMode_3K6FoFZJ18YABr0oExb1" Name="OperatingMode" UniqueId="d418fc8f-8d30-4888-a2f5-0323bfffb941" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BoilerOperatingMode_2TafhbDXnD79mrOYtHPRdX" />
+	</Enumeration>
+</DocProperty>
+

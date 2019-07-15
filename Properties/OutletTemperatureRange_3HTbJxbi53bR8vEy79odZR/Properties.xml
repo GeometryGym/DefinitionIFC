@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="OutletTemperatureRange_3HTbJxbi53bR8vEy79odZR" Name="OutletTemperatureRange" UniqueId="d17654fb-96c1-4395-b239-3bc1c9ca78db" PropertyType="p_boundedvalue" PrimaryDataType="IfcThermodynamicTemperatureMeasure" />
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpecularHighlightSelect" UniqueId="0FDAnyNxj4OunENBzCK62$" DiagramNumber="6">
+	<Selects>
+		<DocSelectItem Name="IfcSpecularExponent" UniqueId="0RvJORZKzC8Ov95v49yKJs" />
+		<DocSelectItem Name="IfcSpecularRoughness" UniqueId="0uusMV7RPB4x7j0XBRw7b7" />
+	</Selects>
+</DocSelect>
+

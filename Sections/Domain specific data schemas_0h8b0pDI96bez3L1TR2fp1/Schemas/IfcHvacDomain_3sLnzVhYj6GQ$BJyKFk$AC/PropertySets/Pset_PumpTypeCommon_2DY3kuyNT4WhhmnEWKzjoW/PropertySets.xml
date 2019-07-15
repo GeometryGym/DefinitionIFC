@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PumpTypeCommon" UniqueId="8d883bb8-f177-4482-baf0-c4e814f6dca0" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FlowRateRange_2f52aKF_f6YwQQxFoqFaCO" />
+		<DocProperty xsi:nil="true" href="FlowResistanceRange_3Voa58alf2txhPb5oHuSoP" />
+		<DocProperty xsi:nil="true" href="ConnectionSize_30jXO49AD3POnL9PVl5xbv" />
+		<DocProperty xsi:nil="true" href="CasingMaterial_11EyqI5yH1e9p5JPf2NPr0" />
+		<DocProperty xsi:nil="true" href="ImpellerMaterial_1fGw8FIMz1wfKqgmzTQTfr" />
+		<DocProperty xsi:nil="true" href="ImpellerSealMaterial_2lAcCNbhD5kfWnxLD7neHw" />
+		<DocProperty xsi:nil="true" href="TemperatureRange_1Hn6vRDSD3VBAsAU1L_GSL" />
+		<DocProperty xsi:nil="true" href="NetPositiveSuctionHead_3H4SZQ8GL00erwrK6t9K_l" />
+		<DocProperty xsi:nil="true" href="NominalRotationSpeed_3mCu52meTBRvWKRb1KjXRM" />
+	</Properties>
+</DocPropertySet>
+

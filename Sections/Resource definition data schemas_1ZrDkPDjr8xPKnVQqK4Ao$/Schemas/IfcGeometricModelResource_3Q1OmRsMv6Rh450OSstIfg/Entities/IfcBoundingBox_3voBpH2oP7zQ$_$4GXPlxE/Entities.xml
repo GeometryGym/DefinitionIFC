@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoundingBox" UniqueId="3voBpH2oP7zQ$_$4GXPlxE" DiagramNumber="3" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="Corner" UniqueId="1U1WUnYmj6e9dEGcIX8$Yl" DefinedType="IfcCartesianPoint" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Location of the bottom left corner (having the minimum values).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="XDim" UniqueId="3Mbape_cjB4ACV$LT7Vsrx" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Length attribute (measured along the edge parallel to the X Axis)</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="YDim" UniqueId="2Ce4VEKj1DtxaGjK7u_wlr" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Width attribute (measured along the edge parallel to the Y Axis)</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ZDim" UniqueId="0m9bp4INfE8RukJttWZyU3" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Height attribute (measured along the edge parallel to the Z Axis).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="0_w03bZbDFngk2yWSeryqS" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, it is always 3.</Documentation>
+			<Derived>3</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

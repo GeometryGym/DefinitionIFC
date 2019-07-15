@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelAssignsToProduct" UniqueId="3hVDFy8CT2BP2p3GJU_K4A" DiagramNumber="5" BaseDefinition="IfcRelAssigns" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="RelatingProduct" UniqueId="0gJvjzi0H1zvzHtAdVKdz3" DefinedType="IfcProduct" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to the Product to which the objects are assigned to.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1FNmdu9pP2DxL5lXX_taNv">
+			<Documentation>The instance to which the relation points (RelatingProduct) shall not be contained in the list of RelatedObjects.</Documentation>
+			<Expression>SIZEOF(QUERY(Temp &lt;* SELF\IfcRelAssigns.RelatedObjects | RelatingProduct :=: Temp)) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

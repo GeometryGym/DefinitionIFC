@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowStyleOperationEnum" UniqueId="3Uq40hZL14qPbuAj$x61LS" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="SINGLE_PANEL_3ZLvx30enFIO66kF0nZREB" />
+		<DocConstant xsi:nil="true" href="DOUBLE_PANEL_VERTICAL_0RDAx5Tpv6meSCaJJGLO2w" />
+		<DocConstant xsi:nil="true" href="DOUBLE_PANEL_HORIZONTAL_2192fvWdDCnvMxXqhqS37G" />
+		<DocConstant xsi:nil="true" href="TRIPLE_PANEL_VERTICAL_32l4Ukd9XEJx7tYQFlzreh" />
+		<DocConstant xsi:nil="true" href="TRIPLE_PANEL_BOTTOM_3WCVbn74j2LPeEPF4ERHB7" />
+		<DocConstant xsi:nil="true" href="TRIPLE_PANEL_TOP_0NUFOPRYX8wARy8mIhMczW" />
+		<DocConstant xsi:nil="true" href="TRIPLE_PANEL_LEFT_3T7ZgzsBHBfQXPtk1iJ_NP" />
+		<DocConstant xsi:nil="true" href="TRIPLE_PANEL_RIGHT_2jprnMAlvDRQcLWPucjshX" />
+		<DocConstant xsi:nil="true" href="TRIPLE_PANEL_HORIZONTAL_1Z9LxXS_j4hwp4JqostOr" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1LHmgeVlvC8v3cWrqV9HUC" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2i76YDAzj5H92mxo0n9Hjp" />
+	</Constants>
+</DocEnumeration>
+

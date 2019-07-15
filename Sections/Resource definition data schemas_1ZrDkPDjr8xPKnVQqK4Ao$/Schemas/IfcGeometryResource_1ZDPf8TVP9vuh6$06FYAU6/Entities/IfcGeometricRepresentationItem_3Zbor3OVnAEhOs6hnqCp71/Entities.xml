@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcGeometricRepresentationItem" UniqueId="3Zbor3OVnAEhOs6hnqCp71" DiagramNumber="2" BaseDefinition="IfcRepresentationItem" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="22FYlhfHj4Uhac4UlVVoXs" DefinedType="IfcCompositeCurveSegment" />
+		<DocSubtype UniqueId="2TKJ9cxgTBFO5jeskOitfT" DefinedType="IfcCurve" />
+		<DocSubtype UniqueId="3cuThaEyT1pAZ9CLyWkxp3" DefinedType="IfcDirection" />
+		<DocSubtype UniqueId="1w1oIxCdL3DfzThSa7gC7Y" DefinedType="IfcPlacement" />
+		<DocSubtype UniqueId="2giVBKp2fFIwXKpgPRShmz" DefinedType="IfcPoint" />
+		<DocSubtype UniqueId="1UC1jEoejC$OpARbpEPcou" DefinedType="IfcSurface" />
+		<DocSubtype UniqueId="3D4JYXzXfBV8r_UbN07JO$" DefinedType="IfcVector" />
+		<DocSubtype UniqueId="2Zk8zJsa55NPSn2jIWOpob" DefinedType="IfcBooleanResult" />
+		<DocSubtype UniqueId="1l3YzoGIz3aAhOrPe10$hF" DefinedType="IfcSolidModel" />
+		<DocSubtype UniqueId="2Nxj6cOdbC7QQ2$ELnLKvN" DefinedType="IfcHalfSpaceSolid" />
+		<DocSubtype UniqueId="0Rk6A91yv6ZA0FUhyC1F3Z" DefinedType="IfcBoundingBox" />
+		<DocSubtype UniqueId="33RRBDbLrBC8Ia3geZKY3p" DefinedType="IfcCartesianTransformationOperator" />
+		<DocSubtype UniqueId="1RJGSpEbv3FR33NK5cd7P0" DefinedType="IfcSectionedSpine" />
+		<DocSubtype UniqueId="0U7BUb8hL7YfAE84aLlQrB" DefinedType="IfcGeometricSet" />
+		<DocSubtype UniqueId="03aDZocF1EHP_UI1fFRPwE" DefinedType="IfcFaceBasedSurfaceModel" />
+		<DocSubtype UniqueId="1wDYJ13EP2cPjddjRtnHj6" DefinedType="IfcShellBasedSurfaceModel" />
+	</Subtypes>
+</DocEntity>
+

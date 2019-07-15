@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElementAssemblyTypeEnum" UniqueId="3BQoEPS_P7UvRXUihc3aC9" DiagramNumber="10">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ACCESSORY_ASSEMBLY_0xbyCpjzL67h5uoF2DaGAt" />
+		<DocConstant xsi:nil="true" href="ARCH_2jKStKTJ9DQP99mHOUl2S6" />
+		<DocConstant xsi:nil="true" href="BEAM_GRID_2VR3aNVVH4gBRrvwShbHZr" />
+		<DocConstant xsi:nil="true" href="BRACED_FRAME_3_oPySRA16R8_EFYIGnnHr" />
+		<DocConstant xsi:nil="true" href="GIRDER_0aPmKI6Xv6QP6sy8Fj8gw6" />
+		<DocConstant xsi:nil="true" href="REINFORCEMENT_UNIT_0TGLnjuT4BxkH_q2jmxE" />
+		<DocConstant xsi:nil="true" href="RIGID_FRAME_2BVbHMo6D5HfXRT_JvuCLE" />
+		<DocConstant xsi:nil="true" href="SLAB_FIELD_20W84Syxj6MRlGHI1385X" />
+		<DocConstant xsi:nil="true" href="TRUSS_2vuI8kUcH3Pg5pskSe9gFW" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2JgpkXwB54dPgEwyeGEVc" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2p7CHyV2f6sgs120jlUflD" />
+	</Constants>
+</DocEnumeration>
+

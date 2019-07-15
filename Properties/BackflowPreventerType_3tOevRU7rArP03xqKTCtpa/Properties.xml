@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BackflowPreventerType_3tOevRU7rArP03xqKTCtpa" Name="BackflowPreventerType" UniqueId="f7628e5b-787d-4ad5-9003-ef451d337ce4" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BackflowPreventerType_2bp4nt4VbAQgiI_Kdh8GF2" />
+	</Enumeration>
+</DocProperty>
+

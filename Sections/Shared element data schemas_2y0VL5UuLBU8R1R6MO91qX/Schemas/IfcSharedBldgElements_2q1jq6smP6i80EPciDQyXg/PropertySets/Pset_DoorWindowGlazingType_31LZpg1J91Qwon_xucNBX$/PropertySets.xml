@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DoorWindowGlazingType" UniqueId="c1563cea-0532-416b-acb1-fbbe265cb87f" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="GlassLayers_3isM3iMszF98edsdzLHcjx" />
+		<DocProperty xsi:nil="true" href="GlassThickness1_0KSYzXC_5ExPtl8tbR4WRc" />
+		<DocProperty xsi:nil="true" href="GlassThickness2_3kNr4crp5E_AUukXHVX1oK" />
+		<DocProperty xsi:nil="true" href="GlassThickness3_1D9eLcY8X2tRFiitjNt4yu" />
+		<DocProperty xsi:nil="true" href="FillGas_1B_nNmMPP0lhRiGMuv_GDq" />
+		<DocProperty xsi:nil="true" href="GlassColor_2bWIyOkszC7BsP_ZfJfoiL" />
+		<DocProperty xsi:nil="true" href="IsTempered_1u0aVi4wv9YA2FjNWt2sGT" />
+		<DocProperty xsi:nil="true" href="IsLaminated_0hmUylYMDBaPv0i51KKFq_" />
+		<DocProperty xsi:nil="true" href="IsCoated_2f3hSlJm9A3xSUBx9vcHV5" />
+		<DocProperty xsi:nil="true" href="IsWired_3AITwRbKv6vhatjL_Uv4Lr" />
+		<DocProperty xsi:nil="true" href="Translucency_0WhaiY50n9gwS3YWDrUTi" />
+		<DocProperty xsi:nil="true" href="Reflectivity_3jXBDVOJv9AAvLLAMzeHQ" />
+		<DocProperty xsi:nil="true" href="BeamRadiationTransmittance_1WNWkWif9P9oh7i5NIrvP" />
+		<DocProperty xsi:nil="true" href="SolarHeatGainTransmittance_0zTXaYLd54BhvB42kaZVT" />
+		<DocProperty xsi:nil="true" href="ThermalTransmittanceSummer_0E3yzJPyP3uO8jann3EeUQ" />
+		<DocProperty xsi:nil="true" href="ThermalTransmittanceWinter_0Wdgusob1CDwy7shqIZo_" />
+	</Properties>
+</DocPropertySet>
+

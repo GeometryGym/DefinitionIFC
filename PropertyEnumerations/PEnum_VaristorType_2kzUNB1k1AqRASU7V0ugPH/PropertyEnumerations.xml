@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_VaristorType_2kzUNB1k1AqRASU7V0ugPH" Name="PEnum_VaristorType" UniqueId="aef5e5cb-06e0-4ad1-b29c-7877c0e2a651">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="MetalOxide_0tHi_CgQLAbOsVFeXzZYd_" />
+		<DocPropertyConstant xsi:nil="true" href="ZincOxide_1gn8keDs97uxDH5jlFN9Tg" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

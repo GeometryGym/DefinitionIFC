@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_HumidifierTypeCommon" UniqueId="7d5657d9-8fc9-4574-86b8-8ebae61d5bf5" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Application_0Wfe4pzFj3HfOhhSrqPU" />
+		<DocProperty xsi:nil="true" href="Weight_2KgW0EO41CM9X4UV9ofxO1" />
+		<DocProperty xsi:nil="true" href="NominalMoistureGain_2OFUqXOMf3cvbe0Ya2F881" />
+		<DocProperty xsi:nil="true" href="NominalAirFlowRate_15FE6rMpT3pOA2qKCs2eFp" />
+		<DocProperty xsi:nil="true" href="InternalControl_0i3cOJCyDD08NWt2_9Gd0e" />
+		<DocProperty xsi:nil="true" href="WaterRequirement_2V2pOxngH0jezuHsVB2zUp" />
+	</Properties>
+</DocPropertySet>
+

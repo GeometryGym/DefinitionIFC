@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_RiskAssessment_1rdrsyV3rAAgi_iKcI3vq" Name="PEnum_RiskAssessment" UniqueId="759f5dbc-7c3d-4afc-aaac-fac526483e74">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="AlmostCertain_2Vt1RAR0zDUBqcjWJIiqpp" />
+		<DocPropertyConstant xsi:nil="true" href="VeryLikely_2akNlsEar2LwOo1A6u41XB" />
+		<DocPropertyConstant xsi:nil="true" href="Likely_0eEsh8jf9BQPybAhcv4N7k" />
+		<DocPropertyConstant xsi:nil="true" href="VeryPossible_0DgJxu60z4Q8FpoGn3PPDm" />
+		<DocPropertyConstant xsi:nil="true" href="Possible_0P5sFGkyLCY9fwFmDuawW4" />
+		<DocPropertyConstant xsi:nil="true" href="SomewhatPossible_19YmLDJ8H4iBTy0KQ3TSvn" />
+		<DocPropertyConstant xsi:nil="true" href="Unlikely_0aOMGrwK10egf9Pp3TSUF" />
+		<DocPropertyConstant xsi:nil="true" href="VeryUnlikely_0GQMrTJP0uuTB2pU1MAd6" />
+		<DocPropertyConstant xsi:nil="true" href="Rare_35_c9yhEL9Ne7LzKlLwHTu" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

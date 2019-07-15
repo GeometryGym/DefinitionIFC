@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDamperType" UniqueId="1K4evReljEmumpv7FHKE_L" DiagramNumber="4" BaseDefinition="IfcFlowControllerType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="0AkMXcfzD9vg6of52jJ47Z" DefinedType="IfcDamperTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Type of damper.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="3bqMWDNhfCgR_1ZrQ7XIxt">
+			<Expression>(PredefinedType &lt;&gt; IfcDamperTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcDamperTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

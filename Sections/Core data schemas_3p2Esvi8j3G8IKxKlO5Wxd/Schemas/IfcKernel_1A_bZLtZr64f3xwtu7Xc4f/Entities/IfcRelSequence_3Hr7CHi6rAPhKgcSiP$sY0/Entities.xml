@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelSequence" UniqueId="3Hr7CHi6rAPhKgcSiP$sY0" DiagramNumber="6" BaseDefinition="IfcRelConnects" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="RelatingProcess" UniqueId="0xMnvnlvLEwvIQ4P1Efhne" DefinedType="IfcProcess" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to the Process, that is the predecessor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedProcess" UniqueId="2SknYGqULCj81$mwWt2tlJ" DefinedType="IfcProcess" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to the Process, that is the successor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TimeLag" UniqueId="2KUommyCj29wth376PvmUB" DefinedType="IfcTimeMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Time Duration of the sequence, it is the time lag between the predecessor and the successor as specified by the SequenceType.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SequenceType" UniqueId="35fFlk5XLDrOoJr9bsSsqH" DefinedType="IfcSequenceEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The way in which the time lag applies to the sequence.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1AQD$BEU92WwNM9qfAzHRe">
+			<Documentation>The RelatingProcess shall not point to the same instance as the RelatedProcess.</Documentation>
+			<Expression>RelatingProcess :&lt;&gt;: RelatedProcess</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

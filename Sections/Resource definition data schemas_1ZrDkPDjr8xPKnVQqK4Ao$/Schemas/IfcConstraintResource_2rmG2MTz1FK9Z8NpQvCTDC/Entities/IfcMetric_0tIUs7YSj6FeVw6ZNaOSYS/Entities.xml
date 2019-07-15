@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMetric" UniqueId="0tIUs7YSj6FeVw6ZNaOSYS" DiagramNumber="1" BaseDefinition="IfcConstraint" EntityFlags="165">
+	<Attributes>
+		<DocAttribute Name="Benchmark" UniqueId="23zLj17f57iRms_0nF_2k_" DefinedType="IfcBenchmarkEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Enumeration that identifies the type of benchmark data.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ValueSource" UniqueId="2APCoWk4jBPgFwLDlevwwP" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference source for data values.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DataValue" UniqueId="1WGXkh8P58qww8xvUgH592" DefinedType="IfcMetricValueSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Value with data type defined by the DataType enumeration.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

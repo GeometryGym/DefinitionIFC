@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FlowControlType_3wWCC__qn0V8Pw4pcwSd0F" Name="FlowControlType" UniqueId="fa80c33e-fb4c-407c-867a-1339ba72700f" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalFlowControlType_1HYCTUKvLEdempUjfsr5__" />
+	</Enumeration>
+</DocProperty>
+

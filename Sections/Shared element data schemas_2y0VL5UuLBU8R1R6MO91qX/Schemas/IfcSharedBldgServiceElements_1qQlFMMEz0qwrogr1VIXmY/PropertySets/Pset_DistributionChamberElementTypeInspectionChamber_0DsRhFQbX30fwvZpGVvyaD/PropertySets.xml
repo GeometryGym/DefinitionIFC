@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DistributionChamberElementTypeInspectionChamber" UniqueId="0dd9bacf-6a58-4302-9eb9-8f341fe7c90d" ApplicableType="IfcDistributionChamberElement.Predefined=&quot;INSPECTIONCHAMBER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ChamberLengthOrRadius_3DuBnojs94WxeWmfsDlBEr" />
+		<DocProperty xsi:nil="true" href="ChamberWidth_0hLEt39U9BbBesAQUVk7J3" />
+		<DocProperty xsi:nil="true" href="InvertLevel_0N1p8TkHLABPptKdUNnn9X" />
+		<DocProperty xsi:nil="true" href="SoffitLevel_07K4Sdglv9pgW5AGalF44" />
+		<DocProperty xsi:nil="true" href="WallMaterial_1Gsh2PBM53rvGQUwKyFDN1" />
+		<DocProperty xsi:nil="true" href="WallThickness_3yYV7PBgH1Wv9xygOLXSQr" />
+		<DocProperty xsi:nil="true" href="BaseMaterial_2kSLjQ1HfC8w7JuP3ul4ax" />
+		<DocProperty xsi:nil="true" href="BaseThickness_0v3ClLW1D95fsg8HA59QeA" />
+		<DocProperty xsi:nil="true" href="WithBackdrop_1bwvmB_YXDlAawssPrICq" />
+		<DocProperty xsi:nil="true" href="AccessCoverMaterial_0wVvgshf92p9Hqpw3qSS7F" />
+		<DocProperty xsi:nil="true" href="AccessLengthOrRadius_3rql14MZ5BswBetw9_k1ks" />
+		<DocProperty xsi:nil="true" href="AccessWidth_2hSZDsbfH0eQea0Tl3GE8C" />
+		<DocProperty xsi:nil="true" href="AccessCoverLoadRating_1ntDYYAUf2vBTsx7odCdYT" />
+	</Properties>
+</DocPropertySet>
+

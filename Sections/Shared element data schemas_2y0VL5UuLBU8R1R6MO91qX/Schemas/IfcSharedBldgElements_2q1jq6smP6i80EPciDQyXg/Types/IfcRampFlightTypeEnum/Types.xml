@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRampFlightTypeEnum" UniqueId="1X5wc_L5XFnPMXrL7nh$lu" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="STRAIGHT_0jyD1qN3LCfwbIgVSYuSzF" />
+		<DocConstant xsi:nil="true" href="SPIRAL_2YRJRMFCfCAgO7Byb_tozD" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2I9j8AEXT4HQZDfYRXNvmn" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1FIIiRNnDDrP98JAwONIQ8" />
+	</Constants>
+</DocEnumeration>
+

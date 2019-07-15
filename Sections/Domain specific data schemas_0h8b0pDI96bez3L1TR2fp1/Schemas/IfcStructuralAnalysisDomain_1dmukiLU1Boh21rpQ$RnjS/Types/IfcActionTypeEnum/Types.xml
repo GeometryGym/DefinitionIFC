@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcActionTypeEnum" UniqueId="35J2lInzDDxf7vHv8qJsur" DiagramNumber="5">
+	<Constants>
+		<DocConstant xsi:nil="true" href="PERMANENT_G_2DWXvFZzCTf5QCmPCsGL" />
+		<DocConstant xsi:nil="true" href="VARIABLE_Q_3WnxzY2tD4T9SE38vvv3oT" />
+		<DocConstant xsi:nil="true" href="EXTRAORDINARY_A_14_6SZCHf3leWx_E8PGmAN" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1TEgfJGDz3KQaTR5q5Pxzt" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1lcTBcvhD4_Rn06sVtLwfI" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SanitaryTerminalTypeCistern" UniqueId="a8004803-c67f-4eba-a556-f9ec8f29a264" ApplicableType="IfcSanitaryTerminal.Predefined=&quot;CISTERN&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="CisternHeight_0GbZwIPgrEiBNi9B4ezSDb" />
+		<DocProperty xsi:nil="true" href="CisternCapacity_3_8cgXEMvFJBDsI67Rss2w" />
+		<DocProperty xsi:nil="true" href="IsSingleFlush_00pJZAY8b4VvkmlsNRrkgy" />
+		<DocProperty xsi:nil="true" href="FlushType_0YRTDD7dLA0h2IyEdyNLR1" />
+		<DocProperty xsi:nil="true" href="FlushRate_1FqGcgI8X72AUqwgCBrYa" />
+		<DocProperty xsi:nil="true" href="IsAutomaticFlush_2d4QaK77XBhhEmuxSGHH1K" />
+		<DocProperty xsi:nil="true" href="CisternMaterial_1Td31WGTFHxbStKTedGq" />
+		<DocProperty xsi:nil="true" href="CisternColor_3eoC1Yi3X4m819zRAmFOqr" />
+	</Properties>
+</DocPropertySet>
+

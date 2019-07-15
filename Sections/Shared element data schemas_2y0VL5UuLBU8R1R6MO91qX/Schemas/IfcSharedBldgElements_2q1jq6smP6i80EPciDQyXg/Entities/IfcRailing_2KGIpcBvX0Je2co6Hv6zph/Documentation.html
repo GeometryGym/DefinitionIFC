@@ -1,0 +1,49 @@
+<EPM-HTML>
+	 <P><U>Definition of IAI</U>: The railing is a frame assembly adjacent to
+		human circulation spaces and at some space boundaries where it is used in lieu
+		of walls or to complement walls. Designed to aid humans, either as an optional
+		physical support, or to prevent injury by falling. A list of references to
+		accessory/mounting hardware for this railing might be given by including these
+		assessories (<I>IfcDiscreteAssessory</I>) through the objectified relationship
+		<I>IfcRelAggregates</I>. </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY New Entity in IFC Release 2.0
+		  </FONT></P></BLOCKQUOTE> 
+	 <P><U><B>Property Set Use Definition</B></U>:</P> 
+	 <P>The property sets relating to the <I>IfcRailing</I> are defined by the
+		<I>IfcPropertySet</I> and attached by the <I>IfcRelDefinesByProperties</I>
+		relationship. It is accessible by the inverse <I>IsDefinedBy</I> relationship.
+		The following property set definitions specific to the <I>IfcRailing</I> are
+		part of this IFC release:</P> 
+	 <UL> 
+		<LI><A HREF="../../psd/IfcSharedBldgElements/Pset_RailingCommon.xml"
+		  TARGET="SOURCE">Pset_RailingCommon</A>: common property set for all railing
+		  occurrences</LI> 
+	 </UL>
+	 <P><U><B>Geometry Use Definitions</B></U> </P> 
+	 <P>The geometric representation of <I>IfcRailing</I> is given by the
+		<I>IfcProductDefinitionShape</I>, allowing multiple geometric representations.
+		Included are: </P> 
+	 <P><B>Local placement</B></P> 
+	 <P>The local placement for <I>IfcRailing</I> is defined in its supertype
+		<I>IfcProduct</I>. It is defined by the <I>IfcLocalPlacement</I>, which defines
+		the local coordinate system that is referenced by all geometric
+		representations. </P> 
+	 <UL> 
+		<LI>The <I>PlacementRelTo</I> relationship of <I>IfcLocalPlacement</I>
+		  shall point (if given) to the same <I>IfcSpatialStructureElement</I> that is
+		  used in the <I>ContainedInStructure</I> inverse attribute or to a referenced
+		  spatial structure element at a higher level</LI> 
+		<LI>If the <I>IfcRailing</I>, however, is used by an <I>IfcStair</I> or
+		  <I>IfcRamp</I>, and this container class defines its own local placement, then
+		  the <I>PlacementRelTo</I> relationship of <I>IfcLocalPlacement</I> shall point
+		  (if given) to the local placement of the aggregate.</LI> 
+		<LI>If the relative placement is not used, the absolute placement is
+		  defined within the world coordinate system. </LI> 
+	 </UL> 
+	 <P><B><I>Geometric Representation </I></B></P> 
+	 <P>Currently the use of 'BoundingBox', 'SurfaceModel', 'Brep' and
+		'MappedRepresentation' representations of <I>IfcRailing</I> are supported. The
+		conventions to use these representations are given at the level of the
+		supertype, <I>IfcBuildingElement</I>.</P>
+</EPM-HTML>

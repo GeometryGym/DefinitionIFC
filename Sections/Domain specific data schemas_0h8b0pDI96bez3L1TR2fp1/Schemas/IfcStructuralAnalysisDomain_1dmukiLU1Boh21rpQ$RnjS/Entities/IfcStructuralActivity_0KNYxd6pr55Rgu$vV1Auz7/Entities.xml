@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralActivity" UniqueId="0KNYxd6pr55Rgu$vV1Auz7" DiagramNumber="2" BaseDefinition="IfcProduct" EntityFlags="141">
+	<Subtypes>
+		<DocSubtype UniqueId="10nugR0550EvWUQ7s0B$uO" DefinedType="IfcStructuralAction" />
+		<DocSubtype UniqueId="217eReFyjBhxi7FRkQuB51" DefinedType="IfcStructuralReaction" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="AppliedLoad" UniqueId="1kXc_wi0vBEOrT0it_r4MY" DefinedType="IfcStructuralLoad" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to the load resource, which is used to define the load type, direction and load values. The specified load types are provided in the IfcStructuralLoadResource presented at the end of this document.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="GlobalOrLocal" UniqueId="150tSZVwX9SfnjD4x4YiQR" DefinedType="IfcGlobalOrLocalEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Indicates if the load values are defined by using the local  coordinate system or the global project coordinate system.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="AssignedToStructuralItem" UniqueId="2fpNuh0YHFhPW3zlS9j2cZ" DefinedType="IfcRelConnectsStructuralActivity" AttributeFlags="8" AggregationType="0" AggregationFlag="0" Inverse="RelatedStructuralActivity">
+			<Documentation>References to the IfcRelConnectsStructuralActivity relationship by which activities can be associated to structural representations.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

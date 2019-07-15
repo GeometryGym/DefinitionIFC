@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMaterialList" UniqueId="0IQWDIA817a95cVd5deG4C" DiagramNumber="1" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Materials" UniqueId="3YfMDCSZXEkxFmfCHarux7" DefinedType="IfcMaterial" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Materials used in a composition of substances.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

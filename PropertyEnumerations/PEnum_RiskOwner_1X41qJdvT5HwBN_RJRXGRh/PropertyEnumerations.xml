@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_RiskOwner_1X41qJdvT5HwBN_RJRXGRh" Name="PEnum_RiskOwner" UniqueId="61101d13-9f97-4547-a2d7-f9b4db8506eb">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Designer_3Og_XKBdnDLALM7lQG5Ku1" />
+		<DocPropertyConstant xsi:nil="true" href="Specifier_2hIbI9t110gAzFdGOKNzSz" />
+		<DocPropertyConstant xsi:nil="true" href="Constructor_0hGursTLT8dxNaOFF6c1r" />
+		<DocPropertyConstant xsi:nil="true" href="Installer_0Cz9Un9Pb5CAJxXEo3wFJ_" />
+		<DocPropertyConstant xsi:nil="true" href="Maintainer_0FUHZg_0L8k9Wc26v1zJ47" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

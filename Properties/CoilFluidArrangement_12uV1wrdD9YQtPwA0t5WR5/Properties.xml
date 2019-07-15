@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CoilFluidArrangement_12uV1wrdD9YQtPwA0t5WR5" Name="CoilFluidArrangement" UniqueId="42e1f07a-d673-4989-add9-e8a0371606c5" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoilFluidArrangement_29iOuT2Tz298seT_XCtZsg" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcShell" UniqueId="3T1CVOoALAYQN$6gsO0592" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcClosedShell" UniqueId="01$LWg7L59yPgSf6h2SazU" />
+		<DocSelectItem Name="IfcOpenShell" UniqueId="00MRxa8zP6zxHb3FMlmEho" />
+	</Selects>
+</DocSelect>
+

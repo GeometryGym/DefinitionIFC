@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSolidModel" UniqueId="2k8J$PVg19TfGU4vwk_DSH" DiagramNumber="1" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="3Q6CmdCrvE48MxPbb8OXCO" DefinedType="IfcManifoldSolidBrep" />
+		<DocSubtype UniqueId="2bAwbmCM98OOVeYHCxFzIt" DefinedType="IfcSweptAreaSolid" />
+		<DocSubtype UniqueId="23v4BZWbX3QQK3wvO$F1d5" DefinedType="IfcCsgSolid" />
+		<DocSubtype UniqueId="2ysvfbiyzFbBHLR006z45A" DefinedType="IfcSweptDiskSolid" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Dim" UniqueId="3l7Gm6THP2ceYn1cvnmuhQ" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, it is always 3.</Documentation>
+			<Derived>3</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

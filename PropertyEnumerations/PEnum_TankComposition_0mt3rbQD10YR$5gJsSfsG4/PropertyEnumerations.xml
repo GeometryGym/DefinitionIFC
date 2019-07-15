@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_TankComposition_0mt3rbQD10YR5gJsSfsG4" Name="PEnum_TankComposition" UniqueId="30dc3d65-68d0-4089-bfc5-a93d9ca76404">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="COMPLEX_0MZwyKeSj9TPWsxvK6Su1f" />
+		<DocPropertyConstant xsi:nil="true" href="ELEMENT_3fHrurSjr7b8u8tKkQfGCL" />
+		<DocPropertyConstant xsi:nil="true" href="PARTIAL_04hYvZqS5EIegiSada_V_r" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

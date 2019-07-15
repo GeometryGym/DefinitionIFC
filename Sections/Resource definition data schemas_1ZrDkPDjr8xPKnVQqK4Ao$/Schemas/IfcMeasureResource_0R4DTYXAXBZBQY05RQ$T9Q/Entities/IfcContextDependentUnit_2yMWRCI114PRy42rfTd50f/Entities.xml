@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcContextDependentUnit" UniqueId="2yMWRCI114PRy42rfTd50f" DiagramNumber="1" BaseDefinition="IfcNamedUnit" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="36nz5ZeVr6awPQoSYNT$PU" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The word, or group of words, by which the context dependent unit is referred to.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

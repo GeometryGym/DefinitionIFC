@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTelecomAddress" UniqueId="1EEQ_PjGn3wARfyWUKE1Lf" DiagramNumber="2" BaseDefinition="IfcAddress" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="TelephoneNumbers" UniqueId="240mQfuTL6t9rJPWsbBjwI" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The list of telephone numbers at which telephone messages may be received.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FacsimileNumbers" UniqueId="00yEbUz6n0nPiMYtFT9XoP" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The list of fax numbers at which fax messages may be received.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PagerNumber" UniqueId="2qHIYLchP9d89y4rh8pUc9" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The pager number at which paging messages may be received.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ElectronicMailAddresses" UniqueId="2yznPGoVn1fvmYe7Ti$OWw" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The list of Email addresses at which Email messages may be received.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="WWWHomePageURL" UniqueId="2ijAJO$2LE1eseMsXrsDA1" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The world wide web address at which the preliminary page of information for the person or organization can be located.
+&lt;EPM-HTML&gt;
+&lt;BLOCKQUOTE&gt;&lt;FONT SIZE=&quot;-1&quot;&gt;NOTE: Information on the world wide web for a person or organization may be separated 
+into a number of pages and across a number of host sites, all of which may be linked together. It is assumed that 
+all such information may be referenced from a single page that is termed the home page for that person or organization.
+&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="0M3Y9XOYD8AfdchhI_CIxE">
+			<Documentation>Requires that at least one attribute of facsimile numbers, telephone numbers, electronic mail addresses, pager number or world wide web home page URL is asserted. It is not acceptable to have a telecommunications address without at least one of these values.</Documentation>
+			<Expression>EXISTS (TelephoneNumbers) OR
+EXISTS (PagerNumber) OR
+EXISTS (FacsimileNumbers) OR 
+EXISTS (ElectronicMailAddresses) OR 
+EXISTS (WWWHomePageURL)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

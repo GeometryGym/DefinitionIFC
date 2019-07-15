@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_AirTerminalBoxTypeCommon" UniqueId="ef14204d-0f7b-4b67-a5c8-0c6016c401a9" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AirflowRateRange_2Gvy4uQUf8lAzRtGzIfLV" />
+		<DocProperty xsi:nil="true" href="AirPressureRange_34RaVEKwr0dhh9HxS4aOx" />
+		<DocProperty xsi:nil="true" href="NominalAirFlowRate_19tCur42z2IBziovhWSjvG" />
+		<DocProperty xsi:nil="true" href="ArrangementType_09Fc6boV1FNfh6xQ6SRiUX" />
+		<DocProperty xsi:nil="true" href="ReheatType_2OykcmYaP0YwpJlFvdqQt" />
+		<DocProperty xsi:nil="true" href="HasSoundAttenuator_1ox0JKTrf5280IiN6WK5ED" />
+		<DocProperty xsi:nil="true" href="HasReturnAir_2xsMdzfff0mwiNl63yLW2" />
+		<DocProperty xsi:nil="true" href="HasFan_32bQ3QEVb2w9zVTeWh0oB1" />
+		<DocProperty xsi:nil="true" href="NominalInletAirPressure_20gnHKFGzDGOXuPlAXLEmG" />
+		<DocProperty xsi:nil="true" href="NominalDamperDiameter_2uVDguULrEHBgTV_8XFwbh" />
+		<DocProperty xsi:nil="true" href="Material_0lAYZraY17GfkE5K3QCODS" />
+		<DocProperty xsi:nil="true" href="HousingThickness_0dZ5YLwrnDEvWUtrI5y67e" />
+		<DocProperty xsi:nil="true" href="OperationTemperatureRange_2ZLpTtbvj2FvwvJjHUOdiX" />
+		<DocProperty xsi:nil="true" href="ReturnAirFractionRange_1oM5EU5m5EmuowIVgOOduG" />
+		<DocProperty xsi:nil="true" href="Weight_0_jbdWsojF6wgZ_OrR0Qek" />
+	</Properties>
+</DocPropertySet>
+

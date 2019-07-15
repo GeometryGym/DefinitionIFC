@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoundedSurface" UniqueId="0Gglszkzf7oRBMBE4v_KnH" DiagramNumber="7" BaseDefinition="IfcSurface" EntityFlags="101">
+	<Subtypes>
+		<DocSubtype UniqueId="1k5Ck7b4TCYBLr_uX9A_yP" DefinedType="IfcCurveBoundedPlane" />
+		<DocSubtype UniqueId="2S0rPRqxj6Kwg7B7NRvv$K" DefinedType="IfcRectangularTrimmedSurface" />
+	</Subtypes>
+</DocEntity>
+

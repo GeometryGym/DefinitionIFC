@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRightCircularCylinder" UniqueId="3OH6RPI1PCfheZ0uPayZI8" DiagramNumber="2" BaseDefinition="IfcCsgPrimitive3D" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Height" UniqueId="1JH8MiGX9Ab9ftf5ICJOX8" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Radius" UniqueId="18OaO4ACn4pfFwVMhWhSrB" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcControl" UniqueId="06f$TqjKn9kxrgEMD2tqPq" DiagramNumber="7" BaseDefinition="IfcObject" EntityFlags="141">
+	<Attributes>
+		<DocAttribute Name="Controls" UniqueId="264StPbqLBpv5jOq3MMKCW" DefinedType="IfcRelAssignsToControl" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingControl">
+			<Documentation>Reference to the relationship that associates the control to the object(s) being controlled.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

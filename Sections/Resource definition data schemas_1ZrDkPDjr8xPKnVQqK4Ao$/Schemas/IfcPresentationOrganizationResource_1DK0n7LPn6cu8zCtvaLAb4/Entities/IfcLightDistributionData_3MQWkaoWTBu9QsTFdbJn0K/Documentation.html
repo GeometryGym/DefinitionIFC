@@ -1,0 +1,32 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: The <I>IfcLightDistributionData</I> defines
+		the luminous intensity of a light source given at a particular main plane
+		angle. It is based on some standardized light distribution curves, the
+		<I>MainPlaneAngle</I> is either the</P> 
+	 <UL> 
+		<LI>A angle; if the <I>IfcLightDistributionCurveEnum</I> is set to
+		  TYPE_A</LI> 
+		<LI>B angle; if the <I>IfcLightDistributionCurveEnum</I> is set to
+		  TYPE_B</LI> 
+		<LI>C angle; if the <I>IfcLightDistributionCurveEnum</I> is set to
+		  TYPE_C</LI> 
+	 </UL> 
+	 <P>For each <I>MainPlaneAngle</I> (considered as being the row of a table)
+		a list of <I>SecondaryPlaneAngle'</I>s are given (considered to be the columns
+		of a table). They are either the:</P> 
+	 <UL> 
+		<LI>&#945; angle; if the <I>IfcLightDistributionCurveEnum</I> is set to
+		  TYPE_A</LI> 
+		<LI>&#946; angle; if the <I>IfcLightDistributionCurveEnum</I> is set to
+		  TYPE_B</LI> 
+		<LI>&#947; angle; if the <I>IfcLightDistributionCurveEnum</I> is set to
+		  TYPE_C</LI> 
+	 </UL> 
+	 <P>For each pair of <I>MainPlaneAngle</I> and <I>SecondaryPlaneAngle</I>
+		the <I>LuminousIntensity</I> is provides (the unit is given by the
+		<I>IfcUnitAssignment</I> referring to the LuminousIntensityDistributionUnit,
+		normally cd/klm).</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1"> HISTORY: New entity in Release IFC2x
+		  Edition 2. </FONT></P> </BLOCKQUOTE>
+</EPM-HTML>

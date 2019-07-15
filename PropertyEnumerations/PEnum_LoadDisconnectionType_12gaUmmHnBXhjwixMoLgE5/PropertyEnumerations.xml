@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_LoadDisconnectionType_12gaUmmHnBXhjwixMoLgE5" Name="PEnum_LoadDisconnectionType" UniqueId="42aa47b0-c11c-4b86-bb7a-b3b5b256a385">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="OffLoad_29Vj4Wf_56hRv_Po00PEXB" />
+		<DocPropertyConstant xsi:nil="true" href="OnLoad_1kdfjXrmzDHvl8GmwJXvNs" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcShapeModel" UniqueId="1_xeDoVOHBrwFSq9$BApv6" DiagramNumber="2" BaseDefinition="IfcRepresentation" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="2gWvLrLMz98B363ThylVy4" DefinedType="IfcShapeRepresentation" />
+		<DocSubtype UniqueId="0e9LLX5IL9RgCeRXIdw8xl" DefinedType="IfcTopologyRepresentation" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="OfShapeAspect" UniqueId="3zCKr5P_XB9gTReN0GdCWY" DefinedType="IfcShapeAspect" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="ShapeRepresentations">
+			<Documentation>Reference to the shape aspect, for which it is the shape representation.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR11" UniqueId="0BIHB6Cmr8zOemqBP2pupl">
+			<Documentation>&lt;EPM-HTML&gt;
+The &lt;i&gt;IfcShapeModel&lt;/i&gt; shall be used by an &lt;i&gt;IfcProductRepresentation&lt;/i&gt;, by an &lt;i&gt;IfcRepresentationMap&lt;/i&gt; or by an &lt;i&gt;IfcShapeAspect&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>(SIZEOF(SELF\IfcRepresentation.OfProductRepresentation) = 1) XOR 
+(SIZEOF(SELF\IfcRepresentation.RepresentationMap) = 1) XOR
+(SIZEOF(OfShapeAspect) = 1)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

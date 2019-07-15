@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SeparationType_05bmy7n5899O86whdIIy9" Name="SeparationType" UniqueId="0597fc3c-1f11-4824-9608-1baae7492f09" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FilterAirParticleFilterSeparationType_1hOzCfz5L2_vnJjJChl0ix" />
+	</Enumeration>
+</DocProperty>
+

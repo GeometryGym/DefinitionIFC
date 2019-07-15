@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFillStyleSelect" UniqueId="3PTpJczl12sBw1lrN4GRM9" DiagramNumber="4">
+	<Selects>
+		<DocSelectItem Name="IfcFillAreaStyleHatching" UniqueId="1$Bt98eeLEGxQr3xmVI4TD" />
+		<DocSelectItem Name="IfcFillAreaStyleTiles" UniqueId="08IG5sdir6qwrq$G0NeGK1" />
+		<DocSelectItem Name="IfcColour" UniqueId="2mSRqbVcfF0A_fSAXOD5e$" />
+		<DocSelectItem Name="IfcExternallyDefinedHatchStyle" UniqueId="2HAj6CGkDFm9jW94z7Ajkg" />
+	</Selects>
+</DocSelect>
+

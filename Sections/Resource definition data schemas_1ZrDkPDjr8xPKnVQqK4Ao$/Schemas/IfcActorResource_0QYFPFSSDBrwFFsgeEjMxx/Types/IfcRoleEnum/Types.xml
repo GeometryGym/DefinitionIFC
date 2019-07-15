@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRoleEnum" UniqueId="3GcOHW26LFMvM_QZW3aR2I" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="SUPPLIER_3W0jUZbE13e9nGw45mPGws" />
+		<DocConstant xsi:nil="true" href="MANUFACTURER_0jpVLPUV19JhEv6XujxUaH" />
+		<DocConstant xsi:nil="true" href="CONTRACTOR_2CqfReKBHC4uzyRL7LdOT" />
+		<DocConstant xsi:nil="true" href="SUBCONTRACTOR_0KLlj3kVT4Phy9DKguHHlg" />
+		<DocConstant xsi:nil="true" href="ARCHITECT_3nwgJQoO5E1PBmHoiYyv_L" />
+		<DocConstant xsi:nil="true" href="STRUCTURALENGINEER_1oTv18zCROO7J63Vhq1H" />
+		<DocConstant xsi:nil="true" href="COSTENGINEER_0aTGCJrxH0wxAfx8T3o6x" />
+		<DocConstant xsi:nil="true" href="CLIENT_2UaP4yjOT75Pfn8fYKXHF" />
+		<DocConstant xsi:nil="true" href="BUILDINGOWNER_12MwQGCorBPvqpvfQvWw2Y" />
+		<DocConstant xsi:nil="true" href="BUILDINGOPERATOR_0gV517eRTAJvn78_an7NRm" />
+		<DocConstant xsi:nil="true" href="MECHANICALENGINEER_0SNvpgWVLBWhwsAUtDlwG" />
+		<DocConstant xsi:nil="true" href="ELECTRICALENGINEER_3rFM54ktrEYQ3BiEIz6yZp" />
+		<DocConstant xsi:nil="true" href="PROJECTMANAGER_3XtFnVf0DDjvSnjl99sI4" />
+		<DocConstant xsi:nil="true" href="FACILITIESMANAGER_3S6BD_q3j4Ogre9KmlXgnM" />
+		<DocConstant xsi:nil="true" href="CIVILENGINEER_1myiJetAz10AHyLhaVTRk" />
+		<DocConstant xsi:nil="true" href="COMISSIONINGENGINEER_03JfD7rg1E2RgRUXZY_id1" />
+		<DocConstant xsi:nil="true" href="ENGINEER_3xGYlluDEevHg9zPREZrL" />
+		<DocConstant xsi:nil="true" href="OWNER_3dhLvsI5H6QP3QA0jZqvEw" />
+		<DocConstant xsi:nil="true" href="CONSULTANT_15fUe4fcrE6xxwASqRKJET" />
+		<DocConstant xsi:nil="true" href="CONSTRUCTIONMANAGER_1iivZ5CWD1UOe4IXqA5GWE" />
+		<DocConstant xsi:nil="true" href="FIELDCONSTRUCTIONMANAGER_2aOUO42qr5tAnpYmAzMpIb" />
+		<DocConstant xsi:nil="true" href="RESELLER_3mdLBfL8TDDfmQYOjKwAEW" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0XGDVw4FPCGfcgjOPqhn6L" />
+	</Constants>
+</DocEnumeration>
+

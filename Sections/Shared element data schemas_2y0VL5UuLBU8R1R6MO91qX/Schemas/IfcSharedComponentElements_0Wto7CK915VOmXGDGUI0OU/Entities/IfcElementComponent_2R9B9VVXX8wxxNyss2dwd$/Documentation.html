@@ -1,0 +1,59 @@
+<EPM-HTML>
+<P>
+<U>Definition from IAI:</U>
+   An element component is a representation for minor items included in, added to or connecting to or between
+   elements, which usually are not of interest from the overall building structure viewpoint.
+   However, these small parts may have vital and load carrying functions within the construction.
+   These items do not provide any actual space boundaries.
+   Typical examples of <I>IfcElementComponent</I>s include different kinds of fasteners and various accessories.
+</P>
+
+<BLOCKQUOTE><FONT COLOR="#0000FF" SIZE="-1">
+   HISTORY New entity in IFC Release 2x2
+</FONT></BLOCKQUOTE>
+
+<P><B>Geometry Use Definitions:</B></P>
+
+<P>
+  The geometric representation of <I>IfcElementComponent</I> is given by the <I>IfcProductDefinitionShape</I>,
+  allowing multiple geometric representations. Included are:
+</P>
+
+<P><U>Local Placement</U><BR>
+  The local placement for <I>IfcElementComponent</I> is defined in its supertype <I>IfcProduct</I>.
+  It is defined by the <I>IfcLocalPlacement</I>, which defines the local coordinate system that is
+  referenced by all geometric representations. 
+</P>
+
+<UL>
+  <LI>The <I>PlacementRelTo</I> relationship of <I>IfcLocalPlacement</I> shall point (if given) to
+      the local placement of the same <I>IfcElement</I> or <I>IfcElementAssembly</I>, which is
+      used in the <I>Decomposes</I> inverse attribute, i.e. the local placement is defined relative to
+      the local placement of the element or element assembly in which the component is contained. 
+  <LI>If the relative placement is not used, the absolute placement is defined within the world coordinate system. 
+</UL
+
+<P><U>Surface Model Representation</U><BR>
+  Any <I>IfcElementComponent</I> (if no further constraints are defined at the level of its subtypes)
+  may be represented as a single or multiple surface models, based on either shell or face based models.
+  It is ensured by assigning the value 'SurfaceModel' to the <I>RepresentationType</I> attribute of
+  <I>IfcShapeRepresentation</I>. In some cases it may be useful to also expose a simple representation as
+  a bounding box representation of the same complex shape.
+</P>
+
+<P><U>Brep Representation</U><BR>
+  Any <I>IfcElementComponent</I> (if no further constraints are defined at the level of its subtypes)
+  may be represented as a single or multiple Boundary Representation elements (which are restricted to faceted
+  Brep with or without voids). The Brep representation allows for the representation of complex element shape.
+  It is ensured by assigning the value 'Brep' to the <I>RepresentationType</I> attribute of
+  <I>IfcShapeRepresentation</I>. In some cases it may be useful to also expose a simple representation as
+  a bounding box representation of the same complex shape.
+</P>
+
+<P><U>Mapped Representation</U><BR>
+  The mapped item, <I>IfcMappedItem</I>, should be used if appropriate as it allows for reusing the geometry
+  definition of the equipment type at occurrences of the same equipement type. In this case the
+  <I>IfcShapeRepresentation.RepresentationType</I> = 'MappedRepresentation' is used.
+</P>
+
+</EPM-HTML>

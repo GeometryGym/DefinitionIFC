@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SwitchUsage_1wiXYhKY9DaeV4zw3V6Ma" Name="PEnum_SwitchUsage" UniqueId="7ab218ab-5222-4d92-87c4-f7afc37c65a4">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Emergency_0PMvz9fhv4AvUPqA2rFvzC" />
+		<DocPropertyConstant xsi:nil="true" href="Guard_3r_Y9Om_f5Fvq7jbxGPdDn" />
+		<DocPropertyConstant xsi:nil="true" href="Limit_00LqpoIbFPAxmsqX5pFa" />
+		<DocPropertyConstant xsi:nil="true" href="Start_1m9j6T7Dj4uet8WmS8wJHU" />
+		<DocPropertyConstant xsi:nil="true" href="Stop_3UAfL2jTn3cgddKs7W38Wj" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

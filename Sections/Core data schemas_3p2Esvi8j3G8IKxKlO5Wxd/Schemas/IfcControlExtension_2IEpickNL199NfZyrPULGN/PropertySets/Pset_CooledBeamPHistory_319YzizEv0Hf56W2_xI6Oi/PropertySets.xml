@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CooledBeamPHistory" UniqueId="c1262f6c-f4ee-4046-9146-802fbb48662c" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="TotalCoolingCapacity_0Qta06S41DsAmqPPVDYAhu" />
+		<DocProperty xsi:nil="true" href="TotalHeatingCapacity_3jvEEt6mn5F8rHhjTl6Lt4" />
+		<DocProperty xsi:nil="true" href="BeamCoolingCapacity_0JNpFmcXDT8iKuqA3nvdP" />
+		<DocProperty xsi:nil="true" href="BeamHeatingCapacity_1TFD1EP9jFOfurCOx390N3" />
+		<DocProperty xsi:nil="true" href="CoolingWaterFlowRate_1t49yf18PD7AtixzW953gV" />
+		<DocProperty xsi:nil="true" href="HeatingWaterFlowRate_1QeRH6MOP0Ggn_JW6z80Lv" />
+		<DocProperty xsi:nil="true" href="CorrectionFactorForCooling_1Kr74Mr6DDdBBsP6bq566" />
+		<DocProperty xsi:nil="true" href="CorrectionFactorForHeating_348ZrUZKjCKQyC_xPi8Uo" />
+		<DocProperty xsi:nil="true" href="WaterPressureDropCurves_3tvkuFwSn6vRPjZ_xaYPDm" />
+		<DocProperty xsi:nil="true" href="SupplyWaterTemperatureCooling_2zdHK66HnDsw8GDXfV3cNp" />
+		<DocProperty xsi:nil="true" href="ReturnWaterTemperatureCooling_1DCl3BoLL3E8HyZEb1GVxB" />
+		<DocProperty xsi:nil="true" href="SupplyWaterTemperatureHeating_1JUXHDiXv3XfWOitAYwk5" />
+		<DocProperty xsi:nil="true" href="ReturnWaterTemperatureHeating_3PMtCWg0D74QwnyqeNIFO" />
+	</Properties>
+</DocPropertySet>
+

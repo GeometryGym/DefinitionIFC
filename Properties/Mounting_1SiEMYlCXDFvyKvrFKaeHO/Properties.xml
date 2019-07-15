@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Mounting_1SiEMYlCXDFvyKvrFKaeHO" Name="Mounting" UniqueId="5cb0e5a2-bcc8-4d3f-9f14-e753d4928458" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SanitaryMounting_0BDQr5B9TAiO8B6Db91l1V" />
+	</Enumeration>
+</DocProperty>
+

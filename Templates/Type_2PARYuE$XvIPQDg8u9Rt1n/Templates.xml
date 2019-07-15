@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Type_2PARYuEXvIPQDg8u9Rt1n" Name="Type" UniqueId="2PARYuE$XvIPQDg8u9Rt1n" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType">
+	<Templates>
+		<DocTemplateDefinition Name="Type Geometry" UniqueId="0agf33ACyIIPp4RzufuXW$" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType">
+			<Documentation>&lt;p&gt;
+	Provision of a common geometry for all occurrences of this &amp;quot;element&amp;quot; type as representation maps.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Type Naming" UniqueId="1MfpMWzSUPHAXBrVpO9dN1" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType">
+			<Documentation>&lt;p&gt;
+	Provision of basic element attributes for the &lt;em&gt;element type&lt;/em&gt;. It includes:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;em&gt;Name&lt;/em&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;em&gt;Description&lt;/em&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;em&gt;Tag&lt;/em&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;em&gt;PredefinedType &lt;/em&gt;(if available at the element entity definition) as ,&lt;/li&gt;
+	&lt;li&gt;
+		&lt;em&gt;ElementType&lt;/em&gt; being the &lt;span style=&quot;font-style: italic;&quot;&gt;u&lt;/span&gt;ser defined type, if the &lt;em&gt;PredefinedType&lt;/em&gt; is set to USERDEFINED.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	This information is provided as direct attributes at the &lt;em&gt;element type&lt;/em&gt;. The default requirement stipulated by this &lt;strong&gt;concept template&lt;/strong&gt; is that the provision of a &lt;em&gt;Name &lt;/em&gt;and of a &lt;em&gt;PredefinedType &lt;/em&gt;(if available) is mandatory, whereas the provision of a &lt;em&gt;Description, a Tag &lt;/em&gt;and an &lt;span style=&quot;font-style: italic;&quot;&gt;Element&lt;/span&gt;&lt;em&gt;Type &lt;/em&gt;is optional.&lt;/p&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define which of those attributes are required to have values, and if there are constraints on those values.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Type Material" UniqueId="0IeWYVY7RWHRSMGAxZ2u$0" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType">
+			<Documentation>&lt;p&gt;
+	Provision of a common material information for all occurrences of this &amp;quot;element&amp;quot; type. The material information may be provided as a single material, or a material layer set. On import: the &lt;element type=&quot;&quot;&gt; material shall be copied to all &amp;quot;element&amp;quot; occurrences, if types are not supported natively.&lt;/element&gt;&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Type Element Aggregation" UniqueId="3tX5weYIZjHuP$kiUD1PCd" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType">
+			<Documentation>&lt;p&gt;
+	Provision of an aggregation structure (or decomposition tree) of types of physical element, where the &lt;em&gt;element&lt;/em&gt;&lt;em&gt; type&lt;/em&gt; is either the whole or one of the parts of an aggregated structure.&lt;/p&gt;</Documentation>
+			<Templates>
+				<DocTemplateDefinition Name="Type Element Composition" UniqueId="0i3fgdc99JIOFRfapFT6Yd" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType">
+					<Documentation>&lt;p&gt;
+	Provision of an aggregation structure where the &lt;em&gt;element type&lt;/em&gt; is part of another element type representing the composite. The &lt;em&gt;element type&lt;/em&gt; then provides the partial shape representation map.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+				<DocTemplateDefinition Name="Type Element Decomposition" UniqueId="0vFac_24DVHxzXaYCSreoh" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType">
+					<Documentation>&lt;p&gt;
+	Provision of an aggregation structure where the &lt;em&gt;element type&lt;/em&gt;, representing the composite, is decomposed into parts represented by other element types. The &lt;em&gt;element type&lt;/em&gt; being the composite shall not have an own shape representation map. The shape representation maps are provided by the parts.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+			</Templates>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Type Property Set" UniqueId="2St6Mp2rsTIwsaGE1inAqc" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType">
+			<Documentation>&lt;p&gt;
+	Provision of a common property set for all occurrences of this &amp;quot;element&amp;quot; type. The property set can be an IFC common property set, any IFC property set applicable to the &amp;quot;element&amp;quot; type, or a user/system defined property set. Those property set names shall not start with &amp;quot;Pset_&amp;quot; prefix (not case sensitive). On import: the &lt;element type=&quot;&quot;&gt; property sets shall be copied to all &amp;quot;element&amp;quot; occurrences, if types are not supported natively.&lt;/element&gt;&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Type Predefined Properties" UniqueId="3GbWLrq01OH8VMLGMCMxpT" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType">
+			<Templates>
+				<DocTemplateDefinition Name="Type Predefined Properties Door" UniqueId="3F5wsB1HyrHgDijEmVJu4F" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType" />
+				<DocTemplateDefinition Name="Type Predefined Properties Window" UniqueId="3zLkaeJ9SFIAw7Zzsby_D2" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelDefinesByType" />
+			</Templates>
+		</DocTemplateDefinition>
+	</Templates>
+</DocTemplateDefinition>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_TankTypeExpansion" UniqueId="8a386e6b-613d-434a-aa20-d72c448e3e0a" ApplicableType="IfcTank.Predefined=&quot;EXPANSION&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ChargePressure_3wtc0DAxXFleVMm_NUGgRH" />
+		<DocProperty xsi:nil="true" href="PressureRegulatorSetting_1lOp4qyx11hPzoeRrjD7u" />
+		<DocProperty xsi:nil="true" href="ReliefValveSetting_1MYFst2TP5nBFu3AjJcTb3" />
+	</Properties>
+</DocPropertySet>
+

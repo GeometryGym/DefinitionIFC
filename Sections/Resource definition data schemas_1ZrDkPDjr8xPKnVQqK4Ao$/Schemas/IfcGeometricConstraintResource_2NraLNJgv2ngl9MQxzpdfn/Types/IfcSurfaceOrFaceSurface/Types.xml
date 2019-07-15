@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceOrFaceSurface" UniqueId="2Ve2xn$6fFVfjadpCTPAun" DiagramNumber="3">
+	<Selects>
+		<DocSelectItem Name="IfcSurface" UniqueId="2hZnZd$FP6IOt5VsZcW73B" />
+		<DocSelectItem Name="IfcFaceSurface" UniqueId="2viJim98nBLQurBiSGfQVv" />
+		<DocSelectItem Name="IfcFaceBasedSurfaceModel" UniqueId="2L5uaEedH1XBrmtt9igumF" />
+	</Selects>
+</DocSelect>
+

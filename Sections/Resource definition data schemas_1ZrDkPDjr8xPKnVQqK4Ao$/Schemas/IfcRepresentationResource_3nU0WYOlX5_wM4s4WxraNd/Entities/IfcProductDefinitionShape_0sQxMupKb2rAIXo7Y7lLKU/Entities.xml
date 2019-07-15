@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProductDefinitionShape" UniqueId="0sQxMupKb2rAIXo7Y7lLKU" DiagramNumber="3" BaseDefinition="IfcProductRepresentation" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="ShapeOfProduct" UniqueId="1$MjMp_O9FRuyEyjxQqxn7" DefinedType="IfcProduct" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="1" Inverse="Representation">
+			<Documentation>&lt;EPM-HTML&gt;
+The &lt;i&gt;IfcProductDefinitionShape&lt;/i&gt; shall be used to provide a representation for a single instance of &lt;i&gt;IfcProduct&lt;/i&gt;.
+&lt;blockquote&gt;&lt;small&gt;
+  &lt;font color=&quot;#FF0000&quot;&gt;IFC2x Edition 3 CHANGE&amp;nbsp; New inverse attribute.&lt;/font&gt;
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HasShapeAspects" UniqueId="11N8COtp570BwsVOPWLGKQ" DefinedType="IfcShapeAspect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="PartOfProductDefinitionShape">
+			<Documentation>Reference to the shape aspect that represents part of the shape or its feature distinctively.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR11" UniqueId="0zxXZnU1zBXQol6SnLtcxN">
+			<Documentation>&lt;EPM-HTML&gt;
+Only representations of type &lt;i&gt;IfcShapeModel&lt;i&gt;, i.e. either &lt;i&gt;IfcShapeRepresentation&lt;/i&gt; or &lt;i&gt;IfcTopologyRepresentation&lt;/i&gt; should be used to represent a product through the &lt;i&gt;IfcProductDefinitionShape&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* Representations | 
+  (NOT(&apos;IFCREPRESENTATIONRESOURCE.IFCSHAPEMODEL&apos; IN TYPEOF(temp)))
+)) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

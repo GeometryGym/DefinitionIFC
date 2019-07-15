@@ -1,0 +1,60 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI</u>: The <i>IfcRelAssociatesProfileProperties</i>
+is an objectified relationship between non geometric profile properties
+(subtypes of <i>IfcProfileProperties</i>)
+and elements to which these properties apply, e.g. building elements
+and building element types as used within the structural engineering
+domain for steel, timber or concrete structures.</p>
+<p>If the <i>ProfileSectionLocation</i>
+attribute is given, it points to a shape aspect of the geometric or
+topological representation of the structural member. This allows the
+assignment of several profile properties (by many instances of <i>IfcRelAssociatesProfileProperties</i>)
+to accommodate varying profiles and members with different profile
+sections.</p>
+<p>If the <i>ProfileOrientation</i>
+attribute is given, it provides an orientation of the profile.</p>
+<ul>
+  <li>For <i>IfcStructuralCurveMember</i>
+it is a rotation about the longitudinal axis of the underlying curve,
+the x axis is determined by a line from the start vertex to the end
+vertex.&nbsp;</li>
+  <ul>
+    <li>If the longitudinal axis
+is not parallel to the structural z axis of the structural coordinate
+system of the analysis model, i.e. the curve member is a beam (or
+non-vertical member), the <i>ProfileOrientation</i>
+defaults to [0.,0.,1.] (if the z axis is not orthogonal to the x axis,
+an adjustment is made to maintain orthogonality, see function <i>IfcBuildAxes</i>
+for an algorithm). The &beta; angle is then measured from the
+structural z axis to determine the location of the structural z axis of
+the profile.&nbsp;</li>
+    <li>If the longitudinal axis
+is&nbsp;parallel to the structural z axis of the structural
+coordinate
+system of the analysis model, i.e. the curve member is a column, the <i>ProfileOrientation</i>
+defaults to [1.,0.,0.]. The &beta; angle is then measured from the
+structural x
+axis to determine the location of the structural z axis of the profile.</li>
+  </ul>
+  <li>If the <i>ProfileOrientation</i>
+attribute is given as an <i>IfcDirection</i>,
+it would default to:</li>
+  <ul>
+    <li>For 'beams' as [0.,
+sin&beta;, cos&beta; ]</li>
+    <li>For 'columns' as
+[cos&beta;, -sin&beta;, 0.]</li>
+  </ul>
+</ul>
+<blockquote><small> <font color="#0000ff">
+HISTORY&nbsp; New entity
+in Release IFC2x Edition 2.</font> </small></blockquote>
+<blockquote><small><font color="#ff0000">IFC2x
+Edition 2
+Addendum 1 CHANGE &nbsp;The entity <i>IfcRelAssociatesProfileProperties</i>
+has been made a subtype of <i>IfcRelAssociates</i>. </font><br>
+  <font color="#ff0000">IFC2x
+Edition 3 CHANGE &nbsp;The entity <i>IfcRelAssociatesProfileProperties</i>
+has changed by adding the attribute<i>ProfileOrientation</i>.</font></small></blockquote>
+</EPM-HTML>

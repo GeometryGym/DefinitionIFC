@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCableCarrierSegmentTypeEnum" UniqueId="1I9gQvMdj6Lfkbfb793Hd_" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CABLELADDERSEGMENT_0ANoockFT25xIueDNDWR_Z" />
+		<DocConstant xsi:nil="true" href="CABLETRAYSEGMENT_3PGCHhloD9svXVBhCn03Ho" />
+		<DocConstant xsi:nil="true" href="CABLETRUNKINGSEGMENT_05dc5mqzCNQIww_SHmk2a" />
+		<DocConstant xsi:nil="true" href="CONDUITSEGMENT_3a35O1PmL3w8vQGDpiyz1Y" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0lxm8f78f7G8bx1N7zQMm_" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1yK3Pdtu1DlfAMkvQg4AnC" />
+	</Constants>
+</DocEnumeration>
+

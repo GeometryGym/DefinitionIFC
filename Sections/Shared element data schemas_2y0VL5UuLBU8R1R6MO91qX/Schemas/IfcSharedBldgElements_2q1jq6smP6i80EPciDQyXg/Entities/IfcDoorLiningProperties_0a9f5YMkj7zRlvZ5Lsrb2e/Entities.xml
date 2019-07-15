@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoorLiningProperties" UniqueId="0a9f5YMkj7zRlvZ5Lsrb2e" DiagramNumber="3" BaseDefinition="IfcPropertySetDefinition" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="LiningDepth" UniqueId="2BO0naI0P1hPwAkIFDSLCm" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Depth of the door lining, measured perpendicular to the plane of the door lining. If omitted (and with a given value to lining thickness) it indicates an adjustable depth (i.e. a depth that adjusts to the thickness of the wall into which the occurrence of this door style is inserted).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LiningThickness" UniqueId="0zUSCqmmX6qRDdCvnALe7q" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness (width in plane parallel to door leaf) of the door lining.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ThresholdDepth" UniqueId="1pb1S0QPzF7fGKnFFSZfzq" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Depth (dimension in plane perpendicular to door leaf) of the door threshold. Only given if the door lining includes a threshold. If omitted (and with a given value to threshold thickness) it indicates an adjustable depth (i.e. a depth that adjusts to the thickness of the wall into which the occurrence of this door style is inserted).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ThresholdThickness" UniqueId="32uWHJdlj8ABp6j9jv1WP3" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness (width in plane parallel to door leaf) of the door threshold. Only given if the door lining includes a threshold and the parameter is known.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TransomThickness" UniqueId="1fpo6KOCn0rOh57bCSART$" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness (width in plane parallel to door leaf) of the transom (if given) which divides the door leaf from a glazing (or window) above.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TransomOffset" UniqueId="11jC7mRmzBqeeGm7wAX4_O" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Offset of the transom (if given) which divides the door leaf from a glazing (or window) above. The offset is given from the bottom of the door opening.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LiningOffset" UniqueId="276$c$uxnAFvyagMw36XMD" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Offset (dimension in plane perpendicular to door leaf) of the door lining. The offset is given as distance to the x axis of the local placement.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ThresholdOffset" UniqueId="3cFLO96v5CARAx44rscN_U" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Offset (dimension in plane perpendicular to door leaf) of the door threshold. The offset is given as distance to the x axis of the local placement. Only given if the door lining includes a threshold and the parameter is known.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CasingThickness" UniqueId="1EOUTVhob6TwTOSyNhH8Ll" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness of the casing (dimension in plane of the door leaf). If given it is applied equally to all four sides of the adjacent wall.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CasingDepth" UniqueId="0NbUtSCS12l8qQLi9j2K6i" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Depth of the casing (dimension in plane perpendicular to door leaf). If given it is applied equally to all four sides of the adjacent wall.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ShapeAspectStyle" UniqueId="0anyuk5ePDoBrVMLf2E$e_" DefinedType="IfcShapeAspect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Pointer to the shape aspect, if given. The shape aspect reflects the part of the door shape, which represents the door lining.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="07wvGpVMnBWA9Nz5DmPSfd">
+			<Documentation>&lt;EPM-HTML&gt;
+Either both parameter, &lt;i&gt;LiningDepth&lt;/i&gt; and &lt;i&gt;LiningThickness&lt;/i&gt; are given, or only the &lt;i&gt;LiningThickness&lt;/i&gt;, then the &lt;i&gt;LiningDepth&lt;/i&gt; is variable. It is not valid to only assert the &lt;i&gt;LiningDepth&lt;/i&gt;.
+&lt;blockquote&gt;&lt;small&gt;
+NOTE&amp;nbsp; A &lt;i&gt;LiningDepth&lt;/i&gt; with NIL ($) value indicates a door style with a lining equal to the wall thickness.
+&lt;small&gt;&lt;blockquote&gt;
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>NOT(NOT(EXISTS(LiningDepth)) AND EXISTS(LiningThickness))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR32" UniqueId="36mr920U1B2ger74Gi07rK">
+			<Documentation>&lt;EPM-HTML&gt;
+Either both parameter, &lt;i&gt;ThresholdDepth&lt;/i&gt; and &lt;i&gt;ThresholdThickness&lt;/i&gt; are given, or only the &lt;i&gt;ThresholdThickness&lt;/i&gt;, then the &lt;i&gt;ThresholdDepth&lt;/i&gt; is variable. It is not valid to only assert the &lt;i&gt;ThresholdDepth&lt;/i&gt;.
+&lt;blockquote&gt;&lt;small&gt;
+NOTE&amp;nbsp; A &lt;i&gt;ThresholdDepth&lt;/i&gt; with NIL ($) value indicates a door style with a lining equal to the wall thickness.
+&lt;small&gt;&lt;blockquote&gt;
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>NOT(NOT(EXISTS(ThresholdDepth)) AND EXISTS(ThresholdThickness))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR33" UniqueId="3XYKSfxTvBRRI6p3cP8ki0">
+			<Documentation>&lt;EPM-HTML&gt;
+Either both parameter, &lt;i&gt;TransomDepth&lt;/i&gt; and &lt;i&gt;TransomThickness&lt;/i&gt; are given, or none of them.
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>(EXISTS(TransomOffset) AND EXISTS(TransomThickness)) XOR
+(NOT(EXISTS(TransomOffset)) AND NOT(EXISTS(TransomThickness)))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR34" UniqueId="0LdRDsZNL5WwuP0yjgv$50">
+			<Documentation>&lt;EPM-HTML&gt;
+Either both parameter, the &lt;i&gt;CasingDepth&lt;/i&gt; and the &lt;i&gt;CasingThickness&lt;/i&gt;, are given, or none of them.
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>(EXISTS(CasingDepth) AND EXISTS(CasingThickness)) XOR
+(NOT(EXISTS(CasingDepth)) AND NOT(EXISTS(CasingThickness)))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR35" UniqueId="0e4GzrchbAcOUT0l1ZOQEg">
+			<Documentation>&lt;EPM-HTML&gt;
+The &lt;i&gt;IfcDoorLiningProperties&lt;/i&gt; shall only be used in the context of an &lt;i&gt;IfcDoorStyle&lt;/i&gt;.
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>EXISTS(SELF\IfcPropertySetDefinition.DefinesType[1]) AND 
+(&apos;IFCSHAREDBLDGELEMENTS.IFCDOORSTYLE&apos; IN TYPEOF(SELF\IfcPropertySetDefinition.DefinesType[1]))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

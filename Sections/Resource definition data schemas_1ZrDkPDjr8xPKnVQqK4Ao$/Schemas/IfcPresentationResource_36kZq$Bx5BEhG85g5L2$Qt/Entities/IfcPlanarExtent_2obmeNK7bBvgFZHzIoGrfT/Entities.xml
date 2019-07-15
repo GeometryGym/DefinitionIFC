@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlanarExtent" UniqueId="2obmeNK7bBvgFZHzIoGrfT" DiagramNumber="2" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="229">
+	<Subtypes>
+		<DocSubtype UniqueId="3Qx39vSaH9V83Umyly8Ib7" DefinedType="IfcPlanarBox" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="SizeInX" UniqueId="1maBXEsLbFZQj34kd6lytV" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The extent in the direction of the x-axis.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SizeInY" UniqueId="0NWhFIycb4avhPTzCbER9g" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The extent in the direction of the y-axis.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

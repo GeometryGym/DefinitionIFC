@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoxAlignment" UniqueId="1q3cQrySbB4uyuLLujWqMk" DiagramNumber="3" DefinedType="IfcLabel" Length="0">
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="0Yydv6uCD0rQvLd6YqHxes">
+			<Expression>SELF IN [&apos;top-left&apos;, &apos;top-middle&apos;, &apos;top-right&apos;, &apos;middle-left&apos;, &apos;center&apos;, &apos;middle-right&apos;, &apos;bottom-left&apos;, &apos;bottom-middle&apos;, &apos;bottom-right&apos;]</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocDefined>
+

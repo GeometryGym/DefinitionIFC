@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_DuctConnectionType_3zv14K5rDCggyp2i5ZfW_5" Name="PEnum_DuctConnectionType" UniqueId="fde41114-1753-4caa-af33-0ac163a60f85">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BEADEDSLEEVE_1tCasWovr3PQlJlOpmX1CN" />
+		<DocPropertyConstant xsi:nil="true" href="COMPRESSION_2gOkKeKXP5bxkDh6neaFhw" />
+		<DocPropertyConstant xsi:nil="true" href="CRIMP_0ChplXRZv2vu7qd61grxuE" />
+		<DocPropertyConstant xsi:nil="true" href="DRAWBAND_3eVKBoS6z9jPSEnuTL3C54" />
+		<DocPropertyConstant xsi:nil="true" href="DRIVESLIP_21yeXtvtHBLezRLyZCw4P" />
+		<DocPropertyConstant xsi:nil="true" href="FLANGED_09sgKVqo5FyR1Wq5w9Gm6" />
+		<DocPropertyConstant xsi:nil="true" href="OUTSIDESLEEVE_1BzXtZJ2n3dwt9gAEhqMzg" />
+		<DocPropertyConstant xsi:nil="true" href="SLIPON_3Kp8Cojsb8SA0kTVFUrdt" />
+		<DocPropertyConstant xsi:nil="true" href="SOLDERED_2CzeySTP901BagJJN1rOQc" />
+		<DocPropertyConstant xsi:nil="true" href="SSLIP_0RvRLG5X19xQtNGiNaGD6y" />
+		<DocPropertyConstant xsi:nil="true" href="STANDINGSEAM_3mbFX8F14PvPWJSZpoBr1" />
+		<DocPropertyConstant xsi:nil="true" href="SWEDGE_25PBn0I358lxVvdBUPoiM" />
+		<DocPropertyConstant xsi:nil="true" href="WELDED_0NjBp3r4X4ExmJI0ApgcKT" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NONE_0uzQUamUf92wL654GzX6tl" />
+		<DocPropertyConstant xsi:nil="true" href="USERDEFINED_37TLtgMNT56wNUWK6TXrMy" />
+		<DocPropertyConstant xsi:nil="true" href="NOTDEFINED_2XczqPL8H0kQwINEcAw1T" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SwitchDisconnectorType_2pUR9n3Lr44Q638iAG1dZx" Name="SwitchDisconnectorType" UniqueId="b379b271-0d5d-4411-a183-22c2900678fb" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchDisconnectorType_1xzhJutVTD2wPzs6_LRJ0e" />
+	</Enumeration>
+</DocProperty>
+

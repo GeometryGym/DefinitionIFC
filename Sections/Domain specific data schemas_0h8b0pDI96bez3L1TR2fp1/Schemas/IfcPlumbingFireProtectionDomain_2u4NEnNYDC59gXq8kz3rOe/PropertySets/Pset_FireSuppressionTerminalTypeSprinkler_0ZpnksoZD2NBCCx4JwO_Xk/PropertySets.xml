@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FireSuppressionTerminalTypeSprinkler" UniqueId="23cf1bb6-ca33-425c-b30c-ec44fa63e86e" ApplicableType="IfcFireSuppressionTerminal.Predefined=&quot;SPRINKLER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="SprinklerType_1ASNuCheD1Oo5pUEZKqbl" />
+		<DocProperty xsi:nil="true" href="Activation_1OeIHHK_D4DQb4a30IhVP1" />
+		<DocProperty xsi:nil="true" href="Response_3S4s8zPh916AVcwbb4d8jE" />
+		<DocProperty xsi:nil="true" href="ActivationTemperature_0UYeuicprBBg_P1eISxLjh" />
+		<DocProperty xsi:nil="true" href="CoverageArea_2cXV_f1bXDnhgFyYqYrqJe" />
+		<DocProperty xsi:nil="true" href="HasDeflector_0USPNHcNb7JAlRGGezshp" />
+		<DocProperty xsi:nil="true" href="BulbLiquidColor_2s0foWnsX1zPRrPs4DQzH" />
+		<DocProperty xsi:nil="true" href="DischargeFlowRate_2sjQauXIT4DA0zopMakk0a" />
+		<DocProperty xsi:nil="true" href="ResidualFlowingPressure_0eWWyUMzb7r8fEwEg8uxuX" />
+		<DocProperty xsi:nil="true" href="DischargeCoefficient_19eWMbPKzDLwbwz4MY_ES9" />
+		<DocProperty xsi:nil="true" href="MaximumWorkingPressure_3fZKmgqAnFH8O6nxggTO55" />
+		<DocProperty xsi:nil="true" href="ConnectionSize_2Rw9Mcaj5HwHlEPxM6dwA" />
+		<DocProperty xsi:nil="true" href="FrameMaterial_1cyB2iL2r4QhWYxWLct93r" />
+		<DocProperty xsi:nil="true" href="DeflectorMaterial_1FTaGpkv4k9X3uvH7fe7Q" />
+	</Properties>
+</DocPropertySet>
+

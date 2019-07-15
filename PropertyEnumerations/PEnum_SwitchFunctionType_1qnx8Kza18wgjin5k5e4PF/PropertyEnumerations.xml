@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SwitchFunctionType_1qnx8Kza18wgjin5k5e4PF" Name="PEnum_SwitchFunctionType" UniqueId="74c7b214-f640-48ea-ab6c-c45b85a0464f">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="OnOffSwitch_165TFXf1z8lwclLO4NdGY" />
+		<DocPropertyConstant xsi:nil="true" href="IntermediateSwitch_0y3oK1jZL6mvc5g1FklLbe" />
+		<DocPropertyConstant xsi:nil="true" href="DoubleThrowSwitch_3_AA5AGND7qPK_lpgqOYjp" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

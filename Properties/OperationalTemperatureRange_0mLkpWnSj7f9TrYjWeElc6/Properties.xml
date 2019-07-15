@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="OperationalTemperatureRange_0mLkpWnSj7f9TrYjWeElc6" Name="OperationalTemperatureRange" UniqueId="3056ece0-c5cb-47a4-9775-8ad8283af986" PropertyType="p_boundedvalue" PrimaryDataType="IfcThermodynamicTemperatureMeasure" />
+

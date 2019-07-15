@@ -1,0 +1,123 @@
+<EPM-HTML> 
+    <p>
+      <u>Definition from IAI</u>: Generalization of all
+      components that make up an AEC product. Those elements can
+      be logically contained by a spatial structure element that
+      constitutes a certain level within a project structure
+      hierarchy (e.g., site, building, storey or space). This is
+      done by using the <i>IfcRelContainedInSpatialStructure</i>
+      relationship.
+    </p>
+    <p>
+      Elements are physically existent objects, although they
+      might be void elements, such as holes. Elements either
+      remain permanently in the AEC product, or only temporarily,
+      as formwork does. Elements can be either assembled on site
+      or pre-manufactured and built in on site.
+    </p>
+    <blockquote>
+      <font size="-1">EXAMPLEs of elements in a building
+      construction context are walls, floors, windows and
+      recesses.</font>
+    </blockquote>
+    <p>
+      An element can have material and quantity information
+      assigned through the <i>IfcRelAssociatesMaterial</i> and
+      <i>IfcRelDefinesByProperties</i> relationship.
+    </p>
+    <p>
+      In addition an element can be declared to be a specific
+      occurrence of an element type (and thereby be defined by
+      the element type properties) using the
+      <i>IfcRelDefinesByType</i> relationship.
+    </p>
+    <p>
+      An element can also be defined as an element assembly that
+      is a group of semantically and topologically related
+      elements that form a higher level part of the AEC product.
+      Those element assemblies are defined by virtue of the
+      <i>IfcRelAggregates</i> relationship.
+    </p>
+    <blockquote>
+      <font size="-1">EXAMPLEs for element assembly are complete
+      Roof Structures, made by several Roof Areas, or a Stair,
+      composed by Flights and Landings.</font>
+    </blockquote>
+    <p>
+      Elements that performs the same function may be grouped by
+      an "Element Group By Function". It is realized by an
+      instance of <i>IfcGroup</i> with the <i>ObjectType</i> =
+      'ElementGroupByFunction".
+    </p>
+    <blockquote>
+      <p>
+        <font color="#0000FF" size="-1">HISTORY New entity in IFC
+        Release 1.0</font>
+      </p>
+    </blockquote>
+    <p>
+      <u><b>Property Set Use Definition</b></u>:
+    </p>
+    <p>
+      The property sets relating to the <i>IfcElement</i> are
+      defined by the <i>IfcPropertySet</i> and attached by the
+      <i>IfcRelDefinesByProperties</i> relationship. It is
+      accessible by the inverse <i>IsDefinedBy</i> relationship.
+      The following property set definitions specific to the
+      <i>IfcElement</i> are part of this IFC release:
+    </p>
+    <ul>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_Draughting.xml"
+        target="SOURCE">Pset_Draughting</a>: common property set
+        for elements introduced to handle the assignment of CAD
+        related information (here layer name and object colour).
+        <ul>
+          <li>
+            <font color="#FF0000"><small>IFC2x3 CHANGE  The use
+            of this property set is deprecated from IFC2x3
+            onwards, curve colours are handled by
+            <i>IfcCurveStyle</i>, and layer assignment are
+            handled by
+            <i>IfcPresentationLayerAssignment</i>.</small></font>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_QuantityTakeOff.xml"
+        target="SOURCE">Pset_QuantityTakeOff</a>: common property
+        set for elements introduced to handle additional
+        description of quantity take off.
+      </li>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_ElementShading.xml"
+        target="SOURCE">Pset_ElementShading</a>: common property
+        set for elements that have shading properties to be used
+        in energy calculations or simulations
+      </li>
+    </ul>
+    <p>
+      <u><b>Quantity Use Definition</b></u>:
+    </p>
+    <p>
+      The quantities relating to the <i>IfcElement</i> are
+      defined by the <i>IfcElementQuantity</i> and attached by
+      the <i>IfcRelDefinesByProperties</i>. A detailed
+      specification for individual quantities is introduced at
+      the level of subtypes of <i>IfcElement</i>.
+    </p>
+    <p>
+      <u><b>Geometry Use Definitions</b></u>
+    </p>
+    <p>
+      The geometric representation of any <i>IfcElement</i> is
+      given by the <i>IfcProductDefinitionShape</i> and
+      <i>IfcLocalPlacement</i> allowing multiple geometric
+      representations. A detailed specification for the shape
+      representation is introduced at the level of subtypes of
+      <i>IfcElement</i>.
+    </p>
+</EPM-HTML>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ElectricalDeviceCommon" UniqueId="bc3bd9db-062c-483c-ab0f-181f75ef3a90" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalCurrent_0DAArWMq14f8ircazzAQD" />
+		<DocProperty xsi:nil="true" href="UsageCurrent_1NIXjM6RXDHO4SVV5PV_7l" />
+		<DocProperty xsi:nil="true" href="NominalVoltage_1N7ZStofX5OgVAS6hgDHq3" />
+		<DocProperty xsi:nil="true" href="ElectricalDeviceNominalPower_0lQvIQRxDF5g2KFfWXvJvw" />
+		<DocProperty xsi:nil="true" href="NumberOfPoles_1eAgfJsAv59fcH1lHvKDIA" />
+		<DocProperty xsi:nil="true" href="HasProtectiveEarth_1Maz8wnSr6cBbnDK7VGWpn" />
+		<DocProperty xsi:nil="true" href="NominalFrequencyRange_2hCgQABn1SOb7VQQRMufv" />
+		<DocProperty xsi:nil="true" href="PhaseAngle_3OrQCSr5B5ORCuh05CECe" />
+		<DocProperty xsi:nil="true" href="IP_Code_0y0_5Ecrz3n8TQmW8zOQlx" />
+		<DocProperty xsi:nil="true" href="InsulationStandardClass_3Q6o7vkTzC6hpeSUumQhEC" />
+		<DocProperty xsi:nil="true" href="PhaseReference_2m2RM2jfB3xylWhxv3QDH" />
+	</Properties>
+</DocPropertySet>
+

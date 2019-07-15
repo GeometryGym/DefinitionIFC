@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFireSuppressionTerminalType" UniqueId="0qIIlTYWD1eAW1XjY64ayL" DiagramNumber="1" BaseDefinition="IfcFlowTerminalType" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="1plaTgCtH01REkVho$98iv" DefinedType="IfcFireSuppressionTerminalTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of fire suppression terminal from which the type required may be set.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_TransformerTypeCommon" UniqueId="cb8b6dee-0eb9-4051-9f2f-51a72c907052" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="PrimaryVoltage_1r4Vj2nK94tRkQy0urBrIp" />
+		<DocProperty xsi:nil="true" href="SecondaryVoltage_1Bmd8Tqo9BaPhF1KCRmdy0" />
+		<DocProperty xsi:nil="true" href="PrimaryCurrent_3ouEAsCd55LfdJeO5sqezM" />
+		<DocProperty xsi:nil="true" href="SecondaryCurrent_2uXC4WLJ903QxjEx0dujYY" />
+		<DocProperty xsi:nil="true" href="PrimaryFrequency_0mcXk0pNnBkBHbAk6FuOUJ" />
+		<DocProperty xsi:nil="true" href="SecondaryFrequency_2feXL812bxTv7pkPVbcE" />
+		<DocProperty xsi:nil="true" href="PrimaryApparentPower_2t8zl_WeT9TgebTaoVOlOg" />
+		<DocProperty xsi:nil="true" href="SecondaryApparentPower_3G7KAEMWX0qPs_hjI69xsB" />
+		<DocProperty xsi:nil="true" href="MaximumApparentPower_1UkjlYdm54IhmZ8uZxsQAW" />
+		<DocProperty xsi:nil="true" href="SecondaryCurrentType_3StlgnusfFJ8ebYq7pd57w" />
+	</Properties>
+</DocPropertySet>
+

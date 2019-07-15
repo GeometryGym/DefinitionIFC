@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoorStyle" UniqueId="1TNeVeRm5FHxK$qYhlaf_S" DiagramNumber="3" BaseDefinition="IfcTypeProduct" EntityFlags="165">
+	<Attributes>
+		<DocAttribute Name="OperationType" UniqueId="0khDf$9Nj0pezGIz7YtE4t" DefinedType="IfcDoorStyleOperationEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Type defining the general layout and operation of the door style.
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConstructionType" UniqueId="0UF9y7_nvBXgSCi4Dmz8hJ" DefinedType="IfcDoorStyleConstructionEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Type defining the basic construction and material type of the door.
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ParameterTakesPrecedence" UniqueId="2hWg4bf21D$g_nFyLRBHPy" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The Boolean value reflects, whether the parameter given in the attached lining and panel properties exactly define the geometry (TRUE), or whether the attached style shape take precedence (FALSE). In the last case the parameter have only informative value.
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Sizeable" UniqueId="2ZwwVMPBb7gvHsanPmomy0" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The Boolean indicates, whether the attached &lt;i&gt;IfcMappedRepresentation&lt;/i&gt; (if given) can be sized (using scale factor of transformation), or not (FALSE). If not, the &lt;i&gt;IfcMappedRepresentation&lt;/i&gt; should be &lt;i&gt;IfcShapeRepresentation&lt;/i&gt; of the &lt;i&gt;IfcDoor&lt;/i&gt; (using &lt;i&gt;IfcMappedItem&lt;/i&gt; as the &lt;i&gt;Item&lt;/i&gt;) with the scale factor = 1.
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

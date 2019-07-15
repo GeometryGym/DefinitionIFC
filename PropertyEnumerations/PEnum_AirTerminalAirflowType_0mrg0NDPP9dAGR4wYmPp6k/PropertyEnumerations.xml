@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AirTerminalAirflowType_0mrg0NDPP9dAGR4wYmPp6k" Name="PEnum_AirTerminalAirflowType" UniqueId="30d6a017-3596-499c-a41b-13a8b06731ae">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SUPPLYAIR_28u5gT709E6AZqPgPmZVm_" />
+		<DocPropertyConstant xsi:nil="true" href="RETURNAIR_2XGa78vLEpug4VTBf8zHx" />
+		<DocPropertyConstant xsi:nil="true" href="EXHAUSTAIR_2ZHQgaKqD8l9wMDJNRGo7S" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

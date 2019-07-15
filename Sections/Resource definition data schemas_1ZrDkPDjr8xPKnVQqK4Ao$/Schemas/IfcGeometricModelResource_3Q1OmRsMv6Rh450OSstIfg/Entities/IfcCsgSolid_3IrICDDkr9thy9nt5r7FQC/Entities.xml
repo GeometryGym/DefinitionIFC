@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCsgSolid" UniqueId="3IrICDDkr9thy9nt5r7FQC" DiagramNumber="2" BaseDefinition="IfcSolidModel" EntityFlags="45">
+	<Attributes>
+		<DocAttribute Name="TreeRootExpression" UniqueId="0$Yqj87tT0mBJZDHFC5NAZ" DefinedType="IfcCsgSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Boolean expression of regularized operators describing the solid. The root of the tree of Boolean expressions is given explicitly as an IfcBooleanResult (the only item in the Select IfcCsgSelect).</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

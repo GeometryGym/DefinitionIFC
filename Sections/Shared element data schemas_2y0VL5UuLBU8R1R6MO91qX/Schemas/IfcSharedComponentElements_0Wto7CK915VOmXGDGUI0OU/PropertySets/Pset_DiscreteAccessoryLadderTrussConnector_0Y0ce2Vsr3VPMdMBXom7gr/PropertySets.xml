@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DiscreteAccessoryLadderTrussConnector" UniqueId="22026a02-7f6d-437d-95a7-58b872c07ab5" ApplicableType="IfcDiscreteAccessory.Object=&quot;Ladder truss connector&quot; | IfcDiscreteAccessory.Element=&quot;Ladder truss connector&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="LadderTrussHeight_3PCAAqSbn1O8rGKMVqA_lK" />
+		<DocProperty xsi:nil="true" href="LadderTrussLength_1ijvjpqjnBhfRpwfvcCN6q" />
+		<DocProperty xsi:nil="true" href="LadderTrussCrossBarSpacing_0rCszmxkP8lO1XxguBtzlH" />
+		<DocProperty xsi:nil="true" href="LadderTrussBaseBarDiameter_1EZkZdde1438CTEN4DAblq" />
+		<DocProperty xsi:nil="true" href="LadderTrussSecondaryBarDiameter_1EXjCBtgXFJRTllIlD7aBS" />
+		<DocProperty xsi:nil="true" href="LadderTrussCrossBarDiameter_0UkcLJCa99nhd7VFoiuTge" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAirTerminalBoxType" UniqueId="36ib_R5MT94vRUflMsGoXc" DiagramNumber="4" BaseDefinition="IfcFlowControllerType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="348WW43nXEIRmnByQrnG6d" DefinedType="IfcAirTerminalBoxTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The air terminal box type.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="25TWJwOLrAUvgzG1b30VLO">
+			<Expression>(PredefinedType &lt;&gt; IfcAirTerminalBoxTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcAirTerminalBoxTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

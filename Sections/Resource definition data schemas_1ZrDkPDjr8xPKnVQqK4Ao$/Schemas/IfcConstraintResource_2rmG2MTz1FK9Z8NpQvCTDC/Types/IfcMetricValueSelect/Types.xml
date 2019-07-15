@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMetricValueSelect" UniqueId="1HswKddWT07vpGIBoSP9bw" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcDateTimeSelect" UniqueId="0EWkAd9pfC4AnY8erYVKWx" />
+		<DocSelectItem Name="IfcMeasureWithUnit" UniqueId="3iLBaBaHD4Bhy02J4lm1ej" />
+		<DocSelectItem Name="IfcTable" UniqueId="2dyEcssM57UuyxDRoj3Qj6" />
+		<DocSelectItem Name="IfcText" UniqueId="2UvinMrQH3MvielMQjfc_$" />
+		<DocSelectItem Name="IfcTimeSeries" UniqueId="27lcjaOCz56xz8wDEVdD1F" />
+		<DocSelectItem Name="IfcCostValue" UniqueId="0bvTqcnqj0GOz57JUc74Fe" />
+	</Selects>
+</DocSelect>
+

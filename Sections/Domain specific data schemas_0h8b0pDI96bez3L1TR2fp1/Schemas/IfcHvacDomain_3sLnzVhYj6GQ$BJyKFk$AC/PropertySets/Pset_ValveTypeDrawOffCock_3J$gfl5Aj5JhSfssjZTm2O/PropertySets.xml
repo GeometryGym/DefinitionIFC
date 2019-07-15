@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValveTypeDrawOffCock" UniqueId="d3feaa6f-14ab-454e-b729-db6b63770098" ApplicableType="IfcValve.Predefined=&quot;DRAWOFFCOCK&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HasHoseUnion_2RRmbJfzBae0dxHVJoL2w" />
+	</Properties>
+</DocPropertySet>
+

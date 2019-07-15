@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SecondaryCurrentType_1ExVo7N5v3mu1h55IDXyV4" Name="PEnum_SecondaryCurrentType" UniqueId="4eedfc87-5c5e-43c3-806b-14548d87c7c4">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="AC_3dnaNjeE94x88BPaI66EHk" />
+		<DocPropertyConstant xsi:nil="true" href="DC_0QI5AY8t5B3QFZi8L3Dr3D" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

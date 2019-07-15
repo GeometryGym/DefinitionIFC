@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProductRepresentation" UniqueId="1l5EacKJzFuhmth9WlUeT6" DiagramNumber="3" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="3pV5gxT$f2uQLk4R9RA0nQ" DefinedType="IfcProductDefinitionShape" />
+		<DocSubtype UniqueId="0FdWaweU50_AnFiKl$wh3r" DefinedType="IfcMaterialDefinitionRepresentation" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="3nl7_YTQv8EQF4gY9VlV8x" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The word or group of words by which the product representation is known.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="0A1AL$INL8$B2KKFZ7ouPt" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The word or group of words that characterize the product representation. It can be used to add additional meaning to the name of the product representation.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Representations" UniqueId="3iIbUOSJX9u9xwkQFBICcA" DefinedType="IfcRepresentation" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Contained list of representations (including shape representations). Each member defines a valid representation of a particular type within a particular representation context.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

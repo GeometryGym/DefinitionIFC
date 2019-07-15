@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_DuctSizingMethod_30EuXzznf6axqDXPzpGdrO" Name="PEnum_DuctSizingMethod" UniqueId="c03b887d-f71a-4693-bd0d-859f73427d58">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CONSTANTFRICTION_1JOA1B0F5B_uwyUbogxNUO" />
+		<DocPropertyConstant xsi:nil="true" href="CONSTANTPRESSURE_3j8ctNlXT7oxHERQFkMqel" />
+		<DocPropertyConstant xsi:nil="true" href="STATICREGAIN_0uiin8HSn8kBNiuiR28jPz" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

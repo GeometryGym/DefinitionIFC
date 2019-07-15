@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_Permit" UniqueId="5e10efd2-f21f-4659-8b42-35ec2e6e962d" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="PermitType_3xMTLwxB596PN4nNXdz5fs" />
+		<DocProperty xsi:nil="true" href="EscortRequirement_34VX7BMDT4BRriP0tDOeZ" />
+		<DocProperty xsi:nil="true" href="StartDate_13JZ4o2D9WQQ9qxa9Kg4Y" />
+		<DocProperty xsi:nil="true" href="PermitDuration_1zSF9jn9nw8Iuy8qGfIA" />
+		<DocProperty xsi:nil="true" href="StartTime_3Ta8Qof8nCGhePQV4I3Osh" />
+		<DocProperty xsi:nil="true" href="EndTime_387arTGET8JPhsX_3ulY8O" />
+		<DocProperty xsi:nil="true" href="SpecialRequirements_0vCKMkwmP5OehUo3XqcPGR" />
+	</Properties>
+</DocPropertySet>
+

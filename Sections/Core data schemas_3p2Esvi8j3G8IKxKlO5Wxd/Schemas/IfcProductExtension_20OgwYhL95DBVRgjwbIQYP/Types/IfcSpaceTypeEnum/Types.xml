@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpaceTypeEnum" UniqueId="0xPUvBYU1EwB8YaALyG20V" DiagramNumber="8">
+	<Constants>
+		<DocConstant xsi:nil="true" href="USERDEFINED_3hTBh9EGPE8efpU7_pAbSR" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0ikb5WKlf25g3FPT761VBg" />
+	</Constants>
+</DocEnumeration>
+

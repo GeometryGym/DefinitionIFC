@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPolygonalBoundedHalfSpace" UniqueId="3FuMGNqYj0bvi4qXE1CMzo" DiagramNumber="3" BaseDefinition="IfcHalfSpaceSolid" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Position" UniqueId="34XIj59ej1IgEU3xn3syJq" DefinedType="IfcAxis2Placement3D" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+&lt;P&gt;Definition of the position coordinate system for the bounding polyline &lt;STRIKE&gt;and the base surface&lt;/STRIKE&gt;.&lt;/P&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PolygonalBoundary" UniqueId="3_8z9f8094d8kPRHKFCGJv" DefinedType="IfcBoundedCurve" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Two-dimensional &lt;strike&gt;polyline&lt;/strike&gt; bounded curve, defined in the xy plane of the position coordinate system.
+&lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;
+IFC2x Edition 3 CHANGE&amp;nbsp; The attribute type has been changed from &lt;i&gt;IfcPolyline&lt;/i&gt; to its supertype &lt;i&gt;IfcBoundedCurve&lt;/i&gt; with upward compatibility for file based exchange.
+&lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR41" UniqueId="3YtTwDkU18Xx8kKrRlWFf1">
+			<Documentation>The bounding polyline should have the dimensionality of 2.</Documentation>
+			<Expression>PolygonalBoundary.Dim = 2</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR42" UniqueId="0An_osNtz6ERBef3aT$K$H">
+			<Documentation>&lt;EPM-HTML&gt;
+Only bounded curves of type &lt;i&gt;IfcCompositeCurve&lt;/i&gt;, or &lt;i&gt;IfcPolyline&lt;/i&gt; are valid boundaries.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(TYPEOF(PolygonalBoundary) * [
+  &apos;IFCGEOMETRYRESOURCE.IFCPOLYLINE&apos;, 
+  &apos;IFCGEOMETRYRESOURCE.IFCCOMPOSITECURVE&apos;]
+) = 1</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

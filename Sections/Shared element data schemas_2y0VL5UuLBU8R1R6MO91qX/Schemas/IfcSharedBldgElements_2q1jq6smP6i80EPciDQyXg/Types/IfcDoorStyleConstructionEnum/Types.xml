@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoorStyleConstructionEnum" UniqueId="3E5kpnRfTBtwzB1MSGGUFI" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ALUMINIUM_3kwnmDWV55WRSc1m6ZP6rJ" />
+		<DocConstant xsi:nil="true" href="HIGH_GRADE_STEEL_1a0YTvXF19ABbU4XvRAVxp" />
+		<DocConstant xsi:nil="true" href="STEEL_0oorGC_2TEER1ELDzArMOc" />
+		<DocConstant xsi:nil="true" href="WOOD_1tvHsXVNfFBeRN_rWZKDCk" />
+		<DocConstant xsi:nil="true" href="ALUMINIUM_WOOD_0QA1i4_dn8Yhvqn4k7EoFo" />
+		<DocConstant xsi:nil="true" href="ALUMINIUM_PLASTIC_19ttEo6ob9D9A54597gBPi" />
+		<DocConstant xsi:nil="true" href="PLASTIC_2DlpMQkPn1vQzvnQ67zCdd" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2SQ6u_LjP6iQjdOTPpjEom" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1nleQBu4XBhgH0Xyv08y2O" />
+	</Constants>
+</DocEnumeration>
+

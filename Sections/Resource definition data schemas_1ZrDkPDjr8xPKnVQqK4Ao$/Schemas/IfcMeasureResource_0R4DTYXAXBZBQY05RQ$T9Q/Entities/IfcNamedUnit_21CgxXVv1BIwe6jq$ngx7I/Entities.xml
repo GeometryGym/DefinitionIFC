@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcNamedUnit" UniqueId="21CgxXVv1BIwe6jq$ngx7I" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="0zbuX2ANz3xB07XFMJNGiD" DefinedType="IfcContextDependentUnit" />
+		<DocSubtype UniqueId="0wqPp8Dtb4$BYB5yd4xALM" DefinedType="IfcConversionBasedUnit" />
+		<DocSubtype UniqueId="2fp7Z3ffL1uODhQyBMlCGz" DefinedType="IfcSIUnit" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Dimensions" UniqueId="0MPUkok19D9uCd7ZebnyvX" DefinedType="IfcDimensionalExponents" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The dimensional exponents of the SI base units by which the named unit is defined.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UnitType" UniqueId="0Fo4dghTn9kBt$OCMEMco4" DefinedType="IfcUnitEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The type of the unit.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2pRgGgumH23O_xFFkvlJ62">
+			<Documentation>Correct dimensions of the unit are established through the function IfcCorrectDimensions.</Documentation>
+			<Expression>IfcCorrectDimensions (SELF.UnitType, SELF.Dimensions)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

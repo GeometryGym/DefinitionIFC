@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_MeterReadOutType_1CXhleFizAlgGB4k8j9qFB" Name="PEnum_MeterReadOutType" UniqueId="4c86bbe8-3ecf-4abe-a40b-12e22d2743cb">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DIAL_2ZNiW5wd111OAjDpiq4orf" />
+		<DocPropertyConstant xsi:nil="true" href="DIGITAL_3D3bHQL1D0ffL1fXuSqxeZ" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

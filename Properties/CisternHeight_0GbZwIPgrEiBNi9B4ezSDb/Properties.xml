@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CisternHeight_0GbZwIPgrEiBNi9B4ezSDb" Name="CisternHeight" UniqueId="10963e92-66ad-4eb0-b5ec-24b128f5c365" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CisternHeight_2pLMoFFeHB58Y6IwXP_1iG" />
+	</Enumeration>
+</DocProperty>
+

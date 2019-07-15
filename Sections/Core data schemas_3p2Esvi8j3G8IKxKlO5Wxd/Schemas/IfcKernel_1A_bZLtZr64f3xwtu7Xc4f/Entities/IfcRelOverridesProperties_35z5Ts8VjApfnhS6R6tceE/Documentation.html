@@ -1,0 +1,33 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: The objectified relationship
+		(<I>IfcRelOverridesProperties</I>) defines the relationships between objects
+		and a standard property set. It also defines a set of properties, which values
+		override the standard values given within the standard property set.</P> 
+	 <P>The inherited attributes should be interpreted as follows:</P> 
+	 <UL> 
+		<LI><I>SELF\IfcRelDefinedByProperties.RelatingPropertyDefinition</I>:
+		  Property set, which defines the standard set of properties assigned to all
+		  objects, that have the same set of properties,</LI> 
+		<LI><I>SELF\IfcRelDefines.RelatedObjects</I>: An object occurrence, to
+		  which the same set of properties is applied. The object is characterized that
+		  certain property values, given by the standard set of properties, have a
+		  different value than those defined for all objects of the same style,</LI> 
+		<LI><I>OverridingProperties</I>: A set of properties, that have a
+		  different value for the subset of objects. The set of the individual overriding
+		  properties have to correspond with a standard property set and its containing
+		  properties, as given by the <I>RelatingPropertyDefinition</I> attribute. The
+		  correspondence is established by the <I>Name</I> attribute.</LI> 
+	 </UL> 
+	 <P>It is provided as specialization of <I>IfcRelDefinedByProperties</I>
+		relationship. </P>
+	 <BLOCKQUOTE>
+		<P><FONT SIZE="-1">NOTE that there must be a correspondence between the
+		  names of the properties in the set of overriding properties and the names of
+		  the properties whose values are to be changed in the base property set. In
+		  addition the inherited attribute RelatingPropertyDefinition points to the
+		  property set which values are overridden.</FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC Release
+		  2x.</FONT>
+		  </P></BLOCKQUOTE>
+</EPM-HTML>

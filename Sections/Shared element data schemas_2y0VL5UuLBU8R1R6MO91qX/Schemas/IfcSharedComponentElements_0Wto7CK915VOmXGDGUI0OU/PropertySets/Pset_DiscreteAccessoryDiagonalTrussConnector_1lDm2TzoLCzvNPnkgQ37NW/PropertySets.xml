@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DiscreteAccessoryDiagonalTrussConnector" UniqueId="6f37009d-f725-4cf7-95d9-c6ea9a0c75e0" ApplicableType="IfcDiscreteAccessory.Object=&quot;Diagonal truss connector&quot; | IfcDiscreteAccessory.Element=&quot;Diagonal truss connector&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="DiagonalTrussHeight_1WFK0SRAD3bvaRNtnNWEQE" />
+		<DocProperty xsi:nil="true" href="DiagonalTrussLength_1SvyiDBzfDmezvoanq3DK1" />
+		<DocProperty xsi:nil="true" href="DiagonalTrussCrossBarSpacing_35xZJv5X195gDz6pPKSPBG" />
+		<DocProperty xsi:nil="true" href="DiagonalTrussBaseBarDiameter_0iDeInJ5P5pQr1V1Q_9h_F" />
+		<DocProperty xsi:nil="true" href="DiagonalTrussSecondaryBarDiameter_3G6ArfqOn6qO6hHL_YP_lq" />
+		<DocProperty xsi:nil="true" href="DiagonalTrussCrossBarDiameter_39jkscfLfAUQkwdSEE7weX" />
+	</Properties>
+</DocPropertySet>
+

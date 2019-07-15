@@ -1,0 +1,107 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI:</U> Instances of the entity
+
+		<I>IfcStructuralPlanarAction</I> are used to define constant planar actions.
+
+		Structural loads applicable to planar actions are
+
+		<I>IfcStructuralLoadPlanarForce</I> and <I>IfcStructuralLoadTemperature</I>.
+
+		</P>
+
+	 <P>The structural load, defining the planar action is given by the
+
+		attribute <I>AppliedLoad</I> at the supertype <I>IfcStructuralActivity</I>.
+
+		The coordinate system, in which the <I>AppliedLoad</I> is defined is given by
+
+		the attribute <I>ObjectPlacement</I> at the supertype <I>IfcProduct</I>.</P>
+
+	 <BLOCKQUOTE>
+
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New entity in Release IFC2x
+
+		  Edition 2. </FONT></P> </BLOCKQUOTE>
+
+	 <P><B><U>Topology Use Definition</U></B></P>
+
+	 <P>Special case:
+	 If applied to building elements, placement and representation of the
+	 structural action are often implied by those of the building elements and
+	 are therefore optional for the actions.</P>
+	 <P>Standard case:
+	 If applied to structural items, instances of
+	 <I>IfcStructuralPlanarAction</I> shall have a topology
+
+		representation. It includes a placement and a product representation. The
+
+		<I>IfcProductRepresentation</I> shall be given by an item of
+
+		<I>Representations</I> being of type "<I>IfcTopologyRepresentation</I>". </P>
+
+	 <P><B>Placement</B></P>
+
+	 <P>The placement for <I>IfcStructuralPlanarAction</I> is determined at its
+
+		supertype <I>IfcProduct</I>. It is defined by the optional
+
+		<I>IfcObjectPlacement</I>, referenced by <I>ObjectPlacement</I> at
+
+		<I>IfcProduct</I>, which establishes, if given, the object coordinate system
+
+		that is referenced by the applied load. </P>
+
+	 <UL>
+
+		<LI>If the <I>ObjectPlacement</I> attribute is omitted, then all
+
+		  topological representations are given directly in world coordinates.</LI>
+
+		<LI>If the <I>ObjectPlacement</I> attribute is provided, then it
+
+		  establishes an object coordinate system for all topological representations
+
+		  which are given object coordinates.
+
+		  <UL>
+
+			 <LI>If the <I>PlacementRelTo</I> relationship of
+
+				<I>IfcLocalPlacement</I> is omitted, the object coordinate system is
+
+				established within the world coordinate system.</LI>
+
+			 <LI>If the <I>PlacementRelTo</I> relationship of
+
+				<I>IfcLocalPlacement</I> is given, it shall point to the local placement of the
+
+				same <I>IfcSpatialStructureElement</I>, which is used in the
+
+				<I>ContainedInStructure</I> inverse attribute, or to a spatial structure
+
+				element at a higher level, referenced by that. </LI>
+
+		  </UL> </LI>
+
+	 </UL>
+
+	 <P><B>Topology Representation</B></P>
+
+	 <P>Instances of <I>IfcStructuralPlanarAction</I> shall have a topology
+
+		representation given by a face with an optional additional geometric
+
+		representation of the included surface. It can be provided by either</P>
+
+	 <UL>
+
+		<LI><I>IfcFace</I></LI>
+
+		<LI><I>IfcFaceSurface</I></LI>
+
+	 </UL>
+
+	 <P>which should be the single item of
+
+		<I>IfcTopologyRepresentation.Items</I>.</P>
+</EPM-HTML>

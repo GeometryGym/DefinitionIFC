@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcColourSpecification" UniqueId="3DKVz7C3TFuRkp7oEGtQP7" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="1Djv3A_yL2E9p7rR3l6Xdw" DefinedType="IfcColourRgb" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="0R0ZajiczBRQRaiwWAEKF1" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Optional name given to a particular colour specification in addition to the colour components (like the RGB values).
+&lt;blockquote&gt;&lt;small&gt;
+  NOTE&amp;nbsp; Examples are the names of a industry colour classification, such as RAL.&lt;br&gt;
+&lt;font color=&quot;#FF0000&quot;&gt;IFC2x Edition 3 CHANGE&amp;nbsp; Attribute added.
+&lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

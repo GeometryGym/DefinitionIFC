@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcWindow_1jICuqrUz6sQDiZknO5FCP" Name="IfcWindow" UniqueId="1jICuqrUz6sQDiZknO5FCP" DiagramNumber="4" BaseDefinition="IfcBuildingElement" EntityFlags="173">
+	<Attributes>
+		<DocAttribute Name="OverallHeight" UniqueId="3S50wEN5f4uvyG4HLmgI46" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;Overall measure of the height, it reflects the Z Dimension of a bounding box, enclosing the &lt;strike&gt;body of the&lt;/strike&gt; window opening. If omitted, the &lt;i&gt;OverallHeight&lt;/i&gt; should be taken from the geometric representation of the &lt;i&gt;IfcOpening&lt;/i&gt; in which the window is inserted. 
+  &lt;blockquote&gt; &lt;small&gt;
+NOTE&amp;nbsp; The body of the window might be taller then the window opening (e.g. in cases where the window lining includes a casing). In these cases the &lt;i&gt;OverallHeight&lt;/i&gt; shall still be given as the window opening height, and not as the total height of the window lining.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OverallWidth" UniqueId="1PNOJMRGr7g9XQ$URobkmm" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;Overall measure of the width, it reflects the X Dimension of a bounding box, enclosing the &lt;strike&gt;body of the&lt;/strike&gt; window opening. If omitted, the &lt;i&gt;OverallWidth&lt;/i&gt; should be taken from the geometric representation of the &lt;i&gt;IfcOpening&lt;/i&gt; in which the window is inserted. 
+  &lt;blockquote&gt; &lt;small&gt;
+NOTE&amp;nbsp; The body of the window might be wider then the window opening (e.g. in cases where the window lining includes a casing). In these cases the &lt;i&gt;OverallWidth&lt;/i&gt; shall still be given as the window opening width, and not as the total width of the window lining.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

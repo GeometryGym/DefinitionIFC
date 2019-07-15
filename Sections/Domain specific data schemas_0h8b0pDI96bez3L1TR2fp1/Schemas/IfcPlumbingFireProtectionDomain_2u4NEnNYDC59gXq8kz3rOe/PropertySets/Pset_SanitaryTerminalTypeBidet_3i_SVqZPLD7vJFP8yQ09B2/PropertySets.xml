@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SanitaryTerminalTypeBidet" UniqueId="ecf9c7f4-8d95-4d1f-94cf-648f1a0092c2" ApplicableType="IfcSanitaryTerminal.Predefined=&quot;BIDET&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="BidetMounting_3JXdFlwM97hultzdYtflf5" />
+		<DocProperty xsi:nil="true" href="NominalLength_0brH16Kd548OcuPlgoZeA9" />
+		<DocProperty xsi:nil="true" href="NominalWidth_1YhZYMOaXExwZyhqwCELTu" />
+		<DocProperty xsi:nil="true" href="NominalDepth_0CfTrwXKLE4BSow0EEWYqv" />
+		<DocProperty xsi:nil="true" href="Material_1qJl1Unvj4XPwxvbBRLJzn" />
+		<DocProperty xsi:nil="true" href="Color_32sF7v6JT0u9tEMIYxPXaP" />
+		<DocProperty xsi:nil="true" href="SpilloverLevel_0uzVGqXNL1jvCXQo4n3Bw0" />
+		<DocProperty xsi:nil="true" href="DrainSize_0oIPP_6ULDSfDIbksEwWyZ" />
+	</Properties>
+</DocPropertySet>
+

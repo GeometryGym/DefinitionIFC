@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SwitchingDeviceTypeToggleSwitch" UniqueId="d482ef7a-a1bd-47c9-9bd2-472d9b2c9e42" ApplicableType="IfcSwitchingDevice.Predefined=&quot;TOGGLESWITCH&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ToggleSwitchType_3BaHRqfhH6UP5nz3nICMB1" />
+		<DocProperty xsi:nil="true" href="SwitchUsage_24EPzSQ98nRXHRNrTnKbJ" />
+		<DocProperty xsi:nil="true" href="SwitchActivation_0WBBC7Ka18s94oJH6fahVG" />
+		<DocProperty xsi:nil="true" href="IsIlluminated_0dcaxe1en6GOdnWJrdBarN" />
+		<DocProperty xsi:nil="true" href="Legend_2AjMnpEkT7hubPsM909DtW" />
+	</Properties>
+</DocPropertySet>
+

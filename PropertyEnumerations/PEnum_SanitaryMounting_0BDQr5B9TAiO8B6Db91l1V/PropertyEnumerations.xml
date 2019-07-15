@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SanitaryMounting_0BDQr5B9TAiO8B6Db91l1V" Name="PEnum_SanitaryMounting" UniqueId="0b35ad45-2c97-4ab1-820b-18d94906f05f">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BackToWall_1T4A_Bx_vBhO02lnqq0E9P" />
+		<DocPropertyConstant xsi:nil="true" href="Pedestal_1g3dpiD9j0ERKDck2IZ2Bh" />
+		<DocPropertyConstant xsi:nil="true" href="CounterTop_2XXJ9_8grB5u10BHX0X0QR" />
+		<DocPropertyConstant xsi:nil="true" href="WallHung_3VvtCFcX03RuTRenbtPj_" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

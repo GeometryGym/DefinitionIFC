@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLightSourceSpot" UniqueId="2MR2ZKlNz9bBbR3pKXWF5P" DiagramNumber="2" BaseDefinition="IfcLightSourcePositional" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Orientation" UniqueId="345bc2Hdr4A8wDj39UN$Xf" DefinedType="IfcDirection" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from ISO/CD 10303-46:1992: This is the direction of the axis of the cone of the light source specified in the coordinate space of the representation being projected..
+Definition from VRML97 - ISO/IEC 14772-1:1997: The direction field specifies the direction vector of the light&apos;s central axis defined in the local coordinate system.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConcentrationExponent" UniqueId="02efamYXfFUg$kdtx3UF2a" DefinedType="IfcReal" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from ISO/CD 10303-46:1992: This real is the exponent on the cosine of the angle between the line that starts at the position of the spot light source and is in the direction of the orientation of the spot light source and a line that starts at the position of the spot light source and goes through a point on the surface being shaded.
+NOTE: This attribute does not exists in ISO/IEC 14772-1:1997.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SpreadAngle" UniqueId="05n6tXQof50QoY9fRZlSPg" DefinedType="IfcPositivePlaneAngleMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from ISO/CD 10303-46:1992: This planar angle measure is the angle between the line that starts at the position of the spot light source and is in the direction of the spot light source and any line on the boundary of the cone of influence.
+Definition from VRML97 - ISO/IEC 14772-1:1997: The cutOffAngle (name of spread angle in VRML) field specifies the outer bound of the solid angle. The light source does not emit light outside of this solid angle.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BeamWidthAngle" UniqueId="1z5ZgYNbD1jRMZkON2bE4A" DefinedType="IfcPositivePlaneAngleMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from VRML97 - ISO/IEC 14772-1:1997: The beamWidth field specifies an inner solid angle in which the light source emits light at uniform full intensity. The light source&apos;s emission intensity drops off from the inner solid angle (beamWidthAngle) to the outer solid angle (spreadAngle).</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

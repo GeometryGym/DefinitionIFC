@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElementQuantity" UniqueId="1H5VR7e3fBxOo3qHLDJpwX" DiagramNumber="10" BaseDefinition="IfcPropertySetDefinition" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="MethodOfMeasurement" UniqueId="1T1czHf0r2JRcyVJl0bXxP" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;Name of the method of measurement used to calculate the element quantity. The method of measurement attribute has to be made recognizable by further agreements.
+
+&lt;BLOCKQUOTE&gt; &lt;FONT COLOR=&quot;#FF0000&quot; SIZE=&quot;-1&quot;&gt;IFC2x2 Addendum 1 change: The attribute has been changed to be optional &lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Quantities" UniqueId="2zWTRVy2f5NA6mNpvtPxHJ" DefinedType="IfcPhysicalQuantity" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The individual quantities for the element, can be a set of length, area, volume, weight or count based quantities.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

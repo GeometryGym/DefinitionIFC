@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_LightFixtureMountingType_0KIqGBYnj9wh4LAsUdD_JI" Name="PEnum_LightFixtureMountingType" UniqueId="144b440b-8b1b-49ea-b115-2b67a737e4d2">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CableSpanned_1nan45JB19V8q3ti5im3DP" />
+		<DocPropertyConstant xsi:nil="true" href="FreeStanding_2BTAt1ESrAveHagwjN1sOn" />
+		<DocPropertyConstant xsi:nil="true" href="Pole_Side_3zhh5ok0P9SgNReXNiKgD0" />
+		<DocPropertyConstant xsi:nil="true" href="Pole_Top_0mEldc3Z588hePQNmYqsA7" />
+		<DocPropertyConstant xsi:nil="true" href="Recessed_1KDFvFITv8KOEToSTmKZHN" />
+		<DocPropertyConstant xsi:nil="true" href="Surface_2Y8DYnpJbBXRTmnwG3wwFo" />
+		<DocPropertyConstant xsi:nil="true" href="Suspended_1DSRp4jkjEkPIId66X91Gl" />
+		<DocPropertyConstant xsi:nil="true" href="TrackMounted_0xgXyvCzEDxXS5eQbN3F" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

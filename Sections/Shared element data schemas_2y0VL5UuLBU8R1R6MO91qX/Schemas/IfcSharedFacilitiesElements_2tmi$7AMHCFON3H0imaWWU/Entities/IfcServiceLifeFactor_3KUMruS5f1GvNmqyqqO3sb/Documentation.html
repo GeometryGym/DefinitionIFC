@@ -1,0 +1,26 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI: </U>An <I>IfcServiceLifeFactor</I> captures the
+		various factors that impact upon the expected service life of an artefact. </P>
+	 
+	 <BLOCKQUOTE><FONT SIZE="-1" COLOR="#0000FF">HISTORY: New entity in IFC
+		2x2</FONT></BLOCKQUOTE> 
+	 <H3> Use Definitions</H3> 
+	 <P>Note that each instance of <I>IfcServiceLifeFactor</I> may have a name
+		that describes the form of impact that the factor has on the service life.
+		Because there is a significant list of such potential impacts, they are not
+		explicitly collected together into an enumeration. In order to name an instance
+		of <I>IfcServiceLifeFactor</I>, the inherited <I>Name</I> attribute should be
+		used.</P> 
+	 <P> Within the IFC specification, any number of service life factors may be
+		allowed to impact upon the service life of an artefact. In many cases, it is
+		probable that the ISO standard that specifies good practice for service life
+		consideration will be applied. </P> 
+	 <P> Within the ISO standard, there are seven defined (named) service life
+		factors that may be applied to an <I>IfcServiceLife</I>. These are captured in
+		the IfcServiceLifeFactorEnum (together with a user defined capability). Each
+		factor can have three values that define an upper, lower and most used (or
+		median) value.</P> 
+	 <P>One or more instances of <I>IfcServiceLifeFactor</I> can be related to
+		an <I>IfcServiceLife</I> through the <I>IfcRelDefinesByProperties</I>
+		relationship class.</P> 
+</EPM-HTML>

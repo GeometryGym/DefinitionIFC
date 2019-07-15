@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DistributionChamberElementTypeInspectionPit" UniqueId="307f02d5-998d-4461-8c31-349c086a3d9c" ApplicableType="IfcDistributionChamberElement.Predefined=&quot;INSPECTIONPIT&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Length_0ilJs92pr0aBfPo5PAsHfy" />
+		<DocProperty xsi:nil="true" href="Width_2ta5_g9CrBtBgX29dUbyVI" />
+		<DocProperty xsi:nil="true" href="Depth_1ujYoTsLT61x12gi_UKyUC" />
+	</Properties>
+</DocPropertySet>
+

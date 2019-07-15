@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AirFlowrateVersusFlowControlElement_2qDYfGuTv9yQuHv0g_zJQF" Name="AirFlowrateVersusFlowControlElement" UniqueId="b4362a50-e1de-49f1-ae11-e40abef5368f" PropertyType="p_tablevalue" PrimaryDataType="IfcVolumetricFlowRateMeasure" SecondaryDataType="IfcPositiveRatioMeasure" />
+

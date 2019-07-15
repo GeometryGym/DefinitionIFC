@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FaucetFunction_1rUOzTCz50wQsMprC8jDsl" Name="PEnum_FaucetFunction" UniqueId="75798f5d-33d1-40e9-ad96-cf5308b4ddaf">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="COLD_09kBtxpavCsgboZ7v9zSU" />
+		<DocPropertyConstant xsi:nil="true" href="HOT_0RZoM4x8L2O_CxJ3W5YtW" />
+		<DocPropertyConstant xsi:nil="true" href="MIXED_2QHAVup15B7v4hYNcBo7my" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

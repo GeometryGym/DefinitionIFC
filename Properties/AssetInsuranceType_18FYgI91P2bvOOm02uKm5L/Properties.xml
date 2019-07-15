@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AssetInsuranceType_18FYgI91P2bvOOm02uKm5L" Name="AssetInsuranceType" UniqueId="483e2a92-2416-4297-9618-c000b8530155" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AssetInsuranceType_1U7m273gb6gBOKRXX5hPxV" />
+	</Enumeration>
+</DocProperty>
+

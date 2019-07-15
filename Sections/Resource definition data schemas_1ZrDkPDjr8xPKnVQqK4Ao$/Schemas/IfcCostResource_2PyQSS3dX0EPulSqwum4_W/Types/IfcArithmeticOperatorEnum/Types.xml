@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcArithmeticOperatorEnum" UniqueId="09uQDRyev9QBu_1uciwwsW" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ADD_3HM9xVrz2axtIDSdQDjeH" />
+		<DocConstant xsi:nil="true" href="DIVIDE_14Ba6jKPPCnPzgksL39MDv" />
+		<DocConstant xsi:nil="true" href="MULTIPLY_2nfxgQRbv1ufmpVezD7j1V" />
+		<DocConstant xsi:nil="true" href="SUBTRACT_0_6idRVVvBVur8y6Sc5Y0g" />
+	</Constants>
+</DocEnumeration>
+

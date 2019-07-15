@@ -1,0 +1,88 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI:</U> Instances of the entity
+		<I>IfcStructuralPlanarActionVarying</I> are used to define varying planar
+		actions. <I>IfcStructuralPlanarActionVarying</I> inherits the needed attributes
+		and applicable structural load types from its superclass
+		<I>IfcStructuralLinearAction</I>.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: This entity definition inherits from its
+		  superclass <I>IfcStructuralActivity</I> the mandatory attribute 'AppliedLoad'.
+		  It is used as the first list member of the derived list
+		  <I>VaryingAppliedLoads</I>.</FONT></P> </BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1"> HISTORY: New entity in Release IFC2x
+		  Edition 2. </FONT></P> </BLOCKQUOTE> 
+	 <P><B><U>Topology Use Definition</U></B></P> 
+	 <P>Instances of <I>IfcStructuralPlanarActionVarying</I> shall have a
+		topology representation. It includes a placement and a product representation.
+		The <I>IfcProductRepresentation</I> shall be given by an item of
+		<I>Representations</I> being of type "<I>IfcTopologyRepresentation</I>". The
+		definition of the topological representation is given at the supertype
+		<I>IfcStructuralPlanarAction</I>.</P>
+	 <P><U><B>Shape Aspect Use Definition</B></U></P> 
+	 <P>The attribute <I>VaryingAppliedLoadLocation</I> reference a shape
+		aspect, that has a list of <I>ShapeRepresentations</I>. Each individual
+		<I>IfcShapeRepresentation</I> within that list shall have a single item within
+		its list of <I>Items</I>. The type of the item shall be either:</P> 
+	 <UL> 
+		<LI><I>IfcCartesianPoint</I>, or</LI> 
+		<LI><I>IfcPointOnSurface</I></LI> 
+	 </UL> 
+	 <P>Each list member within the list of <I>ShapeRepresentations</I>
+		corresponds to the list member (at same position) of the list
+		<I>VaryingAppliedLoads</I>, and provides the position of the applied load. At
+		least three applied load values shall be given, the distribution of the applied
+		planar loads across the surface of the planar action is constructed by
+		triangulation.</P> 
+	 <P>The following examples shows a definition of a varying applied loads by
+		four Cartesian points.</P> 
+	 <TABLE CELLSPACING="4" CELLPADDING="2"> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1"><B>VaryingAppliedLoads<BR>Position</B></FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1"><B>VaryingAppliedLoads<BR>Value</B></FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1"><B>VaryingThicknessLocation</B></FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1"><B>Point</B></FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1"><B>Coordinates</B></FONT></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[1]</FONT><BR><FONT
+			 SIZE="-1">identical with <I>AppliedLoad</I></FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">20</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1">IfcShapeAspect.ShapeRepresentations[1]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">Items[1]<BR>TYPEOF
+			 IfcCartesianPoint</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[0.,0.]</FONT></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[2]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">30</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1">IfcShapeAspect.ShapeRepresentations[2]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">Items[2]<BR>TYPEOF
+			 IfcCartesianPoint</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[10.,0.]</FONT></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[3]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">40</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1">IfcShapeAspect.ShapeRepresentations[3]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">Items[3]<BR>TYPEOF
+			 IfcCartesianPoint</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[10.,10.]</FONT></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[4]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">30</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1">IfcShapeAspect.ShapeRepresentations[4]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">Items[4]<BR>TYPEOF
+			 IfcCartesianPoint</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[0.,10.]</FONT></TD> 
+		</TR> 
+	 </TABLE>
+</EPM-HTML>

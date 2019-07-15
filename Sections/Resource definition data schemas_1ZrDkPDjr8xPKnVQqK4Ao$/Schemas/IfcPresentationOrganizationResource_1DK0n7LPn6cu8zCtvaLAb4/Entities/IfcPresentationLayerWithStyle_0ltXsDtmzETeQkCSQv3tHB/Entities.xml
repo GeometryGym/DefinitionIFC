@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPresentationLayerWithStyle" UniqueId="0ltXsDtmzETeQkCSQv3tHB" DiagramNumber="1" BaseDefinition="IfcPresentationLayerAssignment" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="LayerOn" UniqueId="0fKnwdcMz91Otq65CH7zdy" DefinedType="LOGICAL" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A logical setting, TRUE indicates that the layer is set to &apos;On&apos;, FALSE that the layer is set to &apos;Off&apos;, UNKNOWN that such information is not available.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LayerFrozen" UniqueId="0a2SYKTcv0dwbHXwFwjnT3" DefinedType="LOGICAL" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A logical setting, TRUE indicates that the layer is set to &apos;Frozen&apos;, FALSE that the layer is set to &apos;Not frozen&apos;, UNKNOWN that such information is not available.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LayerBlocked" UniqueId="3OCtTZHFzE$Q_BwCDa37Xn" DefinedType="LOGICAL" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A logical setting, TRUE indicates that the layer is set to &apos;Blocked&apos;, FALSE that the layer is set to &apos;Not blocked&apos;, UNKNOWN that such information is not available.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LayerStyles" UniqueId="0vhsz50t9CGw4CqziuqmMA" DefinedType="IfcPresentationStyleSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Assignment of presentation styles to the layer to provide a default style for representation items.
+&lt;blockquote&gt;&lt;small&gt;
+NOTE&amp;nbsp; In most cases the assignment of styles to a layer is restricted to an &lt;i&gt;IfcCurveStyle&lt;/i&gt; representing the layer curve colour, layer curve thickness, and layer curve type.
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

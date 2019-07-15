@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLightDistributionCurveEnum" UniqueId="02CRrCQpr26wHxc25hqxAJ" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="TYPE_A_2qm8MgQQn8oOLHGmZoGJS" />
+		<DocConstant xsi:nil="true" href="TYPE_B_3ilR8aSUDCqfoz_aVVdJm" />
+		<DocConstant xsi:nil="true" href="TYPE_C_1kZ7vxpiX60A9YhHM9eFZK" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0WnSoJv0HFouwQHJ03UX5H" />
+	</Constants>
+</DocEnumeration>
+

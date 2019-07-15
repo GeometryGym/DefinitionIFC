@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValveTypeGasTap" UniqueId="52506f83-cbcf-4a67-8d44-b4dab9ca212f" ApplicableType="IfcValve.Predefined=&quot;GASTAP&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HasHoseUnion_31VcKNyH6b9vYt0bLGQum" />
+	</Properties>
+</DocPropertySet>
+

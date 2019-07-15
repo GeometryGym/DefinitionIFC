@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Filling" UniqueId="1NBdGwKORKHhlxC6VZBf3m" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelFillsElement">
+	<Templates>
+		<DocTemplateDefinition Name="Has Filling" UniqueId="1IPey6CveVHeN7fo8uwxm$" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelFillsElement">
+			<Documentation>&lt;p&gt;
+	Provision of a filling element, typically a door or a window, for this &lt;em&gt;element&lt;/em&gt;.&lt;/p&gt;</Documentation>
+			<Templates>
+				<DocTemplateDefinition Name="Has Filling Door" UniqueId="2BMFHQ_svCJ8csW4yU6LFY" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelFillsElement">
+					<Documentation>&lt;p&gt;
+	Provision of a filling element being an &lt;em&gt;IfcDoor &lt;/em&gt;for this &lt;em&gt;element&lt;/em&gt;.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+				<DocTemplateDefinition Name="Has Filling Window" UniqueId="3FUlMtQuOmGBHthnjz4xGT" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelFillsElement">
+					<Documentation>&lt;p&gt;
+	Provision of a filling element, being an &lt;em&gt;IfcWindow&lt;/em&gt;, for this &lt;em&gt;element&lt;/em&gt;.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+			</Templates>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Is Filling" UniqueId="0aQlBKZDdnJOf4Ea1SVRhP" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelFillsElement">
+			<Documentation>&lt;p&gt;
+	This &lt;em&gt;element &lt;/em&gt;is a filling for a void.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+	</Templates>
+</DocTemplateDefinition>
+

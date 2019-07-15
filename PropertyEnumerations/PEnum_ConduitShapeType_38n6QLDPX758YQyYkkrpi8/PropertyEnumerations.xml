@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ConduitShapeType_38n6QLDPX758YQyYkkrpi8" Name="PEnum_ConduitShapeType" UniqueId="c8c46695-3598-4714-889a-f22baed73b08">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Circular_0niAQgZo99lvUIdmZu275o" />
+		<DocPropertyConstant xsi:nil="true" href="Oval_0z5_Ue9qf7xQiacHRXVjeC" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

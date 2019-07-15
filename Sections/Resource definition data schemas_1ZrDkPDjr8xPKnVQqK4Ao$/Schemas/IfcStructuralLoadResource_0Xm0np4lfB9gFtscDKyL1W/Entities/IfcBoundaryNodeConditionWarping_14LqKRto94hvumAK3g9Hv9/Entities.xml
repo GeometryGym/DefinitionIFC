@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoundaryNodeConditionWarping" UniqueId="14LqKRto94hvumAK3g9Hv9" DiagramNumber="3" BaseDefinition="IfcBoundaryNodeCondition" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="WarpingStiffness" UniqueId="1fSPUFtyb4oxF_qU14b7qM" DefinedType="IfcWarpingMomentMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines the warping stiffness value.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

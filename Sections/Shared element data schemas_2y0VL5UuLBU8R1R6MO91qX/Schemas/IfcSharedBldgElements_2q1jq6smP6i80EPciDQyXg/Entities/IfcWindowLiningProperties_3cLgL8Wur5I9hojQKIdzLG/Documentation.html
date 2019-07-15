@@ -1,0 +1,102 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: The window lining is the frame which enables
+		the window to be fixed in position. The window lining is used to hold the
+		window panels or other casements. The parameter of the window lining
+		(<I>IfcWindowLiningProperties</I>) define the geometrically relevant parameter
+		of the lining.</P> 
+	 <P>The <I>IfcWindowLiningProperties</I> are included in the list of
+		properties (<I>HasPropertySets</I>) of the <I>IfcWindowStyle</I>. More
+		information about the window lining can be included in the same list of the
+		<I>IfcWindowStyle</I> using the <I>IfcPropertySet</I> for dynamic extensions.
+		</P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF" SIZE="-1">HISTORY New Entity in IFC
+		Release 2.0. Has been renamed from <I>IfcWindowLining</I> in IFC Release 2x.
+		</FONT></BLOCKQUOTE> 
+	 <P><U><B>Geometry Use Definitions</B></U></P> 
+	 <P>The <I>IfcWindowLiningProperties</I> does not hold an own geometric
+		representation. However it defines parameter, which can be used to create the
+		shape of the window style (which is inserted by the <I>IfcWindow</I> into the
+		spatial context of the project).</P> 
+	 <P><B>Interpretation of parameter</B></P> 
+	 <P>The parameters at the <I>IfcWindowLiningProperties</I> define a standard
+		window lining, including (if given) a mullion and a transom (for horizontal and
+		vertical splits). The outer boundary of the lining is determined by the
+		occurrence parameter assigned to the <I>IfcWindow</I>, which inserts the
+		<I>IfcWindowStyle</I>.</P> 
+	 <TABLE BORDER="1" CELLPADDING="2" CELLSPACING="2"> 
+		<TR> 
+		  <TD><IMG SRC="figures/IfcWindowLiningProperties-Fig05.gif"
+			 ALT="lining 5" WIDTH="219" HEIGHT="140" BORDER="0"></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT">The lining is applied to all faces of the
+			 opening reveal. The parameter are: 
+			 <UL> 
+				<LI><I>LiningDepth</I></LI> 
+				<LI><I>LiningThickness</I></LI> 
+			 </UL></TD> 
+		</TR> 
+		<TR> 
+		  <TD><IMG SRC="figures/IfcWindowLiningProperties-Fig01.gif"
+			 ALT="lining 1" WIDTH="209" HEIGHT="233" BORDER="0"></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT">If the <I>OperationType</I> of the window
+			 style is 
+			 <UL> 
+				<LI>DoublePanelVertical (shown)</LI> 
+				<LI>TriplePanelBottom</LI> 
+				<LI>TriplePanelTop</LI> 
+				<LI>TriplePanelLeft</LI> 
+				<LI>TriplePanelRight</LI> 
+			 </UL>the following additional parameter apply: 
+			 <UL> 
+				<LI><I>MullionThickness</I></LI> 
+				<LI><I>FirstMullionOffset</I> - measured as offset to the Z axis
+				  (in XZ plane)</LI> 
+			 </UL> </TD> 
+		</TR> 
+		<TR> 
+		  <TD><IMG SRC="figures/IfcWindowLiningProperties-Fig02.gif"
+			 ALT="lining 2" WIDTH="233" HEIGHT="209" BORDER="0"></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT">If the <I>OperationType</I> of the window
+			 style is 
+			 <UL> 
+				<LI>DoublePanelHorizontal</LI> 
+				<LI>TriplePanelBottom</LI> 
+				<LI>TriplePanelTop</LI> 
+				<LI>TriplePanelLeft</LI> 
+				<LI>TriplePanelRight</LI> 
+			 </UL>the following additional parameter apply 
+			 <UL> 
+				<LI><I>TransomThickness</I> </LI> 
+				<LI><I>FirstTransomOffset</I> measured as offset to the X axis (in
+				  XZ plane)</LI> 
+			 </UL></TD> 
+		</TR> 
+		<TR> 
+		  <TD><IMG SRC="figures/IfcWindowLiningProperties-Fig03.gif"
+			 ALT="lining 3" WIDTH="303" HEIGHT="261" BORDER="0"></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT">If the <I>OperationType</I> of the window
+			 style is 
+			 <UL> 
+				<LI><I>TriplePanelVertical</I></LI> 
+			 </UL>the following additional parameter apply 
+			 <UL> 
+				<LI><I>SecondMullionOffset</I></LI> 
+			 </UL></TD> 
+		</TR> 
+		<TR> 
+		  <TD><IMG SRC="figures/IfcWindowLiningProperties-Fig04.gif"
+			 ALT="lining 4" WIDTH="261" HEIGHT="303" BORDER="0"></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT">If the <I>OperationType</I> of the window
+			 style is 
+			 <UL> 
+				<LI><I>TriplePanelHorizontal</I></LI> 
+			 </UL>the following additional parameter apply 
+			 <UL> 
+				<LI><I>SecondTransomOffset</I></LI> 
+			 </UL></TD> 
+		</TR> 
+	 </TABLE> 
+	 <P>NOTE</P> 
+	 <OL> 
+		<LI>All offsets are given as a normalized ratio measure.</LI> 
+	 </OL>
+</EPM-HTML>

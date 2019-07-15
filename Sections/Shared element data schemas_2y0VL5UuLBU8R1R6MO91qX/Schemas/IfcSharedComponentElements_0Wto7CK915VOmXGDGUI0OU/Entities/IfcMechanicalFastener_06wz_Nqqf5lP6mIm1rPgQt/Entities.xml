@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcMechanicalFastener_06wz_Nqqf5lP6mIm1rPgQt" Name="IfcMechanicalFastener" UniqueId="06wz_Nqqf5lP6mIm1rPgQt" DiagramNumber="1" BaseDefinition="IfcFastener" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="NominalDiameter" UniqueId="2$7SUqWeTBlOrhWsrfHQx2" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The nominal diameter describing the cross-section size of the fastener.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="NominalLength" UniqueId="2doBDMfzb1$wzEruF5u9GL" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The nominal length describing the longitudinal dimensions of the fastener.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

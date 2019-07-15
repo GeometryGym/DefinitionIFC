@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Placement" UniqueId="3I5oAMn40LJxWLcuWSU$tw" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcObjectPlacement">
+	<Templates>
+		<DocTemplateDefinition Name="Placement Absolute" UniqueId="0Wwo3MEyK7GQ6skrt4_A_w" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcLocalPlacement">
+			<Documentation>&lt;p&gt;
+	Provision of an object coordinate system for the &amp;quot;element&amp;quot; being absolute, i.e. establishing the &lt;em&gt;element&lt;/em&gt;&amp;#39;s coordinate system directly within the implicit coordinate system of the project. The absolute placement coordinate system can be identical to the implicit project coordinate system, being (0.,0.,0.), are having a distance.&lt;/p&gt;
+&lt;p&gt;
+	The absolute placement is realized by omitting the attribute &lt;em&gt;PlacementRelTo &lt;/em&gt;at&amp;nbsp; &lt;em&gt;IfcLocalPlacement&lt;/em&gt;.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Placement Relative" UniqueId="2ThxDHK97hGhCaPwJJ9DdX" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcLocalPlacement">
+			<Documentation>&lt;p&gt;
+	Provision of an object coordinate system for the &lt;em&gt;element&lt;/em&gt; being relative to the object placement of another element. The two applicable cases are&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		a project structure element (e.g. placement of wall relative to building story), or&lt;/li&gt;
+	&lt;li&gt;
+		a composite (or container element - e.g. placement of opening relative to wall, or building element part relative to wall).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	The default requirement stipulated by this &lt;strong&gt;concept template&lt;/strong&gt; is that the element may be placed relative to any element of the two categories given above. The general restrictions are:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		the relative placement of &lt;em&gt;element &lt;/em&gt;shall be supported for placing relative to &lt;em&gt;IfcSite&lt;/em&gt;, &lt;em&gt;IfcBuilding &lt;/em&gt;and &lt;em&gt;IfcBuildingStorey&lt;/em&gt;.&lt;/li&gt;
+	&lt;li&gt;
+		the relative placement of element to the composite is supported depending on the concept &amp;quot;decomposition&amp;quot; that applies to the &lt;em&gt;element&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restrictions to the type of element to which this &lt;em&gt;element &lt;/em&gt;can be placed relatively to.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+	</Templates>
+</DocTemplateDefinition>
+

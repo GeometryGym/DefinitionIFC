@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ReinforcementBarCountOfIndependentFooting" UniqueId="03512c69-e18a-495c-a96e-addf8666c069" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Description_1_GHOHD5z29i9gF4w4LV6" />
+		<DocProperty xsi:nil="true" href="Reference_1uOn1O6Gz9FglMUEOLcVBd" />
+		<DocProperty xsi:nil="true" href="XDirectionLowerBarCount_3Pj9zTGQn57Rsx5zd_eT5C" />
+		<DocProperty xsi:nil="true" href="YDirectionLowerBarCount_2Ftdbgy_XFYxIiAvNIbjoR" />
+		<DocProperty xsi:nil="true" href="XDirectionUpperBarCount_33P4PpsRP27OK8JVjIDYz3" />
+		<DocProperty xsi:nil="true" href="YDirectionUpperBarCount_01KZ4EGFL5jADaJ3gC3qed" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SanitaryTerminalTypeWashHandBasin" UniqueId="6df238db-c2e0-49f9-92e0-d7136f26535d" ApplicableType="IfcSanitaryTerminal.Predefined=&quot;WASHHANDBASIN&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="WashHandBasinType_12O73xoTn7UuBkJ7pxoqE8" />
+		<DocProperty xsi:nil="true" href="WashHandBasinMounting_0pQcF70VLEovDx14VQOTD" />
+		<DocProperty xsi:nil="true" href="NominalLength_23tERCuHvAHedYxc83sOqN" />
+		<DocProperty xsi:nil="true" href="NominalWidth_2qWL5PVHn7VeF7Nt10lDqc" />
+		<DocProperty xsi:nil="true" href="NominalDepth_2XIgOT6zD12Q0HvCxs7AWG" />
+		<DocProperty xsi:nil="true" href="Material_1iocnqLyDB2xvjsU4Dv2mP" />
+		<DocProperty xsi:nil="true" href="Color_3JgB2kWHL12xOPpoGlLdem" />
+		<DocProperty xsi:nil="true" href="DrainSize_03U71WNHEEhD6ypruA0M" />
+	</Properties>
+</DocPropertySet>
+

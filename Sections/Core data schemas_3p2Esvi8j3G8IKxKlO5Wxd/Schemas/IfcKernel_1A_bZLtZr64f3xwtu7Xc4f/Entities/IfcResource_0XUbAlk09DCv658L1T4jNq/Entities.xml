@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcResource" UniqueId="0XUbAlk09DCv658L1T4jNq" DiagramNumber="7" BaseDefinition="IfcObject" EntityFlags="141">
+	<Attributes>
+		<DocAttribute Name="ResourceOf" UniqueId="04ZG29HOj1JutjZSWZpfDe" DefinedType="IfcRelAssignsToResource" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingResource">
+			<Documentation>Reference to the IfcRelAssignsToResource relationship and thus pointing to those objects, which are used as resources.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

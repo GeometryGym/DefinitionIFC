@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FailPosition_0KWKK8qwzD5hqfZrzKwFpN" Name="FailPosition" UniqueId="14814508-d3af-4d16-bd29-8f5f54e8fcd7" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FailPosition_29WXQr8ynDW9CVFD8PMYz" />
+	</Enumeration>
+</DocProperty>
+

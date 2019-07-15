@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadLinearForce" UniqueId="3Uxz3OFf183fP2Mu$rtEyl" DiagramNumber="1" BaseDefinition="IfcStructuralLoadStatic" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="LinearForceX" UniqueId="0unHUjcAvATAUqwxu4qI4k" DefinedType="IfcLinearForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Linear force value in x-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LinearForceY" UniqueId="0EY97spKD8fR$w0gtQt0LE" DefinedType="IfcLinearForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Linear force value in y-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LinearForceZ" UniqueId="2L8IxOXdv6HgfXJB8eDU1A" DefinedType="IfcLinearForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Linear force value in z-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LinearMomentX" UniqueId="3Qk5Ib8lPFHeNAgH6VaI5G" DefinedType="IfcLinearMomentMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Linear moment about the x-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LinearMomentY" UniqueId="38lJZgz6v5ueKwbEbcjkic" DefinedType="IfcLinearMomentMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Linear moment about the y-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LinearMomentZ" UniqueId="0YO7Ygpc13dOF2OnkNJDvf" DefinedType="IfcLinearMomentMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Linear moment about the z-axis.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

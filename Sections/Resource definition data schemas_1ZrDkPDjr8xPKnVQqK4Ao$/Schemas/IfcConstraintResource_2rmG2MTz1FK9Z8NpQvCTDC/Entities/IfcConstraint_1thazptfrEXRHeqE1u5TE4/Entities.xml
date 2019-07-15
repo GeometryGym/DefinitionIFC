@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConstraint" UniqueId="1thazptfrEXRHeqE1u5TE4" DiagramNumber="1" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="1ouqtsWAPD69YX04lASD74" DefinedType="IfcObjective" />
+		<DocSubtype UniqueId="0POEjKidPFdho19AMDp_ey" DefinedType="IfcMetric" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="06laCXc6DBMA4RJQFIij7P" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A name to be used for the constraint (e.g., ChillerCoefficientOfPerformance).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="1q1tBX2mL4s8TweLvmyzTY" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>A description that may apply additional information about a constraint.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConstraintGrade" UniqueId="3SMtFOxzL1lu5R1dcLLigR" DefinedType="IfcConstraintEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Enumeration that qualifies the type of constraint.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConstraintSource" UniqueId="0jyz7_ZBv1sOnz_MwazNRT" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Any source material, such as a code or standard, from which the constraint originated.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CreatingActor" UniqueId="1xpKPlx8DAU9pHwuqlVUs_" DefinedType="IfcActorSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Person and/or organization that has created the constraint.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CreationTime" UniqueId="0USrk7saf97hWAHB0yfDch" DefinedType="IfcDateTimeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Time when information specifying the constraint instance was created.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UserDefinedGrade" UniqueId="1o0mkXSlb0nRo3_kPpMShQ" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Allows for specification of user defined grade of the constraint  beyond the enumeration values (hard, soft, advisory) provided by ConstraintGrade attribute of type &lt;I&gt;IfcConstraintEnum&lt;/I&gt;. 
+When a value is provided for attribute UserDefinedGrade in parallel the attribute ConstraintGrade shall have enumeration value USERDEFINED.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ClassifiedAs" UniqueId="1JK9yQTxj0E8RoWZ8NM$wK" DefinedType="IfcConstraintClassificationRelationship" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="ClassifiedConstraint">
+			<Documentation>Reference to the constraint classifications through objectified relationship.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatesConstraints" UniqueId="3Tm5xO0wTEBPsMVKPkDIjm" DefinedType="IfcConstraintRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingConstraint">
+			<Documentation>References to the objectified relationships that relate other constraints with this constraint.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsRelatedWith" UniqueId="2Qiruoa9HDdxrlGsrTXgCs" DefinedType="IfcConstraintRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedConstraints">
+			<Documentation>References to the objectified relationships that relate this constraint with other constraints.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PropertiesForConstraint" UniqueId="23pSin8Bb30AQ$zM3B_VNz" DefinedType="IfcPropertyConstraintRelationship" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingConstraint">
+			<Documentation>Reference to the properties to which the constraint is applied.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Aggregates" UniqueId="0Ax4g$50f7_xCeg2qJd2Iy" DefinedType="IfcConstraintAggregationRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingConstraint">
+			<Documentation>Reference to the relationships that collect other constraints into this aggregate constraint.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsAggregatedIn" UniqueId="37_9pYMh92GR2kCYM7k9Ey" DefinedType="IfcConstraintAggregationRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedConstraints">
+			<Documentation>Reference to the relationships that relate this constraint into aggregate constraints.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR11" UniqueId="0f1sioxAv7bgq9joiYKpPV">
+			<Documentation>The attribute UserDefinedGrade must be asserted when the value of the IfcConstraintGradeEnum is set to USERDEFINED.</Documentation>
+			<Expression>(ConstraintGrade &lt;&gt; IfcConstraintEnum.USERDEFINED) OR
+((ConstraintGrade = IfcConstraintEnum.USERDEFINED) AND EXISTS(SELF\IfcConstraint.UserDefinedGrade))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

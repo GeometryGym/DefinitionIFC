@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_HumidifierPHistory" UniqueId="b8345018-50db-4a4e-86b4-443ca6e94564" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AtmosphericPressure_2L_qunUyH919xOxHRwjw79" />
+		<DocProperty xsi:nil="true" href="SaturationEfficiency_2pwPIdsy57oB2doSTxH8iF" />
+		<DocProperty xsi:nil="true" href="SaturationEfficiencyCurve_0Ul2VgoWLAnBQ6hltnWuCz" />
+		<DocProperty xsi:nil="true" href="AirPressureDropCurve_1P8JHS09A6urpQDVh4OQJ" />
+	</Properties>
+</DocPropertySet>
+

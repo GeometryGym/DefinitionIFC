@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSectionProperties" UniqueId="3Por7XsBH3Ru5Jo3MvnG4p" DiagramNumber="4" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="SectionType" UniqueId="0tFvjSW8L1iBsgtNfqiF1J" DefinedType="IfcSectionTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>An indicator whether a specific piece of a cross section is uniform or tapered in longitudinal direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="StartProfile" UniqueId="0XPuNqa1546xr125K7FxA$" DefinedType="IfcProfileDef" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The cross section profile at the start point of the longitudinal section.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="EndProfile" UniqueId="1xfzllLrL19emrksZIzoxY" DefinedType="IfcProfileDef" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The cross section profile at the end point of the longitudinal section.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

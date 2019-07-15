@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFlowController" UniqueId="2YH7sZIKFIJ8s4iIcf9cB8">
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcFlowController_1qlfGHr129h_zgKbcmqee" />
+	<Concepts>
+		<DocTemplateUsage Name="GUIDs" UniqueId="0nLscLhcXjHeC0bHDZNRU1">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="GUIDs_3ga6tg4StYIufm5WIFj2n" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="History" UniqueId="15UhsB38laGwaEyNKIOjgU">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="History_3bM8g3QTayJ8izxZxrVS7D" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Naming" UniqueId="219sxP$5g8Ivg0aGI43tQl">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Naming_1fiLy1E_xgG8Yri7hKbQbF" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="CAD Layer" UniqueId="250k3XsCSHI9M6yy1eEMJr">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="CAD_Layer_0YSNJnRw4NHR884iSp7TBN" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Voiding" UniqueId="1UMX0ANQHRJPBDMoXRjf5j">
+			<Documentation>&lt;p&gt;
+	Specific to IfcFlowController: The IfcFlowController shall not have a voiding relationship. Voids in the shape of an IfcFlowController shall be already included in th shape representation (e.g. part of the xplicit shape).&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Voiding_1udvtZ4MrvGvg5foFGlvbh" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="excluded">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="0Uw6ioWkSCGwtkr9pVSoV8">
+			<Documentation>&lt;p&gt;
+	Specific to IfcFlowController: The spatial containment shall be within IfcSite, IfcBuilding, or IfcBuildingStorey, or within IfcSpace.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_1pwHycyvSaIO2cWa1vx6tU" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Classification" UniqueId="1R2BFxY_1dIwSnM$QybSDv">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_18q586v0n3IxsF4lccHDhM" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="5fa246a7-1d38-4733-b9c7-3ddbe3b4fedd" Type="IfcFlowController" />
+</DocConceptRoot>
+

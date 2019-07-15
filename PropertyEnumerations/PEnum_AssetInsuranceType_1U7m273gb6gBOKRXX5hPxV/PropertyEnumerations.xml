@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AssetInsuranceType_1U7m273gb6gBOKRXX5hPxV" Name="PEnum_AssetInsuranceType" UniqueId="5e1f0087-0ea9-46a8-b614-6e1845ad9edf">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Personal_1aT_ywIB1AF8hksVJIl8Ym" />
+		<DocPropertyConstant xsi:nil="true" href="Real_0RUY4VIdL6xOFSTywsNS3t" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

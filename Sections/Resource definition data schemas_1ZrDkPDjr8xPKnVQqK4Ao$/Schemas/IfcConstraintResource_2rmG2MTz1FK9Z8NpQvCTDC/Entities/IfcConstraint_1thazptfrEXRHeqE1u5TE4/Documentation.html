@@ -1,0 +1,86 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: An <I>IfcConstraint</I> is used to define a
+		constraint or limiting value or boundary condition that may be applied to an
+		object or to the value of a property. </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC Release
+		  2.0</FONT></P></BLOCKQUOTE> 
+	 <H3>Use Definition</H3> 
+	 <P> <I>IfcConstraint</I> may be associated with any subtype of
+		<I>IfcObject</I> through the <I>IfcRelAssociatesConstraint</I> relationship in
+		the <I>IfcControlExtension</I> schema.</P> 
+	 <P>A constraint may aggregate other constraints through the
+		<I>IfcConstraintAggregationRelationship</I> through which a logical association
+		between constraints may be applied.</P> 
+	 <P>A constraint must have a name applied through the
+		<I>IfcConstraint.Name</I> attribute and optionally, a description through
+		<I>IfcConstraint.Description</I>. For instance, when undertaking a move
+		(instantiated through the <I>IfcMove</I> class), a constraint may be named as a
+		'Move Start Constraint' or 'Move End Constraint' and described using one of a
+		possible range of move constraints as shown in the table below. </P> 
+	 <P><FONT COLOR="#FF0000">Application of constraints to moves as indicated
+		by this example replaces the use of IfcActionTimeControl class which is now
+		deleted.</FONT></P> 
+	 <TABLE BORDER="1"> 
+		<TR> 
+		  <TD><I>Constraint Description</I></TD> 
+		  <TD WIDTH="440"><I> Definition</I></TD> 
+		  <TD WIDTH="270"><I> Benchmark</I></TD> 
+		  <TD WIDTH="100"><I> Grade</I></TD> 
+		</TR> 
+		<TR> 
+		  <TD>ASSOONASPOSSIBLE</TD> 
+		  <TD WIDTH="440">Action should commence at the earliest possible
+			 opportunity.</TD> 
+		  <TD WIDTH="270">GREATERTHANOREQUALTO</TD> 
+		  <TD WIDTH="100">SOFT</TD> 
+		</TR> 
+		<TR> 
+		  <TD>MUSTSTARTON</TD> 
+		  <TD WIDTH="440">Action must start at a prescribed date/time.</TD> 
+		  <TD WIDTH="270">EQUALTO</TD> 
+		  <TD WIDTH="100">HARD</TD> 
+		</TR> 
+		<TR> 
+		  <TD>MUSTSTARTBEFORE</TD> 
+		  <TD WIDTH="440">Action must start before a prescribed date/time.</TD> 
+		  <TD WIDTH="270">LESSTHANOREQUALTO</TD> 
+		  <TD WIDTH="100">HARD</TD> 
+		</TR> 
+		<TR> 
+		  <TD>MUSTSTARTAFTER</TD> 
+		  <TD WIDTH="440">Action must not start before a prescribed
+			 date/time.</TD> 
+		  <TD WIDTH="270">GREATERTHANOREQUALTO</TD> 
+		  <TD WIDTH="100">HARD</TD> 
+		</TR> 
+		<TR> 
+		  <TD>MAYSTARTAFTER</TD> 
+		  <TD WIDTH="440">Action may start at any time following a prescribed
+			 date/time.</TD> 
+		  <TD WIDTH="270">GREATERTHANOREQUALTO</TD> 
+		  <TD WIDTH="100">SOFT</TD> 
+		</TR> 
+		<TR> 
+		  <TD>MUSTFINISHON</TD> 
+		  <TD WIDTH="440">Action must be complete at or by a prescribed
+			 date/time.</TD> 
+		  <TD WIDTH="270">EQUALTO</TD> 
+		  <TD WIDTH="100">HARD</TD> 
+		</TR> 
+		<TR> 
+		  <TD>MUSTFINISHBEFORE</TD> 
+		  <TD WIDTH="440">Action must be complete before a prescribed
+			 date/time.</TD> 
+		  <TD WIDTH="270">LESSTHANOREQUALTO</TD> 
+		  <TD WIDTH="100">HARD</TD> 
+		</TR> 
+	 </TABLE> 
+	 <P>The constraint is instantiated as the class <I>IfcMetric</I> and uses a
+		Date/Time value through <I>IfcMetricValue</I>. An appropriate benchmark is
+		applied according to the requirement of the constraint (as indicated). The
+		grade of the constraint (hard, soft, advisory) must be specified through
+		<I>IfcConstraint.ConstraintGrade</I> whilst the time at which the constraint is
+		created may be optionally asserted through
+		<I>IfcConstraint.ConstraintTime</I>.</P> 
+</EPM-HTML>

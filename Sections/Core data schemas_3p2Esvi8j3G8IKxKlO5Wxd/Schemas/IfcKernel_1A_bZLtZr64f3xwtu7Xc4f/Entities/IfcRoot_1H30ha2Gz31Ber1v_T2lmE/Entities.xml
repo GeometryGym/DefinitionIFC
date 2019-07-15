@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRoot" UniqueId="1H30ha2Gz31Ber1v_T2lmE" DiagramNumber="1" EntityFlags="141">
+	<Subtypes>
+		<DocSubtype UniqueId="0Fk3Iu2cP28hnmXNM7zjPi" DefinedType="IfcPropertyDefinition" />
+		<DocSubtype UniqueId="1hGGL5ZjbCRhdPUqAgYVPu" DefinedType="IfcRelationship" />
+		<DocSubtype UniqueId="2uGOUJa_91ng2T_imjuGHA" DefinedType="IfcObjectDefinition" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="GlobalId" UniqueId="0cmUqRV_nD7B7vXIqM2tfa" DefinedType="IfcGloballyUniqueId" AttributeFlags="6" AggregationType="0" AggregationFlag="0">
+			<Documentation>Assignment of a globally unique identifier within the entire software world.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OwnerHistory" UniqueId="1SRp6Nvor0Kv$DUZx7_sP$" DefinedType="IfcOwnerHistory" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Assignment of the information about the current ownership of that object, including owning actor, application, local identification and information captured about the recent changes of the object, NOTE: only the last modification in stored.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Name" UniqueId="188zTILobAPemNxj1i88sl" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional name for use by the participating software systems or users. For some subtypes of IfcRoot the insertion of the Name attribute may be required. This would be enforced by a where rule.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="231FZLdf11ZPHcLPHwLX2k" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional description, provided for exchanging informative comments.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<UniqueRules>
+		<DocUniqueRule Name="UR1" UniqueId="0LrY_RGeT05gJOjOBVLa4q">
+			<Items>
+				<DocUniqueRuleItem Name="GlobalId" UniqueId="353B58QLz0pRon$hkkffSf" />
+			</Items>
+		</DocUniqueRule>
+	</UniqueRules>
+</DocEntity>
+

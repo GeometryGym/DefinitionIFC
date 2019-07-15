@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPreDefinedItem" UniqueId="1p9pbA_GH4gxUhBPCdzjp3" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="3biegbfrD5kRqbYJaO90U9" DefinedType="IfcPreDefinedTextFont" />
+		<DocSubtype UniqueId="1bM8VlxgPDTOnQ38GqLZob" DefinedType="IfcPreDefinedColour" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="1NmuSivBH5fvgVAm433DeW" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The string by which the pre defined item is identified. Allowable values for the string are declared at the level of subtypes.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

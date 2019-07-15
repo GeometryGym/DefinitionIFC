@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ElementShading_0l_lFCNjPAtuQO8dgKGqm4" Name="PEnum_ElementShading" UniqueId="2ffaf3cc-5ed6-4adf-8698-227a94434c04">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FIXED_1y2YSGQPT0OxqFeKFNPgyy" />
+		<DocPropertyConstant xsi:nil="true" href="MOVABLE_1j_dUVKMn3iO7f5St7kBu5" />
+		<DocPropertyConstant xsi:nil="true" href="EXTERIOR_1o6XErOxD6nQd6bFwoAos" />
+		<DocPropertyConstant xsi:nil="true" href="INTERIOR_308vVBIKvC5uwc5F0fGvOX" />
+		<DocPropertyConstant xsi:nil="true" href="OVERHANG_3GLWvDNljFPgPLRbfP3ITN" />
+		<DocPropertyConstant xsi:nil="true" href="SIDEFIN_2HLi7t_XX4pvUYy7_Al0xd" />
+		<DocPropertyConstant xsi:nil="true" href="USERDEFINED_37TLtgMNT56wNUWK6TXrMy" />
+		<DocPropertyConstant xsi:nil="true" href="NOTDEFINED_2XczqPL8H0kQwINEcAw1T" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcHeatingValueMeasure" UniqueId="3uXf3JDUHC7QsoFBxXTvWA" DiagramNumber="4" DefinedType="REAL" Length="0">
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2N2ZQNajP3WAXGg1Gj26wz">
+			<Expression>SELF &gt; 0.</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocDefined>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDuctSilencerType" UniqueId="2V$F0pHjzAQPuU9F5s6Mu1" DiagramNumber="2" BaseDefinition="IfcFlowTreatmentDeviceType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="2PLdA41Wv9vQyR6ypbNj0o" DefinedType="IfcDuctSilencerTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The type of duct silencer.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="0t8A7TWPn0mfmanW5Vfznb">
+			<Expression>(PredefinedType &lt;&gt; IfcDuctSilencerTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcDuctSilencerTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

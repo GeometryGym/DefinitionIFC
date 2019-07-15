@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ReinforcementBarPitchOfSlab" UniqueId="ce1360de-8331-4001-be3d-fa7d9843b22f" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Description_1c1iuzEC16mRnTAfze1S1s" />
+		<DocProperty xsi:nil="true" href="Reference_2vF7ToDb1A6xn9BE36k6Dv" />
+		<DocProperty xsi:nil="true" href="LongOutsideTopBarPitch_1TrTaAOkr8J9k8Wq5SB0N1" />
+		<DocProperty xsi:nil="true" href="LongInsideCenterTopBarPitch_3UUCfQ0ObDw88KzNyQvh59" />
+		<DocProperty xsi:nil="true" href="LongInsideEndTopBarPitch_2yvtVsNXbCye4EueTrtif" />
+		<DocProperty xsi:nil="true" href="ShortOutsideTopBarPitch_024GAc43n7CAWoy9grpmPM" />
+		<DocProperty xsi:nil="true" href="ShortInsideCenterTopBarPitch_3AmhB5XXH8kPgaor3IiA09" />
+		<DocProperty xsi:nil="true" href="ShortInsideEndTopBarPitch_1ceHCjNOv2BeWPiuntj2Kg" />
+		<DocProperty xsi:nil="true" href="LongOutsideLowerBarPitch_0qHOejoVb2zesMRdkEogBG" />
+		<DocProperty xsi:nil="true" href="LongInsideCenterLowerBarPitch_3hCaTtu5r8zg4fK3sOg4OQ" />
+		<DocProperty xsi:nil="true" href="LongInsideEndLowerBarPitch_1bhj9b_M19H8bRzDqTBn_1" />
+		<DocProperty xsi:nil="true" href="ShortOutsideLowerBarPitch_23zvsSZX9CUA7kFeWGHYW9" />
+		<DocProperty xsi:nil="true" href="ShortInsideCenterLowerBarPitch_3ZdA9hU5EG9yK5tASAI2p" />
+		<DocProperty xsi:nil="true" href="ShortInsideEndLowerBarPitch_0TVBsE8PrFffrI7tpS4UUb" />
+	</Properties>
+</DocPropertySet>
+

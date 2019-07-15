@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelCoversSpaces" UniqueId="3carmkj7v43QwgLPQnPSNi" DiagramNumber="10" BaseDefinition="IfcRelConnects" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="RelatedSpace" UniqueId="0J4gLG0DXFevL$QDVHWjzp" DefinedType="IfcSpace" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Relationship to the space object that is covered.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedCoverings" UniqueId="0VyOD8mY11twmBcrZhRbgH" DefinedType="IfcCovering" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Relationship to the set of coverings covering this space.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

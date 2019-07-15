@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_RiskType_01fFmRXpf1Rg7gH1QnKT3W" Name="PEnum_RiskType" UniqueId="01a4fc1b-873a-416e-a1ea-4416b151d0e0">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Business_32f3xAeRjAEejjqsi7W7gn" />
+		<DocPropertyConstant xsi:nil="true" href="Hazard_02fWsHIM1EogqHt0CfkB0z" />
+		<DocPropertyConstant xsi:nil="true" href="HealthAndSafety_2Rdr7vQDjFEv3iHBv1C_tX" />
+		<DocPropertyConstant xsi:nil="true" href="Insurance_2kEfI6lgj0LPClPrKCo84r" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

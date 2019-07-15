@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ProportionalControlType_3AKGATZa5069_3W68uCKtB" Name="PEnum_ProportionalControlType" UniqueId="ca51029d-8e41-4018-9f83-806238314dcb">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Proportional_1in9Bovb93Iu1VdDln6K8D" />
+		<DocPropertyConstant xsi:nil="true" href="ProportionalIntegral_0X51LN5AX3kOOuV6BEsL6L" />
+		<DocPropertyConstant xsi:nil="true" href="ExponentialDelay_0RqRm7HA59QAPkb7vIEVK" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

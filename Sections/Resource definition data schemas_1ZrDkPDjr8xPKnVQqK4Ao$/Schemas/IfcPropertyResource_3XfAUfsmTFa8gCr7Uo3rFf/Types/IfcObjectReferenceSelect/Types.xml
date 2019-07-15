@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcObjectReferenceSelect" UniqueId="0kYDVWYxn0pQurTpFZQdCp" DiagramNumber="3">
+	<Selects>
+		<DocSelectItem Name="IfcMaterial" UniqueId="3L3eE07rTARxSOasP$Z6ER" />
+		<DocSelectItem Name="IfcPerson" UniqueId="0KsMI6iMLBgwNYd9jTP52W" />
+		<DocSelectItem Name="IfcDateAndTime" UniqueId="25vxsjio59oBnuMFUsTgVZ" />
+		<DocSelectItem Name="IfcMaterialList" UniqueId="3w9fYZTUP23vSSIYjaEkQ3" />
+		<DocSelectItem Name="IfcOrganization" UniqueId="1EeRSAG4bFWhJ0A8lI7I$t" />
+		<DocSelectItem Name="IfcCalendarDate" UniqueId="3y$ecvt4HCkPrbrIco19yb" />
+		<DocSelectItem Name="IfcLocalTime" UniqueId="1EUtzDqlHDB8jPpRpGtitj" />
+		<DocSelectItem Name="IfcPersonAndOrganization" UniqueId="1rGMVWUWnB7AftMNuvSEet" />
+		<DocSelectItem Name="IfcMaterialLayer" UniqueId="2m$Okfc$9Evg0okX7Zr0j5" />
+		<DocSelectItem Name="IfcExternalReference" UniqueId="2UwBCr3Bb2pQSbOL3hTRN$" />
+		<DocSelectItem Name="IfcTimeSeries" UniqueId="1LLDAhprX4sh5URxQL7nwX" />
+		<DocSelectItem Name="IfcAddress" UniqueId="1H82$Mu2vF0fvAEMOU8R7P" />
+		<DocSelectItem Name="IfcAppliedValue" UniqueId="0w_BR7La985e67i4GhopDA" />
+	</Selects>
+</DocSelect>
+

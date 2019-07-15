@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CondenserTypeCommon" UniqueId="39b4c667-5c5c-425d-bcde-041b58ce11d3" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="RefrigerantClass_09SXnh7Vn6q9kvM7ycg9a6" />
+		<DocProperty xsi:nil="true" href="RefrigerantType_33ulYVAq90mhJsHWauYg9F" />
+		<DocProperty xsi:nil="true" href="ExternalSurfaceArea_0DPmx8eCD7kvKYvOFeTJG" />
+		<DocProperty xsi:nil="true" href="InternalSurfaceArea_0v1QT6K7n2dRXy21hpl6c" />
+		<DocProperty xsi:nil="true" href="InternalRefrigerantVolume_1reTdtdtX6uA6vHEP06Ch" />
+		<DocProperty xsi:nil="true" href="InternalWaterVolume_37YiXSkWb4NRd8YxvI4Hf8" />
+		<DocProperty xsi:nil="true" href="NominalHeatTransferArea_07tShGvM57FB9Hv4q96MSl" />
+		<DocProperty xsi:nil="true" href="NominalHeatTransferCoefficient_1jnr0eZf1APOLZUk49swDC" />
+	</Properties>
+</DocPropertySet>
+

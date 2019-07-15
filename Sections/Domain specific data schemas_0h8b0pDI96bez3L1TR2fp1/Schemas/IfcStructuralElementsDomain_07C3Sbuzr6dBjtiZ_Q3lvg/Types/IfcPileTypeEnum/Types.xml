@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPileTypeEnum" UniqueId="3vqv7s_c58fQoLeAvvI3B8" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="COHESION_27Cz5u3zHC2vLxm0KcVVZc" />
+		<DocConstant xsi:nil="true" href="FRICTION_1_kHrk_PT2YeWqExutyEH_" />
+		<DocConstant xsi:nil="true" href="SUPPORT_3dTfC3kCbEPeWT9YeyvAtE" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1DwCVdcY99EfWBUX5zamZf" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2qvSfoDf6avrYThv3Jkj0" />
+	</Constants>
+</DocEnumeration>
+

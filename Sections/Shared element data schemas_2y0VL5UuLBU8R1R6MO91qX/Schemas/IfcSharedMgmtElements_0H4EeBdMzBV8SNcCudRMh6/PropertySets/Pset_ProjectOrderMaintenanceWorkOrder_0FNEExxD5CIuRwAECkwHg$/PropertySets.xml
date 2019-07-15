@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ProjectOrderMaintenanceWorkOrder" UniqueId="0f5ce3bb-ecd1-4c4b-86fa-28e32ee91abf" ApplicableType="IfcProjectOrder.Predefined=&quot;MAINTENANCEWORKORDER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ProductDescription_0svfWBPN52Ph1whylZlpSh" />
+		<DocProperty xsi:nil="true" href="ShortJobDescription_03tEOlUEb4zfiR0hvEGq0k" />
+		<DocProperty xsi:nil="true" href="LongJobDescription_2viyApCU52JxXI21miNJ_" />
+		<DocProperty xsi:nil="true" href="WorkTypeRequested_0AYvzly4120ggBmsWMDo8F" />
+		<DocProperty xsi:nil="true" href="ContractualType_2flRc4uCz8aP89mupVuMjr" />
+		<DocProperty xsi:nil="true" href="IfNotAccomplished_02gHpy3i51tuoyubwfI9eS" />
+		<DocProperty xsi:nil="true" href="MaintenaceType_2l8TpMUSbCukr_IgINFF0" />
+		<DocProperty xsi:nil="true" href="FaultPriorityType_1ijfLuy453px22MDxrrdYw" />
+		<DocProperty xsi:nil="true" href="LocationPriorityType_0XuxVEps94quKSu3ANJz3_" />
+		<DocProperty xsi:nil="true" href="ScheduledFrequency_3hBzW_i8b2Me8ox1zfiSOu" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,45 @@
+<EPM-HTML>
+<p><u>Definition from IAI</u>: The <i>IfcConnectionPointEccentricity</i>
+is used to describe the geometric constraints that facilitate the
+physical connection of two objects at a point or vertex point with
+associated point coordinates. There is a physical distance, or
+eccentricity, between the connection points of both object. The
+eccentricity can be either given by:</p>
+<ul>
+  <li> providing the <i>PointOnRelatingElement </i>and
+the <i>PointOnRelatedElement</i>, where
+both&nbsp;point
+coordinates are not identical within a common parent coordinate
+system (latestly within the world coordinate system),</li>
+  <li>providing the <i>PointOnRelatingElement </i>and
+the three distance measures, <i>EccentricityInX</i>, <i>EccentricityInY</i>,
+and<i> EccentricityInZ </i>(or only <i>EccentricityInX</i>,
+and <i>EccentricityInY</i> if the underlying coordinate
+system is two-dimensional), or</li>
+  <li>providing both.</li>
+</ul>
+<blockquote><small>
+NOTE&nbsp; If both, <i>PointOnRelatedElement</i>,
+and <i>EccentricityInX</i>, <i>EccentricityInY</i>,
+(<i>EccentricityInZ</i>) are provided, the values should be
+consistent. In case of any non-consistency, the calculated distance
+between <i>PointOnRelatingElement</i> and <i>PointOnRelatedElement</i>takes
+precedence.
+  </small></blockquote>
+<blockquote><small><font color="#0000ff">HISTORY&nbsp;
+New entity in IFC 2x Edition 3.</font> </small>
+</blockquote>
+<p><b><u>Geometry Use Definitions</u>: </b></p>
+<p>The <i>IfcPoint</i> (or the <i>IfcVertexPoint</i>
+with an associated <i>IfcPoint</i>) at the <i>PointOnRelatingElement</i>
+attribute defines the point where the basic geometry items of the
+connected elements connects. The point coordinates are provided within
+the local coordinate system of the <i>RelatingElement</i>,
+as specified at the <i>IfcRelConnectsSubtype</i> that
+utilizes the <i>IfcConnectionPointGeometry</i>.
+Optionally, the same point coordinates can also be provided within the
+local coordinate system of the <i>RelatedElement</i> by
+using the <i>PointOnRelatedElement</i> attribute,
+otherwise the distance to the point at the RelatedElement has to be
+given by the three eccentricity values. </p>
+</EPM-HTML>

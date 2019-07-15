@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcChangeActionEnum" UniqueId="2Wy5idj358DurGtfSv3941" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="NOCHANGE_2fcyyZV0n3ywuXifmUOlTb" />
+		<DocConstant xsi:nil="true" href="MODIFIED_0pTPPqEVD0QgD5FU18QeEy" />
+		<DocConstant xsi:nil="true" href="ADDED_1ijFWRTf51vPIOCdntInfI" />
+		<DocConstant xsi:nil="true" href="DELETED_1faYByJ19YvIwPS363hUm" />
+		<DocConstant xsi:nil="true" href="MODIFIEDADDED_0J7CAizgT4yuuN58OCRIA" />
+		<DocConstant xsi:nil="true" href="MODIFIEDDELETED_2r3lcBPNvDoAOmd_fSaDY4" />
+	</Constants>
+</DocEnumeration>
+

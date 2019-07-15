@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DuctFittingTypeCommon" UniqueId="43cd2958-baa9-4569-8778-d562a6f4f91b" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="SubType_0eWzBNJUvFgQRPBlJ9AUW8" />
+		<DocProperty xsi:nil="true" href="Material_1Szs190fH7Dh9avGKFo60I" />
+		<DocProperty xsi:nil="true" href="MaterialThickness_1gnmyfdD20xCtYL56jj9A" />
+		<DocProperty xsi:nil="true" href="PressureClass_1ezZxmkL51FOmYS6Ykrt24" />
+		<DocProperty xsi:nil="true" href="UnitWeight_1JsbMzqHD2B9l_M2OqyD72" />
+		<DocProperty xsi:nil="true" href="PressureRange_2Wky1wE1zDFhDUoWNlVfz7" />
+		<DocProperty xsi:nil="true" href="TemperatureRange_1shvN7o2D95vLTVB05GsoW" />
+		<DocProperty xsi:nil="true" href="NominalDiameterOrWidth_3WRvkzdbD16QYfYyQauECL" />
+		<DocProperty xsi:nil="true" href="NominalHeight_13tGkqGf9CgdH7ptf5a8H" />
+		<DocProperty xsi:nil="true" href="EndStyleTreatment_2y60XnEH4rvNkoPIjbwqm" />
+	</Properties>
+</DocPropertySet>
+

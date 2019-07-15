@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SpaceThermalPHistory" UniqueId="e07530b1-3420-497b-8d25-c9fcc4693637" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="CoolingAirFlowRate_1PStp4G0f40f9fRhrOnbqn" />
+		<DocProperty xsi:nil="true" href="HeatingAirFlowRate_0ak1ssWzA2hRfAGh8SpHt" />
+		<DocProperty xsi:nil="true" href="VentilationAirFlowRate_2BxPX4VeH93O8jfvCqFzN7" />
+		<DocProperty xsi:nil="true" href="ExhaustAirFlowRate_3QLc5LlD0ig4BHTsfPSGR" />
+		<DocProperty xsi:nil="true" href="SpaceTemperature_2WrSdvxUf30B7zMWyyuNq_" />
+		<DocProperty xsi:nil="true" href="SpaceRelativeHumidity_3BUw9FsYDCJOUNRyHzcnf5" />
+	</Properties>
+</DocPropertySet>
+

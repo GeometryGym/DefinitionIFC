@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DuctFittingPHistory" UniqueId="067934c1-92c1-4242-8292-0dcb974c3eb7" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="LossCoefficient_20Qe4nLh5EjR_DcuxEH5zd" />
+		<DocProperty xsi:nil="true" href="AtmosphericPressure_3EiIX7W5T9COKpdjAj2s1m" />
+		<DocProperty xsi:nil="true" href="AirFlowLeakage_1jeBiGoib3FAiHEdHxXqJo" />
+	</Properties>
+</DocPropertySet>
+

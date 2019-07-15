@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceStyleLighting" UniqueId="0InNa8u7r43OalJs72BYRV" DiagramNumber="5" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="DiffuseTransmissionColour" UniqueId="3NiWn9evj59AKUs9mWGUR4" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The degree of diffusion of the transmitted light. In the case of completely transparent materials there is no diffusion. The greater the diffusing power, the smaller the direct component of the transmitted light, up to the point where only diffuse light is produced.A value of 1 means totally diffuse for that colour part of the light.
+&lt;blockquote&gt;&lt;small&gt;The factor can be measured physically and has three ratios for the red, green and blue part of the light.
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DiffuseReflectionColour" UniqueId="3pEQBdkXfEDRnSjajgFwZd" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The degree of diffusion of the reflected light. In the case of specular surfaces there is no diffusion. The greater the diffusing power of the reflecting surface, the smaller the specular component of the reflected light, up to the point where only diffuse light is produced. A value of 1 means totally diffuse for that colour part of the light. 
+&lt;blockquote&gt;&lt;small&gt;The factor can be measured physically and has three ratios for the red, green and blue part of the light.
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TransmissionColour" UniqueId="1uWFFg9Xb1DgDTf$PZQ56b" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Describes how the light falling on a body is totally or partially transmitted. 
+&lt;blockquote&gt;&lt;small&gt;The factor can be measured physically and has three ratios for the red, green and blue part of the light.
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ReflectanceColour" UniqueId="3C2sPxVSDBk8J4nykSrqme" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+A coefficient that determines the extent that the light falling onto a surface is fully or partially reflected. 
+&lt;blockquote&gt;&lt;small&gt;The factor can be measured physically and has three ratios for the red, green and blue part of the light.
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

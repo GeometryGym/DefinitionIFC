@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ElectricActuatorType_3NEgle_Kz5swl_J3sh2F8p" Name="ElectricActuatorType" UniqueId="d73aabe8-f94f-45db-abfe-4c3dab08f233" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ElectricActuatorType_2IwNe3Byj9QhSEUwZx82ob" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DistributionChamberElementTypeMeterChamber" UniqueId="359d1983-60b0-4688-9e9a-f77c75d4db03" ApplicableType="IfcDistributionChamberElement.Predefined=&quot;METERCHAMBER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ChamberLengthOrRadius_1XW_mlqG97UBawxVuZxXB7" />
+		<DocProperty xsi:nil="true" href="ChamberWidth_2oLW8T_Iz87AGb1WWuf2im" />
+		<DocProperty xsi:nil="true" href="WallMaterial_0Zow8I1er3QPo_GGiwdFsB" />
+		<DocProperty xsi:nil="true" href="WallThickness_2pEIAb9X0VglTb3hGPdga" />
+		<DocProperty xsi:nil="true" href="BaseMaterial_3gEXQiW58B9fcuSqcBoOg" />
+		<DocProperty xsi:nil="true" href="BaseThickness_0xuOkK51TDRRjbrA3O7oJI" />
+		<DocProperty xsi:nil="true" href="AccessCoverMaterial_1KW3rVgF1BKwff4aFY4GgS" />
+	</Properties>
+</DocPropertySet>
+

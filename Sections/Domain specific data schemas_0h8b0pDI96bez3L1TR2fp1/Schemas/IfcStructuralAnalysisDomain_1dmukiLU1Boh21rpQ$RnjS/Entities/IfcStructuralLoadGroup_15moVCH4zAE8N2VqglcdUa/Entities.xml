@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadGroup" UniqueId="15moVCH4zAE8N2VqglcdUa" DiagramNumber="5" BaseDefinition="IfcGroup" EntityFlags="165">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="1iOmznjpTEMRvrOH$5HZB5" DefinedType="IfcLoadGroupTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Selects a predefined type for the load group. It can be differentiated between load groups, load cases, load combination groups (a necessary construct for the description of load combinations) and load combinations.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ActionType" UniqueId="29J31XT9HCQfY2AfSzOdyU" DefinedType="IfcActionTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Type of actions in the group. Normally needed if &apos;PredefinedType&apos; specifies a LOAD_COMBINATION_GROUP.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ActionSource" UniqueId="1OMHYBp2v7pPHfEB6FOdQL" DefinedType="IfcActionSourceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Source of actions in the group. Normally needed if &apos;PredefinedType&apos; specifies a LOAD_CASE.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Coefficient" UniqueId="1qyfVhkFX6JwpmDodmSwbU" DefinedType="IfcRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Load factor. If omitted, a factor is not yet known or not specified. A load factor of 1.0 shall be explicitly exported as Coefficient = 1.0.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Purpose" UniqueId="3DlhRA8k50aAPWIRJ4WZww" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Description of the purpose of this instance. Among else, possible values of the Purpose of load combinations are &apos;SLS&apos;, &apos;ULS&apos;, &apos;ALS&apos; to indicate serviceability, ultimate, or accidental limit state.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SourceOfResultGroup" UniqueId="19$xkyHUz6J95t8vXSm1rB" DefinedType="IfcStructuralResultGroup" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="ResultForLoadGroup">
+			<Documentation>Results which were computed using this load group.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LoadGroupFor" UniqueId="1SmOd49cj5vAEjfA_Q1N1P" DefinedType="IfcStructuralAnalysisModel" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="LoadedBy">
+			<Documentation>Analysis models in which this load group is used.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

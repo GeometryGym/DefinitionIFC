@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BladeShape_2HfrWvOgz91hJFI37LdQLQ" Name="BladeShape" UniqueId="91a75839-62af-4906-b4cf-4831d59da55a" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DamperBladeShape_1GeLrU0JL0PgGVabyTrxlf" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFeatureElement" UniqueId="1o0jXjflz6Ugq4qqhrNYAo" DiagramNumber="4" BaseDefinition="IfcElement" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="2VT8hgx5PAS9edK6l_a3h0" DefinedType="IfcFeatureElementAddition" />
+		<DocSubtype UniqueId="1CS2uAo4bD38FzdUUbUw4h" DefinedType="IfcFeatureElementSubtraction" />
+	</Subtypes>
+</DocEntity>
+

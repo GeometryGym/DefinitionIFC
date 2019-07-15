@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BuildingThermalExposure_0EHOhvjZLEEgwL3OJILAD0" Name="BuildingThermalExposure" UniqueId="0e458af9-b635-4e3a-ae95-0d84d254a340" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BuildingThermalExposure_2ikU3C4OT6bx8PfnrrZMUY" />
+	</Enumeration>
+</DocProperty>
+

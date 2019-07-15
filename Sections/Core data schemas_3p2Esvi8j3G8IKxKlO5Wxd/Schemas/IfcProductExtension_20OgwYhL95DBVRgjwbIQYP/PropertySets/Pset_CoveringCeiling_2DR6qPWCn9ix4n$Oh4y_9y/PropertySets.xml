@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CoveringCeiling" UniqueId="8d6c6d19-80cc-49b3-b131-fd8ac4f3e27c" ApplicableType="IfcCovering.Predefined=&quot;CEILING&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FragilityRating_2QiEBUvl91E8gjqPZTucV4" />
+		<DocProperty xsi:nil="true" href="Permeability_0qhWPcFyP8EvGFVO1swh99" />
+		<DocProperty xsi:nil="true" href="TileLength_0mVFMxYdX77h_hlvj9gYyn" />
+		<DocProperty xsi:nil="true" href="TileWidth_2Q_HRzK1LFZek2yGXyjcGE" />
+	</Properties>
+</DocPropertySet>
+

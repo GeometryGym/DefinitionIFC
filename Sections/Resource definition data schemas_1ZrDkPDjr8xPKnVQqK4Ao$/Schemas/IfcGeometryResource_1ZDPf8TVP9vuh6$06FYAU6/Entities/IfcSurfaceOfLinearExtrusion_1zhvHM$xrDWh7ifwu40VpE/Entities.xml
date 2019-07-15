@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceOfLinearExtrusion" UniqueId="1zhvHM$xrDWh7ifwu40VpE" DiagramNumber="8" BaseDefinition="IfcSweptSurface" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="ExtrudedDirection" UniqueId="0So4UwAQjDkvLhcoAkVZJN" DefinedType="IfcDirection" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The direction of the extrusion.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Depth" UniqueId="2sTG9n$Bn7fOZmGETPblGN" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The depth of the extrusion, it determines the parameterization.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ExtrusionAxis" UniqueId="3W04uwmv50MxGFD9Se9H4e" DefinedType="IfcVector" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The extrusion axis defined as vector.</Documentation>
+			<Derived>IfcRepresentationItem() || IfcGeometricRepresentationItem () || IfcVector (ExtrudedDirection, Depth)</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR41" UniqueId="1aPynEHZ53NAEI9p0OPuAq">
+			<Expression>Depth &gt; 0.</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

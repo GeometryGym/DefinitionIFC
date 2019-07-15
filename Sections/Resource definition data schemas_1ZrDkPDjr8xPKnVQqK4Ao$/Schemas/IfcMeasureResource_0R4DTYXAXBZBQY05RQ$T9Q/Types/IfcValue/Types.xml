@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcValue" UniqueId="3HB3sfnl15GRKwh8HXys1C" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcMeasureValue" UniqueId="1pXRrsBcr27PNoRcaVswP7" />
+		<DocSelectItem Name="IfcSimpleValue" UniqueId="05iE3vMczCyug$C4$bFC3Z" />
+		<DocSelectItem Name="IfcDerivedMeasureValue" UniqueId="0V2pr06zrFWB56CY97admQ" />
+	</Selects>
+</DocSelect>
+

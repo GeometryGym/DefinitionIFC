@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_BuildingUseAdjacent" UniqueId="bff4942c-2b88-46fe-bbf3-da4f21936c52" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MarketCategory_0TNrnjNi5AqByM_1OpDLkR" />
+		<DocProperty xsi:nil="true" href="MarketSubCategory_08V6_BfLv2r9ERb0pcCox" />
+		<DocProperty xsi:nil="true" href="PlanningControlStatus_2zaUeKXfBvfbJ4q8Y6b1B" />
+		<DocProperty xsi:nil="true" href="NarrativeText_0DX5ekDnCTOt7GgDcZOYj" />
+	</Properties>
+</DocPropertySet>
+

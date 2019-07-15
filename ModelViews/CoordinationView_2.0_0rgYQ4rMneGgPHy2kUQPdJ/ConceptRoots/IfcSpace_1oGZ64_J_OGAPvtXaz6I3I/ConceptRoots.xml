@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocConceptRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpace" UniqueId="1oGZ64_J_OGAPvtXaz6I3I">
+	<ApplicableEntity xsi:type="DocEntity" xsi:nil="true" href="IfcSpace_3ETEvg_215b8CLO5TcW5Ik" />
+	<Concepts>
+		<DocTemplateUsage Name="GUIDs" UniqueId="1ZSuumLy0lHuT9j9B2h_jw">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="GUIDs_3ga6tg4StYIufm5WIFj2n" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="History" UniqueId="0quDdVuMN1HuWZyNnS3_fb">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="History_3bM8g3QTayJ8izxZxrVS7D" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Naming" UniqueId="0tl39KxYU4IwNaC9nc8J2I">
+			<Documentation>&lt;p&gt;
+	Specific to IfcSpace: The usage of attributes is (1) Name being the space number or designator, (2) LongName being the space name, and (3) Description being any additional informative text.&amp;nbsp;&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Naming_1fiLy1E_xgG8Yri7hKbQbF" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="CAD Layer" UniqueId="1tBU$mppybHB4JRYXwQROX">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="CAD_Layer_0YSNJnRw4NHR884iSp7TBN" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Spatial Containment" UniqueId="1GX4Vqiqz4GhJpEJZ6ajKS">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Containment_1pwHycyvSaIO2cWa1vx6tU" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="mandatory">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Material" UniqueId="3qMAiw49m_IQG6yEDIUNCf">
+			<Documentation>&lt;p&gt;
+	Specific to IfcSpace: the IfcSpace shall not have a material assigned.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_0yeRPqKZxpHvDGWFMJYeW2" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="excluded">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="excluded">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+		<DocTemplateUsage Name="Classification" UniqueId="15yONCm2nyIhUo7hFb3euU">
+			<Documentation>&lt;p&gt;
+	No further restriction of the concept template defined here.&lt;/p&gt;</Documentation>
+			<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_18q586v0n3IxsF4lccHDhM" />
+			<Exchanges>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Arch_20h718hXn1HhkDyHDByYZ3" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="export" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20MEP_1xAWAXLrLGQ68d0wvXboZ" />
+				</DocExchangeItem>
+				<DocExchangeItem Applicability="import" Requirement="optional">
+					<Exchange xsi:type="DocExchangeDefinition" xsi:nil="true" href="CV20Import_only_2iQuwgxJtzI9lWDele7ZV1" />
+				</DocExchangeItem>
+			</Exchanges>
+		</DocTemplateUsage>
+	</Concepts>
+	<ApplicableTemplate xsi:type="DocTemplateDefinition" UniqueId="73f70194-df4d-4310-8375-eeb5f046f5c0" Type="IfcSpace" />
+</DocConceptRoot>
+

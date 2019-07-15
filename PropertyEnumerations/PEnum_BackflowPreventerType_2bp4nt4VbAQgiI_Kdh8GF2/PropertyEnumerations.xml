@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_BackflowPreventerType_2bp4nt4VbAQgiI_Kdh8GF2" Name="PEnum_BackflowPreventerType" UniqueId="a5cc4c77-11f9-4a6a-ab12-f949eb2103c2">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="NONE_0uzQUamUf92wL654GzX6tl" />
+		<DocPropertyConstant xsi:nil="true" href="ATMOSPHERICVACUUMBREAKER_1Yagy_Twb3dPY18w5ERtJN" />
+		<DocPropertyConstant xsi:nil="true" href="ANTISIPHONVALVE_2DmQJwoeL4Jwonwfd8yaNL" />
+		<DocPropertyConstant xsi:nil="true" href="DOUBLECHECKBACKFLOWPREVENTER_2ed9rCff19qP6TEMqtKG4M" />
+		<DocPropertyConstant xsi:nil="true" href="PRESSUREVACUUMBREAKER_3StbGYtnDCuxEZs3MkBKSk" />
+		<DocPropertyConstant xsi:nil="true" href="REDUCEDPRESSUREBACKFLOWPREVENTER_2Tu1Y4jvT2YwKSaI8JCYIy" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

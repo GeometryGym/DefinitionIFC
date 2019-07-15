@@ -1,0 +1,104 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI</U>: A property with a range value
+		(<I>IfcPropertyTableValue</I>) defines a property object which has two lists of
+		(numeric or descriptive) values assigned, the values specifying a table with
+		two columns. The defining values provide the first column and establish the
+		scope for the defined values (the second column). Interpolations are out of
+		scope of the <I>IfcPropertyTableValue</I>. An optional <I>Expression</I>
+		attribute may give the equation used for deriving the range value, which is for
+		information purposes only.</P> 
+	 <P>The <I>IfcPropertyTableValue</I> defines a defining/defined property
+		value combination for which the property name, the table with defining and
+		defined values with measure type (and optional the units for defining and
+		defined values)are given.</P> 
+	 <P>The units are handled by the <I>DefiningUnit</I> and <I>DefinedUnit</I>
+		attributes:</P> 
+	 <UL> 
+		<LI>If the <I>DefiningUnit</I> or <I>DefinedUnit</I> attribute is not
+		  given, then the unit is already implied by the type of <I>IfcMeasureValue</I>
+		  or <I>IfcDerivedMeasureValue</I>. The associated unit can be found at the
+		  <I>IfcUnitAssignment</I> globally defined at the project level
+		  (<I>IfcProject.UnitsInContext</I>).</LI> 
+		<LI> If the <I>DefiningUnit</I> or <I>DefinedUnit</I> attribute is given,
+		  then the unit assigned by the unit attribute overrides the globally assigned
+		  unit.</LI> 
+	 </UL> 
+	 <P>The <I>IfcPropertyTableValue</I> allows for the specification of a table
+		of defining/defined value pairs of the property description.</P> 
+	 <P>Examples of a property with range value are:</P> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2" BORDER="1"> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" WIDTH="15%"><B>Name</B></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" WIDTH="10%"><B>DefiningValues</B></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" WIDTH="15%"><B>DefiningValue Type
+			 <BR></B>(through IfcValue)</TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" WIDTH="10%"><B>DefinedValues</B></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" WIDTH="15%"><B>DefinedValue Type
+			 <BR></B>(through <I>IfcValue</I>)</TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" WIDTH="15%"><B>DefingUnit </B></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" WIDTH="15%"><B>DefinedUnit</B></TD> 
+		</TR> 
+		<TR> 
+		  <TD VALIGN="TOP" ALIGN="LEFT">SoundTransmissionLoss</TD> 
+		  <TD>100</TD> 
+		  <TD><I>IfcFrequencyMeasure</I></TD> 
+		  <TD>20</TD> 
+		  <TD><I>IfcNumericMeasure</I></TD> 
+		  <TD>- </TD> 
+		  <TD>dB</TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD>200</TD> 
+		  <TD><I>IfcFrequencyMeasure</I></TD> 
+		  <TD>42</TD> 
+		  <TD><I>IfcNumericMeasure</I></TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD>400</TD> 
+		  <TD><I>IfcFrequencyMeasure</I></TD> 
+		  <TD>46</TD> 
+		  <TD><I>IfcNumericMeasure</I></TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD>800</TD> 
+		  <TD><I>IfcFrequencyMeasure</I></TD> 
+		  <TD>56</TD> 
+		  <TD><I>IfcNumericMeasure</I></TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD>1600</TD> 
+		  <TD><I>IfcFrequencyMeasure</I></TD> 
+		  <TD>60</TD> 
+		  <TD><I>IfcNumericMeasure</I></TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" ALIGN="LEFT" BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD>3200</TD> 
+		  <TD><I>IfcFrequencyMeasure</I></TD> 
+		  <TD>65</TD> 
+		  <TD><I>IfcNumericMeasure</I></TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		  <TD BGCOLOR="#C8C8C8">&nbsp;</TD> 
+		</TR> 
+	 </TABLE> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New entity in IFC Release 2x.
+		  </FONT></P></BLOCKQUOTE> 
+	 <P>Informal propositions:</P> 
+	 <OL> 
+		<LI>The list of <I>DerivedValues</I> and the list of
+		  <I>DefiningValues</I> are corresponding lists.</LI> 
+	 </OL>
+</EPM-HTML>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SprinklerType_1ASNuCheD1Oo5pUEZKqbl" Name="SprinklerType" UniqueId="4a717e0c-ae83-41fd-8c85-cde3a353496f" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SprinklerType_08fEPhpQTBdBkb96yIexI" />
+	</Enumeration>
+</DocProperty>
+

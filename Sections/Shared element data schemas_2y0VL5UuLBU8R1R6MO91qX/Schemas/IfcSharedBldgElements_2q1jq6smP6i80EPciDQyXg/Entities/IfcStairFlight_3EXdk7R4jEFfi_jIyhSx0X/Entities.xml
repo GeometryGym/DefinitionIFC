@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStairFlight" UniqueId="3EXdk7R4jEFfi_jIyhSx0X" DiagramNumber="1" BaseDefinition="IfcBuildingElement" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="NumberOfRiser" UniqueId="2EOE5MRUrDNw7PZkjOJfjb" DefinedType="INTEGER" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Number of the risers included in the stair flight.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="NumberOfTreads" UniqueId="3xIlqVFqr6FvJ6rKxydHXY" DefinedType="INTEGER" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Number of treads included in the stair flight.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RiserHeight" UniqueId="1FdYABmw16ePQjaiunipBz" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Vertical distance from tread to tread. The riser height is supposed to be equal for all stairs in a stair flight.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TreadLength" UniqueId="3BZwmJrVX14vj4a7jv4Mv6" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Horizontal distance from the front to the back of the tread. The tread length is supposed to be equal for all steps of the stair flight.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

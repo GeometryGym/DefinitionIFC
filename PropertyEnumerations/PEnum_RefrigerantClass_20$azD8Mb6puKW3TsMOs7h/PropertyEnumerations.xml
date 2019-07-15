@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_RefrigerantClass_20azD8Mb6puKW3TsMOs7h" Name="PEnum_RefrigerantClass" UniqueId="80fe4f4d-2169-46cf-8520-0ddd966361eb">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CFC_0qMcR4ml9ESeeCRCGXIHBk" />
+		<DocPropertyConstant xsi:nil="true" href="HCFC_1CDYwhK8L8h8KI7ndNoZ4F" />
+		<DocPropertyConstant xsi:nil="true" href="HFC_0vrL_L1hDEo8oarHpHxxkk" />
+		<DocPropertyConstant xsi:nil="true" href="HYDROCARBONS_08DjxeXTr89gosCnyllsk4" />
+		<DocPropertyConstant xsi:nil="true" href="AMMONIA_3XJOW8HVDFPuZWN8w903xt" />
+		<DocPropertyConstant xsi:nil="true" href="CO2_3EfYCa2rvFfxa09JNPsOOP" />
+		<DocPropertyConstant xsi:nil="true" href="H2O_2bPnnLTZL9zOxyLm5FNZz" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

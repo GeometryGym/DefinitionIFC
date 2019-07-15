@@ -1,0 +1,48 @@
+<EPM-HTML> 
+<p><u>Definition from IAI: </u>An <i>IfcLightFixtureType</i>
+is a container type that is designed for the purpose of housing one or
+more lamps and the devices that control, restrict or vary their
+emission. </p>
+<blockquote> <font color="#0000ff" size="-1">HISTORY:
+New class in IFC 2x2.</font></blockquote>
+<p><u><b>Use Definitions</b></u></p>
+<p>An <i>IfcLightFixtureType</i> provides for all
+forms of light fixture and its usage defines the parameters for one or
+more occurrences of <i>IfcFlowTerminal</i>.</p>
+<p>Instances of <i>IfcFlowTerminal</i> that are
+defined as types of <i>IfcLightFixtureType</i> have one or
+more instances of <i>IfcFlowTerminal</i> that are defined
+as types of <i>IfcLampType</i> connected using instances
+of <i>IfcDistributionPort</i>.</p>
+<p>Rendering using lighting data is achieved using light source
+entities within the presentation capabilities of IFC.</p>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to the <i>IfcLightFixtureType
+</i>are defined by the <i>IfcPropertySet</i> and
+attached by the <i>IfcRelDefinesByType</i> relationship.
+It is accessible by the inverse <i>IsDefinedBy</i>
+relationship. The following property set definitions specific to an <i>IfcLightFixtureType</i>
+are part of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_ElectricalDeviceCommon.xml">Pset_ElectricalDeviceCommon</a>:
+property set for properties that are common to all types of electrical
+devices, if available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_LightFixtureTypeCommon.xml">Pset_LightFixtureTypeCommon</a>:
+property set for properties that are common to all types of light
+fixture, if available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_LightFixtureTypeThermal.xml">Pset_LightFixtureTypeThermal</a>:
+specific property set for the thermal properties of a light fixture, if
+available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_LightFixtureTypeExitSign.xml">Pset_LightFixtureTypeExitSign</a>:
+specific property set for the properties of an exit sign, if available</li>
+</ul>
+<p><u><b>Geometry Use Definitions</b></u></p>
+<p>Representations of the type are defined as representation maps
+(at the level of the supertype <i>IfcTypeProduct</i>).
+These are assigned at the occurrence through the <i>IfcShapeRepresentation.Item</i>
+being an <i>IfcMappedItem</i>.</p>
+</EPM-HTML>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStairFlightTypeEnum" UniqueId="1P0Mnl3pP4H9HR62K8AC2j" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="STRAIGHT_0H31yL5uP50eg4X_6Kl6q" />
+		<DocConstant xsi:nil="true" href="WINDER_07ep7L39PDaO8mfkTFZxOy" />
+		<DocConstant xsi:nil="true" href="SPIRAL_0XB_2cf1CxROKTWjR5rnd" />
+		<DocConstant xsi:nil="true" href="CURVED_3SdViPYzzBMuaNafTpriu_" />
+		<DocConstant xsi:nil="true" href="FREEFORM_0MEGxTpE1EkAgkgHE9CGhq" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0sApoZ185E1epXTqxO1OWV" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_32kgcjSAf4nhHB_dWImzPq" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,48 @@
+<EPM-HTML> 
+<p><u>Definition
+from IAI: </u> An <i>IfcTextureMap</i>
+provides the
+mapping of the 2-dimensional texture coordinates to the surface onto
+which it is mapped. It is used for mapping the texture to vertex based
+geometry models, such as</p>
+<ul>
+  <li><i>IfcFacetedBrep</i></li>
+  <li><i>IfcFacetedBrepWithVoids</i></li>
+  <li><i>IfcFaceBasedSurfaceModel</i></li>
+  <li><i>IfcShellBasedSurfaceModel</i></li>
+</ul>
+<p>The <i>IfcTextureMap</i>
+provides a set of <i>TextureMaps</i>, each <i>IfcVertexBasedTextureMap</i>
+holds a corresponding pair of lists:</p>
+<ol>
+  <li>a list of <i>TexturePoints</i>,
+currently of type <i>IfcCartesianPoint</i>,
+and</li>
+  <li>a list of&nbsp;<i>TexturesVertices</i>
+of type <i>IfcTextureVertex</i>.</li>
+</ol>
+Each <i>IfcTextureVertex</i> (given as S, T coordinates of
+2
+dimension) corresponds to the geometric coordinates of the <i>IfcCartesianPoint</i>
+(given as X, Y, and
+Z coordinates of 3 dimensions).
+<blockquote> <small><font color="#0000ff">HISTORY&nbsp;
+New class
+in IFC
+Release 2x Edition 2. </font><br>
+  <font color="#ff0000">IFC2x
+Edition 3 CHANGE&nbsp; The <i>IfcTextureMap</i>
+has changed by deleting the attribute <i>Texture</i>.
+The attribute <i>TextureMaps</i>
+has
+been added.</font></small></blockquote>
+<p><u>Informal
+propositions</u>:</p>
+<ol>
+  <li>All <i>TexturePoints</i> in the list <i>TextureMaps</i>
+of <i>IfcVertexBasedTextureMap</i>
+shall be used by the vertex
+based geometry, to which this texture map is assigned to by using the <i>IfcAnnotationSurface.Item</i>
+attribute.</li>
+</ol>
+</EPM-HTML>

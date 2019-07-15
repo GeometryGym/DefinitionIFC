@@ -1,0 +1,31 @@
+<EPM-HTML>
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: An edge curve is a special
+		subtype of edge which has its geometry fully defined. The geometry is defined
+		by associating the edge with a curve which may be unbounded. As the topological
+		and geometric directions may be opposed, an indicator (same sense) is used to
+		identify whether the edge and curve directions agree or are opposed. The
+		Boolean value indicates whether the curve direction agrees with (TRUE) or is in
+		the opposite direction (FALSE) to the edge direction. Any geometry associated
+		with the vertices of the edge shall be consistent with the edge geometry. </P> 
+	 <BLOCKQUOTE> 
+		<P> <FONT COLOR="#0000FF" SIZE="-1">NOTE: Corresponding STEP entity:
+		  edge_curve. Please refer to ISO/IS 10303-42:1994, p. 132 for the final
+		  definition of the formal standard. Due to the general IFC model specification
+		  rule not to use multiple inheritance, the subtype relationship to
+		  geometric_representation_item is not included.</FONT></P> 
+		<P><FONT COLOR="#0000FF" SIZE="-1"> HISTORY: New Entity in IFC Release
+		  2.x. </FONT></P></BLOCKQUOTE> 
+	 <P></P> 
+	 <P><U>Informal propositions</U>:</P> 
+	 <OL> 
+		<LI>The domain of the edge curve is formally defined to be the domain of
+		  its edge geometry as trimmed by the vertices. This domain does not include the
+		  vertices.</LI> 
+		<LI>An edge curve has non-zero finite extent.</LI> 
+		<LI>An edge curve is a manifold.</LI> 
+		<LI>An edge curve is arcwise connected.</LI> 
+		<LI>The edge start is not a part of the edge domain.</LI> 
+		<LI>The edge end is not a part of the edge domain.</LI> 
+		<LI>Vertex geometry shall be consistent with edge geometry.</LI> 
+	 </OL>
+</EPM-HTML>

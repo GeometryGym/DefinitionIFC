@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ReheatType_2OykcmYaP0YwpJlFvdqQt" Name="ReheatType" UniqueId="98f2e9b0-8a46-408b-aff3-4ef3f99f46b7" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalBoxReheatType_2_05l4ZPH4NxMvTw8FP3z2" />
+	</Enumeration>
+</DocProperty>
+

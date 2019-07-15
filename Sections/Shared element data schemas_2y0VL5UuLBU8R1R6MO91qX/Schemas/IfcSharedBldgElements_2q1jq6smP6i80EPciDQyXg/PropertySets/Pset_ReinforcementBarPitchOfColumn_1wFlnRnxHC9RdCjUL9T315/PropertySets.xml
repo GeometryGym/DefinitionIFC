@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ReinforcementBarPitchOfColumn" UniqueId="7a3efc5b-c7b4-4c25-b9cc-b5e549743045" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Description_3scyPcUSvFOs5JXdbzRcS" />
+		<DocProperty xsi:nil="true" href="Reference_1Qa2WKEC57kR3YUKxvbc" />
+		<DocProperty xsi:nil="true" href="ReinforcementBarType_1Us2hSUxvBRvxe_LgPt9D9" />
+		<DocProperty xsi:nil="true" href="HoopBarPitch_06Z06NGGzERgkxp0jAqqJA" />
+		<DocProperty xsi:nil="true" href="XDirectionTieHoopBarPitch_0DLKAlhP3A9LWodtrELRr" />
+		<DocProperty xsi:nil="true" href="XDirectionTieHoopCount_2cCEsmcDb1kuP1rxHYiEIL" />
+		<DocProperty xsi:nil="true" href="YDirectionTieHoopBarPitch_1mvUA10U98jAH9juhjPhy" />
+		<DocProperty xsi:nil="true" href="YDirectionTieHoopCount_3Z3kKIhPf8VAzcP0K2MKi" />
+	</Properties>
+</DocPropertySet>
+

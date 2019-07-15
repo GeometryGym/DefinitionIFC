@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_PictogramEscapeDirectionType_082Cb7C_93uxFOVadOrrk6" Name="PEnum_PictogramEscapeDirectionType" UniqueId="0808c947-33e2-43e3-b3d8-7e49d8d75b86">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="RightArrow_1W5vZyNQT6NAZRZJOrAkCw" />
+		<DocPropertyConstant xsi:nil="true" href="LeftArrow_0c0LEOa5H7gu_asWZUxHm" />
+		<DocPropertyConstant xsi:nil="true" href="DownArrow_0OtHbhwtTFaeRzzieBzFOv" />
+		<DocPropertyConstant xsi:nil="true" href="UpArrow_16K1sZx5BYOF4MEtIZY19" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

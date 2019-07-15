@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CoolingTowerFlowArrangement_2B2hwPpCvFvgErBIP_vhzk" Name="PEnum_CoolingTowerFlowArrangement" UniqueId="8b0abe99-ccce-4fe6-a3b5-2d267ee6bf6e">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="COUNTERFLOW_3VGSXjLXXEE9bLe6IQxhjI" />
+		<DocPropertyConstant xsi:nil="true" href="CROSSFLOW_1XPZvDiAr0EfNewrQuLAnS" />
+		<DocPropertyConstant xsi:nil="true" href="PARALLELFLOW_1aNbRHd_98PQMadxxBzSY" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

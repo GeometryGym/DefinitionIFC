@@ -1,0 +1,54 @@
+<EPM-HTML>
+<p><u>Definition
+from ISO/CD 10303-46:1992</u>: A curve style specifies
+the visual appearance of curves.</p>
+<p><u>Definition from IAI</u>: An <i>IfcCurveStyle</i>
+provides the
+style table for presentation information assigned to geometric curves.
+The style is defined by a color, a font and a width. <font
+ color="#0000ff">The <i>IfcCurveStyle&nbsp;</i>defines
+curve patterns as model patterns, i.e. the distance between visible and
+invisible segments of
+curve patterns are given in model space dimensions (that
+have to be scaled using the target plot scale). </font></p><p>Styles
+are
+intended to be shared by multiple <i>IfcStyledItem</i>'s,
+assigning
+the style to occurrences of (subtypes of) <i>IfcGeometricRepresentationItem</i>'s.
+Measures given to a font pattern or a curve width are given in global
+drawing length units. <br>
+</p><blockquote> <p><small>NOTE&nbsp;
+global units are defined at the single <i>IfcProject</i>
+instance, given by <i>UnitsInContext:IfcUnitAssignment</i>,
+the same
+units are used for the geometric representation items and for the style
+definitions.</small></p>
+</blockquote><p>The measure values for font
+pattern and curve width <font color="#0000ff">apply to
+the
+model space </font>with
+a target plot scale provided for the correct appearance in the default
+plot scale.. For different scale and projection dependent curve styles
+a
+different instance of <i>IfcCurveStyle</i>
+needs to be used by <i>IfcPresentationStyleAssignment</i>
+for different <i>IfcGeometricRepresentationSubContext</i>
+dependent
+representations.</p>
+<blockquote> <small>NOTE&nbsp;
+the target plot scale is given by <i>IfcGeometricRepresentationSubContext.TargetScale</i>.</small><br>
+</blockquote><p>An <i>IfcCurveStyle</i> can be
+assigned to <i>IfcGeometricRepresentationItem</i>'s
+via the <i>IfcPresentationStyleAssignment</i>
+through an intermediate <i>IfcStyledItem</i>
+or <i>IfcAnnotationCurveOccurrence</i>.</p>
+<blockquote> <font color="#0000ff"><small>NOTE&nbsp;
+Corresponding
+STEP name:
+curve_style. Please refer to ISO/IS 10303-46:1994 for the final
+definition of the formal standard.</small> </font></blockquote>
+<blockquote><font color="#0000ff"><small>HISTORY&nbsp;
+New entity in
+Release IFC2x Edition 2.</small> </font>
+</blockquote>
+</EPM-HTML>

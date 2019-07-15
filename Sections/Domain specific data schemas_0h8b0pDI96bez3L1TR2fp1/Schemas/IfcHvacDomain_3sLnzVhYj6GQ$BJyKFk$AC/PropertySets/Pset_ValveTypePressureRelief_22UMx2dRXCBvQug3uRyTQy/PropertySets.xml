@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValveTypePressureRelief" UniqueId="82796ec2-9db8-4c2f-96b8-a83e1bf1d6bc" ApplicableType="IfcValve.Predefined=&quot;PRESSURERELIEF&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ReliefPressure_1pfIKCLbEPgJxXYi1F2a1" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DiscreteAccessoryWireLoop" UniqueId="0e0b0bb7-a9da-4334-bb95-6f483bb457b6" ApplicableType="IfcDiscreteAccessory.Object=&quot;Wire loop&quot; | IfcDiscreteAccessory.Element=&quot;Wire loop&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="WireLoopBasePlateThickness_3pAtdM_V14XRcLU2O7B8cU" />
+		<DocProperty xsi:nil="true" href="WireLoopBasePlateWidth_1oSNXjVcDC_hkDnW492K" />
+		<DocProperty xsi:nil="true" href="WireLoopBasePlateLength_0DVIPmkYrDsu_WHPwPRUxO" />
+		<DocProperty xsi:nil="true" href="WireDiameter_3YELP3S1X8UwiXFihalJ74" />
+		<DocProperty xsi:nil="true" href="WireEmbeddingLength_0_69Pm24r73QLvV4nvrjgj" />
+		<DocProperty xsi:nil="true" href="WireLoopLength_3keS5p1H7yf4OQSdcKEAf" />
+	</Properties>
+</DocPropertySet>
+

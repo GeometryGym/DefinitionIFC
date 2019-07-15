@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_BuildingStoreyCommon" UniqueId="61e87334-8934-4b4b-b113-a6ef6128051c" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="EntranceLevel_079XwHLV5EiAhqKMHnd6Ks" />
+		<DocProperty xsi:nil="true" href="AboveGround_336_fQa3XFg8foyBcbvbAN" />
+		<DocProperty xsi:nil="true" href="SprinklerProtection_3LSVyJAnf7pg1rJAGWX39" />
+		<DocProperty xsi:nil="true" href="SprinklerProtectionAutomatic_2aqzodKfHBlfkCVfc1dvdu" />
+		<DocProperty xsi:nil="true" href="GrossAreaPlanned_1Lzk9emAj6HPZld4ICpihu" />
+		<DocProperty xsi:nil="true" href="NetAreaPlanned_3Z2pMQDd5CQebgyQWzcWff" />
+	</Properties>
+</DocPropertySet>
+

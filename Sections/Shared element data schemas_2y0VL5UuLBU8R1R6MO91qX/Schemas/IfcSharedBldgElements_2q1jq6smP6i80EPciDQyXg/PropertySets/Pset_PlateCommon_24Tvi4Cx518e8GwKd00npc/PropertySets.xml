@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PlateCommon" UniqueId="84779b04-33b1-4122-8210-e949c0031ce6" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_0VXuL4bMX4GPuqc0BJNuvp" />
+		<DocProperty xsi:nil="true" href="IsExternal_2QtVNjq9PDtglhQm0Gq3gw" />
+		<DocProperty xsi:nil="true" href="LoadBearing_3QZsWF86TEz8SrsH9fr6sp" />
+		<DocProperty xsi:nil="true" href="AcousticRating_3VKSMM8SH0ygirkAr3oyC" />
+		<DocProperty xsi:nil="true" href="FireRating_3bb4lZL_T9ce1WdIPErP5I" />
+		<DocProperty xsi:nil="true" href="ThermalTransmittance_3t5VbWUuPEy82i1c2QqhVC" />
+	</Properties>
+</DocPropertySet>
+

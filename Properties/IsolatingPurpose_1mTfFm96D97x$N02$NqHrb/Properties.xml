@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IsolatingPurpose_1mTfFm96D97xN02NqHrb" Name="IsolatingPurpose" UniqueId="707693f0-2463-491f-bfd7-002fd7d11d65" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_IsolatingPurpose_1XB3hlAZ1A8wJx03U5B3fz" />
+	</Enumeration>
+</DocProperty>
+

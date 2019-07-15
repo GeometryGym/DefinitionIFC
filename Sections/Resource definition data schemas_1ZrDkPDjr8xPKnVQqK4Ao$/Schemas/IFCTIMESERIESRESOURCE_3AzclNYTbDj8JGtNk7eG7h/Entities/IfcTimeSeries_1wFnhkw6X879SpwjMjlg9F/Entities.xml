@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTimeSeries" UniqueId="1wFnhkw6X879SpwjMjlg9F" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="0Dm3ABrfn9bQVDDugAj$zv" DefinedType="IfcRegularTimeSeries" />
+		<DocSubtype UniqueId="3D5AF_2kP5I9fXlMOXjmGS" DefinedType="IfcIrregularTimeSeries" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="2dsrXX8mvBl8uVi5gURd2k" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>An unique name for the time series.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="0ccOImvBTFWBkdhfwCDlXy" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>A text description of the data that the series represents.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="StartTime" UniqueId="1nviUDvCTCkhv$Xqm9BJ28" DefinedType="IfcDateTimeSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The start time of a time series.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="EndTime" UniqueId="0YitykJDL7XAP5Tnn8hkmg" DefinedType="IfcDateTimeSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The end time of a time series.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TimeSeriesDataType" UniqueId="19juuSAg1CKQvXwtxiZcm1" DefinedType="IfcTimeSeriesDataTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The time series data type.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DataOrigin" UniqueId="1jGZ_$W0n0SxOrIft7wi6I" DefinedType="IfcDataOriginEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The orgin of a time series data.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UserDefinedDataOrigin" UniqueId="2Gv44Fm8zF0QbkJbgJiNCg" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Value of the data origin if DataOrigin attribute is USERDEFINED.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Unit" UniqueId="1CZWCGlij0WAsjQNs$dyNk" DefinedType="IfcUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The unit to be assigned to all values within the time series. Note that mixing units is not allowed. If the value is not given, the global unit for the type of &lt;I&gt;IfcValue&lt;/I&gt;, as defined at &lt;I&gt;IfcProject.UnitsInContext&lt;/I&gt; is used.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DocumentedBy" UniqueId="1PsEe4qqT53ekp52_xfX4U" DefinedType="IfcTimeSeriesReferenceRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="ReferencedTimeSeries" />
+	</Attributes>
+</DocEntity>
+

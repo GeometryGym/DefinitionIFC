@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DamperPHistory" UniqueId="4921f7e4-15f9-48b8-9ecd-d1a1c5c9c6e1" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AirFlowRate_2TqR8MkZvAWxbdjj6xdee" />
+		<DocProperty xsi:nil="true" href="Leakage_1Gehr4wtL8yw3_lE_XsUS" />
+		<DocProperty xsi:nil="true" href="PressureDrop_1wVDr8K6r4dQAHYtozgbdA" />
+		<DocProperty xsi:nil="true" href="BladePositionAngle_3Gh0YswlbCmvKxQ11joImu" />
+		<DocProperty xsi:nil="true" href="DamperPosition_28uftPVqP418SfNfL2o6lG" />
+		<DocProperty xsi:nil="true" href="PressureLossCoefficient_0uVsKJCb3RRb8b0yXDb3M" />
+	</Properties>
+</DocPropertySet>
+

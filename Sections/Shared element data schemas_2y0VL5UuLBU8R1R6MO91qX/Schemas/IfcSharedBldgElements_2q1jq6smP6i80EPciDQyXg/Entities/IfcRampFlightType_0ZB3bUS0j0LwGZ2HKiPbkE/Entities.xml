@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRampFlightType" UniqueId="0ZB3bUS0j0LwGZ2HKiPbkE" DiagramNumber="2" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="2Hurrh6YfETPAA8RU7okPL" DefinedType="IfcRampFlightTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of a ramp flight element from which the type required may be set.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

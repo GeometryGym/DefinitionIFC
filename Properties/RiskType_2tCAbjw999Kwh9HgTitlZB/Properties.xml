@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RiskType_2tCAbjw999Kwh9HgTitlZB" Name="RiskType" UniqueId="b730a96d-e892-4953-aac9-46a76cdef8cb" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_RiskType_01fFmRXpf1Rg7gH1QnKT3W" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FanMotorPosition_3CUX6pz2XD9PcBlPH3uooD" Name="PEnum_FanMotorPosition" UniqueId="cc7a11b3-f428-4d25-998b-bd9443e32c8d">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="INAIRSTREAM_2LYZBYUeD3iujoILZ_2vxi" />
+		<DocPropertyConstant xsi:nil="true" href="OUTOFAIRSTREAM_1QXjDtzFfEnu9yIAjCNNXE" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_GasBurnerType_1k28jOgHr79QmWAbpTbnsk" Name="PEnum_GasBurnerType" UniqueId="6e088b58-a91d-4725-ac20-2a5cdd971dae">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FORCEDDRAFT_3P820ap55FWQzi1j0K_no6" />
+		<DocPropertyConstant xsi:nil="true" href="NATURALDRAFT_3hyIcuFfH8o8gX5oQD6Pv" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

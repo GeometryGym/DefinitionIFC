@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoxedHalfSpace" UniqueId="2kjeFvIO5DuQLmW6cxRkX2" DiagramNumber="3" BaseDefinition="IfcHalfSpaceSolid" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Enclosure" UniqueId="1jrw2PvSDBhvjHjdJfIcEB" DefinedType="IfcBoundingBox" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The box which bounds the half space for computational purposes only.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="3WlUcv7fHE9OgLBIs2AVqO">
+			<Documentation>The BaseSurface defining the half space shall not be a bounded surface.</Documentation>
+			<Expression>NOT (&apos;IFCGEOMETRYRESOURCE.IFCCURVEBOUNDEDPLANE&apos; IN TYPEOF(SELF\IfcHalfSpaceSolid.BaseSurface))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSensorTypeEnum" UniqueId="0znoYlWIP9EADo8nqr2wbF" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CO2SENSOR_14SED2wx975BVwtSnC2AQS" />
+		<DocConstant xsi:nil="true" href="FIRESENSOR_0A9haiborAf89GRx608Auc" />
+		<DocConstant xsi:nil="true" href="FLOWSENSOR_18MZ2KIYH4hQcJLLuGkmv" />
+		<DocConstant xsi:nil="true" href="GASSENSOR_23hNFHqrFCwSOuQGsRbJ" />
+		<DocConstant xsi:nil="true" href="HEATSENSOR_24I577xYDEkPz4W9jwCVY0" />
+		<DocConstant xsi:nil="true" href="HUMIDITYSENSOR_3Sy6ofdsD5Dwl31fpVCny" />
+		<DocConstant xsi:nil="true" href="LIGHTSENSOR_0Jwhf8LDT6TvWhF3GRIVD4" />
+		<DocConstant xsi:nil="true" href="MOISTURESENSOR_1tcCJaP6186hegVO80VXEa" />
+		<DocConstant xsi:nil="true" href="MOVEMENTSENSOR_1LwTwFAv52h5Ex53yFF5Z" />
+		<DocConstant xsi:nil="true" href="PRESSURESENSOR_0s3CSW8dL4JApmth8y5gtS" />
+		<DocConstant xsi:nil="true" href="SMOKESENSOR_28SKxoy1v4rht8kHn9lFLY" />
+		<DocConstant xsi:nil="true" href="SOUNDSENSOR_3W4KoQiP9094tNcafsW61" />
+		<DocConstant xsi:nil="true" href="TEMPERATURESENSOR_3AHfhhU5H3ledzzx7VdxTF" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0TtFK_YofFwerQGrIFHBlR" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_252vzvR5TAvg7lIpbFIpn" />
+	</Constants>
+</DocEnumeration>
+

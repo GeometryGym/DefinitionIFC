@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLightEmissionSourceEnum" UniqueId="12KpqBh6X9tAGhRrCOb41b" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="COMPACTFLUORESCENT_0pCLgvHrbB48aVLYi8qYvu" />
+		<DocConstant xsi:nil="true" href="FLUORESCENT_3e5Hwk98H8zht74ag5HM3" />
+		<DocConstant xsi:nil="true" href="HIGHPRESSUREMERCURY_328SRuZMD7l9YgQfZX2ljC" />
+		<DocConstant xsi:nil="true" href="HIGHPRESSURESODIUM_1aqBhYiL1P9xbSF3x9Cv" />
+		<DocConstant xsi:nil="true" href="LIGHTEMITTINGDIODE_2MvwhwWTzCPuAMnpddRKJo" />
+		<DocConstant xsi:nil="true" href="LOWPRESSURESODIUM_3TuwJOxrvCkADn2TDhGP4x" />
+		<DocConstant xsi:nil="true" href="LOWVOLTAGEHALOGEN_0ThoixrUz7zOzQzye9qsC6" />
+		<DocConstant xsi:nil="true" href="MAINVOLTAGEHALOGEN_1IRbrpydT7mfTVxTxacip4" />
+		<DocConstant xsi:nil="true" href="METALHALIDE_1jHdCEJ5v058L_HAL1zPLH" />
+		<DocConstant xsi:nil="true" href="TUNGSTENFILAMENT_1j49i0eO53MOJ78Olvq870" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2eJ6gAM8v7KRQujwk20O1d" />
+	</Constants>
+</DocEnumeration>
+

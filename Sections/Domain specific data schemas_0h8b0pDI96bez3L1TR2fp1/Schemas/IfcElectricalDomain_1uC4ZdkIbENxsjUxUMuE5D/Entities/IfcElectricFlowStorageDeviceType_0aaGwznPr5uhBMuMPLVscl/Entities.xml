@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricFlowStorageDeviceType" UniqueId="0aaGwznPr5uhBMuMPLVscl" DiagramNumber="2" BaseDefinition="IfcFlowStorageDeviceType" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="2bhrUA8GD2bA9JX_7$LY8U" DefinedType="IfcElectricFlowStorageDeviceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0" />
+	</Attributes>
+</DocEntity>
+

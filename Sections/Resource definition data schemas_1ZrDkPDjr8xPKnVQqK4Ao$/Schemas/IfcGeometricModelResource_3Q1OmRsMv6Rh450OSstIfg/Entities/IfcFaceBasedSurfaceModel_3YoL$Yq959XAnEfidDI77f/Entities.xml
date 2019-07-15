@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFaceBasedSurfaceModel" UniqueId="3YoL$Yq959XAnEfidDI77f" DiagramNumber="6" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="FbsmFaces" UniqueId="1sc_$tdRPF3A9xYYm1X7r9" DefinedType="IfcConnectedFaceSet" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The set of connected face sets comprising the face based surface model.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="0hkhOKJgf87ge7MASpRXBq" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, it is always 3.</Documentation>
+			<Derived>3</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

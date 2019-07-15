@@ -1,0 +1,54 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: The extruded area solid
+		(<I>IfcExtrudedAreaSolid</I>) is defined by sweeping a bounded planar surface.
+		The direction of the extrusion is given by the <I>ExtrudedDirection</I>
+		attribute and the length of the extrusion is given by the <I>Depth</I>
+		attribute. If the planar area has inner boundaries, i.e. holes defined, then
+		those holes shall be swept into holes of the solid.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1"><U>New</U>: The <I>IfcExtrudedArea</I> solid now
+		  directly defines the linear extrusion of a cross section (also referred to as
+		  profile). It thereby combines the functionality of the previous
+		  IfcAttDrivenExtrudedSegment entity. In contrary to the previous
+		  IfcAttDrivenExtrudedSegment, the extruded direction can be any which is not
+		  perpendicular to the z axis of the position coordinate
+		  system.</FONT></P></BLOCKQUOTE> 
+	 <P>The <I>ExtrudedDirection</I> is given within the position coordinate
+		system as defined by <I>IfcSweptAreaSolid.Position</I>. Extrusions are not
+		longer restricted to be perpendicular to the extruded surface of the
+		profile.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1"><FONT COLOR="#0000FF" SIZE="-1">NOTE
+		  Corresponding STEP entity: extruded_area_solid. Please refer to ISO/IS
+		  10303-42:1994, p. 183 for the final definition of the formal standard. The data
+		  type of the inherited <I>SweptArea</I> attribute is different, i.e. of type
+		  <I>IfcProfileDef</I>. The <I>Position</I> attribute has been added to position
+		  the cross section used for the linear extrusion.</FONT></FONT></P> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY New entity in IFC Release 1.5,
+		  capabilities of this entity have been enhanced in IFC Release 2x.
+		  </FONT></P></BLOCKQUOTE> 
+	 <P><U>Illustration</U>:</P> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2" BORDER="0"> 
+		<TR> 
+		  <TD VALIGN="TOP" ALIGN="LEFT"><A
+			 HREF="drawings/IfcExtrudedAreaSolid-Layout1.dwf"><IMG
+			 SRC="figures/IfcExtrudedAreaSolid-Layout1.gif" ALT="extruded area solid"
+			 WIDTH="400" HEIGHT="300" BORDER="0"></A></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT"> 
+			 <P><FONT SIZE="-1"><U>Purpose</U><BR>The extruded area solid defines
+				the extrusion of a 2D area (given by a profile definition) by an direction and
+				depth. The result is a solid.</FONT></P> 
+			 <P><FONT SIZE="-1"><U>Parameter</U><BR>The swept area is given by a
+				profile definition. This profile is defined </FONT></P> 
+			 <UL> 
+				<LI><FONT SIZE="-1">as a 2D bounded curve within the xy plane of
+				  the position coordinate system, </FONT></LI> 
+				<LI><FONT SIZE="-1">as a 2D bounded curve with holes within the xy
+				  plane of the position coordinate system, </FONT></LI> 
+				<LI><FONT SIZE="-1">or as a 2D primitive, defined within a 2D
+				  position coordinate system, that is placed relative to the xy plane of the
+				  position coordinate system</FONT></LI> 
+			 </UL></TD> 
+		</TR> 
+	 </TABLE>
+</EPM-HTML>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralMember" UniqueId="1McuEeVXjEQRGki9X9MDrv" DiagramNumber="1" BaseDefinition="IfcStructuralItem" EntityFlags="133">
+	<Subtypes>
+		<DocSubtype UniqueId="1KysIumlXDPuakl8wLbDte" DefinedType="IfcStructuralCurveMember" />
+		<DocSubtype UniqueId="2FZFAjuFr19PojzBR3bHHd" DefinedType="IfcStructuralSurfaceMember" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="ReferencesElement" UniqueId="25o3ysi9T9Ygaq6h6wSoRH" DefinedType="IfcRelConnectsStructuralElement" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedStructuralMember">
+			<Documentation>&lt;EPM-HTML&gt;
+Inverse link to the relationship object, that connects a physical element to this structural member (the element of which this structural member is the analytical idealization).
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConnectedBy" UniqueId="2l4BfFR6T1zRWrHHlf3xrl" DefinedType="IfcRelConnectsStructuralMember" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingStructuralMember">
+			<Documentation>Inverse relationship to all structural connections (i.e. to supports or connecting elements) which are defined for this structural member.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

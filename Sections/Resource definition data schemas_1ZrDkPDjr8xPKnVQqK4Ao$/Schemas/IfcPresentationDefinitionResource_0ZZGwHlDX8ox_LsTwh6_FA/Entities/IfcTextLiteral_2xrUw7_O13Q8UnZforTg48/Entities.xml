@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextLiteral" UniqueId="2xrUw7_O13Q8UnZforTg48" DiagramNumber="3" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="2AXTYaCNT64AGlXvoD9NbO" DefinedType="IfcTextLiteralWithExtent" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Literal" UniqueId="3$DBfX$LL4Mx4NBf2WeQCy" DefinedType="IfcPresentableText" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The text literal to be presented.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Placement" UniqueId="24mDzW7gPCb8ev7_N2unS2" DefinedType="IfcAxis2Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+An &lt;i&gt;IfcAxis2Placement&lt;/i&gt; that determines the placement and orientation of the presented string.
+&lt;blockquote&gt;&lt;small&gt;When used with a text style based on &lt;i&gt;IfcTextStyleWithBoxCharacteristics&lt;/i&gt; then the y-axis is taken as the reference direction for the box rotation angle and the box slant angle.
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Path" UniqueId="3a_s8aApbCMArhU_RwoWVw" DefinedType="IfcTextPath" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The writing direction of the text literal.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

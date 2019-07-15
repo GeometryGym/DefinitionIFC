@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_Risk" UniqueId="56e57cde-91a8-4596-a6d2-125fc7ca8b8c" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="RiskType_2tCAbjw999Kwh9HgTitlZB" />
+		<DocProperty xsi:nil="true" href="NatureOfRisk_2Eu8McZ1v0qOEG05dDB6fJ" />
+		<DocProperty xsi:nil="true" href="SubNatureOfRisk1_2McmUdnenFsO5Ytpqj9_g" />
+		<DocProperty xsi:nil="true" href="SubNatureOfRisk2_3T3mAbZhD4_9fLyy0qEoie" />
+		<DocProperty xsi:nil="true" href="RiskCause_3JSPycGiz2dwfHaoSdhfcn" />
+		<DocProperty xsi:nil="true" href="AssessmentOfRisk_1gcwUiQYrFKwtpCuhKE3eM" />
+		<DocProperty xsi:nil="true" href="RiskConsequence_3ffJdPbcn3LfCdKAnNnTP" />
+		<DocProperty xsi:nil="true" href="RiskRating_3Bp4QrK57RRJ9Cile_7WB" />
+		<DocProperty xsi:nil="true" href="RiskOwner_3GD7VD9e9BGh1oCbS3lHCp" />
+		<DocProperty xsi:nil="true" href="AffectsSurroundings_2Ic0hsF7D4ewLKtqFo_qTu" />
+		<DocProperty xsi:nil="true" href="PreventiveMeassures_2APJUza11C0Ay4um9WtzSX" />
+	</Properties>
+</DocPropertySet>
+

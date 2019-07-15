@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FireHydrantType_31Lm0_LYP6OBIv6zXpUM4l" Name="FireHydrantType" UniqueId="c157003e-5626-4660-b4b9-1bd87379612f" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FireHydrantType_0xd4g3i8bArwzr9Zw0r2H8" />
+	</Enumeration>
+</DocProperty>
+

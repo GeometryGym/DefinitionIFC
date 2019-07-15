@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRoofTypeEnum" UniqueId="08HSoVP9j5TQken2VazvgB" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FLAT_ROOF_0ZskfpGhTF4hnODTsMXXfT" />
+		<DocConstant xsi:nil="true" href="SHED_ROOF_0rlOdEhXByBAs9ULsXsI6" />
+		<DocConstant xsi:nil="true" href="GABLE_ROOF_2NKuw3NgXBTvN2N1Z0Bb90" />
+		<DocConstant xsi:nil="true" href="HIP_ROOF_3s2L4P7W9709_aKvcxhZ9B" />
+		<DocConstant xsi:nil="true" href="HIPPED_GABLE_ROOF_319mddijL1cfHsm0K72yxV" />
+		<DocConstant xsi:nil="true" href="GAMBREL_ROOF_1dRq1SO1jBg8aZ2ZGQKQJ_" />
+		<DocConstant xsi:nil="true" href="MANSARD_ROOF_3ViUvAiGzA6hB50DUEqrAq" />
+		<DocConstant xsi:nil="true" href="BARREL_ROOF_19AaupKfXAYgdWSVcEGhX" />
+		<DocConstant xsi:nil="true" href="RAINBOW_ROOF_0CjcQwsd19UuPlnzS6uG6y" />
+		<DocConstant xsi:nil="true" href="BUTTERFLY_ROOF_1TB7bgs2n3Jv4lGvfHml97" />
+		<DocConstant xsi:nil="true" href="PAVILION_ROOF_0nlUdx3r898j3uuLzOma1" />
+		<DocConstant xsi:nil="true" href="DOME_ROOF_0r9LC24P8jeJoETLfnRty" />
+		<DocConstant xsi:nil="true" href="FREEFORM_0q_vvuXbFRuURr_d6rduK" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1skeBHI9XFR3ZycljejJP" />
+	</Constants>
+</DocEnumeration>
+

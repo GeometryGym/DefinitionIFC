@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSpace_3ETEvg_215b8CLO5TcW5Ik" Name="IfcSpace" UniqueId="3ETEvg_215b8CLO5TcW5Ik" DiagramNumber="3" BaseDefinition="IfcSpatialStructureElement" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="InteriorOrExteriorSpace" UniqueId="0kE1eQibv0BPlrSPs93WA8" DefinedType="IfcInternalOrExternalEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines, whether the Space is interior (Internal), or exterior (External), i.e. part of the outer space.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ElevationWithFlooring" UniqueId="1$OVh4KTzBXBTigU16vs6P" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Level of flooring of this space; the average shall be taken, if the space ground surface is sloping or if there are level differences within this space.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HasCoverings" UniqueId="1ZYLUYiWb6Nwll6xl$4jqi" DefinedType="IfcRelCoversSpaces" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedSpace">
+			<Documentation>&lt;EPM-HTML&gt;
+Reference to &lt;i&gt;IfcCovering&lt;/i&gt; by virtue of the objectified relationship &lt;i&gt;IfcRelCoversSpaces&lt;/i&gt;. It defines the concept of a space having coverings assigned. Those coverings may represent different flooring, or tiling areas.
+&lt;blockquote&gt;&lt;small&gt;
+NOTE&amp;nbsp; Coverings are often managed by the space, and not by the building element, which they cover.&lt;br&gt;
+&lt;font color=&quot;#ff0000&quot;&gt;IFC2x Edition3 CHANGE&amp;nbsp; New inverse relationship. Upward compatibility for file based exchange is guaranteed.&lt;/font&gt;
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BoundedBy" UniqueId="2l0_VGu8nAH8_wGXNNyA07" DefinedType="IfcRelSpaceBoundary" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingSpace">
+			<Documentation>Reference to Set of Space Boundaries that defines the physical or virtual delimitation of that Space.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

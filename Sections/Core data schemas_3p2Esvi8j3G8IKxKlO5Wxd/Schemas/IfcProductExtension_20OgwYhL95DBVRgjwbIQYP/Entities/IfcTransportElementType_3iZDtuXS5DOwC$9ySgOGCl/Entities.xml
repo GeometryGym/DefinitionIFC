@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTransportElementType" UniqueId="3iZDtuXS5DOwC$9ySgOGCl" DiagramNumber="8" BaseDefinition="IfcElementType" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="0IIh26gsT9cPCUma6ayAbk" DefinedType="IfcTransportElementTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined types to define the particular type of the transport element. There may be property set definitions available for each predefined type.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

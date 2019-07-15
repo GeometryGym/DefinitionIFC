@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ThermalLoadAggregate" UniqueId="f7b001a3-7be3-40d9-833e-3a0972eb6706" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="TotalCoolingLoad_2sZumfZsHApuDtvPYkFTs4" />
+		<DocProperty xsi:nil="true" href="TotalHeatingLoad_2InHjSlwHFt83vNOrTImi" />
+		<DocProperty xsi:nil="true" href="LightingDiversity_3yR3aVXJrAVBLALJ2OnGcF" />
+		<DocProperty xsi:nil="true" href="InfiltrationDiversitySummer_0T5A9swb1d9QS0elwAawx" />
+		<DocProperty xsi:nil="true" href="InfiltrationDiversityWinter_2fkBDKQ1n6HuMV4LfxrOEu" />
+		<DocProperty xsi:nil="true" href="ApplianceDiversity_1LjtjbyyrDwgSTj8J5D1Df" />
+		<DocProperty xsi:nil="true" href="LoadSafetyFactor_3o4UfXFyL24xTlBuJhOVXG" />
+	</Properties>
+</DocPropertySet>
+

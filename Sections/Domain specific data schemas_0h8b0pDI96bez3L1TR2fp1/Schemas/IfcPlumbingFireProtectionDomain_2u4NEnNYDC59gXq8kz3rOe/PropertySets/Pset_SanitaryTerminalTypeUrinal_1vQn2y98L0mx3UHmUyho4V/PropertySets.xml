@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SanitaryTerminalTypeUrinal" UniqueId="796b10bc-2485-40c3-b0de-4707bcaf211f" ApplicableType="IfcSanitaryTerminal.Predefined=&quot;URINAL&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="UrinalType_3FPibyCo9Ag9c_YEYejSpU" />
+		<DocProperty xsi:nil="true" href="UrinalMaterial_07ezshnEDCsB7vqFOi2pE5" />
+		<DocProperty xsi:nil="true" href="UrinalColor_361B1FP7TA7ePk7IEu_VF" />
+		<DocProperty xsi:nil="true" href="SpilloverLevel_0b2VQ1u_zCMwAegKn0r41L" />
+		<DocProperty xsi:nil="true" href="NominalLength_0YmWRCqKPCJPkzoqSlCKD" />
+		<DocProperty xsi:nil="true" href="NominalWidth_31OpfGdz4ZAwzq3oSmeFR" />
+		<DocProperty xsi:nil="true" href="NominalDepth_3H_XRYiuvFxRWWpPp2ZxCi" />
+	</Properties>
+</DocPropertySet>
+

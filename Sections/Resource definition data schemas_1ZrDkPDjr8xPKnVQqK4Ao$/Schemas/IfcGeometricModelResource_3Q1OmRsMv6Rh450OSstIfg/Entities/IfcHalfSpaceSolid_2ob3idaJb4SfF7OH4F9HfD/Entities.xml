@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcHalfSpaceSolid" UniqueId="2ob3idaJb4SfF7OH4F9HfD" DiagramNumber="3" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="109">
+	<Subtypes>
+		<DocSubtype UniqueId="0DIuBfk7vEJwTDS_LfUxfE" DefinedType="IfcBoxedHalfSpace" />
+		<DocSubtype UniqueId="2vpMtWReXFeRa0LGnptWOA" DefinedType="IfcPolygonalBoundedHalfSpace" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="BaseSurface" UniqueId="0gmy0cGOjEF8MXHWFSK2_L" DefinedType="IfcSurface" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Surface defining side of half space.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="AgreementFlag" UniqueId="3WwdS$e451ogttlNEuNtPb" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The agreement flag is TRUE if the normal to the BaseSurface points away from the material of the IfcHalfSpaceSolid. Otherwise it is FALSE.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="1IOQGzf9LDJAMAqwYdkuWJ" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, it is always 3</Documentation>
+			<Derived>3</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

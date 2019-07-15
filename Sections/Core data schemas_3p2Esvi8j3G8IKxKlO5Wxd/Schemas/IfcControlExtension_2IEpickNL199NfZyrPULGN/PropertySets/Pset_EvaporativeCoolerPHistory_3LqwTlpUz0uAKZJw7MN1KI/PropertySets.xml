@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_EvaporativeCoolerPHistory" UniqueId="d5d3a76f-cdef-40e0-a523-4fa1d65c1512" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="WaterSumpTemperature_3bRDnajbv0s8tqbZI6USb" />
+		<DocProperty xsi:nil="true" href="Effectiveness_2LTmaTvRPAyeGK_UBnLmAX" />
+		<DocProperty xsi:nil="true" href="SensibleHeatTransferRate_22jCbIO_v7LALwW4_9rsCO" />
+		<DocProperty xsi:nil="true" href="LatentHeatTransferRate_2eCjSLyGDDfQPEHNfmXJw_" />
+		<DocProperty xsi:nil="true" href="TotalHeatTransferRate_1F14r_v1BxfONebwtoZwu" />
+		<DocProperty xsi:nil="true" href="EffectivenessTable_3cAJyGFmDED9tvvfIUzjY7" />
+		<DocProperty xsi:nil="true" href="AirPressureDropCurve_2jCbYr7Qf9NRSyvKTeAcvT" />
+		<DocProperty xsi:nil="true" href="WaterPressDropCurve_2VD8z4OhbAohUFYFli67De" />
+	</Properties>
+</DocPropertySet>
+

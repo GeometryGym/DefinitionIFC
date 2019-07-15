@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="TemperatureClassification_0Lnn0kiDjCTQ_OxyZkC6nL" Name="TemperatureClassification" UniqueId="15c7102e-b0db-4c75-af98-efc8ee306c55" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SpaceHeaterTemperatureClassification_0lTsc06GX8shvuzwsOWG" />
+	</Enumeration>
+</DocProperty>
+

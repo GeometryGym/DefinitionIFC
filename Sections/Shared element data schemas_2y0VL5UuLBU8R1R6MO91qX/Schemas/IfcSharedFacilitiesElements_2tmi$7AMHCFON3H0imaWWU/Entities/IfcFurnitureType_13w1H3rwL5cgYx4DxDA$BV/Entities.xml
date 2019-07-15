@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFurnitureType" UniqueId="13w1H3rwL5cgYx4DxDA$BV" DiagramNumber="1" BaseDefinition="IfcFurnishingElementType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="AssemblyPlace" UniqueId="3GhXwlnc1CV9qkc37ZkIQ0" DefinedType="IfcAssemblyPlaceEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A designation of where the assembly is intended to take place defined by an Enum.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

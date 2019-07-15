@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_GullyType_0uwOjgcvT67gE7ESTVfzMm" Name="PEnum_GullyType" UniqueId="38e98b6a-9b97-461e-a387-39c75fa7d5b0">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Vertical_2otbxyWzfCr8cu7xyz4o8O" />
+		<DocPropertyConstant xsi:nil="true" href="BackInlet_2vybSAxarEZfS9S7rvGmml" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

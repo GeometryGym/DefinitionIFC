@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLShapeProfileDef" UniqueId="2_pA5MIEz7fRCTJbR1HoHe" DiagramNumber="3" BaseDefinition="IfcParameterizedProfileDef" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="Depth" UniqueId="2rfdrVFw5BewpjwmlNDQaN" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Leg length, see illustration above (= h).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Width" UniqueId="19tKNbaoX8KPwJl$S_70Wu" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Leg length, see illustration above (= b). If not given, the value of the Depth attribute is applied to Width.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Thickness" UniqueId="3ogBcmn3T8agakdo1D_Ypa" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Constant wall thickness of profile, see illustration above (= ts).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FilletRadius" UniqueId="2Rbab6ByfDe9zARqs9Vcrv" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Fillet radius according the above illustration (= r1). If it is not given, zero is assumed.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="EdgeRadius" UniqueId="3QZF6KCCT71BmPU_Eha3vE" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Edge radius according the above illustration (= r2). If it is not given, zero is assumed.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LegSlope" UniqueId="36LXUDuKb7aBeLN4wP_4tr" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Slope of leg of the profile. If it is not given, zero is assumed.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CentreOfGravityInX" UniqueId="29KmgjPPvFfAX0y_FIes1f" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt; Location of centre of gravity along the x axis measured from the center of the bounding box. 
+  &lt;blockquote&gt; &lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;
+IFC2x Edition 2 Addendum 2 CHANGE The attribute &lt;i&gt;CentreOfGravityInX&lt;/i&gt; has been made optional. Upward compatibility for file based exchange is guaranteed.
+  &lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CentreOfGravityInY" UniqueId="2l_yKI9anFjRPG8fnM76z$" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt; Location of centre of gravity along the Y axis measured from the center of the bounding box. 
+  &lt;blockquote&gt; &lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;
+IFC2x Edition 2 Addendum 2 CHANGE The attribute &lt;i&gt;CentreOfGravityInY&lt;/i&gt; has been made optional. Upward compatibility for file based exchange is guaranteed.
+  &lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="3k4uEVxXH7JvchnhK$xGkn">
+			<Documentation>The thickness of the flange has to be smaller than the depth of the profile.</Documentation>
+			<Expression>Thickness &lt; Depth</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR22" UniqueId="0rWhnEd5z06xxRg_t$k8gk">
+			<Documentation>The thickness of the flange has to be smaller than the width of the profile (if given).</Documentation>
+			<Expression>NOT(EXISTS(Width)) OR (Thickness &lt; Width)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

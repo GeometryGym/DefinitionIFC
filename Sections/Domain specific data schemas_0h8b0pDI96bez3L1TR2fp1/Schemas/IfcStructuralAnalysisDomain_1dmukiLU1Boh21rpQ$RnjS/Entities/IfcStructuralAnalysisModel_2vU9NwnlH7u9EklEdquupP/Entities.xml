@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralAnalysisModel" UniqueId="2vU9NwnlH7u9EklEdquupP" DiagramNumber="5" BaseDefinition="IfcSystem" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="3zLAFOQH5AwB0paLZVkP61" DefinedType="IfcAnalysisModelTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines the type of the structural analysis model.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OrientationOf2DPlane" UniqueId="3bgskbXLX5HxYQxIlBhU$H" DefinedType="IfcAxis2Placement3D" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>If the selected model type (PredefinedType) describes a 2D system the orientation is needed to define the upright direction to the focused plane (z-axes). This is needed because all data for the structural analysis model (structural members, structural activities) are defined by using 3-D space. The orientation is given in relation to the coordinate system of the project. By 3D systems this value is not asserted.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LoadedBy" UniqueId="2DWf7kadX6LxeOELBYMkkV" DefinedType="IfcStructuralLoadGroup" AttributeFlags="1" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>References to all load groups to be analyzed.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HasResults" UniqueId="0asmlHBZnB6xn8R8Fhnkvw" DefinedType="IfcStructuralResultGroup" AttributeFlags="1" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>References to all result groups available for this structural analysis model.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

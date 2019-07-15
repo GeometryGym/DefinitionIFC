@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcActor" UniqueId="3$AU6Raef7VwmXhxmG71n0" DiagramNumber="7" BaseDefinition="IfcObject" EntityFlags="173">
+	<Attributes>
+		<DocAttribute Name="TheActor" UniqueId="2up80gC490gwOm5B24_P5t" DefinedType="IfcActorSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Information about the actor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsActingUpon" UniqueId="3U$DUMkWf4iPKPwFJ2z4wl" DefinedType="IfcRelAssignsToActor" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingActor">
+			<Documentation>Reference to the relationship that associates the actor to an object.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

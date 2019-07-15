@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ValvePattern_17KcWLoAL8GvejfQFhj7YB" Name="PEnum_ValvePattern" UniqueId="47526815-c8a5-4843-9a2d-a5a3ebb4788b">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SINGLEPORT_0biAICOj10AfHnxLbORdY" />
+		<DocPropertyConstant xsi:nil="true" href="ANGLED_2_PORT_0lUuqyHmv0sAEGoS32QUQy" />
+		<DocPropertyConstant xsi:nil="true" href="STRAIGHT_2_PORT_0ay1SeeSj3gB2Z70qX6V8i" />
+		<DocPropertyConstant xsi:nil="true" href="STRAIGHT_3_PORT_1XWl3XXNL9gQ4JTtiVBbbX" />
+		<DocPropertyConstant xsi:nil="true" href="CROSSOVER_4_PORT_0ayr3Csar4QxjwJeUNoRVD" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

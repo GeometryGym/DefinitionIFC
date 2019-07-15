@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralCurveMember" UniqueId="17ECIXP5z40u8r9xIOwMk0" DiagramNumber="3" BaseDefinition="IfcStructuralMember" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="3zQMtZUmXBP9l5CU3MnheY" DefinedType="IfcStructuralCurveMemberVarying" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="250nj6NRj2g9N00HJwbbaI" DefinedType="IfcStructuralCurveTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines the load carrying behavior of the member, as far as it is taken into account in the analysis.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

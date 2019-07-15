@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PropertyAgreement" UniqueId="89faba07-bd6a-42fe-b657-0a39d1de53e3" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AgreementType_1adt7cmz7jxYoO0CTTyMp" />
+		<DocProperty xsi:nil="true" href="Identifier_03o21rc013CxVxL42J1UfW" />
+		<DocProperty xsi:nil="true" href="Version_1Ig1nHg111oxMFD4r_Rzr5" />
+		<DocProperty xsi:nil="true" href="VersionDate_0yw2WwRlrBGRi7ufyiV9v4" />
+		<DocProperty xsi:nil="true" href="PropertyName_3U9VxshBzEhe3AUyc50mlO" />
+		<DocProperty xsi:nil="true" href="CommencementDate_0kVDoQ_dX9GfD9_AOvCKYQ" />
+		<DocProperty xsi:nil="true" href="TerminationDate_2KKfvZGMT5shE6ohlnHPH9" />
+		<DocProperty xsi:nil="true" href="Duration_0UUosiESX4ovOG0eI4J9_f" />
+		<DocProperty xsi:nil="true" href="Options_29lpEBe_j3nwIigqmbE554" />
+		<DocProperty xsi:nil="true" href="ConditionCommencement_1P3ngxnI50jR2C2uo8Zutm" />
+		<DocProperty xsi:nil="true" href="Restrictions_1NW6p2ehX4SQO7rfgkhp5Z" />
+		<DocProperty xsi:nil="true" href="ConditionTermination_2NMLlKMKjFgxFoGPXyt6Sp" />
+	</Properties>
+</DocPropertySet>
+

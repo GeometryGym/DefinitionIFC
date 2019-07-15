@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FlowInstrumentTypePressureGauge" UniqueId="ff05cd3f-8b9f-405e-bb13-ca4448f9a232" ApplicableType="IfcFlowInstrument.Predefined=&quot;PRESSUREGAUGE&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="PressureGaugeType_2Oz2k7281FAg5umB_dD_mg" />
+		<DocProperty xsi:nil="true" href="DisplaySize_2PhYrDdf14IAF6upVFMM0D" />
+	</Properties>
+</DocPropertySet>
+

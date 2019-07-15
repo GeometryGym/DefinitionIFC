@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPermeableCoveringOperationEnum" UniqueId="1rrdrfDe95Tg5QECSNCnoi" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="GRILL_3zslgO0f1Dn85fnHAT9tdb" />
+		<DocConstant xsi:nil="true" href="LOUVER_0F4clwM697VulmfFKiMsGx" />
+		<DocConstant xsi:nil="true" href="SCREEN_1vTdAT7Pz9mxyJf5AMknJp" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0zqQoC_r14a805wN0yPrzD" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0ajwcvCX93dgoh499OJrzB" />
+	</Constants>
+</DocEnumeration>
+

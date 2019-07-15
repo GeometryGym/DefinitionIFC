@@ -1,0 +1,77 @@
+<EPM-HTML> 
+<p><u>Definition from IAI</u>: An <i>IfcControllerType</i>
+defines a particular type of controller that interacts with other
+devices in a control system such as a building automation control
+system.</p>
+<blockquote>
+  <p><font color="#0000ff" size="-1">
+HISTORY: New entity in IFC 2x2</font></p>
+</blockquote>
+<p><u><b>Use Definitions</b></u></p>
+<p>An <i>IfcControllerType</i> provides for all
+forms of controller.</p>
+<p>Usage of <i>IfcControllerType</i> defines the
+parameters for one or more occurrences of <i>IfcDistributionControlElement</i>.
+Parameters are specified through property sets that may be enumerated
+in the <i>IfcControllerTypeEnum</i> data type.</p>
+<p>An <i>IfcController</i> typically has a
+relationship with an <i>IfcSensor</i> and/or an <i>IfcActuator</i>.
+These relationships can be handled either through aggregation (e.g., a
+unitized controller/actuator assembly) using <i>IfcRelAggregates</i>
+or simply as an arbitrary grouping of related devices using the <i>IfcRelAssignsToGroup</i>
+relationship.</p>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to the <i>IfcControllerType</i>
+defined by the <i>IfcPropertySet</i> and attached by the <i>IfcRelDefinesByType</i>
+relationship. It is accessible by the inverse <i>IsDefinedBy</i>
+relationship. The following property set definitions specific to an <i>IfcControllerType</i>
+are part of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcBuildingControlsDomain/Pset_ControllerTypeCommon.xml">Pset_ControllerTypeCommon</a>:
+property set for the properties common to all types of controller, if
+available </li>
+  <li><a
+ href="../../psd/IfcBuildingControlsDomain/Pset_ControllerTypeProportional.xml">Pset_ControllerTypeProportional</a>:
+specific property set for the properties of a proportional controller,
+if available </li>
+  <li><a
+ href="../../psd/IfcBuildingControlsDomain/Pset_ControllerTypeTwoPosition.xml">Pset_ControllerTypeTwoPosition</a>:
+specific property set for the properties of a two position controller,
+if available</li>
+</ul>
+<p>In addition to the above, the following predefined property
+sets may be used for specification of input/output signal type for
+controllers:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcBuildingControlsDomain/Pset_AnalogInput.xml">Pset_AnalogInput</a>:
+specific property set for the properties of an analog input, if
+available </li>
+  <li><a
+ href="../../psd/IfcBuildingControlsDomain/Pset_AnalogOutput.xml">Pset_AnalogOutput</a>:
+specific property set for the properties of an analog output, if
+available</li>
+  <li><a
+ href="../../psd/IfcBuildingControlsDomain/Pset_BinaryInput.xml">
+Pset_BinaryInput</a>: specific property set for the properties of
+a binary input, if available </li>
+  <li><a
+ href="../../psd/IfcBuildingControlsDomain/Pset_BinaryOutput.xml">Pset_BinaryOutput</a>:
+specific property set for the properties of a binary output, if
+available</li>
+  <li><a
+ href="../../psd/IfcBuildingControlsDomain/Pset_MultiStateInput.xml">Pset_MultiStateInput</a>:
+specific property set for the properties of a multi-state input, if
+available </li>
+  <li><a
+ href="../../psd/IfcBuildingControlsDomain/Pset_MultiStateOutput.xml">
+Pset_MultiStateOutput</a>: specific property set for the
+properties of a multi-state output, if available</li>
+</ul>
+<p><u><b>Geometry Use Definitions</b></u></p>
+<p>Representations of the type are defined as representation maps
+(at the level of the supertype <i>IfcTypeProduct</i>).
+These are assigned at the occurrence through the <i>IfcShapeRepresentation.Item</i>
+being an <i>IfcMappedItem</i>.</p>
+</EPM-HTML>

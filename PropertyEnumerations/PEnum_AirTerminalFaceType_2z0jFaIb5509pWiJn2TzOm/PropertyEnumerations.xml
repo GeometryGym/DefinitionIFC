@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AirTerminalFaceType_2z0jFaIb5509pWiJn2TzOm" Name="PEnum_AirTerminalFaceType" UniqueId="bd02d3e4-4a51-4500-9ce0-b13c4277d630">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FOURWAYPATTERN_1PjbsvMzL35wain_sQjujF" />
+		<DocPropertyConstant xsi:nil="true" href="SINGLEDEFLECTION_3TkiIKyQj17f4TRHNFjft0" />
+		<DocPropertyConstant xsi:nil="true" href="DOUBLEDEFLECTION_36IYllFgj7auQvkrafEkt5" />
+		<DocPropertyConstant xsi:nil="true" href="SIGHTPROOF_28fMZ3B5L8cwyHsYAnRgHe" />
+		<DocPropertyConstant xsi:nil="true" href="EGGCRATE_0VzSDdaZ58DOdbXsRnd9TC" />
+		<DocPropertyConstant xsi:nil="true" href="PERFORATED_2gGi5RBtHDt9AjJtJJbeU1" />
+		<DocPropertyConstant xsi:nil="true" href="LOUVERED_0Fjra2Fo13g8wBkdM2TuM2" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_TankPatternType_3vqulQPvEPQebSucCqhBD" Name="PEnum_TankPatternType" UniqueId="ffe74e2f-699e-4e65-aa25-73898cd2b2cd">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="HORIZONTALCYLINDER_1ZpEGHux12hfgKNpLfyTfa" />
+		<DocPropertyConstant xsi:nil="true" href="VERTICALCYLINDER_0LezNldrL80OiZ2SFplAW" />
+		<DocPropertyConstant xsi:nil="true" href="RECTANGULAR_2r0TrTCXbEAO0eg2HO0_CP" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

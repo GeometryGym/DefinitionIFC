@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_TransportElementElevator" UniqueId="298ca201-0158-4ee9-a18c-e34c9521fc24" ApplicableType="IfcTransportElement.Operation=&quot;ELEVATOR&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ClearWidth_0z11rhob0PvqvJtZHlan8" />
+		<DocProperty xsi:nil="true" href="ClearDepth_0LlKYcKVrDF8W3CiwQK5hP" />
+		<DocProperty xsi:nil="true" href="ClearHeight_0tJJgz1iT1kgMzWFzHiD4C" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,23 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI:</U> An <I>IfcProcedure</I> is an identifiable
+		step to be taken within a process that is considered to occur over zero or a
+		non-measurable period of time.</P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY:New entity in IFC
+		2x2</FONT></BLOCKQUOTE> 
+	 <P><U>Use Definitions</U></P> 
+	 <P>An instance of <I>IfcProcedure</I> may nest other instances of
+		<I>IfcProcedure</I> using <I>IfcRelNests</I>. Instances of <I>IfcProcedure</I>,
+		since they are subtypes of <I>IfcProcess</I>, may also participate in sequence
+		relationships using <I>IfcRelSequences</I>. </P> 
+	 <P><I>IfcProcedure</I> is used to capture information about stepped
+		processes such as calibration, start/stop procedures for equipment items
+		etc.</P> 
+	 <P>Note that a particular type of <I>IfcProcedure</I> is a caution, warning
+		or other form of advisory note. Typically, it is anticipated that such a
+		procedure would be assigned to the specific <I>IfcProcess</I> for which it gives
+		advice using <I>IfcRelAssignsToProcess</I>.</P> 
+	 <P>Note that both nesting and sequencing can be supported concurrently. For
+		example, B, C and D may be procedures nested in procedure A. Sequence
+		relationships can also be established such that B precedes C and C precedes
+		D.</P> 
+</EPM-HTML>

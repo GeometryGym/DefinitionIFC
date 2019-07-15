@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ThermometerType_3IOXJ6btb758i_6EusQ7_p" Name="ThermometerType" UniqueId="d26214c6-9779-4714-8b3e-18ee36687fb3" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ThermometerType_1EVO1qUc12buUbv87_LkfP" />
+	</Enumeration>
+</DocProperty>
+

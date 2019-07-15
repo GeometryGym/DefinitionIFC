@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_WashHandBasinType_3r3HNRLYTALeUW3B2oQZ9" Name="PEnum_WashHandBasinType" UniqueId="f50d15db-5627-4a56-87a0-0cb0b26a327f">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DentalCuspidor_3q_gxUCX9DqBludAjd5UNb" />
+		<DocPropertyConstant xsi:nil="true" href="HandRinse_0LuauBPQb4QwTADTssaIMc" />
+		<DocPropertyConstant xsi:nil="true" href="Hospital_3vC2fZLEv0QR9ciHmF73W7" />
+		<DocPropertyConstant xsi:nil="true" href="Tipup_3reSuCS2fBovR1HDj1YPp5" />
+		<DocPropertyConstant xsi:nil="true" href="Washfountain_3wAj02uun6kAdgk9IxZbo3" />
+		<DocPropertyConstant xsi:nil="true" href="WashingTrough_2JxVPKuYnEkeek6j8g27Ll" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,23 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI: </U>An <I>IfcCondition</I> determines the state
+		or condition of an element at a particular point in time</P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New class in IFC
+		2x2</FONT></BLOCKQUOTE> 
+	 <H3>Use Definitions</H3> 
+	 <P><I>IfcCondition</I> is a particular subtype of <I>IfcGroup</I> that can
+		contain only instances of <I>IfcConditionCriterion</I>. The objectified
+		relationship class <I>IfcRelAssignsToGroup</I> is used to assign the related
+		instances of <I>IfcConditionCriterion</I> to the relating instance of
+		<I>IfcCondition</I>. </P> 
+	 <P>An <I>IfcCondition</I> is determined either from an observed or a
+		measured state (see <I>IfcConditionCriterion</I>). The condition is determined
+		at a particular point in time, the time being determined through the
+		<I>IfcRelAssociatesDateTime</I> class with an appropriate designation for the
+		value of the DateTimeType e.g. AssessmentDate. Note that other dates may be
+		assigned to <I>IfcCondition</I> for relevant purposes e.g. to recommend the
+		date for the next condition assessment.</P> 
+	 <P><I>IfcRelAssignsToProduct</I> is used to relate one or more instances of
+		<I>IfcCondition</I> to an artifact that is an instance of a subtype of
+		<I>IfcProduct</I>. For an instance of <I>IfcAsset</I>, condition is related
+		through the use of <I>IfcRelAssignsToGroup</I>.</P> 
+</EPM-HTML>

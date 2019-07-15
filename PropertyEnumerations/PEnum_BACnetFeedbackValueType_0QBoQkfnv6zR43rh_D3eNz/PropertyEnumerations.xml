@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_BACnetFeedbackValueType_0QBoQkfnv6zR43rh_D3eNz" Name="PEnum_BACnetFeedbackValueType" UniqueId="1a2f26ae-a71e-46f5-b103-d6bf8d0e85fd">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Active_072Rk1Cb9FZQ34jp1XfHu9" />
+		<DocPropertyConstant xsi:nil="true" href="Inactive_3oTyxq1Tv8nu1SMPi9aUUn" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

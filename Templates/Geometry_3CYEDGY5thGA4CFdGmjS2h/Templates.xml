@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Geometry_3CYEDGY5thGA4CFdGmjS2h" Name="Geometry" UniqueId="3CYEDGY5thGA4CFdGmjS2h" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+	<Templates>
+		<DocTemplateDefinition Name="Geometry Box" UniqueId="1hmM7CG7CTHfvRyQtftZT0" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+			<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element&lt;/em&gt; provided as a bounding box.&lt;/p&gt;
+&lt;p&gt;
+	This &lt;strong&gt;concept template&lt;/strong&gt; does not stipulate any requirements on how the bounding box shall be constructed.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Geometry Axis" UniqueId="05l701FzUvHBJOkbdKPCjP" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+			<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element &lt;/em&gt;provided as an axis. The axis is used as a reference axis for applying material layer set information. The shape representation shall be provided by a curve.&lt;/p&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the geometry type and cardinality of the curve.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Geometry FootPrint" UniqueId="3F$$dcKGNRIRakjzpiSwiT" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+			<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element &lt;/em&gt;provided as a footprint. The footprint is used as an representation of the region in ground floor, that represents the two-dimensional shape of the &lt;em&gt;element&lt;/em&gt;. The shape representation shall be provided by an closed curve, or a set of closed curves.&lt;/p&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the geometry type and cardinality of the closed curves.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Geometry SurveyPoints" UniqueId="2vQoP4_KprHAYfogJU9RP7" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+			<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element &lt;/em&gt;provided as a set of survey points (or point cloud). The survey point representation is used as an representation of the the &lt;em&gt;element&lt;/em&gt; by a series of points at its surface, some points may be connected by polylines,&amp;nbsp; The shape representation shall be provided by a geometric curve set.&lt;/p&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the geometry types of the geometric items included in the geometric curve set.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Geometry Profile" UniqueId="0NL94adSfAJeLTau$AUkY5" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+			<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element &lt;/em&gt;provided as a profile. The profile is used as an representation of the outer curve in elevation, that represents the two-dimensional outline of the &lt;em&gt;element&lt;/em&gt;. The shape representation shall be provided by an closed curve.&lt;/p&gt;
+&lt;p style=&quot;margin-left: 40px;&quot;&gt;
+	NOTE The main purpose of the &amp;#39;Profile&amp;#39; shape representation is to represent the outline of a window or door to which its parametric shape definitions is applied to.&lt;/p&gt;
+&lt;p&gt;
+	A &amp;#39;Profile&amp;#39; shape representation is identified by the following attribute that must be present:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;em&gt;IfcShapeRepresentation.&lt;/em&gt;&lt;i&gt;RepresentationIdentifier&lt;/i&gt; : &amp;#39;Profile&amp;#39;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the geometry type and cardinality of the closed curves.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Geometry Body" UniqueId="2OKzvTrKDQJuWXRVs_diTZ" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+			<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element &lt;/em&gt;provided as an 3D body geometry. The body geometry is used as an representation of the three-dimensional shape of the &lt;em&gt;element&lt;/em&gt;. The body geometry can be represented by:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		a swept solid&lt;/li&gt;
+	&lt;li&gt;
+		a (multiple) clipping of a swept solid&lt;/li&gt;
+	&lt;li&gt;
+		an explicit shape, either as a boundary representation, or a surface model&lt;/li&gt;
+	&lt;li&gt;
+		a mapped representation of any of the above&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the applicable geometry types for body geometry.&lt;/p&gt;</Documentation>
+			<Templates>
+				<DocTemplateDefinition Name="Geometry SweptSolid" UniqueId="2PfpxEDRqUJwLq0g_2v5YF" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+					<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element&lt;/em&gt; provided as swept solid, with parameterized and arbitrary profiles, and a sweeping operation that can be an extrusion, or a rotation. The following entities are allowed as Items:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		IfcExtrudedAreaSolid&lt;/li&gt;
+	&lt;li&gt;
+		IfcRevolvedAreaSolid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the geometry type of the swept solid and to the profile types permissible as the cross section to be swept.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+				<DocTemplateDefinition Name="Geometry Clipping" UniqueId="00dHLDTZbzJwJDLpLnh34B" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+					<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element &lt;/em&gt;provided as clipping based on a solid and one or more clipping planes. The solid shall not be of type &lt;em&gt;IfcFacetedBrep &lt;/em&gt;or &lt;em&gt;IfcFacetedBrepWithVoids&lt;/em&gt;. The following entities are allowed as Items:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;em&gt;IfcBooleanClippingResult&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	The default requirement stipulated by this &lt;strong&gt;concept template&lt;/strong&gt; is that the applicable solids for the clipping operation are governed by the concept &amp;quot;SweptSolid&amp;quot; that applies to the &lt;em&gt;element&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the geometry type of the solid to be clipped and of the type of half space used to apply the clipping if it differs from the default.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+				<DocTemplateDefinition Name="Geometry CSG" UniqueId="35WiBejya0JepaxLG7roBg" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+					<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element&lt;/em&gt; provided as a CSG solid, including union, intersection and difference operations. The following entities are allowed as Items:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;em&gt;IfcBooleanResult&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the geometry type of CSG swept solid particularly about the use of unlimited half space solids as operands within a Boolean operation.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+				<DocTemplateDefinition Name="Geometry AdvancedSweptSolid" UniqueId="2pmIeGVizjHPEav5CPjEN1" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+					<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element&lt;/em&gt; provided as an advanced swept solid, with parameterized and arbitrary profiles (if applicable), and a sweeping operation being a sweep along a path 8the directrix). The following entities are allowed as Items:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;em&gt;IfcSurfaceCurveSweptAreaSolid&lt;/em&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;em&gt;IfcSweptDiskSolid&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the geometry type of the swept solid and to the profile types permissible as the cross section to be swept.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+				<DocTemplateDefinition Name="Geometry Explicit" UniqueId="1apXFTsjpiI9U4WKAib4sJ" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+					<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element &lt;/em&gt;provided as a Brep representation (with or without voids), as a shell based surface model, or as a face based surface model. The following entities are allowed as Items:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;em&gt;IfcShellBasedSurfaceModel&lt;/em&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;em&gt;IfcFaceBasedSurfaceModel &lt;/em&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;em&gt;IfcFacetedBrep &lt;/em&gt;&lt;/li&gt;
+	&lt;li&gt;
+		&lt;em&gt;IfcFacetedBrepWithVoids&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the geometry type if applicable.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+				<DocTemplateDefinition Name="Geometry Mapped" UniqueId="26U9t98uANJvOBuW37DiLK" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcShapeRepresentation">
+					<Documentation>&lt;p&gt;
+	Shape representation of the &lt;em&gt;element&lt;/em&gt; provided as a reference to a common geometry (the representation map, ako &amp;quot;block geometry&amp;quot;), and being inserted through a transformation matrix. The following entities are allowed as Items:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		IfcMappedItem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+	The representation map can be any shape representation type that is applicable to the &lt;em&gt;element&lt;/em&gt;. The mapped item is transformed by a Cartesian transformation operator.&lt;/p&gt;
+&lt;p&gt;
+	A &lt;strong&gt;model view definitio&lt;/strong&gt;n shall clearly define any further restriction to the shape representation type of the representation map and any constraint to the Cartesian transformation operator if it differs from the default.&lt;/p&gt;</Documentation>
+				</DocTemplateDefinition>
+			</Templates>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Geometry By Components" UniqueId="0qrcA13a7ZGunX0CeTwmSz" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAggregates">
+			<Documentation>&lt;p&gt;
+	If the &lt;em&gt;element &lt;/em&gt;has an &lt;em&gt;IfcRelAggregates &lt;/em&gt;relationship, that assigns parts as components to the &lt;em&gt;element&lt;/em&gt;, then the &lt;em&gt;element &lt;/em&gt;shall not have an own &amp;#39;Body&amp;#39; representation. The parts however are required to provide a &amp;#39;Body&amp;#39; representation.&lt;/p&gt;
+&lt;p&gt;
+	The 3D body shape representation of the &lt;em&gt;element &lt;/em&gt;is then the composition of the &amp;#39;Body&amp;#39; shape representations of its parts.&lt;/p&gt;
+&lt;p&gt;
+	This concept requires the root concept (the building element) to provide the concept &amp;quot;Element Decomposition&amp;quot;.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+	</Templates>
+</DocTemplateDefinition>
+

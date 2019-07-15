@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRectangleProfileDef" UniqueId="1d5N1kBY9Azh3HddYF8bQg" DiagramNumber="2" BaseDefinition="IfcParameterizedProfileDef" EntityFlags="109">
+	<Subtypes>
+		<DocSubtype UniqueId="0Tzm_1Q0nDSQdN0RSjOQAr" DefinedType="IfcRectangleHollowProfileDef" />
+		<DocSubtype UniqueId="0fLKmQjhb3JghCQGjSr3VB" DefinedType="IfcRoundedRectangleProfileDef" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="XDim" UniqueId="2iWFgyUkPF1PZ01vx5WjyI" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The extent of the rectangle in the direction of the x-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="YDim" UniqueId="1rMaeQwbT4yQhkj$AlXWv8" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The extent of the rectangle in the direction of the y-axis.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

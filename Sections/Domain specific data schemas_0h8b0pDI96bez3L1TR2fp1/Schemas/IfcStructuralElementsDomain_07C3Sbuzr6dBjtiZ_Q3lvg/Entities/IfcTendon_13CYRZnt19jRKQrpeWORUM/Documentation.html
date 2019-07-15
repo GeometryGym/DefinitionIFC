@@ -1,0 +1,30 @@
+<EPM-HTML>
+	 <P> <U>Definition from IAI:</U> A steel element such as a wire, cable, bar,
+		rod, or strand used to impart prestress to concrete when the element is
+		tensioned. </P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF" SIZE="-1"> HISTORY New entity in IFC
+		Release 2x2 </FONT></BLOCKQUOTE> 
+	 <P><B>Geometry Use Definitions:</B></P> 
+	 <P> The geometric representation of <I>IfcTendon</I> is given by the
+		<I>IfcProductDefinitionShape</I>, allowing multiple geometric representations.
+		Included are: </P> 
+	 <P><U>Local Placement</U><BR> The use of local placement is defined at the
+		supertype <I>IfcBuildingElementComponent</I>. </P> 
+	 <P><U>Standard Geometric Representation using Swept Solid
+		Representation</U><BR> The standard geometric representation of
+		<I>IfcTendon</I> is defined using the swept solid representation. The
+		<I>RepresentationType</I> attribute of <I>IfcShapeRepresentation</I> should
+		have the value 'SweptSolid'. The solid is formed from a cross section
+		approximated as a circular disk swept along any arbitrary curve. Given this,
+		the following constraints apply to the standard representation: </P> 
+	 <UL> 
+		<LI><U>Solid:</U> <I>IfcSweptDiskSolid</I> introduced in IFC Release 2x2
+		  shall be supported. </LI> 
+		<LI><U>Profile:</U> The circular disk cross section approximation is
+		  defined by the <I>Radius</I> attribute of <I>IfcSweptDiskSolid</I>. </LI> 
+		<LI><U>Extrusion:</U> The extrusion along any arbitrary curve is defined
+		  by the <I>Directrix</I> attribute of <I>IfcSweptDiskSolid</I>. </LI> 
+	 </UL> 
+	 <P><U>Simplified Geometric Representation</U><BR> Simplified geometric
+		representations may be used based on local agreements. </P>
+</EPM-HTML>

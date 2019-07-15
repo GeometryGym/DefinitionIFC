@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricTimeControlTypeEnum" UniqueId="0hjkZ2L_9EePzSNQduRc0U" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="TIMECLOCK_3WcOJDUUf2AATmTCW4_E4" />
+		<DocConstant xsi:nil="true" href="TIMEDELAY_1PW9g_FBP2FBmN0zJ4zNnr" />
+		<DocConstant xsi:nil="true" href="RELAY_3o7KJA1ZPEAgifw1nuSwbT" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1czJNG7qrBS8eMASrItps4" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0hdEXeze911wf85uygw9hB" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTopologyRepresentation" UniqueId="24OcYqRTfBBR_BSLZ8AWaO" DiagramNumber="2" BaseDefinition="IfcShapeModel" EntityFlags="101">
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="1KBmKAHqf4lOQ6ETZSTCP$">
+			<Documentation>Only topological representation items should be used.</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* SELF\IfcRepresentation.Items | 
+  NOT(&apos;IFCTOPOLOGYRESOURCE.IFCTOPOLOGICALREPRESENTATIONITEM&apos; IN TYPEOF(temp))
+)) = 0
+
+</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR22" UniqueId="1QRqBUdVPAtfPl1AJX6eEq">
+			<Documentation>A representation type should be given to the topology representation.</Documentation>
+			<Expression>EXISTS(SELF\IfcRepresentation.RepresentationType)</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR23" UniqueId="05Wdn6Rjz6$wxfyzFVjYgr">
+			<Documentation>Checks the proper use of Items according to the RepresentationType.</Documentation>
+			<Expression>IfcTopologyRepresentationTypes(SELF\IfcRepresentation.RepresentationType, SELF\IfcRepresentation.Items)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

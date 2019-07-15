@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElementarySurface" UniqueId="04SDNVc6r6BPI$7hsuxIJA" DiagramNumber="7" BaseDefinition="IfcSurface" EntityFlags="69">
+	<Subtypes>
+		<DocSubtype UniqueId="0IpifuJbX2JA6YZBNNKguM" DefinedType="IfcPlane" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Position" UniqueId="3y5jcs_ef47RhT$8XCCI8W" DefinedType="IfcAxis2Placement3D" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The position and orientation of the surface. This attribute is used in the definition of the parameterization of the surface.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="1HowbxtqfBzv49$jtTJOv6" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, derived from the dimensionality of the Position.</Documentation>
+			<Derived>Position.Dim</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

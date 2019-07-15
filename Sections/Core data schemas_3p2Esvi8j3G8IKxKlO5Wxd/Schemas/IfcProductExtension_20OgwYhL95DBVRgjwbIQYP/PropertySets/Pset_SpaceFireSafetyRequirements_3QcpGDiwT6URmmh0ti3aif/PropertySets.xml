@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SpaceFireSafetyRequirements" UniqueId="da9b340d-b3a7-4679-bc30-ac0dec0e4b29" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MainFireUse_2vs_mnAaL35ArvAAi6f8HJ" />
+		<DocProperty xsi:nil="true" href="AncillaryFireUse_1ObSMljNv1hPkMpsoY100k" />
+		<DocProperty xsi:nil="true" href="FireRiskFactor_0vEMz8BaP7pfemv7Ef9Fth" />
+		<DocProperty xsi:nil="true" href="FireHazardFactor_0ZJMRuW1f0j8b2Dl_xdak5" />
+		<DocProperty xsi:nil="true" href="FlammableStorage_3XQcKCenb8WerMlK7ijIci" />
+		<DocProperty xsi:nil="true" href="FireExit_2dpTq77mr9KP1zE7efzPxW" />
+		<DocProperty xsi:nil="true" href="SprinklerProtection_3l_GxzsLE1hjvkMWxeOE9" />
+		<DocProperty xsi:nil="true" href="SprinklerProtectionAutomatic_1ECMD1dTbDfQFzeTSOmY9m" />
+		<DocProperty xsi:nil="true" href="AirPressurization_0l1RuyixX9igrErzSni_P" />
+	</Properties>
+</DocPropertySet>
+

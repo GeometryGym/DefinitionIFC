@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpaceHeaterType" UniqueId="19D1TRXyz9fxiZilwCkXlq" DiagramNumber="1" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="04Zo$0d6H9lQeAPDJvxG5L" DefinedType="IfcSpaceHeaterTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Enumeration of possible types of space heater (e.g., baseboard heater, convector, radiator, etc.).</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="0HiKNVOSjA_fICQijSq29N">
+			<Expression>(PredefinedType &lt;&gt; IfcSpaceHeaterTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcSpaceHeaterTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

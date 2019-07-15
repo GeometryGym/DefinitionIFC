@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCooledBeamTypeEnum" UniqueId="1GRwy5PePCABPseVWMWIR4" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ACTIVE_0lVKKX49f5VA2Yk0ncuK42" />
+		<DocConstant xsi:nil="true" href="PASSIVE_0V6H0i8or4_OrMwmtjVGh" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3S1JIQMP3h8xw4l51Ptfb" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0dhLs7RHDDyeFgZOTh2s" />
+	</Constants>
+</DocEnumeration>
+

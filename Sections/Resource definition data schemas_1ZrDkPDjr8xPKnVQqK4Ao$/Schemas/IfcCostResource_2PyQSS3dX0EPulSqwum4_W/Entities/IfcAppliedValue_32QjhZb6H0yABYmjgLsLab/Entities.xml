@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAppliedValue" UniqueId="32QjhZb6H0yABYmjgLsLab" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="18uzU2UEH4_hml84OguilJ" DefinedType="IfcCostValue" />
+		<DocSubtype UniqueId="1J42BknyH7n8UmgVY4Jrzd" DefinedType="IfcEnvironmentalImpactValue" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="3fu6MRV8rAJO1jknoHRXFv" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>A name or additional clarification given to a cost (or impact) value.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="1oKMcGBGv9R9QlD2K$MzUk" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The description that may apply additional information about a cost (or impact) value. The description may be from purpose generated text, specification libraries, standards etc.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="AppliedValue" UniqueId="0ihdKiBAP7NxpSvOEBhZPk" DefinedType="IfcAppliedValueSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The extent or quantity or amount of an applied value.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UnitBasis" UniqueId="0srzj03cX6gerWDOz065Dn" DefinedType="IfcMeasureWithUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The number and unit of measure on which the unit cost is based.
+
+Note: As well as the normally expected units of measure such as length, area, volume etc., costs may be based on units of measure which need to be defined e.g. sack, drum, pallet, item etc. Unit costs may be based on quantities greater (or lesser) than a unitary value of the basis measure. For instance, timber may have a unit cost rate per X meters where X &gt; 1; similarly for cable, piping and many other items. The basis number may be either an integer or a real value.
+
+Note: This attribute should be asserted for all circumstances where the cost to be applied is per unit quantity. It may be asserted even for circumstances where an item price is used, in which case the unit cost basis should be by item (or equivalent definition).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ApplicableDate" UniqueId="3_liOl72r2kO0lSkP0Xd_Z" DefinedType="IfcDateTimeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The date on or from which an applied value is applicable.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FixedUntilDate" UniqueId="2GTT1AHaT59BiGCIqOZMxX" DefinedType="IfcDateTimeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The date until which applied value is applicable.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ValuesReferenced" UniqueId="27s_e3Vjn63hVnVPgpzpLN" DefinedType="IfcReferencesValueDocument" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="ReferencingValues">
+			<Documentation>Pointer to the IfcReferencesCostDocument relationship, which refer to a document from which the cost value is referenced.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ValueOfComponents" UniqueId="1lRZv2fgLDVPAG$nX9x9W2" DefinedType="IfcAppliedValueRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="ComponentOfTotal">
+			<Documentation>The total (or subtotal) value of the components within the applied value relationship expressed as a single applied value.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsComponentIn" UniqueId="2$_7Ury2H2uh1sI4UNn8gV" DefinedType="IfcAppliedValueRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="Components">
+			<Documentation>The value of the single applied value which is used by the applied value relationship to express a complex applied value.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2lkkBKC8nEZOm5K_$RC8Os">
+			<Expression>EXISTS (AppliedValue) OR 
+EXISTS (ValueOfComponents)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

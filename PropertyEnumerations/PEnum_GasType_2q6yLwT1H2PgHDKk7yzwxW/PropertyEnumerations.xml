@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_GasType_2q6yLwT1H2PgHDKk7yzwxW" Name="PEnum_GasType" UniqueId="b41bc57a-7414-4266-a44d-52e1fcf7aee0">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="COMMERCIALBUTANE_13XUNGcSj1reIWOsrcpxT9" />
+		<DocPropertyConstant xsi:nil="true" href="COMMERCIALPROPANE_090A2kpDD16gsdzMV24dz2" />
+		<DocPropertyConstant xsi:nil="true" href="LIQUEFIEDPETROLEUMGAS_3_VH3prwfD_OJKgPvamsdE" />
+		<DocPropertyConstant xsi:nil="true" href="NATURALGAS_0O1ccjhzXClPBNdzxF_pxE" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

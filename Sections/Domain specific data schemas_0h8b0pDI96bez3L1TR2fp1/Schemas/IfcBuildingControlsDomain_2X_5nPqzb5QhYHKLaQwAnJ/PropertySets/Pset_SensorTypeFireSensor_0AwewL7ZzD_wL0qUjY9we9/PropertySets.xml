@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SensorTypeFireSensor" UniqueId="0aea8e95-1e3f-4dfb-a540-d1eb6227aa09" ApplicableType="IfcSensor.Predefined=&quot;FIRESENSOR&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FireSensorSetPoint_0U9WWae3P5sQEunBFqhVFo" />
+		<DocProperty xsi:nil="true" href="AccuracyOfFireSensor_2chSDbR2z7OhtMBYaVOazl" />
+		<DocProperty xsi:nil="true" href="TimeConstant_194W9othz88A4XQ5TR5wxA" />
+	</Properties>
+</DocPropertySet>
+

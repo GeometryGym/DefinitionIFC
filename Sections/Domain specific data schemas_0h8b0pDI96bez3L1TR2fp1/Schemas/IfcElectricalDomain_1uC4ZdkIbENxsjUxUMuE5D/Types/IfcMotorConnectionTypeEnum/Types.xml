@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMotorConnectionTypeEnum" UniqueId="1TaXpxTkjFMe9MMUTSNLjr" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BELTDRIVE_19Iko5stv5vvihlyGL48m" />
+		<DocConstant xsi:nil="true" href="COUPLING_00r1kfiPb6TvIKbaziMzXI" />
+		<DocConstant xsi:nil="true" href="DIRECTDRIVE_1oTAfBVI16bf2lhaCVPdYw" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1WMa94pZXEbvCWyEiGjmsi" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2ReSNmNjf2UAwD0Dmldq7" />
+	</Constants>
+</DocEnumeration>
+

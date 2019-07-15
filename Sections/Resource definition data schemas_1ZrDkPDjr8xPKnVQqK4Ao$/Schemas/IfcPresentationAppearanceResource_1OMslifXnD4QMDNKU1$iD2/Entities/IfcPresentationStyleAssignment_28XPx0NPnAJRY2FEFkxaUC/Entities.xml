@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPresentationStyleAssignment" UniqueId="28XPx0NPnAJRY2FEFkxaUC" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Styles" UniqueId="21Rf8BtT1F6AoDzhBEYMj0" DefinedType="IfcPresentationStyleSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>A set of presentation styles that are assigned to styled items.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

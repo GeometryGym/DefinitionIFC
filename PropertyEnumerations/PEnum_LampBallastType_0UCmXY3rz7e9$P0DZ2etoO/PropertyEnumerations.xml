@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_LampBallastType_0UCmXY3rz7e9P0DZ2etoO" Name="PEnum_LampBallastType" UniqueId="1e330862-0f5f-47a0-9fd9-00d8c2a37c98">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Conventional_1pmJFM49r2Afr0td8R6wSW" />
+		<DocPropertyConstant xsi:nil="true" href="Electronic_3iUdNiPdPC9e1GGGEWuaB4" />
+		<DocPropertyConstant xsi:nil="true" href="LowLoss_1DBfrJeN1Cn9RhxmM01Pl" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

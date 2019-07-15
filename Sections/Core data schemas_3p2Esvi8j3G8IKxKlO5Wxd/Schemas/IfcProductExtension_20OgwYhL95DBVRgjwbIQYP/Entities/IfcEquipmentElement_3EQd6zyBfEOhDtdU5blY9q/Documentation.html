@@ -1,0 +1,102 @@
+<EPM-HTML> 
+    <p>
+      <u>Definition from IAI</u>: Generalization of all equipment
+      related objects, those objects are characterized as being
+      pre-manufactured and being movable, and which provide some
+      building service related or other servicing function. The
+      term fixture is often used as a synonym or similar concept.
+      The <i>IfcEquipmentElement</i> covers the fixture aspect as
+      well.
+    </p>
+    <blockquote>
+      <font color="#0000FF" size="-1">HISTORY New entity in IFC
+      Release 2x</font>
+    </blockquote>
+    <blockquote>
+      <font color="#FF0000" size="-1">IFC2x2 NOTE: The entity
+      <i>IfcEquipmentElement</i> is deprecated and shall no
+      longer be used.</font>
+    </blockquote>
+    <blockquote>
+      <font size="-1">NOTE: The concept of equipment, that has a
+      distribution function, such as electrical equipment, is now
+      handled as distribution elements and class definitions are
+      provided by subtypes of <i>IfcDistributionElement</i> for
+      occurrences and <i>IfcDistributionElementType</i> for
+      types. Equipment, that has no distribution function, is now
+      handled within the <i>IfcSharedComponentElements</i>
+      schema.</font>
+    </blockquote>
+    <p>
+      <u>Geometry Use Definitions</u>:
+    </p>
+    <p>
+      The geometric representation of <i>IfcEquipmentElement</i>
+      is given by the <i>IfcProductDefinitionShape</i>, allowing
+      multiple geometric representation.
+    </p>
+    <p>
+      <b>Local Placement</b>
+    </p>
+    <p>
+      The local placement for <i>IfcEquipmentElement</i> is
+      defined in its supertype <i>IfcProduct</i>. It is defined
+      by the <i>IfcLocalPlacement</i>, which defines the local
+      coordinate system that is referenced by all geometric
+      representations.
+    </p>
+    <ul>
+      <li>The <i>PlacementRelTo</i> relationship of
+      <i>IfcLocalPlacement</i> shall point (if given) to the
+      local placement of the same
+      <i>IfcSpatialStructureElement</i> , which is used in the
+      <i>ContainedInStructure</i> inverse attribute, or to a
+      spatial structure element at a higher level, referenced by
+      that.
+      </li>
+      <li>If the relative placement is not used, the absolute
+      placement is defined within the world coordinate system.
+      </li>
+    </ul>
+    <p>
+      <b>SurfaceModel Representation</b>
+    </p>
+    <p>
+      Any <i>IfcEquipmentElement</i> (so far no further
+      constraints are defined at the level of its subtypes) may
+      be represented as a single or multiple surface models,
+      based on either shell or face based models. It is ensured
+      by assigning the value 'SurfaceModel' to the
+      RepresentationType attribute of
+      <i>IfcShapeRepresentation</i>. In some cases it may be
+      useful to also expose a simple representation as a bounding
+      box representation of the same complex shape.
+    </p>
+    <p>
+      <b>Brep Representation</b>
+    </p>
+    <p>
+      Any <i>IfcEquipmentElement</i> (so far no further
+      constraints are defined at the level of its subtypes) may
+      be represented as a single or multiple Boundary
+      Representation elements (which are restricted to faceted
+      Brep with or without voids). The Brep representation allows
+      for the representation of complex element shape. It is
+      ensured by assigning the value 'Brep' to the
+      RepresentationType attribute of
+      <i>IfcShapeRepresentation</i>. In some cases it may be
+      useful to also expose a simple representation as a bounding
+      box representation of the same complex shape.
+    </p>
+    <p>
+      <b>MappedRepresentation</b>
+    </p>
+    <p>
+      The new mapped item, <i>IfcMappedItem</i>, should be used
+      if appropriate as it allows for reusing the geometry
+      definition of the equipment type at occurrences of the same
+      equipment type. In this case the
+      <i>IfcShapeRepresentation.RepresentationType</i> =
+      MappedRepresentation is used.
+    </p>
+</EPM-HTML>

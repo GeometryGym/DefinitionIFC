@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FilterAirParticleFilterSeparationType_1hOzCfz5L2_vnJjJChl0ix" Name="PEnum_FilterAirParticleFilterSeparationType" UniqueId="6b63d329-f455-42fb-9c53-b5332bbc0b3b">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BAG_2vU1XLyOvCPPhwSQTgmKwX" />
+		<DocPropertyConstant xsi:nil="true" href="PLEAT_0jtxe_qdT67ATgNN6fd28Z" />
+		<DocPropertyConstant xsi:nil="true" href="TREADSEPARATION_0Rod_MiM59Kgu6czmir8K" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

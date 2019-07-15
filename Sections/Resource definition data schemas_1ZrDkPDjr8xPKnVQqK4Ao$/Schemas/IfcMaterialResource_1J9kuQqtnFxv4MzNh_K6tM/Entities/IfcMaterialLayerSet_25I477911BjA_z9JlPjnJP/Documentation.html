@@ -1,0 +1,26 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI</u>: A designation by which
+materials of an element constructed of a number of material layers is
+known and through which the relative positioning of individual layers
+can be expressed.
+</p>
+<blockquote> <font
+ size="-1"> EXAMPLE: A cavity brick wall would be
+modeled as <i>IfcMaterialLayerSet</i>
+consisting of three <i>IfcMaterialLayer</i>'s:
+brick, air cavity and brick.</font>
+</blockquote>
+<p><b><u>Geometry
+use</u></b></p>
+<p>Each <i>IfcMaterialLayerSet</i>
+implicitly defines a reference line (MlsBase), to which the start of
+the first <i>IfcMaterialLayer</i>
+is aligned. The total thickness of a
+layer set is calculated from the individual layer thicknesses, the
+first layer starting from the reference line and following layers being
+placed on top of the previous (no gaps or overlaps).</p>
+<p><img
+ src="figures/IfcMaterialLayerSet.png" alt="material layer set"
+ border="0"></p>
+</EPM-HTML>

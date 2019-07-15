@@ -1,0 +1,42 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI:</U> An <I>IfcAppliedValueRelationship</I> is a
+		relationship class that enables applied values of cost or environmental impact
+		to be aggregated together as components of another applied value.</P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC
+		Release 2.0. Name changed in IFC 2x2 from
+		IfcCostValueRelationship.</FONT></BLOCKQUOTE> 
+	 <P><U>Use Definitions</U></P> 
+	 <P>Dependency relationships can exist between applied values on the basis
+		that one particular value may be determined by operations on one or more other
+		values. This is captured through the <I>IfcAppliedValueRelationship</I> entity.
+		In this relationship, one instance of <I>IfcAppliedValue</I> acts as the
+		principal (<I>IfcAppliedValueRelationship.ComponentOf</I>) whose value may be
+		determined from the instances of <I>IfcAppliedValue</I> that are defined as its
+		components (<I>IfcAppliedValueRelationship.Components</I>)</P> 
+	 <P>An <I>IfcAppliedValueRelationship</I> has an ArithmeticOperator
+		attribute that specifies the form of arithmetical operation implied by the
+		relationship.</P> 
+	 <P> A practical consideration when using the applied value relationship is
+		that when the arithmetic operator is ADD, then the type of the
+		<I>IfcAppliedValue.AppliedValue</I> attribute will be <I>IfcMeasureWithUnit</I>
+		or <I>IfcMonetaryMeasure</I> while if the arithmetic operator is MULTIPLY,
+		then the type of the <I>IfcAppliedValue.AppliedValue</I> attribute for one
+		instance of <I>IfcAppliedValue</I> will be <I>IfcMeasureWithUnit</I> or
+		<I>IfcMonetaryMeasure</I> while for other instances it will be
+		<I>IfcRatioMeasure</I>.</P> 
+	 <P><U>Example</U></P> 
+	 <P>A relationship exists between applied value A and applied values B, C
+		and D such that the value of A is determined by the addition of B, C and D such
+		that:</P> 
+	 <P ALIGN="CENTER">A = B + C + D </P> 
+	 <P ALIGN="CENTER"><IMG SRC="images/AppliedValueRelationshipSimple.gif"
+		ALT="Adding Applied Values" WIDTH="540" HEIGHT="185" BORDER="0"> </P> 
+	 <P>It is possible to develop more complex applied value specifications by
+		creating hierarchies of applied value relationships. In the diagram below, the
+		development of a applied value is shown whereby, because B = E * F and D = G *
+		H * J, then:</P> 
+	 <P ALIGN="CENTER"> A = ((E * F) + C + (G * H * J)) </P> 
+	 <P ALIGN="CENTER"><IMG
+		SRC="images/AppliedValueRelationshipComplex.gif"
+		ALT="AddMultiply Applied Values" WIDTH="798" HEIGHT="337" BORDER="0"></P>
+</EPM-HTML>

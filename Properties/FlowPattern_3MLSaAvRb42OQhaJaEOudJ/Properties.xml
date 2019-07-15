@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FlowPattern_3MLSaAvRb42OQhaJaEOudJ" Name="FlowPattern" UniqueId="d655c90a-e5b9-4409-86ab-91390e6389d3" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalFlowPattern_2KA9Nq6In48fZt_mELtI7b" />
+	</Enumeration>
+</DocProperty>
+

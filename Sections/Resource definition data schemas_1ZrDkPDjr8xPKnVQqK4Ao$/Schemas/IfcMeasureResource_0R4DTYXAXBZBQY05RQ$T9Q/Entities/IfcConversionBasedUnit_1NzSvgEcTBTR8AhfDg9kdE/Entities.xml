@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConversionBasedUnit" UniqueId="1NzSvgEcTBTR8AhfDg9kdE" DiagramNumber="1" BaseDefinition="IfcNamedUnit" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="2xJ$3XrLPBXf_z$JiTxNk3" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The word, or group of words, by which the conversion based unit is referred to.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConversionFactor" UniqueId="2ShFBsq2bFTgdm9YCSfCGP" DefinedType="IfcMeasureWithUnit" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The physical quantity from which the converted unit is derived.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FireHydrantType_0xd4g3i8bArwzr9Zw0r2H8" Name="PEnum_FireHydrantType" UniqueId="3b9c4a83-b089-4ad7-af75-263e80d42448">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DryBarrel_1tLgmA2r3quDyF4X3avf3" />
+		<DocPropertyConstant xsi:nil="true" href="WetBarrel_0QbLZO6Eb3ngE63NWaE2Py" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

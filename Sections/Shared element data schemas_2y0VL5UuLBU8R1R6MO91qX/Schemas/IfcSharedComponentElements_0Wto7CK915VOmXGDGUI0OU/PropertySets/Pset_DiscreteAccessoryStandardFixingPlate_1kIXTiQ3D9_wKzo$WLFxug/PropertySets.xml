@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DiscreteAccessoryStandardFixingPlate" UniqueId="6e4a176c-6833-49fb-a53d-cbf8153fbe2a" ApplicableType="IfcDiscreteAccessory.Object=&quot;Standard fixing plate&quot; | IfcDiscreteAccessory.Element=&quot;Standard fixing plate&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="StandardFixingPlateWidth_0OfOhJeTXDLRNiplDiHhRe" />
+		<DocProperty xsi:nil="true" href="StandardFixingPlateDepth_1nu0eQzzH34v3PsHbsVDp8" />
+		<DocProperty xsi:nil="true" href="StandardFixingPlateThickness_1Ov_gAIw95ARokPKCWg7qb" />
+	</Properties>
+</DocPropertySet>
+

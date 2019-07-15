@@ -1,0 +1,26 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI</u>:&nbsp;The <i>IfcAnnotationSurfaceOccurrence</i>
+shall only be used within a material or paper space
+dependent representation (note: paper space is not yet supported within
+this IFC release).&nbsp;Styled surfaces or solids within model
+space shall use <i>IfcStyledItem</i> as the instance to
+link the geometric surface, solid or annotation surface (for texture
+maps) representation item to the (shared) style information.</p>
+<p>An <i>IfcAnnotationSurfaceOccurrence</i>
+is a relation object, that assigns a (set of) styles to a
+representation item. It can be used without having a geometric
+representation item already assigned, e.g. within an <i>IfcMaterialDefinitionRepresentation</i>.
+Each instance of <i>IfcAnnotationSurfaceOccurrence</i>&nbsp;points,
+via an <i>IfcPresentationStyleAssignment</i>, to an <i>IfcSurfaceStyle</i>,
+that can be shared by many styled surfaces, or solids.</p>
+<blockquote> <font color="#0000ff"><small>NOTE&nbsp;
+No direct
+corresponding STEP
+entity, the entity has been defined in analogy to the other annotation
+occurrence entity.</small> </font></blockquote>
+<blockquote><small><font color="#0000ff">HISTORY&nbsp;
+New entity in
+Release IFC2x Edition 2.</font><font color="#ff0000"><br>
+  </font></small></blockquote>
+</EPM-HTML>

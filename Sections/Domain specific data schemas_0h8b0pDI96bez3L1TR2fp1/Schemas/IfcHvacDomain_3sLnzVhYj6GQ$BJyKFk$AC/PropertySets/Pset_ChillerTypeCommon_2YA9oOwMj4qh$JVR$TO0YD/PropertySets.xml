@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ChillerTypeCommon" UniqueId="a2289c98-e96b-44d2-bfd3-7dbfdd60088d" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalCapacity_1_1YTq1yvEnBfnQpnhUQok" />
+		<DocProperty xsi:nil="true" href="NominalEfficiency_3zUHMh6iX46B2mr_EU6vZR" />
+		<DocProperty xsi:nil="true" href="NominalCondensingTemperature_2yFRpx8r2f9eP4eY1kbeZ" />
+		<DocProperty xsi:nil="true" href="NominalEvaporatingTemperature_2hIWP38nrBf9YA44CGKQpw" />
+		<DocProperty xsi:nil="true" href="NominalHeatRejectionRate_24aVyQngL88vlAjPBnqYZ" />
+		<DocProperty xsi:nil="true" href="NominalPowerConsumption_0dbzVX4RL5kegDaCUqabz9" />
+	</Properties>
+</DocPropertySet>
+

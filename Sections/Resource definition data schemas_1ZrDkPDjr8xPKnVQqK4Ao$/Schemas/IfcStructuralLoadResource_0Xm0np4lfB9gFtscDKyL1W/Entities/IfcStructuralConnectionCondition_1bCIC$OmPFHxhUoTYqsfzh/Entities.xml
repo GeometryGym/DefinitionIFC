@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralConnectionCondition" UniqueId="1bCIC$OmPFHxhUoTYqsfzh" DiagramNumber="4" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="3uAhlC74bFgfXnSo0sF9_7" DefinedType="IfcSlippageConnectionCondition" />
+		<DocSubtype UniqueId="3qaWPw0bHEC94CjlkKEYMc" DefinedType="IfcFailureConnectionCondition" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="3T2kAQ39b9PR57z35d38Bd" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optionally defines a name for this connection condition.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

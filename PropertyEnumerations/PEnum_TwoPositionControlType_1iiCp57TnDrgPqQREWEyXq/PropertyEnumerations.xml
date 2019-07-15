@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_TwoPositionControlType_1iiCp57TnDrgPqQREWEyXq" Name="PEnum_TwoPositionControlType" UniqueId="6cb0ccc5-1ddc-4dd6-a674-69b3a03bc874">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Not_14PPH5QSPE_O5ZSoyNNtff" />
+		<DocPropertyConstant xsi:nil="true" href="And_2xzPsKrsjAdBDiRRwSDbtg" />
+		<DocPropertyConstant xsi:nil="true" href="Or_05y4wqEcLBGhqPYheobPVw" />
+		<DocPropertyConstant xsi:nil="true" href="Xor_2Zu_Yfqsb2hoFKyZY4B4v" />
+		<DocPropertyConstant xsi:nil="true" href="LowerLimitSwitch_1NrS7F_AP39bFDF9fBywm" />
+		<DocPropertyConstant xsi:nil="true" href="UpperLimitSwitch_0R5aWOuK13JeK9nTNhXlN" />
+		<DocPropertyConstant xsi:nil="true" href="LowerBandSwitch_1wvj96xff5LeAU7fG6Rjlw" />
+		<DocPropertyConstant xsi:nil="true" href="UpperBandSwitch_18gqdhBwvBDwbBSgxQCoi9" />
+		<DocPropertyConstant xsi:nil="true" href="Average_2LrqC9uxf3fQAfcnryTbhx" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

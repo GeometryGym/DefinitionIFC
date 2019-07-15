@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDraughtingPreDefinedCurveFont" UniqueId="3tUT9FpmbElBJmeurzq6Ax" DiagramNumber="2" BaseDefinition="IfcPreDefinedCurveFont" EntityFlags="229">
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="1dxjdRFU51Igl7ipxx_39s">
+			<Documentation>The name of the draughting_pre_defined_curve_font shall be &apos;continuous, chain, chain&apos;, double dash, dashed, or dotted.</Documentation>
+			<Expression>SELF\IfcPredefinedItem.Name IN
+       [&apos;continuous&apos;,
+        &apos;chain&apos;,
+        &apos;chain double dash&apos;,
+        &apos;dashed&apos;,
+        &apos;dotted&apos;,
+        &apos;by layer&apos;]</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

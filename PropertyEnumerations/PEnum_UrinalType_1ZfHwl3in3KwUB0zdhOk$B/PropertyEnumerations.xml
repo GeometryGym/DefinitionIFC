@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_UrinalType_1ZfHwl3in3KwUB0zdhOkB" Name="PEnum_UrinalType" UniqueId="63a51eaf-0ecc-4353-a78b-03d9eb62efcb">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Bowl_2Ea4_BwgLC1BixVCqxTnLy" />
+		<DocPropertyConstant xsi:nil="true" href="Slab_17lvGxlIrBsQx8RACMeKu9" />
+		<DocPropertyConstant xsi:nil="true" href="Stall_2NO6VZi_X0yAAp4pEtz8_K" />
+		<DocPropertyConstant xsi:nil="true" href="Trough_2T3M3wxHDYR73gWPNAA1d" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CableCarrierSegmentTypeCableLadderSegment" UniqueId="711744ff-3656-40eb-b12d-bb4c4f6d2038" ApplicableType="IfcCableCarrierSegment.Predefined=&quot;CABLELADDERSEGMENT&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalLength_3uvSrQp3z87BqQSnhtYGuy" />
+		<DocProperty xsi:nil="true" href="NominalWidth_0w5wzx7pP329w3PbyJ9uzL" />
+		<DocProperty xsi:nil="true" href="NominalHeight_0w6YiQ8C159vXamBIFPnt2" />
+		<DocProperty xsi:nil="true" href="LadderConfiguration_0mzaZ4Ie92jAMDxPpTwloT" />
+	</Properties>
+</DocPropertySet>
+

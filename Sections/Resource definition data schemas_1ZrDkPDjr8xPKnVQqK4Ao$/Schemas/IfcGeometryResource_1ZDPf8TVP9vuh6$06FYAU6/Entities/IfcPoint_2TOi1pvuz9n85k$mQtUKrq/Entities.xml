@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPoint" UniqueId="2TOi1pvuz9n85k$mQtUKrq" DiagramNumber="3" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="77">
+	<Subtypes>
+		<DocSubtype UniqueId="26ihc_HrzEUx6d0i4JHvdW" DefinedType="IfcCartesianPoint" />
+		<DocSubtype UniqueId="3lv2qCsDnACPmtw9lb9aIh" DefinedType="IfcPointOnCurve" />
+		<DocSubtype UniqueId="3_7Vdl7Hr6oRbF1p$jn1ZV" DefinedType="IfcPointOnSurface" />
+	</Subtypes>
+</DocEntity>
+

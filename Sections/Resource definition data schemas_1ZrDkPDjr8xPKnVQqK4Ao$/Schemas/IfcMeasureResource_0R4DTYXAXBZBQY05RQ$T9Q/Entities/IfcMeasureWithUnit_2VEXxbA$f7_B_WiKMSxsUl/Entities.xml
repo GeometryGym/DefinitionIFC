@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMeasureWithUnit" UniqueId="2VEXxbA$f7_B_WiKMSxsUl" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="ValueComponent" UniqueId="1_wA9UIhnEFOVTHJ1fGPTY" DefinedType="IfcValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The value of the physical quantity when expressed in the specified units.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UnitComponent" UniqueId="26Ir9w7dj59ulw7CgSQJQm" DefinedType="IfcUnit" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The unit in which the physical quantity is expressed.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

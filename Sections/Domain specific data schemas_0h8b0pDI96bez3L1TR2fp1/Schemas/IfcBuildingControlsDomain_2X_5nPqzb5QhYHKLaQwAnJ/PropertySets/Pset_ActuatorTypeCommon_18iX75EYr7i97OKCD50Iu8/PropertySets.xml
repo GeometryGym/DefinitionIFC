@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ActuatorTypeCommon" UniqueId="48b211c5-3a2d-47b0-91d8-50c345012e08" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FailPosition_0KWKK8qwzD5hqfZrzKwFpN" />
+		<DocProperty xsi:nil="true" href="ManualOverride_0rXs3rzSHDCP27o3u4N1P7" />
+	</Properties>
+</DocPropertySet>
+

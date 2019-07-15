@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadStatic" UniqueId="1v_XK5NVnADftcNjE_Rsk5" DiagramNumber="1" BaseDefinition="IfcStructuralLoad" EntityFlags="133">
+	<Subtypes>
+		<DocSubtype UniqueId="2D7PL_8vjBa9jKQltRvlsU" DefinedType="IfcStructuralLoadSingleForce" />
+		<DocSubtype UniqueId="3ISF1RELj4Mepza7Ms0Ts1" DefinedType="IfcStructuralLoadLinearForce" />
+		<DocSubtype UniqueId="3Mrq$wpjDB_82UpR5P$6Ag" DefinedType="IfcStructuralLoadPlanarForce" />
+		<DocSubtype UniqueId="01vyuY4LbACOTESagqevNN" DefinedType="IfcStructuralLoadSingleDisplacement" />
+		<DocSubtype UniqueId="0acihxh4n8Ah9WtAORhv8Q" DefinedType="IfcStructuralLoadTemperature" />
+	</Subtypes>
+</DocEntity>
+

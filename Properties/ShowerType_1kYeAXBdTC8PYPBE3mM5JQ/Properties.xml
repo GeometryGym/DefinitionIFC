@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ShowerType_1kYeAXBdTC8PYPBE3mM5JQ" Name="ShowerType" UniqueId="6e8a82a1-2e77-4c21-9899-2ce0f05854da" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ShowerType_2ZkEFnM3L6OwWJ7wagTCN_" />
+	</Enumeration>
+</DocProperty>
+

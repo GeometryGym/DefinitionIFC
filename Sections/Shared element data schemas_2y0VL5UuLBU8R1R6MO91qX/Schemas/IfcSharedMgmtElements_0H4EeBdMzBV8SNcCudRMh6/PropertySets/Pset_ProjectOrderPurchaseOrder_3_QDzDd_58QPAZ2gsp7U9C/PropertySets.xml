@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ProjectOrderPurchaseOrder" UniqueId="fe68df4d-9fe1-4869-92a3-0aadb31de24c" ApplicableType="IfcProjectOrder.Predefined=&quot;PURCHASEORDER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="IsFOB_0pJWKfFoDD_ANYs3qTFJIT" />
+		<DocProperty xsi:nil="true" href="ShipMethod_0rjVlSRLFg9vCEOOCwOD_" />
+	</Properties>
+</DocPropertySet>
+

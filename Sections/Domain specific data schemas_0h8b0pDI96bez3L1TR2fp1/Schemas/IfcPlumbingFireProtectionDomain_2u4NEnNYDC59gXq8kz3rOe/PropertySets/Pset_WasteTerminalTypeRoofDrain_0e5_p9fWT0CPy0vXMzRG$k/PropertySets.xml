@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_WasteTerminalTypeRoofDrain" UniqueId="2817ecc9-a607-4031-9f00-e615bd6d0fee" ApplicableType="IfcWasteTerminal.Predefined=&quot;ROOFDRAIN&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalBodyLength_2ExNTZnGj7Nx15HuwkIwlO" />
+		<DocProperty xsi:nil="true" href="NominalBodyWidth_2Mxt8RN7z9PBUspH53v1gw" />
+		<DocProperty xsi:nil="true" href="NominalBodyDepth_3okAI2YCTFU93Wb8In5yOd" />
+		<DocProperty xsi:nil="true" href="BodyMaterial_0aGb84Vb4r8D4rHwMh3y" />
+		<DocProperty xsi:nil="true" href="OutletConnectionSize_2sJ6GXVnr3sAPqc3fg8QXl" />
+		<DocProperty xsi:nil="true" href="CoverLength_0iq9NYK6v4ZAbkbUnR23v6" />
+		<DocProperty xsi:nil="true" href="CoverWidth_2pMNDGd4L4ERq4zfhFG9EO" />
+		<DocProperty xsi:nil="true" href="CoverMaterial_0gBpYV4hn5Z9F64pyx22Lu" />
+	</Properties>
+</DocPropertySet>
+

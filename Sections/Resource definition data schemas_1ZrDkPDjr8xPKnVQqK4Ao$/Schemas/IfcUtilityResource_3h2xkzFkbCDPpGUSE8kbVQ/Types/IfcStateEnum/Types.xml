@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStateEnum" UniqueId="0RP1Kd8I1BiAVRUnV_w7f_" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="READWRITE_29nCfcx9PE8h1g49oR2o1" />
+		<DocConstant xsi:nil="true" href="READONLY_2vZgPLjN94IgLgPLHw7DAG" />
+		<DocConstant xsi:nil="true" href="LOCKED_2kKZh9uX4VhemjOkWq_DZ" />
+		<DocConstant xsi:nil="true" href="READWRITELOCKED_3B0Z_rp5DBA9rGHMkk1aAf" />
+		<DocConstant xsi:nil="true" href="READONLYLOCKED_1BJbp4jozBpwGSCGbqRmYP" />
+	</Constants>
+</DocEnumeration>
+

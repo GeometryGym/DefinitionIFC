@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcUnitEnum" UniqueId="3ViDuOtaD5Re96bx5PrEUn" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ABSORBEDDOSEUNIT_0MtmSbUL0fuYMlOleE8FW" />
+		<DocConstant xsi:nil="true" href="AMOUNTOFSUBSTANCEUNIT_0NJ1TmxAH8suWli4CsJxuu" />
+		<DocConstant xsi:nil="true" href="AREAUNIT_133u00l9fFhf3Hee_XQaQF" />
+		<DocConstant xsi:nil="true" href="DOSEEQUIVALENTUNIT_3mOi1lh9r0XhgrOtqrLJsO" />
+		<DocConstant xsi:nil="true" href="ELECTRICCAPACITANCEUNIT_14HP_hFWv5rOw31Dbqh_5R" />
+		<DocConstant xsi:nil="true" href="ELECTRICCHARGEUNIT_0jIvhc7DzCrRHZpzU9XWn2" />
+		<DocConstant xsi:nil="true" href="ELECTRICCONDUCTANCEUNIT_1YyTUCU_H7fwEyg8ZI6B8O" />
+		<DocConstant xsi:nil="true" href="ELECTRICCURRENTUNIT_0171nujpL4TBYbXYd8FM7g" />
+		<DocConstant xsi:nil="true" href="ELECTRICRESISTANCEUNIT_3HVnCJas54hh4jvczUXinI" />
+		<DocConstant xsi:nil="true" href="ELECTRICVOLTAGEUNIT_3bT7tlIH7TugQePjDrQue" />
+		<DocConstant xsi:nil="true" href="ENERGYUNIT_20f3OtJxr7LAsNz4qBxTDQ" />
+		<DocConstant xsi:nil="true" href="FORCEUNIT_2DEmvhipvE3upvJuk8i6YF" />
+		<DocConstant xsi:nil="true" href="FREQUENCYUNIT_2QMVqeRBX7jxD917Ubht6" />
+		<DocConstant xsi:nil="true" href="ILLUMINANCEUNIT_1E3dD6dH0n8TuN0bUGkdF" />
+		<DocConstant xsi:nil="true" href="INDUCTANCEUNIT_0sCpwZWj9rxjc6AYRhkW" />
+		<DocConstant xsi:nil="true" href="LENGTHUNIT_2aHzQKKzb8vRrRFiAIgbPa" />
+		<DocConstant xsi:nil="true" href="LUMINOUSFLUXUNIT_2TKpYoHJb9wh5J7pqbhMhg" />
+		<DocConstant xsi:nil="true" href="LUMINOUSINTENSITYUNIT_0f6m179WLBtguieL8swQUo" />
+		<DocConstant xsi:nil="true" href="MAGNETICFLUXDENSITYUNIT_1bgav24IHCSgrhB1u8TdOV" />
+		<DocConstant xsi:nil="true" href="MAGNETICFLUXUNIT_3Q85INU55chjjQsWg9nIM" />
+		<DocConstant xsi:nil="true" href="MASSUNIT_1zAWnXa5BIejT9blVqLgO" />
+		<DocConstant xsi:nil="true" href="PLANEANGLEUNIT_1HKmnoEJP5QeP4NDnF2uIl" />
+		<DocConstant xsi:nil="true" href="POWERUNIT_1_IW6Qy3LF1RIeDLbuPBz" />
+		<DocConstant xsi:nil="true" href="PRESSUREUNIT_1CTd_t1S5BieCnYtPqm0DM" />
+		<DocConstant xsi:nil="true" href="RADIOACTIVITYUNIT_2Wl2kvsTvAT9bA1gAF76oV" />
+		<DocConstant xsi:nil="true" href="SOLIDANGLEUNIT_3kiqbeQHfBXeOs3wz0g_0z" />
+		<DocConstant xsi:nil="true" href="THERMODYNAMICTEMPERATUREUNIT_2Vge7nxH2H8uC32l7RUVX" />
+		<DocConstant xsi:nil="true" href="TIMEUNIT_3pu7eFifPFhuhYfgaJ2hPc" />
+		<DocConstant xsi:nil="true" href="VOLUMEUNIT_0IfjJ8UOjAR8PQcZYJFHBu" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0BUJ_NI9j5kwlY2TQ3yvlZ" />
+	</Constants>
+</DocEnumeration>
+

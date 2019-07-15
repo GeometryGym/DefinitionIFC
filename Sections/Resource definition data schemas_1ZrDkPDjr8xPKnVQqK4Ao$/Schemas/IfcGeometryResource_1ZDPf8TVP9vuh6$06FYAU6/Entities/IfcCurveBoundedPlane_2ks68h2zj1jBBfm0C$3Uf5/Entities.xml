@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveBoundedPlane" UniqueId="2ks68h2zj1jBBfm0C$3Uf5" DiagramNumber="7" BaseDefinition="IfcBoundedSurface" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="BasisSurface" UniqueId="0NU$Mx3ufCgxfOjpqdqL3s" DefinedType="IfcPlane" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The surface to be bound.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OuterBoundary" UniqueId="3IN37crwfEl8ZP__kgwuvm" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The outer boundary of the surface.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="InnerBoundaries" UniqueId="1J0Xr$F_zDIQjnjntvsTAp" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0">
+			<Documentation>An optional set of inner boundaries. They shall not intersect each other or the outer boundary.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="01S4mOzBX2i8I$bopkjABj" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, defined by the dimensionality of the basis surface.</Documentation>
+			<Derived>BasisSurface.Dim</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

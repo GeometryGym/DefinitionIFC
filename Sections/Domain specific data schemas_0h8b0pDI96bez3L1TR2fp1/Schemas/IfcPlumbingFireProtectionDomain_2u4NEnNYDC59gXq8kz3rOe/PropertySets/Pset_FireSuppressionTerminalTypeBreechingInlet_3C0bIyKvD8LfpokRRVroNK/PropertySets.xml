@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FireSuppressionTerminalTypeBreechingInlet" UniqueId="cc0254bc-5393-4856-9cf2-b9b6dfd725d4" ApplicableType="IfcFireSuppressionTerminal.Predefined=&quot;BREECHINGINLET&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="BreechingInletType_0mkzPLiMj2UvQ0xY09gqbm" />
+		<DocProperty xsi:nil="true" href="InletDiameter_3ksJCLOm96YfYuGNKL153q" />
+		<DocProperty xsi:nil="true" href="OutletDiameter_1sosiI9jj33PTC_XaPOcH" />
+		<DocProperty xsi:nil="true" href="CouplingType_0Kkx5cQTj68vCjOwJdMTZX" />
+		<DocProperty xsi:nil="true" href="HasCaps_0fgLE8I9HCpv6kozqZ2Bdw" />
+		<DocProperty xsi:nil="true" href="Material_2dymu69I19vAlxaHSAQwDz" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRepresentationItem" UniqueId="2kUNin_11CTwJRxEuurrWf" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="34JyN0NmP1JwFjoinZDHuh" DefinedType="IfcTopologicalRepresentationItem" />
+		<DocSubtype UniqueId="3o1j2k0sPFIRxtxRI3ITZA" DefinedType="IfcGeometricRepresentationItem" />
+		<DocSubtype UniqueId="3hNhU3T1LA8AO$VQdg6Pv2" DefinedType="IfcMappedItem" />
+		<DocSubtype UniqueId="0XaTevMar6ZwbDZ0BdIVER" DefinedType="IfcStyledItem" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="LayerAssignments" UniqueId="2weLF0acz8chrlAByckGk6" DefinedType="IfcPresentationLayerAssignment" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="AssignedItems">
+			<Documentation>&lt;EPM-HTML&gt;Assignment of the representation item to a single or multiple layer(s). The &lt;i&gt;LayerAssignments&lt;/i&gt; can override a &lt;i&gt;LayerAssignments&lt;/i&gt; of the &lt;i&gt;IfcRepresentation&lt;/i&gt; it is used  within the list of &lt;i&gt;Items&lt;/i&gt;.
+&lt;blockquote&gt;
+&lt;small&gt;NOTE&amp;nbsp; Implementation agreements can restrict the maximum number of layer assignments to 1.&lt;/small&gt;&lt;br&gt;
+&lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;IFC2x Edition 3 CHANGE&amp;nbsp; The inverse attribute &lt;i&gt;LayerAssignments&lt;/i&gt; has been added.&lt;/font&gt;&lt;/small&gt;
+&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="StyledByItem" UniqueId="3IEaA7CJbCvPX9BdB0pv$W" DefinedType="IfcStyledItem" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="Item">
+			<Documentation>&lt;EPM-HTML&gt;
+Reference to the &lt;i&gt;IfcStyledItem&lt;/i&gt; that provides presentation information to the representation, e.g. a curve style, including colour and thickness to a geometric curve.
+  &lt;blockquote&gt;
+&lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;IFC2x Edition 3 CHANGE&amp;nbsp; The inverse attribute &lt;i&gt;StyledByItem&lt;/i&gt; has been added.&lt;/font&gt;&lt;/small&gt;
+&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

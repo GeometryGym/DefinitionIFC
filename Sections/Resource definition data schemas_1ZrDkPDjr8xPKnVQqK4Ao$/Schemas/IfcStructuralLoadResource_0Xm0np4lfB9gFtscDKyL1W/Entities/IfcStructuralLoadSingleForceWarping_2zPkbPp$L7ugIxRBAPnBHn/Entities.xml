@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadSingleForceWarping" UniqueId="2zPkbPp$L7ugIxRBAPnBHn" DiagramNumber="1" BaseDefinition="IfcStructuralLoadSingleForce" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="WarpingMoment" UniqueId="0X3Af7_rD3jeASi4ly11L_" DefinedType="IfcWarpingMomentMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The warping moment at the point load.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

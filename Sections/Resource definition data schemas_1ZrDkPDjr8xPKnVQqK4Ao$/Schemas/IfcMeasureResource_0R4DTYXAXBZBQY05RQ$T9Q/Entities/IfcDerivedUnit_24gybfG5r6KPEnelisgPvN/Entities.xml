@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDerivedUnit" UniqueId="24gybfG5r6KPEnelisgPvN" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Elements" UniqueId="0TebF1YDX3zOfiIqrR72Ik" DefinedType="IfcDerivedUnitElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The group of units and their exponents that define the derived unit.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UnitType" UniqueId="1_X0PF3qP8dfPBopCWNmOZ" DefinedType="IfcDerivedUnitEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Name of the derived unit chosen from an enumeration of derived unit types for use in IFC models.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UserDefinedType" UniqueId="3G10LEevf7MAZNf3KflLPb" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0" />
+		<DocAttribute Name="Dimensions" UniqueId="2RHgHCCHPDkOQy4brv9gJy" DefinedType="IfcDimensionalExponents" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Dimensional exponents derived using the function IfcDerivedDimensionalExponents using (SELF) as the input value.</Documentation>
+			<Derived>IfcDeriveDimensionalExponents(Elements)</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="05vCZCDjfEnwaHIGSqkIpn">
+			<Documentation>Units as such shall not be re-defined as derived units.</Documentation>
+			<Expression>(SIZEOF (Elements) &gt; 1) OR ((SIZEOF (Elements) = 1) AND (Elements[1].Exponent &lt;&gt; 1 ))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR2" UniqueId="0lfTv$cZH3ruCP3bDjwBAR">
+			<Documentation>When attribute UnitType has enumeration value USERDEFINED
+then attribute UserDefinedType shall also have a value.</Documentation>
+			<Expression>(UnitType &lt;&gt; IfcDerivedUnitEnum.USERDEFINED) OR
+((UnitType = IfcDerivedUnitEnum.USERDEFINED) AND 
+ (EXISTS(SELF.UserDefinedType)))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelationship" UniqueId="2zg22jJAr8WeMgMtpZ0L9z" DiagramNumber="3" BaseDefinition="IfcRoot" EntityFlags="77">
+	<Subtypes>
+		<DocSubtype UniqueId="2Ofij8ir5BqQkI8dlJEOZX" DefinedType="IfcRelAssigns" />
+		<DocSubtype UniqueId="3b5D0jB7nEV8xOwvyKg9vE" DefinedType="IfcRelDecomposes" />
+		<DocSubtype UniqueId="17cSp4ibH5R83QMUuVgeD$" DefinedType="IfcRelAssociates" />
+		<DocSubtype UniqueId="2Y$iiZOEfEIgAD9aDkLeDV" DefinedType="IfcRelDefines" />
+		<DocSubtype UniqueId="3JNIDW$LHBrOcTInbL96mO" DefinedType="IfcRelConnects" />
+	</Subtypes>
+</DocEntity>
+

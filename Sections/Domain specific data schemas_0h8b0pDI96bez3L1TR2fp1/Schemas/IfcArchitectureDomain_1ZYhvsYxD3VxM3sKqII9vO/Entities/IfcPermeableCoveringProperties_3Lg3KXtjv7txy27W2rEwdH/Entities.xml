@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPermeableCoveringProperties" UniqueId="3Lg3KXtjv7txy27W2rEwdH" DiagramNumber="1" BaseDefinition="IfcPropertySetDefinition" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="OperationType" UniqueId="21s4Y7Arb3pBjrxTMb7Sib" DefinedType="IfcPermeableCoveringOperationEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Types of permeable covering operations. Also used to assign standard symbolic presentations according to national building standards.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PanelPosition" UniqueId="1BqEtwDS95AgRLp5cpPP_D" DefinedType="IfcWindowPanelPositionEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Position of this permeable covering panel within the overall window or door type.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FrameDepth" UniqueId="3AQjMTLczBRvYM1k8lquM8" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Depth of panel frame (used to include the permeable covering), measured from front face to back face horizontally (i.e. perpendicular to the window or door (elevation) plane.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FrameThickness" UniqueId="1hKf_rmMrAU9cAs25olTPc" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Width of panel frame (used to include the permeable covering), measured from inside of panel (at permeable covering) to outside of panel (at lining), i.e. parallel to the window or door (elevation) plane.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ShapeAspectStyle" UniqueId="0TN$UTQIX9lwye27mxjEaL" DefinedType="IfcShapeAspect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional link to a shape aspect definition, which points to the part of the geometric representation of the window style, which is used to represent the permeable covering.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

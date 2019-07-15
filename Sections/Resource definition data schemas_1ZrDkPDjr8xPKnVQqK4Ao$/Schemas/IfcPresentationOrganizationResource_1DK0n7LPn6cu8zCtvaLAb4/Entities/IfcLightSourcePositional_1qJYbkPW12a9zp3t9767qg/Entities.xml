@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLightSourcePositional" UniqueId="1qJYbkPW12a9zp3t9767qg" DiagramNumber="2" BaseDefinition="IfcLightSource" EntityFlags="229">
+	<Subtypes>
+		<DocSubtype UniqueId="3cwINtPhX1gevEYaicxApW" DefinedType="IfcLightSourceSpot" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Position" UniqueId="0x8hEQtXf3$vndcLQ_LNp_" DefinedType="IfcCartesianPoint" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from ISO/CD 10303-46:1992: The Cartesian point indicates the position of the light source.
+Definition from VRML97 - ISO/IEC 14772-1:1997: A Point light node illuminates geometry within radius of its location.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Radius" UniqueId="0dKBE7s5z97BGwtVPaW5QN" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from IAI: The maximum distance from the light source for a surface still to be illuminated.
+Definition from VRML97 - ISO/IEC 14772-1:1997: A Point light node illuminates geometry within radius of its location.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConstantAttenuation" UniqueId="3MJZytDXP8R9TqKkN83u6O" DefinedType="IfcReal" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from ISO/CD 10303-46:1992: This real indicates the value of the attenuation in the lighting equation that is constant.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DistanceAttenuation" UniqueId="0FNBAAzlX9U9WPK$KAkyDs" DefinedType="IfcReal" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from ISO/CD 10303-46:1992: This real indicates the value of the attenuation in the lighting equation that proportional to the distance from the light source.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="QuadricAttenuation" UniqueId="2tYT_ABkT29usEIl029pr9" DefinedType="IfcReal" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition from the IAI: This real indicates the value of the attenuation in the lighting equation that proportional to the square value of the distance from the light source.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

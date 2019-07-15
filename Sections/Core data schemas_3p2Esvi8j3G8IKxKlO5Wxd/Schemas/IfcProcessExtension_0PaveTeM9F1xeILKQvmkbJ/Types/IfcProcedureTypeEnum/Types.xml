@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProcedureTypeEnum" UniqueId="1UHVpScAr5wf9iCArwb40P" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ADVICE_CAUTION_2cMkCJmTDF4f_dYpk0y6P" />
+		<DocConstant xsi:nil="true" href="ADVICE_NOTE_0VsgPBO7nCaRrNTqMK1Xb9" />
+		<DocConstant xsi:nil="true" href="ADVICE_WARNING_2LFTl1uKr7pxF3M5c9Gqr7" />
+		<DocConstant xsi:nil="true" href="CALIBRATION_2Soi6Grlv53gfk7IMtgB1H" />
+		<DocConstant xsi:nil="true" href="DIAGNOSTIC_1xmEfzObvCPxMtPI4fQvT0" />
+		<DocConstant xsi:nil="true" href="SHUTDOWN_15OuzQgH9xw_m3I3VYyn" />
+		<DocConstant xsi:nil="true" href="STARTUP_10rKWgpPr7X8v5t1SDTvNS" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0hfYkTItDEzxiUKcQJoKw8" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3CjSjjDpn9rgAad_ih5Hy1" />
+	</Constants>
+</DocEnumeration>
+

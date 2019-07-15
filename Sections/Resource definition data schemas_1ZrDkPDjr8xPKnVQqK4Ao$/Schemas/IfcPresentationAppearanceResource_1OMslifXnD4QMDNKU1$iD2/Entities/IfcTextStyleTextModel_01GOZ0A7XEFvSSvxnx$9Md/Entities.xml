@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextStyleTextModel" UniqueId="01GOZ0A7XEFvSSvxnx$9Md" DiagramNumber="3" EntityFlags="165">
+	<Attributes>
+		<DocAttribute Name="TextIndent" UniqueId="0IPWzynLnBrvVbxs6JxCde" DefinedType="IfcSizeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The property specifies the indentation that appears before the first formatted line.
+  &lt;blockquote&gt; &lt;small&gt;NOTE&amp;nbsp; It has been introduced for later compliance to full CSS1 support.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TextAlign" UniqueId="1viXUW6mz1whaqBQHzhVZg" DefinedType="IfcTextAlignment" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+This property describes how text is aligned horizontally within the element. The actual justification algorithm used is dependent on the rendering algorithm.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TextDecoration" UniqueId="2veQa7GPn9ax78J9MIlWVf" DefinedType="IfcTextDecoration" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+This property describes decorations that are added to the text of an element.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LetterSpacing" UniqueId="2q2q2Y4qP5b8hAxLKeuD51" DefinedType="IfcSizeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The length unit indicates an addition to the default space between characters. Values can be negative, but there may be implementation-specific limits. The user agent is free to select the exact spacing algorithm. The letter spacing may also be influenced by justification (which is a value of the &apos;align&apos; property).
+  &lt;blockquote&gt; &lt;small&gt;NOTE&amp;nbsp; The following values are allowed, &lt;i&gt;IfcDescriptiveMeasure&lt;/i&gt; with value=&apos;normal&apos;, or &lt;i&gt;IfcLengthMeasure&lt;i&gt;, the length unit is globally defined at &lt;i&gt;IfcUnitAssignment&lt;/i&gt;.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="WordSpacing" UniqueId="2anJ_aX4v79uRR9PO4Ufel" DefinedType="IfcSizeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The length unit indicates an addition to the default space between words. Values can be negative, but there may be implementation-specific limits. The user agent is free to select the exact spacing algorithm. The word spacing may also be influenced by justification (which is a value of the &apos;text-align&apos; property).
+  &lt;blockquote&gt; &lt;small&gt;NOTE&amp;nbsp; It has been introduced for later compliance to full CSS1 support.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TextTransform" UniqueId="2APD8x8zjFTeGml8tp0ZZJ" DefinedType="IfcTextTransformation" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+This property describes how text characters may transform to upper case, lower case, or capitalized case, independent of the character case used in the text literal.
+  &lt;blockquote&gt; &lt;small&gt;NOTE&amp;nbsp; It has been introduced for later compliance to full CSS1 support.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LineHeight" UniqueId="0YPkEvufjAPfnUUf_LGvvG" DefinedType="IfcSizeSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The property sets the distance between two adjacent lines&apos; baselines.&lt;br&gt;
+When a ratio value is specified, the line height is given by the font size of the current element multiplied with the numerical value. A value of &apos;normal&apos; sets the line height to a reasonable value for the element&apos;s font. It is suggested that user agents set the &apos;normal&apos; value to be a ratio number in the range of 1.0 to 1.2.
+  &lt;blockquote&gt; &lt;small&gt;NOTE&amp;nbsp; The following values are allowed:&lt;br&gt; &lt;i&gt;IfcDescriptiveMeasure&lt;/i&gt; with value=&apos;normal&apos;, or &lt;br&gt;
+&lt;i&gt;IfcLengthMeasure&lt;i&gt;, with non-negative values, the length unit is globally defined at &lt;i&gt;IfcUnitAssignment&lt;/i&gt;, or &lt;br&gt;&lt;i&gt;IfcRatioMeasure&lt;/i&gt;.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

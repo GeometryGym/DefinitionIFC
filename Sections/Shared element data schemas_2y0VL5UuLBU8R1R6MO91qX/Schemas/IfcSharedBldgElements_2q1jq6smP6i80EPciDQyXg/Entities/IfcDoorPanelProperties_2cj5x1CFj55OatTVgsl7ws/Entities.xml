@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoorPanelProperties" UniqueId="2cj5x1CFj55OatTVgsl7ws" DiagramNumber="3" BaseDefinition="IfcPropertySetDefinition" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PanelDepth" UniqueId="3XTJPib_XBbBQ3R7$qgnlh" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Depth of the door panel, measured perpendicular to the plane of the door leaf.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PanelOperation" UniqueId="0mOUtZikv9chV94TaDAnHt" DefinedType="IfcDoorPanelOperationEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The PanelOperation defines the way of operation of that panel. The PanelOperation of the door panel has to correspond with the OperationType of the IfcDoorStyle.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PanelWidth" UniqueId="3amclrggzFruODxS2vK9IK" DefinedType="IfcNormalisedRatioMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Width of this panel, given as ratio relative to the total clear opening width of the door.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PanelPosition" UniqueId="3kGd4cz2T2wux1Xth9XUWt" DefinedType="IfcDoorPanelPositionEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Position of this panel within the door.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ShapeAspectStyle" UniqueId="3v19MXxMPFpvbTYNtMWvLc" DefinedType="IfcShapeAspect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Pointer to the shape aspect, if given. The shape aspect reflects the part of the door shape, which represents the door panel.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="1YOME0ApP73fdGECiTogqQ">
+			<Documentation>&lt;EPM-HTML&gt;
+The &lt;i&gt;IfcDoorPanelProperties&lt;/i&gt; shall only be used in the context of an &lt;i&gt;IfcDoorStyle&lt;/i&gt;.
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>EXISTS(SELF\IfcPropertySetDefinition.DefinesType[1]) AND 
+(&apos;IFCSHAREDBLDGELEMENTS.IFCDOORSTYLE&apos; IN TYPEOF(SELF\IfcPropertySetDefinition.DefinesType[1]))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

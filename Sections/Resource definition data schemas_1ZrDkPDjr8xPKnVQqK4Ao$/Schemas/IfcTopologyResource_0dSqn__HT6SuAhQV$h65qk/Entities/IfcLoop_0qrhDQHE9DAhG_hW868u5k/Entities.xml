@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLoop" UniqueId="0qrhDQHE9DAhG_hW868u5k" DiagramNumber="2" BaseDefinition="IfcTopologicalRepresentationItem" EntityFlags="109">
+	<Subtypes>
+		<DocSubtype UniqueId="2WEJRa8nX0ZRdX8k$GOrmq" DefinedType="IfcPolyLoop" />
+		<DocSubtype UniqueId="0DHH_DL9T1pfOgEk3zmKS4" DefinedType="IfcVertexLoop" />
+		<DocSubtype UniqueId="0w3IS8uH96Yeae5HGrnQ7f" DefinedType="IfcEdgeLoop" />
+	</Subtypes>
+</DocEntity>
+

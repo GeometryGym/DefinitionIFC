@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcActorRole" UniqueId="36OF3Foob1cu6NnSvM6kHg" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Role" UniqueId="3pTnDKEyfA$AaXLBb0yJFX" DefinedType="IfcRoleEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name of the role played by an actor. If the Role has value USERDEFINED, then
+the user defined role shall be provided as a value of the attribute UserDefinedRole.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UserDefinedRole" UniqueId="3ZLrQIIrrC3POpceCYe3gM" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Allows for specification of user defined roles beyond the 
+enumeration values provided by Role attribute of type IfcRoleEnum. 
+When a value is provided for attribute UserDefinedRole in parallel 
+the attribute Role shall have enumeration value USERDEFINED.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="1Qj$nFDcH569FaKHMUtqP0" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>A textual description relating the nature of the role played by an actor.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="136UN095j5_gi8jBO8KvUT">
+			<Documentation>When attribute Role has enumeration value USERDEFINED
+then attribute UserDefinedRole shall also have a value.</Documentation>
+			<Expression>(Role &lt;&gt; IfcRoleEnum.USERDEFINED) OR
+((Role = IfcRoleEnum.USERDEFINED) AND
+  EXISTS(SELF.UserDefinedRole))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

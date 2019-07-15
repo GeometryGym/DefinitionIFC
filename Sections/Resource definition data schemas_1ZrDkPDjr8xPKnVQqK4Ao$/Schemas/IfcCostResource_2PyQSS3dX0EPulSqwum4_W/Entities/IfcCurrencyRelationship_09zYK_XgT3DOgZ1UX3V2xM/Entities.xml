@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurrencyRelationship" UniqueId="09zYK_XgT3DOgZ1UX3V2xM" DiagramNumber="2" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="RelatingMonetaryUnit" UniqueId="2y6eDJfWr6DxSvkAyhmJ7A" DefinedType="IfcMonetaryUnit" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The monetary unit from which an exchange is derived. For instance, in the case of a conversion from GBP to USD, the relating monetary unit is GBP.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedMonetaryUnit" UniqueId="1eO2VFXWbAlPCVmBGzxGPo" DefinedType="IfcMonetaryUnit" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The monetary unit to which an exchange results. For instance, in the case of a conversion from GBP to USD, the related monetary unit is USD.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ExchangeRate" UniqueId="2x7C3am6XBqfQcNqXUZXCK" DefinedType="IfcPositiveRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The currently agreed ratio of the amount of a related monetary unit that is equivalent to a unit amount of the relating monetary unit in a currency relationship. For instance, in the case of a conversion from GBP to USD, the value of the exchange rate may be 1.486 (USD) : 1 (GBP).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RateDateTime" UniqueId="0OtdhuQ1fD5hiO2MacnrzQ" DefinedType="IfcDateAndTime" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The date and time at which an exchange rate applies.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RateSource" UniqueId="1W3q3fitz8fwuoPfpF73y9" DefinedType="IfcLibraryInformation" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The source from which an exchange rate is obtained.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

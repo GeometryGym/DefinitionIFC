@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ValvePattern_1vQvSP99nEsg_aQTxBMIZ" Name="ValvePattern" UniqueId="796b9719-249c-4eda-afa4-69deff2d64a3" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ValvePattern_17KcWLoAL8GvejfQFhj7YB" />
+	</Enumeration>
+</DocProperty>
+

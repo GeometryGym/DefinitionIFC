@@ -1,0 +1,59 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI</u>: The <i>IfcGeometricRepresentationSubContext</i>
+defines the context that applies to several shape representations of a
+product being a sub context, sharing the <i>WorldCoordinateSystem</i>,
+<i>CoordinateSpaceDimension</i>, <i>Precision</i> and <i>TrueNorth</i>
+attributes with the parent <i>IfcGeometricRepresentationContext</i>.</p>
+<p>The <i>IfcGeometricRepresentationSubContext</i>
+is used to define semantically distinguished representation types for
+different information content, dependent on the representation view and
+the target scale. It can be used to control the level of detail of the
+shape representation that is most applicable to this geometric
+representation context. addition the sub context is used to
+control the later appearance of the <i>IfcShapeRepresentation
+</i>within a plot view. <br>
+</p>
+<blockquote>
+  <p><small>NOTE&nbsp;
+If the <i>IfcShapeRepresentation</i>
+using this sub context has<i>
+IfcStyledItem</i>'s assigned to the <i>Items</i>,
+the presentation style information (e.g. <i>IfcCurveStyle</i>,
+  <i>IfcTextStyle</i>)
+associated with the <i>IfcStyledItem</i>
+is given in target
+plot dimensions. E.g. a line thickness (<i>IfcCurveStyle.CurveWidth</i>)
+is given by a thickness measure relating to the thickness for a plot
+within the (range of) target scale.</small></p>
+</blockquote>
+<p>Each <i>IfcProduct</i>
+can then have several instances of subtypes of <i>IfcRepresentation</i>,
+each being assigned to a different geometric representation context (<i>IfcGeometricRepresentationContext</i>
+or <i>IfcGeometricRepresentationSubContext</i>).
+The application can then choose the most appropriate representation for
+showing the geometric shape of the product, depending on the target
+view and scale.</p>
+<blockquote>
+  <p><small>NOTE
+The provision of a model view
+(<i>IfcGeometricRepresentationContext.ContextType</i>
+= 'Model') is mandatory. Instances of <i>IfcGeometricRepresentationSubContext</i>
+relate to it as its <i>ParentContext</i>.</small></p>
+</blockquote>
+<blockquote>
+  <p><small>EXAMPLE&nbsp;
+Instances
+of <i>IfcGeometricRepresentationSubContext</i>
+can be used to handle the multi-view blocks or macros,
+which are used
+in CAD programs to store several scale and/or view dependent geometric
+representations of the same object.</small>
+  </p>
+</blockquote>
+<blockquote>
+  <p><font
+ color="#0000ff" size="-1">HISTORY New entity
+in Release IFC 2x Edition 2.</font></p>
+</blockquote>
+</EPM-HTML>

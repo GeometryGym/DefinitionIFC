@@ -1,0 +1,102 @@
+<EPM-HTML>
+	<p><u><b>Definition from IAI</b></u>: 
+    The element type <i>IfcValveType</i> defines a list of commonly shared property
+	set definitions of a valve and an optional set of product representations.
+	It is used to define a valve specification (i.e. the specific product
+	information, that is common to all occurrences of that product type).</p> 
+	 
+	<blockquote>
+		<font size="-1">
+		NOTE: The product representations are defined as
+		representation maps (at the level of the supertype <i>IfcTypeProduct</i>) which
+		get assigned by an element occurrence instance through the
+		<i>IfcShapeRepresentation.Item[1]</i> being an
+		<i>IfcMappedItem</i>.
+    	</font>
+    </blockquote>
+    
+    <p>A valve type is used to define the common properties of a
+	valve that may be applied to many occurrences of that type.
+	Valves are typically is used in a building services piping 
+    distribution system to control or modulate the flow of the fluid.    
+	Valve types (or the instantiable subtypes) may be exchanged 
+    without being already assigned to occurrences.</p> 
+	
+    <p>The occurrences of the <i>IfcValveType</i> are represented
+	by instances of <i>IfcFlowController</i> or its subtypes.</p> 
+    
+    <p><u><b>Property Set Use Definition</b></u>:</p> 
+    <p>The property sets relating to this entity are defined by the
+    <i>IfcPropertySet</i> and attached by the <i>IfcRelDefinesByProperties</i>
+    relationship. It is accessible by the inverse <i>IsDefinedBy</i> relationship.
+    The following property set definitions specific to this entity are part
+    of this IFC release:
+    </p> 
+    <ul> 
+       <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypeCommon.xml"
+         target="SOURCE">Pset_ValveTypeCommon</a>: common property set for all valve
+         types
+       </li> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypeAirRelease.xml"
+             target="SOURCE">Pset_ValveTypeAirRelease</a>: property set for air release valve
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypeDrawOffCock.xml"
+             target="SOURCE">Pset_ValveTypeDrawOffCock</a>: property set for draw off cock valve
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypeFaucet.xml"
+             target="SOURCE">Pset_ValveTypeFaucet</a>: property set for faucet valve
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypeFlushing.xml"
+             target="SOURCE">Pset_ValveTypeFlushing</a>: property set for flushing valve
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypeGasTap.xml"
+             target="SOURCE">Pset_ValveTypeGasTap</a>: property set for gas tap valve
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypeIsolating.xml"
+             target="SOURCE">Pset_ValveTypeIsolating</a>: property set for isolating valve
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypeMixing.xml"
+             target="SOURCE">Pset_ValveTypeMixing</a>: property set for mixing valve
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypePressureReducing.xml"
+             target="SOURCE">Pset_ValveTypePressureReducing</a>: property set for pressure reducing valve
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_ValveTypePressureRelief.xml"
+             target="SOURCE">Pset_ValveTypePressureRelief</a>: property set for pressure relief valve
+             types
+           </li> 
+        </ul> 
+    </ul> 
+    
+	<blockquote>
+		<font color="#0000ff" size="-1">
+    	HISTORY: New entity in IFC Release 2x2.<br>
+    	</font>
+    </blockquote>
+
+</EPM-HTML>

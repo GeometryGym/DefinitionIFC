@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_BuildingCommon" UniqueId="03bd90df-9785-459b-87e5-8eb3dc76760c" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="BuildingID_2PGHu5yVb2oh2QbKZwCGr" />
+		<DocProperty xsi:nil="true" href="IsPermanentID_2SRsYmVj517f1tda59QDka" />
+		<DocProperty xsi:nil="true" href="MainFireUse_2ZoE6K_tD5Wvml7hCcb8Lr" />
+		<DocProperty xsi:nil="true" href="AncillaryFireUse_2xkqV2ng1FywU3p68cW5H3" />
+		<DocProperty xsi:nil="true" href="SprinklerProtection_1BNxgCulv17O5hbTFoLp9_" />
+		<DocProperty xsi:nil="true" href="SprinklerProtectionAutomatic_1Wdg_QypX8zhHczLY0bHDk" />
+		<DocProperty xsi:nil="true" href="OccupancyType_0AUa0YXOPCtQhj3kwF7wC1" />
+		<DocProperty xsi:nil="true" href="GrossPlannedArea_1yevyvk19g9COk1DymI1p" />
+		<DocProperty xsi:nil="true" href="NumberOfStoreys_3PFTqerib4fPBs8_MaoTc" />
+		<DocProperty xsi:nil="true" href="YearOfConstruction_1K5w36iLD1VOcCvVN9twgt" />
+		<DocProperty xsi:nil="true" href="IsLandmarked_2Ze1W3ODL2SQB6WaTCxOFZ" />
+	</Properties>
+</DocPropertySet>
+

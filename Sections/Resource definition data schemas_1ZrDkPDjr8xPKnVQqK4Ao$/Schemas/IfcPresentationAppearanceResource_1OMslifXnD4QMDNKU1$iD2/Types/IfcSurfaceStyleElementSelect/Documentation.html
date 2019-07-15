@@ -1,0 +1,28 @@
+<EPM-HTML> 
+	 <P><U>Definition from ISO/CD 10303-46:1992</U>: The surface style element
+		select is a selection of the different surface styles to use in the
+		presentation of the side of a surface.</P> 
+	 <P><U>Definition from IAI</U>: The select type only includes the
+		<I>IfcSurfaceStyleRendering</I> (which is the equivalent to
+		surface_style_rendering) from the select type surface_style_element_select. In
+		addition it has the <I>IfcSurfaceStyleLighting</I>, which holds the exact
+		physically based lighting properties for lighting based calculation algorithms
+		(as the opposite to the rendering based calculation), the
+		<I>IfcSurfaceStyleRefraction</I> (for more advanced refraction indices) and
+		<I>IfcSurfaceStyleWithTextures</I> (to allow for image textures applied to
+		surfaces). In addition an <I>IfcExternallyDefinedSurfaceStyle</I> can be
+		selected that points into an external material library.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE The <I>IfcSurfaceLightingProperties</I> are
+		  needed for exact lighting calculation, because physically based lighting
+		  calculation algorithms need exact physically based parameters. The factors in
+		  <I>IfcSurfaceStyleRendering</I> lack the physical base, they are intended for
+		  rendering calculations, but a lighting calculation based software cannot use
+		  these values.</FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1" COLOR="#0000FF">NOTE: Corresponding STEP type:
+		  surface_style_element_select. Please refer to ISO/IS 10303-46:1994, p. 85 for
+		  the final definition of the formal standard. </FONT></P> </BLOCKQUOTE> 
+	 <BLOCKQUOTE> <FONT SIZE="-1" COLOR="#0000FF">HISTORY: New Select type in
+		IFC Release 2x2. </FONT> </BLOCKQUOTE>
+</EPM-HTML>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDocumentConfidentialityEnum" UniqueId="2Phram3nj4oemVi$Y0p4to" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="PUBLIC_3OIHb8YM97e8Y7eEucqeV" />
+		<DocConstant xsi:nil="true" href="RESTRICTED_3uSoOaz9P1X8pTe8xir5PN" />
+		<DocConstant xsi:nil="true" href="CONFIDENTIAL_1j4KS9Mv180AJvcQGwddp8" />
+		<DocConstant xsi:nil="true" href="PERSONAL_2ymhecQDC_x2DFLhT8qSL" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3QEGFmSIz0YxLTQ7EyQn5e" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0g2u8yLyHBQebqtCj97rL8" />
+	</Constants>
+</DocEnumeration>
+

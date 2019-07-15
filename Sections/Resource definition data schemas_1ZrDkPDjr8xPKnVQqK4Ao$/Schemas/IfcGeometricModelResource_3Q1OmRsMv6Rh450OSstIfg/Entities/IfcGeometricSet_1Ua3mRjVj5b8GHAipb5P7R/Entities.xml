@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcGeometricSet" UniqueId="1Ua3mRjVj5b8GHAipb5P7R" DiagramNumber="6" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="109">
+	<Subtypes>
+		<DocSubtype UniqueId="2xOA27Fiv5N98_tMLLJZbh" DefinedType="IfcGeometricCurveSet" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Elements" UniqueId="20Z_AeMev9uu$RwcYtc0ZC" DefinedType="IfcGeometricSetSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The geometric elements which make up the geometric set, these may be points, curves or surfaces; but are required to be of the same coordinate space dimensionality.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="23QDMwp5r2NB1r8s_cnXio" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, it is identical to the first element in the set. A where rule ensures that all elements have the same dimensionality.</Documentation>
+			<Derived>Elements[1].Dim</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="3su0Ta0T90HhR_kI8sufz$">
+			<Documentation>All elements within a geometric set shall have the same dimensionality.</Documentation>
+			<Expression>SIZEOF(QUERY(Temp &lt;* Elements |
+  Temp.Dim &lt;&gt; Elements[1].Dim))
+= 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ProjectOrderMoveOrder" UniqueId="ea26acd6-8448-41ba-8c04-0ecbb71d87b9" ApplicableType="IfcProjectOrder.Predefined=&quot;MOVEORDER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MoveDescription_1AmA13q_r6Z8N_KLNqte8z" />
+		<DocProperty xsi:nil="true" href="SpecialInstructions_1rk8QFxs93oAa8s1c4L_Wp" />
+	</Properties>
+</DocPropertySet>
+

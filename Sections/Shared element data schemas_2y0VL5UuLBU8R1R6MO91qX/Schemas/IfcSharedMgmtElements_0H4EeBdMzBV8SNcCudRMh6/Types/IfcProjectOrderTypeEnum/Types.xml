@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProjectOrderTypeEnum" UniqueId="1LE7FQtITAm9JwDVJCRpFL" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CHANGEORDER_1eaQTWAznEphYAc9SgE0Pl" />
+		<DocConstant xsi:nil="true" href="MAINTENANCEWORKORDER_1myoKm24b6rhyKxJA91he" />
+		<DocConstant xsi:nil="true" href="MOVEORDER_2JNnjhavEreJOyGNjQm1M" />
+		<DocConstant xsi:nil="true" href="PURCHASEORDER_119UbpqSr7sBFekfw5cBtA" />
+		<DocConstant xsi:nil="true" href="WORKORDER_1X46st7WbBZxRcsdi7Mddb" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_01SFFEt4b1Kewls5OJpYpj" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2uXox7Wlv8SfEJU2Qt55_y" />
+	</Constants>
+</DocEnumeration>
+

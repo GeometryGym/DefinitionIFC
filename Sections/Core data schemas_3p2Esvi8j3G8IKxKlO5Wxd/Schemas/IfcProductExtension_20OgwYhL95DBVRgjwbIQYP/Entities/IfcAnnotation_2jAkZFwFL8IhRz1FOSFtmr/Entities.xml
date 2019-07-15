@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAnnotation" UniqueId="2jAkZFwFL8IhRz1FOSFtmr" DiagramNumber="5" BaseDefinition="IfcProduct" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="ContainedInStructure" UniqueId="3$OwaXfDf9$QDcrZnfyW4H" DefinedType="IfcRelContainedInSpatialStructure" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedElements">
+			<Documentation>Relationship to a spatial structure element, to which the associate is primarily associated.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AirSideSystemDistributionType_3wnol94NX3Fu4UZuro8M3" Name="AirSideSystemDistributionType" UniqueId="fac72bc9-1178-433f-811e-fe3e35c88583" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirSideSystemDistributionType_3vESHsGtv0qvLFFckGC_vs" />
+	</Enumeration>
+</DocProperty>
+

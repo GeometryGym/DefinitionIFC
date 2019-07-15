@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcObjectTypeEnum" UniqueId="3ZESct$WLCBRWUOXAqv$m9" DiagramNumber="5">
+	<Constants>
+		<DocConstant xsi:nil="true" href="PRODUCT_3DpT3Pom19rBK2eLg0KxxZ" />
+		<DocConstant xsi:nil="true" href="PROCESS_0jWg2APD6DPLQZSEbSA2V" />
+		<DocConstant xsi:nil="true" href="CONTROL_2Bk9Kd_1bB29DQcYZsZpUS" />
+		<DocConstant xsi:nil="true" href="RESOURCE_1rDg9H7L9FdR2uf0Pj8WIH" />
+		<DocConstant xsi:nil="true" href="ACTOR_1fOlAx82PBMPew9Vhp3Ycb" />
+		<DocConstant xsi:nil="true" href="GROUP_0Lm0ot4ODC_PEd1s1pmDAO" />
+		<DocConstant xsi:nil="true" href="PROJECT_3IEMkZDGj2ef_1U6HN3d0W" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3Z8mCGJBrEWxOeNGxxjsWA" />
+	</Constants>
+</DocEnumeration>
+

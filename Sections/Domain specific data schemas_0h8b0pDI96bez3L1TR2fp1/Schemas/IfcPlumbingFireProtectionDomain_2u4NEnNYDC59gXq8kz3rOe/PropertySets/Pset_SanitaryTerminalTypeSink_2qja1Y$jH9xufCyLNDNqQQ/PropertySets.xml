@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SanitaryTerminalTypeSink" UniqueId="b4b64062-fed4-49ef-8a4c-f155cd5f469a" ApplicableType="IfcSanitaryTerminal.Predefined=&quot;SINK&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="SinkType_2bLQqddzr3BfpqRpyyvaq" />
+		<DocProperty xsi:nil="true" href="SinkMounting_13cJACKgLAtQfu5bjUg0w_" />
+		<DocProperty xsi:nil="true" href="NominalLength_07BusTZA5AtROoLluOlhB1" />
+		<DocProperty xsi:nil="true" href="NominalWidth_2AuHTImVr33eKzOaBkJ30G" />
+		<DocProperty xsi:nil="true" href="NominalDepth_3rHXGiodP27R5N8qFIx8mA" />
+		<DocProperty xsi:nil="true" href="Material_1C6BNRBXH3KOc09dmb_GlE" />
+		<DocProperty xsi:nil="true" href="Color_0P8du5tXn4KOGGcNpnvQz0" />
+		<DocProperty xsi:nil="true" href="DrainSize_1J8NE9U1DAVwVgTwVzOg0H" />
+	</Properties>
+</DocPropertySet>
+

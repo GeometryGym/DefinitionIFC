@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CoilConnectionDirection_0IgU227YL9sO7WC3Iah4pv" Name="PEnum_CoilConnectionDirection" UniqueId="12a9e082-1e25-49d9-81e0-3034a4ac4cf9">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="LEFT_12va55qyXDXA14gcDazVmF" />
+		<DocPropertyConstant xsi:nil="true" href="RIGHT_1AyxqbkrT1iAmkyWty0Jz6" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

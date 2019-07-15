@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ThermalLoadDesignCriteria" UniqueId="41be9adf-6b83-444e-889e-47fee0dc1b21" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="OccupancyDiversity_2lTVherbF2RRHFI94sHSH" />
+		<DocProperty xsi:nil="true" href="OutsideAirPerPerson_33tFoVDTBnuGBnnOCPIBd" />
+		<DocProperty xsi:nil="true" href="ReceptacleLoadIntensity_0ciwkjQwjEqfn_apYcPL_" />
+		<DocProperty xsi:nil="true" href="AppliancePercentLoadToRadiant_32UzBCiWn31voAeIr7dEEL" />
+		<DocProperty xsi:nil="true" href="LightingLoadIntensity_0o4SiH6Xe6eIsCOI6iw" />
+		<DocProperty xsi:nil="true" href="LightingPercentLoadToReturnAir_2Su8HqzNHDJOW4LhX7WGw" />
+	</Properties>
+</DocPropertySet>
+

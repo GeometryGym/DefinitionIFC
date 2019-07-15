@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPolyLoop" UniqueId="37lLOgWYnA4w791mSFiTUG" DiagramNumber="2" BaseDefinition="IfcLoop" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Polygon" UniqueId="3kGMl_AwfCS9v8$OlgKfkz" DefinedType="IfcCartesianPoint" AttributeFlags="0" AggregationType="1" AggregationFlag="2" AggregationLower="3" AggregationUpper="0">
+			<Documentation>List of points defining the loop. There are no repeated points in the list.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="3Of0Ig4V1ADw7wrJA484Xc">
+			<Documentation>The space dimensionality of all Points shall be the same.</Documentation>
+			<Expression>SIZEOF(QUERY(Temp &lt;* Polygon | Temp.Dim &lt;&gt; Polygon[1].Dim)) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

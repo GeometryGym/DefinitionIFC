@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CoolingTowerTypeCommon" UniqueId="e1a6303e-2681-444f-9163-891d90451038" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalCapacity_3Wp5l1BAz2h8nBA3waxqqH" />
+		<DocProperty xsi:nil="true" href="CircuitType_0r5b1rtYTFRwcPj6fcErp_" />
+		<DocProperty xsi:nil="true" href="FlowArrangement_3qOiNMJu55jhbC_0FHBUQM" />
+		<DocProperty xsi:nil="true" href="SprayType_1SPcMmIxPFVQzf19VpRXa1" />
+		<DocProperty xsi:nil="true" href="CapacityControl_1qQGrvTUHABhsQuT6rKsJh" />
+		<DocProperty xsi:nil="true" href="ControlStrategy_2ze9pghdT5hB6cJRYOfnzZ" />
+		<DocProperty xsi:nil="true" href="NumberOfCells_0RfcJezJvFKB3FliBbAvca" />
+		<DocProperty xsi:nil="true" href="BasinReserveVolume_00rrYff9z2JvG_I6LNjyLs" />
+		<DocProperty xsi:nil="true" href="LiftElevationDifference_1hTYW5ygH3ngoAnF7elDSj" />
+		<DocProperty xsi:nil="true" href="WaterRequirement_3pMUbC6pn81Qqerinvj_j" />
+		<DocProperty xsi:nil="true" href="OperationTemperatureRange_21xGzyQlXAtPZ9OjwDHz29" />
+		<DocProperty xsi:nil="true" href="CasingMaterial_2sMprYcBT3TvtdxQJwQuN" />
+		<DocProperty xsi:nil="true" href="FillMaterial_0b8kLTG4L1DhslVASfUVXy" />
+		<DocProperty xsi:nil="true" href="Weight_2LrsKdUk9BYffsoZHJ7pzA" />
+		<DocProperty xsi:nil="true" href="AmbientDesignDryBulbTemperature_16EgrlEmz4mPHJP5LTh6Xn" />
+		<DocProperty xsi:nil="true" href="AmbientDesignWetBulbTemperature_26DervssTE4geKte7q1aec" />
+	</Properties>
+</DocPropertySet>
+

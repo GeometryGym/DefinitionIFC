@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCsgPrimitive3D" UniqueId="3EGIRgkU91bvQJUEIZpBpv" DiagramNumber="2" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="3Y8IIw6Qf1Cx5l4gtk7LdL" DefinedType="IfcBlock" />
+		<DocSubtype UniqueId="28iQYF43v469vJX2$_Zg6a" DefinedType="IfcRectangularPyramid" />
+		<DocSubtype UniqueId="0KOmp8Lgv9kQhElI$zA6T5" DefinedType="IfcRightCircularCylinder" />
+		<DocSubtype UniqueId="2jXwYwrp9ALvNNg6qkanYB" DefinedType="IfcRightCircularCone" />
+		<DocSubtype UniqueId="3PUe$hBQvCfeWU$vrYt7NU" DefinedType="IfcSphere" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Position" UniqueId="1mAPjrj3b7vv4_ks8c1J80" DefinedType="IfcAxis2Placement3D" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The placement coordinate system to which the parameters of each individual CSG primitive apply.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="2EJtKWJL19JhRdrFokN$C$" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The space dimensionality of this geometric representation item, it is always 3.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Derived>3</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SiteCommon" UniqueId="8732906e-edd6-4792-9463-7d01d04f4c00" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="BuildableArea_2GaM68TvH2b8l7xPbSPjZ" />
+		<DocProperty xsi:nil="true" href="TotalArea_019NnNcmD4YBzuv1HWM5f" />
+		<DocProperty xsi:nil="true" href="BuildingHeightLimit_1HhQunIlXByfXCLTOiJZ3g" />
+	</Properties>
+</DocPropertySet>
+

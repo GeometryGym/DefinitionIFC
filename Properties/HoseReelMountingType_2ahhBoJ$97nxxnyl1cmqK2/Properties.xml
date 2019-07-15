@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="HoseReelMountingType_2ahhBoJ97nxxnyl1cmqK2" Name="HoseReelMountingType" UniqueId="a4aeb2f2-4ff2-47c7-bef1-f2f066c34502" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HoseReelMountingType_05abnUn6X0A9DB59wRDTx3" />
+	</Enumeration>
+</DocProperty>
+

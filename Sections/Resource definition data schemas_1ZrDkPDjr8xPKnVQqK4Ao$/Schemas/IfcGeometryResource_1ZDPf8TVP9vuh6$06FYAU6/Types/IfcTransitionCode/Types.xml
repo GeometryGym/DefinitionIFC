@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTransitionCode" UniqueId="0bUWYlm352VgCbq0sv90_B" DiagramNumber="6">
+	<Constants>
+		<DocConstant xsi:nil="true" href="DISCONTINUOUS_2inPxXxVbAmO6Jj9iQQxG6" />
+		<DocConstant xsi:nil="true" href="CONTINUOUS_1jBkR3kVn7dxVYGmzvQkJ" />
+		<DocConstant xsi:nil="true" href="CONTSAMEGRADIENT_0Af2yfGEb5gQDJDXU9MJg" />
+		<DocConstant xsi:nil="true" href="CONTSAMEGRADIENTSAMECURVATURE_1a9FkO43H6aAOmiCjtP_8w" />
+	</Constants>
+</DocEnumeration>
+

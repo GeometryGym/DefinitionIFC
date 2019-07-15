@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ActuationType_3CYdt19PnEQh8pMQbtM4HN" Name="ActuationType" UniqueId="cc8a7dc1-259c-4e6a-b233-59a977584457" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FireDamperActuationType_1QtPsSs18lgCQsSulaKk8" />
+	</Enumeration>
+</DocProperty>
+

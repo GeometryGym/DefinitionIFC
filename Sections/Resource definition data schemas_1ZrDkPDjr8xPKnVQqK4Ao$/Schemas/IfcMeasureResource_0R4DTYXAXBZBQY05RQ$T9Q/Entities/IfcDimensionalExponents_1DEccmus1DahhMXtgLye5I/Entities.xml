@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDimensionalExponents" UniqueId="1DEccmus1DahhMXtgLye5I" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="LengthExponent" UniqueId="2NJe1fvSj3pukV0cizxc84" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The power of the length base quantity.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MassExponent" UniqueId="1iNadvjkP18egolk365zpf" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The power of the mass base quantity.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TimeExponent" UniqueId="1RhXWRvE9DkQNJFw$Wx301" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The power of the time base quantity.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ElectricCurrentExponent" UniqueId="2lf3$zPrL7YwfeYjk2uqao" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The power of the electric current base quantity.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ThermodynamicTemperatureExponent" UniqueId="2E8N7R8pP6u8g7LejrdHlt" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The power of the thermodynamic temperature base quantity.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="AmountOfSubstanceExponent" UniqueId="21JsCcDOPELuHg0PMGJ7$K" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The power of the amount of substance base quantity.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LuminousIntensityExponent" UniqueId="2yra9nlWjF0ACAF$myFslB" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The power of the luminous intensity base quantity.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

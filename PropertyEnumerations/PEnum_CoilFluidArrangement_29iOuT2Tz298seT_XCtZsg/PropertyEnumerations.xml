@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CoilFluidArrangement_29iOuT2Tz298seT_XCtZsg" Name="PEnum_CoilFluidArrangement" UniqueId="89b18e1d-09df-4224-8da8-77e84cde3daa">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CROSSFLOW_1XPZvDiAr0EfNewrQuLAnS" />
+		<DocPropertyConstant xsi:nil="true" href="CROSSCOUNTERFLOW_3XJk2bVXLERhP1wqZIZAtH" />
+		<DocPropertyConstant xsi:nil="true" href="CROSSPARALLELFLOW_1NOR_o_zb3GAQaDS24_Esr" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

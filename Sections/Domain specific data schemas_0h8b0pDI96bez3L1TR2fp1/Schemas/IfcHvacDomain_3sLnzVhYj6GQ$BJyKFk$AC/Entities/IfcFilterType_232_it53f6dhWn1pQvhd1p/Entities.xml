@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFilterType" UniqueId="232_it53f6dhWn1pQvhd1p" DiagramNumber="2" BaseDefinition="IfcFlowTreatmentDeviceType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="2NwlvwPb519RFttWufbAXU" DefinedType="IfcFilterTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The type of air filter.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="22unaT8X934eeOnke8UMTD">
+			<Expression>(PredefinedType &lt;&gt; IfcFilterTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcFilterTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

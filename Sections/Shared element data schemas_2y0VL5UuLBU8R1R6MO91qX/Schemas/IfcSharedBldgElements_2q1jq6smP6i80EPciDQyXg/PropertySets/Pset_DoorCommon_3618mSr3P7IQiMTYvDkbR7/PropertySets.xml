@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DoorCommon" UniqueId="c6048c1c-d436-4749-ab16-762e4dba56c7" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_0dYmHks_P4v9RBOYI5RF1R" />
+		<DocProperty xsi:nil="true" href="FireRating_0MiCqP1MX4o8PCeMtrtMdo" />
+		<DocProperty xsi:nil="true" href="AcousticRating_3hy1wvClTAJve6gJ0a7hs6" />
+		<DocProperty xsi:nil="true" href="SecurityRating_3Z72cyczbCJgdfQ4D3KBQA" />
+		<DocProperty xsi:nil="true" href="IsExternal_3FVaJIZXDDxgK_owUaGeeV" />
+		<DocProperty xsi:nil="true" href="Infiltration_1_xu4Jxlz4fQLafvLE9Zcq" />
+		<DocProperty xsi:nil="true" href="ThermalTransmittance_0ALcKdfAL2zAOiTU1e0V1j" />
+		<DocProperty xsi:nil="true" href="GlazingAreaFraction_0hHvurNrP7FuIpCjyOI39_" />
+		<DocProperty xsi:nil="true" href="HandicapAccessible_3bZ7ki_yb7VPHLCyvCTnPf" />
+		<DocProperty xsi:nil="true" href="FireExit_1smqnUSzPAEveZRzfxK4hU" />
+		<DocProperty xsi:nil="true" href="SelfClosing_18yXdyqof6Yfz2Bf1F_NoO" />
+		<DocProperty xsi:nil="true" href="SmokeStop_3_mSX7gl92kg70k5YZuEsM" />
+	</Properties>
+</DocPropertySet>
+

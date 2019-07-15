@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAppliedValueSelect" UniqueId="2sSfx03tH61fLyabubSZId" DiagramNumber="1">
+	<Selects>
+		<DocSelectItem Name="IfcRatioMeasure" UniqueId="3ocVXC9bn2U90Ki4hX_$d8" />
+		<DocSelectItem Name="IfcMeasureWithUnit" UniqueId="1_uHuLB9z9ag3K1jj7IkC8" />
+		<DocSelectItem Name="IfcMonetaryMeasure" UniqueId="1PdqLfD2fFwhv3snMJDeM8" />
+	</Selects>
+</DocSelect>
+

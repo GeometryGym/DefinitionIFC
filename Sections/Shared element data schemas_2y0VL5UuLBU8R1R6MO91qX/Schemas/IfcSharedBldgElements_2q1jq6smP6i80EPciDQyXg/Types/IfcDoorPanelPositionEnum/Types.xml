@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoorPanelPositionEnum" UniqueId="1M7KJoDV998wosYHmyYY1N" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="LEFT_0LDLMj_BHCx9Hyql3FoaDb" />
+		<DocConstant xsi:nil="true" href="MIDDLE_1WALpR_hTDPRlhC0YoRJNx" />
+		<DocConstant xsi:nil="true" href="RIGHT_2AB9E0IvT1ku3CB82toie6" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1i4hP2SU51mxapliDwvHuT" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLightIntensityDistribution" UniqueId="10P5N_GR199v1s4fAXI8wW" DiagramNumber="3" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="LightDistributionCurve" UniqueId="2R5hHQYqzBBe8k2XhZo7SA" DefinedType="IfcLightDistributionCurveEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Standardized  light distribution curve used to define the luminous intensity of the light in all directions.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DistributionData" UniqueId="1aONwCFyD2vx7wykLuCrhF" DefinedType="IfcLightDistributionData" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>&lt;EPM-HTML&gt;
+&lt;P&gt;Light distribution data applied to the light source. It is defined by a list of main plane angles (B or C according to the light distribution curve chosen) that includes (for each B or C angle) a second list of secondary plane angles (the &amp;#946; or &amp;#947; angles) and the according luminous intensity distribution measures.
+&lt;/P&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

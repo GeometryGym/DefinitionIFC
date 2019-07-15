@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTubeBundleTypeEnum" UniqueId="2PImGSK$nDofpCo3PSKddt" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FINNED_1jX9pTHRj0cfvMzvOuYX56" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1ZrqOQfT2hxuF65yp1TIi" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2qybgzRh18JRaPPXt2vItg" />
+	</Constants>
+</DocEnumeration>
+

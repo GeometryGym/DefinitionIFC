@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextStyleForDefinedFont" UniqueId="05QDhilkjBjgiTDqMYb4UR" DiagramNumber="3" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Colour" UniqueId="3W2JcizIDBxOylwEK8ZTT2" DefinedType="IfcColour" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+This property describes the text color of an element (often referred to as the foreground color).
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BackgroundColour" UniqueId="2kM7_ZiWT0$xpXztnDDxwl" DefinedType="IfcColour" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+This property sets the background color of an element.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

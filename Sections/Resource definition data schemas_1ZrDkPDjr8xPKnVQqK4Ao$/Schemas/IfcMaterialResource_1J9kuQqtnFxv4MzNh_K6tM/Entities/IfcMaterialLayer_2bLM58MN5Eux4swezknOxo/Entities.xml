@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMaterialLayer" UniqueId="2bLM58MN5Eux4swezknOxo" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Material" UniqueId="23czlYObr8Gh5A1PfPJR4F" DefinedType="IfcMaterial" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional reference to the material from which the layer is constructed. Note, that if this value is not given, it does not denote a layer with no material (an air gap), it only means that the material is not specified at that point.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LayerThickness" UniqueId="0RJvNBMYT2tBmkjcgx6K3j" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The thickness of the layer (dimension measured along the local x-axis of Mls LCS, in positive direction).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsVentilated" UniqueId="2H$bnZhib1y8Qv3t3Z1HFH" DefinedType="IfcLogical" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Indication of whether the material layer represents an air layer (or cavity). 
+&lt;ul&gt;
+  &lt;li&gt;set to TRUE if the material layer is an air gap and provides air exchange from the layer to the outside air.&lt;/li&gt;
+  &lt;li&gt;set to UNKNOWN if the material layer is an air gap and does not provide air exchange (or when this information about air exchange of the air gap is not available).&lt;/li&gt;
+  &lt;li&gt;set to FALSE if the material layer is a solid material layer (the default).&lt;/li&gt; 
+&lt;/ul&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ToMaterialLayerSet" UniqueId="3ADGPT73DDuf5n4D18jlda" DefinedType="IfcMaterialLayerSet" AttributeFlags="8" AggregationType="0" AggregationFlag="0" Inverse="MaterialLayers">
+			<Documentation>Reference to the material layer set, in which the material layer is included.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

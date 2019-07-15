@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcElementAssembly_2qgowZJZr7gPk96XMCIzxp" Name="IfcElementAssembly" UniqueId="2qgowZJZr7gPk96XMCIzxp" DiagramNumber="10" BaseDefinition="IfcElement" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="AssemblyPlace" UniqueId="0X2Im999LCv9$mVn12NMzi" DefinedType="IfcAssemblyPlaceEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>A designation of where the assembly is intended to take place defined by an Enum.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PredefinedType" UniqueId="0VdyCg8RP0zOO7ScYraEVb" DefinedType="IfcElementAssemblyTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined generic types for a element assembly that are specified in an enumeration.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="20uamnX8f8bO7VTe5djzAi">
+			<Documentation>The attribute ObjectType shall be given, if the predefined type is set to USERDEFINED.</Documentation>
+			<Expression>(PredefinedType &lt;&gt; IfcElementAssemblyTypeEnum.USERDEFINED) OR ((PredefinedType = IfcElementAssemblyTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcObject.ObjectType)) </Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

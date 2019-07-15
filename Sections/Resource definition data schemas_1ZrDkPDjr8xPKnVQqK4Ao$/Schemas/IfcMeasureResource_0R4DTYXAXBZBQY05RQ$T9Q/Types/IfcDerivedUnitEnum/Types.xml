@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDerivedUnitEnum" UniqueId="0dQEjpBJL6Yhecf0vrI$W2" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ANGULARVELOCITYUNIT_0HwNXwgHEpRoFxwLk8WQL" />
+		<DocConstant xsi:nil="true" href="COMPOUNDPLANEANGLEUNIT_2wPuBh5_vEDOpy_5RfR5eN" />
+		<DocConstant xsi:nil="true" href="DYNAMICVISCOSITYUNIT_3XHc1sOdv7IeHPKq5Dz42T" />
+		<DocConstant xsi:nil="true" href="HEATFLUXDENSITYUNIT_0TFoRqQXDDdRK5p3XXye0L" />
+		<DocConstant xsi:nil="true" href="INTEGERCOUNTRATEUNIT_3Yw4v6_8rCXes8A5pZs9py" />
+		<DocConstant xsi:nil="true" href="ISOTHERMALMOISTURECAPACITYUNIT_39KtE_6yjB9hoeRNdAwg5P" />
+		<DocConstant xsi:nil="true" href="KINEMATICVISCOSITYUNIT_3Fhe2LQEf1Phx_nckG0vPi" />
+		<DocConstant xsi:nil="true" href="LINEARVELOCITYUNIT_32eZFCZMz0oOPEokZygfA" />
+		<DocConstant xsi:nil="true" href="MASSDENSITYUNIT_0P3OTEWATBWua9OvSZ8NG7" />
+		<DocConstant xsi:nil="true" href="MASSFLOWRATEUNIT_1TnVgF6U563hbTvS7GsPpH" />
+		<DocConstant xsi:nil="true" href="MOISTUREDIFFUSIVITYUNIT_3oxEQyIr91HQbFESuysk4" />
+		<DocConstant xsi:nil="true" href="MOLECULARWEIGHTUNIT_3D_Vsf_Gv7qAR9mZOuN7E" />
+		<DocConstant xsi:nil="true" href="SPECIFICHEATCAPACITYUNIT_0ep8IW051CQv8Cq7npZOUV" />
+		<DocConstant xsi:nil="true" href="THERMALADMITTANCEUNIT_2ANzBdbrz1t9MFYZAY7fzd" />
+		<DocConstant xsi:nil="true" href="THERMALCONDUCTANCEUNIT_2bEjbalWX04h51t96gPF8" />
+		<DocConstant xsi:nil="true" href="THERMALRESISTANCEUNIT_2aJw10GwX8r9hpk_h_N7fR" />
+		<DocConstant xsi:nil="true" href="THERMALTRANSMITTANCEUNIT_16QGRO1lD9XRh5YHHzzpu" />
+		<DocConstant xsi:nil="true" href="VAPORPERMEABILITYUNIT_2cDukM_657cPBgOER3PLQp" />
+		<DocConstant xsi:nil="true" href="VOLUMETRICFLOWRATEUNIT_2R8kNhJv91uAdb2YIAlZCG" />
+		<DocConstant xsi:nil="true" href="ROTATIONALFREQUENCYUNIT_1YsRHXr959RRfJkyv4AY4a" />
+		<DocConstant xsi:nil="true" href="TORQUEUNIT_0mg9qK2nBvenJEZFM22sz" />
+		<DocConstant xsi:nil="true" href="MOMENTOFINERTIAUNIT_3Kx66nQIrCCv7tCIc6kRti" />
+		<DocConstant xsi:nil="true" href="LINEARMOMENTUNIT_3tS2jTvtj2s8ji5cye1iPI" />
+		<DocConstant xsi:nil="true" href="LINEARFORCEUNIT_2yPs1NeQL8kQJ3QM0DgUUY" />
+		<DocConstant xsi:nil="true" href="PLANARFORCEUNIT_0Y4xCytNz9EvvmCmUgbjNA" />
+		<DocConstant xsi:nil="true" href="MODULUSOFELASTICITYUNIT_2_Lol2qfP8Ru_JYGmVvG1" />
+		<DocConstant xsi:nil="true" href="SHEARMODULUSUNIT_3YATKJKk14N9guo3oZCaXA" />
+		<DocConstant xsi:nil="true" href="LINEARSTIFFNESSUNIT_1nMLI2o6v7OuGYFnltmE0" />
+		<DocConstant xsi:nil="true" href="ROTATIONALSTIFFNESSUNIT_0KQBoCnZ9F78EdBCrxh_XP" />
+		<DocConstant xsi:nil="true" href="MODULUSOFSUBGRADEREACTIONUNIT_2ZZFcu7XCxv12dK_6Azh" />
+		<DocConstant xsi:nil="true" href="ACCELERATIONUNIT_3qY4ZPoanA4Pv0anahy8V6" />
+		<DocConstant xsi:nil="true" href="CURVATUREUNIT_3433cQMZr7k8wCXEA0ndPh" />
+		<DocConstant xsi:nil="true" href="HEATINGVALUEUNIT_0VVYjTSMH3gP7cLb_GXBdB" />
+		<DocConstant xsi:nil="true" href="IONCONCENTRATIONUNIT_2eZLuXS3TAJv8aHITErmGW" />
+		<DocConstant xsi:nil="true" href="LUMINOUSINTENSITYDISTRIBUTIONUNIT_1McX_iSrP9Z8Zh8gyRdEP" />
+		<DocConstant xsi:nil="true" href="MASSPERLENGTHUNIT_1y1hul56r10fYxXFmKmA1Y" />
+		<DocConstant xsi:nil="true" href="MODULUSOFLINEARSUBGRADEREACTIONUNIT_37K6LIvDP6de9U94lLX2Cs" />
+		<DocConstant xsi:nil="true" href="MODULUSOFROTATIONALSUBGRADEREACTIONUNIT_17TV_lnz9BBfayaMZzZBY" />
+		<DocConstant xsi:nil="true" href="PHUNIT_3hgX1gN7b1bPjWH4Ldrep8" />
+		<DocConstant xsi:nil="true" href="ROTATIONALMASSUNIT_1DWSYcfYT0cuj9Or1q4YVx" />
+		<DocConstant xsi:nil="true" href="SECTIONAREAINTEGRALUNIT_0UfRdCJUv6G85J92r7pwVP" />
+		<DocConstant xsi:nil="true" href="SECTIONMODULUSUNIT_29aKFfPVH1sfYz4p4tZLn" />
+		<DocConstant xsi:nil="true" href="SOUNDPOWERUNIT_2keWAxuYz2Z8YMT6qQqps9" />
+		<DocConstant xsi:nil="true" href="SOUNDPRESSUREUNIT_2_0hgw1Ab4uRnX0OSy98U_" />
+		<DocConstant xsi:nil="true" href="TEMPERATUREGRADIENTUNIT_2XW3LIrHC1fiu62NmbSsz" />
+		<DocConstant xsi:nil="true" href="THERMALEXPANSIONCOEFFICIENTUNIT_2USuO474993OtlZYYunTC" />
+		<DocConstant xsi:nil="true" href="WARPINGCONSTANTUNIT_3EW8vrMBP3SgnjOFZUe06n" />
+		<DocConstant xsi:nil="true" href="WARPINGMOMENTUNIT_3bfVs9jmX9a9PDP4JFP6kq" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1oYuxPKw9DY9LwcbtLIFH" />
+	</Constants>
+</DocEnumeration>
+

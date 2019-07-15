@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRepresentationMap" UniqueId="3YMZE2FLT138wTduC_6P8N" DiagramNumber="1" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="MappingOrigin" UniqueId="3_70Q0rCL2Zx9028Za$3rl" DefinedType="IfcAxis2Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>An axis2 placement that defines the position about which the mapped
+representation is mapped.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MappedRepresentation" UniqueId="19zuVtkSvElu2$lK6kWAwd" DefinedType="IfcRepresentation" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A representation that is mapped to at least one mapped item.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MapUsage" UniqueId="3R8CizPfv7CA4wbdaD02nq" DefinedType="IfcMappedItem" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="MappingSource" />
+	</Attributes>
+</DocEntity>
+

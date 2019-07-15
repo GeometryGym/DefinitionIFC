@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SwitchFunction_2goeTeeDz3jxUuJd8Fn__W" Name="SwitchFunction" UniqueId="aaca8768-a0df-43b7-b7b8-4e720fc7efa0" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchFunctionType_1qnx8Kza18wgjin5k5e4PF" />
+	</Enumeration>
+</DocProperty>
+

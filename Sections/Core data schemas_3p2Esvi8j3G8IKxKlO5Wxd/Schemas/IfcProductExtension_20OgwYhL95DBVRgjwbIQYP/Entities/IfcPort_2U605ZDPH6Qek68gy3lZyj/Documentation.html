@@ -1,0 +1,72 @@
+<EPM-HTML>
+    <p>
+      <u>Definition from IAI</u>: An <i>IfcPort</i> provides the
+      means for an element to connect to other elements.
+    </p>
+    <p>
+      An <i>IfcPort</i> is associated with an <i>IfcElement</i>,
+      it belongs to, through the objectified relationship
+      <i>IfcRelConnectsPortToElement</i>. Exactly two ports,
+      belonging to two different elements, are connected with
+      each other through the objectified relationship
+      <i>IfcRelConnectsPorts</i>.
+    </p>
+    <p>
+      An instance of <i>IfcElement</i> may have one or more
+      points at which it connects to other instances of
+      <i>IfcElement</i>. An instance of <i>IfcPort</i> is located
+      at a point where a connection can occur. The location of
+      the port is determined in the context of the local
+      coordinate system of the element to which it belongs.
+    </p>
+    <blockquote>
+      <p>
+        <small><font color="#0000FF">HISTORY New entity in
+        Release IFC2x Edition 2.</font></small>
+      </p>
+    </blockquote>
+    <p>
+      <b><u>Containment Use Definitions</u></b>
+    </p>
+    <p>
+      As a subordinate part being fully dependent on the master
+      element the <i>IfcPort</i> shall have no
+      independent containment relationship to the spatial
+      structure.
+    </p>
+		    <p>
+      <b><u>Geometry Use Definition</u></b>
+    </p>
+    <p>
+      The geometric representation of <i>IfcPort</i> is
+      given by the <i>IfcProductDefinitionShape</i>, allowing
+      multiple geometric representation.
+    </p>
+    <p>
+      <b>Local Placement</b>
+    </p>
+    <p>
+      The local placement for <i>IfcPort</i> is defined
+      in its supertype <i>IfcProduct</i>. It is defined by the
+      <i>IfcLocalPlacement</i>, which defines the local
+      coordinate system that is referenced by all geometric
+      representations.
+    </p>
+    <ul>
+      <li>The <i>PlacementRelTo</i> relationship of
+      <i>IfcLocalPlacement</i> shall point to the
+      local placement of the master <i>IfcElement</i> (its
+      relevant subtypes), which is associated to the
+      <i>IfcPort</i> by the relationship object
+			<i>IfcRelConnectsPortToElement</i>.
+      </li>
+    </ul>
+		    <p>
+      <b>Shape Representation</b>
+    </p>
+    <p>
+      The geometry use definitions for the shape representation
+      of the <i>IfcPort</i> is given at the level of
+      its subtypes.
+    </p>
+</EPM-HTML>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ColumnCommon" UniqueId="58fb5a2f-0c03-4ab8-8296-019248296c35" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_2CK8NHsQL2hwysC7KMABek" />
+		<DocProperty xsi:nil="true" href="Slope_1XpojLsmnA2Bodvabd6tRT" />
+		<DocProperty xsi:nil="true" href="IsExternal_2dHEZqzwP98gpRkLooAegq" />
+		<DocProperty xsi:nil="true" href="LoadBearing_1nIdtj2w97UP7rpVNWgi2G" />
+		<DocProperty xsi:nil="true" href="FireRating_05Fdm8p5vAEQ1LmAojEj0v" />
+	</Properties>
+</DocPropertySet>
+

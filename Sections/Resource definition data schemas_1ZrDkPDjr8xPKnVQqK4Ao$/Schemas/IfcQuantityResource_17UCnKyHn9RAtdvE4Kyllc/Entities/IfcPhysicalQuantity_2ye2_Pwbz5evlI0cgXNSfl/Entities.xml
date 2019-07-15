@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPhysicalQuantity" UniqueId="2ye2_Pwbz5evlI0cgXNSfl" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="1rB0YJI1TFZABC1Tk$b41t" DefinedType="IfcPhysicalSimpleQuantity" />
+		<DocSubtype UniqueId="2XSbNg0cjBYw4rlB9EHbFl" DefinedType="IfcPhysicalComplexQuantity" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="08F1$Qpi9A2hiydccx9z6C" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Name of the element quantity or measure. The name attribute has to be made recognizable by further agreements.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="2tqYK7Ey5C0AttpRwF9TsE" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Further explanation that might be given to the quantity.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PartOfComplex" UniqueId="3ILNFRc31FsgNag5lkse0V" DefinedType="IfcPhysicalComplexQuantity" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="HasQuantities">
+			<Documentation>Reference to a physical complex quantity in which the physical quantity may be contained.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

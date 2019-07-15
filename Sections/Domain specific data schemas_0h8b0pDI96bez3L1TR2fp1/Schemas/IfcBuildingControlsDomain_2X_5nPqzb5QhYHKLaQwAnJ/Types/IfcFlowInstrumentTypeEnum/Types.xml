@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFlowInstrumentTypeEnum" UniqueId="2eM6BQMQPAixL42xLTr24A" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="PRESSUREGAUGE_2Z1qA8kXLEiA_E2AlKYB6" />
+		<DocConstant xsi:nil="true" href="THERMOMETER_1pJMErPfb1AgVtNgWJmlx" />
+		<DocConstant xsi:nil="true" href="AMMETER_2MKDvJbAP1rBYjs9xgWmO" />
+		<DocConstant xsi:nil="true" href="FREQUENCYMETER_1q889ZTsj3ARm3G5t2bvx" />
+		<DocConstant xsi:nil="true" href="POWERFACTORMETER_0RKJdh7WL4xRkP0Lw4_ppf" />
+		<DocConstant xsi:nil="true" href="PHASEANGLEMETER_0SM0cidqX1bOrE36qL2hfk" />
+		<DocConstant xsi:nil="true" href="VOLTMETER_PEAK_0BaQ64sH4DfoTYD5I6rUu" />
+		<DocConstant xsi:nil="true" href="VOLTMETER_RMS_0fnQApoo18YuzwTTvLVq2" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1LZ8r5nCXCthhEY0eDEg4v" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_39_R6c7FDDkh1KQ8RVXnM7" />
+	</Constants>
+</DocEnumeration>
+

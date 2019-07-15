@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FlowArrangement_3qOiNMJu55jhbC_0FHBUQM" Name="FlowArrangement" UniqueId="f462c5d6-4f81-45b6-b94c-f803d12de696" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerFlowArrangement_2B2hwPpCvFvgErBIP_vhzk" />
+	</Enumeration>
+</DocProperty>
+

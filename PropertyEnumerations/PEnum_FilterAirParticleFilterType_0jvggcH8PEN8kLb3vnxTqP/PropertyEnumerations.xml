@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FilterAirParticleFilterType_0jvggcH8PEN8kLb3vnxTqP" Name="PEnum_FilterAirParticleFilterType" UniqueId="2de6aaa6-4486-4e5c-8b95-943e71eddd19">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="COARSEMETALSCREEN_3hIsCtRA1AZ9QsMJs5xPCu" />
+		<DocPropertyConstant xsi:nil="true" href="COARSECELLFOAMS_0AD9tVkP92AYCaHdLbDq" />
+		<DocPropertyConstant xsi:nil="true" href="COARSESPUNGLASS_34QZWdX6nDV8u0nXr_1fNi" />
+		<DocPropertyConstant xsi:nil="true" href="MEDIUMELECTRETFILTER_2PjP7RjcnE4Biwh0KsZSr9" />
+		<DocPropertyConstant xsi:nil="true" href="MEDIUMNATURALFIBERFILTER_2fwp4VVYf1J9hzSiWkeK56" />
+		<DocPropertyConstant xsi:nil="true" href="HEPAFILTER_3VaHVqQP52wXZKT1ZXv4" />
+		<DocPropertyConstant xsi:nil="true" href="ULPAFILTER_3R8zrefIn7zPKZqWXTxh9a" />
+		<DocPropertyConstant xsi:nil="true" href="MEMBRANEFILTERS_3KyDsgqSP3swX2f3hFXvn5" />
+		<DocPropertyConstant xsi:nil="true" href="RENEWABLEMOVINGCURTIANDRYMEDIAFILTER_0xMe5DDaH0YRN6goKRMAVo" />
+		<DocPropertyConstant xsi:nil="true" href="ELECTRICALFILTER_2NLkL_K8T9pfkMdWIVM31i" />
+		<DocPropertyConstant xsi:nil="true" href="ROLLFORM_1qPJ4cONT1zAXGvqmlDbjt" />
+		<DocPropertyConstant xsi:nil="true" href="ADHESIVERESERVOIR_2qJaV62aH4nf_ZHxg1ewia" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

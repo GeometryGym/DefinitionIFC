@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PipeSegmentTypeGutter" UniqueId="226c2258-16c5-4e3d-94ee-80e1998f01f9" ApplicableType="IfcPipeSegment.Predefined=&quot;GUTTER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Slope_2lCEaXxb9xgWyneXD9G1T" />
+		<DocProperty xsi:nil="true" href="FlowRating_1SI3pFRWjAguY_97JuQGhp" />
+	</Properties>
+</DocPropertySet>
+

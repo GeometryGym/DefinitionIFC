@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcNormalisedRatioMeasure" UniqueId="1QT05BSKn84uo3629d6qb2" DiagramNumber="2" DefinedType="IfcRatioMeasure" Length="0">
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="20CugnQHP2LAezXZoDo$Kf">
+			<Documentation>Normalized ratio shall be a non-negative value less than or equal to 1.0</Documentation>
+			<Expression>{0.0 &lt;= SELF &lt;= 1.0}</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocDefined>
+

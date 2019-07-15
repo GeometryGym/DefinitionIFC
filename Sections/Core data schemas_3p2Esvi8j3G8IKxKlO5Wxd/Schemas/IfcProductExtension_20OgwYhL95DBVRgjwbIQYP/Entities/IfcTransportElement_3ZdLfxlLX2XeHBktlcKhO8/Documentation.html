@@ -1,0 +1,144 @@
+<EPM-HTML> 
+    <p>
+      <u>Definition from IAI</u>: Generalization of all transport
+      related objects that move people, animals or goods within a
+      building or building complex. The
+      <i>IfcTransportElement</i> defines the occurrence of a
+      covering type, that (if given) is expressed by the
+      <i>IfcTransportElementType</i>.
+    </p>
+    <blockquote>
+      <font size="-1">EXAMPLE: Transportation elements include
+      elevator (lift), escalator, moving walkway, etc.</font>
+    </blockquote>
+    <blockquote>
+      <font color="#FF0000" size="-1">IFC2x PLATFORM CHANGE: The
+      attribute <i>OperationType</i> is now optional and should
+      only be inserted when there is no type information, given
+      by <i>IfcTransportElementType</i>, is assigned to the
+      <i>IfcTransportElement</i> occurrence by
+      <i>IfcRelDefinesByType</i>.</font>
+    </blockquote>
+    <blockquote>
+      <p>
+        <font color="#0000FF" size="-1">HISTORY New entity in IFC
+        Release 2x.</font>
+      </p>
+    </blockquote>
+    <p>
+      <u><b>Property Set Use Definition</b></u>:
+    </p>
+    <p>
+      The property sets relating to the
+      <i>IfcTransportElement</i> are defined by the
+      <i>IfcPropertySet</i> and attached by the
+      <i>IfcRelDefinesByProperties</i> relationship. It is
+      accessible by the inverse <i>IsDefinedBy</i> relationship.
+      The following property set definitions specific to the
+      <i>IfcTransportElement</i> are part of this IFC release:
+    </p>
+    <ul>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_TransportElementCommon.xml"
+        target="SOURCE">Pset_TransportElementCommon</a>: common
+        property set for all transport element occurrences
+      </li>
+      <li>
+        <a href=
+        "../../psd/IfcProductExtension/Pset_TransportElementElevator.xml"
+        target="SOURCE">Pset_TransportElementElevator</a>:
+        specific property set for all occurrences of transport
+        elements with the <i>PredefinedType</i>: ELEVATOR
+      </li>
+    </ul>
+    <p>
+      <u><b>Geometry Use Definitions</b></u>:
+    </p>
+    <p>
+      The geometric representation of <i>IfcTransportElement</i>
+      is given by the <i>IfcProductDefinitionShape</i>, allowing
+      multiple geometric representation.
+    </p>
+    <p>
+      <b>Local Placement</b>
+    </p>
+    <p>
+      The local placement for <i>IfcTransportElement</i> is
+      defined in its supertype <i>IfcProduct</i>. It is defined
+      by the <i>IfcLocalPlacement</i>, which defines the local
+      coordinate system that is referenced by all geometric
+      representations.
+    </p>
+    <ul>
+      <li>The <i>PlacementRelTo</i> relationship of
+      <i>IfcLocalPlacement</i> shall point (if given) to the
+      local placement of the same
+      <i>IfcSpatialStructureElement</i> , which is used in the
+      <i>ContainedInStructure</i> inverse attribute, or to a
+      spatial structure element at a higher level, referenced by
+      that.
+      </li>
+      <li>If the relative placement is not used, the absolute
+      placement is defined within the world coordinate system.
+      </li>
+    </ul>
+    <p>
+      <b>SurfaceModel Representation</b>
+    </p>
+    <p>
+      Any <i>IfcTransportElement</i> (so far no further
+      constraints are defined at the level of its subtypes) may
+      be represented as a single or multiple surface models,
+      based on either shell or face based models. Then the following
+      attribute values for the <i>IfcShapeRepresentation</i>
+      holding this geometric representation shall be used:
+    </p>
+    <ul>
+      <li>
+        <i>RepresentationIdentifier</i> : 'Body'
+      </li>
+      <li>
+        <i>RepresentationType</i> : 'SurfaceModel'
+      </li>
+    </ul>
+    <p>
+      <b>Brep Representation</b>
+    </p>
+    <p>
+      Any <i>IfcTransportElement</i> (so far no further
+      constraints are defined at the level of its subtypes) may
+      be represented as a single or multiple Boundary
+      Representation elements (which are restricted to faceted
+      Brep with or without voids). Then the following
+      attribute values for the <i>IfcShapeRepresentation</i>
+      holding this geometric representation shall be used:
+    </p>
+    <ul>
+      <li>
+        <i>RepresentationIdentifier</i> : 'Body'
+      </li>
+      <li>
+        <i>RepresentationType</i> : 'Brep'
+      </li>
+    </ul>
+    <p>
+      <b>MappedRepresentation</b>
+    </p>
+    <p>
+      The new mapped item, <i>IfcMappedItem</i>, should be used
+      if appropriate as it allows for reusing the geometry
+      definition of the property element type at occurrences of
+      the same equipment type. Then the following
+      attribute values for the <i>IfcShapeRepresentation</i>
+      holding this geometric representation shall be used:
+    </p>
+    <ul>
+      <li>
+        <i>RepresentationIdentifier</i> : 'Body'
+      </li>
+      <li>
+        <i>RepresentationType</i> : 'MappedRepresentation'
+      </li>
+    </ul>
+</EPM-HTML>

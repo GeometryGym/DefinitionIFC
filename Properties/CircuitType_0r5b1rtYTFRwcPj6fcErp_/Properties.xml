@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CircuitType_0r5b1rtYTFRwcPj6fcErp_" Name="CircuitType" UniqueId="35165075-de27-4f6f-a999-b46a663b5cfe" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerCircuitType_16Ikw8JbH2Q2nQSvjFF0h" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,44 @@
+<EPM-HTML> 
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: A half space solid is
+		defined by the half space which is the regular subset of the domain which lies
+		on one side of an unbounded surface. The side of the surface which is in the
+		half space is determined by the surface normal and the agreement flag. If the
+		agreement flag is TRUE, then the subset is the one the normal points away from.
+		If the agreement flag is FALSE, then the subset is the one the normal points
+		into. For a valid half space solid the surface shall divide the domain into
+		exactly two subsets. Also, within the domain the surface shall be manifold and
+		all surface normals shall point into the same subset. </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE A half space is not a subtype of solid model
+		  (<I>IfcSolidModel</I>), half space solids are only useful as operands in
+		  Boolean expressions.</FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">NOTE Corresponding STEP entity:
+		  half_space_solid. Please refer to ISO/IS 10303-42:1994, p. 185 for the final
+		  definition of the formal standard. The derived attribute <I>Dim</I> has been
+		  added at this level and was therefore demoted from the
+		  geometric_representation_item. </FONT></P> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY New class in IFC Release 1.5
+		  </FONT></P></BLOCKQUOTE> 
+	 <P><U>Informal propositions:</U></P> 
+	 <OL> 
+		<LI>The base surface shall divide the domain into exactly two subsets. If
+		  the half space solid is of subtype boxed half space (<I>IfcBoxedHalfSpace</I>),
+		  the domain in question is that of the attribute enclosure. In all other cases
+		  the domain is all of space and the base surface shall be unbounded.</LI> 
+		<LI>The base surface shall be an unbounded surface (subtype of
+		  <I>IfcElementarySurface</I>).</LI> 
+	 </OL> 
+	 <P><U>Illustration</U>:</P> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2"> 
+		<TR> 
+		  <TD><A HREF="drawings/IfcHalfSpaceSolid-Layout1.dwf"><IMG
+			 SRC="figures/IfcHalfSpaceSolid-Layout1.gif" ALT="half space solid" WIDTH="400"
+			 HEIGHT="300" BORDER="0"></A></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT"><FONT SIZE="-1">Definition of the
+			 <I>IfcHalfSpaceSolid</I> within a given coordinate system. The base surface is
+			 given by an unbounded plane, the red boundary is shown for visualization
+			 purposes only.</FONT></TD> 
+		</TR> 
+	 </TABLE> 
+</EPM-HTML>

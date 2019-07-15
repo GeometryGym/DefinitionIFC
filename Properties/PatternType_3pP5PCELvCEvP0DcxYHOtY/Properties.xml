@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PatternType_3pP5PCELvCEvP0DcxYHOtY" Name="PatternType" UniqueId="f364564c-395e-4c3b-9640-366ee2458de2" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TankPatternType_3vqulQPvEPQebSucCqhBD" />
+	</Enumeration>
+</DocProperty>
+

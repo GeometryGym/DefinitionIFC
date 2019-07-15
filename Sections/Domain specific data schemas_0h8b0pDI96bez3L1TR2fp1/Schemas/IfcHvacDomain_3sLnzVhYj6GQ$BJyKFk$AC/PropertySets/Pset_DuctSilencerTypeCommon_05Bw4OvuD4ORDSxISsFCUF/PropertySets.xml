@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DuctSilencerTypeCommon" UniqueId="052fa118-e783-4461-b35c-ed27363cc78f" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Shape_2GFw7q7vjA4BhjGzJQb7kb" />
+		<DocProperty xsi:nil="true" href="HydraulicDiameter_27j7NV8y53uwGx6Ts4lvX4" />
+		<DocProperty xsi:nil="true" href="Length_1Quv6_QFHCsxJ2XveNaQPq" />
+		<DocProperty xsi:nil="true" href="Weight_11f_cnq3D1RP2Y8AMQRVzq" />
+		<DocProperty xsi:nil="true" href="AirFlowrateRange_1MKdd_Uej3UPLF2Rv0Ktzs" />
+		<DocProperty xsi:nil="true" href="WorkingPressureRange_2VGFWRD0XDJBhy_fzWTs" />
+		<DocProperty xsi:nil="true" href="TemperatureRange_2mxdSqFn5FVOCl6mpbquE0" />
+		<DocProperty xsi:nil="true" href="HasExteriorInsulation_0sR0L_0ErBQgFKWm_TYGS" />
+	</Properties>
+</DocPropertySet>
+

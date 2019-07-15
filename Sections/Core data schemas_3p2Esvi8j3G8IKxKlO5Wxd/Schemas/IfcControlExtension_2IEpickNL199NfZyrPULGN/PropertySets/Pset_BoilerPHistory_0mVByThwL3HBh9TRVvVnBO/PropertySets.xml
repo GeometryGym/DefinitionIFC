@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_BoilerPHistory" UniqueId="307cbf1d-afa5-4344-bac9-75b7f97f12d8" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="EnergySourceConsumption_36yvg2wP16hwXsBBTP6O8l" />
+		<DocProperty xsi:nil="true" href="OperationalEfficiency_3p6Cz2uo13lQN4TOP1UdtT" />
+		<DocProperty xsi:nil="true" href="CombustionEfficiency_2AfdzXDLn1awpVSaOKUdtU" />
+		<DocProperty xsi:nil="true" href="WorkingPressure_3OAsT5EsDEO9tAa5KoWEe1" />
+		<DocProperty xsi:nil="true" href="CombustionTemperature_0yzV7Zo9PDNAvrhCGOLmED" />
+		<DocProperty xsi:nil="true" href="PartLoadRatio_2Q3RN98EX4pexqCEhMi7r" />
+		<DocProperty xsi:nil="true" href="Load_36NTQRzD56NfdGnv3l3k5H" />
+		<DocProperty xsi:nil="true" href="PrimaryEnergyConsumption_1WwrGt76TFN8xWw4cWPyxQ" />
+		<DocProperty xsi:nil="true" href="AuxiliaryEnergyConsumption_1MSIUxPX8nwzkPSvk7hNf" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CoilPHistory" UniqueId="de6b098c-5c51-4abe-8f1f-18b4d1f8a135" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AtmosphericPressure_2gePeoX6P7yusHW4fIFoVy" />
+		<DocProperty xsi:nil="true" href="AirPressureDropCurve_1mfqpF9hPAEerdN5c1m25j" />
+		<DocProperty xsi:nil="true" href="SoundCurve_35MeefCGPBnwfcraSvczO" />
+		<DocProperty xsi:nil="true" href="FaceVelocity_0G0qy5Y8PDZPT6FUBk7zi2" />
+	</Properties>
+</DocPropertySet>
+

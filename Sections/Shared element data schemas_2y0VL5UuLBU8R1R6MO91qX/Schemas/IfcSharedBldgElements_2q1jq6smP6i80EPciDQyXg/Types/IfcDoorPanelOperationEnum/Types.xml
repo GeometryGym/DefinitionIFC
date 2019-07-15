@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoorPanelOperationEnum" UniqueId="1lRp7LjED07xtllZOQ6zHp" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="SWINGING_17nEsWnUP09OENXDWkxG" />
+		<DocConstant xsi:nil="true" href="DOUBLE_ACTING_0_zKsG0RP2OQgfx75eCf_2" />
+		<DocConstant xsi:nil="true" href="SLIDING_2rU7GnTRL2rOSaa14xvKfl" />
+		<DocConstant xsi:nil="true" href="FOLDING_1n1I5ag197Av69Ifuw7Ziz" />
+		<DocConstant xsi:nil="true" href="REVOLVING_2zw4oLOxzAdP33QCjedIbA" />
+		<DocConstant xsi:nil="true" href="ROLLINGUP_2C3WLFhUHCShGupk8IPgGY" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1PzAdkpdj2OQre_XDS8GOX" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1ybbGFFv5Blf5yXtFwYPlc" />
+	</Constants>
+</DocEnumeration>
+

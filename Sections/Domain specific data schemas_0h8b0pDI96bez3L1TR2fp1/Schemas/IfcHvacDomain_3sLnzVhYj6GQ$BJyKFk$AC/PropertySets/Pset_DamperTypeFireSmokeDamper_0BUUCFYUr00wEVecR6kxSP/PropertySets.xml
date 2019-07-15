@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DamperTypeFireSmokeDamper" UniqueId="0b79e30f-89ed-4003-a39f-a266c6bbb719" ApplicableType="IfcDamper.Predefined=&quot;FIRESMOKEDAMPER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ControlType_1IniplagnA97ob2T5Y9BV" />
+	</Properties>
+</DocPropertySet>
+

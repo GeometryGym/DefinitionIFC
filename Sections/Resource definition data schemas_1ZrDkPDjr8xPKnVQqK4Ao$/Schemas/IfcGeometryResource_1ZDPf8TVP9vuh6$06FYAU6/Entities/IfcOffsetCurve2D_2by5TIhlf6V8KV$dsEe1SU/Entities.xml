@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcOffsetCurve2D" UniqueId="2by5TIhlf6V8KV$dsEe1SU" DiagramNumber="5" BaseDefinition="IfcCurve" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="BasisCurve" UniqueId="0wLuvcs4X2Cwzo6U5x5R8$" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The curve that is being offset.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Distance" UniqueId="1iO0Z3hEPB7RdRop7F6yXu" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The distance of the offset curve from the basis curve. distance may be positive, negative or zero. A positive value of distance defines an offset in the direction which is normal to the curve in the sense of an anti-clockwise rotation through 90 degrees from the tangent vector T at the given point. (This is in the direction of orthogonal complement(T).)</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SelfIntersect" UniqueId="2bVK_wWjnCAQZLtG2hyBRm" DefinedType="LOGICAL" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>An indication of whether the offset curve self-intersects; this is for information only.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2VqqvysJL9aeZP6QUNVR$j">
+			<Documentation>The underlying curve shall be defined in two-dimensional space.</Documentation>
+			<Expression>BasisCurve.Dim = 2</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

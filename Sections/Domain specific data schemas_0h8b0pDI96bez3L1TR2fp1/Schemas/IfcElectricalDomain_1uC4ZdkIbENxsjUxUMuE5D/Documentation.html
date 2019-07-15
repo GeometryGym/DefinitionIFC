@@ -1,0 +1,87 @@
+<EPM-HTML> 
+	 <P>The <I>IfcElectricalDomain</I> schema forms part of the Domain Layer of
+		the IFC Model. It extends the ideas concerning building services outlined in
+		the <I>IfcSharedBldgServicesElements</I> schema. It defines concepts of
+		electrical supply and provision and concepts of light fixtures and illuminance
+		within buildings. </P> 
+	 <H3>Scope</H3> 
+	 <P>The scope of the IfcElectrical domain is defined as:</P> 
+	 <OL> 
+		<LI>low voltage electrical installations from 12V (AC/DC) to 1000V (AC)
+		  or 1500 volts (DC) in accordance with IEC definitions where installations in
+		  scope are considered to commence at a meter where the public utility supply
+		  terminates or at a transformer where voltage is stepped down to the low voltage
+		  range in scope,</LI> 
+		<LI>connection of equipment to circuits, distribution points etc,</LI> 
+		<LI>steady state operation of electrical installations,</LI> 
+		<LI>light fixtures (fittings), their types and the provision of such
+		  information as is necessary to enable lighting calculations that provide
+		  physically accurate illuminance.</LI> 
+	 </OL> 
+	 <P>The <I>IfcElectricalDomain</I> schema supports ideas including types of:
+		</P> 
+	 <UL> 
+		<LI>cable carrier fittings (for conduit, cable tray, cable duct and
+		  ladder),</LI> 
+		<LI>electrical appliance,</LI> 
+		<LI>electric heater,</LI> 
+		<LI>electric motor,</LI> 
+		<LI>distribution points including various types of control, mimic and
+		  indicator panels,</LI> 
+		<LI>generator,</LI> 
+		<LI>junction box,</LI> 
+		<LI>light fixture,</LI> 
+		<LI>lamp,</LI> 
+		<LI>outlet,</LI> 
+		<LI>protective device,</LI> 
+		<LI>switching device,</LI> 
+		<LI>transformer,</LI>  
+	 </UL> 
+	 <H4>Out of Scope</H4> 
+	 <P>The following are deemed to be out of scope of the <I>IfcElectricalDomain</I> schema
+		at this time: </P> 
+	 <UL> 
+		<LI>medium and high voltage installations over 1000 volts AC and 1500
+		  volts DC</LI> 
+		<LI>systems with voltage of less than 12 volts (AC/DC)</LI> 
+		<LI>public utility supply of electrical services</LI> 
+		<LI>path of cables/conductors (other than as logical paths identifying
+		  connection sequence)</LI> 
+		<LI>cable routers (cable ladders)</LI> 
+		<LI>electrical appliances like fax machines, phones, printers etc other
+		  than as defined as electric appliances for the purposes of identification.</LI>
+		
+		<LI>non steady state/transient states of operation of electrical
+		  installations</LI> 
+		<LI>security arrangements associated with safety of electrical
+		  installations</LI> 
+		<LI>communication signals between automation devices or bus systems</LI> 
+		<LI>sensors (which are dealt with in the IfcBuildingControl domain
+		  schema)</LI> 
+		<LI>computer network cabling and devices used on networks</LI> 
+		<LI>spotlight mirror systems whereby a spotlight is directed towards a
+		  distant mirror that the distributes the light energy (other than as a group of
+		  separately defined objects)</LI> 
+		<LI>lighting for specialist purposes (e.g. stage, painting, etc.) </LI> 
+		<LI>properties and provisions that enable the visual display or rendering
+		  of surfaces under illuminance (rendering, as in VRML, and photo accurate
+		  simulation are within the scope of the <I>IfcPresentationResource</I>
+		  schema.</LI> 
+	 </UL> 
+	 <H3>Occurrence</H3> 
+	 <P>Many classes within this schema define types of elements that are used
+		in electrical building services. They are defined either as subtypes of
+		IfcTypeProduct or of other classes that are themselves subtypes of
+		IfcTypeProduct. </P> 
+	 <P>The objective is that a particular type of element is defined once in an
+		IFC exchange. Occurrences of elements conforming to a particular
+		type are defined by instances of related subtypes of IfcDistributionElement.
+		Details of the relevant occurrence subtype are provided in the documentation
+		for the type class. </P> 
+	 <H3>Electrical Circuit</H3> 
+	 <P>Electrical devices form part of an electrical circuit. An instance of an
+		electrical circuit is defined as a named instance of IfcSystem.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1"> HISTORY:New schema in
+		  IFC Release 2x.  </FONT></P></BLOCKQUOTE> 
+</EPM-HTML>

@@ -1,0 +1,57 @@
+<EPM-HTML> 
+    <p>
+      <u>Definition from IAI</u>: Objectified relationship
+      between a material definition and elements or element types
+      to which this material definition applies. The material
+      definition can be:
+    </p>
+    <ul>
+      <li>A single material
+      </li>
+      <li>A material list, e.g. for composite elements
+      </li>
+      <li>A material layer set, for layered elements with an
+      indication of the layering direction and individual layer
+      thicknesses
+      </li>
+			<li>A material layer set usage, i.e. a material layer set
+			with positioning information along the reference axis or
+			surface of the element.</li>
+    </ul>
+    <p>
+      The <i>IfcRelAssociatesMaterial</i> relationship is a
+      special type of the <i>IfcRelAssociates</i> relationship.
+      It can be applied to subtypes of <i>IfcElement</i> and
+      subtypes of <i>IfcElementType</i>.
+    </p>
+    <ul>
+      <li>The <i>IfcElement</i> has an inverse relation to its
+      material definition by the <i>HasAssociations</i>
+      attribute, inherited from <i>IfcObject</i>.
+      </li>
+      <li>The <i>IfcElementType</i> has an inverse relation to
+      its material definition by the <i>HasAssociations</i>
+      attribute, inherited from <i>IfcPropertyDefinition</i>.
+      </li>
+    </ul>
+    <p>
+      If both, the element occurrence
+      (by an instance of <i>IfcElement</i>) and the element type
+      (by an instance of <i>IfcElementType</i>, connected through
+      <i>IfcRelDefinesByType</i>) have an associated material,
+      then the material associated to the element occurrence
+      overrides the material associated to the element type.
+    </p>
+    <blockquote>
+      <p>
+        <small><font color="#0000FF">HISTORY New entity in IFC
+        Release 2.x.</font></small>
+      </p>
+    </blockquote>
+		<p><u>Informal proposition</u></p>
+		<ol>
+				<li>An <i>IfcMaterialLayerSetUsage</i> shall not be associated
+				with a subtype of <i>IfcElementType</i>, it should only be
+				associated with individual occurrences</li>
+		</ol>
+</EPM-HTML>

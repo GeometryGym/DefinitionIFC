@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ToggleSwitchType_3xVAaUDTr6PBVyJ_NlZ3DX" Name="PEnum_ToggleSwitchType" UniqueId="fb7ca91e-35dd-4664-b7fc-4fe5ef8c3361">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BreakGlass_2ivZ7BAn5CdPgeVCUu0YyB" />
+		<DocPropertyConstant xsi:nil="true" href="Changeover_3g_LU_kyPCPQKDpcXMItK" />
+		<DocPropertyConstant xsi:nil="true" href="Dimmer_3ybGtGpbC7O5Q7By6cE8U" />
+		<DocPropertyConstant xsi:nil="true" href="KeyOperated_2nzfO6l4H58e8KchrObRBF" />
+		<DocPropertyConstant xsi:nil="true" href="ManualPull_1EEYP9LRnFOuOFDkY4h39h" />
+		<DocPropertyConstant xsi:nil="true" href="PushButton_08E4XJwcXE885a2SUzMMoK" />
+		<DocPropertyConstant xsi:nil="true" href="Pullcord_111NL18JXBxhju7NXC80CH" />
+		<DocPropertyConstant xsi:nil="true" href="Rocker_1O0fmjSFb9ZB6riSX2XS2l" />
+		<DocPropertyConstant xsi:nil="true" href="Selector_1xRdB9zGvCC87QyUdfTGS" />
+		<DocPropertyConstant xsi:nil="true" href="Twist_1PUKReduT0S8dacaAkhPqx" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

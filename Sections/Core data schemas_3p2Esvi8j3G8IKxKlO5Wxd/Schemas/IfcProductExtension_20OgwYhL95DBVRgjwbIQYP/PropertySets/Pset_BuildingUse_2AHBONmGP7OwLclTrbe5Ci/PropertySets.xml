@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_BuildingUse" UniqueId="8a44b617-c106-4763-a566-bddd65a0532c" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MarketCategory_2Vu5h0j3972A2Va9T5JBU8" />
+		<DocProperty xsi:nil="true" href="MarketSubCategory_1GTSAWgnDY9gwQuafs4R0" />
+		<DocProperty xsi:nil="true" href="PlanningControlStatus_0O9uRU859BcO6lXv_thCh1" />
+		<DocProperty xsi:nil="true" href="NarrativeText_0tTQINaNLFhO0KyNVAOaGP" />
+		<DocProperty xsi:nil="true" href="VacancyRateInCategoryNow_3eCmum1QX1cwJM4zapmWbh" />
+		<DocProperty xsi:nil="true" href="TenureModesAvailableNow_1JfpseXS9AJe65km59tqfe" />
+		<DocProperty xsi:nil="true" href="MarketSubCategoriesAvailableNow_2uXEhXFvANwS_L7lwLqfT" />
+		<DocProperty xsi:nil="true" href="RentalRatesInCategoryNow_3_A2YN1H7ig6BR5V4iLvI" />
+		<DocProperty xsi:nil="true" href="VacancyRateInCategoryFuture_0m77itjrL7ku11weeCXqtu" />
+		<DocProperty xsi:nil="true" href="TenureModesAvailableFuture_1KsyES9o5EC8ps8z9Eufem" />
+		<DocProperty xsi:nil="true" href="MarketSubCategoriesAvailableFuture_3Rmdjwt3nFQAHwxVf8VgzV" />
+		<DocProperty xsi:nil="true" href="RentalRatesInCategoryFuture_32lazqDbfAo8P5wLghAtZg" />
+	</Properties>
+</DocPropertySet>
+

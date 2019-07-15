@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlateTypeEnum" UniqueId="0aRdqNKED9t9$DaDDoeQ5I" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CURTAIN_PANEL_0MBeXJx6j9dg25RnTLU5Gn" />
+		<DocConstant xsi:nil="true" href="SHEET_1CwSEMXh98vAXuzU8tAJX" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1nd_vo2dD5QwAFcdEjEjAy" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3NcwpMVMLF9B3C5DtZEcx" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveOrEdgeCurve" UniqueId="1pU4bdFEP1QxL1x2vUrGyH" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcBoundedCurve" UniqueId="3MT8hcLKfAih8M1rZFXX5h" />
+		<DocSelectItem Name="IfcEdgeCurve" UniqueId="3vhskLStj4kxwRzLxRUofZ" />
+	</Selects>
+</DocSelect>
+

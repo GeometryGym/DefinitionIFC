@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoilerTypeEnum" UniqueId="0nJgiqEyXEuvpmN5Dos430" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="WATER_0mM_qnyZT70Ayu6ZXUwoxw" />
+		<DocConstant xsi:nil="true" href="STEAM_3HA_i8vWDDJQCazHgYm0q" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2caN9ok0zCbudUlK3vN9nJ" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1jXQE7vaLD_uKZwGKkZ0HU" />
+	</Constants>
+</DocEnumeration>
+

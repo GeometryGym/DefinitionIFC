@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BathType_0sS4_D2wT49wGYvV9FZ2pm" Name="BathType" UniqueId="36704f8d-0ba7-4427-a422-e5f24f8c2cf0" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BathType_0Ej48sznzCZ8tZeMCH7A_Z" />
+	</Enumeration>
+</DocProperty>
+

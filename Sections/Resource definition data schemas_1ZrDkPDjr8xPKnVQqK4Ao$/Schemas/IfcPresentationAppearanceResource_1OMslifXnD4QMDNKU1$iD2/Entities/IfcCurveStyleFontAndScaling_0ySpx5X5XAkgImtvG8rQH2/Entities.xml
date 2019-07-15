@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveStyleFontAndScaling" UniqueId="0ySpx5X5XAkgImtvG8rQH2" DiagramNumber="2" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="2fLmaePMb4FvDB$JobyqeE" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Name that may be assigned with the scaling of a curve font.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CurveFont" UniqueId="0tBHQ4igb3FwzEOB8hXgxR" DefinedType="IfcCurveStyleFontSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The curve font to be scaled.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CurveFontScaling" UniqueId="2y0BQflTPEFQk_fo0RlDXK" DefinedType="IfcPositiveRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The scale factor.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

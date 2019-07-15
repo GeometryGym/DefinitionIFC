@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceStyleWithTextures" UniqueId="2qNQeqGyD7QBH$La272EFg" DiagramNumber="7" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="Textures" UniqueId="2Iuiq97GD6veDR9eoHaMwl" DefinedType="IfcSurfaceTexture" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The textures applied to the surface. Only one image map with the same image map type shall be applied.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

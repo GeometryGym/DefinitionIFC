@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ProtectiveDeviceTypeResidualCurrentSwitch" UniqueId="24dfdf89-21a5-4388-bc71-c8d2b49c928e" ApplicableType="IfcProtectiveDevice.Predefined=&quot;RESIDUALCURRENTSWITCH&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Sensitivity_2gAl1LSvj1YB0cAdE65NAx" />
+	</Properties>
+</DocPropertySet>
+

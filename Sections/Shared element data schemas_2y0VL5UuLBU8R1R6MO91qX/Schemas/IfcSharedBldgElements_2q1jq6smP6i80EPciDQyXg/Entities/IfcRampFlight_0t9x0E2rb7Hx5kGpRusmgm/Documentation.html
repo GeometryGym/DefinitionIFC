@@ -1,0 +1,70 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: Inclined slab segment, normally providing a
+		human circulation link between two landings, floors or slabs at different
+		elevations. </P> 
+	 <P>An <I>IfcRampFlight</I> is normally aggregated by a ramp
+		(<I>IfcRamp</I>) through the <I>IfcRelAggregates</I> relationship, the ramp
+		flight is then included in the set of
+		<I>IfcRelAggregates.RelatedObjects</I>.</P> 
+	 <P>A ramp flight normally connects the floor slab of zero to two different
+		storeys (or partial storeys) within a building. The connection relationship
+		between the <I>IfcRampFlight</I> and the <I>IfcSlab</I> is expressed using the
+		<I>IfcRelConnectsElements</I> relationship.</P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF" SIZE="-1">HISTORY New Entity in IFC
+		Release 2.0.</FONT></BLOCKQUOTE> 
+	 <P><U><B>Property Set Use Definition</B></U>:</P> 
+	 <P>The property sets relating to the <I>IfcRampFlight</I> are defined by
+		the <I>IfcPropertySet</I> and attached by the <I>IfcRelDefinesByProperties</I>
+		relationship. It is accessible by the inverse <I>IsDefinedBy</I> relationship.
+		The following property set definitions specific to the <I>IfcRampFlight</I> are
+		part of this IFC release:</P> 
+	 <UL> 
+		<LI><A HREF="../../psd/IfcSharedBldgElements/Pset_RampFlightCommon.xml"
+		  TARGET="SOURCE">Pset_RampFlightCommon</A>: common property set for all ramp
+		  flight occurrences</LI> 
+	 </UL>
+	 <P><U><B>Geometry Use Definitions</B></U>:</P> 
+	 <P>The geometric representation of <I>IfcRampFlight</I> is given by the
+		<I>IfcProductDefinitionShape</I>, allowing multiple geometric representations.
+		Included are:</P> 
+	 <P><B>Local placement</B></P> 
+	 <P>The local placement for <I>IfcRampFlight</I> is defined in its supertype
+		<I>IfcProduct</I>. It is defined by the <I>IfcLocalPlacement</I>, which defines
+		the local coordinate system that is referenced by all geometric
+		representations. </P> 
+	 <UL> 
+		<LI>The <I>PlacementRelTo</I> relationship of <I>IfcLocalPlacement</I>
+		  shall point (if given) to the local placement of the same
+		  <I>IfcSpatialStructureElement</I> that is used in the
+		  <I>ContainedInStructure</I> inverse attribute or to a referenced spatial
+		  structure element at a higher level.</LI> 
+		<LI>If the <I>IfcRampFlight</I>, however, is used by an <I>IfcRamp</I>,
+		  and this container class defines its own local placement, then the
+		  <I>PlacementRelTo</I> relationship of <I>IfcLocalPlacement</I> shall point to
+		  the local placement of the aggregate.</LI> 
+	 </UL> 
+	 <P><B>Standard Geometric Representation</B></P> 
+	 <P>The standard geometric representation of <I>IfcRampFlight</I> is defined
+		using the swept area geometry. The following constraints apply to the standard
+		representation: </P> 
+	 <UL> 
+		<LI><U>Solid</U>: <I>IfcExtrudedAreaSolid</I> is required,</LI> 
+		<LI><U>Profile</U>: <I>IfcRectangleProfileDef</I> shall be supported.
+		  </LI> 
+		<LI><U>Extrusion</U>: The profile shall be extruded in any direction
+		  relative to the XY plane of the position coordinate system of the
+		  <I>IfcExtrudedAreaSolid</I>. Therefore non-perpendicular sweep operation has to
+		  be supported. It might be further constrained to be in the direction of the
+		  global z-axis in implementers agreements. </LI> 
+	 </UL> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2"> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP" ALIGN="LEFT"><A
+			 HREF="drawings/IfcRampFlight-Layout1.dwf"><IMG
+			 SRC="figures/IfcRampFlight-Layout1.gif" ALT="fig1" WIDTH="393" HEIGHT="299"
+			 BORDER="0"></A></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT">Example of geometric representation of
+			 <I>IfcRampFlight</I>.</TD> 
+		</TR> 
+	 </TABLE>
+</EPM-HTML>

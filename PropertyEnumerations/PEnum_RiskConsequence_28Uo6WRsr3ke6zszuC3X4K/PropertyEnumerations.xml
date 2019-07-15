@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_RiskConsequence_28Uo6WRsr3ke6zszuC3X4K" Name="PEnum_RiskConsequence" UniqueId="887b21a0-6f6d-43ba-81bd-dbde0c0e1114">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Catastrophic_3OvNj7i39FaBSHwVELOqzF" />
+		<DocPropertyConstant xsi:nil="true" href="Severe_2oTos1If535ge_MJ7oB32a" />
+		<DocPropertyConstant xsi:nil="true" href="Major_2z8bv4O011UBrfOxt58yDv" />
+		<DocPropertyConstant xsi:nil="true" href="Considerable_3qg7GEFcj1vPmSicBUKIUU" />
+		<DocPropertyConstant xsi:nil="true" href="Moderate_3kP4DJQn5PeGZUUfjuAz5" />
+		<DocPropertyConstant xsi:nil="true" href="Some_0xme5remDCkxq_ZcTgq5" />
+		<DocPropertyConstant xsi:nil="true" href="Minor_2WkcuoubH25PmsbpQw3m1J" />
+		<DocPropertyConstant xsi:nil="true" href="VeryLow_2EQzv3jpP37PVWIvXiS312" />
+		<DocPropertyConstant xsi:nil="true" href="Insignificant_0yXxb6Z6jAXfdHeoUaPDkB" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FlushType_0YRTDD7dLA0h2IyEdyNLR1" Name="FlushType" UniqueId="226dd34d-1e75-4a02-b092-f0e9fc5d56c1" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FlushType_3lwt_d76n5ugZ0A2QeJF2n" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FanMountingType_18JzG9Cc9C6QhKwaLfJChe" Name="PEnum_FanMountingType" UniqueId="484fd409-3262-4c19-aad4-ea45694ccae8">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="MANUFACTUREDCURB_3vSuqKJTv20BWpEcbT84YG" />
+		<DocPropertyConstant xsi:nil="true" href="FIELDERECTEDCURB_3FB4lE5jE0Bpn1VfGn3X9" />
+		<DocPropertyConstant xsi:nil="true" href="CONCRETEPAD_3aKr6dfvH2jes4Mdo3hYIa" />
+		<DocPropertyConstant xsi:nil="true" href="SUSPENDED_3VLnyaMsT47Q7v9k4TNQ5x" />
+		<DocPropertyConstant xsi:nil="true" href="WALLMOUNTED_3taGmI6sv7FvxvUiM_IMIU" />
+		<DocPropertyConstant xsi:nil="true" href="DUCTMOUNTED_3Ncohqh2926wfK2P4c433" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

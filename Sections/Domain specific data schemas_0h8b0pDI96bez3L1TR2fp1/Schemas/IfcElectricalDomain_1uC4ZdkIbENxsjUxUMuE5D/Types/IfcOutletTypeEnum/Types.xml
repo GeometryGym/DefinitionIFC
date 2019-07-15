@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcOutletTypeEnum" UniqueId="2OzJLRUzb4$uunzQHT3Oi2" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="AUDIOVISUALOUTLET_2hUriQyRr4RvaVz07loPAT" />
+		<DocConstant xsi:nil="true" href="COMMUNICATIONSOUTLET_00xnuUpLH25hWHMYiDFk_h" />
+		<DocConstant xsi:nil="true" href="POWEROUTLET_0VPku2Bdn1ogUW7vL1gjf2" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2zAMQyVKL03eb6kuC0ewD" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1CgYyOhvT41Q32ErBV6Bqh" />
+	</Constants>
+</DocEnumeration>
+

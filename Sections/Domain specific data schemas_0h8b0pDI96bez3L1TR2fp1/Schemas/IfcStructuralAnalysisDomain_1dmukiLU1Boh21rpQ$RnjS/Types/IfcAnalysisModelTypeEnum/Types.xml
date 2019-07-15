@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAnalysisModelTypeEnum" UniqueId="3bt0GlONPBfB09lBQAA1zv" DiagramNumber="5">
+	<Constants>
+		<DocConstant xsi:nil="true" href="IN_PLANE_LOADING_2D_1avC5IAm1BXOjJnl7ogYqT" />
+		<DocConstant xsi:nil="true" href="OUT_PLANE_LOADING_2D_1KE1T8iPC0RIzW4GP2w_n" />
+		<DocConstant xsi:nil="true" href="LOADING_3D_0_JlUPA7bFkPO82db0OTsW" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1pNzO8_4L1lhn3usGiaWRv" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_36ihXmZSL1Yesu2pQJcoQ" />
+	</Constants>
+</DocEnumeration>
+

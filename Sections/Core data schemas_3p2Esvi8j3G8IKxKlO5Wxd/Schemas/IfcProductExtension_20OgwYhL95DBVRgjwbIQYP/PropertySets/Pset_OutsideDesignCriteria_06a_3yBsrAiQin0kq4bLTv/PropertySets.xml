@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_OutsideDesignCriteria" UniqueId="0693e0fc-2f6d-4ab1-ab31-02ed04955779" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HeatingDryBulb_1csoE1K592kPPcWyOr5YDj" />
+		<DocProperty xsi:nil="true" href="HeatingWetBulb_1HSggZ4svBuPbsEwjD5XQO" />
+		<DocProperty xsi:nil="true" href="HeatingDesignDay_0iRKHYQD2y9nxZ5j5Pva" />
+		<DocProperty xsi:nil="true" href="CoolingDryBulb_0BczBP7O94VQtTk4I54PvD" />
+		<DocProperty xsi:nil="true" href="CoolingWetBulb_2zdYLBMHb8nwCNr1ZA4xaO" />
+		<DocProperty xsi:nil="true" href="CoolingDesignDay_1uZTb2BavF0QQt32_1uiaz" />
+		<DocProperty xsi:nil="true" href="WeatherDataStation_2fZki8vKr7vL68gvEjdv_" />
+		<DocProperty xsi:nil="true" href="WeatherDataDate_13nGT6TU9EiARbtrrgCx63" />
+		<DocProperty xsi:nil="true" href="BuildingThermalExposure_0EHOhvjZLEEgwL3OJILAD0" />
+		<DocProperty xsi:nil="true" href="PrevailingWindDirection_0O_IsHgAL728ijIZ98XuJ" />
+		<DocProperty xsi:nil="true" href="PrevailingWindVelocity_0g0LvZairEqBuXiK3N4c3l" />
+	</Properties>
+</DocPropertySet>
+

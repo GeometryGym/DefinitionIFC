@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AirTerminalCoreType_2oGxTn12Aum1g7cls6rr" Name="PEnum_AirTerminalCoreType" UniqueId="b243fffb-7710-422b-8c01-a879afd86d75">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SHUTTERBLADE_0NPzxmnMv7KQB7cjmfaGIf" />
+		<DocPropertyConstant xsi:nil="true" href="CURVEDBLADE_2iP7uiPsvAYAwGPbbznLhD" />
+		<DocPropertyConstant xsi:nil="true" href="REMOVABLE_1ZuYmUmjfD19PNn4OPD_M" />
+		<DocPropertyConstant xsi:nil="true" href="REVERSIBLE_1UrNSohx59kANaFcw6UYuS" />
+		<DocPropertyConstant xsi:nil="true" href="NONE_0uzQUamUf92wL654GzX6tl" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

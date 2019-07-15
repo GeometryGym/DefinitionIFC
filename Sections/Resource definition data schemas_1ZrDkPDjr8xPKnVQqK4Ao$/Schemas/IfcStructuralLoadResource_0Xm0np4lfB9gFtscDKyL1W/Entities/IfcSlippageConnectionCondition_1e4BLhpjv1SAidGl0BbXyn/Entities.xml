@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSlippageConnectionCondition" UniqueId="1e4BLhpjv1SAidGl0BbXyn" DiagramNumber="4" BaseDefinition="IfcStructuralConnectionCondition" EntityFlags="165">
+	<Attributes>
+		<DocAttribute Name="SlippageX" UniqueId="19S7mtWYL1kQ44QO0zFrFP" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Slippage of that connection. Defines the maximum displacement in x-direction without any loading applied.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SlippageY" UniqueId="0TgPL5AAL0$QsV7lXNvSI_" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Slippage of that connection. Defines the maximum displacement in y-direction without any loading applied.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SlippageZ" UniqueId="0ct1ubmXPEEQMgjle8tNDi" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Slippage of that connection. Defines the maximum displacement in z-direction without any loading applied.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="VaristorType_0SuRzvDMv5jvqJnH1YRHfr" Name="VaristorType" UniqueId="1ce1bf79-356e-45b7-9d13-c510626d1a75" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_VaristorType_2kzUNB1k1AqRASU7V0ugPH" />
+	</Enumeration>
+</DocProperty>
+

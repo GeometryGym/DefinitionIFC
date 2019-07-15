@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_BoilerTypeCommon" UniqueId="292701b9-ef20-4bf1-a47f-19673d007279" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="PressureRating_1rubD9fQTAC8PbCfu71rNi" />
+		<DocProperty xsi:nil="true" href="OperatingMode_3K6FoFZJ18YABr0oExb1" />
+		<DocProperty xsi:nil="true" href="Material_0qMdrg35F1hXh0FYtzt3" />
+		<DocProperty xsi:nil="true" href="HeatTransferSurfaceArea_261_gSSmzBNeTzwXen0hCX" />
+		<DocProperty xsi:nil="true" href="NominalPartLoadRatio_14huiTTTCIBKjErmgvPti" />
+		<DocProperty xsi:nil="true" href="WaterInletTemperatureRange_011sAY4bT0QQdbDGKosSCv" />
+		<DocProperty xsi:nil="true" href="WaterStorageCapacity_14ofQtFUfCG94MXrHYA7Fy" />
+		<DocProperty xsi:nil="true" href="IsWaterStorageHeater_2T1iqanaL9H9oaHQNXgaHD" />
+		<DocProperty xsi:nil="true" href="Weight_2YEIoNaUTCXxFIPlSNB1aK" />
+		<DocProperty xsi:nil="true" href="PartialLoadEfficiencyCurves_1mRuXlEb32vBwoyzRhyh4" />
+		<DocProperty xsi:nil="true" href="NominalEfficiency_2T0KDHxE55lAnYRDfF9DNW" />
+		<DocProperty xsi:nil="true" href="HeatOutput_3UUwY8iZv2zgPD23ByNFsl" />
+		<DocProperty xsi:nil="true" href="OutletTemperatureRange_3HTbJxbi53bR8vEy79odZR" />
+		<DocProperty xsi:nil="true" href="NominalEnergyConsumption_3pF1T9Mf8Yg5LpTb10ns" />
+	</Properties>
+</DocPropertySet>
+

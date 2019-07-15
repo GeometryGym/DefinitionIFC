@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcGeometricSetSelect" UniqueId="2MVEsypvHA5utHAlzaBQIZ" DiagramNumber="6">
+	<Selects>
+		<DocSelectItem Name="IfcPoint" UniqueId="0dUpH4Et53ZBDWT5qtyGiz" />
+		<DocSelectItem Name="IfcCurve" UniqueId="0Yu2pytOfAOwoKUB0waI7K" />
+		<DocSelectItem Name="IfcSurface" UniqueId="2TbKQh8X93jPTNWrXqSsho" />
+	</Selects>
+</DocSelect>
+

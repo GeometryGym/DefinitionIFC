@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRepresentation" UniqueId="3JRYnC1$z8n8rkikUhTesC" DiagramNumber="2" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="0CfWrHlkX5UxCgaIslp_Et" DefinedType="IfcStyleModel" />
+		<DocSubtype UniqueId="1I2BH5RgrFU9UwnBwWRkar" DefinedType="IfcShapeModel" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="ContextOfItems" UniqueId="2rPr8IDPL4jeFpDia5$I_n" DefinedType="IfcRepresentationContext" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition of the representation context for which the different subtypes of representation are valid.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RepresentationIdentifier" UniqueId="3yQVu0YQL8$8wyO5656bD6" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The optional identifier of the representation as used within a project.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RepresentationType" UniqueId="13j6EHxyrEqB26flegKagq" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The description of the type of a representation context. The representation type defines the type of geometry or topology used for representing the product representation. More information is given at the subtypes &lt;i&gt;IfcShapeRepresentation&lt;/i&gt; and &lt;i&gt;IfcTopologyRepresentation&lt;/i&gt;.&lt;br&gt;
+The supported values for context type are to be specified by implementers agreements.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Items" UniqueId="3QE58NdLj1xQOGPUEB4xID" DefinedType="IfcRepresentationItem" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Set of geometric representation items that are defined for this representation.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RepresentationMap" UniqueId="2fL6NcHg14phn0nZP$SR6M" DefinedType="IfcRepresentationMap" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="MappedRepresentation">
+			<Documentation>&lt;EPM-HTML&gt;
+Use of the representation within an &lt;i&gt;IfcRepresentationMap&lt;/i&gt;. If used, this &lt;i&gt;IfcRepresentation&lt;/i&gt; may be assigned to many representations as one of its &lt;i&gt;Items&lt;/i&gt; using an &lt;i&gt;IfcMappedItem&lt;/i&gt;. Using &lt;i&gt;IfcRepresentationMap&lt;/i&gt; is the way to share one representation (often of type &lt;i&gt;IfcShapeRepresentation&lt;/i&gt;) by many products.  
+&lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;
+IFC2x Edition 3 CHANGE&amp;nbsp; The inverse attribute &lt;i&gt;LayerAssignments&lt;/i&gt; has been added.
+&lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LayerAssignments" UniqueId="2Vw0jmjgz59xF5cQseqDCE" DefinedType="IfcPresentationLayerAssignment" AttributeFlags="32" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="AssignedItems">
+			<Documentation>&lt;EPM-HTML&gt;Assignment of the whole representation to a single or multiple layer(s). The &lt;i&gt;LayerAssigments&lt;/i&gt; can be overridden by &lt;i&gt;LayerAssigments&lt;/i&gt; of the &lt;i&gt;IfcRepresentationItem&lt;/i&gt;&apos;s within the list of &lt;i&gt;Items&lt;/i&gt;.
+&lt;blockquote&gt;&lt;small&gt;NOTE&amp;nbsp; Implementation agreements can restrict the maximum number of layer assignments to 1.&lt;/small&gt;&lt;br&gt;
+&lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;IFC2x Edition 3 CHANGE&amp;nbsp; The inverse attribute &lt;i&gt;LayerAssignments&lt;/i&gt; has been added.
+&lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OfProductRepresentation" UniqueId="3q5l7h93LFzegZXnjz4_b6" DefinedType="IfcProductRepresentation" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="Representations">
+			<Documentation>Reference to the product shape, for which it is the shape representation.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

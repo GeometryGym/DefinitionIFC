@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_WindowCommon" UniqueId="b4d743e4-9d53-40cf-b271-4c8a7b8537c9" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_1pr9kKqsHDJ8zsBl3YPWX" />
+		<DocProperty xsi:nil="true" href="FireRating_2KIxXrsTvCROUABXPx8A1e" />
+		<DocProperty xsi:nil="true" href="AcousticRating_15OCRdvXEJ8H_zfamLxxx" />
+		<DocProperty xsi:nil="true" href="SecurityRating_2ZvqFiUHEBh7HPybVYCA" />
+		<DocProperty xsi:nil="true" href="IsExternal_2MIj27IbP9Exf7O51Iq4lL" />
+		<DocProperty xsi:nil="true" href="Infiltration_3sbzrzyA91RepCmgKXipjv" />
+		<DocProperty xsi:nil="true" href="ThermalTransmittance_2GSPOWypDAyfXFRyboYPg1" />
+		<DocProperty xsi:nil="true" href="GlazingAreaFraction_1FaYgrWRDBv8vBK4CJeUJV" />
+		<DocProperty xsi:nil="true" href="SmokeStop_1uxSZiqXn0uOMii3wJDKS" />
+	</Properties>
+</DocPropertySet>
+

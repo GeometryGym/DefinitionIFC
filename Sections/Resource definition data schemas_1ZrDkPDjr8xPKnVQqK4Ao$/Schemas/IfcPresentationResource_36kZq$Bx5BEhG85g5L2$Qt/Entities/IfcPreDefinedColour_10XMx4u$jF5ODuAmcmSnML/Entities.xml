@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPreDefinedColour" UniqueId="10XMx4u$jF5ODuAmcmSnML" DiagramNumber="1" BaseDefinition="IfcPreDefinedItem" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="0bjB$jmOPAiP2c7pvdtRJk" DefinedType="IfcDraughtingPreDefinedColour" />
+	</Subtypes>
+</DocEntity>
+

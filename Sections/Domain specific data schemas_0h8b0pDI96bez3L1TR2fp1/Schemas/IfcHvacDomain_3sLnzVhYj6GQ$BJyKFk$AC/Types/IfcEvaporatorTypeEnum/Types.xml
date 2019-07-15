@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcEvaporatorTypeEnum" UniqueId="1fKj0mhIv6z8hZvY4LI5O9" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="DIRECTEXPANSIONSHELLANDTUBE_3x7yAjak94NPgGEQUSVoAR" />
+		<DocConstant xsi:nil="true" href="DIRECTEXPANSIONTUBEINTUBE_2kXsNR7dj3Uxwaa7jvqKVt" />
+		<DocConstant xsi:nil="true" href="DIRECTEXPANSIONBRAZEDPLATE_3hs9rL_0z7HQpzIiySb_Sh" />
+		<DocConstant xsi:nil="true" href="FLOODEDSHELLANDTUBE_1pXll1opvEmBfllef3erp7" />
+		<DocConstant xsi:nil="true" href="SHELLANDCOIL_1XMjuLQs504hCfbFTBTPaF" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_07UlY1swrEiQBMgFm7cRKl" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3Zof1H4QjDmvta3XaY3_Do" />
+	</Constants>
+</DocEnumeration>
+

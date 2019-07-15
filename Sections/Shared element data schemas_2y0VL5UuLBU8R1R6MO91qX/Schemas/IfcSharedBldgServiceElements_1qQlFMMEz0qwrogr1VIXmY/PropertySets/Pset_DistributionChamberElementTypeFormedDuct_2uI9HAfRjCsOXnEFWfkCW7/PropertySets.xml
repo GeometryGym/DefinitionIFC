@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DistributionChamberElementTypeFormedDuct" UniqueId="b848944a-a5bb-4cd9-8871-38f829b8c807" ApplicableType="IfcDistributionChamberElement.Predefined=&quot;FORMEDDUCT&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ClearWidth_28fpKyzdb7vf36ythwGu1g" />
+		<DocProperty xsi:nil="true" href="ClearDepth_1ES4eoaTXF6hlhjQ36TL_V" />
+		<DocProperty xsi:nil="true" href="WallMaterial_1VXkwlFEf9oeo9tsp7BBfu" />
+		<DocProperty xsi:nil="true" href="WallThickness_1Mheb_Xbb7wvKuTKt4i8iK" />
+		<DocProperty xsi:nil="true" href="BaseMaterial_3kXquoZ2DEUeXe9I8pMlr6" />
+		<DocProperty xsi:nil="true" href="BaseThickness_2Z5WTAwWb67xgTxqDAM6tz" />
+		<DocProperty xsi:nil="true" href="AccessCoverMaterial_3peraTCvnCq8H05IQcNpIx" />
+		<DocProperty xsi:nil="true" href="AccessCoverLoadRating_338N45uV9FGuukDf7lMVN8" />
+		<DocProperty xsi:nil="true" href="FillMaterial_0oB_0WldzDMQIFBYbYzKeb" />
+	</Properties>
+</DocPropertySet>
+

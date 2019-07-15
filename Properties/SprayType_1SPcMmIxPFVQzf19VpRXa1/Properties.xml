@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SprayType_1SPcMmIxPFVQzf19VpRXa1" Name="SprayType" UniqueId="5c6665b0-4bb6-4f7d-af69-0497f36e1901" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerSprayType_0kFWgNQnH98x15haDhFkpJ" />
+	</Enumeration>
+</DocProperty>
+

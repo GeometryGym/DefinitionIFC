@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ReinforcementBarPitchOfBeam" UniqueId="a90a09ec-ce87-48dc-8a78-d00182ba5a34" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Description_1tWEATQW9C6QnTglz_Pji" />
+		<DocProperty xsi:nil="true" href="Reference_1hFBAuiCDDRRXCtWXelj8v" />
+		<DocProperty xsi:nil="true" href="StirrupBarPitch_2jGHDvli501Qd2i1f9Z6_u" />
+		<DocProperty xsi:nil="true" href="SpacingBarPitch_22BT7CO_f3cQH1qKaMenUt" />
+	</Properties>
+</DocPropertySet>
+

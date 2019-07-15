@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_LightFixturePlacingType_1AsXSvj7rCPhZAe8JzclVo" Name="PEnum_LightFixturePlacingType" UniqueId="4ada1739-b47d-4c66-b8ca-a084fd9af7f2">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Ceiling_0Yosq8TKzDpRD4T14b_stW" />
+		<DocPropertyConstant xsi:nil="true" href="Floor_3z8j9U5DP4Kf9VND_hCEwS" />
+		<DocPropertyConstant xsi:nil="true" href="Furniture_2v8gRna0P1ux6iMAOy2Dc" />
+		<DocPropertyConstant xsi:nil="true" href="Pole_1KfolWjxv45uoQzzh3ZHHC" />
+		<DocPropertyConstant xsi:nil="true" href="Wall_3qyXJJ4nzEgeawb1lbM_tI" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

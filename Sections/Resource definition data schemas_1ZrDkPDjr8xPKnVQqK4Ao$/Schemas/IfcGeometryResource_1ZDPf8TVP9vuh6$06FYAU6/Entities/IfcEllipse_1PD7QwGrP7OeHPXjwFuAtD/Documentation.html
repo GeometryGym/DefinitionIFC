@@ -1,0 +1,55 @@
+<EPM-HTML> 
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: An ellipse (IfcEllipse) is
+		a conic section defined by the lengths of the semi-major and semi-minor
+		diameters and the position (center or mid point of the line joining the foci)
+		and orientation of the curve. Interpretation of the data shall be as follows:
+		</P> 
+	 <BLOCKQUOTE> 
+		<BLOCKQUOTE> 
+		  <PRE>C  = SELF\IfcConic.Position.Location </PRE> 
+		  <PRE>x  = SELF\IfcConic.Position.P[1] </PRE> 
+		  <PRE>y  = SELF\IfcConic.Position.P[2] </PRE> 
+		  <PRE>z  = SELF\IfcConic.Position.P[3] </PRE> 
+		  <PRE>R1 = SemiAxis1 </PRE> 
+		  <PRE>R2 = SemiAxis2</PRE></BLOCKQUOTE></BLOCKQUOTE> 
+	 <P>and the ellipse is parameterized as: </P> 
+	 <BLOCKQUOTE> 
+		<BLOCKQUOTE> 
+		  <P><IMG SRC="figures/IfcEllipse-Math1.gif" WIDTH="220"
+			 HEIGHT="22"></P></BLOCKQUOTE></BLOCKQUOTE> 
+	 <P>The parameterization range is 0 <FONT FACE="Symbol">&pound;</FONT>
+		<I>u</I> <FONT FACE="Symbol">&pound;</FONT> 2<FONT FACE="Symbol">p</FONT> (or 0
+		<FONT FACE="Symbol">&pound;</FONT> <I>u</I> <FONT FACE="Symbol">&pound;</FONT>
+		360 degree). In the placement coordinate system defined above, the ellipse is
+		the equation <I>C</I> = 0, where</P> 
+	 <BLOCKQUOTE> 
+		<BLOCKQUOTE> 
+		  <P><IMG SRC="figures/IfcEllipse-Math2.gif" WIDTH="193"
+			 HEIGHT="24"></P></BLOCKQUOTE></BLOCKQUOTE> 
+	 <P>The positive sense of the ellipse at any point is in the tangent
+		direction, T, to the curve at the point, where</P> 
+	 <BLOCKQUOTE> 
+		<BLOCKQUOTE> 
+		  <P><IMG SRC="figures/IfcEllipse-Math3.gif" WIDTH="102"
+			 HEIGHT="25"></P></BLOCKQUOTE></BLOCKQUOTE> 
+	 <P> The inherited Position.Location from IfcConic is the center of the
+		IfcEllipse, and the inherited Position.P[1] from IfcConic the direction of the
+		SemiAxis1. </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">NOTE Corresponding STEP entity:
+		  ellipse. Please refer to ISO/IS 10303-42:1994, p. 39 for the final definition
+		  of the formal standard. </FONT></P> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY New class in IFC Release 1.0
+		  </FONT></P></BLOCKQUOTE> 
+	 <P><U>Illustration</U>:</P> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2"> 
+		<TR> 
+		  <TD><A HREF="drawings/IfcEllipse-Layout1.dwf"><IMG
+			 SRC="figures/IfcEllipse-Layout1.gif" ALT="axis1 placement" WIDTH="400"
+			 HEIGHT="300" BORDER="0"></A></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT"><FONT SIZE="-1">Definition of the
+			 IfcEllipse within the (in this case three-dimensional) position coordinate
+			 system.</FONT></TD> 
+		</TR> 
+	 </TABLE> 
+</EPM-HTML>

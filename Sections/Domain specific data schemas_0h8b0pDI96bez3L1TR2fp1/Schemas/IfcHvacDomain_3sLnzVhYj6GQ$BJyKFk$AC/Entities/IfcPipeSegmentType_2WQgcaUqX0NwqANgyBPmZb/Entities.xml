@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPipeSegmentType" UniqueId="2WQgcaUqX0NwqANgyBPmZb" DiagramNumber="2" BaseDefinition="IfcFlowSegmentType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="226nYiOkD4DxnTGAptEV73" DefinedType="IfcPipeSegmentTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The type of pipe segment.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2sGwMOja9BNAXW2UELybZx">
+			<Expression>(PredefinedType &lt;&gt; IfcPipeSegmentTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcPipeSegmentTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

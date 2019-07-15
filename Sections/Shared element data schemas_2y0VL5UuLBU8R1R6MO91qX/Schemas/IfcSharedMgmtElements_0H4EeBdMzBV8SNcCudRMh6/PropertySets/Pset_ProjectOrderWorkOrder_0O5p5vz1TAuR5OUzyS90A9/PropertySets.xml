@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ProjectOrderWorkOrder" UniqueId="18173179-f417-4ae1-b158-7bdf1c240289" ApplicableType="IfcProjectOrder.Predefined=&quot;WORKORDER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ProductDescription_0FewDGCGbAqR0DfwBlg4F5" />
+		<DocProperty xsi:nil="true" href="ShortJobDescription_1suKXM0_L7AuKzwa1bpnj9" />
+		<DocProperty xsi:nil="true" href="LongJobDescription_1ys8iyWcf4au9uFzVbBtJ2" />
+		<DocProperty xsi:nil="true" href="WorkTypeRequested_0xZ_TDBnH7lPhjuSzB_1Ck" />
+		<DocProperty xsi:nil="true" href="ContractualType_3mDg59d2LE3wACzPe5NskL" />
+		<DocProperty xsi:nil="true" href="IfNotAccomplished_06nEL89fL5MRDAtpc7RQX7" />
+	</Properties>
+</DocPropertySet>
+

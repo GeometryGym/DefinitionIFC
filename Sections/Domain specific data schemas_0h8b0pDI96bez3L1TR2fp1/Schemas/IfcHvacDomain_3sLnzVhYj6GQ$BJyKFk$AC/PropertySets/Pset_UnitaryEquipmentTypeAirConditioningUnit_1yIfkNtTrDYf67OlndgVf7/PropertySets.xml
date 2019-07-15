@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_UnitaryEquipmentTypeAirConditioningUnit" UniqueId="7c4a9b97-dddd-4d8a-9187-62fc67a9fa47" ApplicableType="IfcUnitaryEquipment.Predefined=&quot;AIRCONDITIONINGUNIT&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="SensibleCoolingCapacity_26VAq8Ldf5IAx6cJ9hM72S" />
+		<DocProperty xsi:nil="true" href="LatentCoolingCapacity_1iXvly1SnATvPpMiFM2Eb" />
+		<DocProperty xsi:nil="true" href="CoolingEfficiency_3qoGyuf4YxAwpBpxX33o" />
+		<DocProperty xsi:nil="true" href="HeatingCapacity_2bWEBjX4v8fPDvl67_Pjn" />
+		<DocProperty xsi:nil="true" href="HeatingEfficiency_0dppv0dLD20Q2z60Chp06" />
+		<DocProperty xsi:nil="true" href="CondenserFlowrate_3URGeqKID67A1IbHIgFxuN" />
+		<DocProperty xsi:nil="true" href="CondenserEnteringTemperature_0Vr5u8GaXDIR8eCcmr437k" />
+		<DocProperty xsi:nil="true" href="CondenserLeavingTemperature_0NXGHzkyHBwQRHVSUDwSbL" />
+		<DocProperty xsi:nil="true" href="OutsideAirFlowrate_3Vczy_zK5BRwc05uDCO_il" />
+	</Properties>
+</DocPropertySet>
+

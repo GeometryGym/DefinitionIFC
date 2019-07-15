@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDuctFittingType" UniqueId="3LP2upA21BzekXNPO4r9pt" DiagramNumber="2" BaseDefinition="IfcFlowFittingType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="0HNP7Bw0v0FPY3ppWRapDc" DefinedType="IfcDuctFittingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The type of duct fitting.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR2" UniqueId="21R4bIENr9d8x6dpT$qFOF">
+			<Expression>(PredefinedType &lt;&gt; IfcDuctFittingTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcDuctFittingTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

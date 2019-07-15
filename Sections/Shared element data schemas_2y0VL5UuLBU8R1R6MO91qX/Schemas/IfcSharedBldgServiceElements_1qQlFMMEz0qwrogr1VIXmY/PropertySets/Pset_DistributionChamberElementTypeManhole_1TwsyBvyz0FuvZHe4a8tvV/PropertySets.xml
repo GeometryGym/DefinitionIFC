@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DistributionChamberElementTypeManhole" UniqueId="5deb6f0b-e7cf-403f-8e63-468124237e5f" ApplicableType="IfcDistributionChamberElement.Predefined=&quot;MANHOLE&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="InvertLevel_3csmcontT56OcSWMQqU5Ia" />
+		<DocProperty xsi:nil="true" href="SoffitLevel_1AYy6G1Cz2derpxTG85WZC" />
+		<DocProperty xsi:nil="true" href="WallMaterial_1OrcVJ4s92Ph7N5I1oNgFK" />
+		<DocProperty xsi:nil="true" href="WallThickness_1bIVYzrrF4AoM172CV8nB" />
+		<DocProperty xsi:nil="true" href="BaseMaterial_2JuWkKFCH5URte2pFyEI5u" />
+		<DocProperty xsi:nil="true" href="BaseThickness_1NF4zvTjfFxwOixGhRrth4" />
+		<DocProperty xsi:nil="true" href="IsShallow_3gjHWdn8zQ_73Ss4hMy" />
+		<DocProperty xsi:nil="true" href="HasSteps_2ddDpKnIrF2xIpA3dlOkMU" />
+		<DocProperty xsi:nil="true" href="WithBackdrop_1ajOeXfzn97ODABbJFCipJ" />
+		<DocProperty xsi:nil="true" href="AccessCoverMaterial_1ogVU9i7b2f87XNLxaYlUL" />
+		<DocProperty xsi:nil="true" href="AccessLengthOrRadius_3UUR2vmJLFjvPAZxuQw7jW" />
+		<DocProperty xsi:nil="true" href="AccessWidth_3xRH5aNOv0FQbwDCYO3EYy" />
+		<DocProperty xsi:nil="true" href="AccessCoverLoadRating_0YnT7fkr9A4Q3VM3ywzn7T" />
+	</Properties>
+</DocPropertySet>
+

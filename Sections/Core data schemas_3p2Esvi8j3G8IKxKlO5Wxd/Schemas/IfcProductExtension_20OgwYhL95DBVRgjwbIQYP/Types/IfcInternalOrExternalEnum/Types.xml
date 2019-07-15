@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcInternalOrExternalEnum" UniqueId="3JLDkmU5D24Qydu7PG_ZF4" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="INTERNAL_1u31a_yen7iA5bfH6ezNeX" />
+		<DocConstant xsi:nil="true" href="EXTERNAL_2c7Vaxmdr7wfuf0lNogc9l" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1mUjjHxvv3fO9JpF0A_k7U" />
+	</Constants>
+</DocEnumeration>
+

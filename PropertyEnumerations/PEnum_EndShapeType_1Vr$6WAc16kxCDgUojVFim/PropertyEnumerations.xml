@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_EndShapeType_1Vr6WAc16kxCDgUojVFim" Name="PEnum_EndShapeType" UniqueId="5fd7f1a0-2a60-46bb-b30d-a9ecad7cfb30">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CONCAVECONVEX_3KgKP1xZn4kvBFaHQmRknE" />
+		<DocPropertyConstant xsi:nil="true" href="FLATCONVEX_1L7PF7kNz03ww5r6zBLHgy" />
+		<DocPropertyConstant xsi:nil="true" href="CONVEXCONVEX_2sDFR9dbEHQiGErgABeKz" />
+		<DocPropertyConstant xsi:nil="true" href="CONCAVEFLAT_0upiyeZt5A0ffPpwWdbfm5" />
+		<DocPropertyConstant xsi:nil="true" href="FLATFLAT_0_RqsThZHCCRbhJ4P7DTe" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

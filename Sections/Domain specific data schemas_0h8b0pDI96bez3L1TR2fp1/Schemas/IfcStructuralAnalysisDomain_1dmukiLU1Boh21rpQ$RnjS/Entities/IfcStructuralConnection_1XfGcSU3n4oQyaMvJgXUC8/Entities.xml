@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralConnection" UniqueId="1XfGcSU3n4oQyaMvJgXUC8" DiagramNumber="1" BaseDefinition="IfcStructuralItem" EntityFlags="133">
+	<Subtypes>
+		<DocSubtype UniqueId="09y8ozoKTDaeG5HqtA3exl" DefinedType="IfcStructuralCurveConnection" />
+		<DocSubtype UniqueId="084j7y62LCeABgg0cghbIw" DefinedType="IfcStructuralPointConnection" />
+		<DocSubtype UniqueId="37JLltrmzEtf0irkjC$tCF" DefinedType="IfcStructuralSurfaceConnection" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="AppliedCondition" UniqueId="3x7mIphTr7DxcBKfQuq3P$" DefinedType="IfcBoundaryCondition" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional reference to an instance of IfcBoundaryCondition which defines the support condition of this &apos;connection&apos;.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConnectsStructuralMembers" UniqueId="17607AqZn0b8CiwJYIIvC2" DefinedType="IfcRelConnectsStructuralMember" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" Inverse="RelatedStructuralConnection">
+			<Documentation>References to the IfcRelConnectsStructuralMembers relationship by which structural members can be associated to structural connections.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

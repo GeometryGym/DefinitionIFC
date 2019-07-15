@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SensorTypeSmokeSensor" UniqueId="aac334d4-8ca8-45ee-bd1e-6482e79ed776" ApplicableType="IfcSensor.Predefined=&quot;SMOKESENSOR&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="CoverageArea_1pe3o4XJbDkvV4YkSooWbN" />
+		<DocProperty xsi:nil="true" href="PressureSensorSetPoint_33SrGNif58EAXGqqnup5aQ" />
+		<DocProperty xsi:nil="true" href="SmokeSensorRange_2rAoYP4ez5fQed3sVa1jYj" />
+		<DocProperty xsi:nil="true" href="AccuracyOfSmokeSensor_190bIYLDL1aBKMfXNJ7PWW" />
+		<DocProperty xsi:nil="true" href="TimeConstant_3iq6nuhrT2CBuKsfFQkzvm" />
+		<DocProperty xsi:nil="true" href="HasBuiltInAlarm_1yXnaaDef58wk5n7bDWMtE" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTimeSeriesValue" UniqueId="1f_hInFg93xvVRR45FUxbW" DiagramNumber="1" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="ListValues" UniqueId="08g5pZJJ98AAInjl$_Mgl5" DefinedType="IfcValue" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>A list of time-series values. At least one value is required.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

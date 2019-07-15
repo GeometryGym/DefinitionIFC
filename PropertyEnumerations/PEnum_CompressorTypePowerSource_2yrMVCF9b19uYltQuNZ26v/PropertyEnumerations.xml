@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CompressorTypePowerSource_2yrMVCF9b19uYltQuNZ26v" Name="PEnum_CompressorTypePowerSource" UniqueId="bcd567cc-3c99-4127-88af-ddae178c21b9">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="MOTORDRIVEN_2JlldjNtf7Y8HWDZn_rDTf" />
+		<DocPropertyConstant xsi:nil="true" href="ENGINEDRIVEN_26yn2Z7Sr3Ph26V99hmLs" />
+		<DocPropertyConstant xsi:nil="true" href="GASTURBINE_1AfZubqin1jvsysBsSvh8L" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

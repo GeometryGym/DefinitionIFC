@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcOrientedEdge" UniqueId="1DzVrzV0r7gPp9qEPAGr4r" DiagramNumber="1" BaseDefinition="IfcEdge" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="EdgeElement" UniqueId="0xTh8Fofj7$hAO4B9mdJ2O" DefinedType="IfcEdge" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Edge entity used to construct this oriented edge.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Orientation" UniqueId="0FOg8hBkrBk9uKuZQnTcYP" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>BOOLEAN, If TRUE the topological orientation as used coincides with the orientation from start vertex to end vertex of the edge element. If FALSE otherwise.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="EdgeStart" UniqueId="2bTD9lAHvEtQStiTlIHHfB" DefinedType="IfcVertex" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The start vertex of the oriented edge. It derives from the vertices of the edge element after taking account of the orientation.</Documentation>
+			<Derived>IfcBooleanChoose 
+(Orientation, EdgeElement.EdgeStart, EdgeElement.EdgeEnd)</Derived>
+		</DocAttribute>
+		<DocAttribute Name="EdgeEnd" UniqueId="3SsvmvwdjFYww0QVFDec7s" DefinedType="IfcVertex" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The end vertex of the oriented edge. It derives from the vertices of the edge element after taking account of the orientation.</Documentation>
+			<Derived>IfcBooleanChoose 
+(Orientation, EdgeElement.EdgeEnd, EdgeElement.EdgeStart)</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="13_ttrm7TFIekNpqJnBX1J">
+			<Documentation>The edge element shall not be an oriented edge.</Documentation>
+			<Expression>NOT(&apos;IFCTOPOLOGYRESOURCE.IFCORIENTEDEDGE&apos; IN TYPEOF(EdgeElement))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

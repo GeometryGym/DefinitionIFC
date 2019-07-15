@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_AirTerminalBoxPHistory" UniqueId="c35189da-a37c-405d-aeb7-904872a8041b" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="DamperPosition_3WRWRVBef9qRNXDV4rKiGM" />
+		<DocProperty xsi:nil="true" href="AtmosphericPressure_1OtSp5fDP3lxYqgLCWsmS" />
+		<DocProperty xsi:nil="true" href="Sound_0Ixtxpxt95CBixOwEUt3pz" />
+		<DocProperty xsi:nil="true" href="AirflowCurve_08buMET5b3Au09RHmRa2hF" />
+	</Properties>
+</DocPropertySet>
+

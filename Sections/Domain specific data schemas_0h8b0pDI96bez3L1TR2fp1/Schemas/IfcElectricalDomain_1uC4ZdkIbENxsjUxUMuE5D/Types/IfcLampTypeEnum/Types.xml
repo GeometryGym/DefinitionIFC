@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLampTypeEnum" UniqueId="0Jr5NfrwfDYAk2Is6KMsC$" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="COMPACTFLUORESCENT_18KCTlCtv5LxCfGkGox0K2" />
+		<DocConstant xsi:nil="true" href="FLUORESCENT_3qZe2P1YvBsOJ_EOTBNXwX" />
+		<DocConstant xsi:nil="true" href="HIGHPRESSUREMERCURY_0ryEuw_1H08hNnXCRJZNjI" />
+		<DocConstant xsi:nil="true" href="HIGHPRESSURESODIUM_0NvJiSw9T7lBkiyanvvsY4" />
+		<DocConstant xsi:nil="true" href="METALHALIDE_16UPNMpVT6Y8GwB6oIZZHz" />
+		<DocConstant xsi:nil="true" href="TUNGSTENFILAMENT_31_yOM7V5DLhtWA1yLSTXI" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_124bZgsFjBVheEC4DDw9Z" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0wu0f3m1HBr9mO5BejuTuf" />
+	</Constants>
+</DocEnumeration>
+

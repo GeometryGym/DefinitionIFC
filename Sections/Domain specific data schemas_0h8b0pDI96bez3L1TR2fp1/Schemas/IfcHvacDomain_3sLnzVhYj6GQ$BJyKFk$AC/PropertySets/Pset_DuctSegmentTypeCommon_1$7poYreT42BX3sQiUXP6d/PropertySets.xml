@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DuctSegmentTypeCommon" UniqueId="7f1f3ca2-d687-4408-b843-d9ab1e8591a7" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Shape_3BgXEj4k5EkhjeNqfEhbv4" />
+		<DocProperty xsi:nil="true" href="Material_13x6AYxUfDABXgkxicZ1YM" />
+		<DocProperty xsi:nil="true" href="MaterialThickness_2d_0TDhXDFdfz_lsBE5mij" />
+		<DocProperty xsi:nil="true" href="WorkingPressure_2A08Jj1Hv7PwlnjFMwaffA" />
+		<DocProperty xsi:nil="true" href="UnitWeight_0CXaFndm9F6eoOjPjvx8vp" />
+		<DocProperty xsi:nil="true" href="PressureRange_0PgcNHBqj18RXNSDjvyGgG" />
+		<DocProperty xsi:nil="true" href="TemperatureRange_22u0Ih3jTAwxVWp3odSqxZ" />
+		<DocProperty xsi:nil="true" href="LongitudinalSeam_2SkWz4Fj93RxHU8Ggr_bfx" />
+		<DocProperty xsi:nil="true" href="Length_08lT70Zg58GwSR7iH0d5Yp" />
+		<DocProperty xsi:nil="true" href="NominalDiameterOrWidth_2gCYu8E2HC2PZbYvb7BZ5J" />
+		<DocProperty xsi:nil="true" href="NominalHeight_0eNqwC9UL2nOFoLmybqFj5" />
+		<DocProperty xsi:nil="true" href="EndStyleTreatment_3NDvWmQS15HgeH3JgEBKqD" />
+		<DocProperty xsi:nil="true" href="Reinforcement_3YexgCa5n5VA8CxhFpM4Z8" />
+		<DocProperty xsi:nil="true" href="ReinforcementSpacing_2l8AqlSrHCI80aO8cnjv1v" />
+	</Properties>
+</DocPropertySet>
+

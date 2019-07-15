@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcEllipseProfileDef" UniqueId="2zLwd_KRv2YOevU4aFUqMT" DiagramNumber="2" BaseDefinition="IfcParameterizedProfileDef" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="SemiAxis1" UniqueId="3oPy6QCbPFXv5GcguL8WNg" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The first radius of the ellipse. It is measured along the direction of Position.P[1].</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SemiAxis2" UniqueId="3lZ2HAstj4Rel_wDqpNLFg" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The second radius of the ellipse. It is measured along the direction of Position.P[2].</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

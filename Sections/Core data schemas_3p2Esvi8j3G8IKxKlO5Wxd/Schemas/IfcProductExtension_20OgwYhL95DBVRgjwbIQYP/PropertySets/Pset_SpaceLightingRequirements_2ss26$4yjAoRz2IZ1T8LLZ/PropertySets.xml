@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SpaceLightingRequirements" UniqueId="b6d821bf-13cb-4ac9-bf42-4a305d215563" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ArtificialLighting_2MzawNmVf8U8QfnFATNTo_" />
+		<DocProperty xsi:nil="true" href="Illuminance_2nIygfQc50cxMLIaI94Ped" />
+	</Properties>
+</DocPropertySet>
+

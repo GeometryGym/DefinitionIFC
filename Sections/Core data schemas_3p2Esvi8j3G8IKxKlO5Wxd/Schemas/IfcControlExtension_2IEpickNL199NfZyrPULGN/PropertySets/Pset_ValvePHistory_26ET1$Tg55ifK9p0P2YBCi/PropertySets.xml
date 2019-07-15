@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValvePHistory" UniqueId="8639d07f-76a1-45b2-9509-cc064288b32c" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="PercentageOpen_3cRcgvT75BUOXjmADU44dE" />
+		<DocProperty xsi:nil="true" href="MeasuredFlowRate_0T3KAQiunEQAYkfgyVvJvR" />
+		<DocProperty xsi:nil="true" href="MeasuredPressureDrop_06sUQaDrLD5ReQ5JOsWUQ" />
+	</Properties>
+</DocPropertySet>
+

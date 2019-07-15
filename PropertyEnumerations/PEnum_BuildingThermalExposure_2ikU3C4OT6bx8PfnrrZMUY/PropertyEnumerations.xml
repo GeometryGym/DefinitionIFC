@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_BuildingThermalExposure_2ikU3C4OT6bx8PfnrrZMUY" Name="PEnum_BuildingThermalExposure" UniqueId="acb9e0cc-1187-4697-b219-a71d758d67a2">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="LIGHT_3C0F9MiFfBvRvH3OUYl6iv" />
+		<DocPropertyConstant xsi:nil="true" href="MEDIUM_3iCf5YWJf569pVXkMFxf2" />
+		<DocPropertyConstant xsi:nil="true" href="HEAVY_1XXvMnEmbDq9JEG_Q0bxqM" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

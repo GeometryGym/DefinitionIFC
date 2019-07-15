@@ -1,0 +1,85 @@
+<EPM-HTML>
+<p><u>Definition from IAI:</u> A steel bar, usually
+with manufactured
+deformations in the surface, used in concrete and masonry construction
+to
+provide additional strength. </p>
+<blockquote><font color="#0000ff" size="-1">
+HISTORY New entity in IFC
+Release 2x2 </font></blockquote>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to the <i>IfcReinforcingBar</i>
+are defined by the
+<i>IfcPropertySet</i> and attached by the <i>IfcRelDefinesByProperties</i>
+relationship. It is accessible by the inverse <i>IsDefinedBy</i>
+relationship.
+The following property set definitions specific to the <i>IfcReinforcingBar</i>
+are part
+of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcStructuralElementsDomain/Pset_ReinforcingBarBendingsBECCommon.xml"
+ target="SOURCE">Pset_ReinforcingBarBendingsBECCommon</a>:
+common property set for all
+    <i>IfcReinforcingBar</i> occurrences for bending
+information according to the Finnish BEC-standard.
+  </li>
+  <li><a
+ href="../../psd/IfcStructuralElementsDomain/Pset_ReinforcingBarBendingsBS8666Common.xml"
+ target="SOURCE">Pset_ReinforcingBarBendingsBS8666Common</a>:
+common property set for all
+    <i>IfcReinforcingBar</i> occurrences for bending
+information according to the BS8666 standard.
+  </li>
+  <li><a
+ href="../../psd/IfcStructuralElementsDomain/Pset_ReinforcingBarBendingsDIN135610Common.xml"
+ target="SOURCE">Pset_ReinforcingBarBendingsDIN135610Common</a>:
+common property set for all
+    <i>IfcReinforcingBar</i> occurrences for bending
+information according to the DIN 1356-10 standard.
+  </li>
+  <li><a
+ href="../../psd/IfcStructuralElementsDomain/Pset_ReinforcingBarBendingsISOCD3766Common.xml"
+ target="SOURCE">Pset_ReinforcingBarBendingsISOCD3766Common</a>:
+common property set for all
+    <i>IfcReinforcingBar</i> occurrences for bending
+information according to the ISO CD 3766 standard.
+  </li>
+</ul>
+<p><b>Geometry Use Definitions:</b></p>
+<p> The geometric representation of <i>IfcReinforcingBar</i>
+is given by
+the <i>IfcProductDefinitionShape</i>, allowing multiple
+geometric
+representations. Included are: </p>
+<p><u>Local Placement</u><br>
+The use of local placement is defined at the
+supertype <i>IfcBuildingElementComponent</i>. </p>
+<p><u>Standard Geometric Representation using Swept Solid
+Representation</u><br>
+The standard geometric representation of
+<i>IfcReinforcingBar</i> is defined using the swept solid
+representation. The
+<i>RepresentationType</i> attribute of <i>IfcShapeRepresentation</i>
+should
+have the value 'SweptSolid'. The solid is formed from a cross section
+approximated as a circular disk swept along any arbitrary curve. Given
+this,
+the following constraints apply to the standard representation: </p>
+<ul>
+  <li><u>Solid:</u> <i>IfcSweptDiskSolid</i>
+introduced in IFC Release 2x2
+shall be supported. </li>
+  <li><u>Profile:</u> The circular disk cross section
+approximation is
+defined by the <i>Radius</i> attribute of <i>IfcSweptDiskSolid</i>.
+  </li>
+  <li><u>Extrusion:</u> The extrusion along any
+arbitrary curve is defined
+by the <i>Directrix</i> attribute of <i>IfcSweptDiskSolid</i>.
+  </li>
+</ul>
+<p><u>Simplified Geometric Representation</u><br>
+Simplified geometric
+representations may be used based on local agreements. </p>
+</EPM-HTML>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTransformerTypeEnum" UniqueId="3IEFARzTXBiw5NiLvuAwsm" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CURRENT_1Jmz08cjD86xQFmtgDVYyt" />
+		<DocConstant xsi:nil="true" href="FREQUENCY_1KlKijc1TDqB_M42RnK2Ub" />
+		<DocConstant xsi:nil="true" href="VOLTAGE_0RAbIISlD8uPEupZrsZNr3" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3qZSDWSp9AmgcSRiDm3gq6" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1eIUDgKdv7YwcnjBiV3FBD" />
+	</Constants>
+</DocEnumeration>
+

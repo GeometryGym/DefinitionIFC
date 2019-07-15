@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPresentationStyle" UniqueId="0e7nSUqqX89B2CFmpUBv_B" DiagramNumber="2" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="3jntZomIX11QHRXSRwk3$M" DefinedType="IfcCurveStyle" />
+		<DocSubtype UniqueId="1TUGcm3I5Bif7Le$OEyC47" DefinedType="IfcTextStyle" />
+		<DocSubtype UniqueId="1GESFsJGf5oBCJBHEx8UmS" DefinedType="IfcFillAreaStyle" />
+		<DocSubtype UniqueId="1PRDbW0wnBXQ7IIIwvskAl" DefinedType="IfcSurfaceStyle" />
+		<DocSubtype UniqueId="1KJAnPiln4hhtwgokfJP3B" DefinedType="IfcSymbolStyle" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="3tHon7OOn4cvpbj1Y4GMCz" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Name of the presentation style.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

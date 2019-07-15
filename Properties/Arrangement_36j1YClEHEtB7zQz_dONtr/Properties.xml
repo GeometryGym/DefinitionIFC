@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Arrangement_36j1YClEHEtB7zQz_dONtr" Name="Arrangement" UniqueId="c6b4188c-bce4-4edc-b1fd-6bdfa7617df5" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HeatExchangerArrangement_08Jcp_F112487sp__N9bv2" />
+	</Enumeration>
+</DocProperty>
+

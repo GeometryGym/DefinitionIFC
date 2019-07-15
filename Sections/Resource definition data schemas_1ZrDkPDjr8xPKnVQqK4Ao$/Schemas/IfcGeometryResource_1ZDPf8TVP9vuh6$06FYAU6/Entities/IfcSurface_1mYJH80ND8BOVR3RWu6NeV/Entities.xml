@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurface" UniqueId="1mYJH80ND8BOVR3RWu6NeV" DiagramNumber="7" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="2hzzU4Hn53x8vohy_lPvBL" DefinedType="IfcElementarySurface" />
+		<DocSubtype UniqueId="0sAFvkz4LBbgwXAgHKtr30" DefinedType="IfcSweptSurface" />
+		<DocSubtype UniqueId="3bPoEH9BD5Rggdg6uEsJkX" DefinedType="IfcBoundedSurface" />
+	</Subtypes>
+</DocEntity>
+

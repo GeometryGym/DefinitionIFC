@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Material_0yeRPqKZxpHvDGWFMJYeW2" Name="Material" UniqueId="0yeRPqKZxpHvDGWFMJYeW2" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssociatesMaterial">
+	<Templates>
+		<DocTemplateDefinition Name="Single Material" UniqueId="0pajBTG6OqJu62gWLSoXU1" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssociatesMaterial IfcMaterial">
+			<Documentation>&lt;p&gt;
+	Provision of a single material name that defines the material of the &lt;em&gt;element &lt;/em&gt;construction.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Material Layer Set" UniqueId="2Nu_GFX5YSJAxlkMCQngFi" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssociatesMaterial IfcMaterialLayerSet">
+			<Documentation>&lt;p&gt;
+	Provision of a material layer set, consisting of a set of material layers with thickness and material name that defines the material of the &lt;em&gt;element &lt;/em&gt;construction.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Material Layer Usage" UniqueId="2laVFRi89tI9WUlbSFrLrs" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssociatesMaterial IfcMaterialLayerSetUsage">
+			<Documentation>&lt;p&gt;
+	Provision of the assignment of a material layer set to the &lt;em&gt;element &lt;/em&gt;reference axis or reference plane (with an offset). The alignment and thickness of the material layer set has to be consistent along the axis or parallel to the plane.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Material List" UniqueId="32gYzWGcsGHQQ__$VUwfrh" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssociatesMaterial IfcMaterialList">
+			<Documentation>&lt;p&gt;
+	Provision of a list of material name that defines the different materials of the &lt;em&gt;element &lt;/em&gt;construction.&lt;/p&gt;
+&lt;p style=&quot;margin-left: 40px;&quot;&gt;
+	NOTE: There is no correspondence of the parts or components of the &lt;em&gt;element &lt;/em&gt;construction and the materials within the material list.&lt;/p&gt;
+&lt;p style=&quot;margin-left: 40px;&quot;&gt;
+	DEPRECATION: The Material List will be deprecated in IFC4.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+	</Templates>
+</DocTemplateDefinition>
+

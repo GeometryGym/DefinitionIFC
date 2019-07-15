@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_HeatExchangerTypeCommon" UniqueId="4158b1f2-de71-4b35-9e7f-0bdd37963429" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Arrangement_36j1YClEHEtB7zQz_dONtr" />
+		<DocProperty xsi:nil="true" href="ShellMaterial_3rUCwystb4ZhF204si3pFg" />
+	</Properties>
+</DocPropertySet>
+

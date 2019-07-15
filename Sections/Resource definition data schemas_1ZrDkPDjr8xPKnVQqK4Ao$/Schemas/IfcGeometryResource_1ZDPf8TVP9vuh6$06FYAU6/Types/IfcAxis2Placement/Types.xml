@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAxis2Placement" UniqueId="29FaSTHVHCiwto46Xuy5JO" DiagramNumber="3">
+	<Selects>
+		<DocSelectItem Name="IfcAxis2Placement2D" UniqueId="1Tce3LA2P5i8Ww8AXT7Z72" />
+		<DocSelectItem Name="IfcAxis2Placement3D" UniqueId="1x$kKsCEH5TxCfRyNmUC_8" />
+	</Selects>
+</DocSelect>
+

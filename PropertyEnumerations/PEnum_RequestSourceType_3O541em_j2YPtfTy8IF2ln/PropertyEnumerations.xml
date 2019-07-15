@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_RequestSourceType_3O541em_j2YPtfTy8IF2ln" Name="PEnum_RequestSourceType" UniqueId="d8144068-c3eb-4289-9de9-77c2123c2bf1">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Email_28JkMyPInDPfADn4mBUgh9" />
+		<DocPropertyConstant xsi:nil="true" href="Fax_1cV9DBL9T5kfBNGBQxzKDY" />
+		<DocPropertyConstant xsi:nil="true" href="Phone_3oYd_xIOr96f7iEEbRS1n" />
+		<DocPropertyConstant xsi:nil="true" href="Post_0WFzsmjiX8OaO8KLBQf9x" />
+		<DocPropertyConstant xsi:nil="true" href="Verbal_00Ix21mBf08eMJE10k1Tq" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

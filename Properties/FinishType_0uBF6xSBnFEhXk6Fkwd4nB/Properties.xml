@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FinishType_0uBF6xSBnFEhXk6Fkwd4nB" Name="FinishType" UniqueId="382cf1bb-70bc-4f3a-b86e-18fbba9c4c4b" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalFinishType_2BAi9fTjr3zxbUEtwuvRrp" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DiscreteAccessoryEdgeFixingPlate" UniqueId="43950fa3-ffe2-453c-b4d8-fb7dfb5a30fa" ApplicableType="IfcDiscreteAccessory.Object=&quot;Edge fixing plate&quot; | IfcDiscreteAccessory.Element=&quot;Edge fixing plate&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="EdgeFixingPlateLength_030lVoBW90LvP409JSYRaG" />
+		<DocProperty xsi:nil="true" href="EdgeFixingPlateThickness_1bpBwXR1r2jfxHr40hMX3x" />
+		<DocProperty xsi:nil="true" href="EdgeFixingPlateFlangeWidthInPlaneZ_3xuhfUq_jEte6_TIlIdRUt" />
+		<DocProperty xsi:nil="true" href="EdgeFixingPlateFlangeWidthInPlaneX_1oOAT6SJT47ALqvF7bsqld" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTask" UniqueId="1Kuo8CgvvD9uroOvt19HD0" DiagramNumber="3" BaseDefinition="IfcProcess" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="TaskId" UniqueId="1oirDPyDr4IQG16ackg5dt" DefinedType="IfcIdentifier" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>An identifying designation given to a task.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Status" UniqueId="103qqha0P5dBVJW8LTXBm0" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Current status of the task.
+NOTE: Particular values for status are not specified, these should be determined and agreed by local usage. Examples of possible status values include &apos;Not Yet Started&apos;, &apos;Started&apos;, &apos;Completed&apos;.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="WorkMethod" UniqueId="35aUQfxsH5Bu07Xf87hsgu" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The method of work used in carrying out a task.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsMilestone" UniqueId="1R$KA3hgr1X8HIAYuCH7No" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies whether a task is a milestone task (=TRUE) or not (= FALSE).
+NOTE: In small project planning applications, a milestone task may be understood to be a task having no duration. As such, it represents a singular point in time.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Priority" UniqueId="1oJnGqu9jCpQgzvyrY6O1o" DefinedType="INTEGER" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>A value that indicates the relative priority of the task (in comparison to the priorities of other tasks).</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="3Soyz9K4LBNPO5tJGPg7gL">
+			<Documentation>Restrict the relationship &apos;Nests&apos; inherited from IfcObject to IfcRelNestsProcesses.</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* SELF\IfcObjectDefinition.Decomposes | NOT(&apos;IFCKERNEL.IFCRELNESTS&apos; IN TYPEOF(temp)))) = 0</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR2" UniqueId="1dC6$8gujC6u30eXPXg1mw">
+			<Documentation>Restrict the relationship &apos;IsNestedBy&apos; inherited from IfcObject to IfcRelNestsProcesses.</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* SELF\IfcObjectDefinition.IsDecomposedBy | NOT(&apos;IFCKERNEL.IFCRELNESTS&apos; IN TYPEOF(temp)))) = 0</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR3" UniqueId="2Unv5yWyXAEvzSjwYgN0Vc">
+			<Documentation>The Name attribute should be inserted to describe the task name.</Documentation>
+			<Expression>EXISTS(SELF\IfcRoot.Name)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

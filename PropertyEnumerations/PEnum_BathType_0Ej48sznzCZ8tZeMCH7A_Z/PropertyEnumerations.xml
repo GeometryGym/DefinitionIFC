@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_BathType_0Ej48sznzCZ8tZeMCH7A_Z" Name="PEnum_BathType" UniqueId="0eb44236-f71f-4c8c-8de3-a163111cafa3">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Domestic_20O7lm4vCiAqMENxVZgPu" />
+		<DocPropertyConstant xsi:nil="true" href="DomesticCorner_2VoCgpER96JfYItzbBfvex" />
+		<DocPropertyConstant xsi:nil="true" href="Foot_1XNGfxfY56wAg7nov0PSEd" />
+		<DocPropertyConstant xsi:nil="true" href="Jacuzzi_1zG4RYKu59K8ZxXZYTkdgk" />
+		<DocPropertyConstant xsi:nil="true" href="Plunge_033sWX692xOGSVslHdrFo" />
+		<DocPropertyConstant xsi:nil="true" href="Sitz_2pCH8m40b5NRr44KngrSpH" />
+		<DocPropertyConstant xsi:nil="true" href="Treatment_0tnQUzkPn4weIfEeVslzqE" />
+		<DocPropertyConstant xsi:nil="true" href="Whirlpool_1NEXSlF0nDC85gPvK46oq" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

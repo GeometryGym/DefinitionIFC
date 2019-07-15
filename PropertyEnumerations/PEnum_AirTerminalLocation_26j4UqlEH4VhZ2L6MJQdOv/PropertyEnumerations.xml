@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AirTerminalLocation_26j4UqlEH4VhZ2L6MJQdOv" Name="PEnum_AirTerminalLocation" UniqueId="86b447b4-bce4-447e-b8c2-5465936a7639">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SIDEWALLHIGH_3z7TgvjXfFqwfZGXUmVere" />
+		<DocPropertyConstant xsi:nil="true" href="SIDEWALLLOW_3t1q9Gu6LAWPF0ZlDxln1C" />
+		<DocPropertyConstant xsi:nil="true" href="CEILINGPERIMETER_01ZyxWTln9NPG2yc1zzwL7" />
+		<DocPropertyConstant xsi:nil="true" href="CEILINGINTERIOR_23frbesn3PBGx9DS3sSB6" />
+		<DocPropertyConstant xsi:nil="true" href="FLOOR_0_2mXk1dbDKhqKzOCcta3" />
+		<DocPropertyConstant xsi:nil="true" href="SILL_1MoYfPSQ9DPe7mUAIQzwv" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

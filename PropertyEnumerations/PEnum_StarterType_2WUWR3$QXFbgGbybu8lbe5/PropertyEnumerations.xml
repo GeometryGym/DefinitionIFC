@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_StarterType_2WUWR3QXFbgGbybu8lbe5" Name="PEnum_StarterType" UniqueId="a07a06c3-fda8-4f96-a425-f25e08be5a05">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="AutoTransformer_0XWaxOTFPDp84JPOtzB5YR" />
+		<DocPropertyConstant xsi:nil="true" href="Manual_2X8hFl1cLAhvXdNiy5A2hr" />
+		<DocPropertyConstant xsi:nil="true" href="DirectOnLine_1jCraTe4X5DOrQsiChBUgt" />
+		<DocPropertyConstant xsi:nil="true" href="Frequency_0THn1cU99ixBpOH5Z0D9a" />
+		<DocPropertyConstant xsi:nil="true" href="nStep_0PCpnFeMn2yAPWF349ngGF" />
+		<DocPropertyConstant xsi:nil="true" href="Rheostatic_2vUHJtpBHC4A0qAVL2kEBB" />
+		<DocPropertyConstant xsi:nil="true" href="StarDelta_0xKUFpZJf9lvHHDRuuReEy" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

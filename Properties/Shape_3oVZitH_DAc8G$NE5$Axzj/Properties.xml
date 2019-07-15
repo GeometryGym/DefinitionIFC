@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Shape_3oVZitH_DAc8GNE5Axzj" Name="Shape" UniqueId="f27e3b37-47e3-4a98-843f-5ce17f2bbf6d" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalShape_0JbDVCLf9D_A866y4xldQk" />
+	</Enumeration>
+</DocProperty>
+

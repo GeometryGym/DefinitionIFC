@@ -1,0 +1,74 @@
+<EPM-HTML> 
+<p><u>Definition from IAI</u>: The <i>IfcWasteTerminalType</i>
+defines a particular type of sanitary flow that has the purpose of
+collecting or intercepting waste from one or more sanitary terminals or
+other fluid waste generating equipment and discharging it into a single
+waste/drainage system.</p>
+<blockquote>
+  <p><font color="#0000ff" size="-1">
+HISTORY: New entity in IFC 2x2</font></p>
+</blockquote>
+<p><u><b>Use Definitions</b></u></p>
+<p>An <i>IfcWasteTerminalType</i> provides for all
+forms of trap, waste point and interceptor that collects discharge from
+a sanitary terminal and discharges it into a waste/drainage subsystem
+or that collects waste from several terminals and passes it into a
+single waste/drainage subsystem. This includes the P and S traps from
+soil sanitary terminals, sinks, basins etc. as well as floor wastes,
+gully traps and interceptors that provide collection points.</p>
+<p>An <i>IfcWasteTerminalType</i> may be included
+into the spatial context of the building model through an (or multiple)
+instances of <i>IfcFlowTerminal</i>.</p>
+<p>The parameters of the waste terminal type are defined through
+the type driven property sets referred to by the predefined type
+attribute of <i>IfcWasteTerminalType</i>.</p>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to the <i>IfcWasteTerminalType
+</i>are defined by the <i>IfcPropertySet</i> and
+attached by the <i>IfcRelDefinesByType</i> relationship.
+It is accessible by the inverse <i>IsDefinedBy</i>
+relationship. The following property set definitions specific to an <i>IfcWasteTerminalType</i>
+are part of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypeFloorTrap.xml">Pset_WasteTerminalTypeFloorTrap</a>:
+specific property set for the properties of a floor trap, if available </li>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypeFloorWaste.xml">Pset_WasteTerminalTypeFloorWaste</a>:
+specific property set for the properties of a floor waste unit, if
+available </li>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypeGreaseInterceptor.xml">Pset_WasteTerminalTypeGreaseInterceptor</a>:
+specific property set for the properties of a grease interceptor, if
+available </li>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypeGullySump.xml">Pset_WasteTerminalTypeGullySump</a>:
+specific property set for the properties of a gully sump, if available</li>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypeGullyTrap.xml">Pset_WasteTerminalTypeGullyTrap</a>:
+specific property set for the properties of a gully trap, if available</li>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypeOilInterceptor.xml">Pset_WasteTerminalTypeOilInterceptor</a>:
+specific property set for the properties of an oil interceptor, if
+available </li>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypePetrolInterceptor.xml">Pset_WasteTerminalTypePetrolInterceptor</a>:
+specific property set for the properties of a petrol interceptor, if
+available </li>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypeRoofDrain.xml">Pset_WasteTerminalTypeRoofDrain</a>:
+specific property set for the properties of a roof drain, if available </li>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypeWasteDisposalUnit.xml">Pset_WasteTerminalTypeWasteDisposalUnit</a>:
+specific property set for the properties of a waste disposal unit, if
+available</li>
+  <li><a
+ href="../../psd/IfcPlumbingFireProtectionDomain/Pset_WasteTerminalTypeWasteTrap.xml">Pset_WasteTerminalTypeWasteTrap</a>:
+specific property set for the properties of a waste trap, if available</li>
+</ul>
+<p><u><b>Geometry Use Definitions</b></u></p>
+<p>Representations of the type are defined as representation maps
+(at the level of the supertype <i>IfcTypeProduct</i>).
+These are assigned at the occurrence through the <i>IfcShapeRepresentation.Item</i>
+being an <i>IfcMappedItem</i>.</p>
+</EPM-HTML>

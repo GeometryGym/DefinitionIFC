@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DiscreteAccessoryFixingSocket" UniqueId="1c2aa1dd-6ded-4eba-8d01-3357ab295019" ApplicableType="IfcDiscreteAccessory.Object=&quot;Fixing socket&quot; | IfcDiscreteAccessory.Element=&quot;Fixing socket&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FixingSocketTypeReference_0uIZvP5b3sALIxzG_JMZ4" />
+		<DocProperty xsi:nil="true" href="FixingSocketHeight_3U5Hfl97H7uAgXx1Hgv_a" />
+		<DocProperty xsi:nil="true" href="FixingSocketThreadDiameter_3FXYUHA8P8cvp6VTjYb1mB" />
+		<DocProperty xsi:nil="true" href="FixingSocketThreadLength_2Oxvr7Esz7pgBcOf93kMtS" />
+	</Properties>
+</DocPropertySet>
+

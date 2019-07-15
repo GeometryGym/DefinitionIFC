@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralItem" UniqueId="2fv4zYVTb6fw59dVYwnp43" DiagramNumber="1" BaseDefinition="IfcProduct" EntityFlags="141">
+	<Subtypes>
+		<DocSubtype UniqueId="3$UA$3LOL3ouC5Zyg5oQ0m" DefinedType="IfcStructuralMember" />
+		<DocSubtype UniqueId="1bkNyRSSD5d82TmSaUJu$O" DefinedType="IfcStructuralConnection" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="AssignedStructuralActivity" UniqueId="20peYaqZTDsgTOB9npDFBd" DefinedType="IfcRelConnectsStructuralActivity" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingElement">
+			<Documentation>Inverse relationship to all structural activities (i.e. to actions or reactions) which are assigned to this structural member.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

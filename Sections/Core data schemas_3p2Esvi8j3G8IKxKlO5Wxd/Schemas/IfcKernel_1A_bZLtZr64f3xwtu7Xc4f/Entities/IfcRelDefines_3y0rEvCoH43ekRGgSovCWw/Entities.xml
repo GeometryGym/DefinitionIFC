@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelDefines" UniqueId="3y0rEvCoH43ekRGgSovCWw" DiagramNumber="3" BaseDefinition="IfcRelationship" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="3l_f3Xx6n8GBflOGfHEU9y" DefinedType="IfcRelDefinesByProperties" />
+		<DocSubtype UniqueId="2L7BuHHNr4AwkXVEk6USzf" DefinedType="IfcRelDefinesByType" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="RelatedObjects" UniqueId="2t_vQvm656hQ$89vFxB28A" DefinedType="IfcObject" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Reference to the objects (or single object) to which the property definition applies.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDerivedUnitElement" UniqueId="3QwzoPKpb89RuW7R0Dndrt" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Unit" UniqueId="0e1V7IIZb6e8T3hfUBU_uQ" DefinedType="IfcNamedUnit" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The fixed quantity which is used as the mathematical factor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Exponent" UniqueId="1lNlPGd8T2W8nnhrTLA3A1" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The power that is applied to the unit attribute.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

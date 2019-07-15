@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DamperTypeFireDamper" UniqueId="6109210e-08d7-407c-86a7-5c45b5157739" ApplicableType="IfcDamper.Predefined=&quot;FIREDAMPER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ActuationType_3CYdt19PnEQh8pMQbtM4HN" />
+		<DocProperty xsi:nil="true" href="ClosureRatingEnum_1GVv0w45T6Z8aTElRJC0kL" />
+		<DocProperty xsi:nil="true" href="FireResistanceRating_3DSxFFx5FKOwp4MW5MWTG" />
+		<DocProperty xsi:nil="true" href="FusibleLinkTemperature_1AOFUM5lbDheks_JOBQhP" />
+	</Properties>
+</DocPropertySet>
+

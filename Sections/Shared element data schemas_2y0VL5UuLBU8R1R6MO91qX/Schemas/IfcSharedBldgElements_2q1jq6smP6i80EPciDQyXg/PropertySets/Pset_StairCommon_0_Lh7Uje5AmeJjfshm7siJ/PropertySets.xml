@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_StairCommon" UniqueId="3e56b1de-b681-4ac2-84ed-a76af01f6b13" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_3lOxtDDgzDuhyh5pW9fybR" />
+		<DocProperty xsi:nil="true" href="NumberOfRiser_2N_NWG3nX22gJzh4deEQkL" />
+		<DocProperty xsi:nil="true" href="NumberOfTreads_0jXFgB5lv4ovkSSDqQqDb9" />
+		<DocProperty xsi:nil="true" href="RiserHeight_1Dk1j343X6BRy7EpuVYPSn" />
+		<DocProperty xsi:nil="true" href="TreadLength_0KKrDGDTrFceflIbiyNz" />
+		<DocProperty xsi:nil="true" href="RequiredHeadroom_2_Sj2F9T0KQqmfP74biWy" />
+		<DocProperty xsi:nil="true" href="HandicapAccessible_1cHHVMeJLFHAVgtP7Nh5W2" />
+		<DocProperty xsi:nil="true" href="IsExternal_0iPiFmQdzCXfDX9xmKyj" />
+		<DocProperty xsi:nil="true" href="FireRating_1PU3Ts_UvD_wbUKXDP_ULp" />
+		<DocProperty xsi:nil="true" href="FireExit_1vtTv0Gu15eeuDENe7DHW" />
+		<DocProperty xsi:nil="true" href="HasNonSkidSurface_17AX7fZ2T9tPsOUuIZKZ_A" />
+	</Properties>
+</DocPropertySet>
+

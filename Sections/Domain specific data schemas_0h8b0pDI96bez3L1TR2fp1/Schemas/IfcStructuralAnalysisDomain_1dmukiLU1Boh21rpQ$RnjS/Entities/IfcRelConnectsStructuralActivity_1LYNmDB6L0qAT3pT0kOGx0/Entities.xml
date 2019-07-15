@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelConnectsStructuralActivity" UniqueId="1LYNmDB6L0qAT3pT0kOGx0" DiagramNumber="2" BaseDefinition="IfcRelConnects" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="RelatingElement" UniqueId="3Ud0ZNcZj7zeJ0tl4rZYoD" DefinedType="IfcStructuralActivityAssignmentSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to an instance of IfcStructuralItem or IfcBuildingElement (or its subclasses) to which the specified action is applied.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedStructuralActivity" UniqueId="0ju6Ke0RT3NQ7XG022_tfE" DefinedType="IfcStructuralActivity" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to an instance of IfcStructuralActivity (or its subclasses) which is acting upon the specified structural element (represented by a respective structural representation entity).</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

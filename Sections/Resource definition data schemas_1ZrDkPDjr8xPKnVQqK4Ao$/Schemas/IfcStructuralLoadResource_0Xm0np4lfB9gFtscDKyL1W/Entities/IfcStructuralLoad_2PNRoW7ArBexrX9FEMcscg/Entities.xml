@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoad" UniqueId="2PNRoW7ArBexrX9FEMcscg" DiagramNumber="1" EntityFlags="69">
+	<Subtypes>
+		<DocSubtype UniqueId="2t4G03Gq95de_6HWmZP306" DefinedType="IfcStructuralLoadStatic" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="2cE6wgsEf4bgQoXagH86vZ" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optionally defines a name for this load.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

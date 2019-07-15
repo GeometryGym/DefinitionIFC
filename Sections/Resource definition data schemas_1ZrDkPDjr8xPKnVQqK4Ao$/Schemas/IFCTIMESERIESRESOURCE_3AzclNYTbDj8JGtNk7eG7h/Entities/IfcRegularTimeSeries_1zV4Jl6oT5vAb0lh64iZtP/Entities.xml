@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRegularTimeSeries" UniqueId="1zV4Jl6oT5vAb0lh64iZtP" DiagramNumber="1" BaseDefinition="IfcTimeSeries" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="TimeStep" UniqueId="1yJoJIwvH16xBQqiFYWeMj" DefinedType="IfcTimeMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A duration of time intervals between values.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Values" UniqueId="03yq6rgLv0huOUPan9GYgO" DefinedType="IfcTimeSeriesValue" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The collection of time series values.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

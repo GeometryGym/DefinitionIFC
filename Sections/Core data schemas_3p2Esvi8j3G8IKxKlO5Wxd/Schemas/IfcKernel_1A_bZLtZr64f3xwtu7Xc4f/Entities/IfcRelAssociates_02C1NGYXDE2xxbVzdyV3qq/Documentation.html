@@ -1,0 +1,34 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI</U>: The association relationship
+		(<I>IfcRelAssociates</I>) refer to external sources of information (most
+		notably a classification, library or document). There is no dependency implied
+		by the association.</P> 
+	 <BLOCKQUOTE><FONT SIZE="-1">EXAMPLE: Further information may the given to
+		the tank equipment (as subtype of <I>IfcProduct</I>) in terms of its
+		classification and instruction documents, the source of the additional
+		information is held external to the IFC project model. </FONT></BLOCKQUOTE> 
+	 <P>Association relationships can the established to objects (occurrences) or
+		to types (both object types, <I>IfcTypeObject</I>, or partial types,
+		<I>IfcPropertySetDefinition</I>).</P> 
+	 <BLOCKQUOTE><FONT SIZE="-1">EXAMPLE 1: The classification information for
+		the tank equipment may be associated to the <I>IfcTypeProduct</I> (subtype of
+		<I>IfcTypeObject</I>), defining the specific information for all occurrences of
+		that tank in the project. Therefore the association of the (e.g.) Uniclass
+		notation 'L6814' may be associated by a subtype of <I>IfcRelAssociates</I> to
+		the type information.</FONT></BLOCKQUOTE> 
+	 <BLOCKQUOTE><FONT SIZE="-1">EXAMPLE 2: The classification information for a
+		particular space within a building may the associated to the <I>IfcSpace</I>
+		object (subtype of <I>IfcObject</I>), defining a particular occurrence of
+		space. Therefore the association of the (e.g.) DIN notation 'HNF 1.5' may be
+		associated by a subtype of <I>IfcRelAssociates</I> to the
+		object.</FONT></BLOCKQUOTE> 
+	 <P>The association relationship establishs a uni-directional association.
+		The subtypes of <I>IfcRelAssociates</I> establishes the particular semantic
+		meaning of the association relationship.</P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New entity in IFC
+		Release 2x.</FONT></BLOCKQUOTE> 
+	 <BLOCKQUOTE> <FONT COLOR="#FF0000" SIZE="-1">NOTE: Users should not
+		instantiate the entity <I>IfcRelAssociates</I> from IFC2x Edition2 onwards. It
+		will be changed into an ABSTRACT supertype in future releases of
+		IFC.</FONT></BLOCKQUOTE>
+</EPM-HTML>

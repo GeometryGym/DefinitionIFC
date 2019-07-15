@@ -1,0 +1,56 @@
+<EPM-HTML>
+	 <P> <U>Definition from IAI:</U> A slender timber, concrete, or steel
+		structural element, driven, jetted, or otherwise embedded on end in the ground
+		for the purpose of supporting a load. </P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF" SIZE="-1"> HISTORY New entity in IFC
+		Release 2x2 </FONT></BLOCKQUOTE> 
+	 <P><B>Geometry Use Definitions:</B></P> 
+	 <P> The geometric representation of <I>IfcPile</I> is given by the
+		<I>IfcProductDefinitionShape</I>, allowing multiple geometric representation.
+		Included are: </P> 
+	 <P><U>Local Placement</U><BR> The local placement for <I>IfcPile</I> is
+		defined in its supertype <I>IfcProduct</I>. It is defined by the
+		<I>IfcLocalPlacement</I>, which defines the local coordinate system that is
+		referenced by all geometric representations. </P>
+	 <UL> 
+		<LI>The <I>PlacementRelTo</I> relationship of <I>IfcLocalPlacement</I>
+		  shall point (if given) to the local placement of the same
+		  <I>IfcSpatialStructureElement</I>, which is used in the
+		  <I>ContainedInStructure</I> inverse attribute, or to a spatial structure
+		  element at a higher level, referenced by that. </LI>
+		<LI>If the relative placement is not used, the absolute placement is
+		  defined within the world coordinate system. </LI> 
+	 </UL>
+	 <P><U>Standard Geometric Representation using Swept Solid
+		Representation</U><BR> The standard geometric representation of <I>IfcPile</I>
+		is defined using the swept solid representation. The <I>RepresentationType</I>
+		attribute of <I>IfcShapeRepresentation</I> should have the value 'SweptSolid'.
+		The following constraints apply to the standard representation: </P> 
+	 <UL> 
+		<LI><U>Solid:</U> <I>IfcExtrudedAreaSolid</I> shall be supported </LI>
+		<LI><U>Profile:</U> <I>IfcRectangleProfileDef</I> and
+		  <I>IfcCircleProfileDef</I> shall be supported </LI>
+		<LI><U>Extrusion:</U> The profile shall be extruded vertically, i.e., in
+		  the direction of the z-axis of the co-ordinate system of the referred spatial
+		  structure element. It might be further constraint to be in the direction of the
+		  global z-axis in implementers agreements. The extrusion axis shall be
+		  perpendicular to the swept profile, i.e. pointing into the direction of the
+		  z-axis of the Position of the <I>IfcExtrudedAreaSolid</I>. </LI> 
+	 </UL>
+	 <P><U>Advanced Geometric Representation using CSG Representation</U><BR>
+		The advanced geometric representation of <I>IfcPile</I> is defined using the
+		Swept Solid or CSG representation. The <I>RepresentationType</I> attribute of
+		<I>IfcShapeRepresentation</I> should have the value 'SweptSolid' or 'CSG'. The
+		following additional constraints apply to the advanced representation: </P> 
+	 <UL> 
+		<LI><U>Solid:</U> see standard geometric representation, </LI>
+		<LI><U>Profile:</U> <I>IfcRectangleProfileDef</I>,
+		  <I>IfcCircleProfileDef</I>, <I>IfcIShapeProfileDef</I> and
+		  <I>IfcArbitraryProfileDef</I> shall be supported. </LI>
+		<LI><U>Extrusion:</U> All extrusion directions shall be supported </LI>
+		<LI><U>Boolean result:</U> The <I>IfcBooleanClippingResult</I> shall be
+		  supported, allowing for Boolean differences between the swept solid (here
+		  <I>IfcExtrudedAreaSolid</I>) and one or several <I>IfcHalfSpaceSolid</I>. </LI>
+		
+	 </UL>
+</EPM-HTML>

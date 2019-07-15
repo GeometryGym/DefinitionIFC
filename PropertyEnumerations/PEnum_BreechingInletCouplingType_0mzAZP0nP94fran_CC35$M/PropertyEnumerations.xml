@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_BreechingInletCouplingType_0mzAZP0nP94fran_CC35M" Name="PEnum_BreechingInletCouplingType" UniqueId="30f4a8d9-0316-4912-9d64-c7e30c0c5fd6">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="INSTANTANEOUS_FEMALE_00YVzUnoz8JuQoHKv9humP" />
+		<DocPropertyConstant xsi:nil="true" href="INSTANTANEOUS_MALE_3CFH0p3TDCfADE_bOYJl3P" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="USERDEFINED_37TLtgMNT56wNUWK6TXrMy" />
+		<DocPropertyConstant xsi:nil="true" href="NOTDEFINED_2XczqPL8H0kQwINEcAw1T" />
+	</Constants>
+</DocPropertyEnumeration>
+

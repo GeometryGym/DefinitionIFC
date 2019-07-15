@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SanitaryTerminalTypeSanitaryFountain" UniqueId="1e49a85a-cf98-44ca-8c42-e312d71892e7" ApplicableType="IfcSanitaryTerminal.Predefined=&quot;SANITARYFOUNTAIN&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FountainType_1v643Nar5DSAJm5gYgugD9" />
+		<DocProperty xsi:nil="true" href="Mounting_1SiEMYlCXDFvyKvrFKaeHO" />
+		<DocProperty xsi:nil="true" href="NominalLength_3s_5S9iJvETwGH3QBv0E2E" />
+		<DocProperty xsi:nil="true" href="NominalWidth_2Gj4nYXeD0QwvZ_CLTA7dM" />
+		<DocProperty xsi:nil="true" href="NominalDepth_0ye5baEuX1yfgvAVKItWu8" />
+		<DocProperty xsi:nil="true" href="Material_3hBNTeZkH6qBw3XJvPf8e" />
+		<DocProperty xsi:nil="true" href="Color_3nFHP5G8LAxhepp1Nwk9Cc" />
+		<DocProperty xsi:nil="true" href="DrainSize_2f_drDc81ArwjYptu0OjOh" />
+	</Properties>
+</DocPropertySet>
+

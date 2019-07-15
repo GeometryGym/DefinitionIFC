@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ControlDamperOperation_1xbi5mZ75EOQS7A95ZOC" Name="ControlDamperOperation" UniqueId="7b96c170-8c71-4e61-a707-2bf27f16360c" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ControlDamperOperation_0i9pKT7Hv4g9X2PCbDN90" />
+	</Enumeration>
+</DocProperty>
+

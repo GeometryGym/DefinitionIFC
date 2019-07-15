@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_DamperSizingMethod_2YCsCegPFw9Eyo02EBX2V" Name="PEnum_DamperSizingMethod" UniqueId="a2336fcc-a2a6-4fe8-93bc-c8008e2e109f">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="NOMINAL_1kI0AE3FL28Q4DLy4ZSo1W" />
+		<DocPropertyConstant xsi:nil="true" href="EXACT_0BJq6IAv60wBU32HJIdkS" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPileConstructionEnum" UniqueId="1IPTDYiIn9ueclR$bYYvPx" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CAST_IN_PLACE_1LRN08Ak13uhrsRBq5mZZh" />
+		<DocConstant xsi:nil="true" href="COMPOSITE_0Y8WJFFAX8ofoSqHFHCyJY" />
+		<DocConstant xsi:nil="true" href="PRECAST_CONCRETE_0ivmkgq0P839VM_i0VdOeP" />
+		<DocConstant xsi:nil="true" href="PREFAB_STEEL_2pBc6EX5vAEvLh2WoZeMP9" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1vgpaY7Zv81O3uic3tNMKq" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2s2vrebZP63glK3pXCZAUq" />
+	</Constants>
+</DocEnumeration>
+

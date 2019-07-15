@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelAssociatesLibrary" UniqueId="2vG$dD6$r46vZ2z2hHSt7M" DiagramNumber="4" BaseDefinition="IfcRelAssociates" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="RelatingLibrary" UniqueId="3oW6FtoRLERQ5q4Mb1XnNA" DefinedType="IfcLibrarySelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to a library, from which the definition of the property set is taken.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

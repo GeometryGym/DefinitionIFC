@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CoilTypeCommon" UniqueId="990d63dd-92f2-47ae-b0da-0b65a4690fd9" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="OperationalTemperatureRange_2cQByALzX5whCyxERH5rHC" />
+		<DocProperty xsi:nil="true" href="AirflowRateRange_0QRqM0OJzDExcgfANjuG96" />
+		<DocProperty xsi:nil="true" href="NominalSensibleCapacity_0DAGbnqf4qhrHiGF_xEbC" />
+		<DocProperty xsi:nil="true" href="NominalLatentCapacity_3QK1ph5ZPDQAh9didcti9" />
+		<DocProperty xsi:nil="true" href="NominalUA_29VU6uDm53TBAJb4juowEO" />
+	</Properties>
+</DocPropertySet>
+

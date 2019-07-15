@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_MemberCommon" UniqueId="d573a20a-1d32-45e4-86c5-418836b2d280" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_1hi7X3Vdj8rRv50aDouQOG" />
+		<DocProperty xsi:nil="true" href="Span_1CPHQhFfC5wKdvSbNbkOR" />
+		<DocProperty xsi:nil="true" href="Slope_2wFWTzsozEEPlF6Y1UL7qR" />
+		<DocProperty xsi:nil="true" href="IsExternal_1tYHMv3f11IPcz_xXjzAz6" />
+		<DocProperty xsi:nil="true" href="LoadBearing_3D_FUTi590EAFfcC7gPUOu" />
+		<DocProperty xsi:nil="true" href="FireRating_3Y5USojPEEfXIM4raQLFY" />
+	</Properties>
+</DocPropertySet>
+

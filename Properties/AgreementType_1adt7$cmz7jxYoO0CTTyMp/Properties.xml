@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AgreementType_1adt7cmz7jxYoO0CTTyMp" Name="AgreementType" UniqueId="649f71ff-9b0f-47b7-b8b2-60031d77c5b3" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PropertyAgreementType_0UDFBSPa95tfS4GDK9_8Sr" />
+	</Enumeration>
+</DocProperty>
+

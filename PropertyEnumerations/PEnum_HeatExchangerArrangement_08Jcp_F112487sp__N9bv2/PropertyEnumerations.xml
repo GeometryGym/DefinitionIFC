@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_HeatExchangerArrangement_08Jcp_F112487sp__N9bv2" Name="PEnum_HeatExchangerArrangement" UniqueId="084e6cfe-3c10-4210-81f6-cfef97265e42">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="COUNTERFLOW_3VGSXjLXXEE9bLe6IQxhjI" />
+		<DocPropertyConstant xsi:nil="true" href="CROSSFLOW_1XPZvDiAr0EfNewrQuLAnS" />
+		<DocPropertyConstant xsi:nil="true" href="PARALLELFLOW_1aNbRHd_98PQMadxxBzSY" />
+		<DocPropertyConstant xsi:nil="true" href="MULTIPASS_0C3IjbvlfFxgdb3YGWiHzM" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

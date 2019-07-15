@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PackingInstructions" UniqueId="22edd7d3-8cda-4001-8516-5aeee1edc187" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="PackingCareType_3Gs1CzziD55A1SQUaHuG08" />
+		<DocProperty xsi:nil="true" href="WrappingMaterial_3y3Gv1mNHCfwicD7F8dGUu" />
+		<DocProperty xsi:nil="true" href="ContainerMaterial_1Whj0YWs9DdQ9JUoERc9d" />
+		<DocProperty xsi:nil="true" href="SpecialInstructions_1xwyFMBmj81O5w8hMQ5L9P" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DistributionChamberElementTypeSump" UniqueId="a3e2d7be-0108-4bf0-b59a-c1a2cf847240" ApplicableType="IfcDistributionChamberElement.Predefined=&quot;SUMP&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Length_3yh0GOpaDAaRYqbPgC4pZ3" />
+		<DocProperty xsi:nil="true" href="Width_0bCW6MUNv99wFusywBqqw9" />
+		<DocProperty xsi:nil="true" href="InvertLevel_0dlvBjXW14dg44CSTiYiji" />
+	</Properties>
+</DocPropertySet>
+

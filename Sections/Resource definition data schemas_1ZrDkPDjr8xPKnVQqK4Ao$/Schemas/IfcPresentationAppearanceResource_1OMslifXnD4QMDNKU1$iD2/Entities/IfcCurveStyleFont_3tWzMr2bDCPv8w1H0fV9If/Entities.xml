@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveStyleFont" UniqueId="3tWzMr2bDCPv8w1H0fV9If" DiagramNumber="2" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="1jMrSCBgT6Tg5sbl2$pyu$" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Name that may be assigned with the curve font.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PatternList" UniqueId="0Gfl7lXAP0ERha9DJlh$r7" DefinedType="IfcCurveStyleFontPattern" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>A list of curve font pattern entities, that contains the simple patterns used for drawing curves. The patterns are applied in the order they occur in the list.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

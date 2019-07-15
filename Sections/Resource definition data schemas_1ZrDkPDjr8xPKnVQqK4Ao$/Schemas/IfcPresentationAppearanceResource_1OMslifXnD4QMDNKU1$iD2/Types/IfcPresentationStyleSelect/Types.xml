@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPresentationStyleSelect" UniqueId="0ZjlOnGtbENu5l0549IGuf" DiagramNumber="1">
+	<Selects>
+		<DocSelectItem Name="IfcNullStyle" UniqueId="1r2wFzzQv5CBSDq4Ic2ot1" />
+		<DocSelectItem Name="IfcCurveStyle" UniqueId="3PdptF8SrCuwRsR7dU$yyE" />
+		<DocSelectItem Name="IfcSymbolStyle" UniqueId="3TmGajhVL2uOOhTv3nBVoH" />
+		<DocSelectItem Name="IfcFillAreaStyle" UniqueId="0wCYTrabLEFBapTdH_hwSN" />
+		<DocSelectItem Name="IfcTextStyle" UniqueId="01wuAqnjn6dgPzIiiJqReG" />
+		<DocSelectItem Name="IfcSurfaceStyle" UniqueId="3tMp5cnO18BwNoaKIRIhGG" />
+	</Selects>
+</DocSelect>
+

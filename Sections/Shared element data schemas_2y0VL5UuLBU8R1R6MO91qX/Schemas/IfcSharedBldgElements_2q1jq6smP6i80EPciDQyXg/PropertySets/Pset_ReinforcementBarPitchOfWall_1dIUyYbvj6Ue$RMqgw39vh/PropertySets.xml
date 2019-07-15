@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ReinforcementBarPitchOfWall" UniqueId="6749ef22-979b-467a-8fdb-5b4aba0c9e6b" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Description_2X51fT59tfgsNVitaTUR" />
+		<DocProperty xsi:nil="true" href="Reference_2eot53mz8Ifcuo39reCAZ" />
+		<DocProperty xsi:nil="true" href="BarAllocationType_2nmhLTbojBQe8j9pl8_cX3" />
+		<DocProperty xsi:nil="true" href="VerticalBarPitch_3vpVhkwKrCLAwTald6VPKM" />
+		<DocProperty xsi:nil="true" href="HorizontalBarPitch_1khDooNT0_P8NBcyPP7jr" />
+		<DocProperty xsi:nil="true" href="SpacingBarPitch_0qOs9f3B9DFvUxgfDRiZW" />
+	</Properties>
+</DocPropertySet>
+

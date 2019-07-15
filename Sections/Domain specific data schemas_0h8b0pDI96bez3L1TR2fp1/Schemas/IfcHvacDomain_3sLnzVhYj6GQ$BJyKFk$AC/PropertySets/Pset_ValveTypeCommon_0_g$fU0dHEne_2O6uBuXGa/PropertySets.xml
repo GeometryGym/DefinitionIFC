@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValveTypeCommon" UniqueId="3eabfa5e-0274-4ec6-8f82-606e0be21424" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ValvePattern_1vQvSP99nEsg_aQTxBMIZ" />
+		<DocProperty xsi:nil="true" href="ValveOperation_1RZHwzbWbBGxLqddSFb10J" />
+		<DocProperty xsi:nil="true" href="ValveMechanism_0QxSHEFP5tQEUuCknBt9u" />
+		<DocProperty xsi:nil="true" href="Size_366PXDyUXDRuX40tspXgX" />
+		<DocProperty xsi:nil="true" href="BodyMaterial_3q4h6EU2bEruZZvEnLq2Dd" />
+		<DocProperty xsi:nil="true" href="OperatingMechanismMaterial_21Qf4Z1PT9XQrrxswnn8M" />
+		<DocProperty xsi:nil="true" href="TestPressure_0ZRT6WrFv5jBlPfbpiwubM" />
+		<DocProperty xsi:nil="true" href="WorkingPressure_24iR2y0J97PPVFE0ObZwl3" />
+		<DocProperty xsi:nil="true" href="FlowCoefficient_21oFHIGNX7eBG0H_1IdZU" />
+		<DocProperty xsi:nil="true" href="CloseOffRating_1ix5CUEQP1G9e2WNOh4GaH" />
+	</Properties>
+</DocPropertySet>
+

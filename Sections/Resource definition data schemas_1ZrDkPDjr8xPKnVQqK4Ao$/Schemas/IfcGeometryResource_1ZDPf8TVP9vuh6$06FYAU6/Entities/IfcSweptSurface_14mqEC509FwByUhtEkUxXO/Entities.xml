@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSweptSurface" UniqueId="14mqEC509FwByUhtEkUxXO" DiagramNumber="8" BaseDefinition="IfcSurface" EntityFlags="77">
+	<Subtypes>
+		<DocSubtype UniqueId="3xRl5L7wf7XvSULteBSv1q" DefinedType="IfcSurfaceOfRevolution" />
+		<DocSubtype UniqueId="2C7n1skHrAGRHbNBSJQkH9" DefinedType="IfcSurfaceOfLinearExtrusion" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="SweptCurve" UniqueId="0_fPJxQfbCyubSEi_RkEGP" DefinedType="IfcProfileDef" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The curve to be swept in defining the surface. The curve is defined as a profile within the position coordinate system.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Position" UniqueId="3uhQxNDDbFH8aT0wnMGFsu" DefinedType="IfcAxis2Placement3D" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Position coordinate system for the placement of the profile within the xy plane of the axis placement.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="0VKhfgmDL0nP6hTy2tTCan" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, derived from the dimensionality of the Position.</Documentation>
+			<Derived>Position.Dim</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="0Ry_8ahq17DPg7AkLuFHCT">
+			<Expression>NOT(&apos;IFCPROFILERESOURCE.IFCDERIVEDPROFILEDEF&apos; IN TYPEOF(SweptCurve))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR2" UniqueId="0h4xgYCaP8MuyC7WS0MKAY">
+			<Expression>SweptCurve.ProfileType = IfcProfileTypeEnum.Curve</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

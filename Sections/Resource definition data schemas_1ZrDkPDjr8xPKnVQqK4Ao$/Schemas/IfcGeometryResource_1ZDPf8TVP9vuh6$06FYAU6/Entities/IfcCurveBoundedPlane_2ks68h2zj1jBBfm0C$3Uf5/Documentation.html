@@ -1,0 +1,39 @@
+<EPM-HTML>
+<p><u>Definition from ISO/CD 10303-42:1992</u>:
+The
+curve bounded surface is a parametric surface with curved boundaries
+defined by one or more boundary curves. The bounded surface is defined
+to be the portion of the basis surface in the direction of N x T from
+any point on the boundary, where N is the surface normal and T the
+boundary curve tangent vector at this point. The region so defined
+shall be arcwise connected. </p>
+<p><u>Definition from IAI</u>: The <i>IfcCurveBoundedPlane</i>
+is a specialized bounded surface class that deals only with bounding
+basis plane surfaces. The definition varies from STEP as outer and
+inner boundaries are separated attributes and refer to <i>IfcCurve</i>.
+The only basis surface that is allowed is of type <i>IfcPlane</i>,
+and the implicit_outer attribute has not been incorporated, since only
+unbounded surfaces are used as basis surface.</p>
+<p>The <i>BasisSurface</i> is an <i>IfcPlane</i>
+that establishes the position coordinate system by <i>SELF\IfcElementarySurface.Position</i>.
+The <i>OuterBoundary</i> and the <i>InnerBoundaries</i>
+(if provided) shall lie on the surface of <i>IfcPlane</i>.
+Therefore the <i>IfcCurve</i>'s establishing the outer and
+inner boundaries shall be:</p>
+<ul> <li>either a 2D curve within the XY plane of the
+position
+coordinate sytem of <i>IfcPlane</i></li> <li>or
+a 3D curve with all coordinates having a z value = 0.</li>
+</ul><blockquote> <p><font color="#0000ff"><small>NOTE
+Corresponding STEP entity curve_bounded_surface has been changed to
+meet the specific requirements of an easy representation of curve
+bounded planes.</small> </font></p> <p><font
+ color="#0000ff"><small>HISTORY
+&nbsp;New entity in IFC Release 1.5</small> </font> <br>
+<font color="#ff0000"><small>IFC2x
+PLATFORM CHANGE: The data type of the attribute <i>OuterBoundary</i>
+and <i>InnerBoundaries</i> has been changed from <i>Ifc2DCompositeCurve</i>
+to its supertype <i>IfcCurve</i> with upward compatibility
+for file based exchange.</small> </font></p>
+</blockquote>
+</EPM-HTML>

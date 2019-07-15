@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FaucetFunction_2fmbxElT1qOQvgmhvDMYO" Name="FaucetFunction" UniqueId="a9ff097b-3af7-41d1-86b9-ab0af9356898" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FaucetFunction_1rUOzTCz50wQsMprC8jDsl" />
+	</Enumeration>
+</DocProperty>
+

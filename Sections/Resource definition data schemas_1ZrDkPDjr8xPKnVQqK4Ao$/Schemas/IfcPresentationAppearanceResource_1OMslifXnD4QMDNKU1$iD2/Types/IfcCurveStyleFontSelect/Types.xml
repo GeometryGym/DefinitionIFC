@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCurveStyleFontSelect" UniqueId="3rUgrIeljE7Qw1YEaiVz3Y" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcPreDefinedCurveFont" UniqueId="1PCLUzi_nE6ugzkS0WUNIg" />
+		<DocSelectItem Name="IfcCurveStyleFont" UniqueId="3Cm6ss$rL5rfUAthjZbaxc" />
+	</Selects>
+</DocSelect>
+

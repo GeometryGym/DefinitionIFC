@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAddressTypeEnum" UniqueId="1pWq5cxGz5$BVLgkqtue$P" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="OFFICE_23vnhoUm97yQS_3f74Ppc" />
+		<DocConstant xsi:nil="true" href="SITE_1S1ERypiP7yA1uAcsAYjz" />
+		<DocConstant xsi:nil="true" href="HOME_1WAQAmKSv5kR5hRjy10IPS" />
+		<DocConstant xsi:nil="true" href="DISTRIBUTIONPOINT_2qKiBme411OuikoyG5ilgl" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3_evkigSH7c8WqxGwkh_9x" />
+	</Constants>
+</DocEnumeration>
+

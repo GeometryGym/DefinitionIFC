@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DistributionChamberElementTypeValveChamber" UniqueId="38c87e8f-fbf0-4b52-81e2-ec0402ccb055" ApplicableType="IfcDistributionChamberElement.Predefined=&quot;VALVECHAMBER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ChamberLengthOrRadius_3d_OwubpTAGOr6cNgghzOm" />
+		<DocProperty xsi:nil="true" href="ChamberWidth_3pLh5jgAv1px3KZgxxzUfn" />
+		<DocProperty xsi:nil="true" href="WallMaterial_1apNmw_rD3EuJvaRXbao4l" />
+		<DocProperty xsi:nil="true" href="WallThickness_0c1vlVANX9U8HGEs1eysW9" />
+		<DocProperty xsi:nil="true" href="BaseMaterial_17WgCZwIL3HPEWmJ1H_z90" />
+		<DocProperty xsi:nil="true" href="BaseThickness_20WaDFNSPExeAuZheMRxg" />
+		<DocProperty xsi:nil="true" href="AccessCoverMaterial_1CDDY60HBHebyA5i7AQgd" />
+	</Properties>
+</DocPropertySet>
+

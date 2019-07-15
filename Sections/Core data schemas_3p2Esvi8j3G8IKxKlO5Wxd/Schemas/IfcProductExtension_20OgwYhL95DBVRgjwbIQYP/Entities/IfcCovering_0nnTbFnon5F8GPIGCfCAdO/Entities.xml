@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcCovering_0nnTbFnon5F8GPIGCfCAdO" Name="IfcCovering" UniqueId="0nnTbFnon5F8GPIGCfCAdO" DiagramNumber="10" BaseDefinition="IfcBuildingElement" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="2dzW2uQpHFbRpCGRvY19uH" DefinedType="IfcCoveringTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Predefined types to define the particular type of the covering. There may be property set definitions available for each predefined type.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CoversSpaces" UniqueId="3GxJH7Lv1Cx9$wL8C7glnf" DefinedType="IfcRelCoversSpaces" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedCoverings" />
+		<DocAttribute Name="Covers" UniqueId="1uwObdDFjFfOYHqGOdJCkk" DefinedType="IfcRelCoversBldgElements" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatedCoverings">
+			<Documentation>&lt;EPM-HTML&gt;
+Reference to the objectified relationship that handles the relationship of the covering to the covered space.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR61" UniqueId="3T940TMHn7dvHnhJxzfhk3">
+			<Documentation>&lt;EPM-HTML&gt;
+Either the &lt;i&gt;PredefinedType&lt;/i&gt; attribute is unset (e.g. because an &lt;i&gt;IfcCoveringType&lt;/i&gt; is associated), or the inherited attribute &lt;i&gt;ObjectType&lt;/i&gt; shall be given, if the &lt;i&gt;PredefinedType&lt;/i&gt; is set to USERDEFINED.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR 
+ (PredefinedType &lt;&gt; IfcCoveringTypeEnum.USERDEFINED) OR 
+ ((PredefinedType = IfcCoveringTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

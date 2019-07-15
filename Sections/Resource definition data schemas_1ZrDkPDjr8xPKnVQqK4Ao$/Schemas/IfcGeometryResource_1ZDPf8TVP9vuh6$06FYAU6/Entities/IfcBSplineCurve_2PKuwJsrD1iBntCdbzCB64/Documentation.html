@@ -1,0 +1,66 @@
+<EPM-HTML>
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: A B-spline curve is a
+		piecewise parametric polynomial or rational curve described in terms of
+		control points and basis functions. The B-spline curve has been selected as the
+		most stable format to represent all types of polynomial or rational parametric
+		curves. With appropriate attribute values it is capable of representing single
+		span or spline curves of explicit polynomial, rational, Bezier or B-spline
+		type.</P> 
+	 <P>Interpretation of the data is as follows:</P> 
+	 <OL> 
+		<LI> 
+		  <P>All weights shall be positive and the curve is given by</P><IMG
+		  SRC="figures/IfcBSplineCurve-Math1.gif" WIDTH="183" HEIGHT="115" BORDER="0"> 
+		  <TABLE> 
+			 <TR> 
+				<TD ALIGN="RIGHT" WIDTH="100"><I>k</I>+1</TD> 
+				<TD> = number of control points</TD> 
+			 </TR> 
+			 <TR> 
+				<TD ALIGN="RIGHT" WIDTH="100">P<SUB><I>i</I></SUB></TD> 
+				<TD>= control points</TD> 
+			 </TR> 
+			 <TR> 
+				<TD ALIGN="RIGHT" WIDTH="100"><I>w</I><SUB><I>i</I></SUB></TD> 
+				<TD>= weights</TD> 
+			 </TR> 
+			 <TR> 
+				<TD ALIGN="RIGHT" WIDTH="100"><I>d</I></TD> 
+				<TD>= degree</TD> 
+			 </TR> 
+		  </TABLE> 
+		  <P>The knot array is an array of (<I>k</I>+<I>d</I>+2) real numbers
+			 [<I>u</I><SUB>-<I>d</I></SUB> ... <I>u</I><SUB><I>k</I>+1</SUB>], such that for
+			 all indices j in [-<I>d</I>,<I>k</I>], <I>u</I><SUB>j</SUB> &lt;=
+			 <I>u</I><SUB>j+1</SUB>. This array is obtained from the knot data list by
+			 repeating each multiple knot according to the multiplicity. <I>N
+			 <SUP>d</SUP><SUB>i</SUB></I>, the <I>i</I>th normalized B-spline basis function
+			 of degree <I>d</I>, is defined on the subset [<I>u<SUB>i-d</SUB></I>, ... ,
+			 <I>u<SUB>i+1</SUB></I>] of this array.</P></LI> 
+		<LI> 
+		  <P>Let <I>L</I> denote the number of distinct values among the
+			 <I>d</I>+<I>k</I>+2 knots in the knot array; <I>L</I> will be referred to as
+			 the 'upper index on knots'. Let <I>m<SUB>j</SUB></I> denote the multiplicity
+			 (i.e. number of repetitions) of the <I>j</I>th distinct knot. Then</P>
+		  <IMG SRC="figures/IfcBSplineCurve-Math2.gif" WIDTH="149" HEIGHT="59"
+			BORDER="0"> 
+		  <P>All knot multiplicities except the first and the last shall be in
+			 the range 1 ... degree; the first and last may have a maximum value of degree +
+			 1. In evaluating the basis functions, a knot <I>u</I> of e.g. multiplicity 3 is
+			 interpreted as a string <I>u, u, u,</I> in the knot array. The B-spline curve
+			 has 3 special subtypes (<I>IAI note: only 1, Bezier curve, included in this IFC
+			 release</I>) where the knots and knot multiplicities are derived to provide
+			 simple default capabilities.</P></LI> 
+		<LI>Logical flag is provided to indicate whether the curve self
+		  intersects or not.</LI> 
+	 </OL> 
+	 <P><U>Illustration from ISO 10303-42</U>:</P><IMG
+	 SRC="figures/IfcBSplineCurve-Fig1.gif" ALT="control points" WIDTH="520"
+	 HEIGHT="200" BORDER="0"> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1" COLOR="#0000FF">NOTE: Corresponding STEP entity:
+		  b_spline_curve. Please refer to ISO/IS 10303-42:1994, p. 45 for the final
+		  definition of the formal standard. </FONT></P> 
+		<P><FONT SIZE="-1" COLOR="#0000FF">HISTORY: New entity in Release IFC2x
+		  Edition 2.</FONT></P> </BLOCKQUOTE>
+</EPM-HTML>

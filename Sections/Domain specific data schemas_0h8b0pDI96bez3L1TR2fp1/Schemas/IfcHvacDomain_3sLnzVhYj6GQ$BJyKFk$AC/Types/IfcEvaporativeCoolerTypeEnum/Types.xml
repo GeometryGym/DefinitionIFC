@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcEvaporativeCoolerTypeEnum" UniqueId="210Q3fncv4hv7vyCmQyU1k" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER_1lekRDU750SgHFTRJNHcqZ" />
+		<DocConstant xsi:nil="true" href="DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER_0PJMV4OrnFpfSMy86AAtwj" />
+		<DocConstant xsi:nil="true" href="DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER_0_n0SytX0QwxUfCBRhaJ2" />
+		<DocConstant xsi:nil="true" href="DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER_3JpMp7irL6thiqifbhNUm" />
+		<DocConstant xsi:nil="true" href="DIRECTEVAPORATIVEAIRWASHER_3wi800Hcz1q9e26OZsiwm8" />
+		<DocConstant xsi:nil="true" href="INDIRECTEVAPORATIVEPACKAGEAIRCOOLER_1pZNn_9Ctwx8mzQSeQZ6" />
+		<DocConstant xsi:nil="true" href="INDIRECTEVAPORATIVEWETCOIL_0kWWBR2Yn44gDnpXov15" />
+		<DocConstant xsi:nil="true" href="INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER_0QUQvX_C52QhQgo5XMClUb" />
+		<DocConstant xsi:nil="true" href="INDIRECTDIRECTCOMBINATION_3wtjCcXnFMed3o37Wvgni" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_19e3glfP32BYuNw5ExB9J" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1qwetc1Sn8RhphJVgdxLuu" />
+	</Constants>
+</DocEnumeration>
+

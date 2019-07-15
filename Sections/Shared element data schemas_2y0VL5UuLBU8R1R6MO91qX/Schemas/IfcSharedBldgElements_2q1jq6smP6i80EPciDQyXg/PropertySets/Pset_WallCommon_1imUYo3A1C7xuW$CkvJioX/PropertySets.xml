@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_WallCommon" UniqueId="6cc1e8b2-0ca0-4c1f-be20-fccbb94ecca1" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_27uFz4ei96DuWNaGXaP1FN" />
+		<DocProperty xsi:nil="true" href="AcousticRating_1gaP5ys_j1nPVtZtm4xya" />
+		<DocProperty xsi:nil="true" href="FireRating_32jCAXjVHBkez3Yjbw195m" />
+		<DocProperty xsi:nil="true" href="Combustible_3UF6ZZdA94iv49XVVrUXDV" />
+		<DocProperty xsi:nil="true" href="SurfaceSpreadOfFlame_08eo9h3bAFxa0HT6HpTiG" />
+		<DocProperty xsi:nil="true" href="ThermalTransmittance_2IqlqmvOzA7AgfHYHuG0MR" />
+		<DocProperty xsi:nil="true" href="IsExternal_1at2X2210hvWzqxkafCIM" />
+		<DocProperty xsi:nil="true" href="ExtendToStructure_0ASQNzGh19jOL1YqeRDjH0" />
+		<DocProperty xsi:nil="true" href="LoadBearing_0xevJOqNzExfvVrqWA_6xf" />
+		<DocProperty xsi:nil="true" href="Compartmentation_3lrkBEIhP6lQ1KrQ4ECgC7" />
+	</Properties>
+</DocPropertySet>
+

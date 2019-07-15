@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCoveringTypeEnum" UniqueId="3sYcA$wTPEe9oYuyOj4B$h" DiagramNumber="10">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CEILING_2V81mmYpbBhfUJnZW3F0OO" />
+		<DocConstant xsi:nil="true" href="FLOORING_0hLyJCBp14ohe2pXtvNElT" />
+		<DocConstant xsi:nil="true" href="CLADDING_0xxSkOP117FOJGriKvDmrp" />
+		<DocConstant xsi:nil="true" href="ROOFING_3Q7sQL0Pn76AXnMWePrWR0" />
+		<DocConstant xsi:nil="true" href="INSULATION_2pknHrTVfCVPIg3CuNsXh" />
+		<DocConstant xsi:nil="true" href="MEMBRANE_3f9yYGagzEKRnJMKLaDL49" />
+		<DocConstant xsi:nil="true" href="SLEEVING_0XCbuPDCfFtQim3EJ1xbUa" />
+		<DocConstant xsi:nil="true" href="WRAPPING_2ArBTZlKD4WhhrWvxnCmrQ" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3KwbXANQb7N9wtXgw5Qsml" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_03bXsHIy16kwPUqXqFOxRN" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ReadOutType_0Z2yUVwC97kBzPg2jIBMiT" Name="ReadOutType" UniqueId="230bc79f-e8c2-47b8-bf59-a82b522d6b1d" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MeterReadOutType_1CXhleFizAlgGB4k8j9qFB" />
+	</Enumeration>
+</DocProperty>
+

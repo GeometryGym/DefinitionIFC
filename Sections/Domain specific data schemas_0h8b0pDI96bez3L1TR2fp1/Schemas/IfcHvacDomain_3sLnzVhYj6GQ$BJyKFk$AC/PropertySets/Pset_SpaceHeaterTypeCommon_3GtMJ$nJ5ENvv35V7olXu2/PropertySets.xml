@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SpaceHeaterTypeCommon" UniqueId="d0dd64ff-c531-4e5f-9e43-15f1f2be1e02" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="TemperatureClassification_0Lnn0kiDjCTQ_OxyZkC6nL" />
+		<DocProperty xsi:nil="true" href="HeatingSource_0O_aKHBnEyQKGp5h_CdVO" />
+		<DocProperty xsi:nil="true" href="Material_2qc7TXIPX3s9CKjS3QyyP" />
+		<DocProperty xsi:nil="true" href="BodyMass_1BDUcO2Q1EEAiUR84wzo7m" />
+		<DocProperty xsi:nil="true" href="ThermalMassHeatCapacity_3PqDdEt6TCUxAqVeMtqKIs" />
+		<DocProperty xsi:nil="true" href="OutputCapacity_1hAPe4Pev8q9Prp0Rjs2T4" />
+		<DocProperty xsi:nil="true" href="ThermalEfficiency_3X5Bwr7r561eI4jNScsc_4" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcChillerTypeEnum" UniqueId="1gb_t3rL1Eiw1HsBljZvYi" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="AIRCOOLED_1M5cY6FPPF6fsYqG9VeAAj" />
+		<DocConstant xsi:nil="true" href="WATERCOOLED_1Q7E0CATLCoObXaS3jgTZn" />
+		<DocConstant xsi:nil="true" href="HEATRECOVERY_2jGdmaOYD1b8JDdm5STNLL" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_21tOBX8ZLD1u_fTKPu9VL" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2NFDEhwGz7IAaMCdK1Cav1" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CoolingTowerControlStrategy_21CHhOMuv9Lgxzr05Ed6q" Name="PEnum_CoolingTowerControlStrategy" UniqueId="81311ad8-5b8e-4956-aefd-d4017f3a71b4">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FIXEDEXITINGWATERTEMP_3LLf8BE2b1neftmMkZ6kE" />
+		<DocPropertyConstant xsi:nil="true" href="WETBULBTEMPRESET_24SJ4Mpp9Bvv0udvZP9rRM" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

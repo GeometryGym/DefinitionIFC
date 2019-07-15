@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FaucetOperation_3izVCzC_DCYBMRBFMlH8oc" Name="FaucetOperation" UniqueId="ecf5f33d-33e3-4c88-b59b-2cf5af448ca6" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FaucetOperation_1utaZwSU96QB2hpuB1Ocnh" />
+	</Enumeration>
+</DocProperty>
+

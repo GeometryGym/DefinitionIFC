@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSectionReinforcementProperties" UniqueId="3SfO114ejDyfrF5W6ShkPk" DiagramNumber="4" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="LongitudinalStartPosition" UniqueId="2qYYpCYUHCBhYNvtWfuhP7" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The start position in longitudinal direction for the section reinforcement properties.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LongitudinalEndPosition" UniqueId="16i_wh2591rOw_TkBZoqTu" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The end position in longitudinal direction for the section reinforcement properties.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TransversePosition" UniqueId="2mtcJHvnrFpBmrfERMIwvq" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The position for the section reinforcement properties in transverse direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ReinforcementRole" UniqueId="0PlDE$phv5H8FxXFLMndF0" DefinedType="IfcReinforcingBarRoleEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The role, purpose or usage of the reinforcement, i.e. the kind of loads and stresses it is intended to carry, defined for the section reinforcement properties.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SectionDefinition" UniqueId="2_zWuYZqn8w8oldebbMRex" DefinedType="IfcSectionProperties" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Definition of the cross section profile and longitudinal section type.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CrossSectionReinforcementDefinitions" UniqueId="2lcdfmWwTDp9YcICi7qL5t" DefinedType="IfcReinforcementBarProperties" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The set of reinforcment properties attached to a section reinforcement
+properties definition.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

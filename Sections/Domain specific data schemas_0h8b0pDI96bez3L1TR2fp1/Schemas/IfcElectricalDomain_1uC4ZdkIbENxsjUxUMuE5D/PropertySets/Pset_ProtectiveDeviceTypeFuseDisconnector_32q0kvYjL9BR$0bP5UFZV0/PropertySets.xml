@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ProtectiveDeviceTypeFuseDisconnector" UniqueId="c2d00bb9-8ad5-492d-bfc0-95915e3e37c0" ApplicableType=" IfcProtectiveDevice.Predefined=&quot;FUSEDISCONNECTOR&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FuseDisconnectorType_3n3VgXqXAjQUwsTIGuN41" />
+	</Properties>
+</DocPropertySet>
+

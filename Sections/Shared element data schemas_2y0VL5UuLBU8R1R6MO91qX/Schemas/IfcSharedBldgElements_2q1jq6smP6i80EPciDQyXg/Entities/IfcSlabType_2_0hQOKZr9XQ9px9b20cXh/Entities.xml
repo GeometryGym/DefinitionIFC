@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSlabType" UniqueId="2_0hQOKZr9XQ9px9b20cXh" DiagramNumber="2" BaseDefinition="IfcBuildingElementType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="3bhdgqe21Cw8ylKnNKE4Eh" DefinedType="IfcSlabTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Type of the slab.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

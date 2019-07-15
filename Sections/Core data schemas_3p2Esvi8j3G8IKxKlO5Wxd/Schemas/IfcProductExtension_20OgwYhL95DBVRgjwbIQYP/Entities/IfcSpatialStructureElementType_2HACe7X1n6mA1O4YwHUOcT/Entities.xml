@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpatialStructureElementType" UniqueId="2HACe7X1n6mA1O4YwHUOcT" DiagramNumber="8" BaseDefinition="IfcElementType" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="08qS4LW0X4Mxs62Rm3ct7f" DefinedType="IfcSpaceType" />
+	</Subtypes>
+</DocEntity>
+

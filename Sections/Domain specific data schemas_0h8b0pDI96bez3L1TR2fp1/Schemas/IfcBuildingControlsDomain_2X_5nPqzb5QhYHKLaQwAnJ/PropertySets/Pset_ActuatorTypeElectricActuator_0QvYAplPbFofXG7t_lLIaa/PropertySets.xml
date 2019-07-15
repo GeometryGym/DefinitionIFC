@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ActuatorTypeElectricActuator" UniqueId="1ae622b3-bd99-4fca-9850-1f7faf552924" ApplicableType="IfcActuator.Predefined=&quot;ELECTRICACTUATOR&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ActuatorInputPower_3anXSB37z8txzLZNwIokG" />
+		<DocProperty xsi:nil="true" href="ElectricActuatorType_3NEgle_Kz5swl_J3sh2F8p" />
+	</Properties>
+</DocPropertySet>
+

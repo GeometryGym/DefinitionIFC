@@ -1,0 +1,66 @@
+<EPM-HTML>
+	<p><u><b>Definition from IAI</b></u>: 
+    The element type <i>IfcDamperType</i> defines a list of commonly shared property
+	set definitions of a damper and an optional set of product representations.
+	It is used to define a damper specification (i.e. the specific product
+	information, that is common to all occurrences of that product type).</p> 
+	 
+	<blockquote>
+		<font size="-1">
+		NOTE: The product representations are defined as
+		representation maps (at the level of the supertype <i>IfcTypeProduct</i>, which
+		get assigned by an element occurrence instance through the
+		<i>IfcShapeRepresentation.Item[1]</i> being an
+		<i>IfcMappedItem</i>.
+    	</font>
+    </blockquote>
+    
+    <p>A damper type is used to define the common properties of a
+	damper that may be applied to many occurrences of that type.
+	A damper typically participates in an HVAC duct distribution system
+    and is used to control or modulate the flow of air. 
+    Damper types (or the instantiable subtypes) may be exchanged 
+    without being already assigned to occurrences.</p> 
+	
+    <p>The occurrences of the <i>IfcDamperType</i> are represented
+	by instances of <i>IfcFlowController</i> or its subtypes.</p> 
+    
+    <p><u><b>Property Set Use Definition</b></u>:</p> 
+    <p>The property sets relating to this entity are defined by the
+    <i>IfcPropertySet</i> and attached by the <i>IfcRelDefinesByProperties</i>
+    relationship. It is accessible by the inverse <i>IsDefinedBy</i> relationship.
+    The following property set definitions specific to this entity are part
+    of this IFC release:
+    </p> 
+    <ul> 
+       <li><a href="../../psd/IfcHvacDomain/Pset_DamperTypeCommon.xml"
+         target="SOURCE">Pset_DamperTypeCommon</a>: common property set for all damper
+         types
+            <ul> 
+               <li><a href="../../psd/IfcHvacDomain/Pset_DamperTypeControlDamper.xml"
+                 target="SOURCE">Pset_DamperTypeControlDamper</a>: property set for all control damper
+                 types
+               </li> 
+               <li><a href="../../psd/IfcHvacDomain/Pset_DamperTypeFireDamper.xml"
+                 target="SOURCE">Pset_DamperTypeFireDamper</a>: property set for all fire damper
+                 types
+               </li> 
+               <li><a href="../../psd/IfcHvacDomain/Pset_DamperTypeFireSmokeDamper.xml"
+                 target="SOURCE">Pset_DamperTypeFireSmokeDamper</a>: property set for all 
+                 combination fire and smoke damper types
+               </li> 
+               <li><a href="../../psd/IfcHvacDomain/Pset_DamperTypeSmokeDamper.xml"
+                 target="SOURCE">Pset_DamperTypeSmokeDamper</a>: property set for all smoke damper
+                 types
+               </li> 
+            </ul> 
+       </li> 
+    </ul> 
+    
+	<blockquote>
+		<font color="#0000ff" size="-1">
+    	HISTORY: New entity in IFC Release 2x2.<br>
+    	</font>
+    </blockquote>
+
+</EPM-HTML>

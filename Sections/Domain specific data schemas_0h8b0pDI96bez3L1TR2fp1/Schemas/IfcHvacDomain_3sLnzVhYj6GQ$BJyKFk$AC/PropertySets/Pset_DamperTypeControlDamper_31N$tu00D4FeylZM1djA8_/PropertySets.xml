@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DamperTypeControlDamper" UniqueId="c15ffdf8-0003-443e-8f2f-8d6067b4a23e" ApplicableType="IfcDamper.Predefined=&quot;CONTROLDAMPER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="TorqueRange_0gzuMluVD2JfNrk_DHhYqK" />
+		<DocProperty xsi:nil="true" href="ControlDamperOperation_1xbi5mZ75EOQS7A95ZOC" />
+	</Properties>
+</DocPropertySet>
+

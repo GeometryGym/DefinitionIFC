@@ -1,0 +1,35 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: An <I>IfcMove</I> is an activity that moves
+		people, groups within an organization or complete organizations together with
+		their associated furniture and equipment from one place to another. The objects
+		to be moved, normally people, equipment, and furniture, are assigned by the
+		<I>IfcRelAssignsToProcess</I> relationship.</P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC
+		Release 2.0<BR>PunchList attribute datatype changed from IfcLabel to
+		IfcText<BR></FONT> </BLOCKQUOTE> 
+	 <H3>Use Definitions</H3> 
+	 <P>Actors, equipment and furniture are moved from one
+		IfcSpatialStructureElement to another. The IfcSpatialStructureElement to be
+		moved from and that to be moved to are assigned to the IfcMove class using the
+		IfcRelAssignsToProcess relationship. </P> 
+	 <P>The actors (as <I>IfcActor</I>), equipment and furnitures to be moved
+		are assigned to the <I>IfcMove</I> using the <I>IfcRelAssignsToProcess</I>
+		relationship</P> 
+	 <P>Each <I>IfcMove</I> must have a name. This requirement is enforced by a
+		rule.</P> 
+	 <P>The inherited attribute <I>OperatesOn</I> refers to the
+		<I>IfcRelAssignsToProcess</I> relationship, keeping the reference to
+		<I>IfcActor, IfcEquipmentElement </I>and<I> IfcFurnishingElement</I>. The
+		<I>QuantityInProcess</I> attribute at the relationship object can be used to
+		specify a quantity of the objects to be moved.</P>
+	 <P>Constraints may be applied to a move through instances of the
+		<I>IfcConstraint</I> class (or its subtypes) that are associated through the
+		<I>IfcRelAssociatesConstraint</I> relationship class</P> 
+	 <P>Moves can be nested, i.e. a move object can contain other (more
+		detailed) move objects. This is handled by the <I>IfcRelNests</I> relationship
+		pointing (with RelatingObject) to the containing move and (with RelatedObjects)
+		to the contained (sub)moves.</P> 
+	 <P>Moves are assigned to a move schedule (represented as
+		<I>IfcWorkSchedule</I> with Purpose attribute '<I>Move</I>') by using the
+		<I>IfcRelAssignsTask</I> relationship.</P>
+</EPM-HTML>

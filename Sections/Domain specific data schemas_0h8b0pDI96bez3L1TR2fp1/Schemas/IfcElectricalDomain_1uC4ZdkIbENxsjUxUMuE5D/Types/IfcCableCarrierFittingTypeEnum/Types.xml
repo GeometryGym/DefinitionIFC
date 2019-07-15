@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCableCarrierFittingTypeEnum" UniqueId="1Rbpn6o7jBtf3APigoq9Ev" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BEND_36YLkOK1nDRftBTva8wZoJ" />
+		<DocConstant xsi:nil="true" href="CROSS_32EVRbJ4L3bvFqIURiKruE" />
+		<DocConstant xsi:nil="true" href="REDUCER_1MLKqPSxj6qg5UQHyHyFZ6" />
+		<DocConstant xsi:nil="true" href="TEE_3StjFB8SvD2hezTj1QYitW" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1QbVGJuJP0GwIxPyCnMeQp" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2g6tW2gxHB48jq25UAbfqU" />
+	</Constants>
+</DocEnumeration>
+

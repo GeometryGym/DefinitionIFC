@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBuildingElementProxyType" UniqueId="0emAlui6v4tuciatBvO6uJ" DiagramNumber="8" BaseDefinition="IfcBuildingElementType" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="32T5hEtE91ZgIkIL0tu8d_" DefinedType="IfcBuildingElementProxyTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Predefined types to define the particular type of an building element proxy. There may be property set definitions available for each predefined or user defined type.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

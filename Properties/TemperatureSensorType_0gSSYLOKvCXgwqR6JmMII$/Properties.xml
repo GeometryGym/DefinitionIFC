@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="TemperatureSensorType_0gSSYLOKvCXgwqR6JmMII" Name="TemperatureSensorType" UniqueId="2a71c895-614e-4c86-aeb4-6c64f05924bf" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TemperatureSensorType_0HzR3sLGf74AeYyo3aL31E" />
+	</Enumeration>
+</DocProperty>
+

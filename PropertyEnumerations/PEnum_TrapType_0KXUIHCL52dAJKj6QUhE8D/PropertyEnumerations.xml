@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_TrapType_0KXUIHCL52dAJKj6QUhE8D" Name="PEnum_TrapType" UniqueId="1485e491-3151-429c-a4d4-b4669eace20d">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="None_02B7G4D496ZuJthZiyykNT" />
+		<DocPropertyConstant xsi:nil="true" href="P_Trap_2bwQB2MZb31g1LWJ500NzP" />
+		<DocPropertyConstant xsi:nil="true" href="Q_Trap_0DshuDzVDEyOf1ylzLPpeO" />
+		<DocPropertyConstant xsi:nil="true" href="S_Trap_1hcty6CvBw96jvR17wzQi" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

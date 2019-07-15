@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReinforcementBarProperties" UniqueId="3r3R$dQYT1agWvPiy5TyZY" DiagramNumber="4" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="TotalCrossSectionArea" UniqueId="0HQ5nxatL7CvSHez_xM0vX" DefinedType="IfcAreaMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The total effective cross-section area of the reinforcement of a specific steel grade.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SteelGrade" UniqueId="3OF5fALtr2IgKtFMwWHYqk" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The nominal steel grade defined according to local standards.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BarSurface" UniqueId="2D$_UC9mL3gAAKW2cezFSm" DefinedType="IfcReinforcingBarSurfaceEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Indicator for whether the bar surface is plain or textured.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="EffectiveDepth" UniqueId="2iKRib1XjES9G545wqmeYZ" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The effective depth, i.e. the distance of the specific reinforcement cross section area or reinforcement configuration in a row, counted from a common specific reference point. Usually the reference point is the upper surface (for beams and slabs) or a similar projection in a plane (for columns).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="NominalBarDiameter" UniqueId="35pBgFliTAQwFGuPBAyuEe" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The nominal diameter defining the cross-section size of the reinforcing bar. The bar diameter should be identical for all bars included in the specific reinforcement configuration.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BarCount" UniqueId="2UUZKgUcr0WAXx8V6YkuUu" DefinedType="IfcCountMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The number of bars with identical nominal diameter and steel grade included in the specific reinforcement configuration.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

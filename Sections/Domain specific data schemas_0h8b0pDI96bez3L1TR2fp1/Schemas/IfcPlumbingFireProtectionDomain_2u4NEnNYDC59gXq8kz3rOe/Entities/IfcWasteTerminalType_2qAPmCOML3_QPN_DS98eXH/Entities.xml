@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWasteTerminalType" UniqueId="2qAPmCOML3_QPN_DS98eXH" DiagramNumber="1" BaseDefinition="IfcFlowTerminalType" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="023mCaE2TD5B7g5f9CMnaO" DefinedType="IfcWasteTerminalTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of waste terminal from which the type required may be set.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

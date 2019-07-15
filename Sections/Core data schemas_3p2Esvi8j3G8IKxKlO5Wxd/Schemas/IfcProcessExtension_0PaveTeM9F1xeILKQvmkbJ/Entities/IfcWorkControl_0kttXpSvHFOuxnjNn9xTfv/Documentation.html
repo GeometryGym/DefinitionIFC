@@ -1,0 +1,23 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI: </U>An <I>IfcWorkControl</I> is an abstract
+		supertype which captures information that is common to both <I>IfcWorkPlan</I>
+		and <I>IfcWorkSchedule</I> </P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New class in IFC
+		Release 2x</FONT></BLOCKQUOTE> 
+	 <P><U>Use Definitions</U></P> 
+	 <P>A work control may have resources assigned to it, this is handled by the
+		<I>IfcRelAssignsToControl</I> relationship. The assignment of tasks to the work
+		control is handled by the <I>IfcRelAssignsTasks</I> relationship.</P> 
+	 <P>The inherited attributes have the following meaning:</P> 
+	 <P><I>IfcControl.Controls</I> - references to the
+		<I>IfcRelAssignsTasks</I>, that assign instances of <I>IfcTask</I> including
+		time schedule controls.</P> 
+	 <P><I>IfcObject.HasAssignments</I> - references to the
+		<I>IfcRelAssignsToResources</I>, that assigns an instance of <I>IfcResource</I>
+		to the <I>IfcWorkControl</I>.</P> 
+	 <P>The attribute <I>IfcWorkControl.Purpose</I> is used to define the
+		purpose of either a work schedule or a work plan. In the case of
+		<I>IfcWorkPlan</I>, the purpose attribute can be used to determine if the work
+		plan is for cost estimating, task scheduling or some other defined purpose.
+		</P> 
+</EPM-HTML>

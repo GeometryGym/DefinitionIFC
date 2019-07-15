@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLaborResource" UniqueId="1pcQ2pGITBTPRwyNT4d$KK" DiagramNumber="1" BaseDefinition="IfcConstructionResource" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="SkillSet" UniqueId="1YT1E9Q9PEjfigOTWAg4WO" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The skill set required for this type of labor.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

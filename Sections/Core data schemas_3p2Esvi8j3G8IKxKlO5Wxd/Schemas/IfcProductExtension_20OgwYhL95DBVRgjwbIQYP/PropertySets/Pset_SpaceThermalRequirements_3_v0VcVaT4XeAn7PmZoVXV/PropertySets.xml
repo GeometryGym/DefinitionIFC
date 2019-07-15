@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SpaceThermalRequirements" UniqueId="fee407e6-7e47-4486-82b1-1d9c23c9f85f" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="SpaceTemperatureMax_2F_gnvf6L4MRyiG6scuDT" />
+		<DocProperty xsi:nil="true" href="SpaceTemperatureMin_0pe7SdQJD3FPbIhr5EWrZ" />
+		<DocProperty xsi:nil="true" href="SpaceTemperatureSummerMax_2UD4l8Y0nFfxuWoyTm60YC" />
+		<DocProperty xsi:nil="true" href="SpaceTemperatureSummerMin_1WX_eInj2NeudBlcnAAS" />
+		<DocProperty xsi:nil="true" href="SpaceTemperatureWinterMax_3u5lex_Kb2Xen4_OowoQjo" />
+		<DocProperty xsi:nil="true" href="SpaceTemperatureWinterMin_2puNZ5psD0DuHUGjEsbQt3" />
+		<DocProperty xsi:nil="true" href="SpaceHumidity_3DSS0D18z9VBEUd3mCmRzW" />
+		<DocProperty xsi:nil="true" href="SpaceHumiditySummer_3DV0Q0srf1A8yS3TGPuEaL" />
+		<DocProperty xsi:nil="true" href="SpaceHumidityWinter_0IXB252mv7VAP44Hgx1sLq" />
+		<DocProperty xsi:nil="true" href="DiscontinuedHeating_2bpyC5cHn5wx6K951WRXWZ" />
+		<DocProperty xsi:nil="true" href="NaturalVentilation_0rH9DL8lf5rO5a2Avy9bBY" />
+		<DocProperty xsi:nil="true" href="NaturalVentilationRate_3a_uUslZn3p9dV20niXdJa" />
+		<DocProperty xsi:nil="true" href="MechanicalVentilationRate_240N9jp698lvmPkwDRUHCG" />
+		<DocProperty xsi:nil="true" href="AirConditioning_0Wl6T7k5ABfEz5XBTY3Qz" />
+		<DocProperty xsi:nil="true" href="AirConditioningCentral_2gFYsXuz92WhXq6LT30Xvx" />
+	</Properties>
+</DocPropertySet>
+

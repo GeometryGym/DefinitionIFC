@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcHatchLineDistanceSelect" UniqueId="1NMRa__R1D_8ivOaGtckBo" DiagramNumber="4">
+	<Selects>
+		<DocSelectItem Name="IfcOneDirectionRepeatFactor" UniqueId="2F03qts8PCIORX$5xw00AN" />
+		<DocSelectItem Name="IfcPositiveLengthMeasure" UniqueId="22dSIWucLFhAzGYIv0uBcb" />
+	</Selects>
+</DocSelect>
+

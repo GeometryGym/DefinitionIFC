@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DiscreteAccessoryColumnShoe" UniqueId="8cf21c58-3b98-4743-a567-fb9f0b6312d0" ApplicableType="IfcDiscreteAccessory.Object=&quot;Column shoe&quot; | IfcDiscreteAccessory.Element=&quot;Column shoe&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ColumnShoeBasePlateThickness_1gPVk69_13C9jS5vjrVe5M" />
+		<DocProperty xsi:nil="true" href="ColumnShoeBasePlateWidth_05mGo4kcTDFfVZAuxUsep8" />
+		<DocProperty xsi:nil="true" href="ColumnShoeBasePlateDepth_1v0GbdfY96cgt2pL6Ge4YV" />
+		<DocProperty xsi:nil="true" href="ColumnShoeCasingHeight_0wiVMbmX4shF57UmoUMPQ" />
+		<DocProperty xsi:nil="true" href="ColumnShoeCasingWidth_3zHsL1xmn36PVYetf_JKsi" />
+		<DocProperty xsi:nil="true" href="ColumnShoeCasingDepth_0Rn06VSnPEwfnK9sJuRi4u" />
+	</Properties>
+</DocPropertySet>
+

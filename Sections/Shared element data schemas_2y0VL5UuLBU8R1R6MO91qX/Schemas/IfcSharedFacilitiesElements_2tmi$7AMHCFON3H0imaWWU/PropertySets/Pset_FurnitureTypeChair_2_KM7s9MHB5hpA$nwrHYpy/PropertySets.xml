@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FurnitureTypeChair" UniqueId="be5161f6-2564-4b16-bcca-ff1eb5462cfc" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="SeatingHeight_286KM0ZrH6Av0Caa3b85j" />
+		<DocProperty xsi:nil="true" href="HighestSeatingHeight_28SDI4kWv4FghRAKQyV7DB" />
+		<DocProperty xsi:nil="true" href="LowestSeatingHeight_29mF11Fv12A9ye0q35Uav" />
+	</Properties>
+</DocPropertySet>
+

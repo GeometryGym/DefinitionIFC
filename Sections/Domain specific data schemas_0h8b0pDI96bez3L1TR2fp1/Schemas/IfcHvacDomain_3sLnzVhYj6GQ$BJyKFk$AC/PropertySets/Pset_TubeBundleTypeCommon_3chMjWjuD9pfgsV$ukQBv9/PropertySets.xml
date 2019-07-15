@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_TubeBundleTypeCommon" UniqueId="e6ad6b60-b783-49ce-9ab6-7ffe2e68be49" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NumberOfRows_2mayWYiGHDKBosj0lJkyK" />
+		<DocProperty xsi:nil="true" href="StaggeredRowSpacing_3rXRJKFbfFTfR4IyY2zvGT" />
+		<DocProperty xsi:nil="true" href="InLineRowSpacing_1K4RCevV100eawxKh70dDN" />
+		<DocProperty xsi:nil="true" href="NumberOfCircuits_2kG50wuW58PBKEh3mYeSZx" />
+		<DocProperty xsi:nil="true" href="FoulingFactor_1T3SeBTqjDRAKTzpb85J2o" />
+		<DocProperty xsi:nil="true" href="ThermalConductivity_1yX2QG1jPA38vK0mqDN9aK" />
+		<DocProperty xsi:nil="true" href="Length_19mMBiDjPDegLvC4TB5mvY" />
+		<DocProperty xsi:nil="true" href="Volume_2xFWZHQMX4QfKWPVVxXExP" />
+		<DocProperty xsi:nil="true" href="NominalDiameter_2UxwPaEzBZAvORyuEIa7" />
+		<DocProperty xsi:nil="true" href="OutsideDiameter_2mXchhLxX0APnD4o4pzi8U" />
+		<DocProperty xsi:nil="true" href="InsideDiameter_0GRsK0Tyn3IR7csbf9V2_w" />
+		<DocProperty xsi:nil="true" href="HorizontalSpacing_0S17EWuhn4cOmMKBbZxZjq" />
+		<DocProperty xsi:nil="true" href="VerticalSpacing_2Vq4edahjBB7NKFutaq_x" />
+		<DocProperty xsi:nil="true" href="Material_1sryy5j_PDzuSUvS9ko1r" />
+		<DocProperty xsi:nil="true" href="HasTurbulator_2SP_gSKzvB7g5qUZDTO4yt" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProfileDef" UniqueId="3Avonm5hf4PfPVnb7zi7Vr" DiagramNumber="1" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="357Edd7w58juaLdmv8lY3I" DefinedType="IfcParameterizedProfileDef" />
+		<DocSubtype UniqueId="12749DLDrFNBWX0orUGwSM" DefinedType="IfcArbitraryOpenProfileDef" />
+		<DocSubtype UniqueId="2Oi3q7NMv0D8$Rc2CSj8WO" DefinedType="IfcArbitraryClosedProfileDef" />
+		<DocSubtype UniqueId="0ii7vvR0jA_9$AoMxKbJru" DefinedType="IfcCompositeProfileDef" />
+		<DocSubtype UniqueId="1AL8fcC_bEOuvkzAjyOcdw" DefinedType="IfcDerivedProfileDef" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="ProfileType" UniqueId="2$jFjWBHLFaulENK10DDx0" DefinedType="IfcProfileTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Defines the type of geometry into which this profile definition shall be resolved, either a curve or a surface area. In case of curve the profile should be referenced by a swept surface, in case of area the profile should be referenced by a swept area solid.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ProfileName" UniqueId="2$A3ETFRnF7wVq291YfCVB" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Name of the profile type according to some standard profile table.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

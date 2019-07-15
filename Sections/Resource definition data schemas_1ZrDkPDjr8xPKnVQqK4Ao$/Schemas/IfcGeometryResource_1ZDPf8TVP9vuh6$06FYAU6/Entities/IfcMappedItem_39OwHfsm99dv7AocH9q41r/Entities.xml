@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMappedItem" UniqueId="39OwHfsm99dv7AocH9q41r" DiagramNumber="1" BaseDefinition="IfcRepresentationItem" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="MappingSource" UniqueId="0aAbwjPx1DYuzpuU_YhyiY" DefinedType="IfcRepresentationMap" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A representation map that is the source of the mapped item. It can be seen as a block (or cell or marco) definition.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MappingTarget" UniqueId="0EFulG$pHF7uekALFlWShi" DefinedType="IfcCartesianTransformationOperator" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A representation item that is the target onto which the mapping source is mapped. It is constraint to be a Cartesian transformation operator.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

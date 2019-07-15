@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCoilTypeEnum" UniqueId="3JGuYMMh90YPt7pmojR$vO" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="DXCOOLINGCOIL_24NF8Oi8z5_gocLJfNchOX" />
+		<DocConstant xsi:nil="true" href="WATERCOOLINGCOIL_0YKYtLGCH1Uvu7e6mrvETM" />
+		<DocConstant xsi:nil="true" href="STEAMHEATINGCOIL_2bOTMzk_n6HxfWdnKKTmNh" />
+		<DocConstant xsi:nil="true" href="WATERHEATINGCOIL_1V7G7NUUXAEeLCSEjEeCW" />
+		<DocConstant xsi:nil="true" href="ELECTRICHEATINGCOIL_1h_6st2KH0ChkZYHUp2czW" />
+		<DocConstant xsi:nil="true" href="GASHEATINGCOIL_1rRUdqYEz5GAKe0hoZDOSV" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3FOatkcsz19VIeDsoCE75" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2CW1_HaUr84QbY3pMB6FLm" />
+	</Constants>
+</DocEnumeration>
+

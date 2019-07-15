@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcSite_29Ns4jSvn5deUeRJsrB3ti" Name="IfcSite" UniqueId="29Ns4jSvn5deUeRJsrB3ti" DiagramNumber="2" BaseDefinition="IfcSpatialStructureElement" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="RefLatitude" UniqueId="3WbT0zSgb11w8KL_ykYJ5d" DefinedType="IfcCompoundPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+World Latitude at reference point (most likely defined in legal description). Defined as integer values for degrees, minutes, seconds, and, optionally, millionths of seconds with respect to the world geodetic system WGS84.
+&lt;BLOCKQUOTE&gt; &lt;FONT SIZE=&quot;-1&quot;&gt;Latitudes are measured relative to the geodetic equator, north of the equator by positive values - from 0 till +90,   south of the equator by negative values - from 0 till  -90.&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RefLongitude" UniqueId="1uY1qkswPFrehzV2etSU9W" DefinedType="IfcCompoundPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+World Longitude at reference point (most likely defined in legal description). Defined as integer values for degrees, minutes, seconds, and, optionally, millionths of seconds with respect to the world geodetic system WGS84.
+&lt;BLOCKQUOTE&gt; &lt;FONT SIZE=&quot;-1&quot;&gt;Longitudes are measured relative to the geodetic zero meridian, nominally the same as the Greenwich prime meridian: longitudes west of the zero meridian have positive values - from 0 till +180, longitudes east of the zero meridian have negative values - from 0 till -180.&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RefElevation" UniqueId="2ffs94b5zBzAdwjMRehlnr" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Datum elevation relative to sea level.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LandTitleNumber" UniqueId="3No78ghQ9CbeWb850oRTTo" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The land title number (designation of the site within a regional system).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SiteAddress" UniqueId="3QNqw4hWXDaeGNh46KJ2sV" DefinedType="IfcPostalAddress" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Address given to the site for postal purposes.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

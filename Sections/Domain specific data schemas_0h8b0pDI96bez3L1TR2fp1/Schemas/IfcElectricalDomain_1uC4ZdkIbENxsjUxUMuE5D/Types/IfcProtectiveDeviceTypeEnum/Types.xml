@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProtectiveDeviceTypeEnum" UniqueId="2wRvhXr_z5SxovHgKljLWh" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FUSEDISCONNECTOR_3WVmVlKMHB98t91IDykPnH" />
+		<DocConstant xsi:nil="true" href="CIRCUITBREAKER_1z3XqQvj4PAqFg99YEyv" />
+		<DocConstant xsi:nil="true" href="EARTHFAILUREDEVICE_2y91Hi8WP1XggTTbClhgCC" />
+		<DocConstant xsi:nil="true" href="RESIDUALCURRENTCIRCUITBREAKER_3vre5fitH9rQpnobdNwGYR" />
+		<DocConstant xsi:nil="true" href="RESIDUALCURRENTSWITCH_3CB_vbrp1DxhpdqIpsrrTT" />
+		<DocConstant xsi:nil="true" href="VARISTOR_3dK7xrZX18KAouTFEy_1j4" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1f1d0ejb99xPfupACJGMC" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1kZEdv2bH5ueGM3xLsv3tc" />
+	</Constants>
+</DocEnumeration>
+

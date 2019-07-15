@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MaintenaceType_2l8TpMUSbCukr_IgINFF0" Name="MaintenaceType" UniqueId="af21dcd6-79c9-4cff-8bb5-f92a925cf3c0" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MaintenanceType_2seKIww6DEdgl9xbMYl31v" />
+	</Enumeration>
+</DocProperty>
+

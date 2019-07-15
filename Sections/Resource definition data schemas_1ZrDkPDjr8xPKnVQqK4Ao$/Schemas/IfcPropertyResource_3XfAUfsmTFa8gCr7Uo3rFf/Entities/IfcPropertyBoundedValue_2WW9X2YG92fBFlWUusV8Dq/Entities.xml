@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPropertyBoundedValue" UniqueId="2WW9X2YG92fBFlWUusV8Dq" DiagramNumber="2" BaseDefinition="IfcSimpleProperty" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="UpperBoundValue" UniqueId="1V15AQqej3WPrAVXg9Pf_N" DefinedType="IfcValue" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Upper bound value for the interval defining the property value. If the value is not given, it indicates an open bound (all values to be greater than or equal to LowerBoundValue).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LowerBoundValue" UniqueId="259f4IXd1C3gpIoIT$Tm9H" DefinedType="IfcValue" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Lower bound value for the interval defining the property value. If the value is not given, it indicates an open bound (all values to be lower than or equal to UpperBoundValue).</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Unit" UniqueId="0_QPU_MZj4fP4zBdSpMznX" DefinedType="IfcUnit" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Unit for the upper and lower bound values, if not given, the default value for the measure type (given by the TYPE of the upper and lower bound values) is used as defined by the global unit assignment at IfcProject.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="1ZmtzjrRnBbRXdVjj6QgRW">
+			<Documentation>The measure type of the upper bound value shall be the same as the measure type of the lower bound value, if both (upper and lower bound) are given.</Documentation>
+			<Expression>NOT(EXISTS(UpperBoundValue)) OR NOT(EXISTS(LowerBoundValue)) OR
+(TYPEOF(UpperBoundValue) = TYPEOF(LowerBoundValue))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR22" UniqueId="0diO2NMW16MPwxcPGh_LTg">
+			<Documentation>Either the upper bound, or the lower bound, or both bounds shall be given.</Documentation>
+			<Expression>EXISTS(UpperBoundValue) OR EXISTS(LowerBoundValue)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AirTerminalBoxReheatType_2_05l4ZPH4NxMvTw8FP3z2" Name="PEnum_AirTerminalBoxReheatType" UniqueId="be005bc4-8d94-445f-b5b9-77a20f643f42">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="ELECTRICALREHEAT_1dWyzwJAbFv8ARLuGR8ml" />
+		<DocPropertyConstant xsi:nil="true" href="WATERCOILREHEAT_0yO4FPUZn9ePqfuMGVVwpU" />
+		<DocPropertyConstant xsi:nil="true" href="STEAMCOILREHEAT_26kvPjKTvDwQ36viAUvrl" />
+		<DocPropertyConstant xsi:nil="true" href="GASREHEAT_2ttf0lgcD83BoarFufSp0N" />
+		<DocPropertyConstant xsi:nil="true" href="NONE_0uzQUamUf92wL654GzX6tl" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

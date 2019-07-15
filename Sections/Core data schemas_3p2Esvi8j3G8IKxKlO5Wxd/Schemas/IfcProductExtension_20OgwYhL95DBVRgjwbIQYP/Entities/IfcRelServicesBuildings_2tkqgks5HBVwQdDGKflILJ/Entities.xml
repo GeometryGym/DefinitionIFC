@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelServicesBuildings" UniqueId="2tkqgks5HBVwQdDGKflILJ" DiagramNumber="3" BaseDefinition="IfcRelConnects" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="RelatingSystem" UniqueId="0T69_KXUH4Re3sqKgMvXhP" DefinedType="IfcSystem" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>System that services the Buildings.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedBuildings" UniqueId="1UI$zdiRXBtAdwVYL3mAw7" DefinedType="IfcSpatialStructureElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Spatial structure elements (including site, building, storeys) that are serviced by the system.
+&lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#FF0000&quot;&gt;
+IFC2x PLATFORM CHANGE&amp;nbsp; The data type has been changed from &lt;i&gt;IfcBuilding&lt;/i&gt; to &lt;i&gt;IfcSpatialStructureElement&lt;/i&gt; with upward compatibility for file based exchange.
+&lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SpaceParking" UniqueId="d4fe161c-ce30-40a9-8198-40370418fb46" ApplicableType="IfcSpace.Object=&quot;Parking&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HandicapAccessible_0ZOomuM8jC7A6eC92WfrNK" />
+		<DocProperty xsi:nil="true" href="ParkingUse_22X7nAl5BRP2z3Xz2ZYRN" />
+		<DocProperty xsi:nil="true" href="ParkingUnits_2nY4LNEHfCcxVH6asdh3xp" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_WasteTerminalTypeFloorTrap" UniqueId="e60172a9-c098-409f-a314-9d2f1e5a03ec" ApplicableType="IfcWasteTerminal.Predefined=&quot;FLOORTRAP&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalBodyLength_3Uo77YoLF4BMMlataTHzZ" />
+		<DocProperty xsi:nil="true" href="NominalBodyWidth_1TdcFJpuj41O8ErXSka8P" />
+		<DocProperty xsi:nil="true" href="NominalBodyDepth_2Wcjr_0S91sAA038Qbp6jF" />
+		<DocProperty xsi:nil="true" href="IsForSullageWater_0J7Yr_TUL809Cb8NAxiZ1V" />
+		<DocProperty xsi:nil="true" href="SpilloverLevel_0Xy5VLTw56Bul163Bm6MnE" />
+		<DocProperty xsi:nil="true" href="BodyMaterial_1JJjMYW4TDUOHvUCsPpzQW" />
+		<DocProperty xsi:nil="true" href="TrapType_2v2O87wczAs9DRuFKcns_z" />
+		<DocProperty xsi:nil="true" href="HasStrainer_20cHycsLBAerKJiXjKDA0" />
+		<DocProperty xsi:nil="true" href="OutletConnectionSize_3QHHM0mCX4vAGEICX7zvF" />
+		<DocProperty xsi:nil="true" href="InletPatternType_1OthBbPZnDbeYecceXWY8l" />
+		<DocProperty xsi:nil="true" href="InletConnectionSize_0CXIL9_AT0bgs1Aw1sQCW" />
+		<DocProperty xsi:nil="true" href="CoverLength_0zRqwrTwP9LgaZL9CpMOqZ" />
+		<DocProperty xsi:nil="true" href="CoverWidth_3pqyzwU357kvphWVG90yd" />
+		<DocProperty xsi:nil="true" href="CoverMaterial_1JNGoV3Fz3M8mK_k7l0bs" />
+	</Properties>
+</DocPropertySet>
+

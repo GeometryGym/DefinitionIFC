@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_HeatingSource_3iYlUsVuTDCPuxh9PN0aF" Name="PEnum_HeatingSource" UniqueId="ec8af7b6-7f87-4d31-9e3b-ac9657024fcf">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FUEL_02RKdxrHf9cfoFfXnuhdMa" />
+		<DocPropertyConstant xsi:nil="true" href="GAS_0zgwQlgh5CuADEVmuYwpBN" />
+		<DocPropertyConstant xsi:nil="true" href="ELECTRICITY_2jcmhdqq12Z8wiLUoO77J3" />
+		<DocPropertyConstant xsi:nil="true" href="HOTWATER_0BYsnWx7DF49tycLQ3Dsux" />
+		<DocPropertyConstant xsi:nil="true" href="STEAM_2CnMmgkIrEyQUJzxzCgcQD" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

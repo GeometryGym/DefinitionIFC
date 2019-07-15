@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSlabTypeEnum" UniqueId="0YBaCfaCj6bPsGdCcWqB_n" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FLOOR_1J6hDHyPb7Wfms_LQpqnZ2" />
+		<DocConstant xsi:nil="true" href="ROOF_1enALogbP8LOp0TI4WPVx4" />
+		<DocConstant xsi:nil="true" href="LANDING_1NYVhfs8fDVAfcMfJl9lF" />
+		<DocConstant xsi:nil="true" href="BASESLAB_1rmMSsXNfBkvgl4nsQ7AlU" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1DiKQrSPBxOF9qnvrbswG" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2lbPMmrojFshs0g7vZlq9V" />
+	</Constants>
+</DocEnumeration>
+

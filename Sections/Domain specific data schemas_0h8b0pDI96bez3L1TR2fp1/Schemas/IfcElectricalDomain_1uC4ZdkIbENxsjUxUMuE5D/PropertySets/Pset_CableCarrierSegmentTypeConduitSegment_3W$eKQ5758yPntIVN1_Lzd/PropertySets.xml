@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CableCarrierSegmentTypeConduitSegment" UniqueId="e0fe851a-1471-48f1-9c77-49f5c1f95f67" ApplicableType="IfcCableCarrierSegment.Predefined=&quot;CONDUITSEGMENT&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NominalLength_1G6hFz5j4aQE7v7KXU5qs" />
+		<DocProperty xsi:nil="true" href="NominalWidth_0Vlgioz3z859hGvX0be3zg" />
+		<DocProperty xsi:nil="true" href="NominalHeight_3iCnPuSK182BD_IZnbvN2" />
+		<DocProperty xsi:nil="true" href="ConduitShapeType_3GIQDdjZnCAw8uvtwflegZ" />
+		<DocProperty xsi:nil="true" href="IsRigid_1ePFjfjMT949aGzwfAIkxx" />
+	</Properties>
+</DocPropertySet>
+

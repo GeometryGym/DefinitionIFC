@@ -1,0 +1,89 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI</U>: <I>IfcSurfaceStyleRendering</I> holds the
+		properties for visualization related to a particular surface side style. </P> 
+	 <P>It allows rendering properties to be defined by:</P> 
+	 <UL> 
+		<LI>a transparency component (<I>Transparency</I> attribute)</LI> 
+		<LI>a colour component (<I>SurfaceColour</I> attribute inherited from
+		  <I>IfcSurfaceStyleShading</I>)</LI> 
+		<LI>a reflectance component, given either by 
+		  <UL> 
+			 <LI>applying reflectance factors to the surface colour: 
+				<UL> 
+				  <LI>diffuse component (<I>SurfaceColour * DiffuseFactor</I>)</LI>
+				  
+				  <LI>transmission component (<I>SurfaceColour *
+					 TransmissionFactor</I> )</LI> 
+				  <LI>diffuse transmission component (<I>SurfaceColour *
+					 DiffuseTransmissionFactor</I>)</LI> 
+				  <LI>reflection component (<I>SurfaceColour *
+					 ReflectionFactor</I>)</LI> 
+				  <LI>specular component (<I>SurfaceColour * SpecularFactor</I>
+					 attribute together with <I>SpecularHighlight</I>)</LI> 
+				</UL> </LI> 
+			 <LI>explicitly defining such factors as colours
+				(<I>DiffuseColour</I>, <I>TransmissionColour</I>,
+				<I>DiffuseTransmissionColour</I>, <I>ReflectionColour</I> and
+				<I>SpecularColour</I>)</LI> 
+		  </UL> </LI> 
+		<LI>a displacement component, currently only given by a texture map with
+		  the TextureType = bump</LI> 
+		<LI>a coverage component, currently only given by the alpha component of
+		  the texture map (2 or 4 component colour texture)</LI> 
+	 </UL> 
+	 <BLOCKQUOTE><FONT SIZE="-1">NOTE: The inherited attribute
+		<I>SurfaceColour</I> is treated as the ambient colour and specifies how much
+		ambient light from light sources this surface shall reflect. Ambient light is
+		omnidirectional and depends only on the number of light sources, not their
+		positions with respect to the surface.</FONT></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: If the reflectance method, as given by the
+		  <I>IfcReflectanceMethodEnum</I> is "GLASS", the transmission factor controls
+		  the level of transparency in the glass, In this case the transparency factor is
+		  interpreted as transmission factor.</FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE><FONT SIZE="-1">NOTE: Both <I>Transparency</I> and
+		<I>TransmissionColour</I> (or factor) are included, the following definitions
+		apply</FONT> 
+		<UL> 
+		  <LI><FONT SIZE="-1">Transparency is the ratio of the transmitted flux
+			 in a solid angle of 2 * PI sr (one hemisphere). It is a simple colour
+			 filtration that does not account for refraction. </FONT></LI> 
+		  <LI><FONT SIZE="-1">Transmission factor of a material is the ratio of
+			 transmitted flux in a given solid angle to the transmitted flux of a completely
+			 diffuse material with 100% transmission in the same solid angle. It is the
+			 portion of light that goes through the material and may be
+			 refracted.</FONT></LI> 
+		</UL></BLOCKQUOTE> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF"><FONT SIZE="-1">NOTE: IFC 2x Edition 2
+		adds additional capability for presentation of physically accurate illuminance
+		on surfaces. VRML type rendering and rendering based on ISO 10303-46 continues
+		to be supported by a subset of the information. For reflectance equations and
+		further information about the surface style properties and its processing, see:
+		</FONT> </FONT> 
+		<UL> 
+		  <LI><FONT SIZE="-1" COLOR="#0000FF">ISO/IEC 14772-1: 1997: The Virtual
+			 Reality Modeling Language</FONT></LI> 
+		</UL> </BLOCKQUOTE> 
+	 <BLOCKQUOTE><FONT SIZE="-1" COLOR="#0000FF">NOTE: The definition of
+		<I>IfcSurfaceStyleRenderingProperties</I> includes the definitions as found in
+		ISO 10303-46:1994, in particular of: </FONT> 
+		<UL> 
+		  <LI><FONT SIZE="-1"
+			 COLOR="#0000FF">surface_style_rendering_with_properties</FONT></LI> 
+		  <LI><FONT SIZE="-1"
+			 COLOR="#0000FF">surface_style_rendering_ambient</FONT></LI> 
+		  <LI><FONT SIZE="-1"
+			 COLOR="#0000FF">surface_style_rendering_ambient_diffuse</FONT></LI> 
+		  <LI><FONT SIZE="-1"
+			 COLOR="#0000FF">surface_style_rendering_ambient_diffuse_specular</FONT></LI> 
+		  <LI><FONT SIZE="-1"
+			 COLOR="#0000FF">surface_style_transparent</FONT></LI> 
+		</UL></BLOCKQUOTE> 
+	 <BLOCKQUOTE><FONT SIZE="-1" COLOR="#0000FF">In addition to the attributes
+		as defined in ISO 10303-46, i.e. ambient_reflectance, diffuse_reflectance,
+		specular_reflectance, specular_exponent, and specular_colour, the current IFC
+		definition adds other colours, reflectance factors and specular
+		roughness..</FONT></BLOCKQUOTE> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC
+		2x.</FONT></BLOCKQUOTE>
+</EPM-HTML>

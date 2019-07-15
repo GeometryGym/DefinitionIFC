@@ -1,0 +1,87 @@
+<EPM-HTML>
+<p><u>Definition from IAI:</u> Layers or major
+components as subordinate
+parts of a building element. Typical usage examples include precast
+concrete
+sandwich walls, where the layers may have different geometry
+representations.
+In this case the layered material representation does not sufficiently
+describe
+the element. Each layer is represented by an own instance of the
+<i>IfcBuildingElementPart</i> with its own geometry
+description. </p>
+<blockquote><font color="#0000ff" size="-1">
+HISTORY New entity in IFC
+Release 2x2 </font></blockquote>
+<p><b>General usage</b></p>
+<p> The exact type information of the <i>IfcBuildingElementPart</i>
+is
+given in the <i>ObjectType</i> attribute inherited from <i>IfcObject</i>.
+Standard type designations are provided for guideline below. Other
+object type
+values may be defined in local agreements. </p>
+<table border="1">
+  <tbody>
+    <tr>
+      <td><i><b>Standard building element part type
+designation</b></i></td>
+      <td><i><b>Description</b></i></td>
+    </tr>
+    <tr>
+      <td>'Insulation layer'</td>
+      <td>The part consists of an insulation layer, for example
+as thermal
+isolation between wall panels in sandwich walls. </td>
+    </tr>
+    <tr>
+      <td>'Precast panel'</td>
+      <td>The part is a precast panel, usually as an internal or
+external
+layer in a sandwich wall panel.</td>
+    </tr>
+    <tr>
+      <td>'Wooden part'</td>
+      <td>A wooden part included or embedded in a building
+element.</td>
+    </tr>
+  </tbody>
+</table>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to the <i>IfcBuildingElementPart</i>
+are defined by the
+<i>IfcPropertySet</i> and attached by the <i>IfcRelDefinesByProperties</i>
+relationship. It is accessible by the inverse <i>IsDefinedBy</i>
+relationship.
+The following property set definitions specific to the <i>IfcBuildingElementPart</i>
+are part
+of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcStructuralElementsDomain/Pset_ConcreteElementSurfaceFinishQuantityGeneral.xml"
+ target="SOURCE">Pset_ConcreteElementSurfaceFinishQuantityGeneral</a>:
+common property set for all <i>IfcBuildingElementPart</i>
+occurrences related to concrete construction.
+(Note: this is a general property set, which relates to many IFC
+classes, e.g. subtypes of <i>IfcBuildingElement</i>). </li>
+  <li><a
+ href="../../psd/IfcStructuralElementsDomain/Pset_PrecastConcreteElementGeneral.xml"
+ target="SOURCE">Pset_PrecastConcreteElementGeneral</a>:
+common property set for all <i>IfcBuildingElementPart</i>
+occurrences related to precast concrete construction.
+(Note: this is a general property set, which relates to many IFC
+classes, e.g. subtypes of <i>IfcBuildingElement</i>). </li>
+</ul>
+<p><b>Geometry Use Definitions:</b></p>
+<p> The geometric representation of <i>IfcBuildingElementPart</i>
+is given
+by the <i>IfcProductDefinitionShape</i>, allowing multiple
+geometric
+representations. Included are: </p>
+<p><u>Local Placement</u><br>
+The use of local placement is defined at the
+supertype <i>IfcBuildingElementComponent</i>. </p>
+<p><u>Standard Geometric Representation</u><br>
+The use of Standard
+Geometric Representations is defined at the supertype
+<i>IfcBuildingElementComponent</i>. </p>
+</EPM-HTML>

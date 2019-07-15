@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFootingTypeEnum" UniqueId="1LTYjX3KHEwBTIsoPlncRU" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FOOTING_BEAM_1pmtwkAqL3UBtFTIqPoek2" />
+		<DocConstant xsi:nil="true" href="PAD_FOOTING_2nB02rdQX59RezQzNMKAFA" />
+		<DocConstant xsi:nil="true" href="PILE_CAP_2qtSYYQcjAh80KrwiQwBxh" />
+		<DocConstant xsi:nil="true" href="STRIP_FOOTING_2KuufTkQHBFuIsab2IUpii" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1uJ7aXAbXEJgxlxR_WZ4nb" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1decAglYL40uSVEt1UQAde" />
+	</Constants>
+</DocEnumeration>
+

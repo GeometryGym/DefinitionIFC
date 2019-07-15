@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMemberTypeEnum" UniqueId="18DYqQwlH1LPDHXPH9b8xh" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BRACE_3Jh26wADTCAg4CVAF7v3uO" />
+		<DocConstant xsi:nil="true" href="CHORD_0_qDtVHObEqBTiBPDjeDo" />
+		<DocConstant xsi:nil="true" href="COLLAR_3lFiPsVjX6RQq0_skQpS5" />
+		<DocConstant xsi:nil="true" href="MEMBER_2qHmcPFVb3Bghc_a1Im8eL" />
+		<DocConstant xsi:nil="true" href="MULLION_2DmTmpMTz1JBC2lChlYYfL" />
+		<DocConstant xsi:nil="true" href="PLATE_0yIRG9Xt91gKM4NdQdwy" />
+		<DocConstant xsi:nil="true" href="POST_1sWjra3JP479R1NeS6QzW" />
+		<DocConstant xsi:nil="true" href="PURLIN_3eTP9XqJLA5PVCc21P8QL" />
+		<DocConstant xsi:nil="true" href="RAFTER_2XURZ7_RT19gBCo_1zHiv" />
+		<DocConstant xsi:nil="true" href="STRINGER_2Mbzidm7LCGeif3i8bExhl" />
+		<DocConstant xsi:nil="true" href="STRUT_3pCJ5oH918FAHggQLyEgK7" />
+		<DocConstant xsi:nil="true" href="STUD_2kjfZkSPDawTMGqcoIecP" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1gVLbptY1E2umzReR9X_BM" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3WJPlqCPf3gR7Ja80Yot2s" />
+	</Constants>
+</DocEnumeration>
+

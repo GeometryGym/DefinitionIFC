@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFailureConnectionCondition" UniqueId="0umdudFA17QvB5lFmNK7EG" DiagramNumber="4" BaseDefinition="IfcStructuralConnectionCondition" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="TensionFailureX" UniqueId="2C920jYj58Uhoh7CKVOMqa" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Tension force in x-direction leading to failure of the connection.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TensionFailureY" UniqueId="382wXsux595OjdezCw1kTJ" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Tension force in y-direction leading to failure of the connection.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TensionFailureZ" UniqueId="1v6SOAvW91kwypKXR0Qj8y" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Tension force in z-direction leading to failure of the connection.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CompressionFailureX" UniqueId="2GKQYh8kD5ohFstbJIAji1" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Compression force in x-direction leading to failure of the connection.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CompressionFailureY" UniqueId="0U2xHBEcvDnuika2zhyBMh" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Compression force in y-direction leading to failure of the connection.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CompressionFailureZ" UniqueId="1rgerpXCb5cRuV8LNGZBWu" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Compression force in z-direction leading to failure of the connection.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

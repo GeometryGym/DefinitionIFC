@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CooledBeamTypeActive" UniqueId="fcdaea59-da12-44d0-9305-5c51c95be78a" ApplicableType="IfcCooledBeam.Predefined=&quot;ACTIVE&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AirFlowConfiguration_2IokOYt4f6afyYdLhWgODt" />
+		<DocProperty xsi:nil="true" href="AirflowRateRange_1PlzgVz1EB9DVwkBvGiUP" />
+		<DocProperty xsi:nil="true" href="SupplyAirConnectionType_1fDdwk9e96Bu2hH0JBEWxm" />
+		<DocProperty xsi:nil="true" href="ConnectionSize_2g9cA1eTn6oAKHfRcm4LS" />
+	</Properties>
+</DocPropertySet>
+

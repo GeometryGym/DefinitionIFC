@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPresentationLayerAssignment" UniqueId="2T1sMOitz5JvvdULPPgLLN" DiagramNumber="1" EntityFlags="229">
+	<Subtypes>
+		<DocSubtype UniqueId="0Lxa7Nhn59rxSIsHNY81Ic" DefinedType="IfcPresentationLayerWithStyle" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="1pKmbIWHDEff2mAL8btR51" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Name of the layer.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="3msVgNtorEWPQhNw0LFjh_" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Additional description of the layer.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="AssignedItems" UniqueId="2ULHwdD0L2peup2T9Q7Jo7" DefinedType="IfcLayeredItem" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The set of layered items, which are assigned to this layer.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Identifier" UniqueId="2MinG3q6jAMuBDCDgjlgNL" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>An (internal) identifier assigned to the layer.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

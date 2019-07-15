@@ -1,0 +1,46 @@
+<EPM-HTML>
+	 <P><U>Definition from ISO/DIS 10303-42:1999(E)</U>: A surface curve swept
+		area solid is a type of swept area solid which is the result of sweeping a face
+		along a <I>Directrix</I> lying on a <I>ReferenceSurface</I>. The orientation of
+		the <I>SweptArea</I> is related to the direction of the surface normal. </P> 
+	 <P>The <I>SweptArea</I> is required to be a curve bounded surface lying in
+		the plane z = 0 and this is swept along the <I>Directrix</I> in such a way that
+		the origin of the local coordinate system used to define the <I>SweptArea</I>
+		is on the <I>Directrix</I> and the local x-axis is in the direction of the
+		normal to the <I>ReferenceSurface</I> at the current point. The resulting solid
+		has the property that the cross section of the surface by the normal plane to
+		the <I>Directrix</I> at any point is a copy of the <I>SweptArea</I>. </P> 
+	 <P>The orientation of the <I>SweptArea</I> as it sweeps along the
+		<I>Directrix</I> is precisely defined by a
+		<I>CartesianTransformationOperator3d</I> with attributes: </P> 
+	 <UL> 
+		<LI><I>LocalOrigin</I> as point (0; 0; 0), </LI> 
+		<LI><I>Axis1</I> as the normal N to the <I>ReferenceSurface</I> at the
+		  point of the <I>Directrix</I> with parameter u. </LI> 
+		<LI><I>Axis3</I> as the direction of the tangent vector t at the point of
+		  the <I>Directrix</I> with parameter u. <BR>The remaining attributes are
+		  defaulted to define a corresponding transformation matrix T(u), which varies
+		  with the <I>Directrix</I> parameter u. </LI> 
+	 </UL> 
+	 <BLOCKQUOTE><FONT SIZE="-1">NOTE: The geometric shape of the solid is not
+		dependent upon the curve parameterization; the volume depends upon the area
+		swept and the length of the <I>Directrix</I>. </FONT></BLOCKQUOTE> 
+	 <P><U>Definition from IAI</U>: The swept face is given by
+		<I>IfcProfileDef</I> (or subtypes), the profile definition is given within a 2D
+		coordinate system, which is inserted into the XY plane of the <I>Position</I>
+		coordinate system inherited from the supertype <I>IfcSweptAreaSolid</I>. The
+		attributes of the <I>CartesianTransformationOperator3d</I> (as given above)
+		should apply to the <I>Position</I> coordinate system, in which the profile is
+		inserted.</P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF" SIZE="-1">NOTE: Corresponding STEP
+		entity: surface_curve_swept_area_solid. Please refer to ISO/DIS
+		10303-42:1999(E), p. 274 for the final definition of the formal
+		standard.</FONT></BLOCKQUOTE> 
+	 <BLOCKQUOTE><FONT SIZE="-1" COLOR="#0000FF">HISTORY: New entity in Release
+		IFC2x Edition 2.</FONT></BLOCKQUOTE> 
+	 <P>Informal propositions:</P> 
+	 <OL> 
+		<LI> The <I>SweptArea</I> shall lie in the plane z = 0. </LI> 
+		<LI> The directrix shall lie on the <I>ReferenceSurface</I>.</LI> 
+	 </OL>
+</EPM-HTML>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_PumpDriveConnectionType_2LjaIcnZrB6Ot0Aj4uJo8" Name="PEnum_PumpDriveConnectionType" UniqueId="95b644a6-c63d-4b19-8dc0-2ad13fe13c88">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DIRECTDRIVE_3EBTJXi6HEkxxGdgjpblNi" />
+		<DocPropertyConstant xsi:nil="true" href="BELTDRIVE_3qAM5022r8j87LcHmHmw2q" />
+		<DocPropertyConstant xsi:nil="true" href="COUPLING_3KZvRLt753xxntwgiWPDK" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

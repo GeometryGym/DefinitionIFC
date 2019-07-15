@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDoorStyleOperationEnum" UniqueId="1qSIiEg3942RiyE4RUNzuY" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="SINGLE_SWING_LEFT_2wUnm1iKTDNxZ6JhSr1cww" />
+		<DocConstant xsi:nil="true" href="SINGLE_SWING_RIGHT_2aalyb_Oz3pxjVbjB__DnV" />
+		<DocConstant xsi:nil="true" href="DOUBLE_DOOR_SINGLE_SWING_10A8FMZif0ivqKOFzMJhGY" />
+		<DocConstant xsi:nil="true" href="DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_LEFT_1J4rORSJv7SucggbTWfvMS" />
+		<DocConstant xsi:nil="true" href="DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_RIGHT_3ozZXgZRPFBxvE1vsRn0Dm" />
+		<DocConstant xsi:nil="true" href="DOUBLE_SWING_LEFT_2uHH4gzpnEKfg7EpmDqdPz" />
+		<DocConstant xsi:nil="true" href="DOUBLE_SWING_RIGHT_0WGrS9ECL9xfnSktCH6I6j" />
+		<DocConstant xsi:nil="true" href="DOUBLE_DOOR_DOUBLE_SWING_0BvwlnsGv0xvhidF4H9B6l" />
+		<DocConstant xsi:nil="true" href="SLIDING_TO_LEFT_25ORMaWZnE5B1drhylWq0P" />
+		<DocConstant xsi:nil="true" href="SLIDING_TO_RIGHT_3An3Mxn0ugYfhnEorbQY" />
+		<DocConstant xsi:nil="true" href="DOUBLE_DOOR_SLIDING_0aAkrwQR50Z8NXZBMaY6PB" />
+		<DocConstant xsi:nil="true" href="FOLDING_TO_LEFT_0TJtUUGRjFd8odVlMS1o3h" />
+		<DocConstant xsi:nil="true" href="FOLDING_TO_RIGHT_2MjFt57hv0Hgi1v4FxT4qR" />
+		<DocConstant xsi:nil="true" href="DOUBLE_DOOR_FOLDING_1bp81b5Cf35QLIzkhR49Et" />
+		<DocConstant xsi:nil="true" href="REVOLVING_0_8H5_xTn7SB7jGUb596a6" />
+		<DocConstant xsi:nil="true" href="ROLLINGUP_3_ria2mGjFJxT1MTOoHuL" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_06hAfrNF14uO3G01hB_bTh" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3LXIVIYjP0YBXgejxYTuc5" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDuctSilencerTypeEnum" UniqueId="3cPRKq_Ur9Ywz3Ro29dWQ1" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FLATOVAL_2xB_6ZVp5CHBwK74cESth" />
+		<DocConstant xsi:nil="true" href="RECTANGULAR_3Aa7H4lEb5HQbfcHzpGTzV" />
+		<DocConstant xsi:nil="true" href="ROUND_3ImidPhsH76RY2QzTJxgmv" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1bq2xJV4f7HfxrAF3ibDs2" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1vfrxJ_T1FE91kfSaFCxx" />
+	</Constants>
+</DocEnumeration>
+

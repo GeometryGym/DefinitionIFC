@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTableRow" UniqueId="0I6rJqfAP0X97vCt2fqH6u" DiagramNumber="2" EntityFlags="37">
+	<Attributes>
+		<DocAttribute Name="RowCells" UniqueId="1Yi6dEg154nQw0zJQb45XG" DefinedType="IfcValue" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The value of information by row and column using the units defined. NOTE - The row value identifies both the actual value and the units in which it is recorded. Each cell (unique row and column) may have a different value AND different units. If the row is a heading row, then the row values are strings defined by the IfcString.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsHeading" UniqueId="2XVJEy8nXDVQ6rTbKx1Hah" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Flag which identifies if the row is a heading row or a row which contains row values. NOTE - If the row is a heading, the flag takes the value = TRUE.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OfTable" UniqueId="0pDAXzA4j4qh68wjaJXBPt" DefinedType="IfcTable" AttributeFlags="8" AggregationType="0" AggregationFlag="0" Inverse="Rows">
+			<Documentation>Reference to the IfcTable, in which the IfcTableRow is defined (or contained).</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

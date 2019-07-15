@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLogicalOperatorEnum" UniqueId="16xsbApcTANQBZwJOquJ53" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="LOGICALAND_3NcLnkZ1n0n9HMqdgqlnYh" />
+		<DocConstant xsi:nil="true" href="LOGICALOR_1PUCh178r9nPFojI3sUfpS" />
+	</Constants>
+</DocEnumeration>
+

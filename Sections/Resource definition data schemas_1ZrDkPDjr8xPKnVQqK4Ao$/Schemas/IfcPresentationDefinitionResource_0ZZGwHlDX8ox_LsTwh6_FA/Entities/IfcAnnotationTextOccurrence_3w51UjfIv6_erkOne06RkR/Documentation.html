@@ -1,0 +1,32 @@
+<EPM-HTML>
+<p><u>Definition
+from ISO/CD 10303-46:1992</u>: An
+annotation text occurrence is a text with a style assignment.</p>
+<blockquote> <font color="#0000ff"><small>
+NOTE&nbsp;
+Corresponding
+STEP name: annotation_text_occurrence. Please refer to ISO/IS
+10303-46:1994 for the final definition of the formal standard.</small>
+  </font></blockquote>
+<p><u>
+Definition from IAI</u>:&nbsp;The <i>IfcAnnotationTextOccurrence
+</i>shall only be used within a material or paper space
+dependent representation (note: paper space is not yet supported within
+this IFC release).&nbsp;Styled text within model
+space shall use <i>IfcStyledItem</i> as the instance to
+link the geometric text representation item to the (shared) style
+information.</p>
+<p>An <i>IfcAnnotationTextOccurrence </i>is a
+relation object, that assigns a (set of) styles to a
+representation item. It can be used without having a geometric
+representation item already assigned, e.g. within an <i>IfcMaterialDefinitionRepresentation</i>.
+If it has a geometric representation item already assigned than this is
+further restricted to be&nbsp;an <i>IfcTextLiteral</i><i></i>.
+The applicable style information is restricted to be an&nbsp;<i>IfcTextStyle.</i>&nbsp;For
+each instance of a styled text, one instance of <i>IfcAnnotationTextOccurrence</i>
+has to be created, that points, via an <i>IfcPresentationStyleAssignment</i>,
+to an <i>IfcTextStyle</i>, that can be shared by many
+styled texts.</p>
+<blockquote> <small><font color="#0000ff">HISTORY&nbsp;
+New entity in Release IFC2x Edition 2.</font></small> </blockquote>
+</EPM-HTML>

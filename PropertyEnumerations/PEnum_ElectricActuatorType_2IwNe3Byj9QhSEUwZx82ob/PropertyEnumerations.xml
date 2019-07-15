@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ElectricActuatorType_2IwNe3Byj9QhSEUwZx82ob" Name="PEnum_ElectricActuatorType" UniqueId="92e97a03-2fcb-496a-b70e-7ba8fb202ca5">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="MotorDrive_1cwCnfBur8CRsjT7tdOhrz" />
+		<DocPropertyConstant xsi:nil="true" href="Magnetic_1j8Jv9HbrBpOg1fMUlfh9" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

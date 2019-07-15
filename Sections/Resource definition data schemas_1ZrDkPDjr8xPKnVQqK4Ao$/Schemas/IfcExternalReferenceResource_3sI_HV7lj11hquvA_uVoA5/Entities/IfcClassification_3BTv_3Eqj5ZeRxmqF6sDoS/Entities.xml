@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcClassification" UniqueId="3BTv_3Eqj5ZeRxmqF6sDoS" DiagramNumber="2" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Source" UniqueId="2qhGzN9qn3VAK8dcICilwx" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Source (or publisher) for this classification.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Edition" UniqueId="3W_M09vXH9Ou12GGLCicrU" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The edition or version of the classification system from which the classification notation is derived.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="EditionDate" UniqueId="3lttltQVL66BtNvqrRS$94" DefinedType="IfcCalendarDate" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The date on which the edition of the classification used became valid.
+NOTE: The indication of edition may be sufficient to identify the classification source uniquely but the edition date is provided as an optional attribute to enable more precise identification where required.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Name" UniqueId="3pzguKnkr3UxfxxAjvufev" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name or label by which the classification used is normally known.
+NOTE: Examples of names include CI/SfB, Masterformat, BSAB, Uniclass, STABU etc.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Contains" UniqueId="2Y2QZFPhbBbPV5dW0tf04b" DefinedType="IfcClassificationItem" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="ItemOf">
+			<Documentation>Classification items that are classified by the classification.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

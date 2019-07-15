@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSphere" UniqueId="37ZvCCodf9wxWBi$E04IBh" DiagramNumber="2" BaseDefinition="IfcCsgPrimitive3D" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Radius" UniqueId="2UPMAwpj15vQXX7Cnndq49" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

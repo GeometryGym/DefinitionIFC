@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_LampCompensationType_05hK3LjJz3reKHDjl8LSzi" Name="PEnum_LampCompensationType" UniqueId="05ad40d5-b53f-43d6-8511-36dbc855cf6c">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Capacitive_09MNvpKPr9m8wkDHBXAI30" />
+		<DocPropertyConstant xsi:nil="true" href="Inductive_0gVWNnEoLDg8dMCVyYDRFw" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

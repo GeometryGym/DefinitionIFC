@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_BACnetAckedTransitionsType_3hh7fHKIvFkxqjMNaGCxNe" Name="PEnum_BACnetAckedTransitionsType" UniqueId="ebac7a51-512e-4fbb-bd2d-59791033b5e8">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="ToOffNormal_1RZCz8kFjC29rZUXspAwR1" />
+		<DocPropertyConstant xsi:nil="true" href="ToFault_0KjJwVOgH0COmTUxvpD0Re" />
+		<DocPropertyConstant xsi:nil="true" href="ToNormal_1kMLsdeMb6aAgl8fckAC97" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

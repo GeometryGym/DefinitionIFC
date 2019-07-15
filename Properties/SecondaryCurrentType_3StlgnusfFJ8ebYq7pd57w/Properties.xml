@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SecondaryCurrentType_3StlgnusfFJ8ebYq7pd57w" Name="SecondaryCurrentType" UniqueId="dcdefab1-e36a-4f4c-8a25-8b41f39c51fa" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SecondaryCurrentType_1ExVo7N5v3mu1h55IDXyV4" />
+	</Enumeration>
+</DocProperty>
+

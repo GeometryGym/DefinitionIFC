@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="FlowRateRange_2f52aKF_f6YwQQxFoqFaCO" Name="FlowRateRange" UniqueId="a9142914-3fea-468b-a69a-ecfcb43e4318" PropertyType="p_boundedvalue" PrimaryDataType="IfcMassFlowRateMeasure" />
+

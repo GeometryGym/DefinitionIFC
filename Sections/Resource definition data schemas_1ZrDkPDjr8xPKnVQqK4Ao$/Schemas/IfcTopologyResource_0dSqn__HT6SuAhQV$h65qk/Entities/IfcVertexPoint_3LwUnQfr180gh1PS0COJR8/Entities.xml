@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcVertexPoint" UniqueId="3LwUnQfr180gh1PS0COJR8" DiagramNumber="1" BaseDefinition="IfcVertex" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="VertexGeometry" UniqueId="1Hen0a6MT0Dup$6jcysy2Z" DefinedType="IfcPoint" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The geometric point, which defines the position in geometric space of the vertex.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

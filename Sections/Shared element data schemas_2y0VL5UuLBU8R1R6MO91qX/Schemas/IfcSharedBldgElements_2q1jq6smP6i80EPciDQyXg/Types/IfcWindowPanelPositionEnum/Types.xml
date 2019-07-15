@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowPanelPositionEnum" UniqueId="2joSZRKtP6ZRXsjrAKxRZX" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="LEFT_2rWNpRYur4bQv4O3vMzaz9" />
+		<DocConstant xsi:nil="true" href="MIDDLE_1sKbU7ySj4CAiLFOTp0jMx" />
+		<DocConstant xsi:nil="true" href="RIGHT_0EizRPx7b3h8thgHo4ZQtl" />
+		<DocConstant xsi:nil="true" href="BOTTOM_2Bg2jmBjHAywN5XRB6009V" />
+		<DocConstant xsi:nil="true" href="TOP_0KEoo59RfDK8g5WcMPXFp1" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1THv3X2Yb8t9btxxz5WMfe" />
+	</Constants>
+</DocEnumeration>
+

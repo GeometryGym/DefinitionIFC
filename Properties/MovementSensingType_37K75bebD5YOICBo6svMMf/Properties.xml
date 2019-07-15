@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MovementSensingType_37K75bebD5YOICBo6svMMf" Name="MovementSensingType" UniqueId="c7507165-a253-4589-848c-2f21b6e565a9" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_MovementSensingType_05cbK7q8b6z9CWLKD_5so5" />
+	</Enumeration>
+</DocProperty>
+

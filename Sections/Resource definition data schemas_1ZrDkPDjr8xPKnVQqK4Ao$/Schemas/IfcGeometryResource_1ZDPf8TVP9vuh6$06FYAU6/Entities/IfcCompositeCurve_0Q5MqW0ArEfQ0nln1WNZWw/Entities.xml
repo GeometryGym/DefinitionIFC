@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCompositeCurve" UniqueId="0Q5MqW0ArEfQ0nln1WNZWw" DiagramNumber="6" BaseDefinition="IfcBoundedCurve" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="1J2$x1IW94VPXombaAamNE" DefinedType="Ifc2DCompositeCurve" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Segments" UniqueId="1busvWc5X5e8KajtFxki7j" DefinedType="IfcCompositeCurveSegment" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The component bounded curves, their transitions and senses. The transition attribute for the last segment defines the transition between the end of the last segment and the start of the first; this transition attribute may take the value discontinuous, which indicates an open curve.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SelfIntersect" UniqueId="3V13vl_prE2QDsxoojX8Zb" DefinedType="LOGICAL" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Indication of whether the curve intersects itself or not; this is for information only.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="NSegments" UniqueId="2faCm9jwLAvhqHCnhV9lXS" DefinedType="INTEGER" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The number of component curves.</Documentation>
+			<Derived>SIZEOF(Segments)</Derived>
+		</DocAttribute>
+		<DocAttribute Name="ClosedCurve" UniqueId="06cTeQep99dOAXYN95Z_fM" DefinedType="LOGICAL" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Indication whether the curve is closed or not; this is derived from the transition code of the last segment.</Documentation>
+			<Derived>Segments[NSegments].Transition &lt;&gt; Discontinuous</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR41" UniqueId="3kQ3BOPGnCPwzyQ93Lp9H8">
+			<Documentation>No transition code should be Discontinuous, except for the last code of an open curve.</Documentation>
+			<Expression>((NOT ClosedCurve) AND (SIZEOF(QUERY(Temp &lt;* Segments | Temp.Transition = Discontinuous)) = 1)) OR ((ClosedCurve) AND (SIZEOF(QUERY(Temp &lt;* Segments | Temp.Transition = Discontinuous)) = 0))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR42" UniqueId="3gg513WOb4qf8kIIiVtKbI">
+			<Documentation>Ensures, that all segments used in the curve have the same dimensionality.</Documentation>
+			<Expression>SIZEOF( QUERY( Temp &lt;* Segments | Temp.Dim &lt;&gt; Segments[1].Dim)) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

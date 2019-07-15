@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ControllerTypeTwoPosition" UniqueId="cea5a99c-a005-497a-90ed-63fb614de62a" ApplicableType="IfcController.Predefined=&quot;TWOPOSITION&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ControlType_3BQyVTtxPBNfK3Mq38W3c" />
+		<DocProperty xsi:nil="true" href="BandWidth_0gfMNjCDX6TfywGlLyMOgZ" />
+	</Properties>
+</DocPropertySet>
+

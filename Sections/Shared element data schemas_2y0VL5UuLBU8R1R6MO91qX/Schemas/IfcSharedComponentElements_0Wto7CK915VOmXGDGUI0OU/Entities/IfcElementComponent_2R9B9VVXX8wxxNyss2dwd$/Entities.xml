@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElementComponent" UniqueId="2R9B9VVXX8wxxNyss2dwd$" DiagramNumber="1" BaseDefinition="IfcElement" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="3MnwFO2LPCjh_D$dAwAcmO" DefinedType="IfcFastener" />
+		<DocSubtype UniqueId="1OpMnJIKzESO4aui0gSJLc" DefinedType="IfcDiscreteAccessory" />
+	</Subtypes>
+</DocEntity>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAnalysisTheoryTypeEnum" UniqueId="3pN7OxEHj26RjP3tpZy1Ws" DiagramNumber="5">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FIRST_ORDER_THEORY_3wPzxS14X8Nxn8WREBO5uC" />
+		<DocConstant xsi:nil="true" href="SECOND_ORDER_THEORY_0N_yEIRaX6XRF8wNNoKEWv" />
+		<DocConstant xsi:nil="true" href="THIRD_ORDER_THEORY_3lbiPFPLXEPO8MVqhieql7" />
+		<DocConstant xsi:nil="true" href="FULL_NONLINEAR_THEORY_2eFmcmbZ18bQ_tZQ9MpfgK" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1U60jQDZj7YvU5PidAZHSO" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1FRICVJ4j21fAwYziGS6M" />
+	</Constants>
+</DocEnumeration>
+

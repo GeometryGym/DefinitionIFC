@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_TankTypePressureVessel" UniqueId="bb33dfeb-e538-4540-a481-d3ee7104ba0c" ApplicableType="IfcTank.Predefined=&quot;PRESSUREVESSEL&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ChargePressure_1Bl9yrHAr8MucFwHFoG1qO" />
+		<DocProperty xsi:nil="true" href="PressureRegulatorSetting_0sHx4ifqH92hVUmJW208m2" />
+		<DocProperty xsi:nil="true" href="ReliefValveSetting_0NO24YkID0qBwzGuyfuFw_" />
+	</Properties>
+</DocPropertySet>
+

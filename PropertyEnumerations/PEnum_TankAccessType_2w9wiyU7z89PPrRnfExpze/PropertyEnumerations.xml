@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_TankAccessType_2w9wiyU7z89PPrRnfExpze" Name="PEnum_TankAccessType" UniqueId="ba27ab3c-787f-4825-9675-6f1a4eef3f68">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="NONE_0uzQUamUf92wL654GzX6tl" />
+		<DocPropertyConstant xsi:nil="true" href="LOOSECOVER_0l3HxgcH19LeJMo_b8oKGU" />
+		<DocPropertyConstant xsi:nil="true" href="MANHOLE_2SohWUXsH1ywvnNZPUORNx" />
+		<DocPropertyConstant xsi:nil="true" href="SECUREDCOVER_0ZnLtp3Dv5ce0u3yZqaeiG" />
+		<DocPropertyConstant xsi:nil="true" href="SECUREDCOVERWITHMANHOLE_1HiOi_RTb5Ig6ljG0Kc4c3" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSIPrefix" UniqueId="3Q2LJthtjA5hLdWSPBtltb" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="EXA_2BiH18SCbELuhiKCxJ4iPb" />
+		<DocConstant xsi:nil="true" href="PETA_0FiaH3IUHFcxDIeY6zUJb3" />
+		<DocConstant xsi:nil="true" href="TERA_3o1dtpyJ18xx0mI_kqq6nM" />
+		<DocConstant xsi:nil="true" href="GIGA_3vZKI4Z9z6sxx6Qm_zMZJ4" />
+		<DocConstant xsi:nil="true" href="MEGA_0nI9UeNOTA1wehVIlRshjd" />
+		<DocConstant xsi:nil="true" href="KILO_0fLsuyNfr5gv4mmr9ApD9o" />
+		<DocConstant xsi:nil="true" href="HECTO_0N44QPL9TD780sxH6ha7Ft" />
+		<DocConstant xsi:nil="true" href="DECA_1DWbrvqCH97hD0J843wLki" />
+		<DocConstant xsi:nil="true" href="DECI_0OqPJAmpX1wQtY5Sp09sRt" />
+		<DocConstant xsi:nil="true" href="CENTI_0PjfiVtqT4vQvhxTPCrT41" />
+		<DocConstant xsi:nil="true" href="MILLI_1w4lzWiSXFo9LrM8piMO8F" />
+		<DocConstant xsi:nil="true" href="MICRO_0eZcuCWWr8dPXMivAtc0" />
+		<DocConstant xsi:nil="true" href="NANO_1bUZPEyvH0cA5nSlMFReKX" />
+		<DocConstant xsi:nil="true" href="PICO_3r8wi8rKj7wRlxy30Zfl1s" />
+		<DocConstant xsi:nil="true" href="FEMTO_0r7bCz90P9geMN2QsKtNMv" />
+		<DocConstant xsi:nil="true" href="ATTO_10YnCODQX68x4NPX_LNZgy" />
+	</Constants>
+</DocEnumeration>
+

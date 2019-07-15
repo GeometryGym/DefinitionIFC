@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPreDefinedTextFont" UniqueId="2qsKMvWej5iuDkL1TRAJrr" DiagramNumber="1" BaseDefinition="IfcPreDefinedItem" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="0_a0iOJLfEZvJrVY4DuzhL" DefinedType="IfcDraughtingPreDefinedTextFont" />
+		<DocSubtype UniqueId="0q0igVANT4V99tDVSVM$u9" DefinedType="IfcTextStyleFontModel" />
+	</Subtypes>
+</DocEntity>
+

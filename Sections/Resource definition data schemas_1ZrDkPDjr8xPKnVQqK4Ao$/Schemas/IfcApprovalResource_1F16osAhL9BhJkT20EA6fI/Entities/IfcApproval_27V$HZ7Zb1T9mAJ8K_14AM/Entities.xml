@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcApproval" UniqueId="27V$HZ7Zb1T9mAJ8K_14AM" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Description" UniqueId="3256W3P4b8_x5_qSeQYC9D" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>A general textual description of a design, work task, plan, etc. that is being approved for.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ApprovalDateTime" UniqueId="2moomcmzf0XxFDx3$pJW55" DefinedType="IfcDateTimeSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Date and time when the result of the approval process is produced.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ApprovalStatus" UniqueId="3yQ3ouUdn4KR7D$BUj22cR" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The result or current status of the approval, e.g. Requested, Processed, Approved, Not Approved.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ApprovalLevel" UniqueId="3Y_UzdsUv4XQCravV0T4fq" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Level of the approval e.g. Draft v.s. Completed design.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ApprovalQualifier" UniqueId="3QXY4AIBP22BziIrNKfSKX" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Textual description of special constraints or conditions for the approval.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Name" UniqueId="2vWmenh4j1RPaBp3TgTrV3" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A human readable name given to an approval.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Identifier" UniqueId="1NVyLaGyf8Ph7GXPe$fUVm" DefinedType="IfcIdentifier" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A computer interpretable identifier by which the approval is known.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Actors" UniqueId="1Oh6REjtX1$xjbNBhiru0m" DefinedType="IfcApprovalActorRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="Approval">
+			<Documentation>The set of relationships by which the actors acting in specified roles on this approval are known.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsRelatedWith" UniqueId="1MSuOmhkn6IulNwCxGymkH" DefinedType="IfcApprovalRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedApproval">
+			<Documentation>The set of relationships by which this approval is related to others.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Relates" UniqueId="1Gth8w5sjAluKqc_ia8Qzd" DefinedType="IfcApprovalRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingApproval">
+			<Documentation>The set of relationships by which other approvals are related to this one.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

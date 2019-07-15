@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcQuantityWeight" UniqueId="2BA14i61L8nw0Vpa8FcAdF" DiagramNumber="1" BaseDefinition="IfcPhysicalSimpleQuantity" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="WeightValue" UniqueId="2wSsUfv4X0QOPPLPz0YaF8" DefinedType="IfcMassMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Mass measure value of this quantity.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="08nOsCgCzA6A$Ns5zN3ehD">
+			<Documentation>If a unit is given, the unit type shall be mass unit. NOTE: There is no distinction between the concept of &quot;Mass&quot; and &quot;Weight&quot; in the current IFC Release.</Documentation>
+			<Expression>NOT(EXISTS(SELF\IfcPhysicalSimpleQuantity.Unit)) OR
+   (SELF\IfcPhysicalSimpleQuantity.Unit.UnitType = IfcUnitEnum.MASSUNIT)</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR22" UniqueId="01w14rhmT0WBabJKyVyzS7">
+			<Documentation>A valid weight quantity shall be greater than or equal to zero.</Documentation>
+			<Expression>WeightValue &gt;= 0.</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

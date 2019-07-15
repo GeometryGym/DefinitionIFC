@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="SwitchUsage_24EPzSQ98nRXHRNrTnKbJ" Name="SwitchUsage" UniqueId="84399f5c-6bf2-48c5-b851-6d7d5dc54953" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_SwitchUsage_1wiXYhKY9DaeV4zw3V6Ma" />
+	</Enumeration>
+</DocProperty>
+

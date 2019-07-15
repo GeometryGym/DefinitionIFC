@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_PipeEndStyleTreatment_3LmM4Qs792MOkXoyn1PWSB" Name="PEnum_PipeEndStyleTreatment" UniqueId="d5c1611a-d872-4259-8ba1-cbcc4166070b">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="BRAZED_16aNDRhrz8kOYI9x2nj8o5" />
+		<DocPropertyConstant xsi:nil="true" href="COMPRESSION_2gOkKeKXP5bxkDh6neaFhw" />
+		<DocPropertyConstant xsi:nil="true" href="FLANGED_09sgKVqo5FyR1Wq5w9Gm6" />
+		<DocPropertyConstant xsi:nil="true" href="GROOVED_1dGr8HlSr00PrnGX26gwEE" />
+		<DocPropertyConstant xsi:nil="true" href="OUTSIDESLEEVE_1BzXtZJ2n3dwt9gAEhqMzg" />
+		<DocPropertyConstant xsi:nil="true" href="SOLDERED_2CzeySTP901BagJJN1rOQc" />
+		<DocPropertyConstant xsi:nil="true" href="SWEDGE_25PBn0I358lxVvdBUPoiM" />
+		<DocPropertyConstant xsi:nil="true" href="THREADED_2ErfqjU9r04A5h6AKbj0F9" />
+		<DocPropertyConstant xsi:nil="true" href="WELDED_0NjBp3r4X4ExmJI0ApgcKT" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NONE_0uzQUamUf92wL654GzX6tl" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

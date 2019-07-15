@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_TubeBundleTypeFinned" UniqueId="4329a35e-23a4-4ec6-9c40-fe58a9e1375c" ApplicableType="IfcTubeBundle.Predefined=&quot;FINNED&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Spacing_32UAmDMrPDtQwNFU25hk4M" />
+		<DocProperty xsi:nil="true" href="Thickness_3Qj1noUBX1dApTp1oSk43J" />
+		<DocProperty xsi:nil="true" href="ThermalConductivity_2zgZtgzj58GxhdSVY5aMnZ" />
+		<DocProperty xsi:nil="true" href="Length_2vd64L1LTCrBxUFusI5V9V" />
+		<DocProperty xsi:nil="true" href="Height_0JsqcppxTCtxBsOjcSTZwc" />
+		<DocProperty xsi:nil="true" href="Diameter_1ORMyLqxH2bAi5_QuRiThg" />
+		<DocProperty xsi:nil="true" href="Material_0kvJ6M0cH9DOHPoaJA_cnM" />
+		<DocProperty xsi:nil="true" href="FinCorrugatedType_3ydkHn83zD0hZx2a7b4L9" />
+		<DocProperty xsi:nil="true" href="HasCoating_2OgYLTyuT7lOZb1OfIyXTN" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SwitchingDeviceTypeEmergencyStop" UniqueId="c1e8abc2-23f0-4232-9508-183f33481bb6" ApplicableType="IfcSwitchingDevice.Predefined=&quot;EMERGENCYSTOP&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="SwitchOperation_0_BddC86X9Nu5R4R7sDhcu" />
+	</Properties>
+</DocPropertySet>
+

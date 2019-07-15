@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPipeFittingTypeEnum" UniqueId="1mz7VsVSf2ugcOMVVD77mF" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BEND_37woOo5_P118F5xVFIAcCD" />
+		<DocConstant xsi:nil="true" href="CONNECTOR_3aRQjQayXD2gLyf1iZj0jl" />
+		<DocConstant xsi:nil="true" href="ENTRY_0_9QjI7XnC_vcqvp6Ox4CT" />
+		<DocConstant xsi:nil="true" href="EXIT_3ViOdFwaDEegiUKtJTMSiX" />
+		<DocConstant xsi:nil="true" href="JUNCTION_3PlBseBLv1T8hxQvpnyz1y" />
+		<DocConstant xsi:nil="true" href="OBSTRUCTION_1x0aTrgrz8uhUmh12E6Dvy" />
+		<DocConstant xsi:nil="true" href="TRANSITION_2CCBHgjJv9LQ64HOHXy_8E" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2deoCW52vuiG7JkkPiO9" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0DEs0cjLjDR8yhm2zzWpE" />
+	</Constants>
+</DocEnumeration>
+

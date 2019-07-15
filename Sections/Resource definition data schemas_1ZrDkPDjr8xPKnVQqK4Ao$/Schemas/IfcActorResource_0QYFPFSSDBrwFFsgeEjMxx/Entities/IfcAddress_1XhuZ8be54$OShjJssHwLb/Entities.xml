@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAddress" UniqueId="1XhuZ8be54$OShjJssHwLb" DiagramNumber="2" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="1WxcE7NFD8jOqQpMFjqCAM" DefinedType="IfcPostalAddress" />
+		<DocSubtype UniqueId="1pRyYVi_rAhAQBh_duhx77" DefinedType="IfcTelecomAddress" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Purpose" UniqueId="0mQEjCCmvD_eyH7F7tXq91" DefinedType="IfcAddressTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the logical location of the address.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="2$X_r_alr1ew_zXW4KRw3o" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Text that relates the nature of the address.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UserDefinedPurpose" UniqueId="3SHHrERyv7KfI0Qtl6diTi" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Allows for specification of user specific purpose of the address beyond the 
+enumeration values provided by Purpose attribute of type IfcAddressTypeEnum. 
+When a value is provided for attribute UserDefinedPurpose, in parallel the 
+attribute Purpose shall have enumeration value USERDEFINED.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OfPerson" UniqueId="30FeO_I9f6X9b71g$BiBel" DefinedType="IfcPerson" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="Addresses">
+			<Documentation>The inverse relationship to Person to whom address is associated.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OfOrganization" UniqueId="2KjXMZ1t1Bfw3BCjQjD3Qx" DefinedType="IfcOrganization" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="Addresses">
+			<Documentation>The inverse relationship to Organization to whom address is associated.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2d89A9EkL8tA0engdH1nWR">
+			<Documentation>Either attribute value Purpose is not given, or
+when attribute Purpose has enumeration value USERDEFINED
+then attribute UserDefinedPurpose shall also have a value.</Documentation>
+			<Expression>(NOT(EXISTS(Purpose))) OR
+((Purpose &lt;&gt; IfcAddressTypeEnum.USERDEFINED) OR
+((Purpose = IfcAddressTypeEnum.USERDEFINED) AND
+  EXISTS(SELF.UserDefinedPurpose)))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

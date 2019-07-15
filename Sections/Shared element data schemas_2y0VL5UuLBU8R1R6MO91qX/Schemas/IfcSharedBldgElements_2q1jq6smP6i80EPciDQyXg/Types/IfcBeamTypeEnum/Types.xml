@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBeamTypeEnum" UniqueId="0aVB_8lZP9nhY0zzYpp9BC" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BEAM_3NmFJlu5r9DBC8l5454Ncq" />
+		<DocConstant xsi:nil="true" href="JOIST_3d8dTwbi141eq74oegx4Z" />
+		<DocConstant xsi:nil="true" href="LINTEL_0I2M__Bvf088dh3rvP3sEi" />
+		<DocConstant xsi:nil="true" href="T_BEAM_0J3r4Y2erAdubem5JgVP6H" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0jIpFjrWbFyA2hT9gLB5NB" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_29zW5BqErCFB0XioI1Sf7X" />
+	</Constants>
+</DocEnumeration>
+

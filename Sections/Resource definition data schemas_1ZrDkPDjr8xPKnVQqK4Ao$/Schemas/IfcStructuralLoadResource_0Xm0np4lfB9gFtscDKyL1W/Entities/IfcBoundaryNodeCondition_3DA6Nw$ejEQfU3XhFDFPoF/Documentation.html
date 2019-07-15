@@ -1,0 +1,32 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI:</u> The entity <i>IfcBoundaryNodeCondition</i>
+describes boundary conditions that can be applied to structural point
+connections, either directly for the connection (e.g. the joint) or for
+the relation between a structural member and the connection.&nbsp;</p>
+<p>The following conventions to
+the values of the <i>LinearStiffness[X,Y,Z]</i>
+and <i>RotationalStiffness[X,Y,Z]</i>
+apply:</p>
+<ul>
+  <li>value (-1.) represents an
+infinitely large value &ndash; or a fixed connectivity with
+infinitive stiffness</li>
+  <li>value zero (0.), represents
+no stiffness or a free connectivity</li>
+  <li>any other value represents a
+finitive stiffness or spring connectivity in that direction or rotation</li>
+  <li>value NIL ($) represents an
+unknown connectivity condition</li>
+</ul>
+<blockquote><font
+ size="-1">NOTE: Instances of the entity <i>IfcBoundaryNodeCondition</i>
+are used e.g., to define the boundary condition for instances of <i>IfcStructuralPointConnection</i>
+or <i>IfcRelConnectsStructuralMember</i>
+pointing to a structural node connection.</font></blockquote>
+<blockquote>
+  <p><font
+ color="#0000ff" size="-1">HISTORY: New entity
+in Release IFC2x Edition 2. </font></p>
+</blockquote>
+</EPM-HTML>

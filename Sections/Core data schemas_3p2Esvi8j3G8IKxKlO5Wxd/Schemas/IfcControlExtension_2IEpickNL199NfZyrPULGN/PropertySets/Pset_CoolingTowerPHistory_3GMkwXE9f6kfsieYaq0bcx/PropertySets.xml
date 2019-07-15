@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CoolingTowerPHistory" UniqueId="d05aeea1-389a-46ba-9dac-a229340259bb" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Capacity_2XyUKSGB58ZOw0Guby2u8H" />
+		<DocProperty xsi:nil="true" href="HeatTransferCoefficient_0PTnFmjbH18fdb8K3X9wA2" />
+		<DocProperty xsi:nil="true" href="SumpHeaterPower_1T9NhJAqDCwQyhgwF2gAei" />
+		<DocProperty xsi:nil="true" href="UACurve_3ACrKJDB55oxGKAo8WZXPx" />
+		<DocProperty xsi:nil="true" href="Performance_2z0UmVMhzEzufoLnqMWhmF" />
+	</Properties>
+</DocPropertySet>
+

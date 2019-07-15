@@ -1,0 +1,56 @@
+<EPM-HTML> 
+<p><u>Definition from IAI</u>: The undertaking of
+some design, engineering, construction, or maintenance activities
+leading towards a product. The project establishes the context for
+information to be exchanged or shared, and it may represent a
+construction project but does not have to. </p>
+<p>The representation context, in the case of a geometric
+representation context, which is referenced from the <i>IfcProject</i>,
+includes:</p>
+<ul>
+  <li>the default units used</li>
+  <li>the world coordinate system</li>
+  <li>the coordinate space dimension</li>
+  <li>the precision used within the geometric representations, and</li>
+  <li>optionally the indication of the true north relative to the
+world coordinate system</li>
+</ul>
+<blockquote><small><font color="#0000ff">HISTORY&nbsp;
+New Entity in IFC Release 1.0</font></small></blockquote>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to the <i>IfcProject</i>
+are defined by the <i>IfcPropertySet</i> and attached by
+the <i>IfcRelDefinesByProperties</i> relationship. It is
+accessible by the inverse <i>IsDefinedBy</i> relationship.
+The following property set definitions specific to the <i>IfcProject</i>
+are part of this IFC release:</p>
+<ul>
+  <li><a href="../../psd/IfcKernel/Pset_ProjectCommon.xml"
+ target="SOURCE">Pset_ProjectCommon</a>: common
+property set for the single project occurrence.</li>
+</ul>
+<p><u><b>Spatial Structure Use Definition</b></u></p>
+<p>The <i>IfcProject</i>
+is used to reference the root of&nbsp;the spatial structure of a
+building (that serves as
+the primary project breakdown and is required to be hierarchical). The
+spatial structure elements are linked together, and to the <i>IfcProject</i>,
+by using the objectified
+relationship <i>IfcRelAggregates</i>.
+The <i>IfcProject</i> references them
+by its inverse relationship:</p>
+<ul>
+  <li><i>IfcProject.Decomposes</i>
+-- referencing (<i>IfcSite</i> || <i>IfcBuilding</i>)
+by <i>IfcRelAggregates.RelatingObject</i>. The IfcSite or
+IfcBuilding referenced shall be the root of the spatial structure.</li>
+  <li><i>IfcProject.IsDecomposedBy</i>
+-- it shall be NIL, i.e. the <i>IfcProject</i> shall not
+be decomposed into any parts.</li>
+</ul>
+<u>Informal propositions</u>:
+<ol>
+  <li>There shall only be one project within the exchange
+context. This is enforced by the global rule <i>IfcSingleProjectInstance</i>.</li>
+</ol>
+</EPM-HTML>

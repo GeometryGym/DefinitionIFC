@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcObjectiveEnum" UniqueId="1zCDqaGBr55w4lUwmh1$mJ" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CODECOMPLIANCE_0I6OQjsar578qUzK4iKQTU" />
+		<DocConstant xsi:nil="true" href="DESIGNINTENT_2v7dIpTMfAGQygh30XrJx" />
+		<DocConstant xsi:nil="true" href="HEALTHANDSAFETY_0vO8BNT_5Bg9S8vcjyuV7E" />
+		<DocConstant xsi:nil="true" href="REQUIREMENT_0qlpPBC_53YuKT9A8dXnC" />
+		<DocConstant xsi:nil="true" href="SPECIFICATION_2eDhtPjjn3BBK9Lffeivs_" />
+		<DocConstant xsi:nil="true" href="TRIGGERCONDITION_2tOome58X8OxvOjfnUAow5" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1631ZSHZz2LfVwHfKbRGhK" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0c2RIg8NT0aucEo0MF6A9C" />
+	</Constants>
+</DocEnumeration>
+

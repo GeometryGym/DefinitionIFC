@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadSingleDisplacement" UniqueId="2MIZcDzon58OcolFQ8MGKA" DiagramNumber="2" BaseDefinition="IfcStructuralLoadStatic" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="2qpReePtP6bh1P8JFWHtX7" DefinedType="IfcStructuralLoadSingleDisplacementDistortion" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="DisplacementX" UniqueId="2E7CahFVrFtfl2TfjxJs9Z" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Displacement in x-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DisplacementY" UniqueId="0Mz8iJ2abDbgPE69PfyMZR" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Displacement in y-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DisplacementZ" UniqueId="1MZCWDqsD7Ge7MGK326Bqd" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Displacement in z-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RotationalDisplacementRX" UniqueId="11FBSPX9b7LvsQBANb4FeB" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Rotation about the x-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RotationalDisplacementRY" UniqueId="0HEhLiETv9$BzooFKQetHr" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Rotation about the y-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RotationalDisplacementRZ" UniqueId="0BFwwF5pX2HP08G44D7Rhr" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Rotation about the z-axis.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

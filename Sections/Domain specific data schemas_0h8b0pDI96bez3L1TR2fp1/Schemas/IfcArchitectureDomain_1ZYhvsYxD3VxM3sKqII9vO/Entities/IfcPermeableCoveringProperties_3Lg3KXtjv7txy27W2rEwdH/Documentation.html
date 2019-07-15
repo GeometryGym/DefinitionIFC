@@ -1,0 +1,45 @@
+<EPM-HTML>
+	 <P><U>Definition from BS 6100</U>: A permeable covering is a permeable
+		cover for an opening which allows airflow . </P> 
+	 <P><U>Definition from IAI</U>: A description of a panel within a door or
+		window (as fillers for opening) which allows for air flow. It is given by its
+		properties (<I>IfcPermeableCoveringProperties</I>). A permeable covering is a
+		casement, i.e. a component, fixed or opening, consisting essentially of a frame
+		and the infilling. The infilling is normally a grill, a louver or a screen. The
+		way of operation is defined in the operation type. </P> 
+	 <P>The <I>IfcPermeableCoveringProperties</I> are included in the list of
+		properties (<I>HasPropertySets</I>) of the <I>IfcWindowStyle</I> or the
+		<I>IfcDoorStyle</I>. More information about the permeable covering can be
+		included in the same list of the window or door style using the
+		<I>IfcPropertySet</I> for dynamic extensions. This particularly applies for
+		additional properties for the various operation types</P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF" SIZE="-1">HISTORY New entity in IFC
+		Release 2.0, it had been renamed from <I>IfcPermeableCovering</I> in IFC
+		Release 2x.</FONT></BLOCKQUOTE> 
+	 <P><U><B>Geometry Use Definitions</B></U></P> 
+	 <P>The <I>IfcPermeableCoveringProperties</I> does not hold an own geometric
+		representation. However it defines parameter, which can be used to create the
+		shape of the <I>IfcWindowStyle</I> (which is inserted by the <I>IfcWindow</I>
+		into the spatial context of the project), or of the <I>IfcDoorStyle</I> (which
+		is inserted by the <I>IfcDoor</I>).</P> 
+	 <P><B>Interpretation of parameter</B></P> 
+	 <P>The parameters at the <I>IfcPermeableCoveringProperties</I> define a
+		standard permeable covering. The outer boundary of the panel is determined by
+		the occurrence parameter assigned to the <I>IfcWindow</I> or <I>IfcDoor</I>. It
+		has to take the lining parameter into account as well. The position of the
+		permeable covering within the overall window or door is determined by the
+		<I>PanelPosition</I> attribute.</P> 
+	 <TABLE BORDER="1" CELLPADDING="2" CELLSPACING="2"> 
+		<TR> 
+		  <TD><IMG SRC="figures/IfcPermeableCoveringProperties.gif"
+			 ALT="covering" WIDTH="400" HEIGHT="215" BORDER="0"></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT">The panel is applied to the position
+			 within the lining, as defined by the panel position attribute. The following
+			 parameter apply to that panel: 
+			 <UL> 
+				<LI>FrameDepth</LI> 
+				<LI>FrameThickness</LI> 
+			 </UL></TD> 
+		</TR> 
+	 </TABLE>
+</EPM-HTML>

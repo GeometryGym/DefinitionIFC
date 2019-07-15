@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelConnects" UniqueId="0KqWYfsQbCmOlzSXKan478" DiagramNumber="6" BaseDefinition="IfcRelationship" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="276Xougqj4S9IC3XN5iQlG" DefinedType="IfcRelSequence" />
+	</Subtypes>
+</DocEntity>
+

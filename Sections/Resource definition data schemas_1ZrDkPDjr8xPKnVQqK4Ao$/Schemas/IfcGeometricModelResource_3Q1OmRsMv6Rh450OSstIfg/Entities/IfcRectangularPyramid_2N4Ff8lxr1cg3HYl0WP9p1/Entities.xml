@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRectangularPyramid" UniqueId="2N4Ff8lxr1cg3HYl0WP9p1" DiagramNumber="2" BaseDefinition="IfcCsgPrimitive3D" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="XLength" UniqueId="1bz5nKk_L1xO6KPzJRTyjU" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The length of the base measured along the placement X axis. It is provided by the inherited axis placement through &lt;i&gt;SELF\IfcCsgPrimitive3D.Position.P[1]&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="YLength" UniqueId="0TqYj9fo131f2OySLXcSk2" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The length of the base measured along the placement Y axis. It is provided by the inherited axis placement through &lt;i&gt;SELF\IfcCsgPrimitive3D.Position.P[2]&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Height" UniqueId="3f3GvwDP90hQoC$KhAS3nk" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The height of the apex above the plane of the base, measured in the direction of the placement Z axis, the &lt;i&gt;SELF\IfcCsgPrimitive3D.Position.P[2]&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

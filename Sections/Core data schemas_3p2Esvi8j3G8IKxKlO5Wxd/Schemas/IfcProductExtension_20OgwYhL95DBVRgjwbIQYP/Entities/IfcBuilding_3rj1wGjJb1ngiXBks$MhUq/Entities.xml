@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcBuilding_3rj1wGjJb1ngiXBksMhUq" Name="IfcBuilding" UniqueId="3rj1wGjJb1ngiXBks$MhUq" DiagramNumber="2" BaseDefinition="IfcSpatialStructureElement" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="ElevationOfRefHeight" UniqueId="093e$UpD5D0uZmD9XWepFS" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Elevation above sea level of the reference height used for all storey elevation measures, equals to height 0.0. It is usually the ground floor level.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ElevationOfTerrain" UniqueId="0yOx64sjP13ufnqS1kfVHi" DefinedType="IfcLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Elevation above the minimal terrain level around the foot print of the building, given in elevation above sea level.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BuildingAddress" UniqueId="3oooXeUA97gBYwmkjxdQMv" DefinedType="IfcPostalAddress" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Address given to the building for postal purposes.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

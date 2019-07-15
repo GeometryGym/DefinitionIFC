@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLayerSetDirectionEnum" UniqueId="0_WbapU4z4cwr5JZQvuxJV" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="AXIS1_1rldrqecP6axtI1PMXnvqE" />
+		<DocConstant xsi:nil="true" href="AXIS2_0dZ3RBmvX0pxWGmD8Ujq" />
+		<DocConstant xsi:nil="true" href="AXIS3_1Q9gjwqkX81f_wT2sdq2Ul" />
+	</Constants>
+</DocEnumeration>
+

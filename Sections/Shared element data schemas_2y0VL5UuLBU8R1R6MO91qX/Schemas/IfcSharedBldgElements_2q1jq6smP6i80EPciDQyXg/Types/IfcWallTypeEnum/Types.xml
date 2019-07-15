@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWallTypeEnum" UniqueId="3E2m4VvjPA9Apo7XPcVsap" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="STANDARD_13sv4UDmPD5eXN7bNNAwRd" />
+		<DocConstant xsi:nil="true" href="POLYGONAL_2QWhMCF1L7lRePilVcAYl_" />
+		<DocConstant xsi:nil="true" href="SHEAR_3BJaOjh0H6GhXEShv_knI" />
+		<DocConstant xsi:nil="true" href="ELEMENTEDWALL_3rwNJKcrzCQf28BVf7akXA" />
+		<DocConstant xsi:nil="true" href="PLUMBINGWALL_07D8W1qnvDew6yXAkmGFZT" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_31zk7iolv9mRoajubFdcfQ" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3rQkWFY7T5lPGa1peWsIxN" />
+	</Constants>
+</DocEnumeration>
+

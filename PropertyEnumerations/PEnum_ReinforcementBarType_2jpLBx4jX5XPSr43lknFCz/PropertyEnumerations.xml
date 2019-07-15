@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ReinforcementBarType_2jpLBx4jX5XPSr43lknFCz" Name="PEnum_ReinforcementBarType" UniqueId="adcd52fb-12d8-4585-9735-103beec4f33d">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="RING_3linW4UMjECBBwgfOVpSi" />
+		<DocPropertyConstant xsi:nil="true" href="SPIRAL_203_yoHOb0GghtZJiVzPeR" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="USERDEFINED_37TLtgMNT56wNUWK6TXrMy" />
+		<DocPropertyConstant xsi:nil="true" href="NOTDEFINED_2XczqPL8H0kQwINEcAw1T" />
+	</Constants>
+</DocPropertyEnumeration>
+

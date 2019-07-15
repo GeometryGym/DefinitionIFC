@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcInventoryTypeEnum" UniqueId="0dc0HNITT6CfqkT7XoUXDi" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="ASSETINVENTORY_2hp5hBNUH9wO8occlbjmc" />
+		<DocConstant xsi:nil="true" href="SPACEINVENTORY_2YlnhRqpr1TOFG_7GTNPDo" />
+		<DocConstant xsi:nil="true" href="FURNITUREINVENTORY_1ts2Lgap183h46APnEWBDR" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0BtpZ3gZb2b9ew4Zhriv4T" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1KLzbp29L3lhugSM3PZMY" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,26 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI: </U>An <I>IfcRelAssignsTasks</I> is a
+		relationship class that assigns an <I>IfcTask</I> to an <I>IfcWorkControl</I>.
+		The assignment is further qualified by attaching an
+		<I>IfcScheduleTimeControl</I> to the assignment to give the time constraints of
+		the work task, when assigned to a work plan or schedule.</P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New class in IFC 2x
+		</FONT></BLOCKQUOTE> 
+	 <P><U>Use Definitions</U></P> 
+	 <P>The inherited attributes have the following meaning:</P> 
+	 <UL> 
+		<LI><I>SELF\IfcRelAssigns.RelatedObjects</I> - is the reference to the
+		  related <I>IfcTask</I>, which is assigned to the work control. The task gets
+		  the time information from the reference to the
+		  <I>IfcScheduleTimeControl</I>.</LI> 
+		<LI><I>SELF\IfcRelAssignsToControl.RelatingControl</I> - is the reference
+		  to the relating <I>IfcWorkControl</I> (either a work plan or a work schedule)
+		  which gets a task assigned.</LI> 
+	 </UL> 
+	 <P>Each task in a work schedule may have a set of associated time criteria
+		that define information about when the task should be completed. This time
+		information is separated from the the actual work task into the
+		<I>IfcScheduleTimeControl</I> class. Where the work schedule requires that the
+		task and the time control are brought together, this is achieved through the
+		use of the <I>IfcRelAssignsTask</I> class.</P> 
+</EPM-HTML>

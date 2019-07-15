@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ReinforcementBarAllocationType_0432gVM7PBjwSj8pL8CiX" Name="PEnum_ReinforcementBarAllocationType" UniqueId="040c2a9f-5876-4bb7-a72d-233548fccb21">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="SINGLE_2B2JaUhnP0wctG6mvLbJz" />
+		<DocPropertyConstant xsi:nil="true" href="DOUBLE_0B2vB_DSnDh9_vMc0ywrZJ" />
+		<DocPropertyConstant xsi:nil="true" href="ALTERNATE_3QgygjD3j1cBTxHPQ_CCX" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="USERDEFINED_37TLtgMNT56wNUWK6TXrMy" />
+		<DocPropertyConstant xsi:nil="true" href="NOTDEFINED_2XczqPL8H0kQwINEcAw1T" />
+	</Constants>
+</DocPropertyEnumeration>
+

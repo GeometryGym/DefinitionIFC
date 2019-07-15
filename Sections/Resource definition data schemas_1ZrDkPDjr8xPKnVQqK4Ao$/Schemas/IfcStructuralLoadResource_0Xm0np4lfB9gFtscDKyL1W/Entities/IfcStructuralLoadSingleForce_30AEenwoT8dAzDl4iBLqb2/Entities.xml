@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadSingleForce" UniqueId="30AEenwoT8dAzDl4iBLqb2" DiagramNumber="1" BaseDefinition="IfcStructuralLoadStatic" EntityFlags="229">
+	<Subtypes>
+		<DocSubtype UniqueId="1EM86Y_mrCg8uQ1_KnqnWc" DefinedType="IfcStructuralLoadSingleForceWarping" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="ForceX" UniqueId="03V15XXcfFfB4SrYRraTeh" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Force value in x-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ForceY" UniqueId="03MNObMcT1VxmEc8o6D0Ey" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Force value in y-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ForceZ" UniqueId="0vEkT4RdjB_9JbuH8P7wY0" DefinedType="IfcForceMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Force value in z-direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MomentX" UniqueId="1KN33j7Kj2F8yD$K4BE$ct" DefinedType="IfcTorqueMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Moment about the x-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MomentY" UniqueId="3Ci1vuH$jB3gnqs5aeSPBP" DefinedType="IfcTorqueMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Moment about the y-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MomentZ" UniqueId="2z4UZrld594OTzDHtyDMWt" DefinedType="IfcTorqueMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Moment about the z-axis.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

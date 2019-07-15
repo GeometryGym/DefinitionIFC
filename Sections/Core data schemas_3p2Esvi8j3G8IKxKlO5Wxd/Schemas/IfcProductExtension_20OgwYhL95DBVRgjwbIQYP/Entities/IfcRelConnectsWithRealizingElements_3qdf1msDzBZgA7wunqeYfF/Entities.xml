@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelConnectsWithRealizingElements" UniqueId="3qdf1msDzBZgA7wunqeYfF" DiagramNumber="9" BaseDefinition="IfcRelConnectsElements" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="RealizingElements" UniqueId="2q2Ob7_GH5hgSwnyyWOObs" DefinedType="IfcElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Defines the elements that realize a connection relationship.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ConnectionType" UniqueId="0HyHlYNBP6WRxd2W0ZCiAc" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The type of the connection given for informal purposes, it may include labels, like &apos;joint&apos;, &apos;rigid joint&apos;, &apos;flexible joint&apos;, etc.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

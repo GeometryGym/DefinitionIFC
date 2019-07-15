@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Grouping_3JVKot2wVHfv18zSAnjA0" Name="Grouping" UniqueId="3JVKot$2wVHfv18zSAnjA0" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssignsToGroup">
+	<Templates>
+		<DocTemplateDefinition Name="Grouping General" UniqueId="3be4znyNJQG8tBo4c62zay" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssignsToGroup">
+			<Documentation>&lt;p&gt;
+	Provision of a general grouping mechanism (such as a selection group, system) to which this &lt;em&gt;element&lt;/em&gt; is assigned to). The general group is represented by a direct instantiation of &lt;em&gt;IfcGroup&lt;/em&gt;.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Grouping to Systems" UniqueId="1bBtb956q9IBZFcpLIGYNH" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssignsToGroup">
+			<Documentation>&lt;p&gt;
+	Provision of a system specific grouping mechanism (such as a distribution system) to which this &lt;em&gt;element&lt;/em&gt; is assigned to). The system is represented by an instantiation of &lt;em&gt;IfcSystem&lt;/em&gt;.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Grouping to Zones" UniqueId="0ZXOSVXkYdJAQOIzdNNxkZ" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssignsToGroup">
+			<Documentation>&lt;p&gt;
+	Provision of a spatial grouping mechanism (such as a thermal zone) to which this &lt;em&gt;element&lt;/em&gt;, representing a space, is assigned to. The spatial group is represented by an instantiation of &lt;em&gt;IfcZone&lt;/em&gt;.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Is Group" UniqueId="1RnuYoY2QeIhgFtctMrXTp" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelAssignsToGroup">
+			<Documentation>&lt;p&gt;
+	Provision of a grouping &lt;em&gt;element &lt;/em&gt;that represents the result of a logical grouping of its grouped items. The grouping &lt;em&gt;element &lt;/em&gt;can either be:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;
+		a general group, represented by &lt;em&gt;IfcGroup&lt;/em&gt;;&lt;/li&gt;
+	&lt;li&gt;
+		a system specific group, represented by &lt;em&gt;IfcSystem&lt;/em&gt;;&lt;/li&gt;
+	&lt;li&gt;
+		a spatial group, represented by &lt;em&gt;IfcZone&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;</Documentation>
+		</DocTemplateDefinition>
+	</Templates>
+</DocTemplateDefinition>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPostalAddress" UniqueId="0IPhqsIg59lhkwW1TWnEys" DiagramNumber="2" BaseDefinition="IfcAddress" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="InternalLocation" UniqueId="0Cn62mXEHBg9TEpeHs_fdf" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>An organization defined address for internal mail delivery.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="AddressLines" UniqueId="3w$ZHRPmr4NQ7jdMOGNt82" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The postal address.
+&lt;EPM-HTML&gt;
+&lt;BLOCKQUOTE&gt;&lt;FONT SIZE=&quot;-1&quot;&gt;NOTE: A postal address may occupy several lines (or elements) when recorded. 
+It is expected that normal usage will incorporate relevant elements of the following address concepts: 
+A location within a building (e.g. 3rd Floor) Building name (e.g. Interoperability House) Street number 
+(e.g. 6400) Street name (e.g. Alliance Boulevard). Typical content of address lines may vary in different 
+countries.
+&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PostalBox" UniqueId="19UhC4pjLECesM5RIxdqdh" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>An address that is implied by an identifiable mail drop.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Town" UniqueId="2EbMyXjqrAK93TR93VcVq_" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name of a town.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Region" UniqueId="2O999moJz1rRJQl3J3xozq" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name of a region.
+&lt;EPM-HTML&gt;
+&lt;BLOCKQUOTE&gt;&lt;FONT SIZE=&quot;-1&quot;&gt;NOTE: The counties of the United Kingdom and the states of North America are examples of regions.
+&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PostalCode" UniqueId="0slEofvBnDbhtVkoWPenkn" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The code that is used by the country&apos;s postal service.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Country" UniqueId="0DR3n1LEzEZhTlq7pUiapH" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name of a country.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1DKpK$elz34e1D00TjID7v">
+			<Documentation>Requires that at least one attribute of internal location, address lines, town, region or country is asserted. It is not acceptable to have a postal address without at least one of these values.</Documentation>
+			<Expression>EXISTS (InternalLocation) OR 
+EXISTS (AddressLines) OR
+EXISTS (PostalBox) OR
+EXISTS (PostalCode) OR
+EXISTS (Town) OR 
+EXISTS (Region) OR  
+EXISTS (Country)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

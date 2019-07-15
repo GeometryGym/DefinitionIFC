@@ -1,0 +1,20 @@
+<p>
+	<strong>General concept template</strong> regarding the whole IFC date set.</p>
+<p>
+	If the IFC data set is delivered as an STEP physical file (ISO 10303-21 format) non ASCII characters are required to be encoded according to the encoding instructions of ISO 10303-21.</p>
+<p style="margin-left: 40px;">
+	Note: see the string encoding instruction published at <a href="http://buildingsmart-tech.org/developers/get-started/string-encoding" target="_blank">buildingsmart-tech.org</a></p>
+<p>
+	A Model View Definition shall specify which of the character encodings are required to be supported for a valid export, and are required to be read for import.</p>
+<p>
+	The encodings of non ASCII characters following the STEP physical file encoding include:</p>
+<ul>
+	<li>
+		\S\,</li>
+	<li>
+		\PA\, \PB\, ...&nbsp;</li>
+	<li>
+		\X\,</li>
+	<li>
+		\X2\...\X0\</li>
+</ul>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ActuatorTypeHydraulicActuator" UniqueId="b7bfc922-aae9-4585-8b6d-dd4e8d7afeb9" ApplicableType="IfcActuator.Predefined=&quot;HYDRAULICACTUATOR&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="InputPressure_14NaSoPov0YOjJSNt3r094" />
+		<DocProperty xsi:nil="true" href="InputFlowrate_1cvhs0OBX0vQISpOGhogjZ" />
+	</Properties>
+</DocPropertySet>
+

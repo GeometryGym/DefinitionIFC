@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTrapeziumProfileDef" UniqueId="2kznl4OjjEHvuGC3iPn66h" DiagramNumber="2" BaseDefinition="IfcParameterizedProfileDef" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="BottomXDim" UniqueId="2iwKnFe4bFuw$ubFera2f$" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The extent of the bottom line measured along the implicit x-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TopXDim" UniqueId="1YVOatP8XAJR9ElwrRGrNh" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The extent of the top line measured along the implicit x-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="YDim" UniqueId="0a3EdVqUX5luiKum1kfHFK" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The extent of the distance between the parallel bottom and top lines measured along the implicit y-axis.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TopXOffset" UniqueId="0DXTaFq51F3wY8MNmMSMGM" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Offset from the beginning of the top line to the bottom line, measured along the implicit x-axis.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

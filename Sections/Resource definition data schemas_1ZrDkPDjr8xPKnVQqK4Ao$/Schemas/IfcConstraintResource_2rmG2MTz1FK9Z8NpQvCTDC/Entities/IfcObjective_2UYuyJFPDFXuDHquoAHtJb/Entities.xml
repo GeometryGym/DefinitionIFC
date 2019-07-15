@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcObjective" UniqueId="2UYuyJFPDFXuDHquoAHtJb" DiagramNumber="1" BaseDefinition="IfcConstraint" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="BenchmarkValues" UniqueId="1YK_IYhNn4ehgFlzhPvUaY" DefinedType="IfcMetric" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>A list of any benchmark values used for comparison purposes.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ResultValues" UniqueId="36JhqwqYX9d8UfMftbsRt9" DefinedType="IfcMetric" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>A list of any resultant values used for comparison purposes.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ObjectiveQualifier" UniqueId="3TaDJHa61CPfOy27XMIdZW" DefinedType="IfcObjectiveEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Enumeration that qualifies the type of objective constraint.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="UserDefinedQualifier" UniqueId="0rDLZhtKT3GeCqr50Q34NL" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;A user defined value that qualifies the type of objective constraint when ObjectiveQualifier attribute of type &lt;I&gt;IfcObjectiveEnum&lt;/I&gt; has value USERDEFINED.&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="1oRnLw7ZXCrPq7sgr7BIXh">
+			<Documentation>The attribute UserDefinedQualifier must be asserted when the value of the IfcObjectiveEnum is set to USERDEFINED.</Documentation>
+			<Expression>(ObjectiveQualifier &lt;&gt; IfcObjectiveEnum.USERDEFINED) OR
+((ObjectiveQualifier = IfcObjectiveEnum.USERDEFINED) AND EXISTS(SELF\IfcObjective.UserDefinedQualifier))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

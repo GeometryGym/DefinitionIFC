@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_UnitaryEquipmentTypeAirHandler" UniqueId="36d037de-8358-4055-bbe1-99b1c36e0735" ApplicableType="IfcUnitaryEquipment.Predefined=&quot;AIRHANDLER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AirHandlerConstruction_3XBWoaA_vDUwzWQIWnseKR" />
+		<DocProperty xsi:nil="true" href="AirHandlerFanCoilArrangement_2cnapisOv8f9bJlD14iSjw" />
+		<DocProperty xsi:nil="true" href="DualDeck_3wX1krGKv85Rl6bWJs929f" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PressureRange_0PgcNHBqj18RXNSDjvyGgG" Name="PressureRange" UniqueId="19aa65d1-2f4b-4121-b857-70db79f10a90" PropertyType="p_boundedvalue" PrimaryDataType="IfcPressureMeasure" />
+

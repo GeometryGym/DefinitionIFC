@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCableCarrierFittingType" UniqueId="3mWQgoM09BDgQlY09xUrZ4" DiagramNumber="2" BaseDefinition="IfcFlowFittingType" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="0wib8v6qP4yRkf5X_Dobgh" DefinedType="IfcCableCarrierFittingTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of cable carrier fitting from which the type required may be set.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2l9_KgaHn8cvnOtsl5ffBB">
+			<Expression>(PredefinedType &lt;&gt; IfcCableCarrierFittingTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcCableCarrierFittingTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcElementType.ElementType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

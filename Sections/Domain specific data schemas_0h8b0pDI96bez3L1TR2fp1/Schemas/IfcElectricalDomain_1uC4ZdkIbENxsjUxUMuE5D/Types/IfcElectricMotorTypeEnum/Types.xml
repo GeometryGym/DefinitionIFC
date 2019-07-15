@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricMotorTypeEnum" UniqueId="1RoC7_sk53FfwNZs7A8U6o" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="DC_2wkV1ZSRb8qhK7m3Damp_7" />
+		<DocConstant xsi:nil="true" href="INDUCTION_3u32mWf4D5NBeZgSPSFBeA" />
+		<DocConstant xsi:nil="true" href="POLYPHASE_3Sb7qaowz5Kw_bgJhkF40B" />
+		<DocConstant xsi:nil="true" href="RELUCTANCESYNCHRONOUS_0ssn6KqtP5IRfRt9ANGw0U" />
+		<DocConstant xsi:nil="true" href="SYNCHRONOUS_3V1mdjk_bB4ANC7gPMPQo" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0JacZLK_1Ci9YXmtSHdN4o" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0BLwL6P8vBjtpqwwuf8i" />
+	</Constants>
+</DocEnumeration>
+

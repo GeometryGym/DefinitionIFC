@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="WaterFlowControlSystemType_3IH8nmGwbESwWrwRVoF0ut" Name="WaterFlowControlSystemType" UniqueId="d2448c70-43a9-4e73-a835-e9b7f23c0e37" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CooledBeamWaterFlowControlSystemType_214TMLTFPAHO8sOtD6Ss6s" />
+	</Enumeration>
+</DocProperty>
+

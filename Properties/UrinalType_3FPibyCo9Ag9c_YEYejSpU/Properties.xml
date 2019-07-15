@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="UrinalType_3FPibyCo9Ag9c_YEYejSpU" Name="UrinalType" UniqueId="cf66c97c-3322-4aa8-99be-88e8a8b5ccde" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_UrinalType_1ZfHwl3in3KwUB0zdhOkB" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_IsolatingPurpose_1XB3hlAZ1A8wJx03U5B3fz" Name="PEnum_IsolatingPurpose" UniqueId="612c3aef-2a30-4a23-a4fb-0037852c3a7d">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="LANDING_2C8qjxqvP8xP8jlsVxYTg3" />
+		<DocPropertyConstant xsi:nil="true" href="LANDINGWITHPRESSUREREGULATION_3ktrrIbA1DewQX08Lxgkgd" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

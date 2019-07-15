@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="RiskConsequence_3ffJdPbcn3LfCdKAnNnTP" Name="RiskConsequence" UniqueId="e9a539d9-966c-4356-933f-9d42b15f1759" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_RiskConsequence_28Uo6WRsr3ke6zszuC3X4K" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FanCapacityControlType_1BKibqBxX0YgEoOcZ4eyK" Name="PEnum_FanCapacityControlType" UniqueId="4b52c974-2fb8-408a-a3b2-6268c4a3ff14">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="INLETVANE_1QMW6uQsDEAgc6sUHjtawn" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLESPEEDDRIVE_2kcPdyfNr7YBBhMOor4HU_" />
+		<DocPropertyConstant xsi:nil="true" href="BLADEPITCHANGLE_1Re69JE3r3oh_LAyEWleR" />
+		<DocPropertyConstant xsi:nil="true" href="TWOSPEED_04DgYOzAjCFAihNtlJiZlK" />
+		<DocPropertyConstant xsi:nil="true" href="DISCHARGEDAMPER_3lC_mNKZfD0PXoPa6IkcNP" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

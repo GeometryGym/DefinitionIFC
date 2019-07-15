@@ -1,0 +1,110 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI</U>: This enumeration defines the basic
+		configuration of the window type in terms of the location of window panels. The
+		window configurations are given for windows with one, two or three panels
+		(including fixed panels). It corresponds to the <I>OperationType</I> of the
+		<I>IfcWindowStyle</I> definition, which references the
+		<I>IfcWindowPanelProperties</I>. </P> 
+	 <P>Windows which are subdivided into more than three panels have to be
+		defined by the geometry only. The type of such windows is given by an
+		<I>IfcWindowStyle.OperationType</I> = USERDEFINED or NOTDEFINED (see
+		<I>IfcWindowStyleOperationEnum</I> for details).</P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000FF" SIZE="-1">HISTORY New Enumeration in IFC
+		Release 2.0.</FONT></BLOCKQUOTE> 
+	 <P><U>Illustration</U></P> 
+	 <TABLE BORDER="1"> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT"><I>Enumerator from
+			 IfcWindowStyleOperationEnum</I></TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT"><I>Use of enumerators from
+			 IfcWindowPanelPositionEnum</I></TD> 
+		  <TD WIDTH="23%" VALIGN="TOP" ALIGN="LEFT"><I>Figure</I></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">DoublePanelVertical</TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">first
+			 IfcWindowPanelProperties with PanelPosition = LEFT<BR>second
+			 IfcWindowPanelProperties with PanelPosition = RIGHT</TD> 
+		  <TD WIDTH="23%" VALIGN="TOP" ALIGN="LEFT"><IMG
+			 SRC="figures/IfcWindowPanelPositionEnum-Fig01.gif" WIDTH="152" HEIGHT="151"
+			 BORDER="0"></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT"
+			HEIGHT="154">DoublePanelHorizontal</TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT" HEIGHT="154">first
+			 IfcWindowPanelProperties with PanelPosition = TOP<BR>second
+			 IfcWindowPanelProperties with PanelPosition = BOTTOM</TD> 
+		  <TD WIDTH="23%" VALIGN="TOP" ALIGN="LEFT" HEIGHT="154"><IMG
+			 SRC="figures/IfcWindowPanelPositionEnum-Fig02.gif" WIDTH="152" HEIGHT="151"
+			 BORDER="0"></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">TriplePanelVertical</TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">first
+			 IfcWindowPanelProperties with PanelPosition = LEFT<BR>second
+			 IfcWindowPanelProperties with PanelPosition = MIDDLE<BR>third
+			 IfcWindowPanelProperties with PanelPosition = RIGHT</TD> 
+		  <TD WIDTH="23%" VALIGN="TOP" ALIGN="LEFT"><IMG
+			 SRC="figures/IfcWindowPanelPositionEnum-Fig03.gif" WIDTH="209" HEIGHT="152"
+			 BORDER="0"></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">TriplePanelHorizontal </TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">first
+			 IfcWindowPanelProperties with PanelPosition = TOP<BR>second
+			 IfcWindowPanelProperties with PanelPosition = MIDDLE<BR>third
+			 IfcWindowPanelProperties with PanelPosition = BOTTOM</TD> 
+		  <TD WIDTH="23%" VALIGN="TOP" ALIGN="LEFT"><IMG
+			 SRC="figures/IfcWindowPanelPositionEnum-Fig04.gif" WIDTH="151" HEIGHT="208"
+			 BORDER="0"></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">TriplePanelBottom</TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">first
+			 IfcWindowPanelProperties with PanelPosition = LEFT<BR>second
+			 IfcWindowPanelProperties with PanelPosition = RIGHT<BR>third
+			 IfcWindowPanelProperties with PanelPosition = BOTTOM</TD> 
+		  <TD WIDTH="23%" VALIGN="TOP" ALIGN="LEFT"><IMG
+			 SRC="figures/IfcWindowPanelPositionEnum-Fig05.gif" WIDTH="151" HEIGHT="208"
+			 BORDER="0"></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">TriplePanelTop</TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">first
+			 IfcWindowPanelProperties with PanelPosition = TOP<BR>second
+			 IfcWindowPanelProperties with PanelPosition = LEFT<BR>third
+			 IfcWindowPanelProperties with PanelPosition = RIGHT</TD> 
+		  <TD WIDTH="23%" VALIGN="TOP" ALIGN="LEFT"><IMG
+			 SRC="figures/IfcWindowPanelPositionEnum-Fig06.gif" WIDTH="151" HEIGHT="208"
+			 BORDER="0"></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">TriplePanelLeft</TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">first
+			 IfcWindowPanelProperties with PanelPosition = LEFT<BR>second
+			 IfcWindowPanelProperties with PanelPosition = TOP<BR>third
+			 IfcWindowPanelProperties with PanelPosition = BOTTOM</TD> 
+		  <TD WIDTH="23%" VALIGN="TOP" ALIGN="LEFT"><IMG
+			 SRC="figures/IfcWindowPanelPositionEnum-Fig07.gif" WIDTH="209" HEIGHT="152"
+			 BORDER="0"></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">TriplePanelRight</TD> 
+		  <TD WIDTH="30%" VALIGN="TOP" ALIGN="LEFT">first
+			 IfcWindowPanelProperties with PanelPosition = TOP<BR>second
+			 IfcWindowPanelProperties with PanelPosition = BOTTOM<BR>third
+			 IfcWindowPanelProperties with PanelPosition = RIGHT</TD> 
+		  <TD WIDTH="23%" VALIGN="TOP" ALIGN="LEFT"><IMG
+			 SRC="figures/IfcWindowPanelPositionEnum-Fig08.gif" WIDTH="209" HEIGHT="152"
+			 BORDER="0"></TD> 
+		</TR> 
+	 </TABLE> 
+	 <P>NOTE</P> 
+	 <OL> 
+		<LI>The figures are shown as elevations in the XZ plane of the local
+		  placement of the window, looking into the direction of the positive Y
+		  axis.</LI> 
+		<LI>These figures are only shown as illustrations.</LI> 
+	 </OL>
+</EPM-HTML>

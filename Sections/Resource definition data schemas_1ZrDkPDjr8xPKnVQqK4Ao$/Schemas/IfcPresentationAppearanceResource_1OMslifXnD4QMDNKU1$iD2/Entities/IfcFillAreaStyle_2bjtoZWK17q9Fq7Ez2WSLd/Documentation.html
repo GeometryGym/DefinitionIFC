@@ -1,0 +1,108 @@
+<EPM-HTML>
+<p><u>Definition
+from ISO/CD 10303-46:1992</u>: The
+style for filling
+visible curve segments, annotation fill areas or surfaces with tiles or
+hatches.</p>
+<p><u>Definition
+from IAI</u>: An <i>IfcFillAreaStyle</i>
+provides the
+style table for presentation information assigned to annotation fill
+areas or surfaces for hatching and tiling. <font color="#0000ff">The
+<i>IfcFillAreaStyle </i>defines
+hatches as model hatches, i.e. the distance between hatch lines, or the
+curve patterns of hatch lines are given in model space dimensions (that
+have to be scaled using the target plot scale). </font>The <i>IfcFillAreaStyle</i>
+allows for the following combinations of defining the style of hatching
+and tiling:</p>
+<ul> <li>Solid fill for areas and
+surfaces by only assigning <i>IfcColour</i>
+to the set of <i>FillStyles</i>.
+It then provides the background
+colour for the filled area or surface.</li>
+</ul><blockquote> <blockquote><small>NOTE&nbsp;
+Color information of surfaces for
+rendering is assigned by using <i>IfcSurfaceStyle</i>,
+not by using <i>IfcFillAreaStyle</i>.</small></blockquote>
+</blockquote><ul> <li>Vector based hatching for
+areas and surfaces based on a single
+row of hatch lines by assigning a single instance of <i>IfcFillAreaStyleHatching</i>
+to the set of <i>FillStyles</i>.</li> <ul> <li>If
+an instance of <i>IfcColour</i>
+is assigned in addition to
+the set of <i>FillStyles</i>,
+it provides the background colour for
+the hatching.</li> </ul> <li>Vector based hatching
+for
+areas and surfaces based on two
+(potentially crossing) rows of hatch lines by assigning two instances
+of <i>IfcFillAreaStyleHatching</i>
+to the set of <i>FillStyles.</i></li> <ul> <li>If
+an instance of <i>IfcColour</i>
+is assigned in addition to
+the set of <i>FillStyles</i>,
+it provides the background colour for
+the hatching.</li> </ul>
+</ul><blockquote> <blockquote><small>NOTE&nbsp;
+Assigning more then two instances of <i>IfcFillAreaStyleHatching
+</i>to
+define three or more rows
+of hatch lines is not encouraged.</small><i><br> </i></blockquote>
+</blockquote><ul> <li>Tiling for areas and
+surfaces by assigning a single instance of <i>IfcFillAreaStyleTiles</i>
+to the set of <i>FillStyles</i>.</li> <ul> <li>If
+an instance of <i>IfcColour</i>
+is assigned in addition to
+the set of <i>FillStyles</i>,
+it provides the background colour for
+the tiling.</li> </ul>
+</ul><blockquote> <blockquote><small><font
+ color="#ff0000">IFC2x Edition&nbsp;3
+NOTE&nbsp; The use of IfcFillAreaStyleTiles is discouraged., as its
+definition might change is future releases.</font><br> </small></blockquote>
+</blockquote><ul> <li>Externally defined hatch
+style by assigning a single instance of <i>IfcExternallyDefinedHatchStyle</i>
+to the set of <i>FillStyles</i>.</li> <ul> <li>If
+an instance of <i>IfcColour</i>
+is assigned in addition to
+the set of <i>FillStyles</i>,
+it provides the background colour for
+the hatching.</li> </ul>
+</ul>Measures given to a hatch or tile pattern are given in
+global
+drawing length units. <br>
+<blockquote> <p><small>NOTE&nbsp;
+Global units are defined at the single <i>IfcProject</i>
+instance, given by <i>UnitsInContext:IfcUnitAssignment</i>,
+the same
+units are used for the geometric representation items and for the style
+definitions.</small></p>
+</blockquote><p>The measure values for hatch or
+tile pattern <font color="#0000ff">apply to the
+model space </font>with
+a target plot scale provided for the correct appearance in the default
+plot scale. For different scale and projection dependent fill area
+styles
+a
+different instance of <i>IfcFillAreaStyle</i>
+needs to be used by <i>IfcPresentationStyleAssignment</i>
+for different <i>IfcGeometricRepresentationSubContext</i>
+dependent
+representations.</p>
+<blockquote> <p><small>NOTE&nbsp;
+the target plot scale is given by <i>IfcGeometricRepresentationSubContext.TargetScale</i>.</small><br>
+</p>
+</blockquote>An <i>IfcFillAreaStyle</i> can be
+assigned to <i>IfcFillArea</i>
+via the <i>IfcPresentationStyleAssignment</i>
+through an intermediate <i>IfcStyledItem</i> or subtype <i>IfcAnnotationFillAreaOccurrence</i>.
+<blockquote> <p><font color="#0000ff" size="-1">
+NOTE&nbsp; Corresponding
+STEP name:
+fill_area_style. Please refer to ISO/IS 10303-46:1994 for the final
+definition of the formal standard. </font></p> <p><font
+ size="-1"><font color="#0000ff">HISTORY&nbsp;
+New entity in
+Release IFC2x Edition 2.</font> </font></p>
+</blockquote>
+</EPM-HTML>

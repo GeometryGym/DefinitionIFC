@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcActionSourceTypeEnum" UniqueId="1AMEIC8Eb3hxq$HDtq0qd9" DiagramNumber="5">
+	<Constants>
+		<DocConstant xsi:nil="true" href="DEAD_LOAD_G_2KJ5JQrob8ER64p0X0ZqtQ" />
+		<DocConstant xsi:nil="true" href="COMPLETION_G1_0eE9nTafD1AOi3zVd6uwE" />
+		<DocConstant xsi:nil="true" href="LIVE_LOAD_Q_0wXbq0vYv7lxT0zP0W3g" />
+		<DocConstant xsi:nil="true" href="SNOW_S_3r1yMvo1rBgOMFlJXjaM" />
+		<DocConstant xsi:nil="true" href="WIND_W_0lgL1hSufDpA5xCkBkSFKt" />
+		<DocConstant xsi:nil="true" href="PRESTRESSING_P_3gVWVVPk55lvaC7uLUIxXq" />
+		<DocConstant xsi:nil="true" href="SETTLEMENT_U_1Jicmr9gfCLgWrsOByLKIg" />
+		<DocConstant xsi:nil="true" href="TEMPERATURE_T_1qlOMvqyj5NBjuOS9OSvCS" />
+		<DocConstant xsi:nil="true" href="EARTHQUAKE_E_2wyfZbTbr7RfX4A1LFIJDl" />
+		<DocConstant xsi:nil="true" href="FIRE_0CmbwkdDT3NuETDTkJlMzV" />
+		<DocConstant xsi:nil="true" href="IMPULSE_2Q_A7M0aDFGRym3HyC6k4z" />
+		<DocConstant xsi:nil="true" href="IMPACT_0zbfII9kTEOgwsvEhkGkjw" />
+		<DocConstant xsi:nil="true" href="TRANSPORT_1zgeUQ0PX7IhEBzyxieqSg" />
+		<DocConstant xsi:nil="true" href="ERECTION_0qwUIMEQT0_OKi4ICm42rx" />
+		<DocConstant xsi:nil="true" href="PROPPING_3gh1awDYnFveqR11kYKaWm" />
+		<DocConstant xsi:nil="true" href="SYSTEM_IMPERFECTION_0qJ7sU_Q55XOucBnSWnYAY" />
+		<DocConstant xsi:nil="true" href="SHRINKAGE_0tfldSyb90sQbvZNy9oPyA" />
+		<DocConstant xsi:nil="true" href="CREEP_0M6bnlJ8bBmBFVzah5bAM" />
+		<DocConstant xsi:nil="true" href="LACK_OF_FIT_1bIsyB7Uv0tBaa7aU9VOUO" />
+		<DocConstant xsi:nil="true" href="BUOYANCY_1br0YJuiL3Y91iitcu8k0y" />
+		<DocConstant xsi:nil="true" href="ICE_1L9tYCvMb0uRMrpRvhiLWc" />
+		<DocConstant xsi:nil="true" href="CURRENT_1iimtpkFj1RvFZgJ0Bh7vv" />
+		<DocConstant xsi:nil="true" href="WAVE_1yKsP_LYjBUhI4Ykeui3a1" />
+		<DocConstant xsi:nil="true" href="RAIN_2Edc68puT4wghX9mKf9rIS" />
+		<DocConstant xsi:nil="true" href="BRAKES_3mKvn3bvDjuWgm0DOuGIX" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2_xTMXZ7PD5BUN5Lt7haIY" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2pnmDYfbPD09GGFC_1JcrX" />
+	</Constants>
+</DocEnumeration>
+

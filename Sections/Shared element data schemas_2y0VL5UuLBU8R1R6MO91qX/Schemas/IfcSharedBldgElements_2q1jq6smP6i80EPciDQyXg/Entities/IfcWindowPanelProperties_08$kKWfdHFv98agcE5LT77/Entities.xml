@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowPanelProperties" UniqueId="08$kKWfdHFv98agcE5LT77" DiagramNumber="4" BaseDefinition="IfcPropertySetDefinition" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="OperationType" UniqueId="05wHypBrT22xLVLYFf1z20" DefinedType="IfcWindowPanelOperationEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Types of window panel operations. Also used to assign standard symbolic presentations according to national building standards.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PanelPosition" UniqueId="1ercHWXkb6fxB6KchpJD7w" DefinedType="IfcWindowPanelPositionEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Position of this panel within the overall window style.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FrameDepth" UniqueId="1HRnNAu_rBmxp7J28wh8t4" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Depth of panel frame, measured from front face to back face horizontally (i.e. perpendicular to the window (elevation) plane.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FrameThickness" UniqueId="2tkyhEF9z1oREqdO2Q$2n3" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Width of panel frame, measured from inside of panel (at glazing) to outside of panel (at lining), i.e. parallel to the window (elevation) plane.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ShapeAspectStyle" UniqueId="2$ufEHZ7HFwwmy7Tx7elIZ" DefinedType="IfcShapeAspect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Optional link to a shape aspect definition, which points to the part of the geometric representation of the window style, which is used to represent the panel.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

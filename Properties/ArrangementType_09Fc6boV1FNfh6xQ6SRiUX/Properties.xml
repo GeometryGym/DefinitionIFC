@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ArrangementType_09Fc6boV1FNfh6xQ6SRiUX" Name="ArrangementType" UniqueId="093e61a5-c9f0-4f5e-9ac6-eda19c6ec7a1" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalBoxArrangementType_0Hv07mFDr8MwrF2hUS6WbG" />
+	</Enumeration>
+</DocProperty>
+

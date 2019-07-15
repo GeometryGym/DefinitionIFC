@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DistributionChamberElementTypeTrench" UniqueId="5cd3a13a-b7e2-42a4-bd81-d6170207d12b" ApplicableType="IfcDistributionChamberElement.Predefined=&quot;TRENCH&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Width_131zGRH0L7Vv23ORfXhvz" />
+		<DocProperty xsi:nil="true" href="Depth_1qqoPLw1T4iPX5jWKwuWJO" />
+		<DocProperty xsi:nil="true" href="InvertLevel_3dz0p6fkH6cRSi23aturAP" />
+	</Properties>
+</DocPropertySet>
+

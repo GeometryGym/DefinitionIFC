@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAlarmTypeEnum" UniqueId="3BQDGoDcv04gRP$D5qNNhr" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BELL_3j3kN20Y95sRqKFOtA1ES" />
+		<DocConstant xsi:nil="true" href="BREAKGLASSBUTTON_18jGeoXKjFsuMt6zK81ojD" />
+		<DocConstant xsi:nil="true" href="LIGHT_312OdbJcr2Pwhhx1ehP62W" />
+		<DocConstant xsi:nil="true" href="MANUALPULLBOX_033yAnYQb7UBVEh2S9DLOA" />
+		<DocConstant xsi:nil="true" href="SIREN_2IA8cU6kL8gAuOVSyznBfE" />
+		<DocConstant xsi:nil="true" href="WHISTLE_0XwJKEsQ9EpB0N8QUQSYt0" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1GUAsdHi1E49Nt7LMKH6tU" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0yxvFYRZ94dwrW5kom4lh" />
+	</Constants>
+</DocEnumeration>
+

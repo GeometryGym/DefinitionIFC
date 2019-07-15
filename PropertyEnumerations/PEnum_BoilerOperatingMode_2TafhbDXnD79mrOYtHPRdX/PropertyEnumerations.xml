@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_BoilerOperatingMode_2TafhbDXnD79mrOYtHPRdX" Name="PEnum_BoilerOperatingMode" UniqueId="9d929ae5-361c-4d1c-9c35-622dd165b9e1">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FIXED_1y2YSGQPT0OxqFeKFNPgyy" />
+		<DocPropertyConstant xsi:nil="true" href="TWOSTEP_321lmUARHFheSf0kzpUj3d" />
+		<DocPropertyConstant xsi:nil="true" href="MODULATING_1iQdcjVbBDBJ2Rhaz4Ei9" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

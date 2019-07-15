@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Project Units" UniqueId="141Pnd8n9zJgxnQ4e4YMrA" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcUnitAssignment">
+	<Templates>
+		<DocTemplateDefinition Name="Project Metric Units" UniqueId="3kH$WW1IBNJAoDO6OPcu04" Version="0.3" Status="draft" Author="Thomas Liebich" Owner="buildingSMART International" Type="IfcSIUnit IfcDerivedUnit">
+			<Documentation>&lt;p&gt;
+	Provision of project units in metric unit system. They are to be provided as SI units, or derived units based on SI units.&lt;/p&gt;
+&lt;p style=&quot;margin-left: 40px;&quot;&gt;
+	&lt;u&gt;Exception&lt;/u&gt;: Some conversion based units, most notable &amp;quot;Degree&amp;quot; as a conversion based units for the SI unit &amp;quot;Radian&amp;quot;, are included in the concept &amp;quot;Project Metric Units&amp;quot;.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Project Imperial Units" UniqueId="2u48vVFQI3GAP4R3neBHsU" Version="0.3" Status="draft" Author="Thomas Liebich" Owner="buildingSMART International" Type="IfcConversionBasedUnit">
+			<Documentation>&lt;p&gt;
+	Provision of project units in non-metric system, e.g. in imperial unit system. They are provided as conversion based units, or derived units based on conversion based units. For each imperial unit include, a conversion to the metric system has to be provided, using the conversion factor used in the sending application.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+	</Templates>
+</DocTemplateDefinition>
+

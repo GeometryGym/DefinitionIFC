@@ -1,0 +1,94 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI:</U> Instances of the entity
+		<I>IfcStructuralSurfaceMemberVarying</I> shall be used to describe planar
+		structural elements with a varying thickness.</P> 
+	 <P>The inherited <I>Thickness</I> attribute shall be given, the additional,
+		subsequent thickness values are given by the <I>SubsequentThickness</I> list.
+		The derived list <I>VaryingThickness</I> is created by pushing
+		the<I>Thickness</I> attribute at the beginning of the
+		<I>SubsequentThickness</I> list. </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: The list <I>VaryingThickness</I> and the list
+		  <I>ShapeRepresentations</I> of the referenced <I>IfcShapeAspect</I> are
+		  corresponding lists.</FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1"> HISTORY: New entity in Release IFC2x
+		  Edition 2. </FONT></P> </BLOCKQUOTE> 
+	 <P><B><U>Topology Use Definition</U></B></P> 
+	 <P>Instances of <I>IfcStructuralSurfaceMemberVarying</I> shall have a
+		topology representation. It includes a placement and a product representation.
+		The <I>IfcProductRepresentation</I> shall be given by an item of
+		<I>Representations</I> being of type "<I>IfcTopologyRepresentation</I>". The
+		guidelines on using the location and topological representation capabilities
+		are identical with those at the supertype
+		<I>IfcStructuralSurfaceMember</I>.</P> 
+	 <P><U><B>Shape Aspect Use Definition</B></U></P> 
+	 <P>The attribute <I>VaryingThicknessLocation</I> references a shape aspect
+		that has a list of <I>ShapeRepresentations</I>. Each individual
+		<I>IfcShapeRepresentation</I> within that list shall have a single item within
+		its list of <I>Items</I>. The type of the item shall be either:</P> 
+	 <UL> 
+		<LI><I>IfcCartesianPoint</I>, or</LI> 
+		<LI><I>IfcPointOnSurface</I></LI> 
+	 </UL> 
+	 <P>Each list member within the list of <I>ShapeRepresentations</I>
+		corresponds to the list member (at same position) of the list
+		<I>VaryingThickness</I>, and provides the thickness at that location. At least
+		three thickness values shall be given, the analytical volume is constructed by
+		triangulation.</P> 
+	 <P>The following example shows a definition of a varying thickness by four
+		Cartesian points.</P> 
+	 <TABLE CELLSPACING="4" CELLPADDING="2"> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1"><B>VaryingThickness<BR>Position</B></FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1"><B>VaryingThickness<BR>Value</B></FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1"><B>VaryingThicknessLocation</B></FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1"><B>Point</B></FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1"><B>Coordinates</B></FONT></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[1]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">0.2</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1">IfcShapeAspect.ShapeRepresentations[1]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">Items[1]<BR>TYPEOF
+			 IfcCartesianPoint</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[0.,0.]</FONT></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[2]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">0.3</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1">IfcShapeAspect.ShapeRepresentations[2]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">Items[2]<BR>TYPEOF
+			 IfcCartesianPoint</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[1.,0.]</FONT></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[3]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">0.4</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1">IfcShapeAspect.ShapeRepresentations[3]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">Items[3]<BR>TYPEOF
+			 IfcCartesianPoint</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[1.,1.]</FONT></TD> 
+		</TR> 
+		<TR VALIGN="TOP"> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[4]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">0.3</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT
+			 SIZE="-1">IfcShapeAspect.ShapeRepresentations[4]</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">Items[4]<BR>TYPEOF
+			 IfcCartesianPoint</FONT></TD> 
+		  <TD VALIGN="TOP"><FONT SIZE="-1">[0.,1.]</FONT></TD> 
+		</TR> 
+	 </TABLE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: The units for the Value and the coordinates of
+		  the Cartesian point are given at the global unit assignment by<I>
+		  IfcProject.UnitsInContext</I>. In the example meter is
+		  used.</FONT></P></BLOCKQUOTE>
+</EPM-HTML>

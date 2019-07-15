@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelProjectsElement" UniqueId="1YEwCrojfD9B6M$aFbA23Q" DiagramNumber="4" BaseDefinition="IfcRelConnects" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="RelatingElement" UniqueId="2$lhizPunC4usXJmPq9hsW" DefinedType="IfcElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Element at which a projection is created by the associated &lt;I&gt;IfcProjectionElement&lt;/I&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatedFeatureElement" UniqueId="0HJXRqCmH5MvLBFcE3XOK_" DefinedType="IfcFeatureElementAddition" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Reference to the &lt;I&gt;IfcFeatureElementAddition&lt;/I&gt; that defines an addition to the volume of the element, by using a Boolean addition operation. An example is a projection at the associated element.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

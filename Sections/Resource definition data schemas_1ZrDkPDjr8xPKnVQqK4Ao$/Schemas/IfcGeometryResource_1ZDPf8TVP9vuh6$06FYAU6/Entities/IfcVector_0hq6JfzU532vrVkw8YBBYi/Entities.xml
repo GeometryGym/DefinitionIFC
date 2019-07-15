@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcVector" UniqueId="0hq6JfzU532vrVkw8YBBYi" DiagramNumber="4" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="Orientation" UniqueId="2wokQH335FNPLkyXbiuI4V" DefinedType="IfcDirection" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The direction of the vector.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Magnitude" UniqueId="1RczofYFrELAMyOkncTX$j" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The magnitude of the vector. All vectors of Magnitude 0.0 are regarded as equal in value regardless of the orientation attribute.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="04yXHnCqP92AljQV5nY9EN" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, it is derived from Orientation</Documentation>
+			<Derived>Orientation.Dim</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1kDQ_yrrX008pHTXneukIQ">
+			<Documentation>The magnitude shall be positive or zero.</Documentation>
+			<Expression>Magnitude &gt;= 0.0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

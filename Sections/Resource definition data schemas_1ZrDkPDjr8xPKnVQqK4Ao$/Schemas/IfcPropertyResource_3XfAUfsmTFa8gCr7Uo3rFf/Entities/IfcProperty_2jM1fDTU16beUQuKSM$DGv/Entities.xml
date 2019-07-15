@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProperty" UniqueId="2jM1fDTU16beUQuKSM$DGv" DiagramNumber="1" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="2WMkPaHOL5bAMJ2iEmS5m2" DefinedType="IfcComplexProperty" />
+		<DocSubtype UniqueId="1X5ZYXf71FiR2FX1HQtGI_" DefinedType="IfcSimpleProperty" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="0lnqxRApT418tSJC1fGAHh" DefinedType="IfcIdentifier" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Name for this property. This label is the significant name string that defines the semantic meaning for the property.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="2VYrwfH3n4g8wNZ5kCigOA" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Informative text to explain the property.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PropertyForDependance" UniqueId="1h76KORlHBzg7WvmaJmBMP" DefinedType="IfcPropertyDependencyRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="DependingProperty">
+			<Documentation>The property on whose value that of another property depends.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PropertyDependsOn" UniqueId="2x4nqEJeb5AQINEcuAzdeh" DefinedType="IfcPropertyDependencyRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="DependantProperty">
+			<Documentation>The relating property on which the value of the property depends.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PartOfComplex" UniqueId="0uCXaKfJ98dBqjAjuXBkaC" DefinedType="IfcComplexProperty" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="HasProperties">
+			<Documentation>Reference to the IfcComplexProperty in which the IfcProperty is contained.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

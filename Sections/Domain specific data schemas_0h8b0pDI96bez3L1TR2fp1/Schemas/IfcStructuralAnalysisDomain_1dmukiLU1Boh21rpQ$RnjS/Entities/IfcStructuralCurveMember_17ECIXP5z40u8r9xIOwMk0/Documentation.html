@@ -1,0 +1,115 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI:</u> Instances of the
+entity <i>IfcStructuralCurveMember</i>
+shall be used to describe linear structural elements. Profile and
+material properties are defined by using objectified relationships:</p>
+<ul>
+  <li>The material properties are
+defined by <i>IfcMechanicalMaterialProperties</i>
+(and subtypes), they are connected through <i>IfcMaterial</i>
+and <i>IfcRelAssociatesMaterial</i>
+and are accessible via the inherited inverse relationship <i>HasAssociations</i>.</li>
+  <li>The profile properties are
+defined by <i>IfcMechanicalProfileProperties</i>
+(and subtypes), they are connected through <i>IfcRelAssociatesProfileProperties</i>
+and are accessible via the inherited inverse relationship <i>HasAssociations</i>.</li>
+</ul>
+<blockquote>
+  <p><font
+ color="#0000ff" size="-1"> HISTORY: New entity
+in Release
+IFC2x Edition 2. </font></p>
+</blockquote>
+<p><b><u>Use
+Definition</u></b></p>
+<table border="1" cellpadding="2"
+ cellspacing="2" width="100%">
+  <tbody>
+    <tr>
+      <td><img
+ alt="curve member"
+ src="figures/IfcStructuralCurveMember-Fig1.gif" height="380"
+ width="580"><br>
+      </td>
+      <td valign="top">The
+topological (or axis) representation of the
+structural curve member is given by assigning an edge through the
+general <i>Representation</i>
+capability inherited by <i>IfcProduct</i>.<br>
+      <br>
+For linear structural curve members the use of <i>IfcEdge</i>
+is
+sufficient, since a linear interpolation between the two vertices is
+assumed, if the structural curve member is an arc, or other non-linear
+form, the <i>IfcEdgeCurve</i>
+needs to be used instead, having the
+geometric form of the curve between the two vertices fully defined.<br>
+      <br>
+A single, constant, profile definition is assigned to the structural
+curve member through the <i>IfcRelAssociatedProfileProperties</i>.</td>
+    </tr>
+  </tbody>
+</table>
+<p><b><u>Topology
+Use Definition</u></b></p>
+<p>Instances of <i>IfcStructuralCurveMember</i>
+shall have a topology
+representation. It includes a placement and a product representation.
+The <i>IfcProductRepresentation</i>
+shall be given by an item of <i>Representations</i>
+being of type "<i>IfcTopologyRepresentation</i>".
+</p>
+<p><b>Placement</b></p>
+<p>The placement for <i>IfcStructuralCurveMember</i>
+is determined at
+its supertype <i>IfcProduct</i>.
+It is defined by the optional <i>IfcObjectPlacement</i>,
+referenced by <i>ObjectPlacement</i>
+at <i>IfcProduct</i>,
+which
+establishes, if given, the object coordinate system that is referenced
+by all topological representations of that product. </p>
+<ul>
+  <li>If the <i>ObjectPlacement</i>
+attribute is omitted, then all
+topological representations are given directly in world coordinates.
+This is the preferred representation.</li>
+  <li>If the <i>ObjectPlacement</i>
+attribute is provided, then it
+establishes an object coordinate system for all topological
+representations which are given object coordinates.
+    <ul>
+      <li>If the <i>PlacementRelTo</i>
+relationship of <i>IfcLocalPlacement</i>
+is omitted, the object coordinate system is established within the
+world coordinate system.</li>
+      <li>If the <i>PlacementRelTo</i>
+relationship of <i>IfcLocalPlacement</i>
+is given, it shall point to the local placement of the same <i>IfcSpatialStructureElement</i>,
+which is used in the <i>ContainedInStructure</i>
+inverse attribute, or
+to a spatial structure element at a higher level, referenced by that. </li>
+    </ul>
+  </li>
+</ul>
+<p><b>Topology
+Representation</b></p>
+<p>Instances of <i>IfcStructuralCurveMember</i>
+shall have a topology
+representation given by an edge with an optional additional geometric
+representation of the included curve. It can be provided by either</p>
+<ul>
+  <li><i>IfcEdge</i></li>
+  <li><i>IfcOrientedEdge</i></li>
+  <li><i>IfcEdgeCurve</i></li>
+</ul>
+<p>which should be the single item
+of <i>IfcTopologyRepresentation.Items</i>.
+The <i>IfcEdge</i>
+might be referenced by two or many <i>IfcSubedge</i>,
+representing sections of the <i>IfcStructuralCurveMember</i>
+with
+changing properties. See subtype <i>IfcStructuralCurveMemberVarying</i>
+for the use definition.</p>
+</EPM-HTML>

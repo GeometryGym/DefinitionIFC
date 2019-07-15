@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFillAreaStyleHatching" UniqueId="3issdaMqX64u2wsiEuiPQR" DiagramNumber="4" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="HatchLineAppearance" UniqueId="02ySdQ8TvASgyJhigiqdz_" DefinedType="IfcCurveStyle" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The curve style of the hatching lines. Any curve style pattern shall start at the origin of each hatch line.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="StartOfNextHatchLine" UniqueId="1gSeNjhzb6Xuk6Joiccl1e" DefinedType="IfcHatchLineDistanceSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;A repetition factor that determines the distance between adjacent hatch lines.
+  &lt;blockquote&gt;&lt;small&gt;&lt;color=&quot;#ff0000&quot;&gt;
+IFC2x Edition 3 CHANGE&amp;nbsp; The attribute type of &lt;i&gt;StartOfNextHatchLine&lt;/i&gt; has changed to a SELECT of &lt;i&gt;IfcPositiveLengthMeasure&lt;/i&gt; (new) and &lt;i&gt;IfcOneDirectionRepeatFactor&lt;/i&gt;.&lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PointOfReferenceHatchLine" UniqueId="07uTl02FH6swKTjSdaV6Wu" DefinedType="IfcCartesianPoint" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+A Cartesian point which defines the offset of the reference hatch line from the origin of the (virtual) hatching coordinate system. The origin is used for mapping the fill area style hatching onto an annotation fill area or surface. The reference hatch line would then appear with this offset from the fill style target point.&lt;br&gt;
+If not given the reference hatch lines goes through the origin of the (virtual) hatching coordinate system.
+  &lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;
+IFC2x Edition 3 CHANGE&amp;nbsp; The usage of the attribute &lt;i&gt;PointOfReferenceHatchLine&lt;/i&gt; has changed to not provide the Cartesian point which is the origin for mapping, but to provide an offset to the origin for the mapping. The attribute has been made OPTIONAL.
+  &lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PatternStart" UniqueId="2TwyfNVDn4IgZZrr1JxCgQ" DefinedType="IfcCartesianPoint" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+A distance along the reference hatch line which is the start point for the curve style font pattern of the reference hatch line.&lt;br&gt;
+If not given, the start point of the curve style font pattern is at the (virtual) hatching coordinate system.
+  &lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;
+IFC2x Edition 2 Addendum 2 CHANGE The attribute &lt;i&gt;PatternStart&lt;/i&gt; has been made OPTIONAL.&lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HatchLineAngle" UniqueId="2U5gxDmDX2fxEn$zs49bzY" DefinedType="IfcPlaneAngleMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A plane angle measure determining the direction of the parallel hatching lines.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="3FomZmRWLF8xhGIIcXgehD">
+			<Documentation>&lt;EPM-HTML&gt;The subtype &lt;i&gt;IfcTwoDirectionRepeatFactor&lt;/i&gt; should not be used to define the start of the next hatch line.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>NOT(
+ &apos;IFCPRESENTATIONAPPEARANCERESOURCE.IFCTWODIRECTIONREPEATFACTOR&apos; 
+ IN TYPEOF(StartOfNextHatchLine)
+)</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR22" UniqueId="1TZ5ay$Zf4dOYIuVOvi_w4">
+			<Documentation>&lt;EPM-HTML&gt;The &lt;i&gt;IfcCartesianPoint&lt;/i&gt;, if given as value to &lt;i&gt;PatternStart&lt;/i&gt; shall have the dimensionality of 2.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>NOT(EXISTS(PatternStart)) 
+OR (PatternStart.Dim = 2)
+</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR23" UniqueId="2$SYwwPFbFA8rO4XNQzzNw">
+			<Documentation>&lt;EPM-HTML&gt;The &lt;i&gt;IfcCartesianPoint&lt;/i&gt;, if given as value to &lt;i&gt;PointOfReferenceHatchLine&lt;/i&gt; shall have the dimensionality of 2.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>NOT(EXISTS(PointOfReferenceHatchLine)) 
+OR (PointOfReferenceHatchLine.Dim = 2)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

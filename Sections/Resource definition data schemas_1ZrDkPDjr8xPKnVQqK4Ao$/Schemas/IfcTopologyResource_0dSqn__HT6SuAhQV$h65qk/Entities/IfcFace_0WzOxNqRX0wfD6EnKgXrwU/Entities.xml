@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFace" UniqueId="0WzOxNqRX0wfD6EnKgXrwU" DiagramNumber="2" BaseDefinition="IfcTopologicalRepresentationItem" EntityFlags="45">
+	<Subtypes>
+		<DocSubtype UniqueId="2yy9X04wXBp8zwgIcKaqS6" DefinedType="IfcFaceSurface" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Bounds" UniqueId="2uE1WI0nj0DgUTQL4hY5lT" DefinedType="IfcFaceBound" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Boundaries of the face.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2lgoqoKWLDEBzeT092SW9J">
+			<Documentation>At most one of the bounds shall be of the type IfcFaceOuterBound</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* Bounds | &apos;IFCGEOMETRYRESOURCE.IFCFACEOUTERBOUND&apos; IN TYPEOF(temp))) &lt;= 1</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

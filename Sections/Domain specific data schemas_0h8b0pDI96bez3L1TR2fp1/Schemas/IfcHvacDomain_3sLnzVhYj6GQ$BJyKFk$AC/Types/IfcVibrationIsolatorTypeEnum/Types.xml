@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcVibrationIsolatorTypeEnum" UniqueId="1ZDwbPWbP1cfoptwpq3E$F" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="COMPRESSION_23WBJxELE68jpReZ8BE_O" />
+		<DocConstant xsi:nil="true" href="SPRING_0lIVguCYPDN8GSJADqw67k" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2nlNKFXfP1U9qM4nSO32Oz" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_06izsbbn9nRJpfq9x1_Wh" />
+	</Constants>
+</DocEnumeration>
+

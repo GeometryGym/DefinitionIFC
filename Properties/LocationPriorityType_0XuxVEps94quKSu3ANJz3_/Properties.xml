@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="LocationPriorityType_0XuxVEps94quKSu3ANJz3_" Name="LocationPriorityType" UniqueId="21e3b7ce-cf62-44d3-851c-e032974fd0fe" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_PriorityType_2LQRXVw1nADAEcP90mjqvi" />
+	</Enumeration>
+</DocProperty>
+

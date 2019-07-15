@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="AccessType_39bKt4I4vEh9jNzsfU5TB2" Name="AccessType" UniqueId="c9954dc4-484e-4eac-9b57-f76a5e15d2c2" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_TankAccessType_2w9wiyU7z89PPrRnfExpze" />
+	</Enumeration>
+</DocProperty>
+

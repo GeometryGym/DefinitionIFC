@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CoolingTowerCapacityControl_3dw6w9v7X3_hW_vMM5zDmz" Name="PEnum_CoolingTowerCapacityControl" UniqueId="e7e86e89-e478-43fa-b83e-e56585f4dc3d">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FANCYCLING_0ByxkEVQH0hByjTFf0wOwO" />
+		<DocPropertyConstant xsi:nil="true" href="TWOSPEEDFAN_3h9XHPuIr5Z8bbrVfpS9S5" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLESPEEDFAN_35yPC5yn7pPEHq0IWzphK" />
+		<DocPropertyConstant xsi:nil="true" href="DAMPERSCONTROL_2Lubslr1eOotGQwG4QX8" />
+		<DocPropertyConstant xsi:nil="true" href="BYPASSVALVECONTROL_1h5TdKgPT04PnBqR1kWLzo" />
+		<DocPropertyConstant xsi:nil="true" href="MULTIPLESERIESPUMPS_1uLhY1mNr5sfT9AwRXEir4" />
+		<DocPropertyConstant xsi:nil="true" href="TWOSPEEDPUMP_16vTpr8WXCFfNY9vIJO2_4" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLESPEEDPUMP_31YB6KFhj5dB8F8WqLUX" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="EvaporatorMediumType_0zav1VuczFeOFtMa_PMlOx" Name="EvaporatorMediumType" UniqueId="3d93905f-e26f-4fa1-83f7-5a4f995af63b" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EvaporatorMediumType_3NZjucQHLFSOzCBMcJYJIV" />
+	</Enumeration>
+</DocProperty>
+

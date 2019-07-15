@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FlowMeterTypeOilMeter" UniqueId="bed4c81c-732b-426e-9236-c1cffcbe647c" ApplicableType="IfcFlowMeter.Predefined=&quot;OILMETER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ConnectionSize_2sH4WPmEnEv9nbIut6AB3m" />
+		<DocProperty xsi:nil="true" href="MaximumFlowRate_2_TbWvMr2iRYT8aj2W8K3" />
+	</Properties>
+</DocPropertySet>
+

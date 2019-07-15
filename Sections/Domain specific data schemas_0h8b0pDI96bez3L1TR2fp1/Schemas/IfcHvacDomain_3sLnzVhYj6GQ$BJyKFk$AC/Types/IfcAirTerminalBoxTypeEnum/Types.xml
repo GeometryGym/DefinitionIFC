@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAirTerminalBoxTypeEnum" UniqueId="0xkD1dDoX3zOdHPXI6JbC9" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CONSTANTFLOW_0_wFUWi3nEcvpYmcVZ7QkG" />
+		<DocConstant xsi:nil="true" href="VARIABLEFLOWPRESSUREDEPENDANT_2WpWbs98v8gxp6L9_3AH3j" />
+		<DocConstant xsi:nil="true" href="VARIABLEFLOWPRESSUREINDEPENDANT_2YYO_VGAHBJ99BxponHXQG" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3vMDnZq7PEpxPChP258Qs8" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3ZwO0sLs51VBKxYwdtoP" />
+	</Constants>
+</DocEnumeration>
+

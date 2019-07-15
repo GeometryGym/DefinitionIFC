@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDoor_1DyfXeeNX5LOb8XRs4sOHd" Name="IfcDoor" UniqueId="1DyfXeeNX5LOb8XRs4sOHd" DiagramNumber="3" BaseDefinition="IfcBuildingElement" EntityFlags="173">
+	<Attributes>
+		<DocAttribute Name="OverallHeight" UniqueId="00sunuxNT4OQHPSEmiyToY" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;Overall measure of the height, it reflects the Z Dimension of a bounding box, enclosing the &lt;strike&gt;body of the&lt;/strike&gt; door opening. If omitted, the &lt;i&gt;OverallHeight&lt;/i&gt; should be taken from the geometric representation of the &lt;i&gt;IfcOpening&lt;/i&gt; in which the door is inserted. 
+  &lt;blockquote&gt;&lt;small&gt;
+NOTE&amp;nbsp; The body of the door might be taller then the door opening (e.g. in cases where the door lining includes a casing). In these cases the &lt;i&gt;OverallHeight&lt;/i&gt; shall still be given as the door opening height, and not as the total height of the door lining.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OverallWidth" UniqueId="3f$vbPplPFMQhWam5Nq88e" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;Overall measure of the width, it reflects the X Dimension of a bounding box, enclosing the &lt;strike&gt;body of the&lt;/strike&gt; door opening. If omitted, the &lt;i&gt;OverallWidth&lt;/i&gt; should be taken from the geometric representation of the &lt;i&gt;IfcOpening&lt;/i&gt; in which the door is inserted. 
+  &lt;blockquote&gt; &lt;small&gt;
+NOTE&amp;nbsp; The body of the door might be wider then the door opening (e.g. in cases where the door lining includes a casing). In these cases the &lt;i&gt;OverallWidth&lt;/i&gt; shall still be given as the door opening width, and not as the total width of the door lining.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

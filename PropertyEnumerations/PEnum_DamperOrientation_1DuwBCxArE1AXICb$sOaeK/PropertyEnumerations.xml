@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_DamperOrientation_1DuwBCxArE1AXICbsOaeK" Name="PEnum_DamperOrientation" UniqueId="4de3a2cc-ecad-4e04-a852-325ff6624a14">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="VERTICAL_362ncVfo9BiuZ7rMybjIQ8" />
+		<DocPropertyConstant xsi:nil="true" href="HORIZONTAL_1hRzAwxlH2ogKuzKtqtPjB" />
+		<DocPropertyConstant xsi:nil="true" href="VERTICALORHORIZONTAL_3H9XJ0zvTAtuUZL3W_dIgo" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

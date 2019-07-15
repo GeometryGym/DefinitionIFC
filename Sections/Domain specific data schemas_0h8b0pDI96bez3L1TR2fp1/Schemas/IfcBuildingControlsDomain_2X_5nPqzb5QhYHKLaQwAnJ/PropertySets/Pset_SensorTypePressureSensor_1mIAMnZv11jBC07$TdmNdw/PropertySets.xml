@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SensorTypePressureSensor" UniqueId="7048a5b1-8f90-41b4-b300-1ff767c179fa" ApplicableType="IfcSensor.Predefined=&quot;PRESSURESENSOR&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="PressureSensorSetPoint_3iCFE7fIjC1eBvzmfGulSP" />
+		<DocProperty xsi:nil="true" href="PressureSensorRange_0P03Vy3j512uXLc9F0lcc" />
+		<DocProperty xsi:nil="true" href="AccuracyOfPressureSensor_3ewjnMXjL82Ruf2vPk1Efg" />
+		<DocProperty xsi:nil="true" href="TimeConstant_26F9zyszDrR1eiTp2ApME" />
+		<DocProperty xsi:nil="true" href="IsSwitch_1ArJM5DBL1ThD4y9qzgGgY" />
+	</Properties>
+</DocPropertySet>
+

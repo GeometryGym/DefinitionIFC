@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcOrganization" UniqueId="3a6xrTEjPBWOpcexMFAkLq" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Id" UniqueId="3rxLFhYjz87gINQBG4kKtI" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identification of the organization.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Name" UniqueId="1XVpONgP1By9DPeNx2SIn4" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The word, or group of words, by which the organization is referred to.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="2u9M$DJcf4FeUCtTcJsH9a" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Text that relates the nature of the organization.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Roles" UniqueId="1mCkTPoNfBThbJpX$iMx9w" DefinedType="IfcActorRole" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Roles played by the organization.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Addresses" UniqueId="0OSVkOoDL8uPhNGEVaOOUd" DefinedType="IfcAddress" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Postal and telecom addresses of an organization.
+&lt;EPM-HTML&gt;
+&lt;BLOCKQUOTE&gt;&lt;FONT SIZE=&quot;-1&quot;&gt;NOTE: There may be several addresses related to an organization.
+&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsRelatedBy" UniqueId="38CfmrPjb4wugYald0iS4H" DefinedType="IfcOrganizationRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedOrganizations">
+			<Documentation>The inverse relationship for relationship RelatedOrganizations of IfcOrganizationRelationship.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Relates" UniqueId="1MOzfCXFzEWvmn4$fREYv_" DefinedType="IfcOrganizationRelationship" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingOrganization">
+			<Documentation>The inverse relationship for relationship RelatingOrganization of IfcOrganizationRelationship.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Engages" UniqueId="1JNllvJg5ESvkyU6vrCurl" DefinedType="IfcPersonAndOrganization" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="TheOrganization">
+			<Documentation>Inverse relationship to IfcPersonAndOrganization relationships in which IfcOrganization is engaged.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

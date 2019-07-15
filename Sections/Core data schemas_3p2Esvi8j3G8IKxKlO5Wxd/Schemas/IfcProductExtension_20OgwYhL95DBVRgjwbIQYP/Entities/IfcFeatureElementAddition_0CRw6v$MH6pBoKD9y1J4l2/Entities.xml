@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFeatureElementAddition" UniqueId="0CRw6v$MH6pBoKD9y1J4l2" DiagramNumber="4" BaseDefinition="IfcFeatureElement" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="0MZmxf12D5ie_CnsHspFSI" DefinedType="IfcProjectionElement" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="ProjectsElements" UniqueId="3XOFE$oYn1FeBNPdwFItqm" DefinedType="IfcRelProjectsElement" AttributeFlags="8" AggregationType="0" AggregationFlag="0" Inverse="RelatedFeatureElement">
+			<Documentation>&lt;EPM-HTML&gt;
+Reference to the &lt;I&gt;IfcRelProjectsElement&lt;/I&gt; relationship that uses this &lt;I&gt;IfcFeatureElementAddition&lt;/I&gt; to create a volume addition at an element. The &lt;I&gt;IfcFeatureElementAddition&lt;/I&gt; can only be used to create a single addition at a single element using Boolean addition operation.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

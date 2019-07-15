@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_BackupSupplySystemType_30y6C_V52YvEXz4XYlP4d" Name="PEnum_BackupSupplySystemType" UniqueId="c0ffc18c-f9f1-428b-93a1-f44862bd9127">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="LocalBattery_2mqY1VJoX3mBntZ2fMtsF" />
+		<DocPropertyConstant xsi:nil="true" href="CentralBattery_328nkw3jT6S8Vhs4f2DY_y" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_DamperBladeEdge_0jR8I1c5rCqeMzBmpgoZcI" Name="PEnum_DamperBladeEdge" UniqueId="2d6c8481-985d-4cd2-85bd-2f0ceaca3992">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CRIMPED_3K1PR0f818mvTlyNlxhFz" />
+		<DocPropertyConstant xsi:nil="true" href="UNCRIMPED_1UuIuNoYn0TBkw28sTuzjk" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

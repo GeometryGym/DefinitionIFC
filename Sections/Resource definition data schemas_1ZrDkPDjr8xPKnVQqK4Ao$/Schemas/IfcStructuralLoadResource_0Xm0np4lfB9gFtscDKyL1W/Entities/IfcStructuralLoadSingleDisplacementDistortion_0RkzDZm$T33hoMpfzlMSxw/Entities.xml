@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralLoadSingleDisplacementDistortion" UniqueId="0RkzDZm$T33hoMpfzlMSxw" DiagramNumber="2" BaseDefinition="IfcStructuralLoadSingleDisplacement" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Distortion" UniqueId="3EiZLFYsD8Kg9gHdZPm3lQ" DefinedType="IfcCurvatureMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The distortion curvature given to the displacement load.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

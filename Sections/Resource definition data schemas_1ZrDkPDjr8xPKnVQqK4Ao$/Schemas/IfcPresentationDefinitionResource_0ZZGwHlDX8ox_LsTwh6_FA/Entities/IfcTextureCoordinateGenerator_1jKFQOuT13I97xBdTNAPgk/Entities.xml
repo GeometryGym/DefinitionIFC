@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextureCoordinateGenerator" UniqueId="1jKFQOuT13I97xBdTNAPgk" DiagramNumber="4" BaseDefinition="IfcTextureCoordinate" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Mode" UniqueId="1CBlis9wL5uOvU5HhYyrhy" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The mode describes the algorithm used to compute texture coordinates.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Parameter" UniqueId="1hbWbo4BvDpum57h7HYbuR" DefinedType="IfcSimpleValue" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The parameter used by the function as specified by Mode.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

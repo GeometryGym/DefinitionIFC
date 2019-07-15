@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelReferencedInSpatialStructure" UniqueId="2$KxZsVO5CUgmn_lKbKrX2" DiagramNumber="7" BaseDefinition="IfcRelConnects" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="RelatedElements" UniqueId="3MPikf2jLCgOOthMsJ1Iz_" DefinedType="IfcProduct" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Set of products, which are referenced within this level of the spatial structure hierarchy.
+&lt;blockquote&gt;&lt;small&gt;NOTE&amp;nbsp; Referenced elements are contained elsewhere within the spatial structure, they are referenced additionally by this spatial structure element, e.g., because they span several stories.&lt;/small&gt;
+&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatingStructure" UniqueId="0D_YxxigbC4Q32_eTkvKiI" DefinedType="IfcSpatialStructureElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Spatial structure element, within which the element is referenced. Any element can be contained within zero, one or many elements of the project spatial structure.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="0Dz8c_DXP3MfzeuTg0jiO5">
+			<Documentation>&lt;EPM-HTML&gt;
+The relationship object shall not be used to include other spatial structure elements into a spatial structure element. The hierarchy of the spatial structure is defined using &lt;i&gt;IfcRelAggregates&lt;/i&gt;.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* RelatedElements | &apos;IFCPRODUCTEXTENSION.IFCSPATIALSTRUCTUREELEMENT&apos; IN TYPEOF(temp))) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

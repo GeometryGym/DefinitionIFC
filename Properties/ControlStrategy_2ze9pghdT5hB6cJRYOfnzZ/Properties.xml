@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ControlStrategy_2ze9pghdT5hB6cJRYOfnzZ" Name="ControlStrategy" UniqueId="bda09cea-ae77-45ac-b1a6-4db898a71f63" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerControlStrategy_21CHhOMuv9Lgxzr05Ed6q" />
+	</Enumeration>
+</DocProperty>
+

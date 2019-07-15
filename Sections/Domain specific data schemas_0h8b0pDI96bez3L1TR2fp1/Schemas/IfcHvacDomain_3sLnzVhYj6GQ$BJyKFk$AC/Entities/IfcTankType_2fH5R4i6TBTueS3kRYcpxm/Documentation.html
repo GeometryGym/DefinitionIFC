@@ -1,0 +1,71 @@
+<EPM-HTML>
+	<p><u><b>Definition from IAI</b></u>: 
+    The element type <i>IfcTankType</i> defines a list of commonly shared property
+	set definitions of a tank and an optional set of product representations.
+	It is used to define a tank specification (i.e. the specific product
+	information, that is common to all occurrences of that product type).</p> 
+	 
+	<blockquote>
+		<font size="-1">
+		NOTE: The product representations are defined as
+		representation maps (at the level of the supertype <i>IfcTypeProduct</i>, which
+		get assigned by an element occurrence instance through the
+		<i>IfcShapeRepresentation.Item[1]</i> being an
+		<i>IfcMappedItem</i>.
+    	</font>
+    </blockquote>
+    
+    <p>A tank type is used to define the common properties of a
+	Tank that may be applied to many occurrences of that type.
+	A tank is a device used to hold gasses and liquids.
+    Tank types (or the instantiable subtypes) may be exchanged 
+    without being already assigned to occurrences.</p> 
+	
+    <p>The occurrences of the <i>IfcTankType</i> are represented
+	by instances of <i>IfcFlowStorageDevice</i> or its subtypes.</p> 
+    
+    <p><u><b>Property Set Use Definition</b></u>:</p> 
+    <p>The property sets relating to this entity are defined by the
+    <i>IfcPropertySet</i> and attached by the <i>IfcRelDefinesByProperties</i>
+    relationship. It is accessible by the inverse <i>IsDefinedBy</i> relationship.
+    The following property set definitions specific to this entity are part
+    of this IFC release:
+    </p> 
+    <ul> 
+       <li><a href="../../psd/IfcHvacDomain/Pset_TankTypeCommon.xml"
+         target="SOURCE">Pset_TankTypeCommon</a>: common property set for all tank
+         types
+       </li> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_TankTypeExpansion.xml"
+             target="SOURCE">Pset_TankTypeExpansion</a>: property set for expansion tank
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_TankTypePreformed.xml"
+             target="SOURCE">Pset_TankTypePreformed</a>: property set for preformed tank
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_TankTypePressureVessel.xml"
+             target="SOURCE">Pset_TankTypePressureVessel</a>: property set for pressure vessel tank
+             types
+           </li> 
+        </ul> 
+        <ul> 
+           <li><a href="../../psd/IfcHvacDomain/Pset_TankTypeSectional.xml"
+             target="SOURCE">Pset_TankTypeSectional</a>: property set for sectional tank
+             types
+           </li> 
+        </ul> 
+    </ul> 
+    
+	<blockquote>
+		<font color="#0000ff" size="-1">
+    	HISTORY: New entity in IFC Release 2x2.<br>
+    	</font>
+    </blockquote>
+
+</EPM-HTML>

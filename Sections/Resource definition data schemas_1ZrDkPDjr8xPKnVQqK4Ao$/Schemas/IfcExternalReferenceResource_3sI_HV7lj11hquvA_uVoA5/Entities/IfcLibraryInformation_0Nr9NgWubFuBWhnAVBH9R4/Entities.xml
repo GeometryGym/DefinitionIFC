@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLibraryInformation" UniqueId="0Nr9NgWubFuBWhnAVBH9R4" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Name" UniqueId="2Xq7zuXdTEfPUiFTJyB1rG" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name which is used to identify the library.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Version" UniqueId="0VyTYPUdb2jBqNxRQs7fp6" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifier for the library version used for reference.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Publisher" UniqueId="1qyUVV2DH9PRRIRY4xu5_R" DefinedType="IfcOrganization" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Information of the organization that acts as the library publisher.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="VersionDate" UniqueId="0Xx$rhQer07gNTpJmrr1Jm" DefinedType="IfcCalendarDate" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Date of the referenced version of the library.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LibraryReference" UniqueId="0nHWxIyln8Yeui1eCl$Nwu" DefinedType="IfcLibraryReference" AttributeFlags="1" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Information on the library being referenced.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

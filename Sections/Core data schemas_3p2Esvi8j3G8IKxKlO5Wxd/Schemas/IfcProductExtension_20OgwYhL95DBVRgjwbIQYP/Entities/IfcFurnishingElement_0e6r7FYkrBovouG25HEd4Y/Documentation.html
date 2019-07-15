@@ -1,0 +1,173 @@
+<EPM-HTML>
+    <p>
+      <u>Definition from IAI</u>: Generalization of all furniture
+      related objects. Furnishing objects are characterized as
+      being
+    </p>
+    <ul>
+      <li>pre-manufactured and assembled on-site, or
+      </li>
+      <li>manufactured on-site (built-in)
+      </li>
+    </ul>
+    <p>
+      Thus furnishing elements can either be movable, or not (as
+      the built-ins).
+    </p>
+    <blockquote>
+      <p>
+        <font color="#0000FF" size="-1">HISTORY New entity in IFC
+        Release 2x.</font>
+      </p>
+    </blockquote>
+    <p>
+      <u><b>Geometry Use Definitions</b></u>:
+    </p>
+    <p>
+      The geometric representation of <i>IfcFurnishingElement</i>
+      is given by the <i>IfcProductDefinitionShape</i> and
+      <i>IfcLocalPlacement</i> allowing multiple geometric
+      representation.
+    </p>
+    <p>
+      <b>Local Placement</b>
+    </p>
+    <p>
+      The local placement for <i>IfcFurnishingElement</i> is
+      defined in its supertype <i>IfcProduct</i>. It is defined
+      by the <i>IfcLocalPlacement</i>, which defines the local
+      coordinate system that is referenced by all geometric
+      representations.
+    </p>
+    <ul>
+      <li>The <i>PlacementRelTo</i> relationship of
+      <i>IfcLocalPlacement</i> shall point (if given) to the
+      local placement of the same
+      <i>IfcSpatialStructureElement</i> , which is used in the
+      <i>ContainedInStructure</i> inverse attribute, or to a
+      spatial structure element at a higher level, referenced by
+      that.
+      </li>
+      <li>If the relative placement is not used, the absolute
+      placement is defined within the world coordinate system.
+      </li>
+    </ul>
+    <p>
+      <b><i>Geometric Representations</i></b>
+    </p>
+    <p>
+      Any <i>IfcFurnishingElement</i> can be represented by one
+      or several geometric representations. This includes the
+      general representation types 'BoundingBox',
+      'GeometricCurveSet', 'SurfaceModel', 'Brep', and
+      'MappedRepresentation' being defined here.
+    </p>
+    <p>
+      <b>Bounding Box Representation</b>
+    </p>
+    <p>
+      Any <i>IfcFurnishingElement</i> may be represented as a
+      bounding box, which shows the maximum extend of the body
+      within the coordinated system established by the
+      <i>IfcLocalPlacement</i>. The bounding box representation
+      is the simplest geometric representation available. The
+      following attribute values for the
+      <i>IfcShapeRepresentation</i> holding this geometric
+      representation shall be used:
+    </p>
+    <ul>
+      <li>
+        <i>RepresentationIdentifier</i> : 'Box'
+      </li>
+      <li>
+        <i>RepresentationType</i> : 'BoundingBox'
+      </li>
+    </ul>
+    <p>
+      <b>Foot Print Representation</b>
+    </p>
+    <p>
+      The foot print representation of
+      <i>IfcFurnishingElement</i> is given by either a single or
+      multiple 2D points and curves. The representation
+      identifier and type of this geometric representation are:
+    </p>
+    <ul>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationIdentifier</i> =
+        'FootPrint'
+      </li>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationType</i> =
+        'GeometricCurveSet'
+      </li>
+    </ul>
+    <p>
+      <b>SurfaceModel Representation</b>
+    </p>
+    <p>
+      Any <i>IfcFurnishingElement</i> (so far no further
+      constraints are defined at the level of its subtypes) may
+      be represented as a single or multiple surface models,
+      based on either shell or face based models. In some cases
+      it may be useful to also expose a simple representation as
+      a bounding box representation of the same complex shape.
+      The representation identifier and type of this geometric
+      representation are:
+    </p>
+    <ul>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationIdentifier</i> =
+        'Body'
+      </li>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationType</i> =
+        'SurfaceModel'
+      </li>
+    </ul>
+    <p>
+      <b>Brep Representation</b>
+    </p>
+    <p>
+      Any <i>IfcFurnishingElement</i> (so far no further
+      constraints are defined at the level of its subtypes) may
+      be represented as a single or multiple Boundary
+      Representation elements (which are restricted to faceted
+      Brep with or without voids). The Brep representation allows
+      for the representation of complex element shape. In some
+      cases it may be useful to also expose a simple
+      representation as a bounding box representation of the same
+      complex shape. The representation identifier and type of
+      this geometric representation are:
+    </p>
+    <ul>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationIdentifier</i> =
+        'Body'
+      </li>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationType</i> = 'Brep'
+      </li>
+    </ul>
+    <p>
+      <b>MappedRepresentation</b>
+    </p>
+    <p>
+      The <i>IfcMappedItem</i> should always be used in
+      appropriate cases as it allows for reusing the geometry
+      definition of the furnishing type for all occurrences of
+      the same type. The representation identifier and type of
+      this geometric representation are:
+    </p>
+    <ul>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationIdentifier</i> =
+        'FootPrint', or 'Body' (depending of the representation
+        map)
+      </li>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationType</i> =
+        'MappedRepresentation'
+      </li>
+    </ul>
+</EPM-HTML>

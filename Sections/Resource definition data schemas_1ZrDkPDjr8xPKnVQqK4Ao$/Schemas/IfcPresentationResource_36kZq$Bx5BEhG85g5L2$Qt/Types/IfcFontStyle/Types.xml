@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocDefined xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFontStyle" UniqueId="2l$IMLHF12wPBenejYuDFM" DiagramNumber="1" DefinedType="STRING" Length="0">
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1Hh_cljr1F98JGeVWMqd7F">
+			<Documentation>Allowable values for font style.</Documentation>
+			<Expression>SELF IN [&apos;normal&apos;,&apos;italic&apos;,&apos;oblique&apos;]</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocDefined>
+

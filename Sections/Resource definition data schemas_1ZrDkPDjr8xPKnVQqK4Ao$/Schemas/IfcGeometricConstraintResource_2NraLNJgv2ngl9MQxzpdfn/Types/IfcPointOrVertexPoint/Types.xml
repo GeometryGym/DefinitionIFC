@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPointOrVertexPoint" UniqueId="2szmfTphLAsgiAcwAcqKR4" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcPoint" UniqueId="0gACTKAkL1k87k6fPoegyN" />
+		<DocSelectItem Name="IfcVertexPoint" UniqueId="2HykM2eH1BUvsoF1MsSlzu" />
+	</Selects>
+</DocSelect>
+

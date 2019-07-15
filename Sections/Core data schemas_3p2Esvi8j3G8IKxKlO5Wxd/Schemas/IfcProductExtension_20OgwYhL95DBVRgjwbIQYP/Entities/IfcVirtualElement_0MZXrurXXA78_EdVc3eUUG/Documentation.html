@@ -1,0 +1,134 @@
+<EPM-HTML>
+    <p>
+      <u>Definition from IAI</u>: A special element used to
+      provide imaginary boundaries, such as between two adjacent,
+      but not separated, spaces. Virtual elements are usually not
+      displayed and does not have quantities and other measures.
+      Therefore <i>IfcVirtualElement</i> does not have material
+      information and quantities attached.
+    </p>
+    <blockquote>
+      <small>NOTE The main purpose of <i>IfcVirtualElement</i> is
+      the provision of a virtual space boundary. The
+      <i>IfcVirtualElement</i> provides the 2D curve or 3D
+      surface representation of the virtual space connection and
+      is referenced by two instances of
+      <i>IfcRelSpaceBoundary</i>, each pointing to one of the two
+      adjacent <i>IfcSpaces</i>.</small>
+    </blockquote>
+    <blockquote>
+      <small><font color="#0000FF">HISTORY New entity in IFC
+      Release 2x2 Addendum.</font></small>
+    </blockquote>
+    <blockquote>
+      <small><font color="#FF0000">IFC2x2 ADDENDUM CHANGE: The
+      entity <i>IfcVirtualElement</i> has been added. Upward
+      compatibility for file based exchange is
+      guaranteed.</font></small>
+    </blockquote>
+    <p>
+      <u><b>Geometry Use Definitions</b></u>
+    </p>
+    <p>
+      The geometric representation of any
+      <i>IfcVirtualElement</i> is given by the
+      <i>IfcProductDefinitionShape</i> and
+      <i>IfcLocalPlacement</i> allowing multiple geometric
+      representations.
+    </p>
+    <p>
+      <b>Local Placement</b>
+    </p>
+    <p>
+      The local placement for <i>IfcVirtualElement</i> is defined
+      in its supertype <i>IfcProduct</i>. It is defined by the
+      <i>IfcLocalPlacement</i>, which defines the local
+      coordinate system that is referenced by all geometric
+      representations.
+    </p>
+    <ul>
+      <li>The <i>PlacementRelTo</i> relationship of
+      <i>IfcLocalPlacement</i> shall point (if given) to the
+      local placement of the same
+      <i>IfcSpatialStructureElement</i> that is used in the
+      <i>ContainedInStructure</i> inverse attribute or to a
+      referenced spatial structure element at a higher level.
+      </li>
+      <li>If the relative placement is not used, the absolute
+      placement is defined within the world coordinate system.
+      </li>
+    </ul>
+    <p>
+      <b><i>Geometric Representations</i></b>
+    </p>
+    <p>
+      Currently, the use of 'FootPrint' and 'Surface'
+      representation is supported.
+    </p>
+    <p>
+      <b>Two-dimensional Representation using foot print
+      representation</b>
+    </p>
+    <p>
+      The 2D geometric representation of <i>IfcVirtualElement</i>
+      is defined using the 'FootPrint' or 'Surface'
+      representation. The following attribute values should be
+      inserted
+    </p>
+    <ul>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationIdentifier</i> =
+        'FootPrint'.
+      </li>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationType</i> =
+        'Curve2D' or 'GeometricCurveSet' .
+      </li>
+    </ul>
+    <p>
+      The following constraints apply to the 2D curve
+      representation:
+    </p>
+    <ul>
+      <li>Curve: <i>IfcPolyline</i>, <i>IfcTrimmedCurve</i> or
+      <i>IfcCompositeCurve</i>
+      </li>
+    </ul>
+    <p>
+      <b>Three-dimensional Representation using surface model
+      representation</b>
+    </p>
+    <p>
+      The 3D geometric representation of <i>IfcVirtualElement</i>
+      is defined using the 'SurfaceModel' geometry. The following
+      attribute values should be inserted
+    </p>
+    <ul>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationIdentifier</i> =
+        'Surface'.
+      </li>
+      <li>
+        <i>IfcShapeRepresentation.RepresentationType</i> =
+        'GeometricSet .
+      </li>
+    </ul>
+    <p>
+      The following constraints apply to the 3D surface
+      representation:
+    </p>
+    <ul>
+      <li>
+        <u>Surface</u>: <i>IfcSurfaceOfLinearExtrusion</i>
+      </li>
+      <li>
+        <u>Profile</u>: <i>IfcArbitraryOpenProfileDef</i>
+      </li>
+      <li>
+        <u>Extrusion</u>: The extrusion direction shall be
+        vertically, i.e., along the positive Z Axis of the
+        co-ordinate system of the containing spatial structure
+        element.
+      </li>
+    </ul>
+</EPM-HTML>

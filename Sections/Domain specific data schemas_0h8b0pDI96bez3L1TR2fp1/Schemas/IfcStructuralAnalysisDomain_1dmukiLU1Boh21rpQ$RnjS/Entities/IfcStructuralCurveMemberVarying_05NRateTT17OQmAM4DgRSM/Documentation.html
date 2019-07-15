@@ -1,0 +1,75 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI:</u> Instances of the
+entity <i>IfcStructuralCurveMemberVarying</i>
+shall be used to describe linear structural elements with varying
+profile properties.</p>
+<p>The varying profile properties
+are assigned through the <i>IfcRelAssociatesProfileProperties</i>
+with an additional link to the <i>IfcShapeAspect</i>,
+which relates the profile properties to the different vertices of the
+structural curve member.</p>
+<blockquote>
+  <p><font
+ color="#0000ff" size="-1"> HISTORY: New entity
+in Release IFC2x Edition 2. </font></p>
+</blockquote>
+<p><b><u>Use
+Definition</u></b></p>
+<table border="1" cellpadding="2"
+ cellspacing="2" width="100%">
+  <tbody>
+    <tr>
+      <td><img
+ alt="fig 1"
+ src="figures/IfcStructuralCurveMemberVarying-Fig1.gif"
+ height="525" width="632"></td>
+      <td valign="top">The
+varying profiles along the longitudinal axis are assigned by using
+several relationships of <i>IfcRelAssociatesProfileProperties</i>,
+each assigning one profile definition (<i>IfcProfileProperties</i>
+optionally referencing one <i>IfcProfileDef</i>)
+to a vertex along the longitudinal axis.<br>
+      <br>
+The topological representation is an <i>IfcEdge</i>,
+decomposed into <i>IfcSubEdge</i>'s,
+a changing profile definition is associated to the start or end vertex
+of the <i>IfcSubEdge</i>.</td>
+    </tr>
+  </tbody>
+</table>
+<p><b><u>Topology
+Use Definition</u></b></p>
+<p>Instances of <i>IfcStructuralCurveMemberVarying</i>
+shall have a topology representation. It includes a placement and a
+product representation. The <i>IfcProductRepresentation</i>
+shall be given by an item of <i>Representations</i>
+being of type "<i>IfcTopologyRepresentation</i>".
+</p>
+<p>The guidelines on using the
+location and topological representation capabilities are identical with
+the supertype <i>IfcStructuralCurveMember</i>.
+The additional requirement is that if the varying profile not only has
+different (morphing) profiles at the start and end edge, then the <i>IfcTopologyRepresentation.Item[1]
+</i>shall be an <i>IfcEdge</i>
+(or <i>IfcEdgeCurve</i>,
+<i>IfcOrientedEdge</i>)
+that is referenced by the <i>Parent</i>
+attribute of at least two <i>IfcSubedge</i>'s.
+</p>
+<p><u><b>Shape
+Aspect Use Definition</b></u></p>
+<p>The attribute <i>HasAssociations</i>
+references a set of <i>IfcRelAssociatesProfileProperties</i>,
+each referring to an <i>IfcShapeAspect</i>,
+that has a list of <i>ShapeRepresentations</i>.
+Each individual <i>IfcShapeRepresentation</i>
+within that list shall have a single (or two) item(s) within its list
+of <i>Items</i>.
+The type of the item shall be:</p>
+<ul>
+  <li><i>IfcVertexPoint</i></li>
+</ul>
+<p>It references either a start or
+an end vertex (or both) to which the profile properties apply.</p>
+</EPM-HTML>

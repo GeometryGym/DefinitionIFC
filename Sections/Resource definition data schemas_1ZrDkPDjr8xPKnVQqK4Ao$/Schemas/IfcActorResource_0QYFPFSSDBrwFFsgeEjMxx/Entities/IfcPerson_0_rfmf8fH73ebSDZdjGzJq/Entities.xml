@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPerson" UniqueId="0_rfmf8fH73ebSDZdjGzJq" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Id" UniqueId="34k0NJJcX3NBtIs$2ozFNG" DefinedType="IfcIdentifier" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identification of the person.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FamilyName" UniqueId="0l78KlhPL0Eu6etjlPG4P7" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name by which the family identity of the person may be recognized.
+&lt;EPM-HTML&gt;&lt;BLOCKQUOTE&gt;&lt;FONT SIZE=&quot;-1&quot;&gt;NOTE: Depending on geographical location and culture, family name may appear either as the first or last component of a name.&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="GivenName" UniqueId="2DTf1u4X1DPffFFJdPRJ7W" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The name by which a person is known within a family and by which he or she may be familiarly recognized.
+&lt;EPM-HTML&gt;
+&lt;BLOCKQUOTE&gt;&lt;FONT SIZE=&quot;-1&quot;&gt;NOTE: Depending on geographical location and culture, given name may appear either as the first or last component of a name.
+&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MiddleNames" UniqueId="0ftRNgZFDAsAut5h3z5vhT" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Additional names given to a person that enable their identification apart from others who may have the same or similar family and given names.
+&lt;EPM-HTML&gt;
+&lt;BLOCKQUOTE&gt;&lt;FONT SIZE=&quot;-1&quot;&gt;NOTE: Middle names are not normally used in familiar communication but may be asserted to provide additional 
+identification of a particular person if necessary. They may be particularly useful in situations where the person concerned has a 
+family name that occurs commonly in the geographical region.
+&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PrefixTitles" UniqueId="2HTMYIgaH63g7_C_vVvxao" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The word, or group of words, which specify the person&apos;s social and/or professional standing and appear before his/her names.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SuffixTitles" UniqueId="1w6EZD5Pj4MecRcgpvvMRv" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The word, or group of words, which specify the person&apos;s social and/or professional standing and appear after his/her names.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Roles" UniqueId="1u8wkZfT9D0x7dpJeNT3fW" DefinedType="IfcActorRole" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Roles played by the person.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Addresses" UniqueId="3Bh4W_KpvE6Qcze34zGwMz" DefinedType="IfcAddress" AttributeFlags="1" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>&lt;EPM-HTML&gt;Postal and telecommunication addresses of a person.
+&lt;BLOCKQUOTE&gt;&lt;FONT SIZE=&quot;-1&quot;&gt;NOTE - A person may have several addresses.
+&lt;/FONT&gt;&lt;/BLOCKQUOTE&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="EngagedIn" UniqueId="0K2nxMSgLCVePAXziCCp6N" DefinedType="IfcPersonAndOrganization" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="ThePerson">
+			<Documentation>The inverse relationship to IfcPersonAndOrganization relationships in which IfcPerson is engaged.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="3TrL6JqjL8UQHRUREGvBf1">
+			<Documentation>Requires that either the family name or the given name is used. It is not acceptable to have a person without a family or given name.</Documentation>
+			<Expression>EXISTS(FamilyName) OR 
+EXISTS(GivenName)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

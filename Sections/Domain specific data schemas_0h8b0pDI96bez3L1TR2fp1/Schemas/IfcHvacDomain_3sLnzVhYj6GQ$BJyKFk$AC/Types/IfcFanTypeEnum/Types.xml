@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFanTypeEnum" UniqueId="2PIDMAYPzEnhT0ZtyiIROk" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CENTRIFUGALFORWARDCURVED_2BcTwZbRr2UwRqEAK3MaTD" />
+		<DocConstant xsi:nil="true" href="CENTRIFUGALRADIAL_2wCNXcDYDAcxZBWthsfxb7" />
+		<DocConstant xsi:nil="true" href="CENTRIFUGALBACKWARDINCLINEDCURVED_1A4pYo1n229MurjH5PbT" />
+		<DocConstant xsi:nil="true" href="CENTRIFUGALAIRFOIL_1G4WdAEdfCmh_sL1ejf2iN" />
+		<DocConstant xsi:nil="true" href="TUBEAXIAL_2REGv61DHAvApwx_iKIbf2" />
+		<DocConstant xsi:nil="true" href="VANEAXIAL_1pwmh3XPX8JvkNY8_PBuIG" />
+		<DocConstant xsi:nil="true" href="PROPELLORAXIAL_2DUFbrW99BVwFX0vkGZbV8" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1bD3xAIAT6hRvzVzZjvYT" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_197SSGckrA7h4LnKdoOmMF" />
+	</Constants>
+</DocEnumeration>
+

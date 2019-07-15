@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelAssignsToControl" UniqueId="1MSyWxt_XCp8BBvzwz0t$M" DiagramNumber="7" BaseDefinition="IfcRelAssigns" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="RelatingControl" UniqueId="399JmKs9r8JOwzHObZa7oW" DefinedType="IfcControl" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to the control that applies an control about objects.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="3mslFR$wH1Wgl9Ld1bUqmi">
+			<Documentation>The instance to with the relation points shall not be contained in the List of RelatedObjects.</Documentation>
+			<Expression>SIZEOF(QUERY(Temp &lt;* SELF\IfcRelAssigns.RelatedObjects | RelatingControl :=: Temp)) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

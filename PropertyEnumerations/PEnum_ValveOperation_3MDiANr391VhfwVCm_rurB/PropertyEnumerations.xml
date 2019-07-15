@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_ValveOperation_3MDiANr391VhfwVCm_rurB" Name="PEnum_ValveOperation" UniqueId="d636c297-d432-417e-ba7a-7ccc3ed78d4b">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="DROPWEIGHT_1dg4bVExjBKA73JMdqvxmW" />
+		<DocPropertyConstant xsi:nil="true" href="FLOAT_2TzklJ7cbB7hlEjx0k6J72" />
+		<DocPropertyConstant xsi:nil="true" href="HYDRAULIC_1vqi9jhcf5HfBhDIjedXR" />
+		<DocPropertyConstant xsi:nil="true" href="LEVER_2LfLCpDv1UxxTABTBu4df" />
+		<DocPropertyConstant xsi:nil="true" href="LOCKSHIELD_1DAs8YjfT5khD_kexXjOq0" />
+		<DocPropertyConstant xsi:nil="true" href="MOTORIZED_1gVdPKEQ5DYvh1kRLoGuVU" />
+		<DocPropertyConstant xsi:nil="true" href="PNEUMATIC_08yKU427PCDx_8smm8VFqN" />
+		<DocPropertyConstant xsi:nil="true" href="SOLENOID_07Rfvnfqn0wgaEG88FQ0m1" />
+		<DocPropertyConstant xsi:nil="true" href="SPRING_3NqtSG0uf9IeMzE222L91j" />
+		<DocPropertyConstant xsi:nil="true" href="THERMOSTATIC_0g2Pl7M4z8UONyHa9xDios" />
+		<DocPropertyConstant xsi:nil="true" href="WHEEL_1p9aGWv8P0DvYYIINjMGaH" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

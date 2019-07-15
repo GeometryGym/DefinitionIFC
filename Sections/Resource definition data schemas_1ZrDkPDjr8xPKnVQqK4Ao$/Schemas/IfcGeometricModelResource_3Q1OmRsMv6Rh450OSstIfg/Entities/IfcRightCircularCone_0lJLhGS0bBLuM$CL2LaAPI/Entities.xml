@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRightCircularCone" UniqueId="0lJLhGS0bBLuM$CL2LaAPI" DiagramNumber="2" BaseDefinition="IfcCsgPrimitive3D" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Height" UniqueId="2QFZgqJEX3qgqJDMVnnzGb" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BottomRadius" UniqueId="2Ts27dqyD4ZAIM7iBB_nj7" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

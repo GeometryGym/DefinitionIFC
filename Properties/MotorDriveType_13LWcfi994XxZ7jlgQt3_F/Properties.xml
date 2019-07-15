@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="MotorDriveType_13LWcfi994XxZ7jlgQt3_F" Name="MotorDriveType" UniqueId="435609a9-b092-4487-b8c7-b6fa9adc3f8f" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_FanMotorConnectionType_1Ystnzdgj1WPD3GQnThLse" />
+	</Enumeration>
+</DocProperty>
+

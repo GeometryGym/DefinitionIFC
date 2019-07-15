@@ -1,0 +1,37 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI:</U> The abstract entity
+		<I>IfcStructuralActivity</I> combines the definition of actions (such as
+		forces, displacement, etc) and reactions (supports and deformations) which are
+		specified by using the basic load definitions from
+		the<I>IfcStructuralLoadResource</I>. It also uses the inherited capabilities
+		for the definition of a location and a local coordinate system.</P> 
+	 <P>The differentiation between actions and reactions is realized by
+		instantiating objects either from subclasses of <I>IfcStructuralAction</I> or
+		<I>IfcStructuralReaction</I> respectively. They inherit commonly needed
+		attributes from the abstract superclass <I>IfcStructuralActivity</I>. Possible
+		dependencies between actions and reactions must be explicitly captured.</P> 
+	 <P>The use of the location and local coordinate system, given by
+		<I>ObjectPlacement</I>, is optional as it is not always needed or useful.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: Not needed if the 'activity' acts on the whole
+		  element to which it is "connected" through an instance of
+		  <I>IfcRelConnectsStructuralActivity</I> and additionally, there is no
+		  eccentricity. It is not useful if the 'activity' acts on a building element
+		  because at this stage no geometrical abstraction is normally made.</FONT></P>
+		</BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: The definition of an 'activity' is normally used
+		  for the structural engineering domain, where the activity typically defines no
+		  own coordinate system but rather uses the coordinate system of the element on
+		  which it acts. Therefore the definition of a location and local coordinate
+		  system can be omitted by not assigning a value to <I>ObjectPlacement</I>, in
+		  these cases the local coordinate system shall correspond to the local
+		  coordinate system of the structural item or building element on which it acts.
+		  </FONT></P></BLOCKQUOTE> 
+	 <P>In addition the <I>IfcStructuralActivity</I> defines the relation needed
+		to associate actions and/or reactions to the <I>IfcStructuralItem</I> to which
+		it applies.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New entity in Release IFC2x
+		  Edition 2. </FONT></P> </BLOCKQUOTE>
+</EPM-HTML>

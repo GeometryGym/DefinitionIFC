@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFilterTypeEnum" UniqueId="0mDvIr93P59Ro4pZ_vGUET" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="AIRPARTICLEFILTER_0hoD0nuLj7_AqDG1MdewcJ" />
+		<DocConstant xsi:nil="true" href="ODORFILTER_0ZXwwDYBPCdhyOuIa1aSDP" />
+		<DocConstant xsi:nil="true" href="OILFILTER_1GKkt6QWn5tf0JASIvGxeS" />
+		<DocConstant xsi:nil="true" href="STRAINER_1TWpPWHUD2GQleQzPYNcfI" />
+		<DocConstant xsi:nil="true" href="WATERFILTER_2Z070oBmH46R9frczwm2p3" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0CfY9CT8bOTUlLzXQVdU" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3JHp3I2iT1ZgtNsJ0gYpqX" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCircleHollowProfileDef" UniqueId="3CY3XVi7nCuPXlEC_9XHJc" DiagramNumber="2" BaseDefinition="IfcCircleProfileDef" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="WallThickness" UniqueId="1t3Cel7_rFXv7wQOeKWwiC" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness of the material, it is the difference between the outer and inner radius.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="15xTVJpjb6wvNVmmen5ppe">
+			<Documentation>The wall thickness shall be smaller then the radius.</Documentation>
+			<Expression>WallThickness &lt; SELF\IfcCircleProfileDef.Radius</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

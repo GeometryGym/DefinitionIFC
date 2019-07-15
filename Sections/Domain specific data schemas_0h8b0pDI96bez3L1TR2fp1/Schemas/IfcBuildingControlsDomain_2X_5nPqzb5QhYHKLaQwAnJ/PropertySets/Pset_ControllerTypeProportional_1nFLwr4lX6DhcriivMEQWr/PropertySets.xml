@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ControllerTypeProportional" UniqueId="713d5eb5-12f8-4636-b9b5-b2ce5639a835" ApplicableType="IfcController.Predefined=&quot;PROPORTIONAL&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ControlType_32aglYVHfBRvcx1kcZcld6" />
+		<DocProperty xsi:nil="true" href="SignalFactor1_0Tmeqk9kH3g9eBN8cnZua" />
+		<DocProperty xsi:nil="true" href="SignalFactor2_28wXS08lvD9fyMr5zE3amq" />
+		<DocProperty xsi:nil="true" href="SignalTime1_27URWtgYnENw2NmftzGWcH" />
+		<DocProperty xsi:nil="true" href="SignalTime2_1rYj2JmurFFgalHqNYwll1" />
+	</Properties>
+</DocPropertySet>
+

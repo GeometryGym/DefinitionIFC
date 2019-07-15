@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTopologicalRepresentationItem" UniqueId="1TPH5w24fCJft0baUDcG2a" DiagramNumber="1" BaseDefinition="IfcRepresentationItem" EntityFlags="69">
+	<Subtypes>
+		<DocSubtype UniqueId="0gyHCYuGnB48U0dxFgBjmq" DefinedType="IfcConnectedFaceSet" />
+		<DocSubtype UniqueId="1tFbOF1PX2ngOaNlKf24DU" DefinedType="IfcEdge" />
+		<DocSubtype UniqueId="0dQ8GW8G9C_wdDA9SCGCfG" DefinedType="IfcFace" />
+		<DocSubtype UniqueId="37hw5rSB10gwMKCm6uFOid" DefinedType="IfcFaceBound" />
+		<DocSubtype UniqueId="35Sj1fDyTFkwJpBylRZsrJ" DefinedType="IfcPath" />
+		<DocSubtype UniqueId="05GC7lxvX6xRChiPIaBIE3" DefinedType="IfcVertex" />
+		<DocSubtype UniqueId="0Mex3ioSn9KxpaGbi7VisL" DefinedType="IfcLoop" />
+	</Subtypes>
+</DocEntity>
+

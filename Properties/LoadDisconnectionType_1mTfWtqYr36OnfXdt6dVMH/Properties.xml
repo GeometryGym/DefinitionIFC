@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="LoadDisconnectionType_1mTfWtqYr36OnfXdt6dVMH" Name="LoadDisconnectionType" UniqueId="70769837-d22d-4319-8c69-867dc69df591" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_LoadDisconnectionType_12gaUmmHnBXhjwixMoLgE5" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,88 @@
+<EPM-HTML>
+	<p><u><b>Definition from IAI</b></u>: 
+    The element type <i>IfcDistributionChamberElementType</i> defines a list of commonly shared property
+	set definitions of a distribution chamber element and an optional set of product representations.
+	It is used to define a distribution chamber element specification (i.e. the specific product
+	information, that is common to all occurrences of that product type).</p> 
+	 
+	<blockquote>
+		<font size="-1">
+		NOTE: The product representations are defined as
+		representation maps (at the level of the supertype <i>IfcTypeProduct</i>, which
+		get assigned by an element occurrence instance through the
+		<i>IfcShapeRepresentation.Item[1]</i> being an
+		<i>IfcMappedItem</i>.
+    	</font>
+    </blockquote>
+    
+    <p>A distribution chamber element type is used to define the common properties of a
+	distribution chamber element that may be applied to many occurrences of that type. A distribution 
+chamber element is a formed volume used in a distribution system, such as 		a sump, trench or 
+manhole.
+	Distribution chamber element types may be exchanged 
+    without being already assigned to occurrences.</p> 
+	
+    <p>The occurrences of the <i>IfcDistributionChamberElementType</i> are represented
+	by instances of <i>IfcDistributionElement</i> or its subtypes.</p> 
+    
+    <p><u><b>Property Set Use Definition</b></u>:</p> 
+    <p>The property sets relating to this entity are defined by the
+    <i>IfcPropertySet</i> and attached by the <i>IfcRelDefinesByProperties</i>
+    relationship. It is accessible by the inverse <i>IsDefinedBy</i> relationship.
+    The following property set definitions specific to this entity are part
+    of this IFC release:
+    </p> 
+    <ul> 
+        <ul> 
+           <li><a 
+href="../../psd/IfcSharedBldgServiceElements/Pset_DistributionChamberElementTypeFormedDuct.xml"
+             target="SOURCE">Pset_DistributionChamberElementTypeFormedDuct</a>: property set for formed duct 
+             distribution chamber element types
+           </li> 
+           <li><a 
+href="../../psd/IfcSharedBldgServiceElements/Pset_DistributionChamberElementTypeInspectionChamber.xml"
+             target="SOURCE">Pset_DistributionChamberElementTypeInspectionChamber</a>: property set for 
+inspection chamber 
+             distribution chamber element types
+           </li> 
+           <li><a 
+href="../../psd/IfcSharedBldgServiceElements/Pset_DistributionChamberElementTypeInspectionPit.xml"
+             target="SOURCE">Pset_DistributionChamberElementTypeInspectionPit</a>: property set for 
+inspection pit 
+             distribution chamber element types
+           </li> 
+           <li><a 
+href="../../psd/IfcSharedBldgServiceElements/Pset_DistributionChamberElementTypeManhole.xml"
+             target="SOURCE">Pset_DistributionChamberElementTypeManhole</a>: property set for manhole 
+             distribution chamber element types
+           </li> 
+           <li><a 
+href="../../psd/IfcSharedBldgServiceElements/Pset_DistributionChamberElementTypeMeterChamber.xml"
+             target="SOURCE">Pset_DistributionChamberElementTypeMeterChamber</a>: property set for meter 
+chamber 
+             distribution chamber element types
+           </li> 
+           <li><a href="../../psd/IfcSharedBldgServiceElements/Pset_DistributionChamberElementTypeSump.xml"
+             target="SOURCE">Pset_DistributionChamberElementTypeSump</a>: property set for sump 
+             distribution chamber element types
+           </li> 
+           <li><a href="../../psd/IfcSharedBldgServiceElements/Pset_DistributionChamberElementTypeTrench.xml"
+             target="SOURCE">Pset_DistributionChamberElementTypeTrench</a>: property set for trench 
+             distribution chamber element types
+           </li> 
+           <li><a 
+href="../../psd/IfcSharedBldgServiceElements/Pset_DistributionChamberElementTypeValveChamber.xml"
+             target="SOURCE">Pset_DistributionChamberElementTypeValveChamber</a>: property set for valve 
+chamber 
+             distribution chamber element types
+           </li> 
+        </ul> 
+    </ul> 
+    
+	<blockquote>
+		<font color="#0000ff" size="-1">
+    	HISTORY: New entity in IFC Release 2x2.<br>
+    	</font>
+    </blockquote>
+
+</EPM-HTML>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocTemplateDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="System Assignment" UniqueId="3z_x5d2$ezH8hiJFJe19Et" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelServicesBuildings">
+	<Templates>
+		<DocTemplateDefinition Name="Serviced By System" UniqueId="1a6nnbNsqgGQ6j4UBb8vGd" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelServicesBuildings">
+			<Documentation>&lt;p&gt;
+	Provision of a relationships between a system specific grouping, represented by &lt;em&gt;IfcSystem&lt;/em&gt;, that services a spatial structure element (a site, building, building storey, or space).&lt;/p&gt;
+&lt;p&gt;
+	The concept &amp;#39;Serviced By System&amp;#39; describes the assignment of a system specific group (here &lt;em&gt;IfcSystem &lt;/em&gt;being predominately an building service system) to the &lt;em&gt;element &lt;/em&gt;(the appropriate spatial structure element).&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+		<DocTemplateDefinition Name="Services Spatial Element" UniqueId="3ZJUexpN8YIf78hyrJ_Ylg" Version="0.3" Status="draft" Owner="buildingSMART International" Type="IfcRelServicesBuildings">
+			<Documentation>&lt;p&gt;
+	Provision of a relationships between a system specific grouping, represented by &lt;em&gt;IfcSystem&lt;/em&gt;, that services a spatial structure element (a building, building storey, or space).&lt;/p&gt;
+&lt;p&gt;
+	The concept &amp;#39;Services Spatial Structure&amp;#39; describes the assignment of the &lt;em&gt;element &lt;/em&gt;(here IfcSystem) to the appropriate spatial structure element. Any subtype of &lt;em&gt;IfcSpatialStructureElement &lt;/em&gt;(&lt;em&gt;IfcSite&lt;/em&gt;, &lt;em&gt;IfcBuilding&lt;/em&gt;, &lt;em&gt;IfcBuildingStorey&lt;/em&gt;, or &lt;em&gt;IfcSpace&lt;/em&gt;) can be the target of this relationship.&lt;/p&gt;</Documentation>
+		</DocTemplateDefinition>
+	</Templates>
+</DocTemplateDefinition>
+

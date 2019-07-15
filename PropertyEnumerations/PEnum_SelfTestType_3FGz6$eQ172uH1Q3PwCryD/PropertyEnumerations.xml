@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SelfTestType_3FGz6eQ172uH1Q3PwCryD" Name="PEnum_SelfTestType" UniqueId="cf43d1bf-a1a0-470b-8441-68367a335f0d">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Central_2_q9qhgoD2SBrQLu7hLlfA" />
+		<DocPropertyConstant xsi:nil="true" href="Local_3n7neSusz1QwyRdbSY077M" />
+		<DocPropertyConstant xsi:nil="true" href="None_02B7G4D496ZuJthZiyykNT" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

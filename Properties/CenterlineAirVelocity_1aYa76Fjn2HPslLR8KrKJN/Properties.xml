@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CenterlineAirVelocity_1aYa76Fjn2HPslLR8KrKJN" Name="CenterlineAirVelocity" UniqueId="648a41c6-3edc-4245-9daf-55b214d544d7" PropertyType="p_tablevalue" PrimaryDataType="IfcLinearVelocityMeasure" SecondaryDataType="IfcLengthMeasure" />
+

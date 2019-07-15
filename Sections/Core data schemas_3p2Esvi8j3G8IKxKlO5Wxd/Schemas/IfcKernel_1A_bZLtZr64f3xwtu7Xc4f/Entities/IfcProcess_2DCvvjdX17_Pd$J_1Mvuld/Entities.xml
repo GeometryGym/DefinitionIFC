@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProcess" UniqueId="2DCvvjdX17_Pd$J_1Mvuld" DiagramNumber="6" BaseDefinition="IfcObject" EntityFlags="205">
+	<Attributes>
+		<DocAttribute Name="OperatesOn" UniqueId="0BUOkFho11rB$x4eWgDRGC" DefinedType="IfcRelAssignsToProcess" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingProcess">
+			<Documentation>Set of Relationships to objects that are operated on by the process.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsSuccessorFrom" UniqueId="3myWBEm6n5x94p$5BYuavH" DefinedType="IfcRelSequence" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedProcess">
+			<Documentation>Relative placement in time, refers to the previous processes for which this process is successor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsPredecessorTo" UniqueId="0Q$jKdSM9FBOn96ajYd4py" DefinedType="IfcRelSequence" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatingProcess">
+			<Documentation>Relative placement in time, refers to the subsequent processes for which this process is predecessor.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

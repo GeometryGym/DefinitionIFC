@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcVertexLoop" UniqueId="1pEenGNU5EWP4CwLcTFxAL" DiagramNumber="2" BaseDefinition="IfcLoop" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="LoopVertex" UniqueId="2Q_Bln42vF2foJe1qsqxkM" DefinedType="IfcVertex" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The vertex which defines the entire loop.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

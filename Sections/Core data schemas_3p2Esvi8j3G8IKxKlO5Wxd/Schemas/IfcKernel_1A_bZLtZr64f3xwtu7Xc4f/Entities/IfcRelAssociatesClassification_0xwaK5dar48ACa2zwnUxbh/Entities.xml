@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelAssociatesClassification" UniqueId="0xwaK5dar48ACa2zwnUxbh" DiagramNumber="4" BaseDefinition="IfcRelAssociates" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="RelatingClassification" UniqueId="051PFYykjAtfv0QsOtbCjp" DefinedType="IfcClassificationNotationSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Classification applied to the objects.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

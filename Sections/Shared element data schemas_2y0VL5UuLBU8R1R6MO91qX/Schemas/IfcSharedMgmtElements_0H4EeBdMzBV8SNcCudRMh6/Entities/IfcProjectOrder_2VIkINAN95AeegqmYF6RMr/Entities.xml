@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProjectOrder" UniqueId="2VIkINAN95AeegqmYF6RMr" DiagramNumber="1" BaseDefinition="IfcControl" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="ID" UniqueId="2poa5g$bf28e3_Ew9E6sT6" DefinedType="IfcIdentifier" AttributeFlags="2" AggregationType="0" AggregationFlag="0">
+			<Documentation>A unique identification assigned to a project order that enables its differentiation from other project orders.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PredefinedType" UniqueId="1yOvOzeUf6dgzgF5WFCDdh" DefinedType="IfcProjectOrderTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The type of project order.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Status" UniqueId="1I509OAhj9gvPo6M7X6v52" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The current status of a project order.Examples of status values that might be used for a project order status include:
+- PLANNED
+- REQUESTED
+- APPROVED
+- ISSUED
+- STARTED
+- DELAYED
+- DONE</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<UniqueRules>
+		<DocUniqueRule Name="UR2" UniqueId="20xjo84Hn0rvSytjhpNWR1">
+			<Items>
+				<DocUniqueRuleItem Name="ID" UniqueId="1cj3e$x013owDUs9efVdXJ" />
+			</Items>
+		</DocUniqueRule>
+	</UniqueRules>
+</DocEntity>
+

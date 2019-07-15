@@ -1,0 +1,25 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI: </U>An <I>IfcRelAssignsToProjectOrder</I> is a
+		relationship class that captures the incidence of a project order for a set of
+		objects and whose occurrences can be recorded within a project record in
+		sequence as a series of events.</P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC
+		2x2</FONT> </BLOCKQUOTE> 
+	 <H3>Use Definitions</H3> 
+	 <P><I>IfcRelAssignsToProjectOrder</I> is a subtype of
+		<I>IfcRelAssignsToControl</I>. It acts so as to assign items to a project
+		order. The instance of <I>IfcProjectOrder</I> acts as the relating control
+		(which is inherited from <I>IfcRelAssignsToControl</I>). </P> 
+	 <P>Specific objects may be assigned to the project order via the inherited
+		<I>IfcRelAssignsToControl.RelatedObjects</I> attribute. Examples are a cost
+		schedule (<I>IfcCostSchedule</I>), a work plan (<I>IfcWorkPlan</I>), actors
+		concerned with the project order (<I>IfcActor</I>) etc. </P> 
+	 <P>It may also be relevant to assign physical components to the order to
+		identify that this is the originating order for such objects. This can be
+		particularly relevant in the operating phase of the facility lifecycle where
+		the Facilities Manager may wish to obtain details about the original purchase
+		of components. It is more efficient to achieve this through assigning the
+		objects to the project order through <I>IfcRelAssignsToProjectOrder</I> rather
+		than assigning the project order to each object through multiple instances of
+		<I>IfcRelAssignsToProduct</I>.</P> 
+</EPM-HTML>

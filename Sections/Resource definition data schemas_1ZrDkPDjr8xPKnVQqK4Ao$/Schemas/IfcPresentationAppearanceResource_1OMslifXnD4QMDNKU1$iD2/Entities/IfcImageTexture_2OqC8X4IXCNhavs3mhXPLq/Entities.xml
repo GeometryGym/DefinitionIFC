@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcImageTexture" UniqueId="2OqC8X4IXCNhavs3mhXPLq" DiagramNumber="7" BaseDefinition="IfcSurfaceTexture" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="UrlReference" UniqueId="1JYNXzL_T2EwtFEH4Ao9jn" DefinedType="IfcIdentifier" AttributeFlags="0" AggregationType="0" AggregationFlag="0" />
+	</Attributes>
+</DocEntity>
+

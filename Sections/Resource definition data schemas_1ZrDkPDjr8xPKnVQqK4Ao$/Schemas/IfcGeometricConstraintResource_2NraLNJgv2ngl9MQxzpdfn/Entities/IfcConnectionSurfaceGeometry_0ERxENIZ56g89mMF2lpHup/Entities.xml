@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConnectionSurfaceGeometry" UniqueId="0ERxENIZ56g89mMF2lpHup" DiagramNumber="3" BaseDefinition="IfcConnectionGeometry" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="SurfaceOnRelatingElement" UniqueId="2dxFqihvb1J86a3J1hqTrX" DefinedType="IfcSurfaceOrFaceSurface" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Surface at which related object is aligned at the relating element, given in the LCS of the relating element.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SurfaceOnRelatedElement" UniqueId="1ghGQA4TP1yhRbtJzB6Phm" DefinedType="IfcSurfaceOrFaceSurface" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Surface at which the relating element is aligned at the related element, given in the LCS of the related element. If the information is omitted, then the origin of the related element is used.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

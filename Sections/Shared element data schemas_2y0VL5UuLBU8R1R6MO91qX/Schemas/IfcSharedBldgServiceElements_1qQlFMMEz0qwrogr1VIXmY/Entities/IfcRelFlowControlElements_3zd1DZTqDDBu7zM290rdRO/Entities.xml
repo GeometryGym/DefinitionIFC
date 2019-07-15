@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelFlowControlElements" UniqueId="3zd1DZTqDDBu7zM290rdRO" DiagramNumber="1" BaseDefinition="IfcRelConnects" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="RelatedControlElements" UniqueId="2y90pT9Yf2iAx_kv4g7mPg" DefinedType="IfcDistributionControlElement" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>References control elements which may be used to impart control on the Distribution Element.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatingFlowElement" UniqueId="2NNNyMsSL1GfNLvrENPDF9" DefinedType="IfcDistributionFlowElement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Relationship to a distribution flow element</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

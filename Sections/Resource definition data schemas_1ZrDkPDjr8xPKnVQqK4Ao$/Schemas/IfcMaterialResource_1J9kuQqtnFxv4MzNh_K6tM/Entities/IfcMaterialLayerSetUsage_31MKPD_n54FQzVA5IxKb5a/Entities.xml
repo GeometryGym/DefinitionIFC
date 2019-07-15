@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMaterialLayerSetUsage" UniqueId="31MKPD_n54FQzVA5IxKb5a" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="ForLayerSet" UniqueId="0wnPtvd2L7uRmZUzxQz0FN" DefinedType="IfcMaterialLayerSet" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The &lt;i&gt;IfcMaterialLayerSet&lt;/i&gt; set to which the usage is applied.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LayerSetDirection" UniqueId="1aEHQYocT318LQXw7WkHCK" DefinedType="IfcLayerSetDirectionEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Orientation of the layer set relative to element reference geometry. The meaning of the value of this attribute shall be specified in the geometry use section for each element. For extruded shape representation, direction can be given along the extrusion path (e.g. for slabs) or perpendicular to it (e.g. for walls).
+&lt;blockquote&gt;&lt;small&gt;NOTE&amp;nbsp; the &lt;i&gt;LayerSetDirection&lt;/i&gt; for &lt;i&gt;IfcWallStandardCase&lt;/i&gt; shall be AXIS2 (i.e. the y-axis) and for standard &lt;i&gt;IfcSlab&lt;/i&gt; it shall be AXIS3 (i.e. the z-axis).
+&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DirectionSense" UniqueId="1WaZ4rJ7v0Gw_ugv6_oYFP" DefinedType="IfcDirectionSenseEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Denotion whether the layer set is oriented in positive or negative sense relative to the material layer set base. The meaning of &quot;positive&quot; and &quot;negative&quot; needs to be established in the geometry use definitions. See examples at &lt;i&gt;IfcMaterialLayerSetUsage&lt;/i&gt; for a guideline as well.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OffsetFromReferenceLine" UniqueId="0rPu5zFRn7q98I7EwqP0nS" DefinedType="IfcLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Offset of the material layer set base line (MlsBase) from reference geometry (line or plane). The offset can be positive or negative, unless restricted for a particular building element type in its use definition or by implementer agreement. The reference geometry for each relevant subtype of &lt;i&gt;IfcElement&lt;/i&gt; is defined in use definition for the element. Examples are given in the use definition of &lt;i&gt;IfcMaterialLayerSetUsage&lt;/i&gt;.
+&lt;EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

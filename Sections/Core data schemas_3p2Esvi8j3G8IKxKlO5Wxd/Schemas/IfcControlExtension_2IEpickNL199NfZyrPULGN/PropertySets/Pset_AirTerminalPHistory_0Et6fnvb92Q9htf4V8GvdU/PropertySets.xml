@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_AirTerminalPHistory" UniqueId="0edc6a71-e652-4268-9af7-a447c84399de" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AirFlowRate_01KPs3d2z3pfDVOZF7PV6g" />
+		<DocProperty xsi:nil="true" href="NeckAirVelocity_32Rjp_ly95yBpMcHtee2Pe" />
+		<DocProperty xsi:nil="true" href="SupplyAirTemperatureHeating_3Vds6dYzF5wOvQCSsruVF" />
+		<DocProperty xsi:nil="true" href="SupplyAirTemperatureCooling_2jjtVRO3nFGvT9zuyAiV_O" />
+		<DocProperty xsi:nil="true" href="PressureDrop_0Tk6eirp94Avt1bbS6IYqs" />
+		<DocProperty xsi:nil="true" href="InductionRatio_1bQznN6rTAWepPdFLh2Q7" />
+		<DocProperty xsi:nil="true" href="CenterlineAirVelocity_1aYa76Fjn2HPslLR8KrKJN" />
+	</Properties>
+</DocPropertySet>
+

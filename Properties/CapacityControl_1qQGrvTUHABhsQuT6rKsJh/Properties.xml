@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CapacityControl_1qQGrvTUHABhsQuT6rKsJh" Name="CapacityControl" UniqueId="74690d79-75e4-4a2e-bd9a-e1d1b55364eb" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_CoolingTowerCapacityControl_3dw6w9v7X3_hW_vMM5zDmz" />
+	</Enumeration>
+</DocProperty>
+

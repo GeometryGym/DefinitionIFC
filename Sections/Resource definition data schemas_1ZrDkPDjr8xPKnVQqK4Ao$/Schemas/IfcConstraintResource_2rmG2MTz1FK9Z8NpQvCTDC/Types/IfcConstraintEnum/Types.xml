@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConstraintEnum" UniqueId="0edRPHwyHFZQca2xyLZ1I2" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="HARD_03jcjs5ij7KP2CH9g7GPM" />
+		<DocConstant xsi:nil="true" href="SOFT_3kOHzLUyvEpQSWjH9DgW1s" />
+		<DocConstant xsi:nil="true" href="ADVISORY_0_6xhlTbb80vPMR_69Nmk" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1Ld8OhftjAmg78Wq6sv0es" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2svVwdXKPDIhcrJTz_AQZb" />
+	</Constants>
+</DocEnumeration>
+

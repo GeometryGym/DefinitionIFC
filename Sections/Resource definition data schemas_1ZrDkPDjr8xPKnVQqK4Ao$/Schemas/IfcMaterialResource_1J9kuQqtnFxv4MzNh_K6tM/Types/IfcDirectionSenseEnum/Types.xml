@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDirectionSenseEnum" UniqueId="1Mo2e$WmH8w88vqg3ACMhc" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="POSITIVE_3170jvuC1AmgqGY9msq0Wr" />
+		<DocConstant xsi:nil="true" href="NEGATIVE_1ymyI8fxf5r9Gn_3FbFJ1v" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,33 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI:</u> The entity <i>IfcBoundaryEdgeCondition</i>
+describes boundary conditions that can be applied to structural edge
+connections, either directly for the connection (e.g. the connecting
+edge) or for the relation between a structural member and the
+connection.</p>
+<p>The following conventions to
+the values of the <i>LinearStiffnessByLength[X,Y,Z]</i>
+and <i>RotationalStiffness</i><i>ByLength</i><i>[X,Y,Z]</i>
+apply:</p>
+<ul>
+  <li>value (-1.) represents an
+infinitive large value &ndash; or a fixed connectivity with
+infinitive stiffness</li>
+  <li>value zero (0.), represents
+no stiffness or a free connectivity</li>
+  <li>any other value represents a
+finitive stiffness or spring connectivity in that direction or rotation</li>
+  <li>value NIL ($) represents an
+unknown connectivity condition</li>
+</ul>
+<blockquote><font
+ size="-1">NOTE: Instances of the entity <i>IfcBoundaryEdgeCondition</i>
+are used e.g., to define the boundary condition for instances of <i>IfcStructuralCurveConnection</i>
+or <i>IfcRelConnectsStructuralMember</i>
+pointing to a structural curve connection.</font></blockquote>
+<blockquote>
+  <p><font
+ color="#0000ff" size="-1"> HISTORY: New entity
+in Release IFC2x edition 2. </font></p>
+</blockquote>
+</EPM-HTML>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Application_0Wfe4pzFj3HfOhhSrqPU" Name="Application" UniqueId="20a68133-f4fb-4346-9fd8-aeb735d3f65e" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_HumidifierApplication_1tNU8FNkz8Rf0Kbq5BwikC" />
+	</Enumeration>
+</DocProperty>
+

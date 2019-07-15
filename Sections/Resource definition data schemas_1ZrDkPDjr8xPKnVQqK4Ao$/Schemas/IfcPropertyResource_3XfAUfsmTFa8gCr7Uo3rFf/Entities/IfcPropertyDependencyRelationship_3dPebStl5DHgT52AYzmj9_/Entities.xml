@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPropertyDependencyRelationship" UniqueId="3dPebStl5DHgT52AYzmj9_" DiagramNumber="1" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="DependingProperty" UniqueId="2BmtDMfyTESxXbweVqyXfc" DefinedType="IfcProperty" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The property on which the relationship depends.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="DependantProperty" UniqueId="02qhLQwQP3IA_g5x99WPBV" DefinedType="IfcProperty" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The dependant property.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Name" UniqueId="1IXgJynfL178K1aMp6C1lt" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Name of the relationship that provides additional meaning to the nature of the dependency.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Description" UniqueId="3WgAqfSX5EkQbNW7ZT4YYO" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Additional description of the dependency.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Expression" UniqueId="2FrHTiw057Ev25qcJBwMG9" DefinedType="IfcText" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Expression that further describes the nature of the dependency relation.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="0F0DXI_ADDJgJL_xrZgyY8">
+			<Documentation>The DependingProperty shall not point to the same instance as the DependantProperty</Documentation>
+			<Expression>DependingProperty :&lt;&gt;: DependantProperty</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

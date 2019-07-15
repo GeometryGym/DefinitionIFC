@@ -1,0 +1,25 @@
+<EPM-HTML>
+<p><u>Definition from IAI:</u> The entity <i>IfcRelConnectsWithEccentricity</i>
+adds the definition of eccentricity to the connection between
+a structural member and a structural connection (representing either a
+node or support).&nbsp;</p>
+<blockquote>
+  <font color="#0000ff"><small>HISTORY&nbsp; New
+entity in Release IFC2x Edition 3.</small> </font>
+</blockquote>
+<p><b>Use Definition</b></p>
+<p><b><i>Point Connection</i></b><br>
+Instances of the entity <i>IfcRelConnectsWithEccentricity </i>shall
+be used to describe a connection with eccentricity between an instance
+of <i>IfcStructuralPointConnection</i>
+and&nbsp;an instance of <i>IfcStructuralCurveMember</i>
+or <i>IfcStructuralSurfaceMember</i>. The <i>RelatedStructuralConnection</i>
+for point connections therefore has to be of type'<i>IfcStructuralPointConnection</i>'.
+The eccentricity is defined by a connection constraint being of type '<i>IfcConnectionPointGeometry</i>',
+or by its subtype '<i>IfcConnectionPointEccentricity</i>'.
+It refers to the <i>IfcVertexPoint</i>, used by the <i>IfcStructuralCurveMember</i>,
+or <i>IfcStructuralSurfaceMember</i>, that is used in this
+connection, and optionally to the <i>IfcVertexPoint</i>,
+used by the <i>IfcStructuralPointConnection</i>. In
+addition the eccentricity can be given by x, y, and z distance values.</p>
+</EPM-HTML>

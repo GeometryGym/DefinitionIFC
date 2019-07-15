@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ToggleSwitchType_3BaHRqfhH6UP5nz3nICMB1" Name="ToggleSwitchType" UniqueId="cb9116f4-a6b4-4679-9171-f43c523162c1" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ToggleSwitchType_3xVAaUDTr6PBVyJ_NlZ3DX" />
+	</Enumeration>
+</DocProperty>
+

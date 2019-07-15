@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_InsulationStandardClass_2bchS07Mr3r9vecUmeGaZv" Name="PEnum_InsulationStandardClass" UniqueId="a59ab700-1d6d-43d4-9e68-99ec284248f9">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Class0Appliance_25wS8TQlD5H8H7bD7WfXG8" />
+		<DocPropertyConstant xsi:nil="true" href="Class0IAppliance_3GHMur9cv7Pg0M6OJgbvCQ" />
+		<DocPropertyConstant xsi:nil="true" href="ClassIAppliance_1xItl7hQD4cBwW3E5mwwJ" />
+		<DocPropertyConstant xsi:nil="true" href="ClassIIAppliance_2hw3gNHCTEyuyJ4UKwMXE_" />
+		<DocPropertyConstant xsi:nil="true" href="ClassIIIAppliance_2TQa7etMv8TeIxM3rxyRch" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

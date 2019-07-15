@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMonetaryUnit" UniqueId="0mVnstQsv6hgoJJaegJzDc" DiagramNumber="1" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Currency" UniqueId="25mUWCBST11PA6Enf24Z6G" DefinedType="IfcCurrencyEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The international enumeration name of the currency.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

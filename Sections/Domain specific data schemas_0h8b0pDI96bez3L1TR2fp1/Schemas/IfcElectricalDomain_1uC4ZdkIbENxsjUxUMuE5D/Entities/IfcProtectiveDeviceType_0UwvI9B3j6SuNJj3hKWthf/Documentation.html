@@ -1,0 +1,62 @@
+<EPM-HTML> 
+<p><u>Definition from IAI</u>: An <i>IfcProtectiveDeviceType</i>
+is a device that breaks an electrical circuit when a stated electric
+current that passes through it is exceeded.</p>
+<blockquote>
+  <p><font color="#0000ff" size="-1">
+HISTORY: New entity in IFC 2x2 </font></p>
+</blockquote>
+<p><u><b>Use Definitions</b></u></p>
+<p>An <i>IfcProtectiveDeviceType</i> is a subtype of
+IfcFlowControllerType that provides for various devices that ensure the
+safety of an electrical circuit.</p>
+<p>Usage of <i>IfcProtectiveDeviceType</i> defines
+the parameters for one or more occurrences of <i>IfcFlowController</i>.
+Parameters are specified through property sets that are enumerated in
+the <i>IfcIfcProtectiveDeviceTypeEnum</i> data type.</p>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to the <i>IfcProtectiveDeviceType
+</i>are defined by the <i>IfcPropertySet</i> and
+attached by the <i>IfcRelDefinesByType</i> relationship.
+It is accessible by the inverse <i>IsDefinedBy</i>
+relationship. The following property set definitions specific to an <i>IfcProtectiveDeviceType</i>
+are part of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_ElectricalDeviceCommon.xml">Pset_ElectricalDeviceCommon</a>:
+property set for properties that are common to all types of electrical
+devices, if available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_ProtectiveDeviceTypeCommon.xml">Pset_ProtectiveDeviceTypeCommon</a>:
+property set for properties that are common to all types of protective
+device, if available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_ProtectiveDeviceTypeCircuitBreaker.xml">Pset_ProtectiveDeviceTypeCircuitBreaker</a>:
+specific property set for the properties of a circuit breaker , if
+available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_ProtectiveDeviceTypeEarthFailureDevice.xml">Pset_ProtectiveDeviceTypeEarthFailureDevice</a>:
+specific property set for the properties of an earth failure device, if
+available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_ProtectiveDeviceTypeFuseDisconnector.xml">Pset_ProtectiveDeviceTypeFuseDisconnector</a>:
+specific property set for the properties of a fuse disconnector, if
+available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker.xml">Pset_ProtectiveDeviceTypeResidualCurrentCircuitBreaker</a>:
+specific property set for the properties of a residual current circuit
+breaker, if available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_ProtectiveDeviceTypeResidualCurrentSwitch.xml">Pset_ProtectiveDeviceTypeResidualCurrentSwitch</a>:
+specific property set for the properties of a residual current switch,
+if available </li>
+  <li><a
+ href="../../psd/IfcElectricalDomain/Pset_ProtectiveDeviceTypeVaristor.xml">Pset_ProtectiveDeviceTypeVaristor</a>:
+specific property set for the properties of a varistor, if available </li>
+</ul>
+<p><u><b>Geometry Use Definitions</b></u></p>
+<p>Representations of the type are defined as representation maps
+(at the level of the supertype <i>IfcTypeProduct</i>).
+These are assigned at the occurrence through the <i>IfcShapeRepresentation.Item</i>
+being an <i>IfcMappedItem</i>.</p>
+</EPM-HTML>

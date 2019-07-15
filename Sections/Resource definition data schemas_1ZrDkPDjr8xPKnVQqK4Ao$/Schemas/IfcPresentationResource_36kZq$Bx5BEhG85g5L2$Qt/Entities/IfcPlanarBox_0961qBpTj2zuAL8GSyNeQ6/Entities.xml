@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPlanarBox" UniqueId="0961qBpTj2zuAL8GSyNeQ6" DiagramNumber="2" BaseDefinition="IfcPlanarExtent" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="Placement" UniqueId="2KaOvUQUT0Huho3L0puWdr" DefinedType="IfcAxis2Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The &lt;i&gt;IfcAxis2Placement&lt;/i&gt; positions a local coordinate system for the definition of the rectangle. The origin of this local coordinate system serves as the lower left corner of the rectangular box.
+  &lt;blockquote&gt; &lt;small&gt;NOTE&amp;nbsp; In case of a 3D placement by &lt;i&gt;IfcAxisPlacement3D the &lt;i&gt;IfcPlanarBox&lt;/i&gt; is defined within the xy plane of the definition coordinate system.&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

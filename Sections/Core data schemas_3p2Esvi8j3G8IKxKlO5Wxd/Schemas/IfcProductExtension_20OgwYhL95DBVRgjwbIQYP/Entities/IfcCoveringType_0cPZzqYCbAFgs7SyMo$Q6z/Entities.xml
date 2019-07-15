@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCoveringType" UniqueId="0cPZzqYCbAFgs7SyMo$Q6z" DiagramNumber="8" BaseDefinition="IfcBuildingElementType" EntityFlags="165">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="1$r0bo3yLEGgsZe4naK2_C" DefinedType="IfcCoveringTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Predefined types to define the particular type of the covering. There may be property set definitions available for each predefined type.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

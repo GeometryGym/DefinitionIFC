@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CooledBeamTypeCommon" UniqueId="d65cc11c-1bf7-4243-bf7d-91d68fd88b14" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="IsFreeHanging_2X7XTNuhn0gPKSxsdTMPTE" />
+		<DocProperty xsi:nil="true" href="WaterFlowControlSystemType_3IH8nmGwbESwWrwRVoF0ut" />
+		<DocProperty xsi:nil="true" href="WaterPressureRange_3krPKiXl9E3uEHewpnpLwt" />
+		<DocProperty xsi:nil="true" href="Material_3p7eX484rDePpgepkUe99M" />
+		<DocProperty xsi:nil="true" href="NominalCoolingCapacity_0RC_h2MUDA7BFka_JlY5PW" />
+		<DocProperty xsi:nil="true" href="NominalSurroundingTemperatureCooling_23ewtoRz9JRhMOAk9XXtQ" />
+		<DocProperty xsi:nil="true" href="NominalSurroundingHumidityCooling_1DNXMfBh97RBmnu356jzDG" />
+		<DocProperty xsi:nil="true" href="NominalSupplyWaterTemperatureCooling_1TWHh73P8hx2zI6u_qav" />
+		<DocProperty xsi:nil="true" href="NominalReturnWaterTemperatureCooling_2mcFxkoLP2yAEUdl1ymOig" />
+		<DocProperty xsi:nil="true" href="NominalWaterFlowCooling_1KCU7CTYb7wj47isOq9OW" />
+		<DocProperty xsi:nil="true" href="NominalHeatingCapacity_2xMwV3gZDCSg8mndJk5jVW" />
+		<DocProperty xsi:nil="true" href="NominalSurroundingTemperatureHeating_15Ab3PcZ1E2RF5vh9vC0oa" />
+		<DocProperty xsi:nil="true" href="NominalSupplyWaterTemperatureHeating_1O4qoaH2P5z91f1hCRLG9G" />
+		<DocProperty xsi:nil="true" href="NominalReturnWaterTemperatureHeating_2m0CaMPF1AiPDzT9mi3Vi2" />
+		<DocProperty xsi:nil="true" href="NominalWaterFlowHeating_37lKonqBHAhgEgpd3Bd06w" />
+		<DocProperty xsi:nil="true" href="IntegratedLightingType_0ml3t5CJP4ABFdw0cNHioE" />
+		<DocProperty xsi:nil="true" href="PipeConnectionEnum_2AxbDQOfzAKhlH6c9i3qew" />
+		<DocProperty xsi:nil="true" href="FinishColor_29coB1BaLBEAJ_hiAsgNok" />
+		<DocProperty xsi:nil="true" href="Weight_11xuZsvT8Hgrkynn62vWy" />
+		<DocProperty xsi:nil="true" href="CoilLength_1UbcA0qwP94RMxNgYDXvv" />
+		<DocProperty xsi:nil="true" href="CoilWidth_3c66LbxqrAPO4lduOMZnK" />
+		<DocProperty xsi:nil="true" href="ConnectionSize_2aw4YVgdbB69XrKi_QBHiX" />
+	</Properties>
+</DocPropertySet>
+

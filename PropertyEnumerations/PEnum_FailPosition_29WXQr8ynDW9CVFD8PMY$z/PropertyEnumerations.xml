@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FailPosition_29WXQr8ynDW9CVFD8PMYz" Name="PEnum_FailPosition" UniqueId="898216b5-23cc-4d80-931f-3cd2195a2ffd">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="FailOpen_2xdp3mF8P6heQbB_a0UNPx" />
+		<DocPropertyConstant xsi:nil="true" href="FailClosed_2Jo3n_9gzBWw441wyhS5kk" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

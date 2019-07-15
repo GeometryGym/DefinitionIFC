@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricApplianceTypeEnum" UniqueId="1eiu_7OzDA0gsyPmEE7e39" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="COMPUTER_0_oSNPSbDvRh9FYt742MY" />
+		<DocConstant xsi:nil="true" href="DIRECTWATERHEATER_2HG9bVpbXAbRY8sqdr40TU" />
+		<DocConstant xsi:nil="true" href="DISHWASHER_07Tsr5ms56exfX09mClfuQ" />
+		<DocConstant xsi:nil="true" href="ELECTRICCOOKER_3zUmX944z1CgRypOQK68_2" />
+		<DocConstant xsi:nil="true" href="ELECTRICHEATER_2N_Yh57iT5MwLfrlPt19n3" />
+		<DocConstant xsi:nil="true" href="FACSIMILE_1QDDPNkz92uykQKSJxYkm" />
+		<DocConstant xsi:nil="true" href="FREESTANDINGFAN_3fG0SoPjLF1gz8dTjQg1IG" />
+		<DocConstant xsi:nil="true" href="FREEZER_2rOeowQ1j9hhhH1S_Gbqou" />
+		<DocConstant xsi:nil="true" href="FRIDGE_FREEZER_2_Sy5AB3L809SrN7ZIWIie" />
+		<DocConstant xsi:nil="true" href="HANDDRYER_2DgGs31u53r9qV6wy_kdmb" />
+		<DocConstant xsi:nil="true" href="INDIRECTWATERHEATER_1ZKLYpg6LCOBD_xpAwpCKv" />
+		<DocConstant xsi:nil="true" href="MICROWAVE_0nbmC4KqL7RgdC51mKJPfW" />
+		<DocConstant xsi:nil="true" href="PHOTOCOPIER_2d5Af_ON56yeXjlkqZLeZ8" />
+		<DocConstant xsi:nil="true" href="PRINTER_3j_rJlzmn489n96gmfbG6E" />
+		<DocConstant xsi:nil="true" href="REFRIGERATOR_3iD0bJzS574hkoYYpvOxwn" />
+		<DocConstant xsi:nil="true" href="RADIANTHEATER_2nysTQwAD1fel6lQZxNTS" />
+		<DocConstant xsi:nil="true" href="SCANNER_3BJwyVdBzBeBZFfCKatofn" />
+		<DocConstant xsi:nil="true" href="TELEPHONE_3eR3334XD7L8s_LiCy5v6" />
+		<DocConstant xsi:nil="true" href="TUMBLEDRYER_2ckzVnkP9K9valNmersQI" />
+		<DocConstant xsi:nil="true" href="TV_3QX7AsnfBvfLDHMPNgtaF" />
+		<DocConstant xsi:nil="true" href="VENDINGMACHINE_0PyQgpAPE99eBKeInjmzO" />
+		<DocConstant xsi:nil="true" href="WASHINGMACHINE_2_Zm1lu79EPwFPdCdz1ZZj" />
+		<DocConstant xsi:nil="true" href="WATERHEATER_1gNQKXQ2P9ahkurVRoJZni" />
+		<DocConstant xsi:nil="true" href="WATERCOOLER_38sD8KZ3jF7vHq5vletLFf" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0ZHhhnZor77uk3mPPj2EMr" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1M7So_E8L8APPd1SCHUMS6" />
+	</Constants>
+</DocEnumeration>
+

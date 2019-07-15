@@ -1,0 +1,55 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI:</U> The entity
+		<I>IfcRelConnectsStructuralMember</I> defines all needed properties describing
+		the connection between structural members and structural connections (nodes or
+		supports). </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: The specification of frequently used connection
+		  properties is done by using through the <I>AppliedCondition</I> attribute.
+		  Rarely needed connection properties, such as slippage or failure, should be
+		  specified by using the attribute <I>AdditionalConditions</I>.</FONT></P>
+		</BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1"> HISTORY: New entity in Release IFC2x
+		  Edition 2. </FONT></P> </BLOCKQUOTE> 
+	 <P><B>Use Definition</B></P> 
+	 <P><I>Point Connection</I><BR> Instances of the entity
+		<I>IfcRelConnectsStructuralMember</I> shall be used to describe a connection
+		between an instance of <I>IfcStructuralPointConnection</I> and either an
+		instance of <I>IfcStructuralCurveMember</I> or
+		<I>IfcStructuralSurfaceMember</I>. The <I>RelatedStructuralConnection</I> for
+		point connections has to be of type = 'IfcStructuralPointConnection'.</P> 
+	 <P><I>Curve Connection</I><BR> Instances of the entity
+		<I>IfcRelConnectsStructuralMember</I> shall be used to describe a connection
+		between an instance of <I>IfcStructuralCurveConnection</I> and an instance of
+		either <I>IfcStructuralCurveMember</I> or <I>IfcStructuralSurfaceMember</I>.
+		The <I>RelatedStructuralConnection</I> for curve connections has to be of type
+		= 'IfcStructuralCurveConnection'.</P> 
+	 <P><I>Surface Connection</I><BR> Instances of the entity
+		<I>IfcRelConnectsStructuralMember</I> shall be used to describe a connection
+		between an instance of <I>IfcStructuralSurfaceConnection</I> and an instance of
+		<I>IfcStructuralSurfaceMember</I> (or an instance of a volumetric member, if
+		defined in future extensions). The <I>RelatedStructuralConnection</I> for curve
+		connections has to be of type = 'IfcStructuralSurfaceConnection'.</P> 
+	 <P><I>Coordinate System for Applied Conditions</I><BR>All values defined by
+		<I>AppliedCondition</I> or <I>AdditionalConditions</I> are given within the
+		coordinate system provided by <I>ConditionCoordinateSystem</I>, which is
+		defined in relation to the local coordinate system of the structural member. If
+		the <I>ConditionCoordinateSystem</I> is not defined, the local placement of the
+		structural member is used instead.</P> 
+	 <P><I>Supported Length</I><BR>Optionally a supported length can be given,
+		which gives the length (or width) of the physical connection along a curve
+		connection.</P> 
+	 <TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0"> 
+		<TR> 
+		  <TD><IMG SRC="figures/IfcRelConnectsStructuralMember-Fig1.gif"
+			 ALT="supported length" STYLE="border: 0px solid ; width: 600px; height: 368px;"
+			 ALIGN="left"></TD> 
+		</TR> 
+		<TR> 
+		  <TD VALIGN="TOP" HEIGHT="40"> 
+			 <P><FONT SIZE="-1">Illustration of the appropriate definition of
+				support lengths.</FONT></P></TD> 
+		</TR> 
+	 </TABLE>
+</EPM-HTML>

@@ -1,0 +1,42 @@
+<EPM-HTML> 
+	 <P>The <I>IfcConstructionMgmtDomain</I> schema defines concepts in the
+		construction management (CM) domain. Together with the
+		<I>IfcProcessExtension</I> and <I>IfcSharedMgmtElement</I> schemas it provides a
+		set of models that can be used to exchange information between construction
+		management applications.</P> 
+	 <H2>Scope</H2> 
+	 <P>The <I>IfcConstructionMgmtDomain</I> schema extends the ideas concerning
+		management outlined in the <I>IfcSharedMgmtElements</I> schema. The objective
+		of the <I>IfcConstructionMgmtDomain</I> schema is to capture information that
+		supports specific business processes and resource requirements that are wholly
+		within the domain of interest of the Construction Manager. The aim is to
+		provide support for information exchange and sharing within computer aided
+		management applications. The extent of the model will not support the some of
+		the more detailed ideas found in these applications.</P> 
+	 <P>The following are within the scope of this schema:</P> 
+	 <UL> 
+		<LI>resources used in the construction process including product, labor,
+		  construction equipment, crew, sub-contract and construction material
+		  resources;</LI> 
+		<LI>identification of products that result from processes performed that
+		  are used as resources in future processes.</LI> 
+	 </UL> 
+	 <H2>Process Usage</H2> 
+	 <H3>Resources</H3> 
+	 <P>Resources are considered to be those things that are used within a
+		process to achieve or assist the process of construction. Various types of
+		resource are defined within the model.</P> 
+	 <H3>Product Composition Structure</H3> 
+	 <P>Construction management activities may take place either on a complete
+		product (the whole), on a part of the product or on a set of products acting as
+		a single product entity (complex). The product composition structure enabling
+		parts, whole, and complexes to be identified is achieved using aggregation or
+		nesting subtype of the <I>IfcRelDecomposes</I> relationship class.</P> 
+	 <H3>Products as Resources</H3> 
+	 <P>A product that results from a process may be used as a resource in a
+		subsequent process. </P>
+	 <H2>Quantity Usage</H2>
+	 <P>The quantities of a resource used may be defined therough
+		<I>IfcRelDefinesByProperties</I> using the <I>IfcElementQuantity</I> property
+		set definition</P> 
+</EPM-HTML>

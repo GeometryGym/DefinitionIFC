@@ -1,0 +1,50 @@
+<EPM-HTML>
+<p><u>Definition
+from IAI</u>: The <i>IfcGeometricProjectionEnum</i>
+defines the various representation types that can be semantically
+distinguished. Often different levels of detail of the shape
+representation are controlled by the representation type.<br>
+</p>
+<ul>
+  <li><b>GRAPH_VIEW</b>:
+Geometric display representation that shows an abstract, often 1D
+element representation, e.g. representing a wall by its axis line.</li>
+  <li><b>SKETCH_VIEW</b>:
+Geometric display representation that shows an abstract, often 2D
+element representation, e.g. representing a wall by its two foot print
+edges, surpressing any inner layer representation.</li>
+  <li><b>MODEL_VIEW</b>:
+Geometric display representation that shows a full 3D element
+representation, e.g. representing a wall by its volumetric body.</li>
+  <li><b>PLAN_VIEW</b>:
+Geometric display representation that shows a full 2D element
+representation, the level of detail often depends on the target scale,
+e.g. representing a wall by its two foot print edges and the edges of
+all inner layers. The projection is shown in ground view as seen from
+above.</li>
+  <li><b>REFLECTED_PLAN_VIEW</b>:
+Geometric display representation that shows a full 2D element
+representation, the level of detail often depends on the target scale,
+e.g. representing a wall by its two foot print edges and the edges of
+all inner layers. The projection is shown in ground view as seen from
+below.</li>
+  <li><b>SECTION_VIEW</b>:
+Geometric display representation that shows a full 2D element
+representation, the level of detail often depends on the target scale,
+e.g. representing a wall by its two inner/outer edges and the edges of
+all inner layers, if the element is cut by the section line.</li>
+  <li><b>ELEVATION_VIEW</b>:
+Geometric display representation that shows a full 2D element
+representation, the level of detail often depends on the target scale,
+e.g. representing a wall by its bounding edges if the element is within
+an elevation view.</li>
+  <li><b>USERDEFINED</b>:
+A user defined specification is given by the value of the <i>UserDefinedTargetView</i>
+attribute.</li>
+  <li><b>NOTDEFINED</b>:
+No specification given.</li>
+</ul>
+<blockquote><font
+ color="#0000ff" size="-1">HISTORY: New Type in
+Release IFC 2x Edition 2.</font> </blockquote>
+</EPM-HTML>

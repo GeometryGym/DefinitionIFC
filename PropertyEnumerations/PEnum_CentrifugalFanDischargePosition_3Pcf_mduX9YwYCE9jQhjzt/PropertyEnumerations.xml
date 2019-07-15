@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CentrifugalFanDischargePosition_3Pcf_mduX9YwYCE9jQhjzt" Name="PEnum_CentrifugalFanDischargePosition" UniqueId="d99a9fb0-9f88-498b-a88c-389b5aaedf77">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="TOPHORIZONTAL_2jLPmDZEL1duO5wOoPR6Xy" />
+		<DocPropertyConstant xsi:nil="true" href="TOPANGULARDOWN_386BQq7gTAo90AXd5jwI2W" />
+		<DocPropertyConstant xsi:nil="true" href="TOPANGULARUP_0BKx4Poa98IeoLuxZUDkZX" />
+		<DocPropertyConstant xsi:nil="true" href="DOWNBLAST_0jvufgYRnDGRQ76mzkt9Bi" />
+		<DocPropertyConstant xsi:nil="true" href="BOTTOMANGULARDOWN_0jdXTtjqbAFeho5Oc3av9k" />
+		<DocPropertyConstant xsi:nil="true" href="BOTTOMHORIZONTAL_179xdJD2X7iuiY7HlQrsGW" />
+		<DocPropertyConstant xsi:nil="true" href="BOTTOMANGULARUP_2vL6XqvlP3cBVdcf494P9s" />
+		<DocPropertyConstant xsi:nil="true" href="UPBLAST_03fxF2sqn9lPwyQjeBs9oC" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

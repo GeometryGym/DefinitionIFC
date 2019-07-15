@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricGeneratorType" UniqueId="1luOAkPYz2WeWODF33Fpmf" DiagramNumber="3" BaseDefinition="IfcEnergyConversionDeviceType" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="34WZ$WwSvDZf9SvsAKv_$n" DefinedType="IfcElectricGeneratorTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of electric generators from which the type required may be set.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

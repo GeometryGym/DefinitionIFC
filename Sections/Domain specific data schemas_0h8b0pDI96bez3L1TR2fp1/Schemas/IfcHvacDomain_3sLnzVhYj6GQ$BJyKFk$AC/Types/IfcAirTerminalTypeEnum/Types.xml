@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAirTerminalTypeEnum" UniqueId="3ipUcARmn1pBp024OB_bQU" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="GRILLE_0sHS6md5f7u8yGHfCqQMwP" />
+		<DocConstant xsi:nil="true" href="REGISTER_3IYoMBAtb8MAPrQRw_fwYC" />
+		<DocConstant xsi:nil="true" href="DIFFUSER_0DjwtAXmjBSvvhziWpHy1E" />
+		<DocConstant xsi:nil="true" href="EYEBALL_2YQuqXlrXDJ8303K_SfDkZ" />
+		<DocConstant xsi:nil="true" href="IRIS_10ZwXUvnP6fwXgEqEIv50" />
+		<DocConstant xsi:nil="true" href="LINEARGRILLE_0yznp0IhL3iOVlqnNrrXrI" />
+		<DocConstant xsi:nil="true" href="LINEARDIFFUSER_1iUMjQAL9EIAv2dg29y2G4" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0lGfLfNtzD5O4Rrw54fcZE" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1Ur86xsjvCUeX3NbsKXbjv" />
+	</Constants>
+</DocEnumeration>
+

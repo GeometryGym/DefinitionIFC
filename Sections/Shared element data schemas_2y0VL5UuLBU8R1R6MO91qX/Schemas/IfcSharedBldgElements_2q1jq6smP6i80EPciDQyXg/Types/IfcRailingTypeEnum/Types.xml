@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRailingTypeEnum" UniqueId="0DiezmiS50PRZFIrbk4c12" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="HANDRAIL_3fy54k8kj22B1MGBLs11ED" />
+		<DocConstant xsi:nil="true" href="GUARDRAIL_0hk3zpwhn7wvyoChKK1GW" />
+		<DocConstant xsi:nil="true" href="BALUSTRADE_1rRIGOmDX7qwSXy8nX2uap" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0jpegdAHv44wnwRdoHSpZ" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0EOM3mjbL2DfczeQ3e4mt" />
+	</Constants>
+</DocEnumeration>
+

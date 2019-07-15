@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CouplingType_0Kkx5cQTj68vCjOwJdMTZX" Name="CouplingType" UniqueId="14bbb166-69db-4623-932d-63a4e759d8e1" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_BreechingInletCouplingType_0mzAZP0nP94fran_CC35M" />
+	</Enumeration>
+</DocProperty>
+

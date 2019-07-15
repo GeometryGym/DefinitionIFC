@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcConnectedFaceSet" UniqueId="2FKBb$D0j2TRh794lpVeAF" DiagramNumber="2" BaseDefinition="IfcTopologicalRepresentationItem" EntityFlags="109">
+	<Subtypes>
+		<DocSubtype UniqueId="2EtxRKftnFNhuXt977y7Lb" DefinedType="IfcClosedShell" />
+		<DocSubtype UniqueId="21FOjJoD18kgY6mTMSIHoX" DefinedType="IfcOpenShell" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="CfsFaces" UniqueId="0wpCHyjqD92x9fOiD$PMem" DefinedType="IfcFace" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The set of faces arcwise connected along common edges or vertices.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

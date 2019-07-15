@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcControllerTypeEnum" UniqueId="1Ow4Ka6dX4pfqXvTnxRUPN" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FLOATING_3TtHxxMfArvjXUrNIzh6" />
+		<DocConstant xsi:nil="true" href="PROPORTIONAL_2QKpZvKVL0mBFkab_FVaZW" />
+		<DocConstant xsi:nil="true" href="PROPORTIONALINTEGRAL_1Qmg4tdz3GRtTN1TnjTVD" />
+		<DocConstant xsi:nil="true" href="PROPORTIONALINTEGRALDERIVATIVE_0h6Cxnr1b6h9huoSIzzBZK" />
+		<DocConstant xsi:nil="true" href="TIMEDTWOPOSITION_0f5f1_4DT2OuOtLEwpmcCZ" />
+		<DocConstant xsi:nil="true" href="TWOPOSITION_30JE2kuw11xw3rEJc9zJUh" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0bPkM5xN5DWuE7pm9hAJpQ" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0UuDYgyxH2U82c0sA9qxmE" />
+	</Constants>
+</DocEnumeration>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSIUnitName" UniqueId="21LxFF1Kv7aRRIFhTi6Hhm" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="AMPERE_1IUEJ4Mn9FER8mFTppQiQE" />
+		<DocConstant xsi:nil="true" href="BECQUEREL_2m_NszTx19mRb5MEaaBGbp" />
+		<DocConstant xsi:nil="true" href="CANDELA_2o3nH8Z7X7l8o4OhhSZQ" />
+		<DocConstant xsi:nil="true" href="COULOMB_1iL_aGulj1WAWee2pxPsRM" />
+		<DocConstant xsi:nil="true" href="CUBIC_METRE_0yLsCbEWP0SupLwvPw0CMX" />
+		<DocConstant xsi:nil="true" href="DEGREE_CELSIUS_2Hfigc_qv2vR3tjc5JMIj9" />
+		<DocConstant xsi:nil="true" href="FARAD_29n40PTbrDpOi5zKLb0dTh" />
+		<DocConstant xsi:nil="true" href="GRAM_2bh4z5IH4Qub9t8AapDc9" />
+		<DocConstant xsi:nil="true" href="GRAY_3vJM0a4rfA5R6XjTMild" />
+		<DocConstant xsi:nil="true" href="HENRY_0KI0t7EwPBXPIsWhuSHeO9" />
+		<DocConstant xsi:nil="true" href="HERTZ_23aKvKWN17jOvlzfEGTldw" />
+		<DocConstant xsi:nil="true" href="JOULE_1j23YbcqH1ZAMXWNc7GbMO" />
+		<DocConstant xsi:nil="true" href="KELVIN_0cQLOGoX6uO0gk4RSy8Rd" />
+		<DocConstant xsi:nil="true" href="LUMEN_29dJIJEWn7dRDWlu1zZ7hx" />
+		<DocConstant xsi:nil="true" href="LUX_2LDZwPsf1k9h67hAI7JO5" />
+		<DocConstant xsi:nil="true" href="METRE_1rX_TdhMX2IPB6F7hxt03n" />
+		<DocConstant xsi:nil="true" href="MOLE_3p3AIEL5z7bfw4Dti6qP4N" />
+		<DocConstant xsi:nil="true" href="NEWTON_3OUVszIL9tOkTHPcw1lrE" />
+		<DocConstant xsi:nil="true" href="OHM_228JuekAT06O8uyc0vve9" />
+		<DocConstant xsi:nil="true" href="PASCAL_0DSgzCc5CxwsRZ82Jbd90" />
+		<DocConstant xsi:nil="true" href="RADIAN_0tiNFt6m1Buuu88VHiW77s" />
+		<DocConstant xsi:nil="true" href="SECOND_3jWerdgCv9Duki5dLb96qi" />
+		<DocConstant xsi:nil="true" href="SIEMENS_3YbZDdj1bFygNvsWuMGT6l" />
+		<DocConstant xsi:nil="true" href="SIEVERT_1gD3DQwK1EwB_XTf4e2u1" />
+		<DocConstant xsi:nil="true" href="SQUARE_METRE_14zAagoHr6RutRzfIwbypY" />
+		<DocConstant xsi:nil="true" href="STERADIAN_3h7ZG84z5tevDih5nBO2H" />
+		<DocConstant xsi:nil="true" href="TESLA_26O6gstz9n8BSJ_w7z_rE" />
+		<DocConstant xsi:nil="true" href="VOLT_1xzLjYi94yeTVYDz_HvD" />
+		<DocConstant xsi:nil="true" href="WATT_0lVNNuzcD5IxpDcydb3izm" />
+		<DocConstant xsi:nil="true" href="WEBER_3ABl2Ak2r90RnpRgtwtmZU" />
+	</Constants>
+</DocEnumeration>
+

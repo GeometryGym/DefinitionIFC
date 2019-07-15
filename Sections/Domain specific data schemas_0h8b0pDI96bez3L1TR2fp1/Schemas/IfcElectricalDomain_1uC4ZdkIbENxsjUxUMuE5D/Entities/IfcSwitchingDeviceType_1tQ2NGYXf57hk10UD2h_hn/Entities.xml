@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSwitchingDeviceType" UniqueId="1tQ2NGYXf57hk10UD2h_hn" DiagramNumber="3" BaseDefinition="IfcFlowControllerType" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="3RYKAuA$L8TR2roDRpMgOi" DefinedType="IfcSwitchingDeviceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of switch from which the type required may be set.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

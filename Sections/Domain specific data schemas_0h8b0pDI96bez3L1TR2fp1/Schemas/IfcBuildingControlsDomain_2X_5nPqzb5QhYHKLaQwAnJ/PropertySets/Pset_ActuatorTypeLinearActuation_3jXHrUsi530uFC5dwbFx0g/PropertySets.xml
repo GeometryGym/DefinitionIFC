@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ActuatorTypeLinearActuation" UniqueId="ed851d5e-dac1-4303-83cc-167ea53fb02a" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Force_2U0y8MGajFq8ClLtNYlpNm" />
+		<DocProperty xsi:nil="true" href="Stroke_2U9MQYe3jFdPqH2HJnJZW" />
+	</Properties>
+</DocPropertySet>
+

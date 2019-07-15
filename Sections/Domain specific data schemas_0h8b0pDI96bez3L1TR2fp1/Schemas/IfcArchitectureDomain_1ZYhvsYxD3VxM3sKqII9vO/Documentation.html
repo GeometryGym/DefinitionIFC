@@ -1,0 +1,116 @@
+<EPM-HTML> 
+	 <P>The <I>IfcArchitectureDomain</I> schema defines basic object concepts
+		used in the architectural domain that have not been generalized and push lower
+		in the model (e.g. shared with other domains or application types). </P> 
+	 <H3>Scope</H3>
+	 <P>Specific architectural elements that are not already covered by other
+		schemas (most architectural elements are defined within the
+		<I>IfcSharedBldgElements</I> schema). Currently it includes:</P>
+	 <UL>
+		<LI>specific permeable covering properties for window and door
+		  openings</LI>
+		<LI>space programs for design briefs, together with interaction
+		  requirements between spaces covered by space programs</LI>
+	 </UL> 
+	 <H3>Definitions referenced from other schemas</H3>
+	 <P><B>Resources</B></P>
+	 <P> Placement and geometry - defined by the supertype <I>IfcProduct</I> and
+		links the resource definitions of geometric contraints, representation,
+		geometry, topology and geometric models.</P>
+	 <P>Fundamental properties - Costs, classification, materials and documents:
+		all of these concepts are related to most of the objects used by architects
+		through the object supertypes defined at in the IFC core model. Those essential
+		properties are connected by objectified relationships. See the fully attributed
+		view of the entity definitions to find the objectified relationships. </P>
+	 <P><B>IfcKernel</B></P>
+	 <P>Single project reference - the <I>IfcProject</I> is a single instance
+		within an IFC file or database and links the spatial structure objects, the
+		units and the representation context. </P>
+	 <P>Actors - people and/or organizations involved in the project. Actors are
+		important in the IFC model as they concepts such as ownership, responsibility,
+		approval and workflow. </P>
+	 <P>Assemblies -of elements. This concept is modeled using the objectified
+		relationship <I>IfcRelAggregates</I>. Examples in architecture include stairs,
+		ramps, curtain walls and roofs. The distinction from Nesting is that elements
+		in an assembly can be of various types. </P>
+	 <P>Controls - conceptual objects that determine or constrain other objects.
+		IFC includes several examples of such controls (constraints, budgets, design
+		program). These are related to the objects which they 'control' through the
+		<I>IfcRelAssignsToControl</I> objectified relationship. Examples that are of
+		interest to architects include budgets, building code constraints, geometric
+		alignment constraints and space programs (client brief information). </P> 
+	 <P>Groups - of objects, related for some group purpose. Object collections
+		are related to a group object (which defines the purpose) through the
+		<I>IfcRelAssignsToGroup</I> objectified relationship. </P>
+	 <P>Nesting - elements that contain other, like elements. This concept is
+		modeled in IFC using the objectified relationship, <I>IfcRelNests</I>. This
+		relationship requires that both, nested and nesting object are of the same
+		object type.</P>
+	 <P>Processes and resources - which process products (building elements),
+		resulting in other products (assembly, refined or modified building elements,
+		etc.). The most common examples of are construction processes. </P>
+	 <P>Proxy objects - surrogates for types of objects that are not yet
+		included in IFC. Proxies are included in IFC in the recognition that IFC will
+		never fully elaborate all of the objects, concepts and processes in the AEC
+		industry. This surrogate allows enables a basic representation of the 'foreign
+		object type' so that the project model is a complete (if not totally accurate)
+		representation. Architects will be most interested in product proxies.
+		Surrogates for real world, physical objects. A shape representation and
+		placement are included for such proxies. This allows architects to understand
+		the shape, location and orientation of the real world object represented by the
+		proxy. </P>
+	 <P>Dynamically assigned properties - properties that are attached to
+		objects and may be tailored by mutual agreements on the property names. This
+		concept is handled through use of the objectified relationship
+		<I>IfcRelDefinedByProperties</I>. </P> 
+	 <P>Type objects - allow the assignment of a type (or specific object) to
+		all occurrencies of that type. This concept is handled through use of the
+		objectified relationship <I>IfcRelDefinedByType</I>. </P>
+	 <P><B>IfcProductExtension</B></P>
+	 <P>Spatial structure objects - Site, building, building storey, space are
+		used to contain architectural objects within a spatial structure. </P>
+	 <P>Containment in spatial structure - elements that are contained in any
+		level of the spatial project structure (site, building, building story, space).
+		This concept is modeled using the objectified relationship
+		<I>IfcRelContainedInSpatialStructure</I>. </P> 
+	 <P>Connections - between elements in a project. This concept is modeled in
+		IFC using the objectified relationship <I>IfcRelConnectsElements</I>.
+		Architects are interested many different types of connections because they must
+		design construction details for them. Examples include wall to wall, wall to
+		floor, wall to ceiling and column to beam connections. See
+		<I>IfcRelConnectsElements</I>, its subtypes, the referenced
+		<I>IfcConnectionGeometry</I>, its subtypes for more discussion on this subject.
+		</P> 
+	 <P>Coverings - that cover other building elements. These objects have a
+		special relationship, <I>IfcRelCoversBldgElements</I>, to other building
+		elements which they 'cover'. Examples include floor and wall coverings,
+		protective coverings (base molding, chair railing) and ceilings. </P>
+	 <P> Grids - the design grid objects are provided through <I>IfcGrid</I> and
+		<I>IfcGridPlacement</I>. It is used to place objects relative to virtual grid
+		intersections.</P> 
+	 <P>Space Boundaries - both physical and virtual elements which bound a
+		space. Architects deal extensively with finishes in spaces and often specify
+		such 'interior finishes' for the walls, floor(s) and ceilings that bound a
+		space. IFC includes a special list of relationships from spaces to space
+		boundaries. See <I>IfcSpace</I> and <I>IfcRelSpaceBoundary</I>. </P>
+	 <P>Zones - the<I> IfcZone</I> object allows architects to compartmentize
+		buildings in order to meet requirements of e. g., fire codes. </P> 
+	 <P><B>IfcSharedBldgElements</B></P> 
+	 <P>Walls, doors, windows, columns, beams, floors, roofs - all of these
+		objects types, essential to architectural design are defined in the shared
+		building elements schema because other disciplines also deal with them. Most of
+		these allow specification of 'types' and association of more detailed
+		properties associated with those types. </P> 
+	 <P><B>IfcSharedBldgServiceElements</B></P> 
+	 <P>Distribution systems (e.g., ducting, piping, sanitary, etc.), equipment,
+		electrical appliances many types of these concepts are available in this
+		release of IFC. The basic occurrence object types are accompanied by type
+		objects defined in various building service and electrical specific domain
+		schemas.</P> 
+	 <P><B>IfcSharedFacilitiesElements</B></P> 
+	 <P>Furniture - both standalone and systems furniture are available as type
+		information for <I>IfcFurnishingElement</I>.</P> 
+	 <P>Occupant and Occupancy - architects deal with these concepts in the
+		design and permit phases of projects. Facilities managers use them through the
+		operations phase. </P>
+</EPM-HTML>

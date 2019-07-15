@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ToiletPanType_3ZM79goFvDBwyumvy8AdBR" Name="ToiletPanType" UniqueId="e358726a-c8fe-4d2f-af38-c39f082a72db" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ToiletPanType_2jz9FPZCrE2wC_mbCuhyae" />
+	</Enumeration>
+</DocProperty>
+

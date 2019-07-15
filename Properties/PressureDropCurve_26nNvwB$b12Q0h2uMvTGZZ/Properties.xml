@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PressureDropCurve_26nNvwBb12Q0h2uMvTGZZ" Name="PressureDropCurve" UniqueId="86c57e7a-2ff9-4109-a02b-0b85b97508e3" PropertyType="p_tablevalue" PrimaryDataType="IfcPressureMeasure" SecondaryDataType="IfcReal" />
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElectricGeneratorTypeEnum" UniqueId="00na9bqKz55RVvCD97W9ce" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="USERDEFINED_00oEX4DY9C6uKDTP608QdG" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_22t8U1vQf4BwViD6ivLjR" />
+	</Constants>
+</DocEnumeration>
+

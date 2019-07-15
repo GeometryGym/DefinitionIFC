@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CooledBeamPHistoryActive" UniqueId="bb546f3f-6665-45a2-99dd-7477e9dc60e0" ApplicableType="RelatedEntityIs:IfcCooledBeam.Predefined=&quot;ACTIVE&quot;" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AirFlowRate_3jafu4eVLF9vnRqPRiRhnV" />
+		<DocProperty xsi:nil="true" href="Throw_2uzGu3WKn4Kgc8eR868AS4" />
+		<DocProperty xsi:nil="true" href="AirPressureDropCurves_1hWSLyu9X7L9BzaDYJ1l8" />
+	</Properties>
+</DocPropertySet>
+

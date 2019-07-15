@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFeatureElementSubtraction" UniqueId="1mP7V__Vn4_e8NgTo1l_dM" DiagramNumber="4" BaseDefinition="IfcFeatureElement" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="2KrOEnG21F28NLkMW1atID" DefinedType="IfcOpeningElement" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="VoidsElements" UniqueId="3D$uybpGD4FQNH0IdyBaLv" DefinedType="IfcRelVoidsElement" AttributeFlags="8" AggregationType="0" AggregationFlag="0" Inverse="RelatedOpeningElement">
+			<Documentation>Reference to the Voids Relationship that uses this Opening Element to create a void within an Element. The Opening Element can only be used to create a single void within a single Element.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

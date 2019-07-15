@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_Asset" UniqueId="ee8f7e31-3078-4ed8-934a-6025954f8d32" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="AssetAccountingType_0NsLaU2FD8gOldvY69JziS" />
+		<DocProperty xsi:nil="true" href="AssetTaxType_0wC2x3khf2ogz1349G8ql_" />
+		<DocProperty xsi:nil="true" href="AssetInsuranceType_18FYgI91P2bvOOm02uKm5L" />
+	</Properties>
+</DocPropertySet>
+

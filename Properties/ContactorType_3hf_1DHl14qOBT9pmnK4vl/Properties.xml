@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ContactorType_3hf_1DHl14qOBT9pmnK4vl" Name="ContactorType" UniqueId="eba7e04d-46f0-44d1-82dd-273c31504e6f" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ContactorType_3_eqH5UEX0FOUfS5mGf6FX" />
+	</Enumeration>
+</DocProperty>
+

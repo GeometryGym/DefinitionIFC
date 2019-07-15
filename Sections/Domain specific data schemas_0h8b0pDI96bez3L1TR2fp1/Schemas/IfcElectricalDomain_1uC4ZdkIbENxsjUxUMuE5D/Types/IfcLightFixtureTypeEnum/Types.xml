@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcLightFixtureTypeEnum" UniqueId="2wSLHzvK51cubIaZcvQ3Rl" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="POINTSOURCE_27Tf8IdTv5sx7cUxdgqm9" />
+		<DocConstant xsi:nil="true" href="DIRECTIONSOURCE_0c54T6mk1DhtuTDO8FO6F" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_2LBzDrL_15px49UjvrO525" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2W5LebkW95fhkstvlByVUg" />
+	</Constants>
+</DocEnumeration>
+

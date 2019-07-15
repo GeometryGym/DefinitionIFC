@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCartesianTransformationOperator3DnonUniform" UniqueId="2m19YRc9L9vQAKQ3WQN6nl" DiagramNumber="4" BaseDefinition="IfcCartesianTransformationOperator3D" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Scale2" UniqueId="3Sme8x3Lr9fxoB6iMI_wxL" DefinedType="REAL" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The scaling value specified for the transformation along the axis 2. This is normally the y scale factor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Scale3" UniqueId="3ujAI6wmPAkxLV65Zt2dcs" DefinedType="REAL" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The scaling value specified for the transformation along the axis 3. This is normally the z scale factor.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Scl2" UniqueId="1dqXGyclTAggd3pBZiuxsJ" DefinedType="REAL" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The derived scale S(2) of the transformation along the axis 2 (normally the y axis), equal to Scale2 if that exists, or equal to the derived Scl1 (normally the x axis scale factor) otherwise.</Documentation>
+			<Derived>NVL(Scale2, SELF\IfcCartesianTransformationOperator.Scl)</Derived>
+		</DocAttribute>
+		<DocAttribute Name="Scl3" UniqueId="1o3x26HTf2M8GLF0fxfl04" DefinedType="REAL" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The derived scale S(3) of the transformation along the axis 3 (normally the z axis), equal to Scale3 if that exists, or equal to the derived Scl1 (normally the x axis scale factor) otherwise.</Documentation>
+			<Derived>NVL(Scale3, SELF\IfcCartesianTransformationOperator.Scl)</Derived>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="0M1d9Ig6n7kgJVUBP79fTZ">
+			<Documentation>The derived scaling Scl2 shall be greater than zero.</Documentation>
+			<Expression>Scl2 &gt; 0.0</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR2" UniqueId="2IDZQq8cbAfhyKDuui5OcN">
+			<Documentation>The derived scaling Scl3 shall be greater than zero.</Documentation>
+			<Expression>Scl3 &gt; 0.0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

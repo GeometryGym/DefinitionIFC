@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcReinforcingMesh_1powkq7Fr6HQe6Bae7bxnY" Name="IfcReinforcingMesh" UniqueId="1powkq7Fr6HQe6Bae7bxnY" DiagramNumber="2" BaseDefinition="IfcReinforcingElement" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="MeshLength" UniqueId="1amub4lAL5jxvGjy_uHPJB" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The overall length of the mesh measured in its longitudinal direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="MeshWidth" UniqueId="36ThASMoX4ow48YUFfwJ7w" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The overall width of the mesh measured in its transversal direction.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LongitudinalBarNominalDiameter" UniqueId="14LJk5C093TQwjv69BTsbp" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The nominal diameter denoting the cross-section size of the longitudinal bars.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TransverseBarNominalDiameter" UniqueId="1kUmm_9XXF_eIp1v_PExgl" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The nominal diameter denoting the cross-section size of the transverse bars.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LongitudinalBarCrossSectionArea" UniqueId="1rKYsJZ$zBXP2uBWmXxsM6" DefinedType="IfcAreaMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The effective cross-section area of the longitudinal bars of the mesh.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TransverseBarCrossSectionArea" UniqueId="0YsnqjDhH2fweEKr$o8tqr" DefinedType="IfcAreaMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The effective cross-section area of the transverse bars of the mesh.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="LongitudinalBarSpacing" UniqueId="1shaJxW5rEaOOAveC7vr_T" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The spacing between the longitudinal bars. Note: an even distribution of bars is presumed; other cases are handled by Psets.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TransverseBarSpacing" UniqueId="1SjeF3v1z0PgOOYgDkzRrS" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The spacing between the transverse bars. Note: an even distribution of bars is presumed; other cases are handled by Psets.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

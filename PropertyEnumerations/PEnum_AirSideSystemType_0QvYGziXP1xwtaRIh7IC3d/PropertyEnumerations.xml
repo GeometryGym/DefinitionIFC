@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AirSideSystemType_0QvYGziXP1xwtaRIh7IC3d" Name="PEnum_AirSideSystemType" UniqueId="1ae6243d-b216-41ef-ade4-6d2ac748c0e7">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="CONSTANTVOLUME_2VJ9iMw854exjOW7LPCGj" />
+		<DocPropertyConstant xsi:nil="true" href="CONSTANTVOLUMESINGLEZONE_2kdu2xrMf3R8oacx48ZoG" />
+		<DocPropertyConstant xsi:nil="true" href="CONSTANTVOLUMEMULTIPLEZONEREHEAT_1g6EldFJz5_OzRxOH3m39v" />
+		<DocPropertyConstant xsi:nil="true" href="CONSTANTVOLUMEBYPASS_1cZQVO6x5EJR9vh1hr7hR" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLEAIRVOLUME_1VpX6b_WrCYf1THi2TlPYz" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLEAIRVOLUMEREHEAT_1MysMzeUvCQAYmehgnUii4" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLEAIRVOLUMEINDUCTION_0nnersKCv18E2Jsz991" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLEAIRVOLUMEFANPOWERED_0cBX8U7if0ehY1gnYyMMjB" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLEAIRVOLUMEDUALCONDUIT_3w5H7kFjPChOjdvfHDnEjP" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLEAIRVOLUMEVARIABLEDIFFUSERS_3bTJys2kz6AOeeh_QeRzZ" />
+		<DocPropertyConstant xsi:nil="true" href="VARIABLEAIRVOLUMEVARIABLETEMPERATURE_0xsyuz8BL0LxAjGsktAuYL" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

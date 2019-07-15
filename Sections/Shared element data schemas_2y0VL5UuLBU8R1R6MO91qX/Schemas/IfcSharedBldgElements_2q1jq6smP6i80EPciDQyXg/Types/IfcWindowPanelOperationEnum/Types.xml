@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcWindowPanelOperationEnum" UniqueId="3CvmV6Bcf678QfVLK3dDJq" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="SIDEHUNGRIGHTHAND_3czBGkNR16yAxOQahVzy_Z" />
+		<DocConstant xsi:nil="true" href="SIDEHUNGLEFTHAND_2pEDLH7AT5QO2BANB0OOwa" />
+		<DocConstant xsi:nil="true" href="TILTANDTURNRIGHTHAND_2MYWxqZnn2Re0RuiVxEbK" />
+		<DocConstant xsi:nil="true" href="TILTANDTURNLEFTHAND_2O1ib1YODBrADR2TVliddF" />
+		<DocConstant xsi:nil="true" href="TOPHUNG_2YwnyDDL6_wfj1RzcbfnG" />
+		<DocConstant xsi:nil="true" href="BOTTOMHUNG_0wvJ4B5qz52eRyq_rivAK8" />
+		<DocConstant xsi:nil="true" href="PIVOTHORIZONTAL_04Me3BFtHCTQYjRl_Ke0pa" />
+		<DocConstant xsi:nil="true" href="PIVOTVERTICAL_1FmqWbKir5Du3xLT0QbDy" />
+		<DocConstant xsi:nil="true" href="SLIDINGHORIZONTAL_3hkRK8PMf22fZimXr5t62u" />
+		<DocConstant xsi:nil="true" href="SLIDINGVERTICAL_2e3SeQqjCivU9n255HZwy" />
+		<DocConstant xsi:nil="true" href="REMOVABLECASEMENT_2q7zK5A453K959T8zXG2x" />
+		<DocConstant xsi:nil="true" href="FIXEDCASEMENT_3NOCZ3PYrDz9zShm4C8zcV" />
+		<DocConstant xsi:nil="true" href="OTHEROPERATION_1NZP6ovVzBFPP8ejb0gIsI" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3Zh0ArX3v6EgI5F3DEjs2g" />
+	</Constants>
+</DocEnumeration>
+

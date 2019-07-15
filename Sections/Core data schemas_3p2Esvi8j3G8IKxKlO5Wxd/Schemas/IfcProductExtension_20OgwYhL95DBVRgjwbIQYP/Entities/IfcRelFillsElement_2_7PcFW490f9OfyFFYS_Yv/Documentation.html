@@ -1,0 +1,43 @@
+<EPM-HTML> 
+    <p>
+      <u>Definition from IAI</u>: Objectified relationship
+      between an opening element and an <strike>building</strike>
+      element that fills (or partially fills) the opening
+      element. It is an one-to-one relationship.
+    </p>
+    <blockquote>
+      <p>
+        <small>NOTE view definitions or implementer agreements
+        may restrict an opening to be filled by one filling
+        element only.</small>
+      </p>
+    </blockquote>
+    <table border="0" cellpadding="0" cellspacing="0" width="502"
+    summary="example for filling">
+      <tr>
+        <td>
+          <img src="figures/IfcRelFillsElements-Fig1.png" alt=
+          "relationships for filling" width="501" height="401"
+          border="0">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <small><br>
+          Figure  The insertion of a door into a wall is
+          represented by two separate relationships. First the
+          door opening is created within the wall by
+          <i>IfcWall(StandardCase) o-- IfcRelVoidsElement --o
+          IfcOpeningElement</i>, then the door is inserted within
+          the opening by <i>IfcOpeningElement o--
+          IfcRelFillsElement --o IfcDoor</i>.</small>
+        </td>
+      </tr>
+    </table>
+    <blockquote>
+      <p>
+        <small><font color="#0000FF">HISTORY New entity in IFC
+        Release 1.0</font></small>
+      </p>
+    </blockquote>
+</EPM-HTML>

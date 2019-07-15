@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FanPHistory" UniqueId="0ecd79c2-0c55-4083-b4e6-089924acf616" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FanRotationSpeed_3cmQscGof8exRsypRAiYxc" />
+		<DocProperty xsi:nil="true" href="WheelTipSpeed_38t2RRsPT48B0uqyfgM9M9" />
+		<DocProperty xsi:nil="true" href="FanEfficiency_2bnFpl0bf85ulQ3U4z3Z_" />
+		<DocProperty xsi:nil="true" href="OverallEfficiency_1xtEngzHr17fHA4xp5Ojob" />
+		<DocProperty xsi:nil="true" href="FanPowerRate_0j_4qqAVfEhgliYTENzPU8" />
+		<DocProperty xsi:nil="true" href="ShaftPowerRate_0fK08mnXfBZ9TXmHbH9aVI" />
+		<DocProperty xsi:nil="true" href="PressureCurve_3VD_oJ6h9BfhENpw3YMmfY" />
+		<DocProperty xsi:nil="true" href="EfficiencyCurve_2EdeCg3PC_AelVyFePpqC" />
+		<DocProperty xsi:nil="true" href="DischargeVelocity_3Mwdye97P84OQFWGOJq3xL" />
+		<DocProperty xsi:nil="true" href="DischargePressureLoss_02xu17Clb4H94elIJugVoU" />
+		<DocProperty xsi:nil="true" href="DrivePowerLoss_2S6ZrhWMbAKxzK2xQVWDfg" />
+	</Properties>
+</DocPropertySet>
+

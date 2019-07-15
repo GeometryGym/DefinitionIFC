@@ -1,0 +1,50 @@
+<EPM-HTML> 
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: An IfcCircle is defined by
+		a radius and the location and orientation of the circle. Interpretation of data
+		should be as follows: </P> 
+	 <BLOCKQUOTE> 
+		<BLOCKQUOTE> 
+		  <PRE> 
+C = SELF\IfcConic.Position.Location</PRE> 
+		  <PRE>x = SELF\IfcConic.Position.P[1]</PRE> 
+		  <PRE>y = SELF\IfcConic.Position.P[2]</PRE> 
+		  <PRE>z = SELF\IfcConic.Position.P[3]</PRE> 
+		  <PRE>R = Radius</PRE></BLOCKQUOTE></BLOCKQUOTE> 
+	 <P>and the circle is parameterized as </P> 
+	 <BLOCKQUOTE> 
+		<BLOCKQUOTE><IMG SRC="figures/IfcCircle-Math1.gif" WIDTH="205"
+		  HEIGHT="22"></BLOCKQUOTE></BLOCKQUOTE> 
+	 <P>The parameterization range is 0 <FONT FACE="Symbol">&pound;</FONT>
+		<I>u</I> <FONT FACE="Symbol">&pound;</FONT>2<FONT FACE="Symbol">p</FONT> (or 0
+		<FONT FACE="Symbol">&pound;</FONT><I>u</I> <FONT FACE="Symbol">&pound;</FONT>
+		360 degree). In the placement coordinate system defined above, the circle is
+		the equation <I>C</I> = 0, where</P> 
+	 <BLOCKQUOTE> 
+		<BLOCKQUOTE><IMG SRC="figures/IfcCircle-Math2.gif" WIDTH="154"
+		  HEIGHT="24"></BLOCKQUOTE></BLOCKQUOTE> 
+	 <P>The positive sense of the circle at any point is in the tangent
+		direction, <B>T</B>, to the curve at the point, where</P> 
+	 <BLOCKQUOTE> 
+		<BLOCKQUOTE><IMG SRC="figures/IfcCircle-Math3.gif" WIDTH="102"
+		  HEIGHT="25"></BLOCKQUOTE></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE A circular arc is defined by using the trimmed
+		  curve (IfcTrimmedCurve) entity in conjunction with the circle (IfcCircle)
+		  entity as the BasisCurve.</FONT> </P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1" COLOR="#0000FF">NOTE Corresponding STEP entity:
+		  circle, please refer to ISO/IS 10303-42:1994, p. 38 for the final definition of
+		  the formal standard. </FONT></P> 
+		<P><FONT SIZE="-1" COLOR="#0000FF">HISTORY New class in IFC Release 1.0
+		  </FONT></P></BLOCKQUOTE> 
+	 <P><U>Illustration</U>:</P> 
+	 <TABLE CELLPADDING="2" CELLSPACING="2"> 
+		<TR> 
+		  <TD><A HREF="drawings/IfcCircle-Layout1.dwf"><IMG
+			 SRC="figures/IfcCircle-Layout1.gif" ALT="axis1 placement" WIDTH="400"
+			 HEIGHT="300" BORDER="0"></A></TD> 
+		  <TD VALIGN="TOP" ALIGN="LEFT">Definition of the <I>IfcCircle</I> within
+			 the (in this case three-dimensional) position coordinate system.</TD> 
+		</TR> 
+	 </TABLE>
+</EPM-HTML>

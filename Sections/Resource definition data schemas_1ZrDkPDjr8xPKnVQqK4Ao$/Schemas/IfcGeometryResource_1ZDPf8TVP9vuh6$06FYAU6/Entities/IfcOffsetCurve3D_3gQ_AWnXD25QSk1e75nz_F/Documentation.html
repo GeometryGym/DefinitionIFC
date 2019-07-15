@@ -1,0 +1,36 @@
+<EPM-HTML> 
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: An offset curve 3d is a
+		curve at a constant distance from a basis curve in three-dimensional space. The
+		underlying curve shall have a well-defined tangent direction at every point. In
+		the case of a composite curve the transition code between each segment shall be
+		cont same gradient or cont same gradient same curvature. The offset curve at
+		any point (parameter) on the basis curve is in the direction <I>V x T</I> where
+		<I>V</I> is the fixed reference direction and <I>T</I> is the unit tangent to
+		the basis curve. For the offset direction to be well defined, <I>T</I> shall
+		not at any point of the curve be in the same, or opposite, direction as
+		<I>V</I>.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: The offset curve 3d may differ in nature from
+		  the basis curve; the offset of a non self- intersecting curve can be
+		  self-intersecting. Care should be taken to ensure that the offset to a
+		  continuous curve does not become discontinuous.</FONT></P></BLOCKQUOTE> 
+	 <P>The offset curve 3d takes its parameterization from the basis curve. The
+		offset curve 3d is parameterized as </P> 
+	 <BLOCKQUOTE> 
+		<P><IMG SRC="figures/IfcOffsetCurve3d-Math1.gif" ALT="Math" BORDER="0"
+		  WIDTH="134" HEIGHT="22"></P></BLOCKQUOTE> 
+	 <P>where <B>T</B> is the unit tangent vector to the basis curve
+		<B>C</B>(<I>u</I>) at parameter value <I>u</I>, and <I>d</I> is distance. The
+		underlying curve shall be three-dimensional.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1" COLOR="#0000FF">NOTE Corresponding STEP entity:
+		  offset_curve_3d, Please refer to ISO/IS 10303-42:1994, p.66 for the final
+		  definition of the formal standard. </FONT></P> 
+		<P><FONT SIZE="-1" COLOR="#0000FF">HISTORY New entity in IFC Release 2.x
+		  </FONT></P></BLOCKQUOTE> 
+	 <P><U>Informal propositions:</U></P> 
+	 <OL>
+		<LI>At no point on the curve shall ref direction be parallel, or opposite
+		  to, the direction of the tangent vector.</LI>
+	 </OL> 
+</EPM-HTML>

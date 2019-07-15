@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStructuralResultGroup" UniqueId="1J54upmHr6jfXLU8lAQ8YZ" DiagramNumber="5" BaseDefinition="IfcGroup" EntityFlags="165">
+	<Attributes>
+		<DocAttribute Name="TheoryType" UniqueId="1iyHM57UL9tf4E7w4f2bvK" DefinedType="IfcAnalysisTheoryTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Specifies the analysis theory used to obtain the respective results.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ResultForLoadGroup" UniqueId="2lKjsUONX9eBG$V1lPQvWD" DefinedType="IfcStructuralLoadGroup" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to an instance of IfcStructuralLoadGroup for which this instance represents the result.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsLinear" UniqueId="2nK93$0FLFVRAVOIDA3TPk" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>This Boolean value allows to easily recognize if a linear analysis has been applied (allowing the superposition of analysis results), or vice versa.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ResultGroupFor" UniqueId="2utfOrlnX4p8osHhv0yXau" DefinedType="IfcStructuralAnalysisModel" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="HasResults">
+			<Documentation>Reference to an instance of IfcStructuralAnalysisModel for which this instance captures a result.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

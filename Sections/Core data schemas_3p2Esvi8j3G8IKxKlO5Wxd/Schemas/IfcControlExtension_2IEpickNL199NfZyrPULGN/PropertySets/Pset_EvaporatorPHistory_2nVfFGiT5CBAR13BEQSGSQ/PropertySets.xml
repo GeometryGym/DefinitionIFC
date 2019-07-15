@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_EvaporatorPHistory" UniqueId="b17e93d0-b1d1-4c2c-a6c1-0cb39a71071a" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HeatRejectionRate_1Vwla2r3vD38dqOjQiYV2" />
+		<DocProperty xsi:nil="true" href="ExteriorHeatTransferCoefficient_1kYVKHqrP1dOfHYOP8UcjO" />
+		<DocProperty xsi:nil="true" href="InteriorHeatTransferCoefficient_3wZMdgBw52MwTYMXIZVm0r" />
+		<DocProperty xsi:nil="true" href="RefrigrerantFoulingResistance_2826AL8VrD2xnsCpkthG5c" />
+		<DocProperty xsi:nil="true" href="EvaporatingTemperature_3o8juNo957veQCLmtOh8Is" />
+		<DocProperty xsi:nil="true" href="LogarithmicMeanTemperatureDifference_3n36lZmE93JBOAGxTFj7pM" />
+		<DocProperty xsi:nil="true" href="UAcurves_3RjS4p3nD4pAWUCvwjxKsv" />
+		<DocProperty xsi:nil="true" href="CompressorEvaporatorHeatGain_0IEwh_Nb4ZBNyLvJ7CZhg" />
+		<DocProperty xsi:nil="true" href="CompressorEvaporatorPressureDrop_17BvRCrgPDBwXfwgRPZv1" />
+		<DocProperty xsi:nil="true" href="EvaporatorMeanVoidFraction_2vHgfIO9T2je3h9Yh1G4V2" />
+		<DocProperty xsi:nil="true" href="WaterFoulingResistance_3ltX381mX6i8t9tpZAvbUQ" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DoorWindowShadingType" UniqueId="9c3e7006-7969-466e-b63d-5cfbd2530b15" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ExternalShadingCoefficient_15MCpQ9iH2rea14UCrJvRq" />
+		<DocProperty xsi:nil="true" href="InternalShadingCoefficient_3hrGyuyTb82vADCnuV7CDN" />
+		<DocProperty xsi:nil="true" href="InsetShadingCoefficient_075t6pENvCZALq8owqwrRu" />
+	</Properties>
+</DocPropertySet>
+

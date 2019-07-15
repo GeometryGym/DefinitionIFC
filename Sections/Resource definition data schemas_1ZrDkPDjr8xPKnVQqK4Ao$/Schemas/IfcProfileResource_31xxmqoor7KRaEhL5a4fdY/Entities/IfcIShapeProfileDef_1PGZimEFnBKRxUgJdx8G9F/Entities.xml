@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcIShapeProfileDef" UniqueId="1PGZimEFnBKRxUgJdx8G9F" DiagramNumber="3" BaseDefinition="IfcParameterizedProfileDef" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="2cuhPIfBrF2RL1g1_WDPP2" DefinedType="IfcAsymmetricIShapeProfileDef" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="OverallWidth" UniqueId="1Ea8xfepr9twewzTwx7Ndx" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Total extent of the width, defined parallel to the x axis of the position coordinate system.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OverallDepth" UniqueId="0koPxJLGXA3u1HjOt5iU5k" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Total extent of the depth, defined parallel to the y axis of the position coordinate system.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="WebThickness" UniqueId="1oo8XCR3T12uhFaD1Au31S" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness of the web of the I-shape. The web is centred on the x-axis and the y-axis of the position coordinate system.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FlangeThickness" UniqueId="3esQnTzn545hdwQB0Pjjjq" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Flange thickness of the I-shape. Both, the upper and the lower flanges have the same thickness and they are centred on the y-axis of the position coordinate system.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="FilletRadius" UniqueId="1Z6$FyBRTC0facqESHiMIa" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The fillet between the web and the flange, if not given, zero is assumed.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="3hmu4msEj80hatCRG3_C_B">
+			<Documentation>The thickness of the flange shall be less than half of the overall depth.</Documentation>
+			<Expression>FlangeThickness &lt; (OverallDepth / 2.)</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR2" UniqueId="2LK_1yPd5D4ePuSAvMRoZo">
+			<Documentation>The web thickness shall be less then the overall width.</Documentation>
+			<Expression>WebThickness &lt; OverallWidth</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR3" UniqueId="2YSgci$f16Qh204kYNgaaU">
+			<Documentation>The FilletRadius, if given, should be within the range of allowed values.</Documentation>
+			<Expression>NOT(EXISTS(FilletRadius)) OR
+((FilletRadius &lt;= (OverallWidth - WebThickness)/2.) AND 
+ (FilletRadius &lt;= (OverallDepth - (2. * FlangeThickness))/2.))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

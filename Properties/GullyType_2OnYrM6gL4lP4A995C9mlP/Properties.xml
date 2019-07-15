@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="GullyType_2OnYrM6gL4lP4A995C9mlP" Name="GullyType" UniqueId="98c62d56-1aa5-44bd-910a-24914c270bd9" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_GullyType_0uwOjgcvT67gE7ESTVfzMm" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,30 @@
+<EPM-HTML>
+    <p>
+      <u>Definition from IAI</u>: This function returns true if
+      the different fill area styles are assigned correctly to
+      the <i>IfcFillAreaStyle</i>. Only certain combinations of
+      the entity types provided by the <i>IfcFillStyleSelect</i>
+      are allowed.
+    </p>
+    <p>
+      Return false:
+    </p>
+    <ul>
+      <li>if more then one externally defined style is assigned
+      </li>
+      <li>if an externally defined style is given and any other
+      internal style definition is attached additionally
+      </li>
+      <li>if more then one background colour is assigned
+      </li>
+      <li>if both, a hatching and a tiling is assigned
+      </li>
+    </ul>
+    <p>
+      otherwise return true
+    </p>
+    <blockquote>
+      <font color="#0000FF"><small>HISTORY  New function
+      in Release IFC2x3 TC1.</small></font>
+    </blockquote>
+</EPM-HTML>

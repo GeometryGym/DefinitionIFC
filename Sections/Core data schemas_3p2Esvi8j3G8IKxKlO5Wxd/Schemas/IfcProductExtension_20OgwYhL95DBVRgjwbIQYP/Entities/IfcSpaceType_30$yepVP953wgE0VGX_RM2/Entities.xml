@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSpaceType" UniqueId="30$yepVP953wgE0VGX_RM2" DiagramNumber="8" BaseDefinition="IfcSpatialStructureElementType" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="1jzTKtcbz7HwRl0UdcAU1g" DefinedType="IfcSpaceTypeEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Predefined types to define the particular type of space. There may be property set definitions available for each predefined type.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

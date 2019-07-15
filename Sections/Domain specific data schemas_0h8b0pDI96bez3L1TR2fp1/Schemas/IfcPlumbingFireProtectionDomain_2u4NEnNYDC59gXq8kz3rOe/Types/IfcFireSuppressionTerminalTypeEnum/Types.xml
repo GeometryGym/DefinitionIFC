@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFireSuppressionTerminalTypeEnum" UniqueId="1hgyHEUz1FNPGoPfesG6Go" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="BREECHINGINLET_17Fl2qRn2CRvUFzIguGP1" />
+		<DocConstant xsi:nil="true" href="FIREHYDRANT_2rdAf0slzA_8R55rcLHiRy" />
+		<DocConstant xsi:nil="true" href="HOSEREEL_1Ub3EKzT97geLZPTRQwgD2" />
+		<DocConstant xsi:nil="true" href="SPRINKLER_3dCiZdgyn6TAwO48f2kE70" />
+		<DocConstant xsi:nil="true" href="SPRINKLERDEFLECTOR_2006olyvDBuw2k5qC74ah" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3FafmhMqD2uALNG4QVTip3" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2Bd1c4GVT4LQRvpDg44VEA" />
+	</Constants>
+</DocEnumeration>
+

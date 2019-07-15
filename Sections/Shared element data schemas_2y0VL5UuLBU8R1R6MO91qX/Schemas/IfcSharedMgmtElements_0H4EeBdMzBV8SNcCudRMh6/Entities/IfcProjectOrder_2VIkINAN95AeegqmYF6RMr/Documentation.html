@@ -1,0 +1,54 @@
+<EPM-HTML> 
+<p><u>Definition from IAI:</u> An <i>IfcProjectOrder</i>
+sets common properties for project orders issued in a construction or
+facilities management project. </p>
+<blockquote> <font color="#0000ff" size="-1">HISTORY:
+New Entity in IFC Release 2.0. Modified in IFC 2x2</font></blockquote>
+<p><u><b>Use Definitions</b></u></p>
+<p>Actor attributes such as the organization to which the order
+is sent, issuing organization, person responsible atc. are handled by
+assigning instances of <i>IfcActor</i> through <i>IfcRelAssignsToProjectOrder</i>.
+The <i>IfcActorRole</i> must be asserted with the value of
+the role set when used in this context.</p>
+<p>A work plan (acting as a service) may be assigned to a project
+order (acting as a client) to describe how the project order should be
+fulfilled. This is handled by assigning instances of <i>IfcWorkPlan</i>
+through <i>IfcRelAssignsToProjectOrder</i>.</p>
+<p>The reverse of this situation may be true whereby the work
+plan (acting as a client) may have project orders (acting as a
+service). This is handled by assigning instances of <i>IfcProjectOrder</i>
+to an <i>IfcWorkPlan</i> through <i>IfcRelAssignsToControl</i>.</p>
+<p>Approvals including signoff, authorization etc. are handled
+using the the <i>IfcRelAssociatesApproval</i> relationship
+class.</p>
+<p>A cost schedule may be assigned to a project order are handled
+through the <i>IfcRelAssignsToProjectOrder</i>
+relationship. </p>
+<p><u><b>Property Set Use Definition</b></u>:</p>
+<p>The property sets relating to an <i>IfcProjectOrder</i>
+are defined by the <i>IfcPropertySet</i> and attached by
+the <i>IfcRelDefinesByProperties</i> relationship. It is
+accessible by the inverse <i>IsDefinedBy</i> relationship.
+The following property set definitions specific to an <i>IfcProjectOrder</i>
+are part of this IFC release:</p>
+<ul>
+  <li><a
+ href="../../psd/IfcSharedMgmtElements/Pset_ProjectOrderChangeOrder.xml">Pset_ProjectOrderChangeOrder</a>:
+specific property set for the properties of a change order, if available</li>
+  <li><a
+ href="../../psd/IfcSharedMgmtElements/Pset_ProjectOrderMaintenanceWorkOrder.xml">Pset_ProjectOrderMaintenanceWorkOrder</a>:
+specific property set for the properties of a maintenance work order,
+if available </li>
+  <li><a
+ href="../../psd/IfcSharedMgmtElements/Pset_ProjectOrderMoveOrder.xml">Pset_ProjectOrderMoveOrder</a>:
+specific property set for the properties of a move order, if available </li>
+  <li><a
+ href="../../psd/IfcSharedMgmtElements/Pset_ProjectOrderPurchaseOrder.xml">Pset_ProjectOrderPurchaseOrder</a>:
+specific property set for the properties of a purchase order, if
+available </li>
+  <li><a
+ href="../../psd/IfcSharedMgmtElements/Pset_ProjectOrderWorkOrder.xml">Pset_ProjectOrderWorkOrder</a>:
+specific property set for the properties of a general work order, if
+available </li>
+</ul>
+</EPM-HTML>

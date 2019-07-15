@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceOfRevolution" UniqueId="0bwZdgiIL3JPJLlUiNDbEU" DiagramNumber="8" BaseDefinition="IfcSweptSurface" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="AxisPosition" UniqueId="1K_mjbDnLEVwpJ64qSANgc" DefinedType="IfcAxis1Placement" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A point on the axis of revolution and the direction of the axis of revolution.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="AxisLine" UniqueId="2vmNkP1Mf1$gg$00v0bVY0" DefinedType="IfcLine" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The line coinciding with the axis of revolution.</Documentation>
+			<Derived>IfcRepresentationItem() || IfcGeometricRepresentationItem () || IfcCurve() || IfcLine(AxisPosition.Location, 
+  IfcRepresentationItem() || IfcGeometricRepresentationItem () || IfcVector(AxisPosition.Z,1.0))</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

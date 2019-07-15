@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPointOnCurve" UniqueId="00mGOnLpn6Vx2J6frsQRAe" DiagramNumber="3" BaseDefinition="IfcPoint" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="BasisCurve" UniqueId="1Ngn8AP8XC6OF3k2lvIf3I" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The curve to which point parameter relates.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="PointParameter" UniqueId="3w6n3WnHT7DfMUYHwh8e1u" DefinedType="IfcParameterValue" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The parameter value of the point location.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="0Dp_8uTlHBfxxzsWWKdPfV" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, determined by the space dimensionality of the basis curve.</Documentation>
+			<Derived>BasisCurve.Dim</Derived>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

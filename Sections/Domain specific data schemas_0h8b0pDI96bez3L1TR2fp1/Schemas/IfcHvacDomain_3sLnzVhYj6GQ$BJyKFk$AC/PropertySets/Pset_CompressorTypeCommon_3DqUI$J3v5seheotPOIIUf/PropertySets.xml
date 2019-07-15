@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CompressorTypeCommon" UniqueId="cdd1e4bf-4c3e-45da-8ae8-cb76584927a9" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="PowerSource_2Ie5pb68v0UAYfGIUNSn5T" />
+		<DocProperty xsi:nil="true" href="RefrigerantClass_3Dxmpov2PEpgLtELlzGYp5" />
+		<DocProperty xsi:nil="true" href="RefrigerantType_2uLiuRoFTEvUPR3CQwO21" />
+		<DocProperty xsi:nil="true" href="MinimumPartLoadRatio_3vSCDvZvH7GAOf1d3CYtIO" />
+		<DocProperty xsi:nil="true" href="MaximumPartLoadRatio_1oolD8oKD9_wPEznbmKfvU" />
+		<DocProperty xsi:nil="true" href="CompressorSpeed_2uNVEpc8927QuWfs6ZP55i" />
+		<DocProperty xsi:nil="true" href="NominalCapacity_1nFk51kkzE4Pxisdn138k" />
+		<DocProperty xsi:nil="true" href="IdealCapacity_1Nb9n40LbFSxpQizo_66ru" />
+		<DocProperty xsi:nil="true" href="IdealShaftPower_04WcOmBV14deAUbsrXMxRG" />
+		<DocProperty xsi:nil="true" href="HasHotGasBypass_2fmyqsxRP4ShiAXEUyZKw4" />
+	</Properties>
+</DocPropertySet>
+

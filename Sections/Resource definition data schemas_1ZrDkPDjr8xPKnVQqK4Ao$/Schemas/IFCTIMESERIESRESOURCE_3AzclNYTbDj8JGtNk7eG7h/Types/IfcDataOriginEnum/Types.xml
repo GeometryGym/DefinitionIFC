@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDataOriginEnum" UniqueId="2OH7X1Quz10ut1pSebkSrf" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="MEASURED_0lzwa6XejEHgvujZqZ8JAR" />
+		<DocConstant xsi:nil="true" href="PREDICTED_0lCCPERZLDhBJ0hxmle5ie" />
+		<DocConstant xsi:nil="true" href="SIMULATED_0F2y9SeVP669DXpB9Zl9N" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1xdame457mwi5GGyrVxGU" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1VdG_mB5P25gL_Ts8yNNy8" />
+	</Constants>
+</DocEnumeration>
+

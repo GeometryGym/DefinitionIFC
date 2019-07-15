@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ReturnAirFractionRange_1oM5EU5m5EmuowIVgOOduG" Name="ReturnAirFractionRange" UniqueId="7258539e-1701-4ec3-8cba-49fa98627e10" PropertyType="p_boundedvalue" PrimaryDataType="IfcPositiveRatioMeasure" />
+

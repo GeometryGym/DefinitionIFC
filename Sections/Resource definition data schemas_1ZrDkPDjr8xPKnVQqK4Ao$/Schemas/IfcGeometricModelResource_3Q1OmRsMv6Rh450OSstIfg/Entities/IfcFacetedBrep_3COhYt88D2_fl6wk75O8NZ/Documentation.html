@@ -1,0 +1,26 @@
+<EPM-HTML> 
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: A faceted brep is a simple
+		form of boundary representation model in which all faces are planar and all
+		edges are straight lines. Unlike the B-rep model, edges and vertices are not
+		represented explicitly in the model but are implicitly available through the
+		poly loop entity. A faceted B-rep has to meet the same topological constraints
+		as the manifold solid Brep. </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: The faceted brep has been introduced in order to
+		  support the larger number of systems that allow boundary type solid
+		  representations with planar surfaces only.</FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">NOTE: Corresponding STEP
+		entity: faceted_brep. Please refer to ISO/IS 10303-42:1994, p. 173 for the
+		final definition of the formal standard. In the current IFC Release faceted
+		B-rep with voids is represented by an own subtype and not defined via an
+		implicit ANDOR supertype constraint as in ISO/IS 10303-42:1994. This change has
+		been made due to the fact, that only ONEOF supertype constraint is allowed
+		within the IFC object model. </FONT> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY New class in IFC Release 1.0
+		  </FONT></P></BLOCKQUOTE> 
+	 <P><U>Informal proposition:</U></P> 
+	 <OL> 
+		<LI>All the bounding loops of all the faces of all the shells in the
+		  <I>IfcFacetedBrep</I> shall be of type <I>IfcPolyLoop</I>.</LI> 
+	 </OL>
+</EPM-HTML>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcElementType" UniqueId="0fa1a1rKX8WfIECuAAbRds" DiagramNumber="8" BaseDefinition="IfcTypeProduct" EntityFlags="69">
+	<Subtypes>
+		<DocSubtype UniqueId="3gpDss3t51Jx5y29swxsbP" DefinedType="IfcBuildingElementType" />
+		<DocSubtype UniqueId="3hRVwCrrj2AAcYUTQC27kp" DefinedType="IfcDistributionElementType" />
+		<DocSubtype UniqueId="2QzgPnGa15dQ2jd5Iofpgf" DefinedType="IfcFurnishingElementType" />
+		<DocSubtype UniqueId="2glrcfQ7XE5wKQDvXiHgjN" DefinedType="IfcTransportElementType" />
+		<DocSubtype UniqueId="0O80wGkjj71RgtHYH62Gkz" DefinedType="IfcSpatialStructureElementType" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="ElementType" UniqueId="3mWP65$fzDfOZrOqjcTwQk" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The type denotes a particular type that indicates the object further. The use has to be established at the level of instantiable subtypes. In particular it holds the user defined type, if the enumeration of the attribute &apos;PredefinedType&apos; is set to USERDEFINED.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="EvaporatorCoolant_1c5VsEGUP3TPobBaSqcwxd" Name="EvaporatorCoolant" UniqueId="6615fd8e-41e6-4375-9ca5-2e47349baee7" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_EvaporatorCoolant_3Om8UJF69BW9dQ0Br3USN3" />
+	</Enumeration>
+</DocProperty>
+

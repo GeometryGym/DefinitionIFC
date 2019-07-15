@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextureCoordinate" UniqueId="27CcVqQ6z7z9P4mChySNeO" DiagramNumber="4" EntityFlags="69">
+	<Subtypes>
+		<DocSubtype UniqueId="1kVQAtvk11B9_8euOyQISg" DefinedType="IfcTextureCoordinateGenerator" />
+		<DocSubtype UniqueId="2fetRQ8aTFqhYADtRtiLV9" DefinedType="IfcTextureMap" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="AnnotatedSurface" UniqueId="10KlHtvpDEvh66$4dkOOLn" DefinedType="IfcAnnotationSurface" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="1" Inverse="TextureCoordinates" />
+	</Attributes>
+</DocEntity>
+

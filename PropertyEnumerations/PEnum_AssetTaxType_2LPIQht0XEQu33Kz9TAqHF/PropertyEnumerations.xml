@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_AssetTaxType_2LPIQht0XEQu33Kz9TAqHF" Name="PEnum_AssetTaxType" UniqueId="956526ab-dc08-4e6b-80c3-53d25d2b444f">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Capitalised_3ABF8xRbXBKODVjG6QyKU" />
+		<DocPropertyConstant xsi:nil="true" href="Expensed_074PCyEDzC1vdoCIfrG5V5" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

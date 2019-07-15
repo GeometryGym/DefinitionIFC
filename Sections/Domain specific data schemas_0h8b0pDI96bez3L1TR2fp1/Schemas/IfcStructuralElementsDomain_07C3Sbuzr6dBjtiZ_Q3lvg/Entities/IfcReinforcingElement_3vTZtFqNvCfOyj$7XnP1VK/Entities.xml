@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcReinforcingElement" UniqueId="3vTZtFqNvCfOyj$7XnP1VK" DiagramNumber="2" BaseDefinition="IfcBuildingElementComponent" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="1HnZRYg6b1d84oWFdjEhI5" DefinedType="IfcReinforcingBar" />
+		<DocSubtype UniqueId="0HA2GM36HDmABP3AusnCwi" DefinedType="IfcReinforcingMesh" />
+		<DocSubtype UniqueId="0Q_wE5s6fDTgYwgIqX0dOo" DefinedType="IfcTendon" />
+		<DocSubtype UniqueId="3StYS947T9Xu$mjyQxnyL1" DefinedType="IfcTendonAnchor" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="SteelGrade" UniqueId="3t723rZ_f6evhsTo$DMhB1" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The nominal steel grade defined according to local standards.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

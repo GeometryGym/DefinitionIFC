@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcReinforcingBar_2Voy12wi5FFvfzwyH_4qcE" Name="IfcReinforcingBar" UniqueId="2Voy12wi5FFvfzwyH_4qcE" DiagramNumber="2" BaseDefinition="IfcReinforcingElement" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="NominalDiameter" UniqueId="3K9RV9kO97JhqPbnvyu9uf" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The nominal diameter defining the cross-section size of the reinforcing bar.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="CrossSectionArea" UniqueId="0INNOPJwTAY8z5hIkMV5TG" DefinedType="IfcAreaMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The effective cross-section area of the reinforcing bar.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BarLength" UniqueId="0y_N25LN114wn$QLghlIzZ" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The total length of the reinforcing bar. The total length of bended bars are calculated according to local standards with corrections for the bends.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BarRole" UniqueId="2ov_9PuGbBIhAOlc46Aroe" DefinedType="IfcReinforcingBarRoleEnum" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The role, purpose or usage of the bar, i.e. the kind of loads and stresses it is intended to carry.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="BarSurface" UniqueId="1OQeq$J1P3IPpa6wVTW9BH" DefinedType="IfcReinforcingBarSurfaceEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Indicator for whether the bar surface is plain or textured.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="0TKLVPUJH48fVA$wNtxYw8">
+			<Documentation>The attribute ObjectType shall be given, if the bar role type is set to USERDEFINED.</Documentation>
+			<Expression>(BarRole &lt;&gt; IfcReinforcingBarRoleEnum.USERDEFINED) OR ((BarRole = IfcReinforcingBarRoleEnum.USERDEFINED) AND EXISTS(SELF\IfcObject.ObjectType)) </Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

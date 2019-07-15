@@ -1,0 +1,107 @@
+<EPM-HTML> 
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: This is a special type of
+		curve which can be represented as a type of B-spline curve in which the knots
+		are evenly spaced and have high multiplicities. Suitable default values for the
+		knots and knot multiplicities are derived in this case.</P> 
+	 <P> A B-spline curve is <I>a piecewise Bezier</I> curve if it is
+		quasi-uniform except that the interior knots have multiplicity <I>degree</I>
+		rather than having multiplicity one. In this subtype the knot spacing is 1.0,
+		starting at 0.0. A <I>piecewise Bezier</I> curve which has only two knots, 0.0
+		and 1.0, each of multiplicity (degree+1), is a simple Bezier curve.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: A simple Bezier curve can be defined as a
+		  B-spline curve with knots by the following data: </FONT></P></BLOCKQUOTE> 
+	 <TABLE> 
+		<TR> 
+		  <TD WIDTH="100">&nbsp;</TD> 
+		  <TD WIDTH="200"><FONT SIZE="-1">degree</FONT></TD> 
+		  <TD><FONT SIZE="-1"> (d)</FONT></TD> 
+		</TR> 
+		<TR> 
+		  <TD>&nbsp;</TD> 
+		  <TD><FONT SIZE="-1">upper index on control points</FONT></TD> 
+		  <TD><FONT SIZE="-1">(equal to d) </FONT></TD> 
+		</TR> 
+		<TR> 
+		  <TD>&nbsp;</TD> 
+		  <TD><FONT SIZE="-1">control points</FONT></TD> 
+		  <TD><FONT SIZE="-1"> (d + 1 cartesian points) </FONT></TD> 
+		</TR> 
+		<TR> 
+		  <TD>&nbsp;</TD> 
+		  <TD><FONT SIZE="-1">knot type</FONT></TD> 
+		  <TD><FONT SIZE="-1"> (equal to quasi-uniform knots)</FONT></TD> 
+		</TR> 
+	 </TABLE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">No other data are needed, except for a rational Bezier
+		  curve. In this case the weights data ((d + 1) REALs) shall be given.
+		  </FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: It should be noted that every piecewise Bezier
+		  curve has an equivalent representation as a B-spline curve but not every
+		  B-spline curve can be represented as a Bezier curve. </FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">To define a<I> piecewise Bezier</I> curve as a
+		  B-spline:</FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<UL> 
+		  <LI><FONT SIZE="-1">The first knot is 0.0 with multiplicity (d + 1).
+			 </FONT></LI> 
+		  <LI><FONT SIZE="-1">The next knot is 1.0 with multiplicity d (we have
+			 now defined the knots for one segment, unless it is the last one). </FONT></LI>
+		  
+		  <LI><FONT SIZE="-1">The next knot is 2.0 with multiplicity d (we have
+			 now defined the knots for one segment, again unless the second is the last
+			 one). </FONT></LI> 
+		  <LI><FONT SIZE="-1">Continue to the end of the last segment, call it
+			 the n-th segment, at the end of which a knot with value n, multiplicity (d + 1)
+			 is added.</FONT></LI> 
+		</UL></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">EXAMPLE:</FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<UL> 
+		  <LI><FONT SIZE="-1">A one-segment cubic Bezier curve would have knot
+			 sequence (0,1) with multiplicity sequence (4,4). </FONT></LI> 
+		  <LI><FONT SIZE="-1">A two-segment cubic <I>piecewise Bezier</I> curve
+			 would have knot sequence (0,1,2) with multiplicity sequence (4,3,4).
+			 </FONT></LI> 
+		</UL></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">For the<I> piecewise Bezier</I> case, if <I>d</I> is
+		  the degree, <I>m</I> is the number of knots with multiplicity <I>d</I>, and
+		  <I>N</I> is the total number of knots for the spline,
+		  then</FONT></P></BLOCKQUOTE> 
+	 <TABLE> 
+		<TR> 
+		  <TD WIDTH="100">&nbsp;</TD> 
+		  <TD WIDTH="200" ALIGN="RIGHT"><FONT SIZE="-1">(d+2+k)&nbsp;</FONT></TD>
+		  
+		  <TD><FONT SIZE="-1">&nbsp;= N</FONT></TD> 
+		</TR> 
+		<TR> 
+		  <TD>&nbsp;</TD> 
+		  <TD ALIGN="RIGHT"><FONT SIZE="-1">&nbsp;</FONT></TD> 
+		  <TD><FONT SIZE="-1">&nbsp;= (d+1)+md+(d+1)</FONT></TD> 
+		</TR> 
+		<TR> 
+		  <TD>&nbsp;</TD> 
+		  <TD ALIGN="RIGHT"><FONT SIZE="-1">thus m&nbsp;</FONT></TD> 
+		  <TD><FONT SIZE="-1">&nbsp;= (k-d)/d </FONT></TD> 
+		</TR> 
+	 </TABLE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">So the knot sequence is (0; 1; ...;<I>m</I>;
+		  (<I>m</I>+ 1)) with multiplicities (<I>d</I> + 1; <I>d</I>; : : :; <I>d</I>;
+		  <I>d</I>+ 1).</FONT></P></BLOCKQUOTE> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1" COLOR="#0000FF">NOTE: Corresponding STEP entity:
+		  bezier_curve. Please refer to ISO/IS 10303-42:1994, p. 51 for the final
+		  definition of the formal standard. Due to the constraints in the IFC
+		  architecture to not include ANDOR subtype constraints, an explicit subtype
+		  IfcRationalBezierCurve is added which holds the same information as the complex
+		  entity b_spline_curve AND bezier_curve.</FONT></P> 
+		<P><FONT SIZE="-1" COLOR="#0000FF">HISTORY: New entity in Release IFC2x
+		  Edition 2.</FONT></P> </BLOCKQUOTE>
+</EPM-HTML>

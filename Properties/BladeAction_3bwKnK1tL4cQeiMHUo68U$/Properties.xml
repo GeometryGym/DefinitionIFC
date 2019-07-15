@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BladeAction_3bwKnK1tL4cQeiMHUo68U" Name="BladeAction" UniqueId="e5e94c54-0775-4499-aa2c-5917b21887bf" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_DamperBladeAction_2IdkXCNWLDRRycrXBFPbHR" />
+	</Enumeration>
+</DocProperty>
+

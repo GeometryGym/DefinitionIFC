@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CondenserPHistory" UniqueId="9e81d372-6977-43f2-8503-71f886669668" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="HeatRejectionRate_3WAQ2EasfBMRYbrvzJY97N" />
+		<DocProperty xsi:nil="true" href="ExteriorHeatTransferCoefficient_0QZEOnHuDCJgMAx6gcHabh" />
+		<DocProperty xsi:nil="true" href="InteriorHeatTransferCoefficient_2rbk7raiXApP4Xi8_qzZWA" />
+		<DocProperty xsi:nil="true" href="RefrigerantFoulingResistance_2ao8fVgb9Fx6L8i8GNfnX" />
+		<DocProperty xsi:nil="true" href="CondensingTemperature_3HWoHBKaT1O89ADgdafnyH" />
+		<DocProperty xsi:nil="true" href="LogarithmicMeanTemperatureDifference_1zevcz95fEAO7XaVi59JmZ" />
+		<DocProperty xsi:nil="true" href="UAcurves_08EWZisbz3ZfoR0hrlgi7P" />
+		<DocProperty xsi:nil="true" href="CompressorCondenserHeatGain_0NRSX2Obv6LO80EzsnKCQK" />
+		<DocProperty xsi:nil="true" href="CompressorCondenserPressureDrop_0SECPpVjAIvXR9sz8DkXN" />
+		<DocProperty xsi:nil="true" href="CondenserMeanVoidFraction_12Tpp7N2PDmfo6O6WqIXOB" />
+		<DocProperty xsi:nil="true" href="WaterFoulingResistance_0CwUBx2Yj7m9lxbhoHO4ah" />
+	</Properties>
+</DocPropertySet>
+

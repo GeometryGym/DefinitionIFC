@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcDamperTypeEnum" UniqueId="0G_5yin$zAlvyUJvX09rw2" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="CONTROLDAMPER_3svUa71GP3d9iBqN_fOPDI" />
+		<DocConstant xsi:nil="true" href="FIREDAMPER_3nM8vmEoX87Re0ZZF07aJr" />
+		<DocConstant xsi:nil="true" href="SMOKEDAMPER_0mHIwi4DT4p9Q5eqJrTFZX" />
+		<DocConstant xsi:nil="true" href="FIRESMOKEDAMPER_3_XlHkq7D1mvLzo1BkhLga" />
+		<DocConstant xsi:nil="true" href="BACKDRAFTDAMPER_3RdNQofmHDOwBHDLnnrCDB" />
+		<DocConstant xsi:nil="true" href="RELIEFDAMPER_1g33vhCmP3PvQc2tlDVchg" />
+		<DocConstant xsi:nil="true" href="BLASTDAMPER_3lF5O2QXr8Bw0qJC4tIP04" />
+		<DocConstant xsi:nil="true" href="GRAVITYDAMPER_1nGS1HypPF2Rs_5gvbgIQM" />
+		<DocConstant xsi:nil="true" href="GRAVITYRELIEFDAMPER_1zxcSlsQH1UOSLdiEFELTu" />
+		<DocConstant xsi:nil="true" href="BALANCINGDAMPER_1yxi9IW4X0h9eLLc6lGc" />
+		<DocConstant xsi:nil="true" href="FUMEHOODEXHAUST_14Ql5ZL7jAphEfO23By5j" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1_xmqzg2f2DhYGvHy5YxL" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1mAGib76fB6f976BzyKgq" />
+	</Constants>
+</DocEnumeration>
+

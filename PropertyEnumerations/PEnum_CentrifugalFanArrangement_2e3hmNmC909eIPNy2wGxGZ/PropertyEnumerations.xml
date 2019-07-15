@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_CentrifugalFanArrangement_2e3hmNmC909eIPNy2wGxGZ" Name="PEnum_CentrifugalFanArrangement" UniqueId="a80ebc17-c0c2-4026-8499-5fc0ba43b423">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="ARRANGEMENT1_0S7WuYxH4ZRRFIyEBWLu8" />
+		<DocPropertyConstant xsi:nil="true" href="ARRANGEMENT2_0lPaXWk299hB0NvgqHYNyz" />
+		<DocPropertyConstant xsi:nil="true" href="ARRANGEMENT3_0I9C7Xt091pwgHiXKIm5ai" />
+		<DocPropertyConstant xsi:nil="true" href="ARRANGEMENT4_2XfiIy1YD3TgkA7J1gDl8o" />
+		<DocPropertyConstant xsi:nil="true" href="ARRANGEMENT7_0qXkoKbFDCgAttExFi51dL" />
+		<DocPropertyConstant xsi:nil="true" href="ARRANGEMENT8_1LgaNPC75F8hU4ELrZK21y" />
+		<DocPropertyConstant xsi:nil="true" href="ARRANGEMENT9_0sGpwWmojEChYFvMuTyUzq" />
+		<DocPropertyConstant xsi:nil="true" href="ARRANGEMENT10_2hQ9XyhbBKu8OZuDLW4xM" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

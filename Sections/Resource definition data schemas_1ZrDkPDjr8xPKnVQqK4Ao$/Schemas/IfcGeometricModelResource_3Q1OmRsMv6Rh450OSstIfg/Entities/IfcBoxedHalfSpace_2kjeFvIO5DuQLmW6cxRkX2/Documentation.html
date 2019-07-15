@@ -1,0 +1,46 @@
+<EPM-HTML>
+	 <P><U>Definition from ISO/CD 10303-42:1992</U>: This entity is a subtype of
+		the half space solid which is trimmed by a surrounding rectangular box. The box
+		has its edges parallel to the coordinate axes of the geometric coordinate
+		system. </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT SIZE="-1">NOTE: The purpose of the box is to facilitate CSG
+		  computations by producing a solid of finite size.</FONT></P></BLOCKQUOTE> 
+	 <P> <U>Definition from IAI</U>: The <I>IfcBoxedHalfSpace</I> (from ISO
+		10303-42:1994 boxed_half_space) is used (as its supertype
+		<I>IfcHalfSpaceSolid</I>) only within Boolean operations. It divides the domain
+		into exactly two subsets, where the domain in question is that of the attribute
+		<I>Enclosure</I>. </P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">NOTE: Corresponding STEP entity :
+		  boxed_half_space, please refer to ISO/IS 10303-42:1994, p. 185 for the final
+		  definition of the formal standard. The IFC class <I>IfcBoundingBox</I> is used
+		  for the definition of the enclosure, providing the same definition as
+		  box_domain. </FONT></P> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY: New entity in IFC Release
+		  1.5.1, improved documentation available in IFC Release
+		  2x.</FONT></P></BLOCKQUOTE> 
+	 <P><U>Illustration:</U></P> 
+	 <TABLE FRAME="BORDER" WIDTH="100%"> 
+		<TR> 
+		  <TD WIDTH="420" VALIGN="TOP" ALIGN="LEFT"><A
+			 HREF="drawings/IfcBoxedHalfSpace-Layout1.dwf"><IMG
+			 SRC="figures/IfcBoxedHalfSpace-Layout1.gif" BORDER="0" HEIGHT="300"
+			 WIDTH="400"></A></TD> 
+		  <TD ALIGN="LEFT" VALIGN="TOP" WIDTH="100%"> 
+			 <P><FONT SIZE="-1"><U>Purpose</U> <BR>The <I>IfcBoundingBox</I>
+				(relating to ISO 10303-42:1994 box_domain) that provides the enclosure is given
+				for the convenience of the receiving application to enable the use of size box
+				comparison for efficiency (e.g., to check first whether size boxes intersect,
+				if not no calculations has to be done to check whether the solids of the
+				entities intersect).</FONT></P> 
+			 <P><FONT SIZE="-1"><U>Parameter</U> <BR>The <I>Enclosure</I>
+				therefore helps to prevent dealing with infinite-size related issues. The
+				enclosure box is positioned within the positioning coordinate system of the
+				unbounded surface, given by the attribute <I>BaseSurface</I> (see
+				<I>IfcElementarySurface.Position</I>). The <I>AgreementFlag</I> defines whether
+				the box is defined into the direction of the positive z axis (FALSE) or in the
+				direction of the negative z axis (TRUE).</FONT></P></TD> 
+		</TR> 
+	 </TABLE>
+</EPM-HTML>

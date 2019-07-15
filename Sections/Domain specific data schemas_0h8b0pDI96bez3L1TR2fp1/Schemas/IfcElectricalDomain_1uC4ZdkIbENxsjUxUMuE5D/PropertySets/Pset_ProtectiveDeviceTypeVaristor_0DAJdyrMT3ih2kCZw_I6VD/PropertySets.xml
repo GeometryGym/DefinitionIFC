@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ProtectiveDeviceTypeVaristor" UniqueId="0d2939fc-d567-43b2-b0ae-323ebe4867cd" ApplicableType="IfcProtectiveDevice.Predefined=&quot;VARISTOR&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="VaristorType_0SuRzvDMv5jvqJnH1YRHfr" />
+	</Properties>
+</DocPropertySet>
+

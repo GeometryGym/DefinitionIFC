@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceStyleElementSelect" UniqueId="08os6rZnz6NB5ZBkdaWqcW" DiagramNumber="5">
+	<Selects>
+		<DocSelectItem Name="IfcSurfaceStyleShading" UniqueId="0qz3zwP3P9CQVPbTf9m6_b" />
+		<DocSelectItem Name="IfcSurfaceStyleLighting" UniqueId="0iPOZIyPj8fudBT1IQ3Uca" />
+		<DocSelectItem Name="IfcSurfaceStyleWithTextures" UniqueId="1PiFG39Or1a9r8da5PVAVO" />
+		<DocSelectItem Name="IfcExternallyDefinedSurfaceStyle" UniqueId="3eWvoS6g969BrAaDx3MZA2" />
+		<DocSelectItem Name="IfcSurfaceStyleRefraction" UniqueId="29ET7i1hT5EQjP_JtE$5O_" />
+	</Selects>
+</DocSelect>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SprinklerType_08fEPhpQTBdBkb96yIexI" Name="PEnum_SprinklerType" UniqueId="08a4e66b-cda7-4b9c-bba5-246f12a3fed2">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Ceiling_0Yosq8TKzDpRD4T14b_stW" />
+		<DocPropertyConstant xsi:nil="true" href="Concealed_10ogHqOf50txp7EmZYZyyR" />
+		<DocPropertyConstant xsi:nil="true" href="Cutoff_3peyCFo6T40wgX_VoacLyl" />
+		<DocPropertyConstant xsi:nil="true" href="Pendant_29RPxkqST7rOZdzVbJeQcF" />
+		<DocPropertyConstant xsi:nil="true" href="RecessedPendant_0qCb9oPtD6qO6tQZ1EbgKZ" />
+		<DocPropertyConstant xsi:nil="true" href="Sidewall_1K9GQSl9nC69Svnllx3Y9U" />
+		<DocPropertyConstant xsi:nil="true" href="Upright_0ZqD5ueer7cfjBaIMzn7ze" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

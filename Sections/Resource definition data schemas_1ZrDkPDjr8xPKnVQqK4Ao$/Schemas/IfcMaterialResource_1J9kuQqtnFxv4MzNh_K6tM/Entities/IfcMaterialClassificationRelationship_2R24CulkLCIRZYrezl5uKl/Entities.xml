@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMaterialClassificationRelationship" UniqueId="2R24CulkLCIRZYrezl5uKl" DiagramNumber="1" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="MaterialClassifications" UniqueId="3aUOrcUev9HgUnNZ5Imr8t" DefinedType="IfcClassificationNotationSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>The material classifications identifying the type of material.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ClassifiedMaterial" UniqueId="3IIN74pVb0MOmyVCMpHIUO" DefinedType="IfcMaterial" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Material being classified.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

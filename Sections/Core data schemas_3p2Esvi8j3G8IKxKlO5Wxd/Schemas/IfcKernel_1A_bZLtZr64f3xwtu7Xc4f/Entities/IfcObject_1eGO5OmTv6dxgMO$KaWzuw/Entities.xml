@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcObject" UniqueId="1eGO5OmTv6dxgMO$KaWzuw" DiagramNumber="1" BaseDefinition="IfcObjectDefinition" EntityFlags="205">
+	<Subtypes>
+		<DocSubtype UniqueId="1oBL2j$yj629OcvzPzxMqA" DefinedType="IfcActor" />
+		<DocSubtype UniqueId="1j$zsIVdr5OQUtXynJw2Vi" DefinedType="IfcControl" />
+		<DocSubtype UniqueId="2qBeRgPsz149QZStn_kp$u" DefinedType="IfcGroup" />
+		<DocSubtype UniqueId="1e3PdcnR196usivoJgPK87" DefinedType="IfcProcess" />
+		<DocSubtype UniqueId="3DiRFhk8T368b84C$jdcMJ" DefinedType="IfcProduct" />
+		<DocSubtype UniqueId="3Xyd5ozA152P1pfnnKuJhj" DefinedType="IfcProject" />
+		<DocSubtype UniqueId="34yZDk2G54aPySxz_w0gVC" DefinedType="IfcResource" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="ObjectType" UniqueId="182RUpPID6FwVOTpqnIX4x" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The type denotes a particular type that indicates the object further. The use has to be established at the level of instantiable subtypes. In particular it holds the user defined type, if the enumeration of the attribute &lt;i&gt;PredefinedType&lt;/i&gt; is set to USERDEFINED. 
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="IsDefinedBy" UniqueId="012$mHn853wgTkFOAEas8x" DefinedType="IfcRelDefines" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="0" Inverse="RelatedObjects">
+			<Documentation>&lt;EPM-HTML&gt;
+Set of relationships to type or property (statically or dynamically defined) information that further define the object. In case of type information, the associated &lt;i&gt;IfcTypeObject&lt;/i&gt; contains the specific information (or type, or style), that is common to all instances of &lt;i&gt;IfcObject&lt;/i&gt; referring to the same type.
+&lt;br&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1LzEa6b3f3NQgG_gNbpO8F">
+			<Documentation>&lt;EPM-HTML&gt;
+Only maximum of one relationship to an underlying type (by an &lt;i&gt;IfcRelDefinesByType&lt;/i&gt; relationship) should be given for an object instance.
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* IsDefinedBy | &apos;IFCKERNEL.IFCRELDEFINESBYTYPE&apos; IN TYPEOF(temp))) &lt;= 1</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

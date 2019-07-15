@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_PackingCareType_3NqDzSYaXAUgCvMbUuso23" Name="PEnum_PackingCareType" UniqueId="d7d0df5c-8a48-4a7a-a339-5a57b8db2083">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Fragile_0I5Kq5ySrAa9d8ZEfp0pB" />
+		<DocPropertyConstant xsi:nil="true" href="HandleWithCare_0LlGEzEj8YAiv_GMS2WXo" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_PropertyAgreementType_0UDFBSPa95tfS4GDK9_8Sr" Name="PEnum_PropertyAgreementType" UniqueId="1e34f2dc-6642-45de-9704-40d509f88735">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Assignment_08uAmXT81AkRkxhxANoEpc" />
+		<DocPropertyConstant xsi:nil="true" href="Lease_0pLQAB1yH1NQKsO9RgnGjd" />
+		<DocPropertyConstant xsi:nil="true" href="Tenant_0M6huflqvAi8Uh6NVAdJcf" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

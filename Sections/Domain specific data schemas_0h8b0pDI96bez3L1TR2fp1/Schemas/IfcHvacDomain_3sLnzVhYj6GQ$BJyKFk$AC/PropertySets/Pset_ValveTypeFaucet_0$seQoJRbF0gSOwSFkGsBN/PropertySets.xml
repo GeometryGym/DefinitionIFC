@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_ValveTypeFaucet" UniqueId="3fda86b2-4db9-4f02-a718-e9c3ee4362d7" ApplicableType="IfcValve.Predefined=&quot;FAUCET&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="FaucetType_2uWcp1CDn6LAQgL9Hp9ILq" />
+		<DocProperty xsi:nil="true" href="FaucetOperation_3izVCzC_DCYBMRBFMlH8oc" />
+		<DocProperty xsi:nil="true" href="FaucetFunction_2fmbxElT1qOQvgmhvDMYO" />
+		<DocProperty xsi:nil="true" href="Finish_2DAVZNixr4av8WvavLdinE" />
+		<DocProperty xsi:nil="true" href="FaucetTopDescription_1AjsWoXxT5_RCQ97toAdb" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBooleanOperand" UniqueId="1w4N3sYUv4ZOSpXElCDF1P" DiagramNumber="2">
+	<Selects>
+		<DocSelectItem Name="IfcSolidModel" UniqueId="0pL0YMg_52lhjrUyKMQygm" />
+		<DocSelectItem Name="IfcHalfSpaceSolid" UniqueId="2HaOp257X9cOlMOlATTiMH" />
+		<DocSelectItem Name="IfcBooleanResult" UniqueId="0J3F77ynT1JfW24GJXXiH3" />
+		<DocSelectItem Name="IfcCsgPrimitive3D" UniqueId="0HCBCqUx9AVgevOZi_kjMD" />
+	</Selects>
+</DocSelect>
+

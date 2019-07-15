@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcParameterizedProfileDef" UniqueId="1ErANhTErEBPNV4QY$jkLL" DiagramNumber="1" BaseDefinition="IfcProfileDef" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="3hUNeQybHA5QOMbpWE2$s_" DefinedType="IfcIShapeProfileDef" />
+		<DocSubtype UniqueId="1LfKJtvsPE$PP9A4L0BKkg" DefinedType="IfcLShapeProfileDef" />
+		<DocSubtype UniqueId="3hMkAdb5f9URhunXNdfrbm" DefinedType="IfcUShapeProfileDef" />
+		<DocSubtype UniqueId="0GzLRsLuf7HBWXq1Qm8aV0" DefinedType="IfcCShapeProfileDef" />
+		<DocSubtype UniqueId="3pVni9kwb2D8ZfC5rnOk$Y" DefinedType="IfcZShapeProfileDef" />
+		<DocSubtype UniqueId="1fWoSiHsX5GReDzmdpJ12t" DefinedType="IfcTShapeProfileDef" />
+		<DocSubtype UniqueId="2lVVstrmvChATyT03XbYoX" DefinedType="IfcCraneRailFShapeProfileDef" />
+		<DocSubtype UniqueId="16vuqgFZTDXgP6utO_evql" DefinedType="IfcCraneRailAShapeProfileDef" />
+		<DocSubtype UniqueId="2ARYnMVmTEZgx$eaZSD8oh" DefinedType="IfcCircleProfileDef" />
+		<DocSubtype UniqueId="0J7R4E6DH1IOWo1hujB93O" DefinedType="IfcEllipseProfileDef" />
+		<DocSubtype UniqueId="1lXMmbJkP0eRYQg8ZY5IJk" DefinedType="IfcRectangleProfileDef" />
+		<DocSubtype UniqueId="0Qph$u7tr6WgQ7K0XOm8MQ" DefinedType="IfcTrapeziumProfileDef" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="Position" UniqueId="1vuWAJqn90uQWren8Rac4b" DefinedType="IfcAxis2Placement2D" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Position coordinate system of the parameterized profile definition.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

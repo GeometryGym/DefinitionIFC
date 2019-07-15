@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBooleanOperator" UniqueId="1ni$8jsW5Dsg00QAcJMKqJ" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="UNION_0nUgAP5LFLAwdVZIf28tu" />
+		<DocConstant xsi:nil="true" href="INTERSECTION_11rCw9KsHBzA1Stgu6CUV8" />
+		<DocConstant xsi:nil="true" href="DIFFERENCE_3oGRTp4gbEJep3IaqN6Prk" />
+	</Constants>
+</DocEnumeration>
+

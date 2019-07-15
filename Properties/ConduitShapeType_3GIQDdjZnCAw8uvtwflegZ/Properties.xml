@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="ConduitShapeType_3GIQDdjZnCAw8uvtwflegZ" Name="ConduitShapeType" UniqueId="d049a367-b63c-4c2b-a238-e77ea9be8aa3" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_ConduitShapeType_38n6QLDPX758YQyYkkrpi8" />
+	</Enumeration>
+</DocProperty>
+

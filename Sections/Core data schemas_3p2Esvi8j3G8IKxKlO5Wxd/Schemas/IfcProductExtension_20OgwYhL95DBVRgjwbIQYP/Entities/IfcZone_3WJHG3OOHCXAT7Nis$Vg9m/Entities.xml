@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcZone_3WJHG3OOHCXAT7NisVg9m" Name="IfcZone" UniqueId="3WJHG3OOHCXAT7Nis$Vg9m" DiagramNumber="3" BaseDefinition="IfcGroup" EntityFlags="37">
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="2mydEAsDn7I9C65JIWZkBO">
+			<Documentation>A Zone is grouped by the objectified relationship IfcRelAssignsToGroup. Only objects of type IfcSpace or IfcZone are allowed as RelatedObjects.</Documentation>
+			<Expression>SIZEOF (QUERY (temp &lt;* SELF\IfcGroup.IsGroupedBy.RelatedObjects |  NOT((&apos;IFCPRODUCTEXTENSION.IFCZONE&apos; IN TYPEOF(temp)) OR (&apos;IFCPRODUCTEXTENSION.IFCSPACE&apos; IN TYPEOF(temp))) )) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

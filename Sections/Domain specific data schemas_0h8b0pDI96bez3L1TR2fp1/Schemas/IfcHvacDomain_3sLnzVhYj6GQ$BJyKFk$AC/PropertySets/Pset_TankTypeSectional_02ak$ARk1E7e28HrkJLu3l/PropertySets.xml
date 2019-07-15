@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_TankTypeSectional" UniqueId="0292efca-6ee0-4e1e-8088-475b935780ef" ApplicableType="IfcTank.Predefined=&quot;SECTIONAL&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NumberOfSections_2WeRxRs54IwILinMy2mKh" />
+		<DocProperty xsi:nil="true" href="SectionLength_2OdyeBDu95RhA6re3K0s_9" />
+		<DocProperty xsi:nil="true" href="SectionWidth_3HAQf2uVfBfedzamjf2Fo3" />
+	</Properties>
+</DocPropertySet>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStairTypeEnum" UniqueId="2EVuJqrx18wQycawsYGlbI" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="STRAIGHT_RUN_STAIR_3EuGYPhRzCwPeUTEQ_yoM8" />
+		<DocConstant xsi:nil="true" href="TWO_STRAIGHT_RUN_STAIR_2CX8WY731FiP8aD6EbXxDD" />
+		<DocConstant xsi:nil="true" href="QUARTER_WINDING_STAIR_3dpkPXI5zFJu3xWY1GKwx7" />
+		<DocConstant xsi:nil="true" href="QUARTER_TURN_STAIR_0e599T_qHA8vSA0BdiHNlu" />
+		<DocConstant xsi:nil="true" href="HALF_WINDING_STAIR_1XHVRjrMn2WOXgykK7z6nf" />
+		<DocConstant xsi:nil="true" href="HALF_TURN_STAIR_16W0j4aIrE_eDxsLpvf93" />
+		<DocConstant xsi:nil="true" href="TWO_QUARTER_WINDING_STAIR_1ZcCwK1v90dPsWpURHgH6" />
+		<DocConstant xsi:nil="true" href="TWO_QUARTER_TURN_STAIR_1Qxi4D5vBgRFLhV2touRB" />
+		<DocConstant xsi:nil="true" href="THREE_QUARTER_WINDING_STAIR_3po0ALMD6_xjB_oHmnF8m" />
+		<DocConstant xsi:nil="true" href="THREE_QUARTER_TURN_STAIR_1lpSlUGvEQeGY11ZVLD3" />
+		<DocConstant xsi:nil="true" href="SPIRAL_STAIR_0J3TlmI9D3VhlQB9HoF1lz" />
+		<DocConstant xsi:nil="true" href="DOUBLE_RETURN_STAIR_3mYmRmrqD3R9bCSeLqjqhY" />
+		<DocConstant xsi:nil="true" href="CURVED_RUN_STAIR_1D3UfdEDP8nRsxji1iWc9g" />
+		<DocConstant xsi:nil="true" href="TWO_CURVED_RUN_STAIR_0Z0L9X8Dn11848G_PvPPQN" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3_wHOvhsnDQPZyLs3EO_Xk" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3gjeKNjD9rvfOXFP1BDyF" />
+	</Constants>
+</DocEnumeration>
+

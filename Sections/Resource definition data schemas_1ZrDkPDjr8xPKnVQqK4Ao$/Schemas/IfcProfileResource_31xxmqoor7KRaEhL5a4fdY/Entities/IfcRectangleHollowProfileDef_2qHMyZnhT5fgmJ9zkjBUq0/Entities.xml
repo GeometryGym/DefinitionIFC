@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRectangleHollowProfileDef" UniqueId="2qHMyZnhT5fgmJ9zkjBUq0" DiagramNumber="2" BaseDefinition="IfcRectangleProfileDef" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="WallThickness" UniqueId="1ib6tHuS96He8W3oQiEnGT" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Thickness of the material.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="InnerFilletRadius" UniqueId="3dTsI$yIr8Gu6l9gNyDfPQ" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Radius of the circular arcs, by which all four corners of the outer contour of rectangle are equally rounded. If not given, zero (= no rounding arcs) applies.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="OuterFilletRadius" UniqueId="2pp1CU2Vj0APrJgC0MfbYn" DefinedType="IfcPositiveLengthMeasure" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Radius of the circular arcs, by which all four corners of the outer contour of rectangle are equally rounded. If not given, zero (= no rounding arcs) applies.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR31" UniqueId="3gGbC_eaP0MOtsFhYfIbNI">
+			<Documentation>The wall thickness shall be smaller than the X and Y dimension of the rectangle.</Documentation>
+			<Expression>(WallThickness &lt; (SELF\IfcRectangleProfileDef.XDim/2.)) AND 
+(WallThickness &lt; (SELF\IfcRectangleProfileDef.YDim/2.))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR32" UniqueId="01FHpTZ0D5YBiN7s3ICCOn">
+			<Documentation>The outer fillet radius (if given) shall be smaller than or equal to the X and Y dimension of the rectangle.</Documentation>
+			<Expression>NOT(EXISTS(OuterFilletRadius)) OR 
+((OuterFilletRadius &lt;= (SELF\IfcRectangleProfileDef.XDim/2.)) AND 
+ (OuterFilletRadius &lt;= (SELF\IfcRectangleProfileDef.YDim/2.)))</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="WR33" UniqueId="0shOc_wRX8Lhxpro3Gn5wn">
+			<Documentation>The inner fillet radius (if given) shall be smaller than or equal to the X and Y dimension of the rectangle minus the wall thickness.</Documentation>
+			<Expression>NOT(EXISTS(InnerFilletRadius)) OR 
+((InnerFilletRadius &lt;= (SELF\IfcRectangleProfileDef.XDim/2. - WallThickness)) AND 
+ (InnerFilletRadius &lt;= (SELF\IfcRectangleProfileDef.YDim/2. - WallThickness)))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

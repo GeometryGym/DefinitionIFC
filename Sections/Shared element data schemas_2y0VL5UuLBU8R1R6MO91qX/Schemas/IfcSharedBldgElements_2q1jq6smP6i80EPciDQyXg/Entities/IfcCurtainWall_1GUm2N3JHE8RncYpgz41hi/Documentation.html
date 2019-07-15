@@ -1,0 +1,51 @@
+<EPM-HTML>
+	 <P><U>Definition from ISO 6707-1:1989</U>: Non load bearing wall positioned
+		on the outside of a building and enclosing it.</P>
+	 <P><U>Definition of IAI</U>: Exterior wall of a building which is an
+		assembly of components, hung from the edge of the floor/roof structure rather
+		than bearing on a floor. Curtain wall is represented as a building element
+		assembly and implemented as a subtype of <I>IfcBuildingElement</I> that uses an
+		<I>IfcRelAggregates</I> relationship.</P> 
+	 <BLOCKQUOTE> 
+		<P><FONT COLOR="#0000FF" SIZE="-1">HISTORY New Entity in IFC Release 2.0
+		  </FONT></P></BLOCKQUOTE> 
+	 <P><U><B>Property Set Use Definition</B></U>:</P> 
+	 <P>The property sets relating to the <I>IfcCurtainWall</I> are defined by
+		the <I>IfcPropertySet</I> and attached by the <I>IfcRelDefinesByProperties</I>
+		relationship. It is accessible by the inverse <I>IsDefinedBy</I> relationship.
+		The following property set definitions specific to the <I>IfcCurtainWall</I>
+		are part of this IFC release:</P> 
+	 <UL> 
+		<LI><A HREF="../../psd/IfcSharedBldgElements/Pset_CurtainWallCommon.xml"
+		  TARGET="SOURCE">Pset_CurtainWallCommon</A>: common property set for all curtain
+		  wall occurrences</LI> 
+	 </UL>
+	 <P><U><B>Geometry Use Definitions</B>:</U></P> 
+	 <P> The geometric representation of <I>IfcCurtainWall</I> is given by the
+		<I>IfcProductDefinitionShape</I>, allowing multiple geometric representations.
+		Independent geometric representations, as described below, should only be used
+		when the <I>IfcCurtainWall</I> is not defined as an aggregate. If defined as an
+		aggregate, the geometric representation is the sum of the representations of
+		the components within the aggregate. </P> 
+	 <P><B>Local placement</B></P> 
+	 <P>The local placement for <I>IfcCurtainWall</I> is defined in its
+		supertype <I>IfcProduct</I>. It is defined by the <I>IfcLocalPlacement</I>,
+		which defines the local coordinate system that is referenced by all geometric
+		representations. </P> 
+	 <UL> 
+		<LI>The <I>PlacementRelTo</I> relationship of <I>IfcLocalPlacement</I>
+		  shall point (if given) to the same <I>IfcSpatialStructureElement</I> that is
+		  used in the <I>ContainedInStructure</I> inverse attribute or to a referenced
+		  spatial structure element at a higher level.</LI> 
+		<LI>If the relative placement is not used, the absolute placement is
+		  defined within the world coordinate system. </LI> 
+	 </UL> 
+	 <P>If the <I>IfcCurtainWall</I> establishes an aggregate, then all
+		contained elements (defined by the <I>IsDecomposedBy</I> inverse attribute)
+		shall be placed relative to the <I>IfcCurtainWall.ObjectPlacement</I>.</P> 
+	 <P><B><I>Geometric Representation</I></B> </P> 
+	 <P>Currently, the use of 'BoundingBox', 'SurfaceModel', 'Brep' and
+		'MappedRepresentation' representations of <I>IfcCurtainWall</I> are supported.
+		The conventions to use these representations are given at the level of the
+		supertype, <I>IfcBuildingElement</I>.</P>
+</EPM-HTML>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelAssignsToActor" UniqueId="23JV9z8PzDIBSqpYHngNAt" DiagramNumber="7" BaseDefinition="IfcRelAssigns" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="RelatingActor" UniqueId="1kXLRVT15BcPY5yrb2BC09" DefinedType="IfcActor" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to the information about the actor. It comprises the information about the person or organization and its addresses.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ActingRole" UniqueId="1ZBwJ0LwT7m9nxOrWTz_YU" DefinedType="IfcActorRole" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Role of the actor played within the context of the assignment to the object(s).</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1b8JTajjvEawCuyFE_B6i5">
+			<Documentation>The instance to with the relation points shall not be contained in the List of RelatedObjects.</Documentation>
+			<Expression>SIZEOF(QUERY(Temp &lt;* SELF\IfcRelAssigns.RelatedObjects | RelatingActor :=: Temp)) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

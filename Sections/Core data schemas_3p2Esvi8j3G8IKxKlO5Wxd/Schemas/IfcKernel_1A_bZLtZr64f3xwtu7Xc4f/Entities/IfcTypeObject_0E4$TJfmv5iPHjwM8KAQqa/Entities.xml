@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTypeObject" UniqueId="0E4$TJfmv5iPHjwM8KAQqa" DiagramNumber="1" BaseDefinition="IfcObjectDefinition" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="26dw3MXeDFxvNYHZbJH$4J" DefinedType="IfcTypeProduct" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="ApplicableOccurrence" UniqueId="1QXfVQQwTF5PvL6sWtL4iM" DefinedType="IfcLabel" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>The attribute optionally defines the data type of the occurrence object, to which the assigned type object can relate. If not present, no instruction is given to which occurrence object the type object is applicable.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="HasPropertySets" UniqueId="0naKjqBUTBoAHukbRomMCk" DefinedType="IfcPropertySetDefinition" AttributeFlags="1" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>&lt;EPM-HTML&gt;
+Set &lt;strike&gt;list&lt;/strike&gt; of unique property sets, that are associated with the object type and are common to all object occurrences referring to this object type.
+&lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;
+  IFC2x Edition 3 CHANGE&amp;nbsp; The attribute aggregate type has been changed from LIST to SET.
+&lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ObjectTypeOf" UniqueId="3HhycrAubCXOejLy3sDguY" DefinedType="IfcRelDefinesByType" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="0" AggregationUpper="1" Inverse="RelatingType">
+			<Documentation>Reference to the relationship IfcRelDefinedByType and thus to those occurrence objects, which are defined by this type.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="1O8D23kWD0deBrDRsJHxSW">
+			<Documentation>A Name attribute has to be provided. The name can be declared within the IFC specification as part of the property set agreements.</Documentation>
+			<Expression>EXISTS(SELF\IfcRoot.Name)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

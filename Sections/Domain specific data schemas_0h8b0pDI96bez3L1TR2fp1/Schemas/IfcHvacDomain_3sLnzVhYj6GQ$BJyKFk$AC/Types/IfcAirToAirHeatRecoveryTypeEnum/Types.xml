@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcAirToAirHeatRecoveryTypeEnum" UniqueId="3KTJSkw91FL8F_Vk68N5IN" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="FIXEDPLATECOUNTERFLOWEXCHANGER_0KSBi_lS17kfHgf2Ib_hq" />
+		<DocConstant xsi:nil="true" href="FIXEDPLATECROSSFLOWEXCHANGER_2Mx7V5XJHEihHcXxf5HmK" />
+		<DocConstant xsi:nil="true" href="FIXEDPLATEPARALLELFLOWEXCHANGER_25wQuHw8n6TxaFEVjdc701" />
+		<DocConstant xsi:nil="true" href="ROTARYWHEEL_2WmoUF4af48xuTjedXHnsu" />
+		<DocConstant xsi:nil="true" href="RUNAROUNDCOILLOOP_0w0ixMvyP8qPREq7Dm44Gi" />
+		<DocConstant xsi:nil="true" href="HEATPIPE_3VE9ocDPjCgBC_v_7kQLjT" />
+		<DocConstant xsi:nil="true" href="TWINTOWERENTHALPYRECOVERYLOOPS_2seAOWwNzDXgXOGZaBdDeH" />
+		<DocConstant xsi:nil="true" href="THERMOSIPHONSEALEDTUBEHEATEXCHANGERS_1lUNRWHHjC_RK61naM_Ce1" />
+		<DocConstant xsi:nil="true" href="THERMOSIPHONCOILTYPEHEATEXCHANGERS_2Osz91km97tgchPEWNSk89" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_1JgXFlGhHB989O7vUtR8vU" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_3keML3JOvBSgRBhpnN5wXy" />
+	</Constants>
+</DocEnumeration>
+

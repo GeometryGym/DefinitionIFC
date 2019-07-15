@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSurfaceStyleShading" UniqueId="3uF6LX679EnP5ZV$Haz4KL" DiagramNumber="6" EntityFlags="109">
+	<Subtypes>
+		<DocSubtype UniqueId="26mGOfIwvEyxkYVnLFFEOB" DefinedType="IfcSurfaceStyleRendering" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="SurfaceColour" UniqueId="0sBRnIPyP728H30c$7XUC6" DefinedType="IfcColourRgb" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The colour used to render the surface. The surface colour for visualisation is defined by specifying the intensity of red, green and blue.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

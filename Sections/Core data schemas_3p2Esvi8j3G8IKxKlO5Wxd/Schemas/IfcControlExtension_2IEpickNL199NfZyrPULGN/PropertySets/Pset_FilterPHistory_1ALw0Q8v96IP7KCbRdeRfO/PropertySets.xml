@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FilterPHistory" UniqueId="4a57a01a-2392-4649-91d4-3256e7a1ba58" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="CountedEfficiency_1q1VBgEpfCzPNWmuGQg1hQ" />
+		<DocProperty xsi:nil="true" href="WeightedEfficiency_3wRdDtxs12xepAhj2nZk4M" />
+		<DocProperty xsi:nil="true" href="ParticleMassHolding_2D0Ne0ljj3CBcv7qob0jEz" />
+	</Properties>
+</DocPropertySet>
+

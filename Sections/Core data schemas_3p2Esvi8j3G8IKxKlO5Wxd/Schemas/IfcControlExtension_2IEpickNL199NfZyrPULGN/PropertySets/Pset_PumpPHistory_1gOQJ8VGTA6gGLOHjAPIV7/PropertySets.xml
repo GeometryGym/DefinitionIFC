@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PumpPHistory" UniqueId="6a61a4c8-7d07-4a1a-a415-611b4a6527c7" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="MechanicalEfficiency_2SDbyRe1b7FxY1c6O6OA4" />
+		<DocProperty xsi:nil="true" href="OverallEfficiency_0nA8tu1mr4aRqBn2Y2TJR" />
+		<DocProperty xsi:nil="true" href="PressureRise_1k6XVQmSn40QAaRVEG6oC_" />
+		<DocProperty xsi:nil="true" href="RotationSpeed_0IwEDkHb2Zxetn09tJIli" />
+		<DocProperty xsi:nil="true" href="Flowrate_2sOa7xtVbDnOy6svevslZ6" />
+		<DocProperty xsi:nil="true" href="Power_1wa1y9Yon9lhK1bYTE81a3" />
+	</Properties>
+</DocPropertySet>
+

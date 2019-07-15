@@ -1,0 +1,24 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI</U>: An <I>IfcDocumentReference</I> is a
+		reference to the location of a document. The reference is given by a system
+		interpretable <I>Location</I> attribute (e.g., an URL string) or by a human
+		readable location, where the document can be found, and an optional inherited
+		internal reference <I>ItemReference</I>, which refers to a system interpretable
+		position within the document. The optional inherited <I>Name</I> attribute is
+		meant to have meaning for human readers. Optional document metadata can also be
+		captured through reference to <I>IfcDocumentInformation</I>.</P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New Entity in IFC
+		Release 2.0. Modified in IFC 2x.</FONT></BLOCKQUOTE> 
+	 <H3>Use Definitions</H3> 
+	 <P>Provides a lightweight capability that enables a document to be
+		identified solely by reference to a name by which it is commonly known. The
+		reference can also be used to point to document information for more detail as
+		required.</P> 
+	 <P>For example, the IAI mission statement in a document "Introduction to
+		IAI" can be referenced by <I>IfcDocumentReference.Location</I> =
+		'http://iai-international.org/intro.html', and IfcDocumentReference = 'Mission
+		statement'. Additionally:
+		<I>IfcDocumentReference.ReferenceToDocument[1].Name</I> = 'Introduction to
+		IAI', and <I>IfcDocumentReference.ReferenceToDocument[1].Description</I> =
+		'Basic document to introduce the aims of IAI'.</P> 
+</EPM-HTML>

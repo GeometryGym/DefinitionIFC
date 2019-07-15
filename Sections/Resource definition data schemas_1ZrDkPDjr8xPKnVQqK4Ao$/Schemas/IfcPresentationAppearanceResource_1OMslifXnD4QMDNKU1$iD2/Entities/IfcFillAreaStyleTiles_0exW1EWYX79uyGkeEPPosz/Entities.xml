@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFillAreaStyleTiles" UniqueId="0exW1EWYX79uyGkeEPPosz" DiagramNumber="4" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="101">
+	<Attributes>
+		<DocAttribute Name="TilingPattern" UniqueId="34AwHg_Fz8pxTkUx4CvQWU" DefinedType="IfcOneDirectionRepeatFactor" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>A two direction repeat factor defining the shape and relative positioning of the tiles.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Tiles" UniqueId="3PAfJXyaP5uuPWILVmc7dz" DefinedType="IfcFillAreaStyleTileShapeSelect" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>A set of constituents of the tile.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TilingScale" UniqueId="3leEksIof72eRX9_lWrR75" DefinedType="IfcPositiveRatioMeasure" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The scale factor applied to each tile as it is placed in the annotation fill area.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

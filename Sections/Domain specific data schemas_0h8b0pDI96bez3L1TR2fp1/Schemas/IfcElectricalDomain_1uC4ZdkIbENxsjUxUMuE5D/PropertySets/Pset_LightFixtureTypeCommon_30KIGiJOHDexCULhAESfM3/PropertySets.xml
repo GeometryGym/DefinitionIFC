@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_LightFixtureTypeCommon" UniqueId="c051242c-4d84-4da3-b31e-56b28e729583" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="NumberOfSources_33ssClrH9zPIBFrlS3ESm" />
+		<DocProperty xsi:nil="true" href="TotalWattage_0FopJdHrCIBsHwmI2n7Jo" />
+		<DocProperty xsi:nil="true" href="LightFixtureMountingType_36Qd_WkyXEARVPw6TXWOhL" />
+		<DocProperty xsi:nil="true" href="LightFixturePlacingType_00zXfgdQv7z9k4EObgaai_" />
+		<DocProperty xsi:nil="true" href="MaintenanceFactor_3bTuuVFDj6x9pV7Z6bl9q0" />
+		<DocProperty xsi:nil="true" href="ManufacturersSpecificInformation_206ojd5LfDZAsrsYw5wM3_" />
+		<DocProperty xsi:nil="true" href="ArticleNumber_13PsscM3XCAvkiE8W6uwzO" />
+	</Properties>
+</DocPropertySet>
+

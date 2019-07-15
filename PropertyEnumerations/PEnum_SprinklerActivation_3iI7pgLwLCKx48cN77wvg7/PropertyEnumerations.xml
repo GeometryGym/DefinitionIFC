@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SprinklerActivation_3iI7pgLwLCKx48cN77wvg7" Name="PEnum_SprinklerActivation" UniqueId="ec487cea-57a5-4c53-b108-9971c7eb9a87">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Bulb_3Ev2ChE13HvY8Z7yaqvL" />
+		<DocPropertyConstant xsi:nil="true" href="FusibleSolder_1qAnEmXSH4NR0vc5luiios" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

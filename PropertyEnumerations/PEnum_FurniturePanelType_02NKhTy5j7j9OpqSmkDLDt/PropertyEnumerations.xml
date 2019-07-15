@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_FurniturePanelType_02NKhTy5j7j9OpqSmkDLDt" Name="PEnum_FurniturePanelType" UniqueId="025d4add-f05b-47b4-9633-d1cc2e355377">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="Acoustical_009hUSEdH5WhVtxscO7D0F" />
+		<DocPropertyConstant xsi:nil="true" href="Glazed_0rvOfsGCz8EPKxy3iUCHeD" />
+		<DocPropertyConstant xsi:nil="true" href="Horz_Seg_127CaOYH6R9Qe8uKwXl_y" />
+		<DocPropertyConstant xsi:nil="true" href="Monolithic_0cQ93gylTCVwzLTrI69reG" />
+		<DocPropertyConstant xsi:nil="true" href="Open_3tzGYVYWP8nQiF16__rd3c" />
+		<DocPropertyConstant xsi:nil="true" href="Ends_0Jm6DwATL47P6yhcfKxMu5" />
+		<DocPropertyConstant xsi:nil="true" href="Door_0EQER0Wu5F9AZU3IODF38V" />
+		<DocPropertyConstant xsi:nil="true" href="Screen_0RMoZ94DTEh8zDYdLYSZcn" />
+		<DocPropertyConstant xsi:nil="true" href="Other_3sEQsTo8fDNejOR2jrughc" />
+		<DocPropertyConstant xsi:nil="true" href="NotKnown_2sCskc0Xb4Ph7LbvH66wbA" />
+		<DocPropertyConstant xsi:nil="true" href="Unset_1TfUGuT8T0ZPBteTrOTzfu" />
+	</Constants>
+</DocPropertyEnumeration>
+

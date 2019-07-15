@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CoreType_1t3macEL3Vw9cS_aD_rIp" Name="CoreType" UniqueId="770ffc24-98e5-437f-a266-73e90dfb54b3" PropertyType="p_enumeratedvalue" PrimaryDataType="IfcLabel">
+	<Enumeration>
+		<DocPropertyEnumeration xsi:nil="true" href="PEnum_AirTerminalCoreType_2oGxTn12Aum1g7cls6rr" />
+	</Enumeration>
+</DocProperty>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FlowMeterTypeCommon" UniqueId="c419080c-b956-49dc-a54f-0fd077961e65" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ReadOutType_0Z2yUVwC97kBzPg2jIBMiT" />
+		<DocProperty xsi:nil="true" href="RemoteReading_2eG5DC9H9CvBZPG3XsSkHD" />
+		<DocProperty xsi:nil="true" href="IsMain_0zcr2bMJL8ohA5RaRew01" />
+	</Properties>
+</DocPropertySet>
+

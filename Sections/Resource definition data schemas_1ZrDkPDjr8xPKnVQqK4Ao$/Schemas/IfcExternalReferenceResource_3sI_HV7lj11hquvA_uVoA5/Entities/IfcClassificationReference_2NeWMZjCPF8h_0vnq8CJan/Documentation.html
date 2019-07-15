@@ -1,0 +1,29 @@
+<EPM-HTML> 
+	 <P><U>Definition from IAI: </U>An <I>IfcClassificationReference</I> is a
+		reference into a classification system or source (see
+		<I>IfcClassification</I>). An optional inherited <I>ItemReference</I> key is
+		also provided to allow more specific references to classification items (or
+		tables) by type. The inherited <I>Name</I> attribute allows for a human
+		interpretable designation of a classification notation (or code) - see use
+		definition of "Lightweight Classification".</P> 
+	 <BLOCKQUOTE> <FONT COLOR="#0000FF" SIZE="-1">HISTORY: New entity in IFC
+		2x.</FONT></BLOCKQUOTE> 
+	 <H3>Use Definitions</H3> 
+	 <H4>Lightweight Classification</H4> 
+	 <P>The <I>IfcClassificationReference</I> can be used as a form of
+		'lightweight' classification through the '<I>ItemReference</I>' attribute
+		inherited from the abstract <I>IfcExternalReference</I> class. In this case,
+		the '<I>ItemReference</I>' could take (for instance) the Uniclass notation
+		"L6814" which, if the classification was well understood by all parties and was
+		known to be taken from a particular classification source, would be sufficient.
+		The <I>Name</I> attribute could be the title "Tanking". This would remove the
+		need for the overhead of the more complete classification structure of the
+		model.</P> 
+	 <P>However, it is not recommended that this lightweight method be used in
+		cases where more than one classification system is in use or where there may be
+		uncertainty as to the origin or meaning of the classification.</P> 
+	 <H4>Referencing from an External Source</H4> 
+	 <P>Classifications of an object may be referenced from an external source
+		rather than being contained within the IFC model. This is done through the
+		<I>IfcClassificationReference</I> class.</P> 
+</EPM-HTML>

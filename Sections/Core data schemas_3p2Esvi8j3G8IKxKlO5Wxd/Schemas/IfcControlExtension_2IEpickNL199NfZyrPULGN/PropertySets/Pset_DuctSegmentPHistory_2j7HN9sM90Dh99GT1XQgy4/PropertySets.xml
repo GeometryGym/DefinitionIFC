@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_DuctSegmentPHistory" UniqueId="ad1d15c9-d962-4036-b249-41d0616aaf04" PropertySetType="PSET_PERFORMANCEDRIVEN">
+	<Properties>
+		<DocProperty xsi:nil="true" href="LossCoefficient_3KCrftLLBjhnQ7yZUnwwt" />
+		<DocProperty xsi:nil="true" href="AtmosphericPressure_0vFH1GQbCefV437OUpypJ" />
+		<DocProperty xsi:nil="true" href="LeakageCurve_0m05YOqDX8u9iU0MTThKei" />
+		<DocProperty xsi:nil="true" href="FluidFlowLeakage_3dr4w1v755GPA26VfFzeiJ" />
+	</Properties>
+</DocPropertySet>
+

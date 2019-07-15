@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcColumnTypeEnum" UniqueId="1qpnPAhG94swJuQXGtN8S8" DiagramNumber="2">
+	<Constants>
+		<DocConstant xsi:nil="true" href="COLUMN_3DM_3LGsfFQewUeYa_Wixi" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3N9TZORB9AWwhPCd2Uyuid" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0PwpLC4Jj4JB1HiF1nCphG" />
+	</Constants>
+</DocEnumeration>
+

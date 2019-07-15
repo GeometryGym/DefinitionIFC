@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelAssociatesConstraint" UniqueId="04Wzphm099NBd3iLbgGffe" DiagramNumber="1" BaseDefinition="IfcRelAssociates" EntityFlags="229">
+	<Attributes>
+		<DocAttribute Name="Intent" UniqueId="10W_69J$P7jP3Smx40WZk1" DefinedType="IfcLabel" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The intent of the constraint usage with regard to its related IfcConstraint and IfcObjects, IfcPropertyDefinitions or IfcRelationships. Typical values can be e.g. RATIONALE or EXPECTED PERFORMANCE.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="RelatingConstraint" UniqueId="3dQn8f0HTEJAfaY_Lm26tJ" DefinedType="IfcConstraint" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Reference to constraint that is being applied using this relationship.</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcProjectedOrTrueLengthEnum" UniqueId="0BwOSzjFXEif03E5DNnAu9" DiagramNumber="4">
+	<Constants>
+		<DocConstant xsi:nil="true" href="PROJECTED_LENGTH_3i5ZeJNf14xhqxMdEStrP0" />
+		<DocConstant xsi:nil="true" href="TRUE_LENGTH_3eyBWzEhr3o8HIkdFfOt5" />
+	</Constants>
+</DocEnumeration>
+

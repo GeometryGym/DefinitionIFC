@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcColour" UniqueId="1Yni1gaT99WuxND$v9EwIO" DiagramNumber="1">
+	<Selects>
+		<DocSelectItem Name="IfcColourSpecification" UniqueId="2u$ZwPxIH0DA8yVzzLRJO$" />
+		<DocSelectItem Name="IfcPreDefinedColour" UniqueId="0wSG2zkcL4_BvecXhgT8bZ" />
+	</Selects>
+</DocSelect>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_WasteTerminalTypeWasteDisposalUnit" UniqueId="fcb64324-a378-4f22-af6d-72ff468d2ac2" ApplicableType="IfcWasteTerminal.Predefined=&quot;WASTEDISPOSALUNIT&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="DrainConnectionSize_3KTcUQL7HCrOJ19v9KDS8u" />
+		<DocProperty xsi:nil="true" href="OutletConnectionSize_2HRTu4d3f3KvRQHqYEW17m" />
+		<DocProperty xsi:nil="true" href="NominalDepth_1_yW2S_MnB6QCY_OID2IKX" />
+	</Properties>
+</DocPropertySet>
+

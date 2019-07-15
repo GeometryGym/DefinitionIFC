@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCompositeCurveSegment" UniqueId="1l2XePyvnATxT857wPDbMj" DiagramNumber="6" BaseDefinition="IfcGeometricRepresentationItem" EntityFlags="109">
+	<Attributes>
+		<DocAttribute Name="Transition" UniqueId="2z8w0ELULDtfOv5JMaDIYq" DefinedType="IfcTransitionCode" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The state of transition (i.e., geometric continuity from the last point of this segment to the first point of the next segment) in a composite curve.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="SameSense" UniqueId="0HP7Ihzs11fvaW4LDyU$CB" DefinedType="BOOLEAN" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>An indicator of whether or not the sense of the segment agrees with, or opposes, that of the parent curve. If SameSense is false, the point with highest parameter value is taken as the first point of the segment.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="ParentCurve" UniqueId="3RSStBCb9F8PzG_pnulbM_" DefinedType="IfcCurve" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The bounded curve which defines the geometry of the segment.</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="Dim" UniqueId="2qTgmAyWnFmx942ZP_prCs" DefinedType="IfcDimensionCount" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The space dimensionality of this class, defined by the dimensionality of the first ParentCurve.</Documentation>
+			<Derived>ParentCurve.Dim</Derived>
+		</DocAttribute>
+		<DocAttribute Name="UsingCurves" UniqueId="2zJgVS3ET2gwCsvP$KH1VT" DefinedType="IfcCompositeCurve" AttributeFlags="8" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" Inverse="Segments">
+			<Documentation>The set of composite curves which use this composite curve segment as a segment. This set shall not be empty.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR1" UniqueId="3hS5jnV1D7ivQ_rIjk6nGH">
+			<Documentation>The parent curve shall be a bounded curve.</Documentation>
+			<Expression>(&apos;IFCGEOMETRYRESOURCE.IFCBOUNDEDCURVE&apos; IN TYPEOF(ParentCurve))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

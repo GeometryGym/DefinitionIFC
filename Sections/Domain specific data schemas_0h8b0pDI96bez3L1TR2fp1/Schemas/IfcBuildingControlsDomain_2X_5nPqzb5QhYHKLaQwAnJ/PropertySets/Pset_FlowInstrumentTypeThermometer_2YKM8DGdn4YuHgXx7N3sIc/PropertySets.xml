@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_FlowInstrumentTypeThermometer" UniqueId="a251620d-427c-448b-846a-87b1d70f64a6" ApplicableType="IfcFlowInstrument.Predefined=&quot;THERMOMETER&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ThermometerType_3IOXJ6btb758i_6EusQ7_p" />
+		<DocProperty xsi:nil="true" href="DisplaySize_0BL1VQ9l58KOnHHrsbP7lR" />
+	</Properties>
+</DocPropertySet>
+

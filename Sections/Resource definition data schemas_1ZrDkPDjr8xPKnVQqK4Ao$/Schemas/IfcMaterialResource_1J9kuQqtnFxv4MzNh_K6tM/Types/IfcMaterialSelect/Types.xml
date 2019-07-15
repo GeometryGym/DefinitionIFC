@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcMaterialSelect" UniqueId="0B2Dyf_TD91wYLCrkZpaQu" DiagramNumber="1">
+	<Selects>
+		<DocSelectItem Name="IfcMaterial" UniqueId="1xfMspRCzAqB9fbJkZJ7fu" />
+		<DocSelectItem Name="IfcMaterialList" UniqueId="0TrsQ_INbCbRp6VsujIkpo" />
+		<DocSelectItem Name="IfcMaterialLayerSetUsage" UniqueId="3RhGhydQHCmwzTae$idnSn" />
+		<DocSelectItem Name="IfcMaterialLayerSet" UniqueId="1UsD0i2Jv2agI3bhTZTAL7" />
+		<DocSelectItem Name="IfcMaterialLayer" UniqueId="0Y8hl$kz925999K3qHH_o2" />
+	</Selects>
+</DocSelect>
+

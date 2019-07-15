@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcSimpleProperty" UniqueId="3nJpjsmVP0V9Q78eyCd9pX" DiagramNumber="1" BaseDefinition="IfcProperty" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="3Qd194tLj9jRQhbHygJntn" DefinedType="IfcPropertySingleValue" />
+		<DocSubtype UniqueId="0oGbAunxTAMuB$waOXflxa" DefinedType="IfcPropertyEnumeratedValue" />
+		<DocSubtype UniqueId="3aSqAcivf6twjgBAR_FXRm" DefinedType="IfcPropertyBoundedValue" />
+		<DocSubtype UniqueId="1oyhm3cQL6iBihmC22mPah" DefinedType="IfcPropertyTableValue" />
+		<DocSubtype UniqueId="3SVYWXZrf1Ux3vhKVkqF3P" DefinedType="IfcPropertyReferenceValue" />
+		<DocSubtype UniqueId="2xXzDsKnf1GBskiDLNaseI" DefinedType="IfcPropertyListValue" />
+	</Subtypes>
+</DocEntity>
+

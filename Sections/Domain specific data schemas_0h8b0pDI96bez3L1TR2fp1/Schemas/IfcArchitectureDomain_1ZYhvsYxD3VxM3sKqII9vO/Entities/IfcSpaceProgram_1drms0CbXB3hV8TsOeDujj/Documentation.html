@@ -1,0 +1,53 @@
+<EPM-HTML>
+	 <P><U>Definition from IAI</U>: Architectural program for a space in the
+		building or facility being designed; essentially the requirements definition
+		for such a building space. </P> 
+	 <BLOCKQUOTE> <FONT SIZE="-1">NOTE: that this 'program' defines the client
+		requirements for the space before the building is designed. Space programs can
+		change over the life cycle of a building, after the building is occupied.
+		Changes to space programs take place in the facilities management/operations
+		phase of the building life cycle.</FONT></BLOCKQUOTE> 
+	 <P>The assignment of a person or an organization to a space program, e.g.,
+		as the anticipated occupants of the space, is handled through using the
+		objectified relationship <I>IfcRelAssignsToActor</I> referring to
+		<I>IfcActor</I>. Space programs can be nested, i.e. an IfcSpaceProgram can
+		specify a program group up to any desired level. This is handled through using
+		the objectified relationship <I>IfcRelNests</I>.</P> 
+	 <P><U><B>Property Set Use Definition</B></U>:</P> 
+	 <P>The property sets relating to the <I>IfcSpaceProgram</I> are defined by
+		the <I>IfcPropertySet</I> and attached by the <I>IfcRelDefinesByProperties</I>
+		relationship. It is accessible by the inverse <I>IsDefinedBy</I> relationship.
+		The following property set definitions specific to the <I>IfcSpaceProgram</I>
+		are part of this IFC release:</P> 
+	 <UL> 
+		<LI><A HREF="../../psd/IfcArchitectureDomain/Pset_SpaceProgramCommon.xml"
+		  TARGET="SOURCE">Pset_SpaceProgramCommon</A>: common property set for all types
+		  of the space program</LI> 
+	 </UL>
+	 <P><B><U>General Use Definition</U></B></P> 
+	 <P>The <I>IfcSpaceProgram</I> entity is used to define: </P> 
+	 <UL> 
+		<LI>the architectural program for a space in the building or facility
+		  being designed; </LI> 
+		<LI>the standard for space allocation that can be assigned to persons
+		  within an organization. </LI> 
+	 </UL> 
+	 <P>As the architectural program, the <I>IfcSpaceProgram</I> class sets down
+		the requirements definition for a space in the building or facility being
+		designed. Used in this way, it defines the client requirements for the space
+		before the building in designed. Space programs can change over the life cycle
+		of a building, after the building is occupied. Changes to space programs take
+		place in the facilities management/operations phase of the building life cycle.
+		</P> 
+	 <P>As a space standard for facilities management (FM), the
+		<I>IfcSpaceProgram</I> class defines the requirements for usage of a space
+		according to the roles of persons that will occupy the space. This could take
+		into account role driven elements such as whether the space should be a single
+		person office, corner space, glazing on two sides etc. In order to use the
+		class as an space standard within FM, a classification of spaces must have been
+		established. This does not mean that each individual space needs to have a
+		classification although for locating persons having an assigned space standard,
+		this would be desirable.</P> 
+	 <BLOCKQUOTE><FONT COLOR="#0000CC" SIZE="-1">HISTORY New Entity in IFC
+		Release 1.0</FONT></BLOCKQUOTE>
+</EPM-HTML>

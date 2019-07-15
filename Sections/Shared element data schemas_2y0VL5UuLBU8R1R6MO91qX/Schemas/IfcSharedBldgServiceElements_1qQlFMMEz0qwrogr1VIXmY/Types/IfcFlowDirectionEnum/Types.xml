@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcFlowDirectionEnum" UniqueId="0XnWfI3c19yxPC2$0xtU0Q" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="SOURCE_3YPT2oFInE6u36lEhdip7" />
+		<DocConstant xsi:nil="true" href="SINK_1ox_FPalb2mApClhOVgzeF" />
+		<DocConstant xsi:nil="true" href="SOURCEANDSINK_3LHKDxegn0quFpYD0j_qm7" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1l500XbOfDo9SSoohGTPjW" />
+	</Constants>
+</DocEnumeration>
+

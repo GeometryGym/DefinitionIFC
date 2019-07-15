@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBoundedCurve" UniqueId="0OOcf88t92lR$rnicKU0A1" DiagramNumber="5" BaseDefinition="IfcCurve" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="1q_2xaEXj0VO451_91w5AK" DefinedType="IfcCompositeCurve" />
+		<DocSubtype UniqueId="0_6iv7zoz0HhxwCGAJyQ_K" DefinedType="IfcPolyline" />
+		<DocSubtype UniqueId="1lez0uCTL8F9B2QOLXx1nw" DefinedType="IfcTrimmedCurve" />
+		<DocSubtype UniqueId="3IvuCHudbBwBrT7HOLgyk$" DefinedType="IfcBSplineCurve" />
+	</Subtypes>
+</DocEntity>
+

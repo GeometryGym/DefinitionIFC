@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_LampTypeCommon" UniqueId="2b549f30-e555-4a40-897a-6557de84d859" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="ContributedLuminousFlux_0LXnKCmtz3qQENVKcrsJwg" />
+		<DocProperty xsi:nil="true" href="LightEmitterNominalPower_0XS9STmf0YB_wFmIXr1Pw" />
+		<DocProperty xsi:nil="true" href="LampMaintenanceFactor_2P5KkDFNf15vbzIDzHf7J" />
+		<DocProperty xsi:nil="true" href="LampBallastType_0ENpSHxN9ERgWfcPB5iPsS" />
+		<DocProperty xsi:nil="true" href="LampCompensationType_2s6og8cEf6xBCgC6u8GOK9" />
+		<DocProperty xsi:nil="true" href="ColorAppearance_1XaBHDN4TCaOllGy0sXvc3" />
+		<DocProperty xsi:nil="true" href="Spectrum_1EJOB3mT3igyHaPJbbCv" />
+		<DocProperty xsi:nil="true" href="ColorTemperature_3lHRWnu9L9CvQUvrP9L8wR" />
+		<DocProperty xsi:nil="true" href="ColorRenderingIndex_1tzy_cVGT35RRB8Bsbah2U" />
+	</Properties>
+</DocPropertySet>
+

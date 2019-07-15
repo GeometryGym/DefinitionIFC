@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CurtainWallCommon" UniqueId="9310361c-9b26-4f5f-b320-32e84f7238fc" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_3cE6JFRT1wfUzKEEoXmKa" />
+		<DocProperty xsi:nil="true" href="AcousticRating_1OTdcZQbbCChgs8JdBUEWs" />
+		<DocProperty xsi:nil="true" href="FireRating_0esRqXp_b9Hx50vGYziKWc" />
+		<DocProperty xsi:nil="true" href="Combustible_2tBiC1xIjDyAf8eDwW7qna" />
+		<DocProperty xsi:nil="true" href="SurfaceSpreadOfFlame_0PykVGmiLBteuXtHJAdF9A" />
+		<DocProperty xsi:nil="true" href="ThermalTransmittance_0IJIy3ejL8U9b7qTL5sBm1" />
+		<DocProperty xsi:nil="true" href="IsExternal_3a2SaLE6z4zg74iHwVWcnL" />
+	</Properties>
+</DocPropertySet>
+

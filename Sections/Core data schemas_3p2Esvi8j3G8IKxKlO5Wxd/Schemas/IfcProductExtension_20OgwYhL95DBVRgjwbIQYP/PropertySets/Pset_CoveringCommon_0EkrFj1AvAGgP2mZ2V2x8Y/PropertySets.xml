@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_CoveringCommon" UniqueId="0ebb53ed-04ae-4a42-a642-c2309f0bb222" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Reference_3qco69co58bgXoP9UE5qyq" />
+		<DocProperty xsi:nil="true" href="FireRating_1VfONeV112BfD_Fvwgts9" />
+		<DocProperty xsi:nil="true" href="AcousticRating_02go9hYfDYgrne6WJMwZn" />
+		<DocProperty xsi:nil="true" href="FlammabilityRating_1b4tgoMjFf9vFA1HAkhnA" />
+		<DocProperty xsi:nil="true" href="FragilityRating_3PRJBGHDL41vygZ4nqZgfl" />
+		<DocProperty xsi:nil="true" href="SurfaceSpreadOfFlame_0F0bWmv9TFMh4qs9Y5Czh" />
+		<DocProperty xsi:nil="true" href="Material_2_KO9dHOr1oPyWPUHkHgEX" />
+		<DocProperty xsi:nil="true" href="Combustible_2nqlYzaaf1ofl4_5J9NGAo" />
+		<DocProperty xsi:nil="true" href="TotalThickness_3YKKMV7KH2CQewBne8Rm9" />
+		<DocProperty xsi:nil="true" href="Finish_345QMlHon3BeNAj8YTGQ7g" />
+	</Properties>
+</DocPropertySet>
+

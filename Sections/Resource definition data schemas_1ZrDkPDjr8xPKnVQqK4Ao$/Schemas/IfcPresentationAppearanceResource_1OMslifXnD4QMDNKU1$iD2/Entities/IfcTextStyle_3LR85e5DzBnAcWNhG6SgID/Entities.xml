@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTextStyle" UniqueId="3LR85e5DzBnAcWNhG6SgID" DiagramNumber="3" BaseDefinition="IfcPresentationStyle" EntityFlags="237">
+	<Attributes>
+		<DocAttribute Name="TextCharacterAppearance" UniqueId="1jehu7P2v30gdrFMrBIRdi" DefinedType="IfcCharacterStyleSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+A character style to be used for presented text.
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TextStyle" UniqueId="2wRYtJRCz3URvAw$KwWfsx" DefinedType="IfcTextStyleSelect" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The style applied to the text block for its visual appearance.&lt;/br&gt;
+It defines the text block characteristics, either for vector based or monospace text fonts (see select item &lt;i&gt;IfcTextStyleWithBoxCharacteristics&lt;/i&gt;), or for true type text fonts (see select item &lt;i&gt;IfcTextStyleTextModel&lt;/i&gt;.
+  &lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#0000ff&quot;&gt;
+IFC2x Edition 3 CHANGE&amp;nbsp; The &lt;i&gt;attribute &lt;i&gt;TextBlockStyle&lt;/i&gt; has been changed from SET[1:?] to a non-aggregated optional, it has been renamed from TextStyles.
+  &lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+		<DocAttribute Name="TextFontStyle" UniqueId="3FYTkLEfX1vO3UviX3G$Ng" DefinedType="IfcTextFontSelect" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>&lt;EPM-HTML&gt;
+The style applied to the text font for its visual appearance.&lt;/br&gt;
+It defines the font family, font style, weight and size.
+  &lt;blockquote&gt;&lt;small&gt;&lt;font color=&quot;#ff0000&quot;&gt;
+IFC2x Edition 2 Addendum 2 CHANGE The attribute &lt;i&gt;TextFontStyle&lt;/i&gt; is a new attribute attached to &lt;i&gt;IfcTextStyle&lt;/i&gt;.
+  &lt;/font&gt;&lt;/small&gt;&lt;/blockquote&gt;
+&lt;/EPM-HTML&gt;</Documentation>
+		</DocAttribute>
+	</Attributes>
+</DocEntity>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcTendonTypeEnum" UniqueId="2osmPWUJXBVfjnjwBJdRAM" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="STRAND_2bSIGocv2ogyhbUSvUYib" />
+		<DocConstant xsi:nil="true" href="WIRE_154SwYlFnFcgBv6HT426Br" />
+		<DocConstant xsi:nil="true" href="BAR_39xPmZ5Ffu99pA1eBpdI" />
+		<DocConstant xsi:nil="true" href="COATED_3PvZ0TKKf9HQ5MdszacwqP" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_20biZ1oh50rgZRKMxuNraE" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_2EIUQBLUbEKfDpa76YzD2" />
+	</Constants>
+</DocEnumeration>
+

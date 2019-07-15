@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertyEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PEnum_SpaceHeaterTemperatureClassification_0lTsc06GX8shvuzwsOWG" Name="PEnum_SpaceHeaterTemperatureClassification" UniqueId="2f776980-1908-48da-be78-ffdeb663f810">
+	<Constants>
+		<DocPropertyConstant xsi:nil="true" href="LOWTEMPERATURE_18xGftAoP1AB44UwPzM40" />
+		<DocPropertyConstant xsi:nil="true" href="HIGHTEMPERATURE_3I07qw9PzE6u4hz78MzZi" />
+		<DocPropertyConstant xsi:nil="true" href="OTHER_0h4_a8Z_bC_BCnDSSTBwjt" />
+		<DocPropertyConstant xsi:nil="true" href="NOTKNOWN_0dRPL6OIr2FA5KxDSnprk2" />
+		<DocPropertyConstant xsi:nil="true" href="UNSET_3KJYNOgpH3APBy2EOOKD0z" />
+	</Constants>
+</DocPropertyEnumeration>
+

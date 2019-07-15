@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_SanitaryTerminalTypeBath" UniqueId="66f111b6-ea2f-446a-80a0-cbe214876b7c" ApplicableType="IfcSanitaryTerminal.Predefined=&quot;BATH&quot;" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="BathType_0sS4_D2wT49wGYvV9FZ2pm" />
+		<DocProperty xsi:nil="true" href="NominalLength_255Ch6UgXCBgP9VhKpj6pm" />
+		<DocProperty xsi:nil="true" href="NominalWidth_3gNoeOrf99C82Z__uM0ei9" />
+		<DocProperty xsi:nil="true" href="NominalDepth_3SWEOWtqj50PcmiQ6KAoWr" />
+		<DocProperty xsi:nil="true" href="Material_2yG01SBLXCHx7SzWLUIl9_" />
+		<DocProperty xsi:nil="true" href="MaterialThickness_3PEYdsa9f30QYX807GdUrR" />
+		<DocProperty xsi:nil="true" href="Color_2KUvppcAP3cxIDQ5O663zQ" />
+		<DocProperty xsi:nil="true" href="DrainSize_3SPLYt5UrCSetmq0MOUOpw" />
+		<DocProperty xsi:nil="true" href="HasGrabHandles_1W8dTzH6HB2BKtqgYLGJbI" />
+	</Properties>
+</DocPropertySet>
+

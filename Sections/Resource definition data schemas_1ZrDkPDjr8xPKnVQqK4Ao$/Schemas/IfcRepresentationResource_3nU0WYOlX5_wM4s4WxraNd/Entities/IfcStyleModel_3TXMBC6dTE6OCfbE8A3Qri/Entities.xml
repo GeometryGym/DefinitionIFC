@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcStyleModel" UniqueId="3TXMBC6dTE6OCfbE8A3Qri" DiagramNumber="2" BaseDefinition="IfcRepresentation" EntityFlags="197">
+	<Subtypes>
+		<DocSubtype UniqueId="0vB44ebFL78BJoSYLwh8yb" DefinedType="IfcStyledRepresentation" />
+	</Subtypes>
+</DocEntity>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCoolingTowerTypeEnum" UniqueId="2Ygp7kkHX448CfhikfNL5g" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="NATURALDRAFT_1Qt3kLBtn8r9NH3nNgiRbR" />
+		<DocConstant xsi:nil="true" href="MECHANICALINDUCEDDRAFT_0zfVO0rP87Ayb2At7QpfG" />
+		<DocConstant xsi:nil="true" href="MECHANICALFORCEDDRAFT_2Mgkt5h2v1ufxmo8zC5gBt" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_0BhrpW0wzBMf2nn4Yyn7F_" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_1q163Ds6n3NRVKgr2ag_w_" />
+	</Constants>
+</DocEnumeration>
+

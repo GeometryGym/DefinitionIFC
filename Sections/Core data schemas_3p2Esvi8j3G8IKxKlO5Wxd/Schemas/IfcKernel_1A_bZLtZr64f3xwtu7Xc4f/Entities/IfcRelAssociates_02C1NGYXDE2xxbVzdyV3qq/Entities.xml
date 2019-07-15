@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcRelAssociates" UniqueId="02C1NGYXDE2xxbVzdyV3qq" DiagramNumber="4" BaseDefinition="IfcRelationship" EntityFlags="237">
+	<Subtypes>
+		<DocSubtype UniqueId="3$aHaraCH9s9cZHT_0IVr_" DefinedType="IfcRelAssociatesClassification" />
+		<DocSubtype UniqueId="2t3iXcWFTE$PyxIeW5kPzY" DefinedType="IfcRelAssociatesDocument" />
+		<DocSubtype UniqueId="2bRI0115f8vezFobe0KCTc" DefinedType="IfcRelAssociatesLibrary" />
+	</Subtypes>
+	<Attributes>
+		<DocAttribute Name="RelatedObjects" UniqueId="2QOP7FFpr6B8FFzn5lyErX" DefinedType="IfcRoot" AttributeFlags="0" AggregationType="3" AggregationFlag="0" AggregationLower="1" AggregationUpper="0">
+			<Documentation>Objects or Types, to which the external references or information is associated.</Documentation>
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="WR21" UniqueId="10JZw6HKPEafU4jyUbo2Ho">
+			<Documentation>&lt;EPM-HTML&gt;
+The &lt;i&gt;IfcRelAssociates&lt;/i&gt; relationship is restricted to associate information object, such as classification, document, library information, material, etc., to semantic object (occurrence objects based on &lt;i&gt;IfcObject&lt;/i&gt;, and type objects, based on &lt;i&gt;IfcTypeObject&lt;/i&gt;).
+&lt;/EPM-HTML&gt;</Documentation>
+			<Expression>SIZEOF(QUERY(temp &lt;* RelatedObjects |
+ NOT((&apos;IFCKERNEL.IFCOBJECTDEFINITION&apos; IN TYPEOF(temp)) 
+  OR (&apos;IFCKERNEL.IFCPROPERTYDEFINITION&apos; IN TYPEOF(temp)))
+ )) = 0</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

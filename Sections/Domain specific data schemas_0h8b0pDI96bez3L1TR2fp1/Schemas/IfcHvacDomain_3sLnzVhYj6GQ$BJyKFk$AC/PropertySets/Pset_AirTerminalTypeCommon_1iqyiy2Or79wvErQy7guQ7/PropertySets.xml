@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_AirTerminalTypeCommon" UniqueId="6cd3cb3c-098d-4727-ae4e-d5af07ab8687" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Shape_3oVZitH_DAc8GNE5Axzj" />
+		<DocProperty xsi:nil="true" href="FlowPattern_3MLSaAvRb42OQhaJaEOudJ" />
+		<DocProperty xsi:nil="true" href="AirFlowrateRange_3stI34ffj0Lh_V9iGLuFOK" />
+		<DocProperty xsi:nil="true" href="TemperatureRange_1iuEWJ0991VhuZM8SOet0y" />
+		<DocProperty xsi:nil="true" href="DischargeDirection_1_kQ9T8s903h4xrvNLGIW3" />
+		<DocProperty xsi:nil="true" href="ThrowLength_38Zq0SElzAuhEMILB5HjYf" />
+		<DocProperty xsi:nil="true" href="AirDiffusionPerformanceIndex_0Yka7ULizEufHp1li7CJL" />
+		<DocProperty xsi:nil="true" href="Material_0Yzqc6mkTCtwQD7XuLz0xx" />
+		<DocProperty xsi:nil="true" href="FinishType_0uBF6xSBnFEhXk6Fkwd4nB" />
+		<DocProperty xsi:nil="true" href="FinishColor_34p9jCHMT2F8dNglbNw2sR" />
+		<DocProperty xsi:nil="true" href="MountingType_1EfFCtt71FDxer8HfZ30RK" />
+		<DocProperty xsi:nil="true" href="CoreType_1t3macEL3Vw9cS_aD_rIp" />
+		<DocProperty xsi:nil="true" href="CoreSetHorizontal_0ov3J9j7YPIGpk8X9jGA" />
+		<DocProperty xsi:nil="true" href="CoreSetVertical_2NSPXQ7uPBnusZk0IIGsim" />
+		<DocProperty xsi:nil="true" href="HasIntegralControl_25aGkzLyT4q8wKsZ4gUNOl" />
+		<DocProperty xsi:nil="true" href="FlowControlType_3wWCC__qn0V8Pw4pcwSd0F" />
+		<DocProperty xsi:nil="true" href="HasSoundAttenuator_0IDWVsjZXCwvgPYNsxXdtF" />
+		<DocProperty xsi:nil="true" href="HasThermalInsulation_2gXzj6_L4Bf2pKLbCbaVu" />
+		<DocProperty xsi:nil="true" href="NeckArea_3EZaeG0759tucojXEhgOSG" />
+		<DocProperty xsi:nil="true" href="EffectiveArea_2X0YtEnUH3HQ0gpzIc5Iuv" />
+		<DocProperty xsi:nil="true" href="Weight_37S6wZapn24xli46jf0N32" />
+		<DocProperty xsi:nil="true" href="AirFlowrateVersusFlowControlElement_2qDYfGuTv9yQuHv0g_zJQF" />
+	</Properties>
+</DocPropertySet>
+

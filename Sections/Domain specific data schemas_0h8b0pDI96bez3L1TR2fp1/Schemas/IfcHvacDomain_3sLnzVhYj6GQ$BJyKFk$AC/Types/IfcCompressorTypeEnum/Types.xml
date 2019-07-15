@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcCompressorTypeEnum" UniqueId="0jPLcRR754oPWOSzmWkcuR" DiagramNumber="3">
+	<Constants>
+		<DocConstant xsi:nil="true" href="DYNAMIC_1WVLglCR50v90cE2N4Mwhh" />
+		<DocConstant xsi:nil="true" href="RECIPROCATING_14t5mZk51EOqtRAP7UaFw" />
+		<DocConstant xsi:nil="true" href="ROTARY_1xseLQmmT98Pzc2Ds2E_EN" />
+		<DocConstant xsi:nil="true" href="SCROLL_1Iwv1mybb6AvJTQAokRSAA" />
+		<DocConstant xsi:nil="true" href="TROCHOIDAL_3li5FyConAxxiREy5kuEUs" />
+		<DocConstant xsi:nil="true" href="SINGLESTAGE_0e3MKpBfj2_8aaMEFk2rj" />
+		<DocConstant xsi:nil="true" href="BOOSTER_2A2yIYNqXETfC2rp8bitO" />
+		<DocConstant xsi:nil="true" href="OPENTYPE_3rmC2fUuz3XwdzMFkcJa0" />
+		<DocConstant xsi:nil="true" href="HERMETIC_3klULuz1DBRBmHsiFHNQk9" />
+		<DocConstant xsi:nil="true" href="SEMIHERMETIC_02vf1_S4HD8BUZ_gVnQoY" />
+		<DocConstant xsi:nil="true" href="WELDEDSHELLHERMETIC_34CNTzLyPFDRLAEnCN9DNb" />
+		<DocConstant xsi:nil="true" href="ROLLINGPISTON_1LK7tQFAn94RjriThle51" />
+		<DocConstant xsi:nil="true" href="ROTARYVANE_2mJnJT8ffDPwgSaOwl6rpr" />
+		<DocConstant xsi:nil="true" href="SINGLESCREW_2Lb1Z7hYn26ubGy29r8CER" />
+		<DocConstant xsi:nil="true" href="TWINSCREW_1cPfYkSX3V8uFtPg4DguR" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_07LJEnoanD3ehgOLLGvlmt" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0Yeo2ypvX8288StNZ96rpu" />
+	</Constants>
+</DocEnumeration>
+

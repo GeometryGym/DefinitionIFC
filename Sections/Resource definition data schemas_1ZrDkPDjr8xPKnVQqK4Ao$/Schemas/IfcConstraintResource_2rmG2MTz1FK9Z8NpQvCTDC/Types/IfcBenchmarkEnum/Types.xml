@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcBenchmarkEnum" UniqueId="0L$9ck_HP9d9KQj$8jifdu" DiagramNumber="1">
+	<Constants>
+		<DocConstant xsi:nil="true" href="GREATERTHAN_3Q0OlFH2fFn9TXWCAiOzEW" />
+		<DocConstant xsi:nil="true" href="GREATERTHANOREQUALTO_0SxHzTvfbBQwTW7EU9jTqm" />
+		<DocConstant xsi:nil="true" href="LESSTHAN_3x6LEfkjCwfDLYmu9QZG" />
+		<DocConstant xsi:nil="true" href="LESSTHANOREQUALTO_1VGnGKgGbFXA8NKrDXDQA" />
+		<DocConstant xsi:nil="true" href="EQUALTO_0KdTbR2Or0Vh02_YJrMYCJ" />
+		<DocConstant xsi:nil="true" href="NOTEQUALTO_019Us5Gmf4HwKG6EAaecKb" />
+	</Constants>
+</DocEnumeration>
+

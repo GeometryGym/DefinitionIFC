@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocPropertySet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Pset_PipeSegmentTypeCommon" UniqueId="81eba2cc-013e-4b2c-b705-3e183c64a8d8" PropertySetType="PSET_TYPEDRIVENOVERRIDE">
+	<Properties>
+		<DocProperty xsi:nil="true" href="Material_3A3CmwaOf9MhlC_Vv8yoxH" />
+		<DocProperty xsi:nil="true" href="WorkingPressure_0SOgKKsoDFrx2TAmnD_Zng" />
+		<DocProperty xsi:nil="true" href="UnitWeight_1T3ytfsin62ANsPdPMbEWs" />
+		<DocProperty xsi:nil="true" href="PressureRange_2pSE3p79D9wwz4FRmmWkv" />
+		<DocProperty xsi:nil="true" href="TemperatureRange_1wcb08btj0twzwW7Cxj6Ww" />
+		<DocProperty xsi:nil="true" href="NominalDiameter_2wmdQqbpHEhBPVnLF5tiQ1" />
+		<DocProperty xsi:nil="true" href="InnerDiameter_1SPy3SJlr9A8nL6wF6pYQB" />
+		<DocProperty xsi:nil="true" href="OuterDiameter_3V9FyZzf4FAdbpNPM6M0m" />
+		<DocProperty xsi:nil="true" href="EndStyleTreatment_0qjMDLIlb0LxFNUlsCRwPt" />
+	</Properties>
+</DocPropertySet>
+
