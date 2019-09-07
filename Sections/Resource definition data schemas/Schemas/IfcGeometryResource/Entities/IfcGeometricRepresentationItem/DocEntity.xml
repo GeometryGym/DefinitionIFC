@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcGeometricRepresentationItem" Name="IfcGeometricRepresentationItem" UniqueId="40f86a50-abee-4be6-ad4b-26f1f60e8956" DiagramNumber="2" BaseDefinition="IfcRepresentationItem" EntityFlags="205">
+	<Localization>
+		<DocLocalization Name="Geometrische Repräsentation - Element" Locale="de" />
+		<DocLocalization Name="Geometric Representation Item" Locale="en" />
+		<DocLocalization Name="Item de représentation géométrique" Locale="fr" />
+	</Localization>
+	<DiagramRectangle xsi:type="DocRectangle" X="1661.10083007813" Y="38.9213256835938" Width="764.62667" Height="143.33333" />
+	<Subtypes>
+		<DocSubtype UniqueId="c6d2199a-086b-42b1-a620-8638bc5cb57c" DefinedType="IfcCompositeCurveSegment" />
+		<DocSubtype UniqueId="cd5e5c27-b138-450d-b7ef-87396aeddc3c" DefinedType="IfcCurve" />
+		<DocSubtype UniqueId="9c3144df-bbae-45a7-b736-c358f8b705bc" DefinedType="IfcDirection" />
+		<DocSubtype UniqueId="75b0c5b2-c1a8-43fc-994d-d46829a48c64" DefinedType="IfcPlacement" />
+		<DocSubtype UniqueId="a3f43262-ae45-4a26-8d8b-9cc08f2c5fcd" DefinedType="IfcPoint" />
+		<DocSubtype UniqueId="917bac99-6f25-4b9b-81bc-535bab64f76c" DefinedType="IfcSurface" />
+		<DocSubtype UniqueId="d4e4f3f1-8923-4f88-9a05-ccd038086ab2" DefinedType="IfcVector" />
+		<DocSubtype UniqueId="4340d926-f58d-49d9-a4b9-d035455f2c08" DefinedType="IfcBooleanResult" />
+		<DocSubtype UniqueId="fe098abd-22c1-423f-9727-2e73111ce926" DefinedType="IfcSolidModel" />
+		<DocSubtype UniqueId="60446d4e-909d-4cce-8721-14000f08f033" DefinedType="IfcHalfSpaceSolid" />
+		<DocSubtype UniqueId="54534576-d510-4f34-8b97-c4a1bb2ff68e" DefinedType="IfcBoundingBox" />
+		<DocSubtype UniqueId="08468645-855f-4441-b6de-19d6d30a5e5c" DefinedType="IfcCartesianTransformationOperator" />
+		<DocSubtype UniqueId="4aed3bdd-3449-4424-933f-9325efb1c8f0" DefinedType="IfcSectionedSpine" />
+		<DocSubtype UniqueId="0a2db2ee-bb9f-4239-8dea-88a52c96bad5" DefinedType="IfcGeometricSet" />
+		<DocSubtype UniqueId="652e69ee-3e7a-4a15-addb-ada01be1a9f2" DefinedType="IfcFaceBasedSurfaceModel" />
+		<DocSubtype UniqueId="bba89b31-8b74-4a29-9142-aeb03cef173c" DefinedType="IfcShellBasedSurfaceModel" />
+		<DocSubtype UniqueId="a3585673-d17a-4962-94f2-94cabda36fd3" DefinedType="IfcCartesianPointList" />
+		<DocSubtype UniqueId="6d713827-fb2b-45f0-a9d1-a69ef8f8b16f" DefinedType="IfcTessellatedItem" />
+		<DocSubtype UniqueId="48733077-6fcb-4215-9c21-d05dc9a9447b" DefinedType="IfcDistanceExpression" />
+		<DocSubtype UniqueId="b43f16eb-d567-45bf-abfc-879966e7c177" DefinedType="IfcOrientationExpression" />
+	</Subtypes>
+	<Tree>
+		<DocLine>
+			<DiagramLine>
+				<DocPoint X="1960" Y="182.254655683594" />
+				<DocPoint X="1960" Y="182.254655683594" />
+				<DocPoint X="1960" Y="272" />
+			</DiagramLine>
+			<Tree>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="330.173220033999" />
+						<DocPoint X="2082.82722981771" Y="330.173220033999" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="411.091740360966" />
+						<DocPoint X="2082.82722981771" Y="411.091740360966" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="492.010260687934" />
+						<DocPoint X="2082.82722981771" Y="492.010260687934" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="653.847301341869" />
+						<DocPoint X="2082.82722981771" Y="653.847301341869" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="815.684341995805" />
+						<DocPoint X="2082.82722981771" Y="815.684341995805" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="977.52138264974" />
+						<DocPoint X="2082.82722981771" Y="977.52138264974" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="896.602862322772" />
+						<DocPoint X="2082.82722981771" Y="896.602862322772" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="1100.07137044271" />
+						<DocPoint X="2162.78523763021" Y="1100.07137044271" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="2126.55623372396" />
+						<DocPoint X="2162.78523763021" Y="2126.55623372396" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="1741.62434895833" />
+						<DocPoint X="2162.78523763021" Y="1741.62434895833" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="1228.38203938802" />
+						<DocPoint X="2162.78523763021" Y="1228.38203938802" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="249.254699707031" />
+						<DocPoint X="2082.82722981771" Y="249.254699707031" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="1869.93489583333" />
+						<DocPoint X="2162.78523763021" Y="1869.93489583333" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="1613.31380208333" />
+						<DocPoint X="2162.78523763021" Y="1613.31380208333" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="1485.00313313802" />
+						<DocPoint X="2162.78523763021" Y="1485.00313313802" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="1998.24556477865" />
+						<DocPoint X="2162.78523763021" Y="1998.24556477865" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="1356.69258626302" />
+						<DocPoint X="2162.78523763021" Y="1356.69258626302" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="2254.86678059896" />
+						<DocPoint X="2162.78523763021" Y="2254.86678059896" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="572.928781014902" />
+						<DocPoint X="2082.82722981771" Y="572.928781014902" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="1960" Y="272" />
+						<DocPoint X="1960" Y="734.765821668837" />
+						<DocPoint X="2082.82722981771" Y="734.765821668837" />
+					</DiagramLine>
+				</DocLine>
+			</Tree>
+		</DocLine>
+	</Tree>
+</DocEntity>
+

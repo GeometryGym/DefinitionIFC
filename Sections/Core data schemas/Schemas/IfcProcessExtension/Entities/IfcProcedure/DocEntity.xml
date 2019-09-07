@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcProcedure" Name="IfcProcedure" UniqueId="0cce4f12-90b1-4e02-a09b-0dab4f9a731c" Status="H" DiagramNumber="1" BaseDefinition="IfcProcess" EntityFlags="229">
+	<Localization>
+		<DocLocalization Name="Vorgehen" Locale="de" />
+		<DocLocalization Name="Procedure" Locale="en" />
+		<DocLocalization Name="Procédure" Locale="fr" />
+	</Localization>
+	<DiagramRectangle xsi:type="DocRectangle" X="140.750010172526" Y="733.981282552083" Width="265.96667" Height="98.3999938964844" />
+	<Attributes>
+		<DocAttribute Name="PredefinedType" UniqueId="3f02d565-aa4a-4a70-9763-24f2ee9e0e79" DefinedType="IfcProcedureTypeEnum" AttributeFlags="1" AggregationType="0" AggregationFlag="0">
+			<Documentation>Identifies the predefined types of a procedure from which 
+    the type required may be set.</Documentation>
+			<DiagramLine>
+				<DocPoint X="406.716680172526" Y="801.247914632161" />
+				<DocPoint X="406.716680172526" Y="801.247914632161" />
+				<DocPoint X="613.033284505208" Y="801.247914632161" />
+			</DiagramLine>
+			<DiagramLabel xsi:type="DocRectangle" X="406.716680172526" Y="781.247914632161" Width="182" Height="35" />
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="HasName" UniqueId="e83ef098-16cd-4bb9-8836-4820cc6195d5">
+			<Documentation>The Name attribute should be inserted to describe the task name.</Documentation>
+			<Expression>EXISTS(SELF\IfcRoot.Name)</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="CorrectPredefinedType" UniqueId="26b16182-9011-4f44-9941-b6f99073b755">
+			<Documentation>Either the _PredefinedType_ attribute is unset, or the inherited attribute _ObjectType_ must be asserted when the value of _PredefinedType_ is set to _USERDEFINED_.</Documentation>
+			<Expression>NOT(EXISTS(PredefinedType)) OR (PredefinedType &lt;&gt; IfcProcedureTypeEnum.USERDEFINED) OR
+((PredefinedType = IfcProcedureTypeEnum.USERDEFINED) AND EXISTS(SELF\IfcObject.ObjectType))</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

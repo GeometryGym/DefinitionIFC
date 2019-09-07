@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocEnumeration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcActuatorTypeEnum" UniqueId="19ec410e-7dd0-43f5-9a7c-3ed6fcd7f858" DiagramNumber="1">
+	<Localization>
+		<DocLocalization Name="Actuator Type Enum" Locale="en" />
+		<DocLocalization Name="Énumération des types d&apos;appareillage de commande" Locale="fr" />
+	</Localization>
+	<DiagramRectangle xsi:type="DocRectangle" X="498.8666" Y="641.09993" Width="593.6" Height="52.666667" />
+	<Constants>
+		<DocConstant xsi:nil="true" href="ELECTRICACTUATOR_0xBqu8wIPE8hPtJXimUgjr" />
+		<DocConstant xsi:nil="true" href="HANDOPERATEDACTUATOR_0shaahaX7OAziWDkfhelB" />
+		<DocConstant xsi:nil="true" href="HYDRAULICACTUATOR_3v0BvFhyzFpRDWCzeacY9L" />
+		<DocConstant xsi:nil="true" href="PNEUMATICACTUATOR_2SWvfm8q16qhoUtvpvn3QW" />
+		<DocConstant xsi:nil="true" href="THERMOSTATICACTUATOR_0P0MJX4MnEceiqJITG9xhL" />
+		<DocConstant xsi:nil="true" href="USERDEFINED_3ebWToA35DRh3hp8mBSm04" />
+		<DocConstant xsi:nil="true" href="NOTDEFINED_0hF15nkf79uy7wMtnpxz" />
+	</Constants>
+</DocEnumeration>
+

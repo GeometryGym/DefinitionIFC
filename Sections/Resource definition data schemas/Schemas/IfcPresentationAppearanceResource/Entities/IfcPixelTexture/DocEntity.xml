@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="IfcPixelTexture" UniqueId="13c24361-dbc0-44fd-93e3-7772371d47b4" DiagramNumber="9" BaseDefinition="IfcSurfaceTexture" EntityFlags="229">
+	<Localization>
+		<DocLocalization Name="Textur - als Liste der Pixel gegeben" Locale="de" />
+		<DocLocalization Name="Pixel Texture" Locale="en" />
+	</Localization>
+	<DiagramRectangle xsi:type="DocRectangle" X="3256.83308919271" Y="4259.46671549479" Width="306.6" Height="393.33333" />
+	<Attributes>
+		<DocAttribute Name="Width" UniqueId="c1053d5b-168b-4e18-b506-7f86295a5034" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The number of pixels in width (S) direction.</Documentation>
+			<DiagramLine>
+				<DocPoint X="3563.43308919271" Y="4508.06667751736" />
+				<DocPoint X="3563.43308919271" Y="4508.06667751736" />
+				<DocPoint X="3795.43326822917" Y="4508.06667751736" />
+			</DiagramLine>
+			<DiagramLabel xsi:type="DocRectangle" X="3563.43308919271" Y="4488.06667751736" Width="70" Height="35" />
+		</DocAttribute>
+		<DocAttribute Name="Height" UniqueId="a3532256-2664-419d-969d-74405b430ee1" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>The number of pixels in height (T) direction.</Documentation>
+			<DiagramLine>
+				<DocPoint X="3563.43308919271" Y="4614.13338216146" />
+				<DocPoint X="3563.43308919271" Y="4614.13338216146" />
+				<DocPoint X="3795.43326822917" Y="4614.13338216146" />
+			</DiagramLine>
+			<DiagramLabel xsi:type="DocRectangle" X="3563.43308919271" Y="4594.13338216146" Width="79" Height="35" />
+		</DocAttribute>
+		<DocAttribute Name="ColourComponents" UniqueId="08c0022b-a713-47e4-9ab3-dd65531b1ddd" DefinedType="IfcInteger" AttributeFlags="0" AggregationType="0" AggregationFlag="0">
+			<Documentation>Indication whether the pixel values contain a 1, 2, 3, or 4 colour component.</Documentation>
+			<DiagramLine>
+				<DocPoint X="3563.43308919271" Y="4401.99997287326" />
+				<DocPoint X="3563.43308919271" Y="4401.99997287326" />
+				<DocPoint X="3795.43326822917" Y="4401.99997287326" />
+			</DiagramLine>
+			<DiagramLabel xsi:type="DocRectangle" X="3563.43308919271" Y="4381.99997287326" Width="221" Height="35" />
+		</DocAttribute>
+		<DocAttribute Name="Pixel" UniqueId="1a84a3b7-3dbb-4e1d-8775-f1a24ef74498" DefinedType="IfcBinary" AttributeFlags="0" AggregationType="1" AggregationFlag="0" AggregationLower="1" AggregationUpper="0" XsdFormat="content" XsdTagless="true">
+			<Documentation>Flat list of hexadecimal values, each describing one pixel by 1, 2, 3, or 4 components.
+{ .change-ifc2x3}
+&gt; IFC2x3 CHANGE&amp;nbsp; The data type has been changed from STRING to BINARY.</Documentation>
+			<DiagramLine>
+				<DocPoint X="3563.43308919271" Y="4287.09993489583" />
+				<DocPoint X="3563.43308919271" Y="4287.09993489583" />
+				<DocPoint X="3795.43326822917" Y="4287.09993489583" />
+			</DiagramLine>
+			<DiagramLabel xsi:type="DocRectangle" X="3563.43308919271" Y="4267.09993489583" Width="136" Height="35" />
+		</DocAttribute>
+	</Attributes>
+	<WhereRules>
+		<DocWhereRule Name="MinPixelInS" UniqueId="53fc4eaa-da51-44fb-ae56-3f413a84b8da">
+			<Documentation>The minimum number of pixel in width (S coordinate) direction shall be 1.</Documentation>
+			<Expression>Width &gt;= 1</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="MinPixelInT" UniqueId="0d5a47fe-a34c-4a09-a0bc-e39bc14275f2">
+			<Documentation>The minimum number of pixel in height (T coordinate) direction shall be 1.</Documentation>
+			<Expression>Height &gt;= 1</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="NumberOfColours" UniqueId="a2a10df3-0533-426f-ac0a-1e1f0898f051">
+			<Documentation>The number of color components shall be either 1, 2, 3, or 4.</Documentation>
+			<Expression>{1 &lt;= ColourComponents &lt;= 4}</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="SizeOfPixelList" UniqueId="e83dd612-9ffa-495d-b7c0-fcc0eafa72c1">
+			<Documentation>The list of pixel shall have exactly width\*height members.</Documentation>
+			<Expression>SIZEOF(Pixel) = (Width * Height)</Expression>
+		</DocWhereRule>
+		<DocWhereRule Name="PixelAsByteAndSameLength" UniqueId="fa13e19a-c3ec-4039-8437-388611cd8115">
+			<Documentation>The binary value provided for each _Pixel_ shall be a multiple of 8 bits. And all pixel shall have the same binary length.</Documentation>
+			<Expression>SIZEOF(QUERY(temp&lt;* Pixel |
+ (BLENGTH(temp) MOD 8 = 0) AND
+ (BLENGTH(temp) = BLENGTH(Pixel[1]))
+)) = SIZEOF(Pixel)</Expression>
+		</DocWhereRule>
+	</WhereRules>
+</DocEntity>
+

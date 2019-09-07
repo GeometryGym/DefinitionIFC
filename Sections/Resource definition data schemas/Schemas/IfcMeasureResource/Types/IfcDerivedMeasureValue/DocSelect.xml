@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocSelect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="IfcDerivedMeasureValue" Name="IfcDerivedMeasureValue" UniqueId="733e9b3e-2587-4a09-a749-f77cd563d967" DiagramNumber="4">
+	<Localization>
+		<DocLocalization Name="Derived Measure Value" Locale="en" />
+		<DocLocalization Name="Sélection de mesure dérivée" Locale="fr" />
+	</Localization>
+	<DiagramRectangle xsi:type="DocRectangle" X="5215.6117" Y="51.505021" Width="361.9065" Height="53.099891" />
+	<Selects>
+		<DocSelectItem Name="IfcVolumetricFlowRateMeasure" UniqueId="7457187b-5d48-4c11-9999-f42dafc47bbd" />
+		<DocSelectItem Name="IfcThermalTransmittanceMeasure" UniqueId="1e89b714-29aa-4fac-8965-5ac10c4a5a6b" />
+		<DocSelectItem Name="IfcThermalResistanceMeasure" UniqueId="e32ca9e9-bc3d-4b2b-8d40-0d47133dc9b9" />
+		<DocSelectItem Name="IfcThermalAdmittanceMeasure" UniqueId="bc47a122-eb7b-4090-bc74-d7b21ec5b991" />
+		<DocSelectItem Name="IfcPressureMeasure" UniqueId="2f7baa1f-f986-45fd-9205-b90252f0dfa2" />
+		<DocSelectItem Name="IfcPowerMeasure" UniqueId="4de9738b-40df-49d8-96fa-f54e5f349a0e" />
+		<DocSelectItem Name="IfcMassFlowRateMeasure" UniqueId="0fdf76f0-ed97-4662-8ba0-e2d6bdc21c8d" />
+		<DocSelectItem Name="IfcMassDensityMeasure" UniqueId="56ca52c9-761a-4367-bb71-5676cadfa616" />
+		<DocSelectItem Name="IfcLinearVelocityMeasure" UniqueId="8d09aa8a-b5e3-476d-ae50-1dab43490034" />
+		<DocSelectItem Name="IfcKinematicViscosityMeasure" UniqueId="c9b4c0fc-27e1-4a11-a049-2432931cb0f5" />
+		<DocSelectItem Name="IfcIntegerCountRateMeasure" UniqueId="1e57b88a-5e01-4ca0-87c5-77cb68562256" />
+		<DocSelectItem Name="IfcHeatFluxDensityMeasure" UniqueId="36e31e2b-efcb-4c75-86dd-81f1794b400a" />
+		<DocSelectItem Name="IfcFrequencyMeasure" UniqueId="739704f7-44b5-445b-b0b4-1f19f39ff140" />
+		<DocSelectItem Name="IfcEnergyMeasure" UniqueId="ce4f4c9c-33c9-444f-90bb-09c500b16e33" />
+		<DocSelectItem Name="IfcElectricVoltageMeasure" UniqueId="3c6c5791-82f9-48f9-a336-c912d9407b07" />
+		<DocSelectItem Name="IfcDynamicViscosityMeasure" UniqueId="88f3b9d7-d83a-4c9f-bf30-3f5aefe23abc" />
+		<DocSelectItem Name="IfcCompoundPlaneAngleMeasure" UniqueId="b1e79887-594f-442a-a854-10519e870c9e" />
+		<DocSelectItem Name="IfcAngularVelocityMeasure" UniqueId="f0ea3e28-dd39-4ee4-827d-b66e931e6e96" />
+		<DocSelectItem Name="IfcThermalConductivityMeasure" UniqueId="6bd75f20-ab4a-4de6-9267-851b06a7d3d6" />
+		<DocSelectItem Name="IfcMolecularWeightMeasure" UniqueId="5aa96740-153c-45e6-b636-776787db0155" />
+		<DocSelectItem Name="IfcVaporPermeabilityMeasure" UniqueId="47ae22f5-ba2b-4251-a25e-6b2c331f0487" />
+		<DocSelectItem Name="IfcMoistureDiffusivityMeasure" UniqueId="84b494a4-4915-447d-bfdb-c772df9e0bd5" />
+		<DocSelectItem Name="IfcIsothermalMoistureCapacityMeasure" UniqueId="8e1d2f08-3dc6-4a83-8379-fe6ca6cc1deb" />
+		<DocSelectItem Name="IfcSpecificHeatCapacityMeasure" UniqueId="fa739607-a159-40ce-a4a9-43c3844a4bf3" />
+		<DocSelectItem Name="IfcMonetaryMeasure" UniqueId="eb0660f2-f1df-4dce-a8d7-0e8eaa897b24" />
+		<DocSelectItem Name="IfcMagneticFluxDensityMeasure" UniqueId="8e5d3300-45e6-4b41-951d-47797e1ccf00" />
+		<DocSelectItem Name="IfcMagneticFluxMeasure" UniqueId="012be4be-237d-4360-bf76-f987e87f9871" />
+		<DocSelectItem Name="IfcLuminousFluxMeasure" UniqueId="2db4ace7-3ffa-4abb-82a0-5a17273e70f5" />
+		<DocSelectItem Name="IfcForceMeasure" UniqueId="631abb7b-f685-48b4-a985-59405731d97d" />
+		<DocSelectItem Name="IfcInductanceMeasure" UniqueId="c1f50906-d0e8-43a1-a552-d25a1206e8ea" />
+		<DocSelectItem Name="IfcIlluminanceMeasure" UniqueId="dc97460a-ef9d-47f6-b075-aea3628c274b" />
+		<DocSelectItem Name="IfcElectricResistanceMeasure" UniqueId="aea802ba-e0d4-459d-ac1f-b990e811e46d" />
+		<DocSelectItem Name="IfcElectricConductanceMeasure" UniqueId="73c5b0fe-c2ae-43b7-a4ad-2dfd97b21e45" />
+		<DocSelectItem Name="IfcElectricChargeMeasure" UniqueId="99add00e-46b1-49d0-9ad5-54d0867f8c95" />
+		<DocSelectItem Name="IfcDoseEquivalentMeasure" UniqueId="d988d556-8e37-45eb-ae73-643190d62da4" />
+		<DocSelectItem Name="IfcElectricCapacitanceMeasure" UniqueId="de7b710d-c9e6-4dfc-9a8a-b0380d6107bd" />
+		<DocSelectItem Name="IfcAbsorbedDoseMeasure" UniqueId="c913d59d-aad4-4497-a838-a6c76b54aa1b" />
+		<DocSelectItem Name="IfcRadioActivityMeasure" UniqueId="1bab89e1-bd3c-4f13-ac0e-a8b6ef6615b0" />
+		<DocSelectItem Name="IfcRotationalFrequencyMeasure" UniqueId="9d00f17b-e2a6-4161-b02b-f644374bb694" />
+		<DocSelectItem Name="IfcTorqueMeasure" UniqueId="cdcb2fd6-05c7-4d88-aff5-b6291f4aa63f" />
+		<DocSelectItem Name="IfcAccelerationMeasure" UniqueId="5bd43544-5f33-4add-a37c-f794c9141d72" />
+		<DocSelectItem Name="IfcLinearForceMeasure" UniqueId="ea96a84d-760b-4256-983a-66d46d57a3b1" />
+		<DocSelectItem Name="IfcLinearStiffnessMeasure" UniqueId="b229f963-241c-46a9-8789-c82a18eee600" />
+		<DocSelectItem Name="IfcModulusOfSubgradeReactionMeasure" UniqueId="aa9bad24-a0ae-4e8b-b340-f2b2d3bc1eea" />
+		<DocSelectItem Name="IfcModulusOfElasticityMeasure" UniqueId="fcc68cd9-f026-4df5-b5d3-1bf027ea3995" />
+		<DocSelectItem Name="IfcMomentOfInertiaMeasure" UniqueId="57743483-2944-4268-bc2e-00e2c6206a53" />
+		<DocSelectItem Name="IfcPlanarForceMeasure" UniqueId="6fe96d91-ab98-4ca2-8d23-3247db26881a" />
+		<DocSelectItem Name="IfcRotationalStiffnessMeasure" UniqueId="09548fcd-03e7-4090-908a-b0de857f52ec" />
+		<DocSelectItem Name="IfcShearModulusMeasure" UniqueId="4a553145-034e-4043-96df-e1fb03a7238b" />
+		<DocSelectItem Name="IfcLinearMomentMeasure" UniqueId="f8452907-f3b4-4094-b822-ff60c568ec2a" />
+		<DocSelectItem Name="IfcLuminousIntensityDistributionMeasure" UniqueId="451223bc-d99a-4a14-87a8-48340086faa7" />
+		<DocSelectItem Name="IfcCurvatureMeasure" UniqueId="da3c2bc0-f335-43c7-bdfc-160bc8521f1b" />
+		<DocSelectItem Name="IfcMassPerLengthMeasure" UniqueId="311a9ee4-d4fd-49a3-8f46-d544b3c3df45" />
+		<DocSelectItem Name="IfcModulusOfLinearSubgradeReactionMeasure" UniqueId="0e20e6a6-1d4a-49a2-a818-82518ef6e3ef" />
+		<DocSelectItem Name="IfcModulusOfRotationalSubgradeReactionMeasure" UniqueId="d5bbb5b0-1a0f-4a48-aa48-1396885d063e" />
+		<DocSelectItem Name="IfcRotationalMassMeasure" UniqueId="0b7022c5-0786-4cb8-83ab-a4af1e278171" />
+		<DocSelectItem Name="IfcSectionalAreaIntegralMeasure" UniqueId="7c33a209-9b37-4118-adf6-3e39a43904cc" />
+		<DocSelectItem Name="IfcSectionModulusMeasure" UniqueId="538bcf3f-451d-45af-b105-3564bfc708b2" />
+		<DocSelectItem Name="IfcTemperatureGradientMeasure" UniqueId="1b28c781-494f-4512-b21b-1fe08e50f9cf" />
+		<DocSelectItem Name="IfcThermalExpansionCoefficientMeasure" UniqueId="a8bf1611-bf44-44e4-9039-304824def6bc" />
+		<DocSelectItem Name="IfcWarpingConstantMeasure" UniqueId="52ce3b61-c26b-45bc-a3de-6151a0f2bae8" />
+		<DocSelectItem Name="IfcWarpingMomentMeasure" UniqueId="556117b4-803a-4f60-8c5c-ab45627c7051" />
+		<DocSelectItem Name="IfcSoundPowerMeasure" UniqueId="31b1221e-e5f0-441d-a9ee-2f3ddfe3b257" />
+		<DocSelectItem Name="IfcSoundPressureMeasure" UniqueId="b4ce9982-9c1d-4873-a446-18f65451963b" />
+		<DocSelectItem Name="IfcHeatingValueMeasure" UniqueId="fafeeaee-0a10-446e-8006-8e1449dae83a" />
+		<DocSelectItem Name="IfcPHMeasure" UniqueId="9e077df6-bd12-4505-9f32-d509d5cb971b" />
+		<DocSelectItem Name="IfcIonConcentrationMeasure" UniqueId="d4d84b24-9e14-4f6b-88a3-b06e08c99204" />
+		<DocSelectItem Name="IfcTemperatureRateOfChangeMeasure" UniqueId="444cef4a-bf77-4346-887f-a3194bee03c7" />
+		<DocSelectItem Name="IfcAreaDensityMeasure" UniqueId="20adb0b3-71ef-4e57-b648-947d5f45ef4c" />
+		<DocSelectItem Name="IfcSoundPowerLevelMeasure" UniqueId="5be96029-7131-4f9e-8d79-8eec03cf67c8" />
+		<DocSelectItem Name="IfcSoundPressureLevelMeasure" UniqueId="172b3723-0e0d-49ed-b325-734fa2b0504b" />
+	</Selects>
+	<Tree>
+		<DocLine>
+			<DiagramLine>
+				<DocPoint X="5577.5182" Y="76.505039" />
+				<DocPoint X="5624.117688" Y="76.505039" />
+			</DiagramLine>
+			<Tree>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1939.4178" />
+						<DocPoint X="5665.066113" Y="1939.4178" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1743.1048" />
+						<DocPoint X="5589.561918" Y="1743.1048" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1811.3767" />
+						<DocPoint X="5665.198113" Y="1811.3767" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1746.3992" />
+						<DocPoint X="5665.159313" Y="1746.3992" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1414.3175" />
+						<DocPoint X="5589.556838" Y="1414.3175" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1551.3075" />
+						<DocPoint X="5665.134213" Y="1551.3075" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1255.6532" />
+						<DocPoint X="5665.168413" Y="1255.6532" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1085.4886" />
+						<DocPoint X="5589.543827" Y="1085.4886" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="948.98618" />
+						<DocPoint X="5589.596958" Y="948.98618" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="930.63668" />
+						<DocPoint X="5665.085013" Y="930.63668" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="801.46773" />
+						<DocPoint X="5665.033813" Y="801.46773" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="736.44717" />
+						<DocPoint X="5665.100413" Y="736.44717" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="678.87623" />
+						<DocPoint X="5589.542608" Y="678.87623" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="613.12571" />
+						<DocPoint X="5589.601658" Y="613.12571" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="606.42684" />
+						<DocPoint X="5665.084313" Y="606.42684" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="415.8641" />
+						<DocPoint X="5589.605138" Y="415.8641" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="281.54643" />
+						<DocPoint X="5587.08001" Y="281.54643" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="346.4424" />
+						<DocPoint X="5665.109913" Y="346.4424" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1678.2373" />
+						<DocPoint X="5589.586658" Y="1678.2373" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1422.1751" />
+						<DocPoint X="5665.166413" Y="1422.1751" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1809.7492" />
+						<DocPoint X="5589.56579" Y="1809.7492" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1217.9004" />
+						<DocPoint X="5589.571928" Y="1217.9004" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="798.98907" />
+						<DocPoint X="5591.960338" Y="798.98907" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="1612.4747" />
+						<DocPoint X="5589.530038" Y="1612.4747" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1486.2696" />
+						<DocPoint X="5665.218613" Y="1486.2696" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1191.5664" />
+						<DocPoint X="5665.180713" Y="1191.5664" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1020.6055" />
+						<DocPoint X="5589.532728" Y="1020.6055" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1126.543" />
+						<DocPoint X="5665.233413" Y="1126.543" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="671.47232" />
+						<DocPoint X="5665.064113" Y="671.47232" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="744.63854" />
+						<DocPoint X="5589.542858" Y="744.63854" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="866.50945" />
+						<DocPoint X="5665.083113" Y="866.50945" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="547.38153" />
+						<DocPoint X="5589.589853" Y="547.38153" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="541.45585" />
+						<DocPoint X="5665.130613" Y="541.45585" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="476.44492" />
+						<DocPoint X="5665.110013" Y="476.44492" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="411.40997" />
+						<DocPoint X="5665.054313" Y="411.40997" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="481.60641" />
+						<DocPoint X="5589.602588" Y="481.60641" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="348.1478" />
+						<DocPoint X="5588.327582" Y="348.1478" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1617.2335" />
+						<DocPoint X="5665.226413" Y="1617.2335" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1480.9503" />
+						<DocPoint X="5589.532118" Y="1480.9503" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1875.3504" />
+						<DocPoint X="5665.092213" Y="1875.3504" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="281.48631" />
+						<DocPoint X="5665.133613" Y="281.48631" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="876.14951" />
+						<DocPoint X="5589.588029" Y="876.14951" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1061.5208" />
+						<DocPoint X="5665.189713" Y="1061.5208" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1339.9601" />
+						<DocPoint X="5665.143013" Y="1339.9601" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1152.1097" />
+						<DocPoint X="5589.541598" Y="1152.1097" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1283.7048" />
+						<DocPoint X="5589.530668" Y="1283.7048" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1349.5015" />
+						<DocPoint X="5589.576788" Y="1349.5015" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1682.2798" />
+						<DocPoint X="5665.201213" Y="1682.2798" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="1546.7356" />
+						<DocPoint X="5589.595888" Y="1546.7356" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="996.56127" />
+						<DocPoint X="5665.116413" Y="996.56127" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="76.283435" />
+						<DocPoint X="6535.58336" Y="76.283435" />
+						<DocPoint X="6535.58336" Y="1332.238335" />
+						<DocPoint X="6921.1118" Y="1332.238335" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.022043" />
+						<DocPoint X="6800.1601" Y="77.022043" />
+						<DocPoint X="6800.1601" Y="516.564093" />
+						<DocPoint X="6921.18797" Y="516.564093" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="76.963851" />
+						<DocPoint X="6775.0032" Y="76.963851" />
+						<DocPoint X="6775.0032" Y="590.731181" />
+						<DocPoint X="6921.12276" Y="590.731181" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.55795" />
+						<DocPoint X="6581.11683" Y="77.55795" />
+						<DocPoint X="6581.11683" Y="1183.95655" />
+						<DocPoint X="6921.0973" Y="1183.95655" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.616249" />
+						<DocPoint X="6557.58181" Y="77.616249" />
+						<DocPoint X="6557.58181" Y="1254.372549" />
+						<DocPoint X="6921.0973" Y="1254.372549" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="76.919577" />
+						<DocPoint X="6749.1156" Y="76.919577" />
+						<DocPoint X="6749.1156" Y="661.778797" />
+						<DocPoint X="6921.16059" Y="661.778797" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.004684" />
+						<DocPoint X="6723.7586" Y="77.004684" />
+						<DocPoint X="6723.7586" Y="739.032624" />
+						<DocPoint X="6921.15749" Y="739.032624" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.079725" />
+						<DocPoint X="6698.5753" Y="77.079725" />
+						<DocPoint X="6698.5753" Y="813.163375" />
+						<DocPoint X="6921.12576" Y="813.163375" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.604399" />
+						<DocPoint X="6673.9357" Y="77.604399" />
+						<DocPoint X="6673.9357" Y="887.278829" />
+						<DocPoint X="6921.12734" Y="887.278829" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.252488" />
+						<DocPoint X="6604.19741" Y="77.252488" />
+						<DocPoint X="6604.19741" Y="1109.811188" />
+						<DocPoint X="6921.1625" Y="1109.811188" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.279037" />
+						<DocPoint X="6649.7463" Y="77.279037" />
+						<DocPoint X="6649.7463" Y="961.478927" />
+						<DocPoint X="6921.13897" Y="961.478927" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.292845" />
+						<DocPoint X="6625.5435" Y="77.292845" />
+						<DocPoint X="6625.5435" Y="1035.637705" />
+						<DocPoint X="6921.10568" Y="1035.637705" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1178" Y="77.080458" />
+						<DocPoint X="6513.23286" Y="77.080458" />
+						<DocPoint X="6513.23286" Y="1406.394358" />
+						<DocPoint X="6921.1294" Y="1406.394358" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="76.913845" />
+						<DocPoint X="6491.89205" Y="76.913845" />
+						<DocPoint X="6491.89205" Y="1480.565745" />
+						<DocPoint X="6921.1409" Y="1480.565745" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="76.898031" />
+						<DocPoint X="6471.36872" Y="76.898031" />
+						<DocPoint X="6471.36872" Y="1554.813331" />
+						<DocPoint X="6921.14568" Y="1554.813331" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="77.06609" />
+						<DocPoint X="6452.93784" Y="77.06609" />
+						<DocPoint X="6452.93784" Y="1628.99649" />
+						<DocPoint X="6921.1689" Y="1628.99649" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="76.383057" />
+						<DocPoint X="6433.55857" Y="76.383057" />
+						<DocPoint X="6433.55857" Y="1703.178757" />
+						<DocPoint X="6921.1681" Y="1703.178757" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="76.908916" />
+						<DocPoint X="6825.4969" Y="76.908916" />
+						<DocPoint X="6825.4969" Y="404.883586" />
+						<DocPoint X="6921.146721" Y="404.883586" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="77.193109" />
+						<DocPoint X="6848.0859" Y="77.193109" />
+						<DocPoint X="6848.0859" Y="328.533539" />
+						<DocPoint X="6921.100107" Y="328.533539" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="77.23488" />
+						<DocPoint X="6887.2232" Y="77.23488" />
+						<DocPoint X="6887.2232" Y="175.637831" />
+						<DocPoint X="6921.194888" Y="175.637831" />
+					</DiagramLine>
+				</DocLine>
+				<DocLine>
+					<DiagramLine>
+						<DocPoint X="5624.1177" Y="77.504652" />
+						<DocPoint X="6869.6948" Y="77.504652" />
+						<DocPoint X="6869.6948" Y="252.090532" />
+						<DocPoint X="6921.119266" Y="252.090532" />
+					</DiagramLine>
+				</DocLine>
+			</Tree>
+		</DocLine>
+	</Tree>
+</DocSelect>
+
