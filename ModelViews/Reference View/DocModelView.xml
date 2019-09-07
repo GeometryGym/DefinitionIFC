@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DocModelView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Reference_View_26gcVUWfj6UvpOtJPBwhvv" Name="Reference View" UniqueId="26gcVUWfj6UvpOtJPBwhvv" Code="ReferenceView_V1-1" Version="1.1" Status="Official" Owner="bSI" Copyright="&amp;copy; 1996-2016 buildingSMART International Ltd." XsdUri="http://www.buildingsmart-tech.org/mvd/IFC4Add2/RV/1.1">
 	<Exchanges>
 		<DocExchangeDefinition id="Reference_Exchange_3SsM4bYOvFyBAKwmAlwLEg" Name="Reference Exchange" UniqueId="3SsM4bYOvFyBAKwmAlwLEg" Status="Official">
@@ -2809,7 +2809,7 @@ Upon connecting elements through ports with rigid connections, each object shall
 
 Figure 1 illustrates distribution port connectivity.
 
-![&quot;Connection Use Definition&quot;](../../../figures/ifcdistributionport-connection.png &quot;Figure 1 &amp;mdash; Distribution port connectivity&quot;)</Documentation>
+![&quot;Connection Use Definition&quot;](../../figures/ifcdistributionport-connection.png &quot;Figure 1 &amp;mdash; Distribution port connectivity&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Connectivity_0MeHlCh55bRkmnAq5FQia" />
 					<Exchanges>
 						<DocExchangeItem Applicability="export" Requirement="optional">
@@ -2887,7 +2887,7 @@ Additionally, an _IfcDistributionSystem_ may in turn be assigned to an _IfcDistr
 
 Figure 1 illustrates a distribution system for an electrical circuit.
 
-![&quot;Instance diagram for electrical circuit&quot;](../../../figures/ifcdistributionsystem-01.png &quot;Figure 1 &amp;mdash; Distribution system assignment&quot;)</Documentation>
+![&quot;Instance diagram for electrical circuit&quot;](../../figures/ifcdistributionsystem-01.png &quot;Figure 1 &amp;mdash; Distribution system assignment&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -2925,7 +2925,7 @@ standards&lt;/b&gt;&lt;/small&gt;&lt;/td&gt;
 
  &lt;tr valign=&quot;top&quot;&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoor-fig01.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcdoor-fig01.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 1&quot;&gt;&lt;/td&gt;
 
   &lt;td align=&quot;left&quot;&gt;&lt;small&gt;The door panel (for swinging doors) opens
 always into the direction of the positive Y axis of the local
@@ -2943,7 +2943,7 @@ refered to as DIN-R (right hung) in Germany&lt;/small&gt;&lt;/td&gt;
 
  &lt;tr valign=&quot;top&quot;&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoor-fig02.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcdoor-fig02.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 2&quot;&gt;&lt;/td&gt;
 
   &lt;td align=&quot;left&quot;&gt;&lt;small&gt;If the door should open to the other side,
 then the local placement has to be changed. It is still a left side 
@@ -2959,7 +2959,7 @@ refered to as DIN-R (right hung) in Germany&lt;/small&gt;&lt;/td&gt;
  
 &lt;tr valign=&quot;top&quot;&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoor-fig03.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcdoor-fig03.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 3&quot;&gt;&lt;/td&gt;
   
 &lt;td align=&quot;left&quot;&gt;&lt;small&gt;If the door panel (for swinging doors)
 opens to the right, a separate door style needs to be used (here
@@ -2975,7 +2975,7 @@ refered to as DIN-L (left hung) in Germany&lt;/small&gt;&lt;/td&gt;
 
  &lt;tr valign=&quot;top&quot;&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoor-fig04.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 4&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcdoor-fig04.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 4&quot;&gt;&lt;/td&gt;
   
 &lt;td align=&quot;left&quot;&gt;&lt;small&gt;If the door panel (for swinging doors)
 opens to the right, and into the opposite directions, the local
@@ -3920,7 +3920,7 @@ pictures).&lt;/small&gt;&lt;/td&gt;
 				<DocTemplateUsage Name="Box Geometry" UniqueId="16b0d3f0-2982-4224-ab5b-04288ac8d58b">
 					<Documentation>&lt;table&gt;
  &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcbuildingelement-boundingbox-layout1.gif&quot; border=&quot;0&quot; height=&quot;275&quot; width=&quot;400&quot; alt=&quot;bounding box&quot;&gt;&lt;/td&gt; 
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcbuildingelement-boundingbox-layout1.gif&quot; border=&quot;0&quot; height=&quot;275&quot; width=&quot;400&quot; alt=&quot;bounding box&quot;&gt;&lt;/td&gt; 
   &lt;td&gt;
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Any &lt;em&gt;IfcElement&lt;/em&gt; may be represented by a bounding box, which shows the maximum extend of the body within the object coordinate system established by the &lt;em&gt;IfcObjectPlacement&lt;/em&gt;. As shown in Figure 1, the bounding box representation is given by an &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; that includes a single item, an &lt;em&gt;IfcBoundingBox&lt;/em&gt;.&lt;/blockquote&gt;
  &lt;/td&gt;
@@ -6120,7 +6120,7 @@ The following constraints apply to the 2D representation:
 &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
 
  &lt;tr&gt;
-  &lt;td width=&quot;510&quot;&gt;&lt;img src=&quot;../../../figures/ifcdesigngrid-layout1.gif&quot; alt=&quot;design grid&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
+  &lt;td width=&quot;510&quot;&gt;&lt;img src=&quot;../../figures/ifcdesigngrid-layout1.gif&quot; alt=&quot;design grid&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
  
   &lt;td&gt;&lt;blockquote&gt;
 As shown in Figure 31, the &lt;em&gt;IfcGrid&lt;/em&gt; defines a
@@ -6149,7 +6149,7 @@ As shown in Figure 31, the &lt;em&gt;IfcGrid&lt;/em&gt; defines a
 &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
  &lt;tr&gt;
 
-  &lt;td width=&quot;510&quot;&gt;&lt;img src=&quot;../../../figures/ifcgrid-representation.png&quot; alt=&quot;representation of a design grid&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
+  &lt;td width=&quot;510&quot;&gt;&lt;img src=&quot;../../figures/ifcgrid-representation.png&quot; alt=&quot;representation of a design grid&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;&lt;blockquote&gt;As shown in Figure 32, the attributes &lt;em&gt;UAxes&lt;/em&gt; and &lt;em&gt;VAxes&lt;/em&gt; define lists of &lt;em&gt;IfcGridAxis&lt;/em&gt;
  within the context of the grid. Each instance of
@@ -7277,7 +7277,7 @@ If the _IfcRoof_ has components (referenced by _SELF\IfcObject.IsDecomposedBy_) 
 
 Figure 1 illustrates roof placement, with an _IfcRoof_ defining the local placement for all aggregated elements.
 
-![&quot;roof&quot;](../../../figures/ifcroof-layout1.gif &quot;Figure 1 &amp;mdash; Roof placement&quot;)</Documentation>
+![&quot;roof&quot;](../../figures/ifcroof-layout1.gif &quot;Figure 1 &amp;mdash; Roof placement&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 					<Items>
 						<DocTemplateItem UniqueId="30fa9cfd-bddb-4bf5-95e3-6cdbf19b8851" RuleParameters="RelatedObjects=IfcSlab;" Order="0">
@@ -8012,7 +8012,7 @@ Figure 1 illustrates roof placement, with an _IfcRoof_ defining the local placem
 &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
  
 &lt;tr valign=&quot;top&quot;&gt;
-  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcspace_2d-layout1.gif&quot; alt=&quot;2d representation&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../figures/ifcspace_2d-layout1.gif&quot; alt=&quot;2d representation&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 shows a two-dimensional bounded curve representing the
 foot print of &lt;em&gt;IfcSpace&lt;/em&gt;.&lt;/blockquote&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -8050,7 +8050,7 @@ foot print of &lt;em&gt;IfcSpace&lt;/em&gt;.&lt;/blockquote&gt;&lt;/td&gt;
 
 Figure 1 shows an extrusion of an arbitrary profile definition with voids into the swept area solid of _IfcSpace_.
 
-![&quot;fig1&quot;](../../../figures/ifcspace_standard-layout1.gif &quot;Figure 1 &amp;mdash; Space body swept solid&quot;)</Documentation>
+![&quot;fig1&quot;](../../figures/ifcspace_standard-layout1.gif &quot;Figure 1 &amp;mdash; Space body swept solid&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_PolyCurve_Geometry_0uSGpDZL1keQ23091w0k" />
 					<Items>
 						<DocTemplateItem UniqueId="4c537ab7-c544-4663-bc95-8c962404b405" RuleParameters="Identifier=Body;Type=SweptSolid;Geometry=IfcExtrudedAreaSolid;" Order="0">
@@ -8956,11 +8956,11 @@ If no _IfcTransportElementType_ is attached&amp;nbsp;(i.e. if only occurrence in
 
 Figure 1 illustrates an example of referencing a representation map by the shape representation of a product occurrence. Here the Cartesian transformation operator only uses translation, but no rotation, mirroring, or scaling.
 
-![&quot;representation map&quot;](../../../figures/ifctypeproduct_representationmap-1.png &quot;Figure 1 &amp;mdash; Product type geometry with single placement&quot;)
+![&quot;representation map&quot;](../../figures/ifctypeproduct_representationmap-1.png &quot;Figure 1 &amp;mdash; Product type geometry with single placement&quot;)
 
 Figure 2 illustrates an example of referencing a representation multiple times map by the shape representation of a product occurrence. Here the Cartesian transformation operator only uses translation, but no rotation, mirroring, or scaling. The different translation values determine the pattern of the multiple placement.
 
-![&quot;representation map&quot;](../../../figures/ifctypeproduct_representationmap-2.png &quot;Figure 2 &amp;mdash; Product type geometry with multiple placement&quot;)</Documentation>
+![&quot;representation map&quot;](../../figures/ifctypeproduct_representationmap-2.png &quot;Figure 2 &amp;mdash; Product type geometry with multiple placement&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Type_Shape_20_8li13PFSAGgm4S5PMg1" />
 				</DocTemplateUsage>
 			</Concepts>

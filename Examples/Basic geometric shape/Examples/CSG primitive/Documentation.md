@@ -3,7 +3,7 @@ The block geometry can be expressed using the constructive solid geometry model,
 <table summary="CSG type">
  <tr>
   <td>
-   <img src="../../figures/examples/basic_shape_csg-1.png" width="420" height="420" alt="basic_shape_csg-1.png 15,1 KB">
+   <img src="../../../../figures/examples/basic_shape_csg-1.png" width="420" height="420" alt="basic_shape_csg-1.png 15,1 KB">
   </td>
   <td style=" vertical-align:bottom;">
    <blockquote>Figure 1 shows the block geometry represented by an CSG primitive.

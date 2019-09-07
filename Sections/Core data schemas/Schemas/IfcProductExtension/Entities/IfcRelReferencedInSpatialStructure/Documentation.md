@@ -20,7 +20,7 @@ Figure 1 shows the use of _IfcRelContainedInSpatialStructure_ and _IfcRelReferen
 <table cellpadding="2" cellspacing="2" width="80%">
       <tbody>
         <tr valign="top">
-          <td align="left" valign="top"><img src="../../../figures/ifcrelreferencedinspatialstructure-fig1.png" alt="reference and containment" height="601" width="601"><br>
+          <td align="left" valign="top"><img src="../../../../../../figures/ifcrelreferencedinspatialstructure-fig1.png" alt="reference and containment" height="601" width="601"><br>
           </td>
         </tr>
         <tr>

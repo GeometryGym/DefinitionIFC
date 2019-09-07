@@ -5,10 +5,10 @@ The example shows a hexagonal slab being tessellated with a mesh. Figure 1 and F
 <table summary="hexagonal slab tessellated">
  <tr>
   <td>
-   <img src="../../figures/examples/slab_hexagon_unique-vertices_edges.png" alt="slab_hexagon_unique-vertices">
+   <img src="../../../../figures/examples/slab_hexagon_unique-vertices_edges.png" alt="slab_hexagon_unique-vertices">
   </td>
   <td>
-   <img src="../../figures/examples/slab_hexagon_unique-vertices_shaded.png" alt="slab_hexagon_unique-vertices_shaded">
+   <img src="../../../../figures/examples/slab_hexagon_unique-vertices_shaded.png" alt="slab_hexagon_unique-vertices_shaded">
   </td>
  </tr>
  <tr style="height:20px;">

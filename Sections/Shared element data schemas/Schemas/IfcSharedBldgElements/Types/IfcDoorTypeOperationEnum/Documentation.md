@@ -28,8 +28,8 @@ in the direction of the positive y-axis.<br>
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig01.gif" alt="single swing left " border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig01b.gif" alt="single swing left " border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig01.gif" alt="single swing left " border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig01b.gif" alt="single swing left " border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -41,8 +41,8 @@ in the direction of the positive y-axis.<br>
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig02.gif" alt="single swing right" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig02b.gif" alt="single swing right" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig02.gif" alt="single swing right" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig02b.gif" alt="single swing right" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -54,8 +54,8 @@ SINGLE_SWING
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig03.gif" alt="double swing" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig03b.gif" alt="double swing" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig03.gif" alt="double swing" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig03b.gif" alt="double swing" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -67,8 +67,8 @@ Also called double acting door.<br>
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig04.gif" alt="double swing left" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig04b.gif" alt="double swing left" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig04.gif" alt="double swing left" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig04b.gif" alt="double swing left" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -80,8 +80,8 @@ Also called double acting door.<br>
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig05.gif" alt="double swing right" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig05b.gif" alt="double swing right" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig05.gif" alt="double swing right" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig05b.gif" alt="double swing right" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -95,8 +95,8 @@ trafic direction.<br>
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig06.gif" alt="double double swing" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig06b.gif" alt="double double swing" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig06.gif" alt="double double swing" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig06b.gif" alt="double double swing" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -110,7 +110,7 @@ panel swings in the opposite direction.<br>
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig07.gif" alt="opposite left" border="0"> </td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig07.gif" alt="opposite left" border="0"> </td>
 <td> </td>
 </tr>
 <tr>
@@ -123,7 +123,7 @@ panel swings in the opposite direction.<br>
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig08.gif" alt="opposite right" border="0"> </td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig08.gif" alt="opposite right" border="0"> </td>
 <td> </td>
 </tr>
 <tr>
@@ -132,8 +132,8 @@ SLIDING_TO_LEFT
 </td>
 <td valign="top" width="40%">Door with one panel that is sliding
 to the left.</td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig09.gif" alt="sliding to left" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig09b.gif" alt="sliding to left" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig09.gif" alt="sliding to left" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig09b.gif" alt="sliding to left" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -141,8 +141,8 @@ SLIDING_TO_RIGHT
 </td>
 <td valign="top" width="40%">Door with one panel that is sliding
 to the right.</td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig10.gif" alt="sliding to right" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig10b.gif" alt="sliding to right" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig10.gif" alt="sliding to right" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig10b.gif" alt="sliding to right" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -150,8 +150,8 @@ DOUBLE_DOOR_SLIDING
 </td>
 <td valign="top" width="40%">Door with two panels, one is sliding
 to the left the other is sliding to the right.</td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig11.gif" alt="double sliding" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig11b.gif" alt="double sliding" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig11.gif" alt="double sliding" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig11b.gif" alt="double sliding" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -159,15 +159,15 @@ FOLDING_TO_LEFT
 </td>
 <td valign="top" width="40%">Door with one panel that is folding
 to the left.</td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig12.gif" alt="folding to left" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig12b.gif" alt="folding to left" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig12.gif" alt="folding to left" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig12b.gif" alt="folding to left" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">FOLDING_TO_RIGHT</td>
 <td valign="top" width="40%">Door with one panel that is folding
 to the right.</td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig13.gif" alt="folding to right" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig13b.gif" alt="folding to right" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig13.gif" alt="folding to right" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig13b.gif" alt="folding to right" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -175,8 +175,8 @@ DOUBLE_DOOR_FOLDING
 </td>
 <td valign="top" width="40%">Door with two panels, one is folding
 to the left the other is folding to the right.</td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig14.gif" alt="double folding" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig14b.gif" alt="double folding" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig14.gif" alt="double folding" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig14b.gif" alt="double folding" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">
@@ -186,7 +186,7 @@ REVOLVING
 leaves set in a form of a cross and revolving around a central
 vertical axis (the four panels are described by a single
 <a href="../../ifcsharedbldgelements/lexical/ifcdoor.htm">IfcDoor</a> panel property).</td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig15.gif" alt="revolving" border="0"> </td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig15.gif" alt="revolving" border="0"> </td>
 <td> </td>
 </tr>
 <tr>
@@ -197,8 +197,8 @@ ROLLINGUP
 <blockquote class="note">NOTE&nbsp; Whether it rolls up to the inside or
 outside is determined at the <em>IfcDoor</em>.</blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig16.gif" alt="rolling" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig16b.gif" alt="rolling" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig16.gif" alt="rolling" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig16b.gif" alt="rolling" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">SWING_FIXED_LEFT</td>
@@ -209,8 +209,8 @@ the positive y-axis.<br>
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig18.gif" alt="swinging left and fixed" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig18b.gif" alt="swinging left and fixed" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig18.gif" alt="swinging left and fixed" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig18b.gif" alt="swinging left and fixed" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">SWING_FIXED_RIGHT</td>
@@ -221,8 +221,8 @@ of the positive y-axis.<br>
 <blockquote class="note">NOTE&nbsp; Direction of swing (whether in or out) is determined at the <em>IfcDoor</em> or <em>IfcDoorStandardCase</em>.<br>
 <br></blockquote>
 </td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig19.gif" alt="swinging right and fixed" border="0"></td>
-<td><img src="../../../figures/ifcdoortypeenum-fig19b.gif" alt="swinging right and fixed" border="0"></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig19.gif" alt="swinging right and fixed" border="0"></td>
+<td><img src="../../../../../../figures/ifcdoortypeenum-fig19b.gif" alt="swinging right and fixed" border="0"></td>
 </tr>
 <tr>
 <td valign="top" width="20%">USERDEFINED</td>
@@ -235,7 +235,7 @@ of the positive y-axis.<br>
 <td valign="top" width="40%">A door with a not defined operation
 type is considered as a door with a lining, but no panels. It is
 thereby always open.</td>
-<td valign="top" width="20%"><img src="../../../figures/ifcdoortypeenum-fig17.gif" alt="not defined"><br></td>
+<td valign="top" width="20%"><img src="../../../../../../figures/ifcdoortypeenum-fig17.gif" alt="not defined"><br></td>
 <td> </td>
 </tr>
 </tbody>

@@ -7,10 +7,10 @@ The example shows a tessellation without adding the normals at each vertex to th
 <table summary="straight beam tessellated">
  <tr>
   <td>
-   <img src="../../figures/examples/beam_straight_tessellated_reference-view_edges.png" alt="beam_straight_tessellated_reference-view_edges">
+   <img src="../../../../figures/examples/beam_straight_tessellated_reference-view_edges.png" alt="beam_straight_tessellated_reference-view_edges">
   </td>
   <td>
-   <img src="../../figures/examples/beam_straight_tessellated_reference-view_shaded.png" alt="beam_straight_tessellated_reference-view_shaded">
+   <img src="../../../../figures/examples/beam_straight_tessellated_reference-view_shaded.png" alt="beam_straight_tessellated_reference-view_shaded">
   </td>
  </tr>
  <tr style="height:20px;">

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DocModelView xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="General_Usage_3toDTuDGz3Iv6LyOE_qraH" Name="General Usage" UniqueId="3toDTuDGz3Iv6LyOE_qraH" Code="IFC4x2" Version="4x2 FINAL" Status="Proposal" Owner="bSI" Copyright="&amp;copy; 1996-2017 buildingSMART International Ltd." BaseView="f7c8d778-350f-434b-9195-f183bed35911" XsdUri="http://www.buildingsmart-tech.org/ifc/IFC4x2" IncludeAllDefinitions="true">
 	<ConceptRoots>
 		<DocConceptRoot UniqueId="2A5Uybr$DEpB106VBrrx6q">
@@ -27,7 +27,7 @@
 				<DocTemplateUsage Name="Aggregation" UniqueId="2ilRK$A9H9Q9p6haDUJKGs">
 					<Documentation>As shown in Figure 1, an **IfcActionRequest** may be aggregated into components.
 
-![&quot;Composition Use Definition&quot;](../../../figures/ifcactionrequest-composition.png &quot;Figure 1 &amp;mdash; Action request composition&quot;)</Documentation>
+![&quot;Composition Use Definition&quot;](../../figures/ifcactionrequest-composition.png &quot;Figure 1 &amp;mdash; Action request composition&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 					<Items>
 						<DocTemplateItem UniqueId="2defa02a-c3fb-44c9-a52b-310551385f0f" RuleParameters="PredefinedType=;RelatedObjects=IfcCostSchedule;" Order="0">
@@ -52,7 +52,7 @@ The **IfcActionRequest** may have assignments of its own using the [IfcRelAssign
 
 * [IfcActor](../../ifckernel/lexical/ifcactor.htm): Person or organization(s) fulfilling the request such as a facilities manager or contractor. 
 
-![&quot;Assignment Use Definition&quot;](../../../figures/ifcactionrequest-assignment.png &quot;Figure 1 &amp;mdash; Action request assignment&quot;)</Documentation>
+![&quot;Assignment Use Definition&quot;](../../figures/ifcactionrequest-assignment.png &quot;Figure 1 &amp;mdash; Action request assignment&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -1021,11 +1021,11 @@ The **IfcActionRequest** may have assignments of its own using the [IfcRelAssign
 
 Figure 1 illustrates the &apos;SweptSolid&apos; geometric representation. There are no restrictions or conventions on how to use the local placement (black), solid of extrusion placement (red) and profile placement (green).
 
-![&quot;standard beam&quot;](../../../figures/ifcbeam_standard-layout1.gif &quot;Figure 1 &amp;mdash; Beam swept solid&quot;)
+![&quot;standard beam&quot;](../../figures/ifcbeam_standard-layout1.gif &quot;Figure 1 &amp;mdash; Beam swept solid&quot;)
 
 Figure 2 illustrates the use of non-perpendicular extrusion to create the _IfcExtrudedAreaSolid_.
 
-![&quot;non-perpendicular extrusion&quot;](../../../figures/ifcbeam_advanced-1-layout1.gif &quot;Figure 2 &amp;mdash; Beam non-perpendicular extrusion&quot;)</Documentation>
+![&quot;non-perpendicular extrusion&quot;](../../figures/ifcbeam_advanced-1-layout1.gif &quot;Figure 2 &amp;mdash; Beam non-perpendicular extrusion&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="25a36b91-bad3-4f7d-98b8-1f26b5496cd1">
@@ -1047,7 +1047,7 @@ Figure 2 illustrates the use of non-perpendicular extrusion to create the _IfcEx
 
 Figure 1 illustrates use of _IfcBooleanClippingResult_ between an _IfcExtrudedAreaSolid_ and an _IfcHalfSpaceSolid_ to create a clipped body.
 
-![&quot;clipped beam&quot;](../../../figures/ifcbeam_advanced-2-layout1.gif &quot;Figure 1 &amp;mdash; Beam clipping&quot;)</Documentation>
+![&quot;clipped beam&quot;](../../figures/ifcbeam_advanced-2-layout1.gif &quot;Figure 1 &amp;mdash; Beam clipping&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Product Assignment" UniqueId="4ed31bc3-1351-49bd-9848-5e1abd7f964b">
@@ -1070,7 +1070,7 @@ Figure 1 illustrates use of _IfcBooleanClippingResult_ between an _IfcExtrudedAr
 &lt;table&gt;
 
  &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcbeamstandardcase-01.png&quot; height=&quot;500&quot; width=&quot;500&quot; alt=&quot;Material profile set and usage&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcbeamstandardcase-01.png&quot; height=&quot;500&quot; width=&quot;500&quot; alt=&quot;Material profile set and usage&quot;&gt;&lt;/td&gt;
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates assignment of &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt; and &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; to the &lt;em&gt;IfcBeamStandardCase&lt;/em&gt; as the beam occurrence and to the &lt;em&gt;IfcBeamType&lt;/em&gt;. The same &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt; shall be shared by many occurrences of &lt;em&gt;IfcMaterialProfileSetUsage&lt;/em&gt;. This relationship shall be consistent to the relationship between the &lt;em&gt;IfcBeamType&lt;/em&gt; and the &lt;em&gt;IfcBeamStandardCase&lt;/em&gt;.&lt;/blockquote&gt;
 
  &lt;/td&gt;
@@ -1086,7 +1086,7 @@ Figure 1 illustrates use of _IfcBooleanClippingResult_ between an _IfcExtrudedAr
 &lt;table&gt;
 
  &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcbeamstandardcase_cardinalpoint.png&quot; height=&quot;250&quot; width=&quot;500&quot; alt=&quot;Cardinal point usage&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcbeamstandardcase_cardinalpoint.png&quot; height=&quot;250&quot; width=&quot;500&quot; alt=&quot;Cardinal point usage&quot;&gt;&lt;/td&gt;
   &lt;td&gt;
 
     &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 2 illustrates alignment of cardinal points.&lt;/blockquote&gt;
@@ -1106,7 +1106,7 @@ Figure 1 illustrates use of _IfcBooleanClippingResult_ between an _IfcExtrudedAr
 &lt;table&gt;
  
 &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcbeamstandardcase-02.png&quot; height=&quot;550&quot; width=&quot;500&quot; alt=&quot;Material profile set and usage&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcbeamstandardcase-02.png&quot; height=&quot;550&quot; width=&quot;500&quot; alt=&quot;Material profile set and usage&quot;&gt;&lt;/td&gt;
   &lt;td&gt;
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 3 illustrates assignment of a composite profile by using &lt;em&gt;IfcCompositeProfile&lt;/em&gt; for geometric representation and several &lt;em&gt;IfcMaterialProfile&lt;/em&gt;&apos;s within the &lt;em&gt;IfcMaterialProfileSet&lt;/em&gt;.&lt;/blockquote&gt;
 
@@ -1138,7 +1138,7 @@ Figure 1 illustrates use of _IfcBooleanClippingResult_ between an _IfcExtrudedAr
 &lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;Axis&quot;&gt;
 
 &lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;350&quot;&gt;
-&lt;img src=&quot;../../../figures/ifcbeamstandardcase_axis-01.png&quot; alt=&quot;Axis&quot; height=&quot;300&quot; width=&quot;400&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;img src=&quot;../../figures/ifcbeamstandardcase_axis-01.png&quot; alt=&quot;Axis&quot; height=&quot;300&quot; width=&quot;400&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 76, the axis shall be defined along the z axis of the object coordinate system. The axis representation can be used to represent the system length of a beam that may extent the body length of the beam.&lt;/blockquote&gt;
 
 &lt;/td&gt;
@@ -1151,7 +1151,7 @@ Figure 1 illustrates use of _IfcBooleanClippingResult_ between an _IfcExtrudedAr
 &lt;table&gt;
 
 &lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;350&quot;&gt;
-&lt;img src=&quot;../../../figures/ifcbeamstandardcase_axis-02.png&quot; alt=&quot;Axis&quot; height=&quot;300&quot; width=&quot;400&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;img src=&quot;../../figures/ifcbeamstandardcase_axis-02.png&quot; alt=&quot;Axis&quot; height=&quot;300&quot; width=&quot;400&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 77, the axis representation shall be used to represent the cardinal point as the offset between the &apos;Axis&apos; and the extrusion path of the beam. The extrusion path is provided as &lt;em&gt;IfcExtrudedAreaSolid.ExtrudedDirection&lt;/em&gt; and should be parallel to the &apos;Axis&apos; and the z axis. It has to be guaranteed that the value provided by
 &lt;em&gt;IfcMaterialProfileSetUsage.CardinalPoint&lt;/em&gt; is consistent to the &lt;em&gt;IfcExtrudedAreaSolid.Position&lt;/em&gt;.&lt;/blockquote&gt;
 
@@ -1184,7 +1184,7 @@ The following interpretation of dimension parameter applies for circular beams:
 
 * _IfcCircleProfileDef.Radius_ interpreted as beam radius.
 
-![&quot;standard beam&quot;](../../../figures/ifcbeamstandardcase_sweptsolid-01.png &quot;Figure 1 &amp;mdash; Beam body extrusion&quot;)</Documentation>
+![&quot;standard beam&quot;](../../figures/ifcbeamstandardcase_sweptsolid-01.png &quot;Figure 1 &amp;mdash; Beam body extrusion&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="2f06485f-48e1-41c6-86ce-ef478cd410f0">
@@ -1211,7 +1211,7 @@ The following interpretation of dimension parameter applies for circular beams:
 
 Figure 1 illustrates a &apos;Clipping&apos; geometric representation with use of _IfcBooleanClippingResult_ between an _IfcExtrudedAreaSolid_ and an _IfcHalfSpaceSolid_ to create a clipped body, with cardinal point applied as **4** (mid-depth left)
 
-![&quot;clipped beam&quot;](../../../figures/ifcbeamstandardcase_clipping-01.png &quot;Figure 1 &amp;mdash; Beam body clipping&quot;)</Documentation>
+![&quot;clipped beam&quot;](../../figures/ifcbeamstandardcase_clipping-01.png &quot;Figure 1 &amp;mdash; Beam body clipping&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -3047,11 +3047,11 @@ Elements can also be referenced in an _IfcBuildingStorey_, for example, if they 
 
 Figure 1 illustrates a &apos;SweptSolid&apos; geometric representation. There are no restrictions or conventions on how to use the local placement (black), solid of extrusion placement (red) and profile placement (green).
 
-![&quot;standard column&quot;](../../../figures/ifccolumn_standard-layout1.gif &quot;Figure 1 &amp;mdash; Column swept solid&quot;)
+![&quot;standard column&quot;](../../figures/ifccolumn_standard-layout1.gif &quot;Figure 1 &amp;mdash; Column swept solid&quot;)
 
 Figure 2 illustrates use of a special profile type (here _IfcIShapeProfileDef_) for the definition of the _IfcExtrudedAreaSolid_.
 
-![&quot;advanced column&quot;](../../../figures/ifccolumn_advanced-1-layout1.png &quot;Figure 2 &amp;mdash; Column extrusion of I-Shape&quot;)</Documentation>
+![&quot;advanced column&quot;](../../figures/ifccolumn_advanced-1-layout1.png &quot;Figure 2 &amp;mdash; Column extrusion of I-Shape&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="88647bf7-f385-4707-ada1-1cdbecfec63e">
@@ -3073,7 +3073,7 @@ Figure 2 illustrates use of a special profile type (here _IfcIShapeProfileDef_) 
 
 Figure 1 illustrates a &apos;Clipping&apos; geometric representation with use of _IfcBooleanClippingResult_ between an _IfcExtrudedAreaSolid_ and an _IfcHalfSpaceSolid_ to create a clipped body.
 
-![&quot;advanced column&quot;](../../../figures/ifccolumn_advanced-2-layout1.png &quot;Figure 1 &amp;mdash; Column clipping&quot;)</Documentation>
+![&quot;advanced column&quot;](../../figures/ifccolumn_advanced-2-layout1.png &quot;Figure 1 &amp;mdash; Column clipping&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Product Assignment" UniqueId="3J$IRLtIbEGBBl0lGPh5r4">
@@ -3098,7 +3098,7 @@ Figure 1 illustrates a &apos;Clipping&apos; geometric representation with use of
 
 Figure 1 illustrates assignment of _IfcMaterialProfileSetUsage_ and _IfcMaterialProfileSet_ to the _IfcColumnStandardCase_ as the column occurrence and to the _IfcColumnType_. The same _IfcMaterialProfileSet_ shall be shared by many occurrences of _IfcMaterialProfileSetUsage_. This relationship shall be consistent to the relationship between the _IfcColumnType_ and the _IfcColumnStandardCase_.
 
-![&quot;Material profile set and usage&quot;](../../../figures/ifccolumnstandardcase-01.png &quot;Figure 1 &amp;mdash; Column profile usage&quot;)
+![&quot;Material profile set and usage&quot;](../../figures/ifccolumnstandardcase-01.png &quot;Figure 1 &amp;mdash; Column profile usage&quot;)
 
 Figure 2 illustrates cardinal point alignment.
 
@@ -3106,11 +3106,11 @@ Figure 2 illustrates cardinal point alignment.
 
 &gt; NOTE  The cardinal points **7** (top left), and **6** (mid-depth right) are assigned according to the definition at _IfcCardinalPointReference_
 
-![&quot;Cardinal point usage&quot;](../../../figures/ifccolumnstandardcase_cardinalpoint.png &quot;Figure 2 &amp;mdash; Column cardinal points&quot;)
+![&quot;Cardinal point usage&quot;](../../figures/ifccolumnstandardcase_cardinalpoint.png &quot;Figure 2 &amp;mdash; Column cardinal points&quot;)
 
 Figure 3 illustrates assignment of a composite profile by using _IfcCompositeProfile_ for geometric representation and several _IfcMaterialProfile_&apos;s within the _IfcMaterialProfileSet_. The number of _IfcMaterialProfile_&apos;s within the _IfcMaterialProfileSet_ is restricted to maximal 2 and requires the use of _IfcExtrudedAreaSolidTapered_, or _IfcRevolvedAreaSolidTapered_ for the correct &apos;Body&apos; shape representation.
 
-![&quot;Material profile set and usage&quot;](../../../figures/ifccolumnstandardcase-02.png &quot;Figure 3 &amp;mdash; Column composite profiles&quot;)</Documentation>
+![&quot;Material profile set and usage&quot;](../../figures/ifccolumnstandardcase-02.png &quot;Figure 3 &amp;mdash; Column composite profiles&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Profile_Set_Usage_1ge1GfjMPBDeTQCM88YfWn" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Product Placement" UniqueId="faee9ed5-99e8-46a8-8200-6cffff73e6f8">
@@ -3131,7 +3131,7 @@ Figure 3 illustrates assignment of a composite profile by using _IfcCompositePro
 &lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;Axis&quot;&gt;
 
  &lt;tr&gt;
-  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;300&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_axis-01.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;300&quot;&gt;&lt;img src=&quot;../../figures/ifccolumnstandardcase_axis-01.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
   &lt;td&gt;
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 1, the axis shall be defined along the z axis of
 the object coordinate system. The axis representation can be used to
@@ -3151,7 +3151,7 @@ length of the column.&lt;/blockquote&gt;
 &lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;Axis&quot;&gt;
  
 &lt;tr&gt;
-  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;300&quot;&gt;&lt;img src=&quot;../../../figures/ifccolumnstandardcase_axis-02.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;300&quot;&gt;&lt;img src=&quot;../../figures/ifccolumnstandardcase_axis-02.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 2, the axis representation shall be used to represent the cardinal point as the offset between the &apos;Axis&apos; and the extrusion path of the column. The extrusion path is provided as &lt;em&gt;IfcExtrudedAreaSolid.ExtrudedDirection&lt;/em&gt; and should be parallel to the &apos;Axis&apos;. It has to be guaranteed that the value provided by &lt;em&gt;IfcMaterialProfileSetUsage.CardinalPoint&lt;/em&gt; is consistent to the &lt;em&gt;IfcExtrudedAreaSolid.Position&lt;/em&gt;.&lt;/blockquote&gt;
  &lt;/td&gt;&lt;/tr&gt;
@@ -3184,7 +3184,7 @@ The following interpretation of dimension parameter applies for circular columns
 
 * _IfcCircleProfileDef.Radius_ interpreted as column radius.
 
-![&quot;standard column&quot;](../../../figures/ifccolumnstandardcase_sweptsolid-01.png &quot;Figure 1 &amp;mdash; Column body extrusion&quot;)</Documentation>
+![&quot;standard column&quot;](../../figures/ifccolumnstandardcase_sweptsolid-01.png &quot;Figure 1 &amp;mdash; Column body extrusion&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="8b261a0a-3d31-49d4-a214-8e672ec7d965">
@@ -3209,7 +3209,7 @@ The following interpretation of dimension parameter applies for circular columns
 
 Figure 1 illustrates a &apos;Clipping&apos; geometric representation with use of _IfcBooleanClippingResult_ between an _IfcExtrudedAreaSolid_ and an _IfcHalfSpaceSolid_ to create a clipped body, with cardinal point applied as **2** (bottom centre).
 
-![&quot;clipped column&quot;](../../../figures/ifccolumnstandardcase_clipping-01.png &quot;Figure 1 &amp;mdash; Column body clipping&quot;)</Documentation>
+![&quot;clipped column&quot;](../../figures/ifccolumnstandardcase_clipping-01.png &quot;Figure 1 &amp;mdash; Column body clipping&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -3709,7 +3709,7 @@ The shared profile definition is defined by assigning an _IfcMaterialProfileSet_
 				<DocTemplateUsage Name="Document" UniqueId="3b0XYWEVn9Xv2$NQZ0g40d">
 					<Documentation>Documents may be published for work plans consisting of schedules, calendars, tasks, and resources. The relationship _IfcRelAssociatesDocument_ may be used to preserve mappings to such document where _RelatingDocument_ points to an _IfcDocumentReference_ and _RelatedObjects_ includes the _IfcConstructionResource_ as shown in Figure 184. _IfcDocumentReference.ItemReference_ identifies the resource within the scope of the document, such as an integer or guid. The _IfcDocumentReference.ReferencedDocument_ corresponds to the document which is uniquely identified by _IfcDocumentInformation.DocumentId_ and/or _IfcDocumentInformation.PublicationLocation_. Such document mapping allows items in the document to be updated from the building information model and vice-versa.
 
-![&quot;Document Use Definition&quot;](../../../figures/ifcconstructionresource-document.png &quot;Figure 1 &amp;mdash; Construction resource document use&quot;)</Documentation>
+![&quot;Document Use Definition&quot;](../../figures/ifcconstructionresource-document.png &quot;Figure 1 &amp;mdash; Construction resource document use&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Document_Association_1zhQwS02P4qwtdceGukyB" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Constraint" UniqueId="3B6B1BP1z33gZk4WKDk0q0">
@@ -3727,7 +3727,7 @@ The shared profile definition is defined by assigning an _IfcMaterialProfileSet_
 				<DocTemplateUsage Name="Object Typing" UniqueId="2oaNf1nY93sh5f8vmSvHzz">
 					<Documentation>The resource type may provide shared productivity and cost information, allowing tasks and resources to be selected according to lowest cost and/or shortest duration. Given an _IfcProduct_ of a particular _IfcTypeProduct_ type, an _IfcTypeProcess_ may be selected from those assigned to the product type using _IfcRelAssignsToProduct_, and an _IfcTypeResource_ may be selected from those assigned to the process type using _IfcRelAssignsToProcess_. Then _IfcTask_ and _IfcConstructionResource_ occurrences may be instantiated from the type definitions, applying productivitity and rate information to assigned quantities to calculate _ResourceTime.ScheduleWork_. Task durations can then be calculated by dividing _ResourceTime.ScheduleWork_ by _ResourceTime.ScheduleUsage_.
 
-![&quot;Type Use Definition&quot;](../../../figures/ifcconstructionresource-type.png &quot;Figure 1 &amp;mdash; Construction resource type use&quot;)</Documentation>
+![&quot;Type Use Definition&quot;](../../figures/ifcconstructionresource-type.png &quot;Figure 1 &amp;mdash; Construction resource type use&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Typing_0rek4E8Dz0zAilsiyAPqJq" />
 					<Items>
 						<DocTemplateItem UniqueId="ff3b225c-e989-4825-8596-2027f95be99b" RuleParameters="RelatingType=IfcConstructionResourceType;" Order="0" />
@@ -3736,7 +3736,7 @@ The shared profile definition is defined by assigning an _IfcMaterialProfileSet_
 				<DocTemplateUsage UniqueId="3zDd5p44v1XQFEYBLBL_YP">
 					<Documentation>For time series properties as shown in Figure 180, each _IfcTimeSeriesValue_ indicates a LIST of values, where the sequence of the value corresponds to the _IfcCostValue_ at _IfcConstructionResource.CostRatesConsumed_. For example, if _CostRatesConsumed_ has two _IfcCostValue_ items in the LIST, &quot;Standard&quot; and &quot;Overtime&quot;, then _IfcTimeSeriesValue(IfcDuration(&apos;T8H0M0S&apos;),IfcDuration(&apos;T2H0M0S&apos;))_ would indicate 8 hours at Standard rate and 2 hours at Overtime rate. If the list of values at _IfcTimeSeriesValue.ListValues_ is less than the size of _CostRatesConsumed_, then subsequent values are considered to be zero.
 
-![&quot;Time Series Use Definition&quot;](../../../figures/ifcconstructionresource-timeseries.png &quot;Figure 1 &amp;mdash; Construction resource time series use&quot;)</Documentation>
+![&quot;Time Series Use Definition&quot;](../../figures/ifcconstructionresource-timeseries.png &quot;Figure 1 &amp;mdash; Construction resource time series use&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Property_Sets_for_Objects_3tGbMc30vFCOIj99WTjYHX" />
 					<Items>
 						<DocTemplateItem UniqueId="8a49362b-03d3-4a52-81b0-191ac6592786" RuleParameters="PsetName=Pset_ConstructionResource;" Order="0" />
@@ -3747,7 +3747,7 @@ The shared profile definition is defined by assigning an _IfcMaterialProfileSet_
 
 A common scenario is two nesting levels where the first-level resources have no task assignments; while second-level resources have specific task assignments indicating that the resource is subdivided into allocations for specific tasks. While the model allows unlimited nesting of resources, implementer agreements may restrict to two nesting levels with task assignments specifically at the second level.
 
-![&quot;Composition Use Definition&quot;](../../../figures/ifcconstructionresource-composition.png &quot;Figure 1 &amp;mdash; Construction resource composition use&quot;)</Documentation>
+![&quot;Composition Use Definition&quot;](../../figures/ifcconstructionresource-composition.png &quot;Figure 1 &amp;mdash; Construction resource composition use&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" />
 					<Items>
 						<DocTemplateItem UniqueId="32cccc43-3eba-4c37-aa69-6fa2faef37ea" RuleParameters="Type=IfcConstructionResource;" Order="0" />
@@ -3805,7 +3805,7 @@ A common scenario is two nesting levels where the first-level resources have no 
 				<DocTemplateUsage Name="Composition" UniqueId="2ciF6122TByOn4sN6nBtu7">
 					<Documentation>Figure 1 illustrates controller composition use.
 
-![&quot;Composition Use Definition&quot;](../../../figures/ifccontroller-composition.png &quot;Figure 1 &amp;mdash; Controller composition use&quot;)</Documentation>
+![&quot;Composition Use Definition&quot;](../../figures/ifccontroller-composition.png &quot;Figure 1 &amp;mdash; Controller composition use&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 					<Items>
 						<DocTemplateItem UniqueId="101da249-a270-479f-bd78-556f98916ef8" RuleParameters="PredefinedType=PROGRAMMABLE;RelatedObjects=IfcController" Order="0">
@@ -4061,7 +4061,7 @@ There is always a summary cost item as the root item of the tree representing th
 
 Figure 1 illustrates a cost item composition used for a cost schedule. Each line item has a quantity and separate unit costs where _IfcCostValue.CostType_ indicates the category of cost. The summary item has a hierarchy of costs calculated according to _IfcAppliedValueRelationship.ArithmeticOperator_, where _IfcCostValue.CostType_ identifies the category to be totalled. The Tax component has _IfcCostValue.CostType_ set to &apos;Material&apos; which indicates it is the sum of all nested values of the &apos;Material&apos; category ($3 x 3000 + $118 x 100 = $20800). The Subtotal component has _IfcCostValue.CostType_ set to an asterisk (&apos;\*&apos;) which indicates it is the sum of all nested values of all categories.
 
-![&quot;cost item&quot;](../../../figures/ifccostitem-composition.png &quot;Figure 1 &amp;mdash; Cost composition&quot;)</Documentation>
+![&quot;cost item&quot;](../../figures/ifccostitem-composition.png &quot;Figure 1 &amp;mdash; Cost composition&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" />
 					<Items>
 						<DocTemplateItem UniqueId="993ffa62-25f5-41a4-900b-07436b65f916" RuleParameters="Type=IfcCostItem;" Order="0" />
@@ -4078,7 +4078,7 @@ _IfcRelAssignsToControl_ is also used in the opposite direction to link the root
 
 Figure 1 illustrates cost item assignment derived from building elements. The _IfcRelAssignsToControl_ relationship indicates building elements for which quantities are derived. Not shown, costs may also be derived from building elements by traversing assignment relationships from the assigned _IfcProduct_ to _IfcProcess_ to _IfcResource_, where all costs ultimately originate at resources. It is also possible for cost items to have assignments from processes or resources directly.
 
-![&quot;cost item&quot;](../../../figures/ifccostitem-assignment.png &quot;Figure 1 &amp;mdash; Cost assignment&quot;)</Documentation>
+![&quot;cost item&quot;](../../figures/ifccostitem-assignment.png &quot;Figure 1 &amp;mdash; Cost assignment&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" />
 					<Items>
 						<DocTemplateItem UniqueId="e50dcc60-5553-47cf-8fd3-0a8191e29b6d" RuleParameters="Type=IfcProduct;" Order="0">
@@ -4211,7 +4211,7 @@ The **IfcCostSchedule** may have assignments of its own using the [IfcRelAssigns
 
  &lt;tr&gt;
 
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifccovering_standard-1-layout1.gif&quot; alt=&quot;standard planar covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifccovering_standard-1-layout1.gif&quot; alt=&quot;standard planar covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates a planar surface representation where the
 area of &lt;em&gt;IfcCovering&lt;/em&gt; is given by an &lt;em&gt;IfcPolyLoop&lt;/em&gt; for
@@ -4235,7 +4235,7 @@ identical with the planar surface defined by the
 
  &lt;tr&gt;
 
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifccovering_standard-2-layout1.gif&quot; alt=&quot;standard cylindrical covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifccovering_standard-2-layout1.gif&quot; alt=&quot;standard cylindrical covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 2 illustrates a cylindrical surface representation where
 the area of the &lt;em&gt;IfcCovering&lt;/em&gt; is given by an
 &lt;em&gt;IfcSurfaceOfLinearExtrusion&lt;/em&gt; for cylindrical base surfaces
@@ -4281,7 +4281,7 @@ cylindrical&lt;/p&gt;
  
 &lt;tr&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifccovering_advanced-1-layout1.gif&quot; alt=&quot;advanded solid covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifccovering_advanced-1-layout1.gif&quot; alt=&quot;advanded solid covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates a body representation where the volume of
 &lt;em&gt;IfcCovering&lt;/em&gt; is given by an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt; for
@@ -4307,7 +4307,7 @@ be coplanar to the surface defined by the
  
 &lt;tr&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifccovering_advanced-2-layout1.gif&quot; alt=&quot;advanced solid covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifccovering_advanced-2-layout1.gif&quot; alt=&quot;advanced solid covering&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 2 illustrates a body representation where the volume of
 the &lt;em&gt;IfcCovering&lt;/em&gt; is given by an &lt;em&gt;IfcExtrudedAreaSolid&lt;/em&gt;
@@ -4656,7 +4656,7 @@ parameter of the &lt;em&gt;IfcSurfaceOfLinearExtrusion&lt;/em&gt;.&lt;/li&gt;
 
 Figure 1 illustrates classification usage.
 
-![&quot;Classification Use Definition&quot;](../../../figures/ifcdistributioncontrolelement-classification.png &quot;Figure 1 &amp;mdash; Distribution control classification&quot;)</Documentation>
+![&quot;Classification Use Definition&quot;](../../figures/ifcdistributioncontrolelement-classification.png &quot;Figure 1 &amp;mdash; Distribution control classification&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Classification_Association_1A8aO9PNXCTQFYl_eRbxo" />
 					<Items>
 						<DocTemplateItem UniqueId="75372851-3506-4b5d-aa38-38fe13822643" RuleParameters="Source=ASHRAE;Name=BACnet;Tokens=(&apos;{D:0..65535},&apos;.&apos;,&apos;{D:0..65535}&apos;);" Order="0">
@@ -4993,7 +4993,7 @@ Ports may be further nested into sub-ports, for indicating specific connections 
 
 Figure 1 illustrates distribution port connectivity.
 
-![&quot;Connection Use Definition&quot;](../../../figures/ifcdistributionport-connection.png &quot;Figure 1 &amp;mdash; Distribution port connectivity&quot;)</Documentation>
+![&quot;Connection Use Definition&quot;](../../figures/ifcdistributionport-connection.png &quot;Figure 1 &amp;mdash; Distribution port connectivity&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Port_Connectivity_0MeHlCh55bRkmnAq5FQia" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Product Assignment" UniqueId="0$rMA_opv1Ex3XQqeiMAN4">
@@ -5054,7 +5054,7 @@ Additionally, an _IfcDistributionSystem_ may in turn be assigned to an _IfcDistr
 
 Figure 1 illustrates a distribution system for an electrical circuit.
 
-![&quot;Instance diagram for electrical circuit&quot;](../../../figures/ifcdistributionsystem-01.png &quot;Figure 1 &amp;mdash; Distribution system assignment&quot;)</Documentation>
+![&quot;Instance diagram for electrical circuit&quot;](../../figures/ifcdistributionsystem-01.png &quot;Figure 1 &amp;mdash; Distribution system assignment&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Group_Assignment_3rPvPL9D4sQnHatm9h2M3" />
 					<Items>
 						<DocTemplateItem UniqueId="41ba50c8-895a-4607-92d5-9fceb58514f5" RuleParameters="Type=IfcDistributionElement;" Order="0">
@@ -5100,7 +5100,7 @@ standards&lt;/b&gt;&lt;/small&gt;&lt;/td&gt;
 
  &lt;tr valign=&quot;top&quot;&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoor-fig01.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcdoor-fig01.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 1&quot;&gt;&lt;/td&gt;
 
   &lt;td align=&quot;left&quot;&gt;&lt;small&gt;The door panel (for swinging doors) opens
 always into the direction of the positive Y axis of the local
@@ -5118,7 +5118,7 @@ refered to as DIN-R (right hung) in Germany&lt;/small&gt;&lt;/td&gt;
 
  &lt;tr valign=&quot;top&quot;&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoor-fig02.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcdoor-fig02.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 2&quot;&gt;&lt;/td&gt;
 
   &lt;td align=&quot;left&quot;&gt;&lt;small&gt;If the door should open to the other side,
 then the local placement has to be changed. It is still a left side 
@@ -5134,7 +5134,7 @@ refered to as DIN-R (right hung) in Germany&lt;/small&gt;&lt;/td&gt;
  
 &lt;tr valign=&quot;top&quot;&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoor-fig03.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcdoor-fig03.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 3&quot;&gt;&lt;/td&gt;
   
 &lt;td align=&quot;left&quot;&gt;&lt;small&gt;If the door panel (for swinging doors)
 opens to the right, a separate door style needs to be used (here
@@ -5150,7 +5150,7 @@ refered to as DIN-L (left hung) in Germany&lt;/small&gt;&lt;/td&gt;
 
  &lt;tr valign=&quot;top&quot;&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoor-fig04.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 4&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcdoor-fig04.gif&quot; height=&quot;130&quot; width=&quot;150&quot; alt=&quot;fig 4&quot;&gt;&lt;/td&gt;
   
 &lt;td align=&quot;left&quot;&gt;&lt;small&gt;If the door panel (for swinging doors)
 opens to the right, and into the opposite directions, the local
@@ -5309,7 +5309,7 @@ The _IfcDoor_ may also be connected to the _IfcOpeningElement_ in which it is pl
  
 &lt;tr valign=&quot;bottom&quot;&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoor_containment-01.png&quot; alt=&quot;Containment&quot; width=&quot;500&quot; height=&quot;460&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcdoor_containment-01.png&quot; alt=&quot;Containment&quot; width=&quot;500&quot; height=&quot;460&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
   
 &lt;td&gt;
 &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The containment shall be
@@ -5373,7 +5373,7 @@ The following additional constraints apply to the &apos;Profile&apos; representa
  
 &lt;tr valign=&quot;top&quot;&gt;
 
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcdoorstandardcase-01.png&quot; alt=&quot;standard door&quot; border=&quot;0&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcdoorstandardcase-01.png&quot; alt=&quot;standard door&quot; border=&quot;0&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates applying the door lining parameters to the
@@ -6356,7 +6356,7 @@ height. Distance to the centre line of the transom.&lt;/li&gt;
 				<DocTemplateUsage Name="Box Geometry" UniqueId="4f15de20-1150-41bf-af4d-998047663946">
 					<Documentation>&lt;table&gt;
  &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcbuildingelement-boundingbox-layout1.gif&quot; border=&quot;0&quot; height=&quot;275&quot; width=&quot;400&quot; alt=&quot;bounding box&quot;&gt;&lt;/td&gt; 
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcbuildingelement-boundingbox-layout1.gif&quot; border=&quot;0&quot; height=&quot;275&quot; width=&quot;400&quot; alt=&quot;bounding box&quot;&gt;&lt;/td&gt; 
   &lt;td&gt;
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Any &lt;em&gt;IfcElement&lt;/em&gt; may be represented by a bounding box, which shows the maximum extend of the body within the object coordinate system established by the &lt;em&gt;IfcObjectPlacement&lt;/em&gt;. As shown in Figure 1, the bounding box representation is given by an &lt;em&gt;IfcShapeRepresentation&lt;/em&gt; that includes a single item, an &lt;em&gt;IfcBoundingBox&lt;/em&gt;.&lt;/blockquote&gt;
  &lt;/td&gt;
@@ -6392,7 +6392,7 @@ height. Distance to the centre line of the transom.&lt;/li&gt;
 
  &lt;tr&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcbuildingelement-surfacemodel-layout1.gif&quot; alt=&quot;surface model&quot; border=&quot;0&quot; height=&quot;275&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcbuildingelement-surfacemodel-layout1.gif&quot; alt=&quot;surface model&quot; border=&quot;0&quot; height=&quot;275&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 1, the surface model representation is given 
 by an &lt;em&gt;IfcShapeRepresentation&lt;/em&gt;, which includes a single item which is either an &lt;em&gt;IfcShellBasedSurfaceModel&lt;/em&gt;, or an &lt;em&gt;IfcFaceBasedSurfaceModel&lt;/em&gt;. In some cases it may also be useful to expose a simple 
@@ -6426,7 +6426,7 @@ representation&lt;/p&gt;
  
 &lt;tr&gt;
   
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcbuildingelement-brep-layout1.gif&quot; alt=&quot;Brep representation&quot; border=&quot;0&quot; height=&quot;275&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcbuildingelement-brep-layout1.gif&quot; alt=&quot;Brep representation&quot; border=&quot;0&quot; height=&quot;275&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 1, the Brep representation is given by an
  &lt;em&gt;IfcShapeRepresentation&lt;/em&gt;, which includes one or more 
@@ -6500,7 +6500,7 @@ The same constraints, as given for &apos;SurfaceOrSolidModel&apos;, &apos;Surfac
 
 Figure 1 illustrates spatial containment and element aggregation relationships.
 
-![&quot;containment relationships&quot;](../../../figures/ifcelementassembly-containment.png &quot;Figure 1 &amp;mdash; Element assembly containment&quot;)</Documentation>
+![&quot;containment relationships&quot;](../../figures/ifcelementassembly-containment.png &quot;Figure 1 &amp;mdash; Element assembly containment&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 					<Items>
 						<DocTemplateItem UniqueId="b8a09ed6-7212-4b8e-ad88-980df644e58a" RuleParameters="PredefinedType=;RelatedObjects=IfcMember;" Order="0">
@@ -6568,7 +6568,7 @@ A single instance of a subtype of _IfcElementComponent_ can stand for several ac
 &lt;table&gt;
 
  &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcelementcomponent_multiple.png&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcelementcomponent_multiple.png&quot;&gt;&lt;/td&gt;
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates multiple components modeled as a single occurrence object (here: &lt;em&gt;IfcFastener&lt;/em&gt;)&lt;/blockquote&gt;&lt;/td&gt;
  &lt;/tr&gt;
  
@@ -8587,7 +8587,7 @@ The material is attached by the _RelatingMaterial_ attribute on the [IfcRelAssoc
 
 Figure 1 illustrates a &apos;SweptSolid&apos; geometric representation. There are no restrictions or conventions on how to use the local placement (black), solid of extrusion placement (red) and profile placement (green).
 
-![&quot;standard member&quot;](../../../figures/ifcmember_sweptsolid-01.png &quot;Figure 1 &amp;mdash; Member swept solid&quot;)</Documentation>
+![&quot;standard member&quot;](../../figures/ifcmember_sweptsolid-01.png &quot;Figure 1 &amp;mdash; Member swept solid&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="cb70286f-77ba-4d7e-9587-bfe72edfa4ae">
@@ -8611,7 +8611,7 @@ _MappedRepresentation Representation Type_</Documentation>
 
 Figure 1 illustrates a &apos;Clipping&apos; geometric representation with use of _IfcBooleanClippingResult_ between an _IfcExtrudedAreaSolid_ and an _IfcHalfSpaceSolid_ to create a clipped body.
 
-![&quot;clipped member&quot;](../../../figures/ifcmember_clipping-01.png &quot;Figure 1 &amp;mdash; Member clipping&quot;)</Documentation>
+![&quot;clipped member&quot;](../../figures/ifcmember_clipping-01.png &quot;Figure 1 &amp;mdash; Member clipping&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Product Assignment" UniqueId="3pc2tl9NH3KfRBe$h$Zkmm">
@@ -8641,11 +8641,11 @@ Figure 1 illustrates a &apos;Clipping&apos; geometric representation with use of
 				<DocTemplateUsage Name="Material Profile Set Usage" UniqueId="3OUPoRGnHBJeaiSOTg4C8p">
 					<Documentation>Figure 1 illustrates assignment of _IfcMaterialProfileSetUsage_ and _IfcMaterialProfileSet_ to the _IfcMemberStandardCase_ as the member occurrence and to the _IfcMemberType_. The same _IfcMaterialProfileSet_ shall be shared by many occurrences of _IfcMaterialProfileSetUsage_. This relationship shall be consistent to the relationship between the _IfcMemberType_ and the _IfcMemberStandardCase_.
 
-![&quot;Material profile set and usage&quot;](../../../figures/ifcmemberstandardcase-01.png &quot;Figure 1 &amp;mdash; Member profile usage&quot;)
+![&quot;Material profile set and usage&quot;](../../figures/ifcmemberstandardcase-01.png &quot;Figure 1 &amp;mdash; Member profile usage&quot;)
 
 Figure 2 illustrates assignment of a composite profile by using _IfcCompositeProfile_ for geometric representation and several _IfcMaterialProfile_&apos;s within the _IfcMaterialProfileSet_. The number of _IfcMaterialProfile_&apos;s within the _IfcMaterialProfileSet_ is restricted to maximal 2 and requires the use of _IfcExtrudedAreaSolidTapered_, or _IfcRevolvedAreaSolidTapered_ for the correct &apos;Body&apos; shape representation.
 
-![&quot;Material profile set and usage&quot;](../../../figures/ifcmemberstandardcase-02.png &quot;Figure 2 &amp;mdash; Member composite profiles&quot;)
+![&quot;Material profile set and usage&quot;](../../figures/ifcmemberstandardcase-02.png &quot;Figure 2 &amp;mdash; Member composite profiles&quot;)
 
 The material of the _IfcMemberStandardCase_ is defined by _IfcMaterialProfileSetUsage_ and attached by the _IfcRelAssociatesMaterial_._RelatingMaterial_. It is accessible by the inverse _HasAssociations_ relationship. Composite profile members can be represented by refering to several _IfcMaterialProfile_&apos;s within the _IfcMaterialProfileSet_ that is referenced from the _IfcMaterialProfileSetUsage_.
 
@@ -8671,7 +8671,7 @@ Definition** for additional agreements for standard members.</Documentation>
 &lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;Axis&quot;&gt;
  
 &lt;tr&gt;
-  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;350&quot;&gt;&lt;img src=&quot;../../../figures/ifcmemberstandardcase_axis-01.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;350&quot;&gt;&lt;img src=&quot;../../figures/ifcmemberstandardcase_axis-01.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
   &lt;td&gt;
 
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 101, the axis representation can be used to represent the system length of a member that may extent the body length of the member.&lt;/blockquote&gt;
@@ -8689,7 +8689,7 @@ Definition** for additional agreements for standard members.</Documentation>
 &lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;Axis&quot;&gt;
  
 &lt;tr&gt;
-  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;350&quot;&gt;&lt;img src=&quot;../../../figures/ifcmemberstandardcase_axis-02.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;350&quot;&gt;&lt;img src=&quot;../../figures/ifcmemberstandardcase_axis-02.png&quot; alt=&quot;Axis&quot; border=&quot;1&quot;&gt;&lt;/td&gt;
   &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; As shown in Figure 102, the axis representation shall be used to represent the cardinal point as the offset between the &apos;Axis&apos; and the extrusion path of the member. The extrusion path is provided as &lt;em&gt;IfcExtrudedAreaSolid.ExtrudedDirection&lt;/em&gt; and should be parallel to the &apos;Axis&apos;.  It has to be guaranteed that the value provided by &lt;em&gt;IfcMaterialProfileSetUsage.CardinalPoint&lt;/em&gt; is consistent to the &lt;em&gt;IfcExtrudedAreaSolid.Position&lt;/em&gt;.&lt;/blockquote&gt;
 
 &lt;/td&gt;
@@ -8723,7 +8723,7 @@ The following interpretation of dimension parameter applies for circular members
 
 * &lt;small&gt;&lt;em&gt;IfcCircleProfileDef.Radius&lt;/em&gt; interpreted as beam radius.&lt;/small&gt;
 
-![&quot;standard member&quot;](../../../figures/ifcbeamstandardcase_sweptsolid-01.png &quot;Figure 1 &amp;mdash; Member body extrusion&quot;)</Documentation>
+![&quot;standard member&quot;](../../figures/ifcbeamstandardcase_sweptsolid-01.png &quot;Figure 1 &amp;mdash; Member body extrusion&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body AdvancedSweptSolid Geometry" UniqueId="9002a781-c364-4efd-b5fa-030744d36b5c">
@@ -8748,7 +8748,7 @@ The following interpretation of dimension parameter applies for circular members
 
 Figure 1 illustrates an advanced geometric representation with use of _IfcBooleanClippingResult_ between an _IfcExtrudedAreaSolid_ and an _IfcHalfSpaceSolid_ to create a clipped body, with cardinal point applied as **4** (mid-depth left).
 
-![&quot;clipped beam&quot;](../../../figures/ifcbeamstandardcase_clipping-01.png &quot;Figure 1 &amp;mdash; Member body clipping&quot;)</Documentation>
+![&quot;clipped beam&quot;](../../figures/ifcbeamstandardcase_clipping-01.png &quot;Figure 1 &amp;mdash; Member body clipping&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -8972,7 +8972,7 @@ Figure 1 illustrates an opening with horizontal extrusion.
 
 &gt; NOTE&amp;nbsp; The local placement directions for the _IfcOpeningElement_ are only given as an example, other directions are valid as well.
 
-![&quot;standard opening&quot;](../../../figures/ifcopeningelement_horizontal-layout1.png &quot;Figure 1 &amp;mdash; Opening with full extrusion&quot;)
+![&quot;standard opening&quot;](../../figures/ifcopeningelement_horizontal-layout1.png &quot;Figure 1 &amp;mdash; Opening with full extrusion&quot;)
 
 Figure 2 illustrates an opening for a recess.
 
@@ -8982,7 +8982,7 @@ Figure 2 illustrates an opening for a recess.
 
 * _IfcCartesianPoint_(XDim/2,YDim/2)
 
-![&quot;recess&quot;](../../../figures/ifcopeningelement_recess-layout1.png &quot;Figure 2 &amp;mdash; Opening with recess extrusion&quot;)
+![&quot;recess&quot;](../../figures/ifcopeningelement_recess-layout1.png &quot;Figure 2 &amp;mdash; Opening with recess extrusion&quot;)
 
 _Swept Solid Representation with Vertical Extrusion_
 
@@ -9003,7 +9003,7 @@ Figure 3 shows a vertical extrusion with multiple extrusion bodies for the openi
 
 &gt; NOTE&amp;nbsp; The local placement directions for the _IfcOpeningElement_ are only given as an example, other directions are valid as well.
 
-![&quot;vertical extrusion&quot;](../../../figures/ifcopeningelement_vertical-layout1.png &quot;Figure 3 &amp;mdash; Opening with multiple extrusions&quot;)</Documentation>
+![&quot;vertical extrusion&quot;](../../figures/ifcopeningelement_vertical-layout1.png &quot;Figure 3 &amp;mdash; Opening with multiple extrusions&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Reference Geometry" UniqueId="c84c3c3f-8873-4653-a768-9b4f85380634">
@@ -9050,7 +9050,7 @@ As shown in Figure 36, the orientation of the opening profile that is extruded f
 * _IfcRectangleProfileDef.YDim_ interpreted as opening width
 * _IfcRectangleProfileDef.XDim_ interpreted as opening height
 
-![&quot;standard opening&quot;](../../../figures/ifcopeningstandardcase_wall-layout1.png &quot;Figure 1 &amp;mdash; Opening standard representation&quot;)</Documentation>
+![&quot;standard opening&quot;](../../figures/ifcopeningstandardcase_wall-layout1.png &quot;Figure 1 &amp;mdash; Opening standard representation&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Geometry_34HhqMBUDBbxDFH4Qi2wt2" />
 					<Items>
 						<DocTemplateItem UniqueId="2dc3dbc8-d259-4b8b-8af9-5195bebd8d6c" RuleParameters="Identifier=Body;Type=SweptSolid;" Order="0" />
@@ -9245,7 +9245,7 @@ The **IfcPermit** may have assignments of its own using the [IfcRelAssignsToCont
 
 * [IfcActor](../../ifckernel/lexical/ifcactor.htm): Organization(s) bound to the permit, typically a single contractor. 
 
-![&quot;Assignment Use Definition&quot;](../../../figures/ifcpermit-assignment.png &quot;Figure 1 &amp;mdash; Permit assignment&quot;)</Documentation>
+![&quot;Assignment Use Definition&quot;](../../figures/ifcpermit-assignment.png &quot;Figure 1 &amp;mdash; Permit assignment&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -9777,7 +9777,7 @@ Figure 1 illustrates assignment of _IfcMaterialLayerSetUsage_ and _IfcMaterialLa
 &lt;table border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
 
 &lt;tr&gt;&lt;td width=&quot;610&quot; align=&quot;left&quot; valign=&quot;top&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;../../../figures/ifcslab_materialusage-01.png&quot; alt=&quot;Material layer set and usage&quot; height=&quot;220&quot; width=&quot;501&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;p&gt;&lt;img src=&quot;../../figures/ifcslab_materialusage-01.png&quot; alt=&quot;Material layer set and usage&quot; height=&quot;220&quot; width=&quot;501&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 1 &amp;mdash; Plate type definition&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 
@@ -9792,7 +9792,7 @@ As shown in Figure 106, the following conventions shall be met:
 * The _Thickness_ of each _IfcMaterialLayer_ shall be the parallel distance (measured perpendicular to the base plane). The _TotalThickness_ of the _IfcMaterialLayerSet_ is the sum of all layer thicknesses and in case of a perpendicular extrusion identical with _IfcExtrudedAreaSolid.Depth_
 * The _IfcMaterialLayerSetUsage.LayerSetDirection_ i always AXIS3.
 
-![&quot;plate material layer set&quot;](../../../figures/ifcmateriallayersetusage_slab-01.png &quot;Figure 2 &amp;mdash; Plate material layers&quot;)</Documentation>
+![&quot;plate material layer set&quot;](../../figures/ifcmateriallayersetusage_slab-01.png &quot;Figure 2 &amp;mdash; Plate material layers&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Product Placement" UniqueId="d95d323a-6927-443f-b43e-b6decf804d51">
@@ -9814,7 +9814,7 @@ As shown in Figure 106, the following conventions shall be met:
 &lt;table&gt;
 
  &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_standard-layout1.gif&quot; alt=&quot;standard plate&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcslab_standard-layout1.gif&quot; alt=&quot;standard plate&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
   &lt;td&gt;
 
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates a &apos;SweptSolid&apos; geometric representation. The following interpretation of dimension parameter applies for polygonal plates (in ground floor view): &lt;em&gt;IfcArbitraryClosedProfileDef.OuterCurve&lt;/em&gt; being a closed bounded curve is interpreted as area (or foot print) of the plate.&lt;/blockquote&gt;
@@ -9845,7 +9845,7 @@ As shown in Figure 106, the following conventions shall be met:
 &lt;table&gt;
 
  &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_advanced-layout1.gif&quot; alt=&quot;advanced plate&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcslab_advanced-layout1.gif&quot; alt=&quot;advanced plate&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates a &apos;Clipping&apos; geometric representation with definition of a plate using advanced geometric representation. The profile is extruded non-perpendicular and the plate body is clipped at the eave.&lt;/blockquote&gt;
 
 &lt;/td&gt;
@@ -9907,7 +9907,7 @@ The following constraints apply to the 2D representation:
       &lt;tbody&gt;
         &lt;tr&gt;
           &lt;td width=&quot;510&quot;&gt;
-            &lt;img src=&quot;../../../figures/ifcdesigngrid-layout1.gif&quot; alt=&quot;design grid&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;
+            &lt;img src=&quot;../../figures/ifcdesigngrid-layout1.gif&quot; alt=&quot;design grid&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;
           &lt;/td&gt;
           &lt;td&gt;
             &lt;blockquote&gt;
@@ -9942,7 +9942,7 @@ The following constraints apply to the 2D representation:
       &lt;tbody&gt;
         &lt;tr&gt;
           &lt;td width=&quot;510&quot;&gt;
-            &lt;img src=&quot;../../../figures/ifcgrid-representation.png&quot; alt=&quot;representation of a design grid&quot; width=&quot;501&quot; height=&quot;621&quot; border=&quot;0&quot;&gt;
+            &lt;img src=&quot;../../figures/ifcgrid-representation.png&quot; alt=&quot;representation of a design grid&quot; width=&quot;501&quot; height=&quot;621&quot; border=&quot;0&quot;&gt;
           &lt;/td&gt;
           &lt;td&gt;
             &lt;blockquote&gt;
@@ -10158,7 +10158,7 @@ The following constraints apply to the 2D representation:
 
 Figure 1 illustrates the use of _IfcProject_ as context for work plans or work schedules.
 
-![&quot;project relationships&quot;](../../../figures/ifcproject_fig-1.png &quot;Figure 1 &amp;mdash; Project spatial and work plan structure&quot;)</Documentation>
+![&quot;project relationships&quot;](../../figures/ifcproject_fig-1.png &quot;Figure 1 &amp;mdash; Project spatial and work plan structure&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Project_Declaration_2h7Ypzdo5FIhQlp2ROJaMi" />
 					<Items>
 						<DocTemplateItem UniqueId="372f58c0-0a9f-4572-b712-c710e0acbc37" RuleParameters="Type=IfcProjectLibrary;" Order="0">
@@ -10199,7 +10199,7 @@ The following constraints are applied to using the relationshio _IfcRelAggregate
 
 Figure 1 illustrates project relationships with spatial structures, elements, and element type libraries.
 
-![&quot;spatial decomposition relationships&quot;](../../../figures/ifcproject_fig-2.png &quot;Figure 1 &amp;mdash; Project spatial structure, products and product type library&quot;)</Documentation>
+![&quot;spatial decomposition relationships&quot;](../../figures/ifcproject_fig-2.png &quot;Figure 1 &amp;mdash; Project spatial structure, products and product type library&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Spatial_Decomposition_1cVuH3xCvAZQOan_h15FW" />
 					<Items>
 						<DocTemplateItem UniqueId="535b1916-6e1f-4dec-a8f1-a546d4bae2e7" RuleParameters="Spatial Parts=IfcSite;" Order="0">
@@ -10256,7 +10256,7 @@ As shown in Figure 1, the following interpretation of dimension parameter applie
 
 &gt; NOTE&amp;nbsp; The local placement directions for the _IfcProjectionElement_ are only given as an example, other directions are valid as well.
 
-![&quot;projection&quot;](../../../figures/ifcprojectionelement-layout1.png &quot;Figure 1 &amp;mdash; Projection representation&quot;)
+![&quot;projection&quot;](../../figures/ifcprojectionelement-layout1.png &quot;Figure 1 &amp;mdash; Projection representation&quot;)
 
 The general b-rep geometric representation of _IfcProjectionElement_ is defined using the Brep geometry. The Brep representation allows for the representation of complex element shape. The following attribute values for the _IfcShapeRepresentation_ holding this geometric representation shall be used:
 
@@ -10291,7 +10291,7 @@ The general b-rep geometric representation of _IfcProjectionElement_ is defined 
 				<DocTemplateUsage Name="Aggregation" UniqueId="08gY1IarfCL8BkT86ya3eA">
 					<Documentation>As shown in Figure 160, an **IfcProjectOrder** may be aggregated into components.
 
-![&quot;Composition Use Definition&quot;](../../../figures/ifcprojectorder-composition.png &quot;Figure 1 &amp;mdash; Project order composition&quot;)</Documentation>
+![&quot;Composition Use Definition&quot;](../../figures/ifcprojectorder-composition.png &quot;Figure 1 &amp;mdash; Project order composition&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Aggregation_02xlp6icnF89nymmhdJhcf" />
 					<Items>
 						<DocTemplateItem UniqueId="a126e861-2cb1-46fb-9faa-67e282a239a2" RuleParameters="PredefinedType=;RelatedObjects=IfcCostSchedule;" Order="0">
@@ -10319,7 +10319,7 @@ The **IfcProjectOrder** may have assignments of its own using the _IfcRelAssigns
 
 * _IfcActor_: Organization(s) contracted to fulfill the order, typically a single contractor, subcontractor, or supplier. 
 
-![&quot;Assignment Use Definition&quot;](../../../figures/ifcprojectorder-assignment.png &quot;Figure 1 &amp;mdash; Project order assignment&quot;)</Documentation>
+![&quot;Assignment Use Definition&quot;](../../figures/ifcprojectorder-assignment.png &quot;Figure 1 &amp;mdash; Project order assignment&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Control_Assignment_21FdF_La56IAQ0Y8VFGrdn" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -11001,7 +11001,7 @@ Material information can also be given at the _IfcRampType_, defining the common
 &lt;table&gt;
  
 &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcramp-layout1.gif&quot; alt=&quot;ramp&quot; width=&quot;393&quot; height=&quot;299&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcramp-layout1.gif&quot; alt=&quot;ramp&quot; width=&quot;393&quot; height=&quot;299&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates &lt;em&gt;IfcRamp&lt;/em&gt; defining the local placement for all components.&lt;/blockquote&gt;
  &lt;/td&gt;&lt;/tr&gt;
  
@@ -11184,7 +11184,7 @@ Figure 1 illustrates the axis representation which has the following constraints
 * In case of winding flights the curve shall be a single item of type _IfcCompositeCurve_.
 * In case of a curved flight or a spiral flight the curve shall be a single item of type _IfcTrimmedCurve_.
 
-![&quot;walking line&quot;](../../../figures/ifcstairflight_01-layout1.gif &quot;Figure 1 &amp;mdash; Ramp flight axis&quot;)</Documentation>
+![&quot;walking line&quot;](../../figures/ifcstairflight_01-layout1.gif &quot;Figure 1 &amp;mdash; Ramp flight axis&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_2D_Geometry_1u94Jere57Mf0qgUVrF6rb" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Footprint Geometry" UniqueId="2e6d6nMrv53PwSeeL9cpDm">
@@ -11196,7 +11196,7 @@ Figure 1 illustrates the footprint representation which has the following constr
 * In case of winding flights or curved flights the curve set shall consists of a single item of type _IfcCompositeCurve_.
 * In case of a spiral flight the curve set shall consists of a single item of type _IfcConic_ or _IfcPolyline_.
 
-![&quot;boundary&quot;](../../../figures/ifcstairflight_02-layout1.gif &quot;Figure 1 &amp;mdash; Ramp flight footprint&quot;)</Documentation>
+![&quot;boundary&quot;](../../figures/ifcstairflight_02-layout1.gif &quot;Figure 1 &amp;mdash; Ramp flight footprint&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="c0ff08eb-dd3f-4797-a2ff-876bd8f8f7ff">
@@ -11208,7 +11208,7 @@ Figure 1 illustrates the footprint representation which has the following constr
 
 Figure 1 illustrates the body representation.
 
-![&quot;fig1&quot;](../../../figures/ifcrampflight-layout1.gif &quot;Figure 1 &amp;mdash; Ramp flight body&quot;)</Documentation>
+![&quot;fig1&quot;](../../figures/ifcrampflight-layout1.gif &quot;Figure 1 &amp;mdash; Ramp flight body&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="885a56fa-f32e-41ee-bcda-8208425c2138">
@@ -11425,7 +11425,7 @@ If the _IfcRoof_ has components (referenced by _SELF\IfcObject.IsDecomposedBy_) 
 
 Figure 1 illustrates roof placement, with an _IfcRoof_ defining the local placement for all aggregated elements.
 
-![&quot;roof&quot;](../../../figures/ifcroof-layout1.gif &quot;Figure 1 &amp;mdash; Roof placement&quot;)</Documentation>
+![&quot;roof&quot;](../../figures/ifcroof-layout1.gif &quot;Figure 1 &amp;mdash; Roof placement&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 					<Items>
 						<DocTemplateItem UniqueId="f45ea4d1-8988-4fe1-b1e3-3afa34115a4c" RuleParameters="RelatedObjects=IfcSlab;" Order="0">
@@ -11797,8 +11797,8 @@ The set of _IfcCartesianPoint_ is included in the set of _IfcGeometricCurveSet.E
 
 &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;survey points representation&quot;&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcsite-standard-points.gif&quot; alt=&quot;points only&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcsite-standard-facets-points.gif&quot; alt=&quot;facetation of points&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcsite-standard-points.gif&quot; alt=&quot;points only&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcsite-standard-facets-points.gif&quot; alt=&quot;facetation of points&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td width=&quot;400&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 1 &amp;mdash; Site survey points&lt;/p&gt;&lt;/td&gt;
@@ -11812,8 +11812,8 @@ The set of _IfcCartesianPoint_ and the set of _IfcPolyline_ are included in the 
 
 &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot; summary=&quot;survey points representation&quot;&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcsite-standard-breaklines.gif&quot; alt=&quot;breaklines&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcsite-standard-facets-breaklines.gif&quot; alt=&quot;facetation with breakpoints&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcsite-standard-breaklines.gif&quot; alt=&quot;breaklines&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcsite-standard-facets-breaklines.gif&quot; alt=&quot;facetation with breakpoints&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td width=&quot;400&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 3 &amp;mdash; Site breaklines&lt;/p&gt;&lt;/td&gt;
@@ -12032,7 +12032,7 @@ Figure 1 illustrates a &apos;SweptSolid&apos; geometric representation.
 
 &gt; NOTE&amp;nbsp; The following interpretation of dimension parameter applies for polygonal slabs (in ground floor view): &gt; * _IfcArbitraryClosedProfileDef.OuterCurve_: closed bounded curve interpreted as area (or foot print) of the slab.
 
-![&quot;standard slab&quot;](../../../figures/ifcslab_standard-layout1.gif &quot;Figure 1 &amp;mdash; Slab body extrusion&quot;)</Documentation>
+![&quot;standard slab&quot;](../../figures/ifcslab_standard-layout1.gif &quot;Figure 1 &amp;mdash; Slab body extrusion&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="0b434ff6-66be-43f1-9550-fccff87e07eb">
@@ -12045,7 +12045,7 @@ Figure 1 illustrates a &apos;SweptSolid&apos; geometric representation.
 
 Figure 1 illustrates a &apos;Clipping&apos; geometric representation with definition of a roof slab using advanced geometric representation. The profile is extruded non-perpendicular and the slab body is clipped at the eave.
 
-![&quot;advanced slab&quot;](../../../figures/ifcslab_advanced-layout1.gif &quot;Figure 1 &amp;mdash; Slab body clipping&quot;)</Documentation>
+![&quot;advanced slab&quot;](../../figures/ifcslab_advanced-layout1.gif &quot;Figure 1 &amp;mdash; Slab body clipping&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Voiding" UniqueId="1gTyMSI8T1LPlKg1v_CIHM">
@@ -12121,7 +12121,7 @@ Material information can also be given at the _IfcSlabType_, defining the common
 &lt;table&gt;
 
  &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_materialusage-01.png&quot; alt=&quot;Material layer set and usage&quot; height=&quot;220&quot; width=&quot;501&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcslab_materialusage-01.png&quot; alt=&quot;Material layer set and usage&quot; height=&quot;220&quot; width=&quot;501&quot;&gt;&lt;/td&gt;
   
 &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates assignment of &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; and &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; to the &lt;em&gt;IfcSlabStandardCase&lt;/em&gt; as the slab occurrence and to the &lt;em&gt;IfcSlabType&lt;/em&gt;. The same &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; shall be shared by many occurrences of &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt;. This relationship shall be consistent to the relationship between the &lt;em&gt;IfcSlabType&lt;/em&gt; and the &lt;em&gt;IfcSlabStandardCase&lt;/em&gt;.&lt;/blockquote&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -12145,10 +12145,10 @@ Figure 2 illustrates slab material usage, where the following conventions shall 
 
  &lt;tr&gt;
   &lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;610&quot;&gt;
-&lt;img src=&quot;../../../figures/ifcmateriallayersetusage_slab-01.png&quot; alt=&quot;slab material layer set&quot; width=&quot;601&quot; height=&quot;321&quot; border=&quot;0&quot;&gt;
+&lt;img src=&quot;../../figures/ifcmateriallayersetusage_slab-01.png&quot; alt=&quot;slab material layer set&quot; width=&quot;601&quot; height=&quot;321&quot; border=&quot;0&quot;&gt;
 &lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot; width=&quot;610&quot;&gt;
-&lt;img src=&quot;../../../figures/ifcmateriallayersetusage_roofslab-01.png&quot; alt=&quot;roof slab material layer set&quot; width=&quot;600&quot; height=&quot;400&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;img src=&quot;../../figures/ifcmateriallayersetusage_roofslab-01.png&quot; alt=&quot;roof slab material layer set&quot; width=&quot;600&quot; height=&quot;400&quot; border=&quot;0&quot;&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;&lt;p class=&quot;figure&quot;&gt;Figure 2 &amp;mdash; Slab material layers&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
@@ -12172,7 +12172,7 @@ Figure 2 illustrates slab material usage, where the following conventions shall 
 &lt;table&gt;
  
 &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_standard-layout1.gif&quot; alt=&quot;standard slab&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcslab_standard-layout1.gif&quot; alt=&quot;standard slab&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
   &lt;td&gt;
 
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates a &apos;SweptSolid&apos; geometric representation. The following interpretation of dimension parameter applies for polygonal slabs (in ground floor view):
@@ -12203,7 +12203,7 @@ Figure 2 illustrates slab material usage, where the following conventions shall 
 &lt;table&gt;
 
  &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcslab_advanced-layout1.gif&quot; alt=&quot;advanced slab&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcslab_advanced-layout1.gif&quot; alt=&quot;advanced slab&quot; border=&quot;0&quot; height=&quot;274&quot; width=&quot;399&quot;&gt;&lt;/td&gt;
   &lt;td&gt;
 
 &lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates a &apos;Clipping&apos; geometric representation with definition of a roof slab using advanced geometric representation. The profile is extruded non-perpendicular and the slab body is clipped at the eave.&lt;/blockquote&gt;
@@ -12535,7 +12535,7 @@ The shared material layer set definition is defined by assigning an _IfcMaterial
 &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
  
 &lt;tr valign=&quot;top&quot;&gt;
-  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcspace_2d-layout1.gif&quot; alt=&quot;2d representation&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../figures/ifcspace_2d-layout1.gif&quot; alt=&quot;2d representation&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 shows a two-dimensional bounded curve representing the
 foot print of &lt;em&gt;IfcSpace&lt;/em&gt;.&lt;/blockquote&gt;&lt;/td&gt;
  &lt;/tr&gt;
@@ -12562,7 +12562,7 @@ foot print of &lt;em&gt;IfcSpace&lt;/em&gt;.&lt;/blockquote&gt;&lt;/td&gt;
 
 Figure 1 shows an extrusion of an arbitrary profile definition with voids into the swept area solid of _IfcSpace_.
 
-![&quot;fig1&quot;](../../../figures/ifcspace_standard-layout1.gif &quot;Figure 1 &amp;mdash; Space body swept solid&quot;)</Documentation>
+![&quot;fig1&quot;](../../figures/ifcspace_standard-layout1.gif &quot;Figure 1 &amp;mdash; Space body swept solid&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body Clipping Geometry" UniqueId="bd69adee-801d-44bf-88e3-d3b3c2191ee7">
@@ -12575,7 +12575,7 @@ Figure 1 shows an extrusion of an arbitrary profile definition with voids into t
 
 Figure 1 shows an extrusion of an arbitrary profile definition into the swept area solid. The solid and an half space solid are operands of the Boolean result of _IfcSpace_.
 
-![&quot;fig2&quot;](../../../figures/ifcspace_advanced-layout1.gif &quot;Figure 1 &amp;mdash; Space body clipping&quot;)</Documentation>
+![&quot;fig2&quot;](../../figures/ifcspace_advanced-layout1.gif &quot;Figure 1 &amp;mdash; Space body clipping&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_Clipping_Geometry_0isyBrcmn3wfqgdNBG57u0" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body Brep Geometry" UniqueId="2d2ec04e-6389-4b15-abdb-6a67db1f6202">
@@ -12946,7 +12946,7 @@ If the _IfcStair_ has components (referenced by _SELF\IfcObject.IsDecomposedBy_)
 
 Figure 1 illustrates stair placement, where the _IfcStair_ defines the local placement for all components and the common &apos;Axis&apos; representation, and each component has its own &apos;Body&apos; representation.
 
-![&quot;stair&quot;](../../../figures/ifcstair-layout1.png &quot;Figure 1 &amp;mdash; Stair placement&quot;)</Documentation>
+![&quot;stair&quot;](../../figures/ifcstair-layout1.png &quot;Figure 1 &amp;mdash; Stair placement&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Decomposition_2A9y5QnEfCgOpEVxkXoRpW" />
 					<Items>
 						<DocTemplateItem UniqueId="8f5a9693-50ce-4d48-81f8-e47877d624a4" RuleParameters="RelatedObjects=IfcStairFlight;" Order="0">
@@ -13122,7 +13122,7 @@ Figure 1 illustrates the axis representation which has the following constraints
 * In case of winding flights the curve shall be a single item of type _IfcCompositeCurve_.
 * In case of a curved flight or a spiral flight the curve shall be a single item of type _IfcTrimmedCurve_.
 
-![&quot;walking line&quot;](../../../figures/ifcstairflight_01-layout1.gif &quot;Figure 1 &amp;mdash; Stair flight axis&quot;)</Documentation>
+![&quot;walking line&quot;](../../figures/ifcstairflight_01-layout1.gif &quot;Figure 1 &amp;mdash; Stair flight axis&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Axis_2D_Geometry_1u94Jere57Mf0qgUVrF6rb" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Footprint Geometry" UniqueId="29PnVwyVjDnvJBqBfWQxFQ">
@@ -13134,13 +13134,13 @@ Figure 1 illustrates the footprint representation which has the following constr
 * In case of winding flights or curved flights the curve set shall consists of a single item of type _IfcCompositeCurve_.
 * In case of a spiral flight the curve set shall consists of a single item of type _IfcConic_ or _IfcPolyline_.
 
-![&quot;boundary&quot;](../../../figures/ifcstairflight_02-layout1.gif &quot;Figure 1 &amp;mdash; Stair flight footprint&quot;)</Documentation>
+![&quot;boundary&quot;](../../figures/ifcstairflight_02-layout1.gif &quot;Figure 1 &amp;mdash; Stair flight footprint&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="FootPrint_Geometry_1FLtVNQEb5dAeiHgtpw8qn" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Body SweptSolid Geometry" UniqueId="13920d7d-61d9-43d1-9a0d-9666fefd9395">
 					<Documentation>Figure 1 illustrates the &apos;Body&apos; geometric representation using a &apos;SweptSolid&apos; representation type.
 
-![&quot;3D&quot;](../../../figures/ifcstairflight_03-layout1.gif &quot;Figure 1 &amp;mdash; Stair flight body&quot;)</Documentation>
+![&quot;3D&quot;](../../figures/ifcstairflight_03-layout1.gif &quot;Figure 1 &amp;mdash; Stair flight body&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Body_SweptSolid_Geometry_3BV1ZwpuDDiRuRm1EwJjPo" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -13753,13 +13753,13 @@ The local coordinate system is established by the reference surface given by top
 
 As shown in Figure 1, the installation of a number of items of equipment within a particular space may be the subject of a single task which is identified as &apos;fix equipment in space 123&apos;. _IfcTask_ represents the occurrence of a work performance of a type of process in a construction plan.
 
-![&quot;task example&quot;](../../../figures/ifctask_example.png &quot;Figure 1 &amp;mdash; Task visualization&quot;)
+![&quot;task example&quot;](../../figures/ifctask_example.png &quot;Figure 1 &amp;mdash; Task visualization&quot;)
 
 A task may nest other tasks as sub-items; the nesting relationship is modeled by _IfcRelNests_ as shown in Figure 2. For example, the construction of a stud wall may be designated as a nesting task named &apos;install wall #1&apos; including other tasks such as &apos;install dry wall&apos;, &apos;install studs&apos;, &apos;wall taping&apos;, and &apos;erect wall&apos; as sub-processes. A value that indicates the relative tree view position of the task (in comparison to the tree view position of other tasks and the task hierarchy defined by _IfcRelNests_).
 
 The task order information that is used for viewing purposes is derived from the order defined by the _IfcRelNests_ relationship and thus is independent of the logical task order defined through _IfcRelSequence_. The hierarchy and order defined through _IfcRelNests_ enables to order the tasks in a tree view or list view structure.
 
-![&quot;task instantiation diagram&quot;](../../../figures/ifctask_instantiation_diagram.png &quot;Figure 2 &amp;mdash; Task nesting relationships&quot;)
+![&quot;task instantiation diagram&quot;](../../figures/ifctask_instantiation_diagram.png &quot;Figure 2 &amp;mdash; Task nesting relationships&quot;)
 
 A top-level task is declared within the _IfcProject_ using the _IfcRelDeclares_ relationship.</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Object_Nesting_0uoeU8NaT178AKrM_UcbQH" />
@@ -14068,11 +14068,11 @@ If no _IfcTransportElementType_ is attached&amp;nbsp;(i.e. if only occurrence in
 
 Figure 1 illustrates an example of referencing a representation map by the shape representation of a product occurrence. Here the Cartesian transformation operator only uses translation, but no rotation, mirroring, or scaling.
 
-![&quot;representation map&quot;](../../../figures/ifctypeproduct_representationmap-1.png &quot;Figure 1 &amp;mdash; Product type geometry with single placement&quot;)
+![&quot;representation map&quot;](../../figures/ifctypeproduct_representationmap-1.png &quot;Figure 1 &amp;mdash; Product type geometry with single placement&quot;)
 
 Figure 2 illustrates an example of referencing a representation multiple times map by the shape representation of a product occurrence. Here the Cartesian transformation operator only uses translation, but no rotation, mirroring, or scaling. The different translation values determine the pattern of the multiple placement.
 
-![&quot;representation map&quot;](../../../figures/ifctypeproduct_representationmap-2.png &quot;Figure 2 &amp;mdash; Product type geometry with multiple placement&quot;)</Documentation>
+![&quot;representation map&quot;](../../figures/ifctypeproduct_representationmap-2.png &quot;Figure 2 &amp;mdash; Product type geometry with multiple placement&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Product_Type_Shape_20_8li13PFSAGgm4S5PMg1" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -14773,7 +14773,7 @@ shown above.&lt;/li&gt;
 				<DocTemplateUsage Name="Element Voiding" UniqueId="79db20d2-4de5-4dd3-9394-8804b48a6ff2">
 					<Documentation>As shown in Figure 1, openings within the composite wall are directly assigned to _IfcWallElementedCase_ using _IfcRelVoidsElement_ pointing to _IfcOpeningElement_ and apply to all aggregated parts. If individual parts have cutting and other voiding features, then the decomposed parts have a separate voiding relationship _IfcRelVoidsElement_ pointing to _IfcVoidingFeature_.
 
-![&quot;voiding&quot;](../../../figures/ifcwallelementedcase_fig01.png &quot;Figure 1 &amp;mdash; Wall elemented voiding&quot;)</Documentation>
+![&quot;voiding&quot;](../../figures/ifcwallelementedcase_fig01.png &quot;Figure 1 &amp;mdash; Wall elemented voiding&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Element_Voiding_2v05vvjSLC2vs616mXhK8D" />
 				</DocTemplateUsage>
 			</Concepts>
@@ -14794,7 +14794,7 @@ The _IfcWallType_ should then have a unique _IfcMaterialLayerSet_, that is refer
 &lt;table&gt;
  
 &lt;tr&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcwallstandardcase_materialusage-01.png&quot; alt=&quot;Material layer set and usage&quot; height=&quot;220&quot; width=&quot;501&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcwallstandardcase_materialusage-01.png&quot; alt=&quot;Material layer set and usage&quot; height=&quot;220&quot; width=&quot;501&quot;&gt;&lt;/td&gt;
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates assignment of &lt;em&gt;IfcMaterialLayerSetUsage&lt;/em&gt; and &lt;em&gt;IfcMaterialLayerSet&lt;/em&gt; to the wall type and the wall occurrence.&lt;/blockquote&gt;&lt;/td&gt;
  &lt;/tr&gt;
 
@@ -14815,7 +14815,7 @@ Figure 2 illustrates material layer usage, where the following conventions shall
 * The _Thickness_ of each _IfcMaterialLayer_ is provided starting from the _OffsetFromReferenceLine_ and in the direction given by _DirectionSense_. It is applied without any gap or overlap between two consecutive layers. The _TotalThickness_ of the _IfcMaterialLayerSet_ is the sum of all layer thicknesses.
 * The _IfcMaterialLayerSetUsage.LayerSetDirection_ is always AXIS2.
 
-![&quot;roof slab material layer set&quot;](../../../figures/ifcmateriallayersetusage_wall-01.png &quot;Figure 2 &amp;mdash; Wall material layers&quot;)</Documentation>
+![&quot;roof slab material layer set&quot;](../../figures/ifcmateriallayersetusage_wall-01.png &quot;Figure 2 &amp;mdash; Wall material layers&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Material_Layer_Set_Usage_1jNxXlFor9_vKe1tXLtSn7" />
 				</DocTemplateUsage>
 				<DocTemplateUsage Name="Product Placement" UniqueId="95178cb6-bcc2-4138-88f8-e63b7ac32835">
@@ -14837,7 +14837,7 @@ Figure 2 illustrates material layer usage, where the following conventions shall
 
  &lt;tr&gt;
 
-  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_straigthwall_01-layout1.gif&quot; alt=&quot;straight wall axis&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../figures/ifcwallstandard_straigthwall_01-layout1.gif&quot; alt=&quot;straight wall axis&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 1 illustrates an axis representation for a straight wall. In case of a straight wall, the set of items shall
 include a single geometric representation item of type &lt;em&gt;IfcPolyline&lt;/em&gt; or &lt;em&gt;IfcTrimmedCurve&lt;/em&gt; with the &lt;em&gt;BasisCurve&lt;/em&gt; being an &lt;em&gt;IfcLine&lt;/em&gt;. The &lt;em&gt;IfcPolyline&lt;/em&gt; or &lt;em&gt;IfcTrimmedCurve&lt;/em&gt; shall be parallel (here in a special case co-linear) to the x-axis
@@ -14856,7 +14856,7 @@ of the object coordinate system. The direction shall be identical to the directi
 
  &lt;tr&gt;
 
-  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_curvedwall_01-layout1.gif&quot; alt=&quot;curved wall axis&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+  &lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../figures/ifcwallstandard_curvedwall_01-layout1.gif&quot; alt=&quot;curved wall axis&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
 
   &lt;td&gt;&lt;blockquote class=&quot;example&quot;&gt;EXAMPLE&amp;nbsp; Figure 2 illustrates an axis representation for a curved wall. In case of a curved wall, the set of items shall include
 a single geometric representation item of type &lt;em&gt;IfcTrimmedCurve&lt;/em&gt;. The curve shall have a &lt;em&gt;BasisCurve&lt;/em&gt; of type &lt;em&gt;IfcCircle&lt;/em&gt;. The tangent of the &lt;em&gt;IfcTrimmedCurve&lt;/em&gt; shall be parallel at start to the x-axis of the object coordinate system. The direction shall be identical to the direction of the x-axis.&lt;/blockquote&gt;
@@ -14886,8 +14886,8 @@ Figure 2 illustrates a body representation for a curved wall. In case of a curve
 
 &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
 &lt;tr&gt;
-&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_straigthwall_02-layout1.gif&quot; alt=&quot;straight wall body&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_curvedwall_02-layout1.gif&quot; alt=&quot;curved wall body&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../figures/ifcwallstandard_straigthwall_02-layout1.gif&quot; alt=&quot;straight wall body&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&lt;img src=&quot;../../figures/ifcwallstandard_curvedwall_02-layout1.gif&quot; alt=&quot;curved wall body&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;393&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td width=&quot;393&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 1 &amp;mdash; Wall body extrusion straight&lt;/p&gt;&lt;/td&gt;
@@ -14910,8 +14910,8 @@ Figure 2 illustrates a clipping for a curved wall using an _IfcHalfSpaceSolid_ a
 
 &lt;table cellpadding=&quot;2&quot; cellspacing=&quot;2&quot;&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_straigthwall_03-layout1.gif&quot; alt=&quot;straight wall clipping&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;397&quot;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&quot;../../../figures/ifcwallstandard_curvedwall_03-layout1.gif&quot; alt=&quot;curved wall clipping&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcwallstandard_straigthwall_03-layout1.gif&quot; alt=&quot;straight wall clipping&quot; border=&quot;0&quot; height=&quot;299&quot; width=&quot;397&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&quot;../../figures/ifcwallstandard_curvedwall_03-layout1.gif&quot; alt=&quot;curved wall clipping&quot; border=&quot;0&quot; height=&quot;300&quot; width=&quot;400&quot;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td width=&quot;397&quot;&gt;&lt;p class=&quot;figure&quot;&gt;Figure 1 &amp;mdash; Wall body clipping straight&lt;/p&gt;&lt;/td&gt;
@@ -15118,7 +15118,7 @@ The _IfcWindow_ may also be connected to the _IfcOpeningElement_ in which it is 
 &lt;table&gt;
  
 &lt;tr valign=&quot;bottom&quot;&gt;
-  &lt;td&gt;&lt;img src=&quot;../../../figures/ifcwindow_containment-01.png&quot; alt=&quot;Containment&quot; width=&quot;600&quot; height=&quot;550&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
+  &lt;td&gt;&lt;img src=&quot;../../figures/ifcwindow_containment-01.png&quot; alt=&quot;Containment&quot; width=&quot;600&quot; height=&quot;550&quot; border=&quot;0&quot;&gt;&lt;/td&gt;
   &lt;td&gt;
    &lt;blockquote class=&quot;note&quot;&gt;NOTE&amp;nbsp; The containment shall be defined independently of the filling relationship, that is, even if the 
     &lt;em&gt;IfcWindow&lt;/em&gt; is a filling of an opening established by &lt;em&gt;IfcRelFillsElement&lt;/em&gt;, it is also contained in the spatial structure 
@@ -15181,7 +15181,7 @@ As shown in Figure 1, the profile defines the outer boundary to which the window
 * _IfcWindowLiningProperties.FirstTransomOffset_ starting at the bottom edge of the rectangle (along local x axis) into the inner side of the rectangle, distance provided as percentage of overall height. Distance to the centre line of the transom. _SecondTransomOffset_ defined accordingly.
 * _IfcWindowLiningProperties.FirstMullionOffset_ starting at the left edge of the rectangle (along local z-axis) into the inner side of the rectangle, distance provided as percentage of overall width. Distance to the centre line of the mullion. _SecondMullionOffset_ defined accordingly.
 
-![&quot;standard window&quot;](../../../figures/ifcwindowstandardcase-01.png &quot;Figure 1 &amp;mdash; Window profile&quot;)</Documentation>
+![&quot;standard window&quot;](../../figures/ifcwindowstandardcase-01.png &quot;Figure 1 &amp;mdash; Window profile&quot;)</Documentation>
 					<Definition xsi:type="DocTemplateDefinition" xsi:nil="true" href="Profile_Geometry_3nRhE_uXFCvVVrLhjEW_L" />
 				</DocTemplateUsage>
 			</Concepts>

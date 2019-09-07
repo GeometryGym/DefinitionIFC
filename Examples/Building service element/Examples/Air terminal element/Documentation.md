@@ -4,8 +4,8 @@ The air terminal occurrence is placed within a building and has its inlet port c
 
 > NOTE&nbsp; The example contains an air terminal by itself for brevity; in an actual building, such air terminal would likely fill an opening of a ceiling covering within a space.
 
-!["example of air terminal"](../../figures/examples/building_service_element_air-terminal-1.png "Figure 1 &mdash; Air terminal occurrence representation")
+!["example of air terminal"](../../../../figures/examples/building_service_element_air-terminal-1.png "Figure 1 &mdash; Air terminal occurrence representation")
 
 The air terminal occurrence is linked to the type using mapped geometry, as illustrated in Figure 2.
 
-!["example of air terminal"](../../figures/examples/building_service_element_air-terminal-2.png "Figure 2 &mdash; Air terminal occurrence object graph")
+!["example of air terminal"](../../../../figures/examples/building_service_element_air-terminal-2.png "Figure 2 &mdash; Air terminal occurrence object graph")

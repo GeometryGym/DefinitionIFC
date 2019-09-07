@@ -14,7 +14,7 @@ The _IfcBuilding_ is used to build the spatial structure of a building (that ser
 
 > NOTE&nbsp; Detailed requirements on mandatory element containment and placement structure relationships are given in view definitions and implementer agreements.
 
-!["IfcBuildingStorey as part of a spatial structure"](../../../figures/ifcbuilding-spatialstructure.png "Figure 1 &mdash; Building composition")
+!["IfcBuildingStorey as part of a spatial structure"](../../../../../../figures/ifcbuilding-spatialstructure.png "Figure 1 &mdash; Building composition")
 
 Systems, such as building service or electrical distribution systems, zonal systems, or structural analysis systems, relate to _IfcBuilding_ by using the objectified relationship _IfcRelServicesBuildings_.
 
@@ -29,7 +29,7 @@ Figure 2 describes the heights and elevations of the _IfcBuilding_. It is used t
       <tbody>
         <tr valign="top">
           <td align="left" valign="top">
-            <img src="../../../figures/ifcbuilding_heights.png" alt="building heights" border="0" height="420" width="800">&nbsp;
+            <img src="../../../../../../figures/ifcbuilding_heights.png" alt="building heights" border="0" height="420" width="800">&nbsp;
           </td>
         </tr>
         <tr>

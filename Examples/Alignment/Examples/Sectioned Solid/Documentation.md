@@ -6,4 +6,4 @@ The bridge girders are defined by _IfcElementAssembly_ having PredefinedType set
 
 The bridge deck is defined by _IfcElementAssembly_ having PredefinedType set to SLAB_FIELD, and decomposed into _IfcSlab_ elements for each continuous concrete section (separated by construction joint), with geometry defined by _IfcSectionedSolidHorizontal_ consisting of variable cross sections, where _IfcArbitraryClosedProfileDef_ defines each cross section.
 
-![Image](../../figures/examples/bridge-variable-profile.png)
+![Image](../../../../figures/examples/bridge-variable-profile.png)

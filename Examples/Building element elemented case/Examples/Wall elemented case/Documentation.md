@@ -14,9 +14,9 @@ The example in Figure 1 shows the solid representation of the elemented wall, th
 
 <table summary="elemented wall">
  <tr>
-  <td style="width:400px"><img src="../../figures/examples/ifcwallelementedcase-solid.png" alt="elemented wall" height="400" width="350">
+  <td style="width:400px"><img src="../../../../figures/examples/ifcwallelementedcase-solid.png" alt="elemented wall" height="400" width="350">
   </td>
-  <td style="width:400px"><img src="../../figures/examples/ifcwallelementedcase-trans.png" alt="elemented wall" height="400" width="350">
+  <td style="width:400px"><img src="../../../../figures/examples/ifcwallelementedcase-trans.png" alt="elemented wall" height="400" width="350">
   </td>
  </tr>
  <tr style="height:20px;">

@@ -4,11 +4,11 @@ Limitation: For backwards compatibility, the rows of an _IfcTable_ object are co
 
 Figure 1 illustrates table use.
 
-!(../../../figures/ifctable_image1.gif "Figure 1 &mdash; Table use")
+!(../../../../../../figures/ifctable_image1.gif "Figure 1 &mdash; Table use")
 
 Figure 2 depicts how tables were structured prior to IFC4.
 
-!(../../../figures/ifctable_image2.gif "Figure 2 &mdash; Table use alternative")
+!(../../../../../../figures/ifctable_image2.gif "Figure 2 &mdash; Table use alternative")
 
 > HISTORY&nbsp; New entity in IFC1.5.
 

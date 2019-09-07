@@ -5,10 +5,10 @@ The example shows a tessellation with adding the normals at each vertex to the d
 <table summary="straight beam tessellated">
  <tr>
   <td>
-   <img src="../../figures/examples/column_rectangle_straight_tessellated_reference-view_edges.png" alt="column_rectangle_straight_tessellated_reference-view_edges">
+   <img src="../../../../figures/examples/column_rectangle_straight_tessellated_reference-view_edges.png" alt="column_rectangle_straight_tessellated_reference-view_edges">
   </td>
   <td>
-   <img src="../../figures/examples/column_rectangle_straight_tessellated_reference-view_shaded.png" alt="column_rectangle_straight_tessellated_reference-view_shaded">
+   <img src="../../../../figures/examples/column_rectangle_straight_tessellated_reference-view_shaded.png" alt="column_rectangle_straight_tessellated_reference-view_shaded">
   </td>
  </tr>
  <tr style="height:20px;">

@@ -2,7 +2,7 @@ The block geometry can be expressed using the tessellated geometry model, expres
 
 <table summary="tessellation type">
  <tr>
-  <td><img src="../../figures/examples/basic_shape_tessellation-1.png" width="420" height="420" alt="basic_shape_tessellation-1.png 26,6 KB">
+  <td><img src="../../../../figures/examples/basic_shape_tessellation-1.png" width="420" height="420" alt="basic_shape_tessellation-1.png 26,6 KB">
   </td>
   <td style=" vertical-align:bottom;">
    <blockquote>Figure 1 shows the block geometry represented by a triangulation.

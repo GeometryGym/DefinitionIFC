@@ -9,8 +9,8 @@ The property sets have backing templates from an external library file.
 { .note}
 > Standard property sets (defined within this specification) do not require templates to be included; they are shown in this example for illustration, such as if custom property sets were to be used.
 
-!["example of air terminal"](../../figures/examples/building_service_element_air-terminal-3.png "Figure 1 &mdash; Air terminal type representation")
+!["example of air terminal"](../../../../figures/examples/building_service_element_air-terminal-3.png "Figure 1 &mdash; Air terminal type representation")
 
 The type has a nested port, as illustrated in Figure 2.
 
-!["example of air terminal"](../../figures/examples/building_service_element_air-terminal-4.png "Figure 2 &mdash; Air terminal type object graph")
+!["example of air terminal"](../../../../figures/examples/building_service_element_air-terminal-4.png "Figure 2 &mdash; Air terminal type object graph")

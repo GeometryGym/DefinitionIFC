@@ -7,7 +7,7 @@ The example includes the local placement, the body shape representation, the mat
 <table summary="beam example">
  <tr>
   <td>
-   <img src="../../figures/examples/standard_case_element_beam-1.png" width="610" height="210" alt="standard_case_element_beam-2.png 44,2 KB">
+   <img src="../../../../figures/examples/standard_case_element_beam-1.png" width="610" height="210" alt="standard_case_element_beam-2.png 44,2 KB">
   </td>
   <td style=" vertical-align:bottom;">
    <p>The example in Figure 1 declares two parametric beam types, one with an I-Shape
@@ -27,7 +27,7 @@ The example includes the local placement, the body shape representation, the mat
         </tr>
         <tr>
           <td>
-            <img src="../../figures/examples/standard_case_element_beam-2.png" width="308" height="258" alt="standard_case_element_beam-2.png 2,6 KB">
+            <img src="../../../../figures/examples/standard_case_element_beam-2.png" width="308" height="258" alt="standard_case_element_beam-2.png 2,6 KB">
           </td>
           <td style=" vertical-align:bottom;">
             <p>
@@ -56,7 +56,7 @@ The example includes the local placement, the body shape representation, the mat
 <table summary="beam example" cellpadding="2">
         <tr>
           <td>
-            <img src="../../figures/examples/standard_case_element_beam-3.png" width="610" height="226" alt="standard_case_element_beam-3.png 18,1 KB">
+            <img src="../../../../figures/examples/standard_case_element_beam-3.png" width="610" height="226" alt="standard_case_element_beam-3.png 18,1 KB">
           </td>
           <td style=" vertical-align:bottom;">
             <p>The 'IPE220' beam type in Figure 3 is represented by <i>IfcBeamType</i>. As a
@@ -77,7 +77,7 @@ The example includes the local placement, the body shape representation, the mat
 <table summary="beam example" cellpadding="2">
         <tr>
           <td>
-            <img src="../../figures/examples/standard_case_element_beam-4.png" width="610" height="372" alt="standard_case_element_beam-4.png 21,2 KB">
+            <img src="../../../../figures/examples/standard_case_element_beam-4.png" width="610" height="372" alt="standard_case_element_beam-4.png 21,2 KB">
           </td>
           <td style=" vertical-align:bottom;">
             <p>Each beam occurrence as in Figure 4 is represented by

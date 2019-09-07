@@ -2,9 +2,9 @@ This example illustrates four standard case beams, all with an extruded area sol
 
 <table summary="extrusion representation">
  <tr>
-  <td><img src="../../figures/examples/beam_varying_cardinal_points.png" alt="Beam with varying Cardinal points">
+  <td><img src="../../../../figures/examples/beam_varying_cardinal_points.png" alt="Beam with varying Cardinal points">
   </td>
-  <td><img src="../../figures/examples/beam_varying_cardinal_points_axis.png" alt="Beam with varying Cardinal points showing axis">
+  <td><img src="../../../../figures/examples/beam_varying_cardinal_points_axis.png" alt="Beam with varying Cardinal points showing axis">
   </td>
  </tr>
  <tr style="height:20px;">

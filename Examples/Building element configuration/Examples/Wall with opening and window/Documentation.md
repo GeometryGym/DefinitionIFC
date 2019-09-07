@@ -22,7 +22,7 @@ The _IfcOpeningElement_ and _IfcWindow_ are connected via the objectified relati
 <table summary="wall example">
         <tr>
           <td>
-            <img src="../../figures/examples/building_element_configuration_wall-1.png" width="526" height="690" alt="building_element_configuration_wall-1.png 29,1 KB">
+            <img src="../../../../figures/examples/building_element_configuration_wall-1.png" width="526" height="690" alt="building_element_configuration_wall-1.png 29,1 KB">
           </td>
           <td style=" vertical-align:bottom;">
             <p>
@@ -43,7 +43,7 @@ The _IfcOpeningElement_ and _IfcWindow_ are connected via the objectified relati
 <table summary="wall example">
         <tr>
           <td>
-            <img src="../../figures/examples/building_element_configuration_wall-2.png" width="846" height="594" alt="building_element_configuration_wall-1.png 48,6 KB">
+            <img src="../../../../figures/examples/building_element_configuration_wall-2.png" width="846" height="594" alt="building_element_configuration_wall-1.png 48,6 KB">
           </td>
           <td style=" vertical-align:bottom;">
             <p>Figure 2 shows the geometric representation of the example data set.</p>

@@ -3,7 +3,7 @@ The block geometry can be expressed using the surface geometry model, expressing
 <table summary="surface geometry types">
  <tr>
   <td>
-   <img src="../../figures/examples/basic_shape_brep-1.png" width="420" height="420" alt="basic_shape_brep-1.png 17,1 KB">
+   <img src="../../../../figures/examples/basic_shape_brep-1.png" width="420" height="420" alt="basic_shape_brep-1.png 17,1 KB">
   </td>
   <td style=" vertical-align:bottom;">
    <blockquote>
